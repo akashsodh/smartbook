@@ -1,5 +1,5 @@
 // कैश का नाम बदल दें ताकि ब्राउज़र नया कैश बनाए
-const CACHE_NAME = 'smartbook-quiz-cache-v13'; 
+const CACHE_NAME = 'smartbook-quiz-cache-v14'; 
 
 const urlsToCache = [
   '/smartbook/',
@@ -15,6 +15,7 @@ const urlsToCache = [
   '/smartbook/lib_unit2.json',
   '/smartbook/lib_unit3.json',
   '/smartbook/lib_unit4.json',  
+  '/smartbook/psychology.json',  
   '/smartbook/manifest.json', // इसे भी कैश करें
   '/smartbook/icons/icon-192x192.png',
   '/smartbook/icons/icon-512x512.png',
