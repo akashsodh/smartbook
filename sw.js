@@ -1,5 +1,5 @@
 // कैश का नाम बदल दें ताकि ब्राउज़र नया कैश बनाए
-const CACHE_NAME = 'smartbook-quiz-cache-v11'; 
+const CACHE_NAME = 'smartbook-quiz-cache-v12'; 
 
 const urlsToCache = [
   '/smartbook/',
