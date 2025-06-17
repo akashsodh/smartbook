@@ -1,7 +1,7 @@
 [
   {
     "id": "unit101",
-    "title": "राजस्थान इतिहास, कला और संस्कृति",
+    "title": "राजस्थान का इतिहास, कला और संस्कृति",
     "description": "इस विषय के महत्वपूर्ण प्रश्नों का अभ्यास करें।",
     "icon": "fas fa-book-open-reader",
     "questionFile": "rajasthan_history.json"
