@@ -2,7 +2,7 @@
 
 // **महत्वपूर्ण:** जब भी आप कोई टेस्ट सीरीज़ या कोई और फाइल अपडेट करें,
 // तो इस संस्करण को बदलें (जैसे, 'smartbook-v2', 'smartbook-v3', आदि)
-const cacheName = 'smartbook-v2';
+const cacheName = 'smartbook-v3';
 
 // वे सभी फाइलें जिन्हें आप ऑफलाइन उपलब्ध कराना चाहते हैं
 const assets = [
