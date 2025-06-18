@@ -29,6 +29,7 @@
         <button class="button" onclick="showAllCategories()">सभी विषय दिखाएँ</button>
       </div>
       <button class="button" onclick="shuffleQuestions()"><i class="fas fa-random"></i> Shuffle Questions</button>
+      <button class="button" onclick="shuffleOptions()"><i class="fas fa-retweet"></i> Shuffle Options</button>
       <button class="button" onclick="showBookmarkedQuestions()"><i class="fas fa-bookmark"></i> Show Bookmarked</button>
       <button class="button theme-btn" onclick="toggleTheme()"><i class="fas fa-adjust"></i> Toggle Theme</button>
       <button class="button fullscreen-btn" onclick="toggleFullscreen()"><i class="fas fa-expand-arrows-alt"></i> Fullscreen</button>
@@ -472,15 +473,44 @@ function changeFontSize(change) {
     applyFontSize();
 }
 
+// सही किया गया कोड
 function shuffleQuestions() {
+    // केवल प्रश्नों के क्रम को शफ़ल करें
     questions.sort(() => Math.random() - 0.5);
-    isTestSubmitted = false;
-    answers = {};
-    localStorage.removeItem(UNIT_ID + "_quizAnswers");
-    localStorage.removeItem(UNIT_ID + "_isTestSubmitted");
-    alert("प्रश्नों को शफ़ल कर दिया गया है। आपकी प्रगति रीसेट हो गई है।");
-    loadQuestion(0);
+
+    // --- प्रगति या उत्तरों को रीसेट करने वाली पंक्तियाँ हटा दी गई हैं ---
+    
+    // उपयोगकर्ता को सूचित करें कि प्रगति सुरक्षित है
+    alert("प्रश्नों को शफ़ल कर दिया गया है। आपके उत्तर सुरक्षित हैं।");
+
+    // नए क्रम में पहले प्रश्न से क्विज़ को पुनः लोड करें
+    loadQuestion(0); 
+
+    // साइडबार को नए क्रम के अनुसार अपडेट करें
     buildSidebarLinks();
+}
+
+  function shuffleOptions() {
+    // यह फ़ंक्शन प्रत्येक प्रश्न के लिए विकल्पों को शफ़ल करता है।
+    originalQuestions.forEach(q => {
+        // शफ़ल करने से पहले सही उत्तर का टेक्स्ट प्राप्त करें
+        const correctAnswerText = q.options[q.answer];
+
+        // विकल्पों के ऐरे को शफ़ल करें (फिशर-येट्स एल्गोरिथ्म)
+        for (let i = q.options.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [q.options[i], q.options[j]] = [q.options[j], q.options[i]];
+        }
+
+        // सही उत्तर का नया इंडेक्स ढूंढें और उसे अपडेट करें
+        q.answer = q.options.findIndex(opt => opt === correctAnswerText);
+    });
+
+    // उपयोगकर्ता को सूचित करें
+    alert("सभी प्रश्नों के विकल्प शफ़ल कर दिए गए हैं।");
+
+    // शफ़ल किए गए विकल्पों को प्रदर्शित करने के लिए क्विज़ को पुनः लोड करें
+    filterAndLoad();
 }
 
 function toggleTheme() {
