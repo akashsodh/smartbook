@@ -326,3 +326,17 @@ body.dark #bookmarkBtn i.fas { color: #f59f00; }
       border-top-color: rgba(255, 255, 255, 0.1);
   }
 }
+/* प्रश्न स्रोत (Exam Source) के लिए स्टाइल */
+.question-source {
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* डार्क मोड में प्रश्न स्रोत का रंग */
+body.dark .question-source {
+    color: #bbb;
+}
