@@ -136,9 +136,9 @@ function loadQuestion(index) {
     const q = questions[current];
     const originalQuestionIndex = pristineOriginalQuestions.findIndex(oq => oq.question === q.question);
     let html = `<div class='question' id='current-question-text'>Q${current + 1}. ${q.question}</div>`;
-    // यह कोड प्रश्न टेक्स्ट के ठीक बाद जोड़ा गया है
+// यह कोड प्रश्न टेक्स्ट के ठीक बाद जोड़ा गया है
 if (q.source && q.source.trim() !== "") {
-    html += <div class='question-source'>(${q.source})</div>;
+    html += `<div class='question-source'>(${q.source})</div>`;
 }
   q.options.forEach((opt, displayedIdx) => {
         const isSelected = answers[originalQuestionIndex] === opt;
