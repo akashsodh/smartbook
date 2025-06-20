@@ -17,6 +17,7 @@ const assets = [
     '/dishageography.json',
     '/rajasthan_history.json',
     '/current.json',
+    '/yuth_history_pyq.json',
     '/psychology.json',
     '/lib_unit1.json',
     '/lib_unit2.json',
