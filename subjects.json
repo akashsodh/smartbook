@@ -27,6 +27,13 @@
     "icon": "fas fa-globe-asia",
     "questionFile": "current.json"
   },
+    {
+    "id": "unit110",
+    "title": "History-Culture-PYQ",
+    "description": "राजस्थान की पिछली परीक्षाओ के प्रश्नों का अभ्यास करें।",
+    "icon": "fas fa-book-open-reader",
+    "questionFile": "yuth_history_pyq.json"
+  },
   {
     "id": "unit104",
     "title": "Unit 1: Universe of Knowledge",
