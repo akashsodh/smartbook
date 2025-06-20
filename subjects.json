@@ -2,69 +2,70 @@
   {
     "id": "unit101",
     "title": "राजस्थान का इतिहास, कला और संस्कृति",
-    "description": "इस विषय के महत्वपूर्ण प्रश्नों का अभ्यास करें।",
+    "description": "इस विषय के महत्वपूर्ण प्रश्न",
     "icon": "fas fa-book-open-reader",
     "questionFile": "rajasthan_history.json"
   },
   {
     "id": "unit102",
     "title": "राजस्थान का स्वंत्रता आंदोलन",
-    "description": "इस विषय के महत्वपूर्ण प्रश्नों का अभ्यास करें।",
+    "description": "इस विषय के महत्वपूर्ण प्रश्न",
     "icon": "fas fa-book",
     "questionFile": "class9.json"
   },
   {
     "id": "unit103",
     "title": "दिशा: भूगोल",
-    "description": "पिछली परीक्षाओ के सभी प्रश्नों का अभ्यास करें।",
+    "description": "सभी PYQs का अभ्यास करें।",
     "icon": "fas fa-globe-asia",
     "questionFile": "dishageography.json"
   },
   {
     "id": "unit109",
     "title": "Rajasthan Current",
-    "description": "राजस्थान समसामयिकी के प्रश्नों का अभ्यास करें।",
+    "description": "Rajasthan Current अभ्यास करें।",
     "icon": "fas fa-globe-asia",
     "questionFile": "current.json"
   },
     {
     "id": "unit110",
     "title": "History-Culture-PYQ",
-    "description": "राजस्थान की पिछली परीक्षाओ के प्रश्नों का अभ्यास करें।",
+    "description": "राजस्थान की पिछली परीक्षाओ के प्रश्न",
     "icon": "fas fa-book-open-reader",
     "questionFile": "yuth_history_pyq.json"
   },
   {
     "id": "unit104",
     "title": "Unit 1: Universe of Knowledge",
-    "description": "इस विषय के महत्वपूर्ण प्रश्नों का अभ्यास करें।",
+    "description": "इस विषय के महत्वपूर्ण प्रश्न",
     "icon": "fas fa-book-open-reader",
     "questionFile": "lib_unit1.json"
   },
   {
     "id": "unit105",
     "title": "Unit 2: Bibliographic Description",
-    "description": "इस विषय के महत्वपूर्ण प्रश्नों का अभ्यास करें।",
+    "description": "इस विषय के महत्वपूर्ण प्रश्न",
     "icon": "fas fa-book-open-reader",
     "questionFile": "lib_unit2.json"
   },
   {
     "id": "unit106",
     "title": "Unit 3: Methods of Knowledge Organization",
-    "description": "इस विषय के महत्वपूर्ण प्रश्नों का अभ्यास करें।",
+    "description": "इस विषय के महत्वपूर्ण प्रश्न",
     "icon": "fas fa-book-open-reader",
     "questionFile": "lib_unit3.json"
   },
   {
     "id": "unit107",
     "title": "Unit 4: Subject Classification",
+    "description": "इस विषय के महत्वपूर्ण प्रश्न",
     "icon": "fas fa-book-open-reader",
     "questionFile": "lib_unit4.json"
   },
   {
     "id": "unit108",
     "title": "मनोविज्ञान",
-    "description": "इस विषय के महत्वपूर्ण प्रश्नों का अभ्यास करें।",
+    "description": "इस विषय के महत्वपूर्ण प्रश्न",
     "icon": "fas fa-book-open-reader",
     "questionFile": "psychology.json"
   }
