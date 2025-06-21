@@ -21,6 +21,12 @@
         <button onclick="changeFontSize(0)">A</button>
         <button onclick="changeFontSize(2)">A+</button>
       </div>
+      <div class="search-box">
+    <h2><i class="fas fa-search"></i> प्रश्न खोजे </h2>
+    <input type="text" id="searchInput" placeholder="खोजने के लिए टेक्स्ट..." onkeyup="handleSearchKey(event)">
+    <button class="button" onclick="searchQuestions()">खोजें</button>
+    <button class="button" onclick="clearSearch()">साफ़ करें</button>
+</div>
       <div class="category-filter">
         <label for="categorySelect"><i class="fas fa-filter"></i> विषय चुनें:</label>
         <select id="categorySelect" onchange="filterQuestionsByCategory(this.value)">
@@ -479,6 +485,40 @@ document.addEventListener('DOMContentLoaded', () => {
         handleQuestionSwipe(touchStartX, touchStartY, e.changedTouches[0].clientX, e.changedTouches[0].clientY);
     }, false);
 });
+  function searchQuestions() {
+    const searchText = document.getElementById('searchInput').value.toLowerCase().trim();
+    if (!searchText) {
+        alert("कृपया खोजने के लिए कुछ टेक्स्ट दर्ज करें।");
+        return;
+    }
+
+    // वर्तमान में लागू फ़िल्टर (जैसे श्रेणी) के भीतर खोजें
+    const currentQuestionPool = selectedCategory ? originalQuestions.filter(q => q.category === selectedCategory) : [...originalQuestions];
+    const searchResults = currentQuestionPool.filter(q => q.question.toLowerCase().includes(searchText));
+
+    if (searchResults.length === 0) {
+        alert("कोई परिणाम नहीं मिला।");
+        return;
+    }
+
+    alert(`${searchResults.length} प्रश्न मिले।`);
+    questions = searchResults; // प्रदर्शन के लिए प्रश्नों की सूची को अपडेट करें
+    loadQuestion(0); // पहला परिणाम लोड करें
+    buildSidebarLinks(); // साइडबार को अपडेट करें
+}
+
+function clearSearch() {
+    document.getElementById('searchInput').value = '';
+    // फ़िल्टर और लोड को फिर से चलाकर खोज को साफ़ करें और श्रेणी फ़िल्टर लागू करें
+    filterAndLoad(); 
+}
+
+function handleSearchKey(event) {
+    // यदि 'Enter' कुंजी दबाई जाती है तो खोज करें
+    if (event.key === 'Enter') {
+        searchQuestions();
+    }
+}
 </script>
 
 </body>
