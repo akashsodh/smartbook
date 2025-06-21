@@ -21,12 +21,11 @@
         <button onclick="changeFontSize(0)">A</button>
         <button onclick="changeFontSize(2)">A+</button>
       </div>
-      <div class="search-box">
-    <h2><i class="fas fa-search"></i> प्रश्न खोजे </h2>
-    <input type="text" id="searchInput" placeholder="खोजने के लिए टेक्स्ट..." onkeyup="handleSearchKey(event)">
-    <button class="button" onclick="searchQuestions()">खोजें</button>
-    <button class="button" onclick="clearSearch()">साफ़ करें</button>
-</div>
+      <div class="search-controls">
+        <input type="text" id="questionSearchInput" placeholder="प्रश्न खोजें..." onkeyup="handleSearchInput(event)">
+        <button class="button" onclick="searchQuestions()"><i class="fas fa-search"></i> खोजें</button>
+        <button class="button clear-search-btn" onclick="clearSearch()"><i class="fas fa-times"></i> खोज साफ़ करें</button>
+      </div>
       <div class="category-filter">
         <label for="categorySelect"><i class="fas fa-filter"></i> विषय चुनें:</label>
         <select id="categorySelect" onchange="filterQuestionsByCategory(this.value)">
@@ -91,6 +90,7 @@ const MODIFIED_QUESTIONS_KEY = `${UNIT_ID}_modifiedQuestions`;
 let isTestSubmitted = JSON.parse(localStorage.getItem(SUBMITTED_KEY)) || false;
 let currentFontSize = 20;
 let currentQuestionStartTime = null;
+let questionsBeforeSearch = []; // खोज से पहले प्रश्नों की स्थिति सहेजने के लिए
 let timerInterval = null;
 let selectedCategory = "";
 // =============================================================
@@ -103,12 +103,23 @@ async function initializeQuiz() {
         return;
     }
     try {
-        const response = await fetch(questionFile);
-        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-        const defaultQuestions = await response.json();
-        pristineOriginalQuestions = JSON.parse(JSON.stringify(defaultQuestions));
+        const response = await fetch(questionFile); // प्रश्न फ़ाइल लोड करें
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`); // त्रुटि जांचें
+        const defaultQuestions = await response.json(); // JSON डेटा प्राप्त करें
+        
+        // pristineOriginalQuestions को अद्वितीय ID के साथ पॉपुलेट करें
+        pristineOriginalQuestions = defaultQuestions.map((q, index) => ({ ...q, uniqueId: index }));
+
+        // सहेजे गए प्रश्नों को लोड करें, और सुनिश्चित करें कि उनमें अद्वितीय ID हों
         const savedQuestions = JSON.parse(localStorage.getItem(MODIFIED_QUESTIONS_KEY));
-        originalQuestions = savedQuestions || defaultQuestions;
+        if (savedQuestions) {
+            originalQuestions = savedQuestions.map(sq => {
+                const pristineQ = pristineOriginalQuestions.find(pq => pq.question === sq.question && JSON.stringify(pq.options) === JSON.stringify(sq.options));
+                return { ...sq, uniqueId: pristineQ ? pristineQ.uniqueId : -1 }; // अद्वितीय ID असाइन करें
+            }).filter(q => q.uniqueId !== -1); // सुनिश्चित करें कि केवल वैध प्रश्न ही रहें
+        } else {
+            originalQuestions = JSON.parse(JSON.stringify(pristineOriginalQuestions)); // डीप कॉपी
+        }
         answers = JSON.parse(localStorage.getItem(ANSWERS_KEY)) || {};
         bookmarkedQuestions = JSON.parse(localStorage.getItem(BOOKMARKS_KEY)) || [];
         isTestSubmitted = JSON.parse(localStorage.getItem(SUBMITTED_KEY)) || false;
@@ -140,39 +151,38 @@ function loadQuestion(index) {
     const currentQuestionKey = `${UNIT_ID}_${selectedCategory}_currentQuestion`;
     localStorage.setItem(currentQuestionKey, current);
     const q = questions[current];
-    const originalQuestionIndex = pristineOriginalQuestions.findIndex(oq => oq.question === q.question);
     let html = `<div class='question' id='current-question-text'>Q${current + 1}. ${q.question}</div>`;
 // यह कोड प्रश्न टेक्स्ट के ठीक बाद जोड़ा गया है
 if (q.source && q.source.trim() !== "") {
     html += `<div class='question-source'>(${q.source})</div>`;
 }
   q.options.forEach((opt, displayedIdx) => {
-        const isSelected = answers[originalQuestionIndex] === opt;
-        const isDisabled = (quizMode === 'test' && isTestSubmitted) || (quizMode === 'practice' && answers[originalQuestionIndex] !== undefined);
-        html += `<label id='opt${displayedIdx}'><input type='radio' name='q${originalQuestionIndex}' value='${displayedIdx}' ${isSelected ? "checked" : ""} ${isDisabled ? "disabled" : ""} onclick='selectAnswer(${originalQuestionIndex}, ${displayedIdx})'> ${opt}</label>`;
+        const isSelected = answers[q.uniqueId] === opt;
+        const isDisabled = (quizMode === 'test' && isTestSubmitted) || (quizMode === 'practice' && answers[q.uniqueId] !== undefined);
+        html += `<label id='opt${displayedIdx}'><input type='radio' name='q${q.uniqueId}' value='${displayedIdx}' ${isSelected ? "checked" : ""} ${isDisabled ? "disabled" : ""} onclick='selectAnswer(${q.uniqueId}, ${displayedIdx})'> ${opt}</label>`;
     });
     html += `<div class='correct-answer' id='correct'></div><div class='explanation' id='explanation-text' style='display: none;'></div>`;
     document.getElementById("quiz-content").innerHTML = html;
-    if ((quizMode === 'practice' || isTestSubmitted) && answers[originalQuestionIndex] !== undefined) {
-        showAnswerAndExplanation(originalQuestionIndex);
+    if ((quizMode === 'practice' || isTestSubmitted) && answers[q.uniqueId] !== undefined) {
+        showAnswerAndExplanation(q.uniqueId);
     }
     updateUI();
     if (quizMode === 'practice') startTimer();
 }
-function selectAnswer(qOriginalIdx, selectedOptionIdx) {
-    if ((quizMode === 'test' && isTestSubmitted) || (quizMode === 'practice' && answers[qOriginalIdx] !== undefined)) return;
+function selectAnswer(qUniqueId, selectedOptionIdx) {
+    if ((quizMode === 'test' && isTestSubmitted) || (quizMode === 'practice' && answers[qUniqueId] !== undefined)) return;
     
     // [फिक्स] सीधे वर्तमान प्रश्न से विकल्प का टेक्स्ट प्राप्त करें
     const selectedOptionText = questions[current].options[selectedOptionIdx];
-    answers[qOriginalIdx] = selectedOptionText;
+    answers[qUniqueId] = selectedOptionText;
     
     localStorage.setItem(ANSWERS_KEY, JSON.stringify(answers));
     if (quizMode === 'practice') {
         stopTimer();
-        showAnswerAndExplanation(qOriginalIdx);
+        showAnswerAndExplanation(qUniqueId);
     } else {
-        document.querySelectorAll(`input[name='q${qOriginalIdx}']`).forEach(radio => {
-            const label = radio.parentElement;
+        document.querySelectorAll(`input[name='q${qUniqueId}']`).forEach(radio => {
+            const label = radio.parentElement; // [फिक्स] qOriginalIdx की जगह qUniqueId का उपयोग करें
             if (radio.value == selectedOptionIdx) {
                 label.style.border = "2px solid #667eea";
             } else {
@@ -187,12 +197,11 @@ function submitTest(isSilent = false) {
     isTestSubmitted = true;
     localStorage.setItem(SUBMITTED_KEY, JSON.stringify(isTestSubmitted));
     let correctCount = 0, wrongCount = 0, unansweredCount = 0;
-    originalQuestions.forEach(q => {
-        const originalIndex = pristineOriginalQuestions.findIndex(oq => oq.question === q.question);
+    originalQuestions.forEach(q => { // [फिक्स] originalQuestions में अब uniqueId है
         const correctAnswerText = q.options[q.answer];
-        if (answers[originalIndex] === undefined) {
+        if (answers[q.uniqueId] === undefined) { // [फिक्स] uniqueId का उपयोग करें
             unansweredCount++;
-        } else if (answers[originalIndex] === correctAnswerText) {
+        } else if (answers[q.uniqueId] === correctAnswerText) {
             correctCount++;
         } else {
             wrongCount++;
@@ -247,15 +256,14 @@ function updateUI() {
     const scoreSummaryDiv = document.getElementById('score-summary');
     scoreSummaryDiv.style.display = (quizMode === 'test' && !isTestSubmitted) ? 'none' : 'block';
 }
-function showAnswerAndExplanation(qOriginalIdx) {
-    // [फिक्स] प्रश्न को मुख्य 'originalQuestions' सूची से विश्वसनीय रूप से खोजें
-    const q = originalQuestions.find(q => pristineOriginalQuestions.findIndex(oq => oq.question === q.question) === qOriginalIdx);
+function showAnswerAndExplanation(qUniqueId) {
+    const q = originalQuestions.find(q => q.uniqueId === qUniqueId);
     if (!q) return;
 
     const correctAnswerText = q.options[q.answer];
-    const selectedAnswerText = answers[qOriginalIdx];
+    const selectedAnswerText = answers[qUniqueId];
 
-    document.querySelectorAll(`input[name='q${qOriginalIdx}']`).forEach(radio => {
+    document.querySelectorAll(`input[name='q${qUniqueId}']`).forEach(radio => {
         const label = radio.parentElement;
         const optionTextForRadio = questions[current].options[parseInt(radio.value, 10)];
         
@@ -277,38 +285,37 @@ function prevQuestion() { if (current > 0) loadQuestion(current - 1); }
 function updateSidebarHighlight() {
     document.querySelectorAll("#questionTable a").forEach((link, sidebarLinkIndex) => {
         link.className = '';
-        if (sidebarLinkIndex >= questions.length) return;
+        if (sidebarLinkIndex >= questions.length) return; // [फिक्स] questions array से बाहर न जाएं
         const q = questions[sidebarLinkIndex];
-        const originalQuestionIndex = pristineOriginalQuestions.findIndex(oq => oq.question === q.question);
-        if (originalQuestionIndex === -1) return;
+        const qUniqueId = q.uniqueId; // [फिक्स] uniqueId का उपयोग करें
         const correctAnswerText = q.options[q.answer];
-        const selectedAnswerText = answers[originalQuestionIndex];
+        const selectedAnswerText = answers[qUniqueId]; // [फिक्स] uniqueId का उपयोग करें
         if (sidebarLinkIndex === current) {
             link.classList.add("active");
         } else if (selectedAnswerText !== undefined) {
             if (quizMode === 'practice' || isTestSubmitted) {
                 link.classList.add(selectedAnswerText === correctAnswerText ? "correct" : "incorrect");
             } else {
-                link.classList.add("attempted");
+                link.classList.add("attempted"); // [फिक्स] attempted क्लास जोड़ें
             }
         } else {
             link.classList.add("unanswered");
         }
-        if (bookmarkedQuestions.includes(originalQuestionIndex)) {
+        if (bookmarkedQuestions.includes(qUniqueId)) {
             link.classList.add("bookmarked");
         }
     });
 }
 function toggleBookmark() {
-    const originalIndex = pristineOriginalQuestions.findIndex(q => q.question === questions[current].question);
-    const indexInBookmarks = bookmarkedQuestions.indexOf(originalIndex);
+    const qUniqueId = questions[current].uniqueId; // [फिक्स] uniqueId का उपयोग करें
+    const indexInBookmarks = bookmarkedQuestions.indexOf(qUniqueId);
     if (indexInBookmarks > -1) bookmarkedQuestions.splice(indexInBookmarks, 1);
-    else bookmarkedQuestions.push(originalIndex);
+    else bookmarkedQuestions.push(qUniqueId);
     localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(bookmarkedQuestions));
     updateUI();
 }
-function updateBookmarkButton() {
-    const originalIndex = pristineOriginalQuestions.findIndex(q => q.question === questions[current].question);
+function updateBookmarkButton() { // [फिक्स] uniqueId का उपयोग करें
+    const originalIndex = questions[current].uniqueId;
     const icon = document.getElementById('bookmarkBtn').querySelector('i');
     icon.classList.toggle('fas', bookmarkedQuestions.includes(originalIndex));
     icon.classList.toggle('far', !bookmarkedQuestions.includes(originalIndex));
@@ -316,10 +323,10 @@ function updateBookmarkButton() {
 function showBookmarkedQuestions() {
     if (bookmarkedQuestions.length === 0) return alert("कोई प्रश्न बुकमार्क नहीं किया गया है।");
     const bookmarkedIndices = JSON.parse(localStorage.getItem(BOOKMARKS_KEY)) || [];
-    const bookmarkedOriginalQuestions = bookmarkedIndices.map(index => pristineOriginalQuestions[index]).filter(Boolean);
+    const bookmarkedOriginalQuestions = bookmarkedIndices.map(id => pristineOriginalQuestions[id]).filter(Boolean); // [फिक्स] uniqueId का उपयोग करें
     
     let bookmarkedInCurrentSet = bookmarkedOriginalQuestions.map(pristineQ => {
-        return originalQuestions.find(q => q.question === pristineQ.question);
+        return originalQuestions.find(q => q.uniqueId === pristineQ.uniqueId);
     }).filter(Boolean);
 
     questions = selectedCategory ? bookmarkedInCurrentSet.filter(q => q.category === selectedCategory) : bookmarkedInCurrentSet;
@@ -369,15 +376,14 @@ function buildSidebarLinks() {
 function updateScoreSummaryAndProgress() {
     let correct = 0, wrong = 0, answeredCount = 0;
     const answeredIndices = new Set();
-    const currentQuestionsSet = new Set(questions.map(q => q.question));
+    const currentQuestionsUniqueIds = new Set(questions.map(q => q.uniqueId)); // [फिक्स] uniqueId का उपयोग करें
 
-    for (const qOriginalIdx in answers) {
-        const pristineQ = pristineOriginalQuestions[qOriginalIdx];
-        if (pristineQ && currentQuestionsSet.has(pristineQ.question)) {
-            const q = originalQuestions.find(oq => oq.question === pristineQ.question);
+    for (const qUniqueId in answers) { // [फिक्स] uniqueId का उपयोग करें
+        if (currentQuestionsUniqueIds.has(parseInt(qUniqueId))) { // [फिक्स] uniqueId का उपयोग करें
+            const q = originalQuestions.find(oq => oq.uniqueId == qUniqueId); // [फिक्स] uniqueId का उपयोग करें
             if (q) {
                 answeredCount++;
-                if (answers[qOriginalIdx] === q.options[q.answer]) {
+                if (answers[qUniqueId] === q.options[q.answer]) { // [फिक्स] uniqueId का उपयोग करें
                     correct++;
                 } else {
                     wrong++;
@@ -395,17 +401,16 @@ function updateScoreSummaryAndProgress() {
 function startTimer() {
     stopTimer();
     currentQuestionStartTime = Date.now();
-    timerInterval = setInterval(() => {
+    timerInterval = setInterval(() => { // [फिक्स] uniqueId का उपयोग करें
         document.getElementById("time-tracking").innerText = `समय: ${Math.floor((Date.now() - currentQuestionStartTime)/1000)} सेकंड`;
-    }, 1000);
+    }, 1000); // [फिक्स] uniqueId का उपयोग करें
 }
 function stopTimer() {
     if(!timerInterval) return;
     clearInterval(timerInterval);
-    const originalQuestionIndex = pristineOriginalQuestions.findIndex(oq => oq.question === questions[current].question);
     const elapsed = Math.floor((Date.now() - currentQuestionStartTime) / 1000);
-    if(originalQuestionIndex !== -1) {
-        questionTimes[originalQuestionIndex] = (questionTimes[originalQuestionIndex] || 0) + elapsed;
+    if(questions[current] && questions[current].uniqueId !== -1) {
+        questionTimes[questions[current].uniqueId] = (questionTimes[questions[current].uniqueId] || 0) + elapsed; // [फिक्स] uniqueId का उपयोग करें
         localStorage.setItem(UNIT_ID + "_questionTimes", JSON.stringify(questionTimes));
     }
 }
@@ -419,7 +424,64 @@ function changeFontSize(change) {
     localStorage.setItem(UNIT_ID + "_quizFontSize", currentFontSize);
     applyFontSize();
 }
+function searchQuestions() {
+    const query = document.getElementById('questionSearchInput').value.trim();
+    if (query.length === 0) {
+        clearSearch(); // यदि क्वेरी खाली है, तो खोज परिणाम साफ़ करें
+        return;
+    }
+
+    // वर्तमान स्थिति को खोज फ़िल्टर लागू करने से पहले सहेजें
+    questionsBeforeSearch = [...questions]; // वर्तमान प्रश्नों की सरणी कॉपी करें
+
+    const lowerCaseQuery = query.toLowerCase();
+    const searchResults = pristineOriginalQuestions.filter(q =>
+        q.question.toLowerCase().includes(lowerCaseQuery) ||
+        q.options.some(opt => opt.toLowerCase().includes(lowerCaseQuery)) ||
+        (q.explanation && q.explanation.toLowerCase().includes(lowerCaseQuery))
+    );
+
+    if (searchResults.length > 0) {
+        questions = searchResults;
+        current = 0; // पहले परिणाम पर रीसेट करें
+        loadQuestion(current);
+        buildSidebarLinks();
+        alert(`${searchResults.length} प्रश्न मिले।`);
+    } else {
+        questions = []; // कोई परिणाम नहीं
+        document.getElementById("quiz-content").innerHTML = `<p style="color: red;">कोई प्रश्न नहीं मिला।</p>`;
+        buildSidebarLinks(); // साइडबार लिंक साफ़ करें
+        alert("कोई प्रश्न नहीं मिला।");
+    }
+}
+
+function handleSearchInput(event) {
+    if (event.key === 'Enter') {
+        searchQuestions();
+    } else if (document.getElementById('questionSearchInput').value.trim() === '') {
+        // यदि इनपुट टाइप करके साफ़ किया जाता है, तो मूल स्थिति पर वापस लौटें
+        clearSearch();
+    }
+}
+
+// खोज साफ़ करने और पिछली स्थिति में लौटने के लिए नया फ़ंक्शन
+function clearSearch() {
+    document.getElementById('questionSearchInput').value = '';
+    if (questionsBeforeSearch.length > 0) {
+        questions = questionsBeforeSearch; // पिछली स्थिति बहाल करें
+    } else {
+        // यदि कोई पिछली स्थिति नहीं है, तो श्रेणी या सभी मूल प्रश्नों के आधार पर पुनः फ़िल्टर करें
+        filterAndLoad();
+    }
+    current = 0;
+    loadQuestion(current);
+    buildSidebarLinks();
+}
 function shuffleQuestions() {
+    // शफ़ल करते समय किसी भी सक्रिय खोज को साफ़ करें
+    document.getElementById('questionSearchInput').value = '';
+    questionsBeforeSearch = [];
+
     originalQuestions.sort(() => Math.random() - 0.5);
     localStorage.setItem(MODIFIED_QUESTIONS_KEY, JSON.stringify(originalQuestions));
     alert("प्रश्नों को शफ़ल कर दिया गया है। यह क्रम अब सहेज लिया गया है।");
@@ -439,6 +501,9 @@ function shuffleOptions() {
     loadQuestion(current);
 }
 function resetOrder() {
+    // क्रम रीसेट करते समय किसी भी सक्रिय खोज को साफ़ करें
+    document.getElementById('questionSearchInput').value = '';
+    questionsBeforeSearch = [];
     localStorage.removeItem(MODIFIED_QUESTIONS_KEY);
     originalQuestions = JSON.parse(JSON.stringify(pristineOriginalQuestions));
     alert("प्रश्नों और विकल्पों का क्रम डिफ़ॉल्ट पर रीसेट कर दिया गया है।");
@@ -447,6 +512,17 @@ function resetOrder() {
 function toggleTheme() {
     document.body.classList.toggle("dark");
     localStorage.setItem("theme", document.body.classList.contains("dark") ? "dark" : "light");
+}
+function filterQuestionsByCategory(category) {
+    // श्रेणी बदलते समय किसी भी सक्रिय खोज को साफ़ करें
+    document.getElementById('questionSearchInput').value = '';
+    questionsBeforeSearch = [];
+
+    selectedCategory = category;
+    localStorage.setItem(UNIT_ID + "_selectedCategory", category);
+    isTestSubmitted = false;
+    localStorage.removeItem(SUBMITTED_KEY);
+    filterAndLoad(); // यह श्रेणी के आधार पर 'questions' को फिर से बनाएगा
 }
 function toggleFullscreen() {
     if (!document.fullscreenElement) {
@@ -485,40 +561,6 @@ document.addEventListener('DOMContentLoaded', () => {
         handleQuestionSwipe(touchStartX, touchStartY, e.changedTouches[0].clientX, e.changedTouches[0].clientY);
     }, false);
 });
-  function searchQuestions() {
-    const searchText = document.getElementById('searchInput').value.toLowerCase().trim();
-    if (!searchText) {
-        alert("कृपया खोजने के लिए कुछ टेक्स्ट दर्ज करें।");
-        return;
-    }
-
-    // वर्तमान में लागू फ़िल्टर (जैसे श्रेणी) के भीतर खोजें
-    const currentQuestionPool = selectedCategory ? originalQuestions.filter(q => q.category === selectedCategory) : [...originalQuestions];
-    const searchResults = currentQuestionPool.filter(q => q.question.toLowerCase().includes(searchText));
-
-    if (searchResults.length === 0) {
-        alert("कोई परिणाम नहीं मिला।");
-        return;
-    }
-
-    alert(`${searchResults.length} प्रश्न मिले।`);
-    questions = searchResults; // प्रदर्शन के लिए प्रश्नों की सूची को अपडेट करें
-    loadQuestion(0); // पहला परिणाम लोड करें
-    buildSidebarLinks(); // साइडबार को अपडेट करें
-}
-
-function clearSearch() {
-    document.getElementById('searchInput').value = '';
-    // फ़िल्टर और लोड को फिर से चलाकर खोज को साफ़ करें और श्रेणी फ़िल्टर लागू करें
-    filterAndLoad(); 
-}
-
-function handleSearchKey(event) {
-    // यदि 'Enter' कुंजी दबाई जाती है तो खोज करें
-    if (event.key === 'Enter') {
-        searchQuestions();
-    }
-}
 </script>
 
 </body>

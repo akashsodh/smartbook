@@ -136,6 +136,27 @@ body {
 }
 .font-size-controls button:hover { background: rgba(255,255,255,0.2); }
 
+/* --- Sidebar Search Controls --- */
+.search-controls {
+    margin-bottom: 15px;
+    padding: 0 10px; /* Add some padding for alignment */
+}
+
+.search-controls input[type="text"] {
+    width: calc(100% - 20px); /* Adjust width for padding */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-controls .button {
+    width: 100%; /* Make search buttons full width */
+    margin-bottom: 10px; /* Space between buttons */
+}
 /* श्रेणी फ़िल्टर */
 .category-filter { margin-top: 20px; }
 .category-filter label { background: none; padding: 0; margin-bottom: 8px; cursor: default; text-align: center; font-weight: 600; color: #fff; }
@@ -297,6 +318,12 @@ body.dark .sidebar { background: #2c3e50; }
 body.dark .explanation { background-color: #2a2a2a; border-left-color: #9b70e0; }
 body.dark .progress-bar-container { background-color: #444; }
 body.dark .navigation button { background: #333; color: #e0e0e0; border-color: #555; }
+/* Dark mode for search input */
+body.dark .search-controls input[type="text"] {
+    background: #333;
+    border-color: #555;
+    color: #e0e0e0;
+}
 body.dark #bookmarkBtn i { color: #ffd166; }
 body.dark #bookmarkBtn i.fas { color: #f59f00; }
 
