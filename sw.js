@@ -1,6 +1,11 @@
+
 // sw.js
 
-const cacheName = "smartbook-cache-v24";
+// **महत्वपूर्ण:** जब भी आप कोई टेस्ट सीरीज़ या कोई और फाइल अपडेट करें,
+// तो इस संस्करण को बदलें (जैसे, 'smartbook-v2', 'smartbook-v4', आदि)
+const cacheName = 'smartbook-v25';
+
+// वे सभी फाइलें जिन्हें आप ऑफलाइन उपलब्ध कराना चाहते हैं
 const assets = [
     '/',
     '/index.html',
@@ -29,62 +34,55 @@ const assets = [
     '/images/icons/icon-512x512.png',
 ];
 
-self.addEventListener("install", (event) => {
-    event.waitUntil(
-        caches.open(cacheName).then((cache) => {
-            return cache.addAll(assetsToCache);
-        })
-    );
-});
-
-self.addEventListener("activate", (event) => {
-    event.waitUntil(
-        caches.keys().then((keys) => {
-            return Promise.all(
-                keys.map((key) => {
-                    if (key !== cacheName) {
-                        return caches.delete(key);
-                    }
-                })
-            );
-        })
-    );
-});
-
-self.addEventListener("fetch", (event) => {
-    const requestUrl = new URL(event.request.url);
-
-    // For JSON files, use a network-first strategy.
-    if (requestUrl.pathname.endsWith('.json')) {
-        event.respondWith(
-            fetch(event.request)
-                .then(response => {
-                    // If the fetch is successful, clone the response and cache it.
-                    if (response.ok) {
-                        const responseToCache = response.clone();
-                        caches.open(cacheName).then(cache => {
-                            cache.put(event.request, responseToCache);
-                        });
-                    }
-                    return response;
-                })
-                .catch(() => {
-                    // If the network fails, try to get it from the cache.
-                    return caches.match(event.request);
-                })
-        );
-    } else {
-        // For other files, use a cache-first strategy.
-        event.respondWith(
-            caches.match(event.request).then((response) => {
-                return response || fetch(event.request).then((fetchResponse) => {
-                    const responseToCache = fetchResponse.clone();
-                    caches.open(cacheName).then((cache) => {
-                        cache.put(event.request, responseToCache);
-                    });
-                    return fetchResponse;
-                });
+// install event: जब सर्विस वर्कर इंस्टॉल होता है
+self.addEventListener('install', (e) => {
+    console.log('Service Worker: इंस्टॉल हो रहा है...');
+    e.waitUntil(
+        caches
+            .open(cacheName)
+            .then((cache) => {
+                console.log('Service Worker: फाइलों को कैशिंग कर रहा है');
+                return cache.addAll(assets);
             })
-        );
-    }
+            .then(() => {
+                // नए सर्विस वर्कर को तुरंत एक्टिवेट करने के लिए फोर्स करें
+                console.log('Service Worker: इंतज़ार को स्किप कर रहा है');
+                return self.skipWaiting();
+            })
+            .catch(err => console.log('कैशे में फाइलें जोड़ने में त्रुटि:', err))
+    );
+});
+
+// activate event: जब सर्विस वर्कर एक्टिवेट होता है
+self.addEventListener('activate', (e) => {
+    console.log('Service Worker: एक्टिवेट हो गया है');
+    e.waitUntil(
+        caches.keys().then((cacheNames) => {
+            return Promise.all(
+                cacheNames.map((cache) => {
+                    // अगर कैशे का नाम मौजूदा नाम से मेल नहीं खाता है, तो उसे डिलीट करें
+                    if (cache !== cacheName) {
+                        console.log('Service Worker: पुराने कैशे को हटा रहा है');
+                        return caches.delete(cache);
+                    }
+                })
+            ).then(() => {
+                // सभी खुले क्लाइंट्स (टैब) का नियंत्रण लेने के लिए
+                console.log('Service Worker: क्लाइंट्स पर नियंत्रण ले रहा है');
+                return self.clients.claim();
+            });
+        })
+    );
+});
+
+// fetch event: जब ऐप कोई रिसोर्स (जैसे, पेज, इमेज, डेटा) मांगता है
+self.addEventListener('fetch', (e) => {
+    // console.log('Service Worker: डेटा फेच कर रहा है');
+    e.respondWith(
+        // पहले कैशे में रिसोर्स ढूंढें
+        caches.match(e.request).then((cacheRes) => {
+            // अगर कैशे में है तो उसे दिखाएं, नहीं तो नेटवर्क से लाएं
+            return cacheRes || fetch(e.request);
+        })
+    );
 });
