@@ -2,7 +2,7 @@
 
 // **महत्वपूर्ण:** जब भी आप कोई टेस्ट सीरीज़ या कोई और फाइल अपडेट करें,
 // तो इस संस्करण को बदलें (जैसे, 'smartbook-v2', 'smartbook-v4', आदि)
-const cacheName = 'smartbook-v28';
+const cacheName = 'smartbook-v29';
 
 // वे सभी फाइलें जिन्हें आप ऑफलाइन उपलब्ध कराना चाहते हैं
 const assets = [
@@ -23,6 +23,7 @@ const assets = [
     '/lib_unit2.json',
     '/lib_unit3.json',
     '/lib_unit4.json',
+    '/sood_mcq.json',
     '/images/icons/icon-72x72.png',
     '/images/icons/icon-96x96.png',
     '/images/icons/icon-128x128.png',
@@ -74,6 +75,8 @@ self.addEventListener('activate', (e) => {
     );
 });
 
+// fetch event: जब कोई नेटवर्क अनुरोध किया जाता है
+self.addEventListener('fetch', (e) => {
     // JSON फ़ाइलों के लिए, हमेशा नेटवर्क से नवीनतम लाने का प्रयास करें।
     // यह सुनिश्चित करता है कि आप हमेशा नवीनतम प्रश्न प्राप्त करें, यदि ऑनलाइन हैं।
     if (e.request.url.includes('.json')) {
