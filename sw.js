@@ -1,6 +1,6 @@
 // sw.js
 
-const cacheName = "smartbook-cache-v22";
+const cacheName = "smartbook-cache-v24";
 const assets = [
     '/',
     '/index.html',
