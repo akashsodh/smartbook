@@ -1,9 +1,8 @@
-
 // sw.js
 
 // **महत्वपूर्ण:** जब भी आप कोई टेस्ट सीरीज़ या कोई और फाइल अपडेट करें,
 // तो इस संस्करण को बदलें (जैसे, 'smartbook-v2', 'smartbook-v4', आदि)
-const cacheName = 'smartbook-v25';
+const cacheName = 'smartbook-v26';
 
 // वे सभी फाइलें जिन्हें आप ऑफलाइन उपलब्ध कराना चाहते हैं
 const assets = [
@@ -75,14 +74,28 @@ self.addEventListener('activate', (e) => {
     );
 });
 
-// fetch event: जब ऐप कोई रिसोर्स (जैसे, पेज, इमेज, डेटा) मांगता है
-self.addEventListener('fetch', (e) => {
-    // console.log('Service Worker: डेटा फेच कर रहा है');
-    e.respondWith(
-        // पहले कैशे में रिसोर्स ढूंढें
-        caches.match(e.request).then((cacheRes) => {
-            // अगर कैशे में है तो उसे दिखाएं, नहीं तो नेटवर्क से लाएं
-            return cacheRes || fetch(e.request);
-        })
-    );
+    // JSON फ़ाइलों के लिए, हमेशा नेटवर्क से नवीनतम लाने का प्रयास करें।
+    // यह सुनिश्चित करता है कि आप हमेशा नवीनतम प्रश्न प्राप्त करें, यदि ऑनलाइन हैं।
+    if (e.request.url.includes('.json')) {
+        e.respondWith(
+            fetch(e.request)
+                .then(fetchRes => {
+                    // सफल प्रतिक्रिया मिलने पर, इसे कैशे में डालें और लौटाएँ
+                    return caches.open(cacheName).then(cache => {
+                        cache.put(e.request.url, fetchRes.clone());
+                        return fetchRes;
+                    });
+                })
+                .catch(() => {
+                    // यदि नेटवर्क विफल होता है, तो कैशे से लौटाएँ
+                    return caches.match(e.request);
+                })
+        );
+    } else {
+        // अन्य सभी अनुरोधों (HTML, CSS, JS, Images) के लिए, पहले कैशे देखें।
+        // यह ऐप को तेजी से लोड करता है और ऑफ़लाइन काम करने देता है।
+        e.respondWith(
+            caches.match(e.request).then(cacheRes => cacheRes || fetch(e.request))
+        );
+    }
 });
