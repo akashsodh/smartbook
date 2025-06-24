@@ -15,12 +15,6 @@
         <header>
     <img src="icons/banner.png" alt="SmartBook Banner" class="header-banner">
 </header
-    
-        <div id="update-banner" style="display: none; padding: 1em; background-color: #ffc107; color: black; text-align: center; position: sticky; top: 0; z-index: 1000;">
-  नया अपडेट उपलब्ध है!
-  <button id="update-app-button" style="margin-left: 10px; padding: 5px 10px; border-radius: 5px; border: 1px solid black;">अपडेट करें</button>
-</div>
-
         
 <main id="dashboard-container" class="dashboard">
     </main>
@@ -127,48 +121,5 @@ buildDashboard();
       });
     }
     </script>
-    <script>
-    let newWorker; // नए सर्विस वर्कर को रखने के लिए वेरिएबल
-
-    function showUpdateBanner() {
-        const updateBanner = document.getElementById('update-banner');
-        if (updateBanner) {
-            updateBanner.style.display = 'block';
-        }
-    }
-
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js').then(reg => {
-            reg.addEventListener('updatefound', () => {
-                // एक नया सर्विस वर्कर मिला
-                newWorker = reg.installing;
-                newWorker.addEventListener('statechange', () => {
-                    // जब नया वर्कर इंस्टॉल हो जाता है और पुराना वाला अभी भी कंट्रोल में है
-                    if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                        showUpdateBanner(); // अपडेट बटन दिखाओ
-                    }
-                });
-            });
-        });
-
-        const updateButton = document.getElementById('update-app-button');
-        if (updateButton) {
-            updateButton.addEventListener('click', () => {
-                if (newWorker) {
-                    // सर्विस वर्कर को 'SKIP_WAITING' संदेश भेजो
-                    newWorker.postMessage({ type: 'SKIP_WAITING' });
-                }
-            });
-        }
-        
-        let refreshing;
-        navigator.serviceWorker.addEventListener('controllerchange', () => {
-            // जब नया वर्कर कंट्रोल ले लेता है, तो पेज को रीलोड करो
-            if (refreshing) return;
-            window.location.reload();
-            refreshing = true;
-        });
-    }
-</script>
 </body>
 </html>
