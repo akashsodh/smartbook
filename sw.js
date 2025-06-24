@@ -88,3 +88,9 @@ self.addEventListener("fetch", (event) => {
         );
     }
 });
+// नया कोड: ऐप से संदेश सुनने के लिए
+self.addEventListener('message', (event) => {
+    if (event.data && event.data.type === 'SKIP_WAITING') {
+        self.skipWaiting();
+    }
+});
