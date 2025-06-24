@@ -22,7 +22,7 @@
   },
   {
     "id": "unit109",
-    "title": "Rajasthan Current",
+    "title": "Rajasthan Current Affairs",
     "description": "Rajasthan Current अभ्यास करें।",
     "icon": "fas fa-globe-asia",
     "questionFile": "current.json"
