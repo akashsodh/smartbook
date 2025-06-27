@@ -1,0 +1,4201 @@
+[
+  {
+    "question": "ज्ञान किस प्रकार की सूचना है ?",
+    "options": [
+      "Raw",
+      "Stable",
+      "Organised",
+      "Statistical"
+    ],
+    "answer": 2,
+    "explanation": "ज्ञान संगठित सूचना है। जब सूचना को संसाधित, संरचित और प्रासंगिक बनाया जाता है, तो यह ज्ञान बन जाती है। DIKW (डेटा-सूचना-ज्ञान-बुद्धिमत्ता) पिरामिड के अनुसार, ज्ञान सूचना से उच्च स्तर पर होता है और इसका स्वरूप संगठित होता है।",
+    "category": "ज्ञान जगत",
+    "source": "AIIMS-2019"
+  },
+  {
+    "question": "ज्ञान क्या है ?",
+    "options": [
+      "व्यक्तिगत विशेषक जो सद्गुणों और दृष्टि का कारण बनता है",
+      "तथ्यों का तार्किक रूप से संरचित और संगत सेट",
+      "पुनरावर्ती और मात्रात्मक अभिव्यक्ति",
+      "संदेशों का क्षणिक प्रवाह"
+    ],
+    "answer": 1,
+    "explanation": "ज्ञान को तथ्यों, सूचनाओं और सिद्धांतों के एक तार्किक रूप से संरचित और सुसंगत समूह के रूप में परिभाषित किया जाता है। यह केवल कच्चे डेटा या क्षणिक संदेशों का प्रवाह नहीं है, बल्कि एक संगठित और समझने योग्य ढाँचा है जो अनुभव और सीखने से प्राप्त होता है।",
+    "category": "ज्ञान जगत",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "ज्ञान क्या होता है ?",
+    "options": [
+      "अज्ञात मानवीय विचार",
+      "असंगठित सूचनाओं का संगठित स्वरूप",
+      "सूचनाओं का संगठित स्वरूप",
+      "अस्पष्ट डाटा संग्रहण"
+    ],
+    "answer": 2,
+    "explanation": "ज्ञान-सूचना पदानुक्रम में, ज्ञान सूचना का संगठित रूप है। डेटा जब संगठित और प्रासंगिक होता है तो सूचना बन जाता है, और जब इस सूचना को समझा, व्याख्या और लागू किया जाता है, तो यह ज्ञान में परिवर्तित हो जाता है।",
+    "category": "ज्ञान जगत",
+    "source": "MPPSC-2020"
+  },
+  {
+    "question": "ज्ञान........का एक संगठित निकाय है ?",
+    "options": [
+      "Data",
+      "Facts",
+      "Information",
+      "Intelligence"
+    ],
+    "answer": 2,
+    "explanation": "ज्ञान सूचना (Information) का एक संगठित निकाय है। डेटा को संसाधित करने पर सूचना प्राप्त होती है, और सूचना को संगठित करने और समझने पर ज्ञान प्राप्त होता है। ज्ञान सूचना को संदर्भ और अर्थ प्रदान करता है।",
+    "category": "ज्ञान जगत",
+    "source": "MHPSC 2017"
+  },
+  {
+    "question": "ज्ञान पिरामिड में किसको उच्च स्तर की ओर सही क्रम में व्यवस्थित किया जाता है ?",
+    "options": [
+      "Data-Wisdom-Information-Knowledge",
+      "Wisdom-Information-Knowledge-Data",
+      "Data-Information-Knowledge-Wisdom",
+      "Knowledge-Wisdom-Data-information"
+    ],
+    "answer": 2,
+    "explanation": "ज्ञान पिरामिड, जिसे DIKW पिरामिड भी कहा जाता है, का सही आरोही क्रम है: डेटा (Data), सूचना (Information), ज्ञान (Knowledge), और बुद्धिमत्ता (Wisdom)। डेटा सबसे निचला और आधारभूत स्तर है जबकि बुद्धिमत्ता उच्चतम स्तर है।",
+    "category": "ज्ञान जगत",
+    "source": "KERLA PSC 2022"
+  },
+  {
+    "question": "'ज्ञान मीमांसा' ('Epistemology') किस से संबंधित हैं ?",
+    "options": [
+      "श्रव्य सामग्री के अध्ययन",
+      "सूचना के अध्ययन",
+      "वास्तविकता की प्रकृति",
+      "ज्ञान का सिद्धान्त"
+    ],
+    "answer": 3,
+    "explanation": "ज्ञानमीमांसा (Epistemology) दर्शनशास्त्र की वह शाखा है जो ज्ञान के सिद्धांत, उसकी प्रकृति, उत्पत्ति, स्रोतों और सीमाओं का अध्ययन करती है। यह इस बात की पड़ताल करती है कि हम क्या जानते हैं और हम उसे कैसे जानते हैं।",
+    "category": "ज्ञान जगत",
+    "source": "KVS 2023 SHIFT-2"
+  },
+  {
+    "question": "ज्ञानमीमांसा का अध्ययन संबंधित है ?",
+    "options": [
+      "Modes of formation of subjects",
+      "Classification of knowledge",
+      "Cataloguing of composites books",
+      "Origin, source and nature of knowledge"
+    ],
+    "answer": 3,
+    "explanation": "ज्ञानमीमांसा (Epistemology) ज्ञान की उत्पत्ति (Origin), स्रोत (source) और प्रकृति (nature) से संबंधित है। यह अध्ययन करता है कि ज्ञान क्या है, इसे कैसे प्राप्त किया जाता है, और किसी दिए गए विषय के बारे में जानने की सीमा क्या है।",
+    "category": "ज्ञान जगत",
+    "source": "DSSSB-2017"
+  },
+  {
+    "question": "'ज्ञान में निवेश सर्वोत्तम प्रतिफल देता है' किसने कहा है ?",
+    "options": [
+      "Benjamin Franklin",
+      "Thomas H. Devenport",
+      "Hans-Christoph Hobohm",
+      "Peter Drucker"
+    ],
+    "answer": 0,
+    "explanation": "\"An investment in knowledge pays the best interest\" (ज्ञान में निवेश सर्वोत्तम प्रतिफल देता है) यह प्रसिद्ध कथन संयुक्त राज्य अमेरिका के संस्थापक पिताओं में से एक, बेंजामिन फ्रैंकलिन का है।",
+    "category": "ज्ञान जगत",
+    "source": "KVS 2023 SHIFT-2"
+  },
+  {
+    "question": "किसने कहा है कि 'आँकड़ों में सूचना खो गई, सूचना में ज्ञान खो गया और प्रज्ञा ज्ञान में खो गई' ?",
+    "options": [
+      "W.H. Smith",
+      "T.S. Eliot",
+      "S.D. Brown",
+      "S.C. Bradford"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रसिद्ध पंक्ति टी.एस. एलियट की कविता \"The Rock\" (1934) से है: \"Where is the wisdom we have lost in knowledge? Where is the knowledge we have lost in information?\"",
+    "category": "ज्ञान जगत",
+    "source": "KVS 2023 SHIFT-2"
+  },
+  {
+    "question": "पुस्तकालयों में ज्ञान का संगठन और पुस्तकों के लिए विषय - दृष्टिकोण किसके द्वारा लिखा गया था ?",
+    "options": [
+      "H.E. Bliss",
+      "E.C. Richardson",
+      "E.W. Hulme",
+      "W.C.B. Sayers"
+    ],
+    "answer": 0,
+    "explanation": "हेनरी एवलिन ब्लिस (H.E. Bliss) ने \"The Organization of Knowledge in Libraries and the Subject-Approach to Books\" (1929) और \"The Organization of Knowledge and the System of the Sciences\" (1933) नामक पुस्तकें लिखीं, जो पुस्तकालय वर्गीकरण के क्षेत्र में महत्वपूर्ण कार्य हैं।",
+    "category": "ज्ञान जगत",
+    "source": "DSSSB-2021 TECHNICAL ASSISTANT"
+  },
+  {
+    "question": "ज्ञान समूहों की पहचान किसने की 'ज्ञान के तीन संसार' ?",
+    "options": [
+      "Karl Popper",
+      "Marry Karl",
+      "Neel Meghan",
+      "Alvin Toffler"
+    ],
+    "answer": 0,
+    "explanation": "प्रसिद्ध दार्शनिक कार्ल पॉपर ने 'तीन विश्व' (Three Worlds) का सिद्धांत दिया: विश्व 1 (भौतिक वस्तुओं का संसार), विश्व 2 (मानसिक या मनोवैज्ञानिक अवस्थाओं का संसार), और विश्व 3 (विचारों का संसार, जैसे वैज्ञानिक सिद्धांत, कला, और साहित्य)। पुस्तकालयों को विश्व 3 का भंडार माना जाता है।",
+    "category": "ज्ञान जगत",
+    "source": "DSSSB 2023 SHIFT II"
+  },
+  {
+    "question": "'वर्तमान जन-सम्पर्क नीतियों और व्यवहार का एक सुनियोजित कार्यक्रम है, जनता का ज्ञान तथा विश्वास बढ़ाता है।' परिभाषा ............. ने दी है।",
+    "options": [
+      "B.H. Christian",
+      "J.N. Wright and B. H. Christian",
+      "S.R. Ranganathan",
+      "J.N. Right"
+    ],
+    "answer": 1,
+    "explanation": "यह परिभाषा जनसंपर्क के क्षेत्र से संबंधित है और जे.एन. राइट और बी.एच. क्रिश्चियन द्वारा दी गई है, जो इस क्षेत्र के विशेषज्ञ थे।",
+    "category": "ज्ञान जगत",
+    "source": "RAJASTHAN UNIVERSITY JTA-2018"
+  },
+  {
+    "question": "'वेहर इज द विजडम, वी लॉस्ट इन नॉलेज...' उक्ति किसके द्वारा है ?",
+    "options": [
+      "John Keats",
+      "M.P. Carter",
+      "T.S. Eliot",
+      "Marshall McLuhan"
+    ],
+    "answer": 2,
+    "explanation": "यह टी.एस. एलियट की कविता \"The Rock\" (1934) की प्रसिद्ध पंक्ति \"Where is the wisdom we have lost in knowledge?\" का हिंदी रूपांतरण है।",
+    "category": "ज्ञान जगत",
+    "source": "AIIMS BATHINDA-2019"
+  },
+  {
+    "question": "किसी ऐसे समाज को संदर्भित करता है जहां पूंजी और श्रम के बजाय ज्ञान प्राथमिक उत्पादन संसाधन है ?",
+    "options": [
+      "Knowledge Society",
+      "Information Society",
+      "Industrial Society",
+      "Agricultural Society"
+    ],
+    "answer": 0,
+    "explanation": "ज्ञान समाज (Knowledge Society) एक ऐसा समाज है जहाँ ज्ञान का सृजन, प्रसार और उपयोग आर्थिक समृद्धि और विकास के मुख्य चालक हैं, जो औद्योगिक समाज में पूंजी और श्रम की जगह लेते हैं। पीटर ड्रकर ने इस अवधारणा को लोकप्रिय बनाया।",
+    "category": "ज्ञान जगत",
+    "source": "DSSSB-2021 TECHNICAL ASSISTANT"
+  },
+  {
+    "question": "बेकोनियन वर्गीकरण पद्धति (Baconian System of Classification) क्या है ?",
+    "options": [
+      "सजीवों और रसायनों जैसे सत्वों entities का वर्गीकरण /Classification of entities like living beings and chemicals",
+      "मस्तिष्क के तीन कार्यों स्मृति, कारण और कल्पना के आधार पर ज्ञान का तीन श्रेणियों में विभाजन / Division of knowledge into three categories based on the three functions of the brain: memory, reason and imagination.",
+      "सूक्ष्म विषयों को अनुक्रमणिका के रूप में व्यवस्थित करने के लिए डिजाईन की गई वर्गीकरण पद्धति / Classification system designed to organize subtle subjects in the form of an index.",
+      "ज्ञान का सार, मात्रा, गुण, संबंध, स्थान और समय में विभाजन/Essence, quantity, qualities of knowledge. relation, division in space and time"
+    ],
+    "answer": 1,
+    "explanation": "फ़्रांसिस बेकन ने अपने ज्ञान के वर्गीकरण का आधार मानव मस्तिष्क के तीन संकायों (faculties) को बनाया: स्मृति (Memory), तर्क (Reason), और कल्पना (Imagination)। इनसे क्रमशः इतिहास (History), दर्शन (Philosophy), और काव्य (Poetry) उत्पन्न होते हैं।",
+    "category": "ज्ञान जगत",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "किसने सम्पूर्ण ज्ञान को कविता, इतिहास एवं कानून में विच्छेदित किया ?",
+    "options": [
+      "Arastu",
+      "Francis Bacon",
+      "August Comte",
+      "Herbert Spencer"
+    ],
+    "answer": 1,
+    "explanation": "फ़्रांसिस बेकन ने ज्ञान को तीन मुख्य शाखाओं में विभाजित किया जो मानव मन की क्षमताओं पर आधारित थीं: इतिहास (स्मृति से), काव्य (कल्पना से), और दर्शन (तर्क से)। प्रश्न में 'कानून' संभवतः 'दर्शन' (Philosophy) का एक हिस्सा या गलत अनुवाद है, लेकिन यह विभाजन फ्रांसिस बेकन से ही जुड़ा है।",
+    "category": "ज्ञान जगत",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "फ्रांसिस बेकन द्वारा विकसित ज्ञान वर्गीकरण की पद्धति बेकोनियन क्लासिफिकेशन को सर्वप्रथम उनके किस स्रोत में प्रस्तुत किया गया ?",
+    "options": [
+      "Canons of Classification",
+      "Advancement of knowledge",
+      "Facets of Classification",
+      "Knowledge Classification"
+    ],
+    "answer": 1,
+    "explanation": "फ्रांसिस बेकन ने अपनी ज्ञान वर्गीकरण की पद्धति को अपनी प्रसिद्ध पुस्तक \"The Advancement of Learning\" (1605) में प्रस्तुत किया था।",
+    "category": "ज्ञान जगत",
+    "source": "NVS 2022 MORNING"
+  },
+  {
+    "question": "ज्ञान की श्रेणियाँ कल्पना, स्मृति, कारण, द्वारा निर्धारित की गई ?",
+    "options": [
+      "Francis Bacon",
+      "S. R. Ranganathan",
+      "Linda Jegzewski",
+      "John Dewey"
+    ],
+    "answer": 0,
+    "explanation": "यह फ्रांसिस बेकन थे जिन्होंने ज्ञान को मानव मन के तीन कार्यों - कल्पना (Imagination), स्मृति (Memory), और तर्क (Reason) के आधार पर वर्गीकृत किया।",
+    "category": "ज्ञान जगत",
+    "source": "NVS 2022 EVENING"
+  },
+  {
+    "question": "निम्नलिखित में से पुस्तकालयों की महत्वपूर्ण भूमिका क्या है ?",
+    "options": [
+      "Transmission of knowledge",
+      "Production of knowledge",
+      "Serving users with",
+      "Imparting education and training"
+    ],
+    "answer": 0,
+    "explanation": "पुस्तकालयों की प्राथमिक और सबसे महत्वपूर्ण भूमिकाओं में से एक ज्ञान का संरक्षण और भावी पीढ़ियों तक उसका प्रसारण (Transmission) करना है। जबकि वे उपयोगकर्ताओं की सेवा भी करते हैं और शिक्षा में सहायता करते हैं, ज्ञान का प्रसारण एक मौलिक कार्य है।",
+    "category": "ज्ञान जगत",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "डी.डब्ल्यू. लैग्रिज के ज्ञान जगत के चित्रण के 4 सिद्धान्त हैं ?",
+    "options": [
+      "Ideological principles, Principle of Social Purpose, Scientific order, Principle of arrangement by disciplines",
+      "Ideological principles, Scientific order, principle of Arrangement by Discipline",
+      "Principles of Thought, Ideological Principle, Principles of Social Purpose, Scientific Order",
+      "Principles of Development, Ideological Principles, Principles of Social Purpose, Scientific Order"
+    ],
+    "answer": 0,
+    "explanation": "D.W. Langridge ने विषय विश्लेषण के लिए चार सिद्धांतों का प्रस्ताव दिया: वैचारिक सिद्धांत (Ideological principles), सामाजिक उद्देश्य का सिद्धांत (Principle of Social Purpose), वैज्ञानिक क्रम (Scientific order), और विषयों द्वारा व्यवस्था का सिद्धांत (Principle of arrangement by disciplines)।",
+    "category": "ज्ञान जगत",
+    "source": "RPSC ASS. PROFESSOR PAPER 1-2024"
+  },
+  {
+    "question": "'मस्तिष्क कोठरी' का अध्ययन ग्रंथालय विज्ञान में किसमें किया जाता है ?",
+    "options": [
+      "Computer and information technology",
+      "Universe of knowledge",
+      "System analysis",
+      "none of these"
+    ],
+    "answer": 1,
+    "explanation": "'मस्तिष्क कोठरी' (Pigeon-hole of brain) की अवधारणा का अध्ययन ग्रंथालय विज्ञान में ज्ञान जगत (Universe of Knowledge) के संदर्भ में किया जाता है। यह समझने में मदद करता है कि मानव मन ज्ञान को कैसे वर्गीकृत और संग्रहीत करता है, जो पुस्तकालय वर्गीकरण सिद्धांतों के लिए एक आधार प्रदान करता है।",
+    "category": "ज्ञान जगत",
+    "source": "MPPSC-2020"
+  },
+  {
+    "question": "किस घटक को एक विशेषज्ञ प्रणाली का 'मस्तिष्क' माना जाता है ?",
+    "options": [
+      "Knowledge-base",
+      "User interface",
+      "Inference engine",
+      "Expert"
+    ],
+    "answer": 2,
+    "explanation": "एक विशेषज्ञ प्रणाली (Expert System) में, इन्फेरेंस इंजन (Inference Engine) को उसका 'मस्तिष्क' माना जाता है। यह नॉलेज बेस (Knowledge-base) में संग्रहीत ज्ञान पर तर्क करने और उपयोगकर्ता के प्रश्नों के आधार पर निष्कर्ष निकालने के लिए नियमों का उपयोग करता है।",
+    "category": "ज्ञान जगत",
+    "source": "KERLA PSC 2014"
+  },
+  {
+    "question": "वह ज्ञान जिसके तहत हमारे पास वैध, सचेतन और आत्मविश्लेषी पहुंच है सभी परिस्थितियाँ कहलाती हैं ?",
+    "options": [
+      "Tacit knowledge",
+      "Explicit knowledge",
+      "Predictive knowledge",
+      "Semi-tacit knowledge"
+    ],
+    "answer": 1,
+    "explanation": "सुव्यक्त ज्ञान (Explicit Knowledge) वह ज्ञान है जिसे आसानी से व्यक्त, संहिताबद्ध, संग्रहीत और प्रसारित किया जा सकता है। यह दस्तावेज़ों, डेटाबेस और प्रक्रियाओं में पाया जाता है और इस तक सचेत रूप से पहुँचा जा सकता है। इसके विपरीत, मौन ज्ञान (Tacit Knowledge) व्यक्तिगत, प्रासंगिक और औपचारिक रूप से व्यक्त करना कठिन होता है।",
+    "category": "ज्ञान जगत",
+    "source": "MHPSC 2017 PAPER-III"
+  },
+  {
+    "question": "ज्ञान प्रबंधन से क्या तात्पर्य है ?",
+    "options": [
+      "इसमें सूचना प्रबंधन की सारी गतिविधियाँ शामिल हैं",
+      "प्रबंधन की सारी गतिविधियाँ",
+      "इसमें सूचना प्रबंधन की सारी गतिविधियों के साथ-साथ कुछ और खास गतिविधियाँ भी शमिल हैं",
+      "यह सूचना प्रबंधन जैसा ही है"
+    ],
+    "answer": 2,
+    "explanation": "ज्ञान प्रबंधन (Knowledge Management) सूचना प्रबंधन से अधिक व्यापक है। इसमें सूचना प्रबंधन की गतिविधियाँ (जैसे सूचना का संग्रह, संगठन, भंडारण और पुनर्प्राप्ति) तो शामिल हैं ही, साथ ही इसमें ज्ञान के सृजन, साझाकरण, उपयोग और नवाचार जैसी अतिरिक्त गतिविधियाँ भी शामिल हैं।",
+    "category": "ज्ञान जगत",
+    "source": "NVS 2019"
+  },
+  {
+    "question": "ज्ञान जगत का वह भाग जिसका विस्तारण एवं गहनता विषय विचार के बराबर होता है, उसे कहते है ?",
+    "options": [
+      "Facet",
+      "Knowledge classification",
+      "book classification",
+      "specific Subject"
+    ],
+    "answer": 3,
+    "explanation": "एक विशिष्ट विषय (Specific Subject) ज्ञान जगत का वह सटीक हिस्सा होता है जिसका विस्तार (Extension) और गहनता (Intension) किसी विशेष दस्तावेज़ या विचार के बराबर होती है। पुस्तकालय वर्गीकरण का उद्देश्य इसी विशिष्ट विषय को एक सटीक वर्ग संख्या प्रदान करना है।",
+    "category": "ज्ञान जगत",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "ज्ञान के विशिष्ट क्षेत्र से सम्बन्धित दस्तावेजों की एक व्यवस्थित सूची को क्या कहते हैं ?",
+    "options": [
+      "Subject bibliography",
+      "Author Bibliography",
+      "Analytical bibliography",
+      "None of the above"
+    ],
+    "answer": 0,
+    "explanation": "विषय ग्रंथ सूची (Subject bibliography) किसी विशिष्ट विषय या ज्ञान के क्षेत्र से संबंधित दस्तावेजों (जैसे किताबें, लेख, आदि) की एक व्यवस्थित सूची होती है।",
+    "category": "ज्ञान जगत",
+    "source": "UKSSSC-2018"
+  },
+  {
+    "question": "अभिकथन (A) : ज्ञान के संगठन के लिए वर्गीकरण का महत्व जारी रहेगा । तर्क (R) : इलेक्ट्रॉनिक युग में वर्गीकरण अनावश्यक हो गया है।",
+    "options": [
+      "Both (A) and (R) are false",
+      "(A) is false, but (R) is true",
+      "(A) is true, but R) is false",
+      "Both (A) and (R) are true"
+    ],
+    "answer": 2,
+    "explanation": "अभिकथन (A) सत्य है क्योंकि ज्ञान की विशाल मात्रा को व्यवस्थित करने और पुनः प्राप्त करने के लिए वर्गीकरण हमेशा महत्वपूर्ण रहेगा। तर्क (R) असत्य है क्योंकि इलेक्ट्रॉनिक युग ने वर्गीकरण को अनावश्यक नहीं बनाया है, बल्कि डिजिटल संसाधनों (जैसे वेबसाइट, डेटाबेस) के प्रभावी संगठन के लिए इसे और भी महत्वपूर्ण बना दिया है।",
+    "category": "ज्ञान जगत",
+    "source": "UPPSC 2023 SHIFT-1"
+  },
+  {
+    "question": "ज्ञान का समाजशास्त्र संदर्भित करता है ?",
+    "options": [
+      "किसी व्यक्ति के दिमाग का ज्ञान उसे या उसके माध्यम से दूसरों को उपलब्ध होता है, यदि उसे संप्रेषित किया जाए।",
+      "किसी समाज या सामाजिक व्यवस्था के पास सामूहिक रूप से मौजूद ज्ञान और समाज के सभी सदस्यों के लिए स्वतंत्र रूप से और समान रूप से उपलब्ध होना माना जाता है।",
+      "मानव समाज की उत्पत्ति, विकास, संगठन और कामकाज का विज्ञान या अध्ययन।",
+      "मनुष्य का सामाजिक वातावरण या परिवेश"
+    ],
+    "answer": 2,
+    "explanation": "ज्ञान का समाजशास्त्र (Sociology of knowledge) समाजशास्त्र की वह शाखा है जो मानव विचारों और समाज के बीच संबंधों का अध्ययन करती है। यह इस बात की जाँच करता है कि सामाजिक और सांस्कृतिक कारक ज्ञान के उत्पादन, वितरण और सामग्री को कैसे प्रभावित करते हैं। विकल्प (c) समाजशास्त्र की एक सामान्य परिभाषा देता है, जो इस संदर्भ में सबसे उपयुक्त है।",
+    "category": "ज्ञान जगत",
+    "source": "DSSSB 2023 SHIFT II"
+  },
+  {
+    "question": "समाचार पत्र किसका प्रसार करते है ?",
+    "options": [
+      "Knowledge",
+      "Data",
+      "Factual information",
+      "Current information"
+    ],
+    "answer": 0,
+    "explanation": "समाचार पत्र मुख्य रूप से सामयिक सूचना (Current information) और तथ्यात्मक सूचना (Factual information) का प्रसार करते हैं। हालांकि पाठक इस सूचना से ज्ञान प्राप्त कर सकते हैं, समाचार पत्रों का प्राथमिक कार्य हाल की घटनाओं पर रिपोर्ट करना है। दिए गए उत्तर के अनुसार, यह माना जाता है कि सूचना के प्रसार से अंततः ज्ञान का प्रसार होता है।",
+    "category": "ज्ञान जगत",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "ज्ञान की निम्नलिखित में से कौन सी विशेषता सत्य है ?",
+    "options": [
+      "Knowledge is complete",
+      "Knowledge is dependent",
+      "Knowledge is independent",
+      "Knowledge is finite"
+    ],
+    "answer": 1,
+    "explanation": "ज्ञान आश्रित (dependent) होता है; यह पिछले ज्ञान, अनुभव और संदर्भ पर निर्भर करता है। ज्ञान कभी भी पूर्ण (complete) या परिमित (finite) नहीं होता, यह लगातार विकसित और विस्तारित होता है। यह स्वतंत्र (independent) भी नहीं है क्योंकि यह हमेशा किसी ज्ञाता (knower) और ज्ञात वस्तु (known object) से जुड़ा होता है।",
+    "category": "ज्ञान जगत",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "वैज्ञानिक ज्ञान क्या है?",
+    "options": [
+      "Inner knowledge of a person",
+      "Comprehensive knowledge",
+      "Knowledge based on experiment",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "वैज्ञानिक ज्ञान (Scientific Knowledge) वह ज्ञान है जो अवलोकन, परिकल्पना, प्रयोग और सत्यापन की वैज्ञानिक पद्धति के माध्यम से प्राप्त किया जाता है। यह अनुभवजन्य साक्ष्य पर आधारित होता है और इसकी पुष्टि की जा सकती है।",
+    "category": "ज्ञान जगत",
+    "source": "TNPSC LIBRARAY ASSISTANT"
+  },
+  {
+    "question": "'बीजगणित' को किस प्रकार के विषय के रूप में वर्गीकृत किया जा सकता है ?",
+    "options": [
+      "Primary basic subject",
+      "Compound subject",
+      "Non-primary basic subject",
+      "Complex subject"
+    ],
+    "answer": 2,
+    "explanation": "रंगनाथन के अनुसार, 'बीजगणित' (Algebra) एक गैर-प्राथमिक मूल विषय (Non-primary basic subject) है। यह गणित (Mathematics) जो एक प्राथमिक मूल विषय है, से विखंडन (fission) की प्रक्रिया द्वारा उत्पन्न होता है।",
+    "category": "विषय जगत",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "एक मिश्रित विषय के विभिन्न घटकों के बीच वस्तु, सामग्री और क्रिया के क्रम का विस्तार किसके द्वारा किया गया था ?",
+    "options": [
+      "D.J. Coates",
+      "J.R. Sharp",
+      "J. Kaiser",
+      "J.E.L. Ferradane"
+    ],
+    "answer": 0,
+    "explanation": "ई.जे. कोट्स (E.J. Coates) ने ब्रिटिश टेक्नोलॉजी इंडेक्स (BTI) के लिए अपनी श्रृंखला अनुक्रमण प्रक्रिया में 'थिंग-मटेरियल-एक्शन' (Thing-Material-Action) के सिद्धांत का उपयोग किया, जो मिश्रित विषयों के घटकों को एक सुसंगत क्रम में व्यवस्थित करने में मदद करता है।",
+    "category": "विषय जगत",
+    "source": "KERLA PSC 2017"
+  },
+  {
+    "question": "'डेकाचोटॉमी' के प्रवर्तक कौन थे ?",
+    "options": [
+      "Melvil Dewey",
+      "F.C. Lancaster",
+      "C.A. Cutter",
+      "S.R. Ranganathan"
+    ],
+    "answer": 0,
+    "explanation": "मेल्विल डेवी अपनी डेवी डेसीमल क्लासिफिकेशन (DDC) स्कीम में डेकाचोटॉमी (Decachotomy) या दस भागों में विभाजन के सिद्धांत का उपयोग करने के लिए जाने जाते हैं, जहाँ ज्ञान के ब्रह्मांड को 10 मुख्य वर्गों में विभाजित किया गया है, और प्रत्येक वर्ग को आगे 10 उप-वर्गों में विभाजित किया गया है।",
+    "category": "विषय जगत",
+    "source": "CHATTISGARH PSC-2019"
+  },
+  {
+    "question": "'डेकाकोटामी' का अर्थ है ?",
+    "options": [
+      "दो में बाँटना",
+      "दस में बाँटना",
+      "पाँच में बाँटना",
+      "सौ में बाँटना"
+    ],
+    "answer": 1,
+    "explanation": "डेकाकोटामी (Decachotomy) का अर्थ है किसी वर्ग या समूह को दस भागों या उप-समूहों में विभाजित करना। यह डेवी डेसीमल क्लासिफिकेशन (DDC) का आधारभूत सिद्धांत है।",
+    "category": "विषय जगत",
+    "source": "MPPSC-2019"
+  },
+  {
+    "question": "एक शीर्षक जो आंगिक रूप से विषय के लिए प्रासंगिक है, वह विषय है ?",
+    "options": [
+      "Penumbral Subject",
+      "Basic subject",
+      "Alien Subject",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "एक मूल विषय (Basic Subject) वह विषय होता है जो अपने आप में पूर्ण होता है और किसी अन्य विषय पर आश्रित नहीं होता है। यह वर्गीकरण का मुख्य आधार बनता है। यह विषय के लिए आंगिक रूप से प्रासंगिक होता है।",
+    "category": "विषय जगत",
+    "source": "KVS 2015"
+  },
+  {
+    "question": "एक विचार जिसे किसी भी मूल विषय में फिट किया जा सकता है, के रूप में जाना जाता है ?",
+    "options": [
+      "Isolate",
+      "Array",
+      "Schedules",
+      "Main class"
+    ],
+    "answer": 0,
+    "explanation": "एक एकल (Isolate) एक विचार या अवधारणा है जिसे किसी मूल विषय (Basic Subject) के साथ जोड़ा जा सकता है। विशेष रूप से, एक सामान्य एकल (Common Isolate), जैसे 'सिद्धांत' या 'सम्मेलन', को लगभग किसी भी मूल विषय के साथ जोड़ा जा सकता है।",
+    "category": "विषय जगत",
+    "source": "MIZORAM PSC 2013 PAPER-I"
+  },
+  {
+    "question": "एक या अधिक पृथक विचारों वाले मूल विषय को कहा जाता है ?",
+    "options": [
+      "Complex",
+      "Compound",
+      "Basic",
+      "Mixed"
+    ],
+    "answer": 1,
+    "explanation": "एक मिश्रित विषय (Compound Subject) तब बनता है जब एक मूल विषय (Basic Subject) के साथ एक या एक से अधिक एकल विचार (Isolate ideas) जोड़े जाते हैं। उदाहरण: 'भारत में पुस्तकालय', यहाँ 'पुस्तकालय' मूल विषय है और 'भारत' एक एकल विचार है।",
+    "category": "विषय जगत",
+    "source": "GUWAHTI HIGH COURT 2019"
+  },
+  {
+    "question": "'ट्री ऑफ पॉरफिरी' किससे सम्बन्धित है ?",
+    "options": [
+      "Decachotomy",
+      "Polychotomy",
+      "Dichotomy",
+      "Proliferation"
+    ],
+    "answer": 2,
+    "explanation": "'ट्री ऑफ पॉरफिरी' (Tree of Porphyry) वर्गीकरण का एक क्लासिक उदाहरण है जो द्विविभाजन (Dichotomy) या दो भागों में विभाजन के सिद्धांत का उपयोग करता है। इसमें प्रत्येक वर्ग को क्रमिक रूप से दो उप-वर्गों में विभाजित किया जाता है।",
+    "category": "विषय जगत",
+    "source": "KERLA PSC 2014, KVS 2023 SHIFT-2"
+  },
+  {
+    "question": "डाइकोटॉमी से संदर्भित है ?",
+    "options": [
+      "Division into five",
+      "Division into four",
+      "Division into six",
+      "Division into two"
+    ],
+    "answer": 3,
+    "explanation": "डाइकोटॉमी (Dichotomy) का अर्थ है किसी वस्तु या अवधारणा को दो परस्पर अनन्य (mutually exclusive) भागों में विभाजित करना।",
+    "category": "विषय जगत",
+    "source": "DSSSB 2019,POST CODE 9/17"
+  },
+  {
+    "question": "रेमीफिकेशन का तात्पर्य है ?",
+    "options": [
+      "पंक्ति",
+      "उपसूत्र",
+      "विषय का विभाजन एवं उपविभाजन",
+      "सामान्य एकल"
+    ],
+    "answer": 2,
+    "explanation": "रेमीफिकेशन (Ramification) का शाब्दिक अर्थ शाखाओं में बँटना है। वर्गीकरण के संदर्भ में, इसका तात्पर्य किसी विषय को उसके घटकों या उप-विषयों में विभाजित और उप-विभाजित करने की प्रक्रिया से है, जिससे एक पदानुक्रमित संरचना बनती है।",
+    "category": "विषय जगत",
+    "source": "RSMSSB-2016"
+  },
+  {
+    "question": "किसके द्वारा परिभाषित किया गया है कि 'पुस्तकालय वर्गीकरण किसी पुस्तक के विशिष्ट विषय के नाम को, क्रम सूचक अंकों की अधिमान्य कृत्रिम भाषा में अनुवाद करना है' ?",
+    "options": [
+      "W.C.B. Sayers",
+      "S.R. Ranganathan",
+      "Margaret Mann",
+      "Henry E. Bliss"
+    ],
+    "answer": 1,
+    "explanation": "यह पुस्तकालय वर्गीकरण की प्रसिद्ध परिभाषा डॉ. एस. आर. रंगनाथन द्वारा दी गई है। उन्होंने वर्गीकरण को वैचारिक धरातल (Idea Plane) के विषय को अंकन धरातल (Notational Plane) की कृत्रिम भाषा में अनुवाद करने की प्रक्रिया के रूप में वर्णित किया।",
+    "category": "विषय जगत",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "जब विचार व्यवस्थित हो जाते हैं, तो एक ..... बनता है ?",
+    "options": [
+      "एकल",
+      "विषय",
+      "ज्ञान",
+      "शब्द"
+    ],
+    "answer": 1,
+    "explanation": "जब विचारों को एक संरचित और सुसंगत तरीके से व्यवस्थित किया जाता है, तो वे एक विषय (Subject) का निर्माण करते हैं।",
+    "category": "विषय जगत",
+    "source": "RPSC GRADE II 2020"
+  },
+  {
+    "question": "डॉ. एस. आर. रंगनाथन द्वारा प्रतिपादित पुस्तक संख्या के पक्ष सूत्र के सही अनुक्रम की पहचान करें ?<br>(a) मूल्यांकन / Evaluation<br>(b) भाषा/Language<br>(c) वर्ष/Year<br>(d) प्रपत्र/Form",
+    "options": [
+      "b, a, d, and c",
+      "b, a, c, and a",
+      "d, a, c and b",
+      "b, d, c, and a"
+    ],
+    "answer": 3,
+    "explanation": "डॉ. एस. आर. रंगनाथन के पुस्तक संख्या सूत्र (Book Number Formula) में आठ तत्व होते हैं, जिनका क्रम है: भाषा [L], प्रपत्र [F], वर्ष [Y], खंड [V], प्रतिलिपि [C], आलोचना [Cr], आदि। दिए गए विकल्पों का सही क्रम है: भाषा [b], प्रपत्र [d], वर्ष [c], और मूल्यांकन/आलोचना [a]।",
+    "category": "विषय जगत",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "दो भागों में बाँटना कहलाता है ?",
+    "options": [
+      "Dichotomy",
+      "Decachotomy",
+      "Polychotomy",
+      "Monochotomy"
+    ],
+    "answer": 0,
+    "explanation": "किसी वर्ग को दो उप-वर्गों में विभाजित करने की प्रक्रिया को द्विविभाजन या डाइकोटॉमी (Dichotomy) कहा जाता है।",
+    "category": "विषय जगत",
+    "source": "TNPSC LIBRARAY ASSISTANT"
+  },
+  {
+    "question": "विषयों की संरचना के प्रति रंगनाथन का दृष्टिकोण आधारित है?",
+    "options": [
+      "Postulational and systems approaches",
+      "Mnemonic approach",
+      "Theoretical approach",
+      "Practical approach"
+    ],
+    "answer": 0,
+    "explanation": "विषयों की संरचना के प्रति रंगनाथन का दृष्टिकोण अभिधारणात्मक (Postulational) था। उन्होंने सिद्धांतों (Canons), अभिधारणाओं (Postulates), और उसूलों (Principles) का एक सेट तैयार किया, जो एक व्यवस्थित (systems) दृष्टिकोण का निर्माण करता है, जिसे किसी भी वर्गीकरण योजना के डिजाइन और मूल्यांकन के लिए लागू किया जा सकता है।",
+    "category": "विषय जगत",
+    "source": "DSSSB-2017"
+  },
+  {
+    "question": "एस. आर. रंगनाथन के अनुसार 'स्पोट विषय' है ?",
+    "options": [
+      "लघु विस्तार और गहरे अभिप्राय का विषय",
+      "दो या दो से अधिक विषयों के मेल से बना विषय",
+      "बड़े विस्तार और गहरे अभिप्राय का विषय",
+      "बहुत छोटे विस्तार और बहुत गहरे अभिप्राय के विषय"
+    ],
+    "answer": 3,
+    "explanation": "डॉ. एस. आर. रंगनाथन के अनुसार, 'स्पॉट विषय' या सूक्ष्म विषय (Micro Subject) वह विषय होता है जिसका विस्तार (Extension) बहुत छोटा होता है लेकिन जिसकी गहनता (Intension) बहुत अधिक होती है। इन विषयों के वर्गीकरण के लिए गहन वर्गीकरण (Depth Classification) की आवश्यकता होती है।",
+    "category": "विषय जगत",
+    "source": "EMRS-2023"
+  },
+  {
+    "question": "विषय निर्माण की प्रणालियाँ किसके द्वारा प्रदान की गयी ?",
+    "options": [
+      "H.E. bliss",
+      "Melville Dewey",
+      "S. R. Ranganathan",
+      "D.J. Foskett"
+    ],
+    "answer": 2,
+    "explanation": "विषय निर्माण की विभिन्न विधियों (Modes of Formation of Subjects) जैसे विखंडन (Fission), विलयन (Fusion), आसवन (Distillation), पटलीकरण (Lamination), और समूह (Clustering) की व्यवस्थित पहचान और नामकरण डॉ. एस. आर. रंगनाथन द्वारा किया गया था।",
+    "category": "विषय निर्माण",
+    "source": "G. G. S. IND. UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "शैक्षिक मनोविज्ञान (Educational Psychology) इसका उदाहरण है ?",
+    "options": [
+      "Fusion",
+      "Fission",
+      "Clustering",
+      "Distillation"
+    ],
+    "answer": 0,
+    "explanation": "शैक्षिक मनोविज्ञान (Educational Psychology) विषय निर्माण की विलयन (Fusion) विधि का एक उदाहरण है। यह दो अलग-अलग मूल विषयों, शिक्षा (Education) और मनोविज्ञान (Psychology) के संलयन से बनता है, जिससे एक नया एकीकृत विषय बनता है जिसमें दोनों के गुण होते हैं।",
+    "category": "विषय निर्माण",
+    "source": "G.G.S. IND. UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "खगोल भौतिकी (Astrophysics) विषय किसके परिणामस्वरूप उभरा है ?",
+    "options": [
+      "lamination",
+      "fusion",
+      "agglomeration",
+      "loose assemblage"
+    ],
+    "answer": 1,
+    "explanation": "खगोल भौतिकी (Astrophysics) विषय निर्माण की विलयन (Fusion) विधि का एक उत्कृष्ट उदाहरण है। यह दो मूल विषयों, खगोल विज्ञान (Astronomy) और भौतिकी (Physics) के मिलने से बना एक नया अंतःविषय (interdisciplinary) विषय है।",
+    "category": "विषय निर्माण",
+    "source": "ASSAM PLC-2019"
+  },
+  {
+    "question": "'भू-भौतिकी' (Geophysics) की उत्पत्ति किसके परिणामस्वरूप हुई ?",
+    "options": [
+      "Lamination",
+      "fusion",
+      "Fission",
+      "Agglomeration"
+    ],
+    "answer": 1,
+    "explanation": "भू-भौतिकी (Geophysics) विषय निर्माण की विलयन (Fusion) विधि का एक उदाहरण है। यह दो अलग-अलग मूल विषयों, भू-विज्ञान (Geology) और भौतिकी (Physics) के संलयन से बनता है, जिससे एक नया एकीकृत अंतःविषय (interdisciplinary) विषय बनता है।",
+    "category": "विषय निर्माण",
+    "source": "CHATTISGARH PSC-2019"
+  },
+  {
+    "question": "'बायोकैमिस्ट्री' किसके परिणामस्वरूप बनती है ?",
+    "options": [
+      "Fusion",
+      "Fission",
+      "Loose assemblage",
+      "Agglomeration"
+    ],
+    "answer": 0,
+    "explanation": "बायोकैमिस्ट्री (Biochemistry) विषय निर्माण की विलयन (Fusion) विधि का एक उत्कृष्ट उदाहरण है। यह दो मूल विषयों, जीव विज्ञान (Biology) और रसायन विज्ञान (Chemistry) के मिलने से बना एक नया अंतःविषय विषय है।",
+    "category": "विषय निर्माण",
+    "source": "JKSSB, KERLA PSC 2016"
+  },
+  {
+    "question": "एस्ट्रोकेमिस्ट्री (Astrochemistry) का उदाहरण है ?",
+    "options": [
+      "Distillation",
+      "Fusion",
+      "Lamination",
+      "Cluster"
+    ],
+    "answer": 1,
+    "explanation": "एस्ट्रोकेमिस्ट्री (Astrochemistry) विषय निर्माण की विलयन (Fusion) विधि का एक उदाहरण है। यह दो मूल विषयों, खगोल विज्ञान (Astronomy) और रसायन विज्ञान (Chemistry) के मिलने से बना एक नया विषय है।",
+    "category": "विषय निर्माण",
+    "source": "NVS 2022 EVENING"
+  },
+  {
+    "question": "जैव प्रौद्योगिकी (Biotechnology) किसके परिणामस्वरूप बनती है ?",
+    "options": [
+      "Lamination",
+      "Fusion",
+      "Agglomeration",
+      "Fission"
+    ],
+    "answer": 1,
+    "explanation": "जैव प्रौद्योगिकी (Biotechnology) विषय निर्माण की विलयन (Fusion) विधि का एक उदाहरण है। यह जीव विज्ञान (Biology) और प्रौद्योगिकी (Technology) जैसे विषयों के सिद्धांतों और तकनीकों के संलयन से बनता है।",
+    "category": "विषय निर्माण",
+    "source": "KERLA PSC 2017, MPPSC-2018"
+  },
+  {
+    "question": "'बायोकेमिस्ट्री' और 'एस्ट्रोफिजिक्स' किस विषय के निर्माण की विधा के उदाहरण हैं ?",
+    "options": [
+      "Fission",
+      "Fusion",
+      "Lamination",
+      "Clustering"
+    ],
+    "answer": 1,
+    "explanation": "बायोकेमिस्ट्री (जीव विज्ञान + रसायन विज्ञान) और एस्ट्रोफिजिक्स (खगोल विज्ञान + भौतिकी) दोनों ही विषय निर्माण की विलयन (Fusion) विधा के उदाहरण हैं, जिसमें दो विषय मिलकर एक नया अंतःविषय विषय बनाते हैं।",
+    "category": "विषय निर्माण",
+    "source": "KERLA PSC 2022"
+  },
+  {
+    "question": "आसवन पुस्तकालय वर्गीकरण के तत्वों में विषय के निर्माण के तरीकों में से एक को जन्म देता है ?",
+    "options": [
+      "Loose New Subject",
+      "Assembled New Subject",
+      "Primary Basic Subject",
+      "Secondary Basic Subject"
+    ],
+    "answer": 2,
+    "explanation": "विषय निर्माण की आसवन (Distillation) विधि एक नए प्रकार के मूल विषय को जन्म देती है, जिसे प्राथमिक मूल विषय (Primary Basic Subject) कहा जाता है। यह विधि कई विषयों में पाई जाने वाली एक समान कार्यप्रणाली या सिद्धांत को निकालकर एक शुद्ध विषय बनाती है, जैसे 'अनुसंधान पद्धति' या 'प्रबंधन विज्ञान'।",
+    "category": "विषय निर्माण",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "प्रबंधन विज्ञान एक उदाहरण है ?",
+    "options": [
+      "Fission",
+      "Fusion",
+      "Dissection",
+      "Distillation"
+    ],
+    "answer": 3,
+    "explanation": "'प्रबंधन विज्ञान' (Management Science) विषय निर्माण की आसवन (Distillation) विधि का एक उत्कृष्ट उदाहरण है। यह विभिन्न विषयों जैसे अर्थशास्त्र, समाजशास्त्र, मनोविज्ञान आदि में प्रयुक्त प्रबंधन तकनीकों और सिद्धांतों को निकालकर बनाया गया एक शुद्ध विषय है।",
+    "category": "विषय निर्माण",
+    "source": "CGPSC LIBRARIAN"
+  },
+  {
+    "question": "'प्रबन्ध विज्ञान' (Management science) और 'शोध प्रविधियाँ (Research Methodology) किस विधि द्वारा बनते हैं ?",
+    "options": [
+      "Distillation",
+      "Fusion",
+      "Agglomeration",
+      "Cluster"
+    ],
+    "answer": 0,
+    "explanation": "प्रबंधन विज्ञान और शोध प्रविधियाँ दोनों ही विषय निर्माण की आसवन (Distillation) विधि के उदाहरण हैं। ये विषय विभिन्न विषयों में प्रयुक्त होने वाली सामान्य méthodologies को निकालकर बनाए गए हैं।",
+    "category": "विषय निर्माण",
+    "source": "RAJASTHAN UNIVERSITY JTA-2018"
+  },
+  {
+    "question": "निम्नलिखित में से किस विधा द्वारा 'अनुसंधान पद्धति' (Research Methodology) विषय का गठन किया गया है ?",
+    "options": [
+      "Fusion",
+      "Distillation",
+      "Fission",
+      "Loose Assemblage"
+    ],
+    "answer": 1,
+    "explanation": "'अनुसंधान पद्धति' (Research Methodology) विषय का गठन आसवन (Distillation) विधा द्वारा हुआ है। यह विभिन्न विषयों में की जाने वाली शोध प्रक्रियाओं से सामान्य तत्वों को निकालकर बनाया गया एक नया मूल विषय है।",
+    "category": "विषय निर्माण",
+    "source": "AIIMS, NAGPUR-2018"
+  },
+  {
+    "question": "रंगनाथन के विचार से प्राथमिक मूल विषय किस विधि से गठित होते हैं ?",
+    "options": [
+      "Fission",
+      "Lamination",
+      "Clustering",
+      "Division"
+    ],
+    "answer": 0,
+    "explanation": "डॉ. एस. आर. रंगनाथन के अनुसार, पारंपरिक प्राथमिक मूल विषय (Primary Basic Subjects) विखंडन (Fission) की प्रक्रिया द्वारा बनते हैं, जहाँ एक व्यापक विषय अपने घटकों में टूट जाता है जो स्वयं नए मूल विषय बन जाते हैं।",
+    "category": "विषय निर्माण",
+    "source": "RPSC ASS. PROFESSOR PAPER 1-2024"
+  },
+  {
+    "question": "विषय को विभिन्न भागों में तोड़ने की प्रक्रिया है ?",
+    "options": [
+      "Fusion",
+      "Fission",
+      "Lamination",
+      "Agglomeration"
+    ],
+    "answer": 1,
+    "explanation": "विखंडन (Fission) वह प्रक्रिया है जिसमें एक विषय को उसके घटक भागों में तोड़ा या विभाजित किया जाता है, जिससे नए मूल विषयों का निर्माण हो सकता है।",
+    "category": "विषय निर्माण",
+    "source": "TELANGANA-2023"
+  },
+  {
+    "question": "सत्ता जगत के समकक्ष स्तर के भागों में विभाजन को ....... कहते है?",
+    "options": [
+      "Loose Assemblage",
+      "Super- Imposition",
+      "Fusion",
+      "Dissection"
+    ],
+    "answer": 3,
+    "explanation": "विच्छेदन (Dissection) किसी सत्ता जगत (universe of entities) को समकक्ष या समन्वय (coordinate) स्तर के भागों में विभाजित करने की प्रक्रिया है। उदाहरण के लिए, 'विश्व' को 'एशिया', 'यूरोप', 'अफ्रीका' आदि महाद्वीपों में विभाजित करना।",
+    "category": "विषय निर्माण",
+    "source": "KVS 2018 EVENING, KVS 2023 SHIFT-2"
+  },
+  {
+    "question": "प्याज को छीलना इसका उदाहरण है ?",
+    "options": [
+      "Denudation",
+      "Fission",
+      "Dissection",
+      "Lamination"
+    ],
+    "answer": 0,
+    "explanation": "अनाच्छादन (Denudation) उस प्रक्रिया को संदर्भित करता है जहां उत्तरोत्तर परतों को हटाकर विषय की गहनता (intension) बढ़ाई जाती है और विस्तार (extension) कम किया जाता है। प्याज को परत दर परत छीलना इस प्रक्रिया के लिए एक क्लासिक रूपक है, जिससे वर्गों की एक श्रृंखला (chain of classes) बनती है।",
+    "category": "विषय निर्माण",
+    "source": "DSSSB 2023"
+  },
+  {
+    "question": "किसी मूलभूत विषय या एकल विचार के विस्तार में उत्तरोत्तर कमी और गहराई में वृद्धि को कहते हैं ?",
+    "options": [
+      "Fusion",
+      "Dissection",
+      "Denudation",
+      "Loose Assemblage"
+    ],
+    "answer": 2,
+    "explanation": "अनाच्छादन (Denudation) विषय निर्माण की वह विधि है जिसमें किसी विषय के विस्तार (extension) में उत्तरोत्तर कमी होती है और उसकी गहनता (intension) में वृद्धि होती है, जिसके परिणामस्वरूप वर्गों की एक श्रृंखला (chain) बनती है।",
+    "category": "विषय निर्माण",
+    "source": "EMRS-2023"
+  },
+  {
+    "question": "विषयों के गठन की विच्छेदन विधि अब लगभग समान है ?",
+    "options": [
+      "Fission",
+      "Denudation",
+      "Lamination",
+      "Distillation"
+    ],
+    "answer": 0,
+    "explanation": "विच्छेदन (Dissection) और विखंडन (Fission) बहुत निकट से संबंधित अवधारणाएं हैं। विखंडन को एक प्रकार का विच्छेदन माना जा सकता है जिसके परिणामस्वरूप नए मूल विषय बनते हैं। आधुनिक उपयोग में, ये शब्द अक्सर एक दूसरे के स्थान पर उपयोग किए जाते हैं।",
+    "category": "विषय निर्माण",
+    "source": "a"
+  },
+  {
+    "question": "डेन्यूडेशन क्या है ?",
+    "options": [
+      "विस्तार को कम करने के लिये वर्गों को विभाजित करना",
+      "विस्तार को बढ़ाने के लिये वर्गों को विभाजित करना ?",
+      "गहनता को बढ़ाने तथा विस्तार को कम करने के लिये वर्गों को विभाजित करना।",
+      "गहनता को कम करने के लिए वर्गों को विभाजित करना"
+    ],
+    "answer": 2,
+    "explanation": "अनाच्छादन (Denudation) वर्गों को इस तरह से विभाजित करने की प्रक्रिया है जिससे उनकी गहनता (Intension/depth) बढ़े और विस्तार (Extension/breadth) कम हो।",
+    "category": "विषय निर्माण",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "विषय निर्माण विधि मे विखण्डन देता है ?",
+    "options": [
+      "Subordinate Subject",
+      "Basic subject",
+      "Canonical subjet",
+      "Coordinate"
+    ],
+    "answer": 1,
+    "explanation": "विषय निर्माण की विखंडन (Fission) विधि नए मूल विषयों (Basic Subjects) को जन्म देती है। उदाहरण के लिए, 'विज्ञान' का 'भौतिकी', 'रसायन विज्ञान', 'जीव विज्ञान' आदि में विखंडन।",
+    "category": "विषय निर्माण",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "विषयों के निर्माण में, संस्थाओं के ब्रह्मांड को समन्वय स्थिति के भागों में काटने के रूप में जाना जाता है ?",
+    "options": [
+      "Dissection",
+      "Lamination",
+      "Denudation",
+      "Loose Assemblage"
+    ],
+    "answer": 0,
+    "explanation": "विच्छेदन (Dissection) को किसी संस्थाओं के ब्रह्मांड को समन्वय (coordinate) या समकक्ष स्थिति के भागों में काटने की प्रक्रिया के रूप में परिभाषित किया गया है।",
+    "category": "विषय निर्माण",
+    "source": "KERLA PSC 2015"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सी प्रतिदर्श विधि उपयुक्त नहीं है, यदि इकाई सदस्य एकरूपीय हो ?",
+    "options": [
+      "Simple random",
+      "Cluster",
+      "Stratified",
+      "Systematic"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न अनुसंधान पद्धति से है। यदि जनसंख्या पूरी तरह से एकरूपीय (homogeneous) है, तो क्लस्टर (समूह) प्रतिचयन विधि आमतौर पर कम कुशल और अनुपयुक्त होती है क्योंकि यह विधि तब सबसे प्रभावी होती है जब समूहों के भीतर विषमता हो। एकरूपीय जनसंख्या के लिए सरल यादृच्छिक प्रतिचयन सबसे उपयुक्त है।",
+    "category": "विषय निर्माण",
+    "source": "RPSC ASS. PROFESSOR 2024"
+  },
+  {
+    "question": "विषय बंडल को कहा जाता है ?",
+    "options": [
+      "Cluster",
+      "Fusion",
+      "Fission",
+      "Lamination"
+    ],
+    "answer": 0,
+    "explanation": "'विषय बंडल' (Subject Bundle) विषय निर्माण की उस विधि का पुराना नाम है जिसे अब 'क्लस्टर' (Cluster) या 'समूहन' (Agglomeration) के नाम से जाना जाता है। इसमें विभिन्न विषयों को एक विशिष्ट क्षेत्र के अध्ययन के लिए एक साथ लाया जाता है।",
+    "category": "विषय निर्माण",
+    "source": "KERLA PSC 2015"
+  },
+  {
+    "question": "क्लस्टर को पहले कहा जाता था ?",
+    "options": [
+      "Partial comprechension",
+      "Agglomeration",
+      "Subject Bundle",
+      "Loos Assemblage"
+    ],
+    "answer": 2,
+    "explanation": "विषय निर्माण की विधि 'क्लस्टर' (Cluster) को पहले 'विषय बंडल' (Subject Bundle) के नाम से जाना जाता था। 'एग्लोमरेशन' भी इसी का एक और नाम है।",
+    "category": "विषय निर्माण",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "इंडोलोजी का उदाहरण है ?",
+    "options": [
+      "Fusion",
+      "Agglomeration",
+      "Fission",
+      "Cluster"
+    ],
+    "answer": 3,
+    "explanation": "इंडोलॉजी (Indology) या भारतविद्या, भारतीय इतिहास, साहित्य, दर्शन आदि का अध्ययन है। यह 'क्लस्टर' (Cluster) या समूहन विधि का एक उत्कृष्ट उदाहरण है, जहाँ एक भौगोलिक क्षेत्र पर ध्यान केंद्रित करने के लिए कई विषयों को एक साथ समूहीकृत किया जाता है।",
+    "category": "विषय निर्माण",
+    "source": "NVS 2022 EVENING"
+  },
+  {
+    "question": "'समुद्र विज्ञान' (Oceanography) विषय, विषय निर्माण की किस विधि का परिणाम है ?",
+    "options": [
+      "समूहन / Cluster",
+      "आसवन / Distillation",
+      "विखंडन / Fission",
+      "विलयन / Fusion"
+    ],
+    "answer": 0,
+    "explanation": "समुद्र विज्ञान (Oceanography) एक बहु-विषयी क्षेत्र है जो समुद्र के भौतिक, रासायनिक, भूवैज्ञानिक और जैविक पहलुओं का अध्ययन करता है। यह विभिन्न विषयों को एक अध्ययन क्षेत्र में एक साथ लाता है, जो समूहन (Cluster) का एक उदाहरण है।",
+    "category": "विषय निर्माण",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "उन लोगों के बीच बिना किसी विशेष व्यवस्था के संस्थाओं का एकत्रीकरण कहलाता है ?",
+    "options": [
+      "Grouping",
+      "Allocations",
+      "Cluster",
+      "Grouping and Cluster"
+    ],
+    "answer": 3,
+    "explanation": "'क्लस्टर' (Cluster) या 'समूहन' (Grouping) उन संस्थाओं या विषयों के एकत्रीकरण को संदर्भित करता है जिनके बीच कोई विशेष पदानुक्रमित व्यवस्था नहीं होती है, बल्कि उन्हें अध्ययन की सुविधा के लिए एक साथ लाया जाता है।",
+    "category": "विषय निर्माण",
+    "source": "KVS 2015"
+  },
+  {
+    "question": "विषय निर्माण विधि के संदर्भ में समान तथा सदृश विषय से संबंधित विशिष्ट अध्ययन/क्षेत्र वर्गीकृत किए जाते है ?",
+    "options": [
+      "Cluster",
+      "Lamination",
+      "Distillation",
+      "Fusion"
+    ],
+    "answer": 0,
+    "explanation": "'क्लस्टर' (Cluster) विधि का उपयोग उन विशिष्ट अध्ययन क्षेत्रों को वर्गीकृत करने के लिए किया जाता है जो कई समान या सदृश विषयों से संबंधित होते हैं, जैसे कि क्षेत्र अध्ययन (Area Studies)।",
+    "category": "विषय निर्माण",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "निम्नलिखित में से कोन यौगिक विषयो के निर्माण को जन्म देता है ?",
+    "options": [
+      "Distillation",
+      "Fission",
+      "Lamination",
+      "Fusion"
+    ],
+    "answer": 2,
+    "explanation": "पटलीकरण (Lamination) वह विषय निर्माण विधि है जो यौगिक विषयों (Compound Subjects) को जन्म देती है। इसमें एक मूल विषय पर एक या एक से अधिक एकल (isolates) की परतें चढ़ाई जाती हैं।",
+    "category": "विषय निर्माण",
+    "source": "GUWAHTI HIGH COURT 2019"
+  },
+  {
+    "question": "विषयों के बनने की एक प्रणाली 'परतीकरण' के द्वारा किस प्रकार के विषय का निर्माण होता है ?",
+    "options": [
+      "Simple subject",
+      "Compound subject",
+      "Complex subject",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "'परतीकरण' या पटलीकरण (Lamination) के द्वारा यौगिक विषयों (Compound subject) का निर्माण होता है। उदाहरण: 'गेहूँ की कृषि'।",
+    "category": "विषय निर्माण",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "'एग्रीकल्चर ऑफ कॉर्न' विषय निर्माण विधि की पहचान कीजिए ?",
+    "options": [
+      "Lamination",
+      "Fusion",
+      "Denudation",
+      "Dissection"
+    ],
+    "answer": 0,
+    "explanation": "'एग्रीकल्चर ऑफ कॉर्न' (मकई की कृषि) एक यौगिक विषय है जो मूल विषय 'एग्रीकल्चर' पर 'कॉर्न' नामक एकल (isolate) के पटलीकरण (Lamination) से बना है।",
+    "category": "विषय निर्माण",
+    "source": "NVS 2022 MORNING"
+  },
+  {
+    "question": "मूल विषय पर एक या एक से अधिक आइसोलेट रखने की प्रक्रिया कहलाती है ?",
+    "options": [
+      "Agglomeration",
+      "Lamination",
+      "Denudation",
+      "Fusion"
+    ],
+    "answer": 1,
+    "explanation": "पटलीकरण (Lamination) वह प्रक्रिया है जिसमें एक मूल विषय पर एक या एक से अधिक आइसोलेट (एकल) रखकर एक यौगिक विषय का निर्माण किया जाता है।",
+    "category": "विषय निर्माण",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "लूज असेंबलेज क्या है ?",
+    "options": [
+      "Process of collecting together entities into larger masses / संस्थाओं को बड़े पैमाने पर एकत्रित करने की प्रक्रिया",
+      "Emergence of new subjects of interdisciplinary nature / अंतःविषय प्रकृति के नए विषयों का उदय",
+      "Assembling to show the relation between two or more subjects or isolate ideas / दो या दो से अधिक विषयों के बीच संबंध दिखाने या विचारों को अलग करने के लिए संयोजन करना",
+      "Assembling two or more compound subjects of different Basic Subjects / विभिन्न मूल विषयों के या उससे अधिक मिश्रित विषयों का संयोजन"
+    ],
+    "answer": 2,
+    "explanation": "शिथिल समुच्चय (Loose Assemblage) विषय निर्माण की वह विधि है जिसमें दो या दो से अधिक विषयों या एकल विचारों के बीच संबंध (जैसे - प्रभाव, तुलना) दिखाने के लिए उन्हें संयोजित किया जाता है। इसे 'फेज रिलेशन' (Phase Relation) भी कहते हैं।",
+    "category": "विषय निर्माण",
+    "source": "DSSSB 2023 SHIFT II"
+  },
+  {
+    "question": "सामाजिक विज्ञान का निर्माण इसके परिणामस्वरूप हुआ है ?",
+    "options": [
+      "Fusion",
+      "Fission",
+      "Loose assemblage",
+      "Agglomeration"
+    ],
+    "answer": 3,
+    "explanation": "'सामाजिक विज्ञान' (Social Sciences) एक व्यापक क्षेत्र है जो समाजशास्त्र, राजनीति विज्ञान, अर्थशास्त्र, इतिहास आदि जैसे विभिन्न विषयों को एक साथ लाता है। यह समूहन (Agglomeration) या क्लस्टर (Cluster) का एक उदाहरण है।",
+    "category": "विषय निर्माण",
+    "source": "MIZORAM PSC DEPUTY LIBRARIAN"
+  },
+  {
+    "question": "विषय निर्माण के तरीके पुस्तकालय की किस प्रक्रिया का हिस्सा हैं?",
+    "options": [
+      "Accessioning",
+      "Classification",
+      "Cataloguing",
+      "Documentation"
+    ],
+    "answer": 1,
+    "explanation": "विषय निर्माण की विधियों को समझना पुस्तकालय वर्गीकरण (Classification) की बौद्धिक प्रक्रिया का एक मूलभूत हिस्सा है, क्योंकि यह वर्गीकर्ता को विषयों की संरचना को समझने और उचित वर्ग संख्याएँ निर्दिष्ट करने में मदद करता है।",
+    "category": "विषय निर्माण",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "एक वर्गीकरण पद्धति में, विधियों का उपयोग किया जाता है ?",
+    "options": [
+      "अंकन की क्षमता मे कमी करने के लिए",
+      "मूल वर्ग को व्यक्त करने के लिए",
+      "अंकन की क्षमता में वृद्धि करने के लिए",
+      "अंकन निरूपित करने के लिए"
+    ],
+    "answer": 2,
+    "explanation": "एक वर्गीकरण पद्धति में, विभिन्न युक्तियों (Devices) जैसे कालानुक्रमिक युक्ति, भौगोलिक युक्ति, विषय युक्ति आदि का उपयोग अंकन (Notation) की क्षमता और आतिथ्य (hospitality) में वृद्धि करने के लिए किया जाता है ताकि नए विषयों को समायोजित किया जा सके।",
+    "category": "विषय निर्माण",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "वर्गीकरण के गतिशील सिद्धांत में किसने योगदान दिया है ?",
+    "options": [
+      "E-C- Richardson",
+      "S-R- Ranganathan",
+      "Berwick Sayers",
+      "H-W- Bliss"
+    ],
+    "answer": 1,
+    "explanation": "एस.आर. रंगनाथन को वर्गीकरण के गतिशील सिद्धांत (Dynamic Theory of Classification) के विकास का श्रेय दिया जाता है, जो वर्गीकरण योजनाओं के डिजाइन और मूल्यांकन के लिए मार्गदर्शक सिद्धांतों (अभिधारणाओं, उपसूत्रों, सिद्धांतों) का एक सेट प्रदान करता है, जिससे वे ज्ञान के बढ़ते ब्रह्मांड के अनुकूल हो सकें।",
+    "category": "Dynamic theory",
+    "source": "G.G. S. IND.UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "कौन सा सिद्धांत पुस्तकालय वर्गीकरण का एक सिद्धांत है जो पुस्तकालय वर्गीकरण के लिए एक योजना के डिजाइन के लिए एक पद्धति तैयार करने में सक्षम है ?",
+    "options": [
+      "Dynamic",
+      "Descriptive",
+      "General",
+      "Special"
+    ],
+    "answer": 0,
+    "explanation": "गतिशील सिद्धांत (Dynamic Theory) पुस्तकालय वर्गीकरण के लिए एक योजना के डिजाइन के लिए एक पद्धति प्रदान करता है, जो इसे अनुकूलनीय और वैज्ञानिक बनाता है। इसके विपरीत, एक वर्णनात्मक सिद्धांत (Descriptive Theory) केवल मौजूदा योजनाओं का वर्णन करता है।",
+    "category": "Dynamic theory",
+    "source": "GUWAHTI HIGH COURT 2022"
+  },
+  {
+    "question": "एस.आर. रंगनाथन द्वारा विकसित वर्गीकरण का सामान्य सिद्धांत को निम्नलिखित में से किस प्रकार में वर्गीकृत किया जा सकता है ?",
+    "options": [
+      "Advanced classification",
+      "Dynamic theory of classification",
+      "Descriptive theory of classification",
+      "Static theory of classification"
+    ],
+    "answer": 1,
+    "explanation": "एस.आर. रंगनाथन के सामान्य वर्गीकरण सिद्धांत को वर्गीकरण का गतिशील सिद्धांत (Dynamic theory of classification) के रूप में जाना जाता है क्योंकि यह ज्ञान के विकास के साथ-साथ विकसित और अनुकूलित होने में सक्षम है।",
+    "category": "Dynamic theory",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "रंगनाथन द्वारा वर्गीकरण का गतिशील सिद्धांत (Dynamic Theory of Classification) कार्य के किन तीन स्तरों द्वारा जाना जाता है ?",
+    "options": [
+      "Verbal, Oral and Notational Planes",
+      "Idea, verbal and Notational Planes",
+      "Oral, verbal and written Planes",
+      "Verbal, written and printed Planes"
+    ],
+    "answer": 1,
+    "explanation": "रंगनाथन ने वर्गीकरण के कार्य को तीन последовательных स्तरों में विभाजित किया: वैचारिक धरातल (Idea Plane), शाब्दिक धरातल (Verbal Plane), और आंकिक धरातल (Notational Plane)।",
+    "category": "Dynamic theory",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "कैनन वर्गीकरण की रूपरेखा किसके द्वारा विकसित की गई थी।",
+    "options": [
+      "Prof Ranganathan",
+      "Dewey",
+      "Fountaine",
+      "Otlet"
+    ],
+    "answer": 0,
+    "explanation": "यद्यपि डब्ल्यू.सी.बी. सेयर्स ने पुस्तकालय वर्गीकरण में 'कैनन' (उपसूत्र) शब्द का पहली बार इस्तेमाल किया, लेकिन यह प्रोफेसर एस.आर. रंगनाथन थे जिन्होंने अपने गतिशील वर्गीकरण सिद्धांत के हिस्से के रूप में उपसूत्रों का एक व्यापक और विस्तृत ढाँचा विकसित किया।",
+    "category": "Dynamic theory",
+    "source": "HIGH COURT OF PUNJAB – 2024"
+  },
+  {
+    "question": "'कैनन' शब्द का प्रचलन किसके द्वारा किया गया था ?",
+    "options": [
+      "S.R. Ranganathan",
+      "H.E. Bliss",
+      "W.C.B. Sayers",
+      "E.C. Richardson"
+    ],
+    "answer": 2,
+    "explanation": "डब्ल्यू.सी.बी. सेयर्स ने अपनी पुस्तक \"Canons of Classification\" (1915) में पुस्तकालय वर्गीकरण के संदर्भ में 'कैनन' (उपसूत्र) शब्द का पहली बार प्रचलन किया था।",
+    "category": "Dynamic theory",
+    "source": "TNPSC LIBRARAY ASSISTANT"
+  },
+  {
+    "question": "वर्गीकरण सिद्धान्त में 'सिद्धांत' का वर्णन करने हेतु प्रथमतः 'उपसूत्र' पद का उपयोग किसके द्वारा किया गया ?",
+    "options": [
+      "S. R. Ranganathan",
+      "Melville Dewey",
+      "H.E. bliss",
+      "W.C.B. Sayers"
+    ],
+    "answer": 3,
+    "explanation": "'उपसूत्र' (Canon) पद का उपयोग वर्गीकरण के मार्गदर्शक सिद्धांतों का वर्णन करने के लिए सबसे पहले डब्ल्यू.सी.बी. सेयर्स द्वारा किया गया था।",
+    "category": "Dynamic theory",
+    "source": "RPSC GRADE 1ST SET - A 2016"
+  },
+  {
+    "question": "'कैनन' शब्द का प्रयोग एस.आर. रंगनाथन, के विभाजन के संदर्भ में है:",
+    "options": [
+      "अनुशासन का दूसरा क्रम",
+      "प्रमुख अनुशासन",
+      "अनुशासन का तीसरा क्रम",
+      "प्रमुख अनुशासन का पहला आदेश"
+    ],
+    "answer": 3,
+    "explanation": "एस.आर. रंगनाथन के उपसूत्र (Canons) मानक सिद्धांत हैं जो वर्गीकरण की पूरी प्रक्रिया का मार्गदर्शन करते हैं, जिसमें प्रमुख अनुशासन (main classes) के प्रथम क्रम की सारणी (first order array) का विभाजन भी शामिल है।",
+    "category": "Dynamic theory",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "'विशेषता का उपसूत्र' ('Canon of Characteristics') किसका उदाहरण है ?",
+    "options": [
+      "Canon of Verbal Plane",
+      "Canon of Idea Plane",
+      "Canon of Notational Plane",
+      "Canon of Cognitive Plane"
+    ],
+    "answer": 1,
+    "explanation": "विशेषता का उपसूत्र (Canon of Characteristics) और इसके उप-उपसूत्र (जैसे भिन्नता, प्रासंगिकता, सुनिश्चितता, स्थायित्व) वैचारिक धरातल (Idea Plane) से संबंधित हैं। इसका कारण यह है कि विभाजन के लिए विशेषताओं का चुनाव एक बौद्धिक गतिविधि है जो भाषा या अंकन पर विचार करने से पहले होती है।",
+    "category": "Dynamic theory",
+    "source": "RPSC ASS. PROFESSOR 2024"
+  },
+  {
+    "question": "'नोटेशनल प्लेन' का उद्देश्य क्या है ?",
+    "options": [
+      "To give serial number",
+      "To give some symbol for identity",
+      "To give class number",
+      "To give book number"
+    ],
+    "answer": 2,
+    "explanation": "आंकिक धरातल (Notational Plane) का उद्देश्य वैचारिक और शाब्दिक धरातल में निर्धारित किसी दस्तावेज़ के विशिष्ट विषय को वर्गीकरण योजना की कृत्रिम भाषा का उपयोग करके एक वर्ग संख्या (class number) प्रदान करना है।",
+    "category": "Dynamic theory",
+    "source": "G.G.S.I.U./NEW DELHI-2024"
+  },
+  {
+    "question": "एस.आर. रंगनाथन के अनुसार श्रृंखला के लिए उपसूत्र हैं ?",
+    "options": [
+      "Canon of decreasing extension and modulation",
+      "Canon of ascertainability",
+      "Canon of array and filtery sequences",
+      "Canon of recall value"
+    ],
+    "answer": 0,
+    "explanation": "श्रृंखला (Chain) के लिए दो उपसूत्र हैं: घटते विस्तार का उपसूत्र (Canon of Decreasing Extension) और मॉडुलेशन का उपसूत्र (Canon of Modulation)।",
+    "category": "Dynamic theory",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "किसी श्रृंखला (चेन) या ऐरे में उप वर्गों की किसी भी संख्या को समायोजित कर सकने की अंकन की ऐसी क्षमता को कहा जाता है ?",
+    "options": [
+      "आतिथ्य / Hospitality",
+      "विस्तार / Expandability",
+      "सुनिश्चितता / Ascertainabilty",
+      "उपरोक्त में से कोई नहीं / None of the above"
+    ],
+    "answer": 0,
+    "explanation": "आतिथ्य (Hospitality) एक अंकन प्रणाली का वह गुण है जो इसे किसी श्रृंखला (chain) या सारणी (array) में किसी भी बिंदु पर नए विषयों को समायोजित करने की अनुमति देता है, बिना मौजूदा अनुक्रम को बाधित किए।",
+    "category": "Dynamic theory",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा विशेषताओं का सिद्धांत नहीं है ?",
+    "options": [
+      "Canon of Differentiation",
+      "Canon of Exclusiveness",
+      "Canon of Ascertainability",
+      "Canon of Permanence"
+    ],
+    "answer": 1,
+    "explanation": "विशेषताओं (Characteristics) के लिए उपसूत्र हैं: भिन्नता का उपसूत्र (Canon of Differentiation), प्रासंगिकता का उपसूत्र (Canon of Relevance), सुनिश्चितता का उपसूत्र (Canon of Ascertainability), और स्थायित्व का उपसूत्र (Canon of Permanence)। अनन्यता का उपसूत्र (Canon of Exclusiveness) सारणी (Array) के लिए एक उपसूत्र है।",
+    "category": "Dynamic theory",
+    "source": "APPSC-2018"
+  },
+  {
+    "question": "'सह-विस्तृतता का सिद्धांत' संबंधित है ?",
+    "options": [
+      "Canons for chain of classes",
+      "Canons for Arrays",
+      "Canons for Notation",
+      "Canons for Helpful Sequence"
+    ],
+    "answer": 2,
+    "explanation": "सह-विस्तृतता का उपसूत्र (Canon of Co-extensiveness) आंकिक धरातल (Notational Plane) के लिए एक उपसूत्र है। यह कहता है कि वर्ग संख्या और जिस विषय का वह प्रतिनिधित्व करता है, वह सह-व्यापक होना चाहिए, अर्थात वर्ग संख्या दस्तावेज़ के विषय से न तो व्यापक होनी चाहिए और न ही संकीर्ण।",
+    "category": "Dynamic theory",
+    "source": "ALIGARH MUSLIM UNIVERSITY"
+  },
+  {
+    "question": "एक विशेषता जिसमें जानकारी लीक होने लगती है और जितनी अधिक यह लीक होती है, उतनी ही अधिक हमारे पास होती है ?",
+    "options": [
+      "Synergetic characteristics",
+      "Diffussive characteristics",
+      "Compressible characteristics",
+      "Shareable characteristics"
+    ],
+    "answer": 1,
+    "explanation": "यह सूचना की प्रसारशील (Diffusive) प्रकृति का वर्णन करता है। सूचना का उपयोग करने पर वह समाप्त नहीं होती; बल्कि, इसे साझा करने से इसका प्रसार हो सकता है। यह जितनी अधिक 'लीक' या साझा की जाती है, उतनी ही व्यापक हो जाती है।",
+    "category": "Dynamic theory",
+    "source": "AEES-2018"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा श्रृंखला के लिए एक कैनन है ?",
+    "options": [
+      "Canon of differentiation",
+      "Canon of relevance",
+      "Canon of decreasing extension",
+      "Canon of ascertain ability"
+    ],
+    "answer": 2,
+    "explanation": "श्रृंखला (Chain) के लिए दो उपसूत्र हैं: घटते विस्तार का उपसूत्र (Canon of Decreasing Extension) और मॉडुलेशन का उपसूत्र (Canon of Modulation)। अन्य विकल्प विशेषताओं के लिए उपसूत्र हैं।",
+    "category": "Dynamic theory",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "एस. आर. रंगनाथन ने विचार फलक (आइडिया प्लेन) में मूल सिद्धान्तों (कैनन्स) के कितने समूह प्रतिपादित किए थे ?",
+    "options": [
+      "Six",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "answer": 3,
+    "explanation": "वैचारिक धरातल (Idea Plane) में, रंगनाथन ने उपसूत्रों को पाँच समूहों में बांटा: विशेषताओं के लिए उपसूत्र (Canons for Characteristics), विशेषताओं के अनुक्रम के लिए उपसूत्र (Canons for Succession of Characteristics), सारणी के लिए उपसूत्र (Canons for Array), श्रृंखला के लिए उपसूत्र (Canons for Chain), और सहजात अनुक्रम के लिए उपसूत्र (Canons for Filiatory Sequence)।",
+    "category": "Dynamic theory",
+    "source": "AIIMS JODHPUR-2018"
+  },
+   {
+    "question": "वह उपसूत्र जो विभिन्न प्रविष्टि तत्वों के बीच एक प्रविष्टि की स्थिति तय करती है, एक सूची है, का कैनन है ?",
+    "options": [
+      "Local Variation",
+      "Prepotence",
+      "Ascertainability",
+      "Recall Value"
+    ],
+    "answer": 1,
+    "explanation": "प्रबलता का उपसूत्र (Canon of Prepotence) यह निर्धारित करता है कि किसी सूची में एक प्रविष्टि की स्थिति उसके सबसे प्रबल (potent) तत्व द्वारा तय की जानी चाहिए, अर्थात वह तत्व जिसकी স্মরণীয়ता (recall value) सबसे अधिक हो।",
+    "category": "Dynamic theory",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "कैनन जो वर्णन करता है कि शीर्षक पृष्ठ पर मिली जानकारी और इसके अतिप्रवाह पृष्ठ एक सूची प्रविष्टि की पसंद और शीर्षक का निर्धारण करने के आधार के रूप में कहा जाता है ?",
+    "options": [
+      "Canon of Sought Headings",
+      "Canon of Permanence",
+      "Canon of Prepotence",
+      "Canon of Ascertainability"
+    ],
+    "answer": 3,
+    "explanation": "सुनिश्चितता का उपसूत्र (Canon of Ascertainability), सूचीकरण के संदर्भ में, यह निर्देश देता है कि सूची प्रविष्टि के लिए जानकारी दस्तावेज़ के शीर्षक पृष्ठ और उसके अतिप्रवाह पृष्ठों से ही सुनिश्चित की जानी चाहिए, न कि बाहरी स्रोतों से।",
+    "category": "Dynamic theory",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "प्रमुख अनुशासन के प्रथम क्रम के विभाजन के संदर्भ में निम्नलिखित में से किस मानक सिद्धांत का उपयोग किया जाता है ?",
+    "options": [
+      "Principle",
+      "Law",
+      "Postulate",
+      "Canon"
+    ],
+    "answer": 3,
+    "explanation": "रंगनाथन की शब्दावली में, 'उपसूत्र' (Canon) एक मानक सिद्धांत है जो वर्गीकरण के कार्य का मार्गदर्शन करता है, जिसमें प्रमुख अनुशासनों (main classes) का विभाजन भी शामिल है।",
+    "category": "Dynamic theory",
+    "source": "DSSSB 2023 SHIFT II"
+  },
+  {
+    "question": "निम्नलिखित में से कौन ज्ञान वर्गीकरण की उपसूत्र है ?",
+    "options": [
+      "Cannon of mnemonic",
+      "Cannon of relativity",
+      "Cannon of modulation",
+      "Cannon of classics"
+    ],
+    "answer": 0,
+    "explanation": "स्मृति-सहायक का उपसूत्र (Canon of Mnemonics) आंकिक धरातल के लिए एक उपसूत्र है, जो बताता है कि अंकन को याद रखने में आसान बनाने के लिए स्मृति सहायकों का उपयोग करना चाहिए। अन्य विकल्प मानक उपसूत्र नहीं हैं (हालांकि सापेक्षता और मॉडुलेशन अन्य उपसूत्रों के भाग हैं)।",
+    "category": "Dynamic theory",
+    "source": "DSSSB 2023 SHIFT II"
+  },
+  {
+    "question": "प्रचलन का उपसूत्र निम्नलिखित से संबंधित है ?",
+    "options": [
+      "Idea Plane",
+      "Verbal Plane",
+      "Notational Plane",
+      "All the Planes"
+    ],
+    "answer": 1,
+    "explanation": "प्रचलन का उपसूत्र (Canon of Currency) शाब्दिक धरातल (Verbal Plane) से संबंधित है। यह निर्धारित करता है कि वर्गीकरण योजना में उपयोग की जाने वाली शब्दावली वह होनी चाहिए जो विषय विशेषज्ञों के बीच वर्तमान में प्रचलित हो।",
+    "category": "Dynamic theory",
+    "source": "GUWAHTI HIGH COURT 2019"
+  },
+  {
+    "question": "आईडिया प्लेन में कौनसे कैनन का प्रयोग किया जाता है ?",
+    "options": [
+      "अभिलक्षण का कैनन / Canon of characterization",
+      "सन्दर्भ हेतु कैनन / Canon for Context",
+      "समानार्थ का कैनन / Canon of synonyms",
+      "होमोनिम का कैनन / Canon of homonyms"
+    ],
+    "answer": 0,
+    "explanation": "अभिलक्षण का कैनन (Canon of Characteristics) वैचारिक धरातल (Idea Plane) का एक मौलिक उपसूत्र है। यह विषयों के ब्रह्मांड को विभाजित करने के लिए विशेषताओं के चयन का मार्गदर्शन करता है। अन्य विकल्प अन्य धरातलों से संबंधित हैं।",
+    "category": "Dynamic theory",
+    "source": "ISRO 2016"
+  },
+  {
+    "question": "सन्दर्भ-श्रृंखला का उपसूत्र इसका एक भाग है ?",
+    "options": [
+      "Idea plane",
+      "Verbal plane",
+      "Notational plane",
+      "Structural plane"
+    ],
+    "answer": 1,
+    "explanation": "संदर्भ का उपसूत्र (Canon of Context) शाब्दिक धरातल (Verbal plane) का एक हिस्सा है। यह निर्धारित करता है कि वर्गीकरण अनुसूची में किसी पद का अर्थ पदानुक्रम में उसके संदर्भ से निर्धारित किया जाना चाहिए।",
+    "category": "Dynamic theory",
+    "source": "MIZORAM PSC DEPUTY LIBRARIAN"
+  },
+  {
+    "question": "प्रसंग उपसूत्र संबंधित है ?",
+    "options": [
+      "Idea Plane",
+      "Verbal Plane",
+      "Notational Plane",
+      "Non-Verbal Plane"
+    ],
+    "answer": 1,
+    "explanation": "प्रसंग उपसूत्र (Canon of Context) शाब्दिक धरातल (Verbal Plane) से संबंधित है, क्योंकि यह विषय का प्रतिनिधित्व करने के लिए उपयोग किए जाने वाले शब्दों के अर्थ से संबंधित है।",
+    "category": "Dynamic theory",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "पर्यायवाची उपसूत्र और समनाम का उपसूत्र निम्नलिखित के लिए उपसूत्र हैं ?",
+    "options": [
+      "Idea plane",
+      "Verbal plane",
+      "Notational plane",
+      "None of these"
+    ],
+    "answer": 2,
+    "explanation": "पर्यायवाची का उपसूत्र (Canon of Synonyms) और समनाम का उपसूत्र (Canon of Homonyms) आंकिक धरातल (Notational Plane) के लिए उपसूत्र हैं। ये यह सुनिश्चित करते हैं कि एक विषय का केवल एक ही वर्ग संख्या हो (कोई पर्यायवाची अंकन न हो) और एक वर्ग संख्या केवल एक ही विषय का प्रतिनिधित्व करे (कोई समनाम अंकन न हो)।",
+    "category": "Dynamic theory",
+    "source": "KERLA PSC 2015"
+  },
+  {
+    "question": "मोडुलेशन का सिद्धांत किसके अधीन आता है?",
+    "options": [
+      "श्रृंखला / Array",
+      "सारणी /Chain",
+      "लक्षण / Characterisics",
+      "विलक्षणता की सफलता / Success of characteristics"
+    ],
+    "answer": 1,
+    "explanation": "मॉडुलेशन का उपसूत्र (Canon of Modulation) श्रृंखला (Chain) के लिए एक उपसूत्र है। यह निर्धारित करता है कि एक श्रृंखला में वर्गों को इस तरह से प्राप्त किया जाना चाहिए कि कोई मध्यवर्ती कड़ी या कदम छूट न जाए।",
+    "category": "Dynamic theory",
+    "source": "KVS 2015"
+  },
+  {
+    "question": "निःशेषता का उपसूत्र एक प्रकार का उपसूत्र है?",
+    "options": [
+      "Array",
+      "Chain",
+      "hereditary",
+      "characteristics"
+    ],
+    "answer": 0,
+    "explanation": "निःशेषता का उपसूत्र (Canon of Exhaustiveness) सारणी (Array) के लिए एक उपसूत्र है। यह निर्धारित करता है कि एक सारणी में वर्ग संपूर्ण होने चाहिए, अर्थात उन्हें सामूहिक रूप से संपूर्ण मूल वर्ग को कवर करना चाहिए।",
+    "category": "Dynamic theory",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "सहायक अनुक्रम का सिद्धान्त..... का उपसूत्र है ?",
+    "options": [
+      "वैचारिक सतह / Idea plane",
+      "शाब्दिक सतह / Verbal plane",
+      "अंकन सतह / Notation plane",
+      "इनमें से कोई नहीं / none of these"
+    ],
+    "answer": 0,
+    "explanation": "सहायक अनुक्रम के सिद्धांत (Principles of Helpful Sequence) वैचारिक धरातल (Idea plane) का हिस्सा हैं। ये सिद्धांत (जैसे बाद-में-समय, बाद-में-विकास, स्थानिक सामीप्य, आदि) एक सारणी में वर्गों की व्यवस्था को इस तरह से मार्गदर्शन करते हैं जो उपयोगकर्ता के लिए सहायक हो।",
+    "category": "Dynamic theory",
+    "source": "MPPSC-2020"
+  },
+  {
+    "question": "निम्न में से कौन-सा उपसूत्र 'विशिष्टता के उपसूत्रों' के प्रकारों के अन्तर्गत नहीं आता है ?",
+    "options": [
+      "भिन्नताओं का उपसूत्र/Canon of Differentiation",
+      "एसर्टेनेबिलिटी का उपसूत्र /Canon of Ascertainability",
+      "प्रासंगिक अनुक्रम का उपसूत्र / Canon of relevant Succession",
+      "स्थायित्व का उपसूत्र/Canon of Permanence"
+    ],
+    "answer": 2,
+    "explanation": "विशेषताओं के लिए उपसूत्र (Canons for Characteristics) में भिन्नता, सुनिश्चितता और स्थायित्व के उपसूत्र शामिल हैं। प्रासंगिक अनुक्रम का उपसूत्र (Canon of Relevant Succession) विशेषताओं के अनुक्रम के लिए उपसूत्र (Canons for Succession of Characteristics) नामक एक अलग समूह का हिस्सा है।",
+    "category": "Dynamic theory",
+    "source": "NVS 2022 MORNING"
+  },
+  {
+    "question": "अंकों की नई प्रजाति का आगमन निम्नलिखित में से किस उपसूत्र को पूरा करता है ?",
+    "options": [
+      "Interpolation in series",
+      "interpolation in line",
+      "row extrapolation",
+      "extrapolation in the series"
+    ],
+    "answer": 1,
+    "explanation": "अंकों की एक नई प्रजाति का उपयोग, जैसे कि कोलन वर्गीकरण में ग्रीक अक्षरों का उपयोग, एक सारणी (array/line) के अंत में नए विषयों को समायोजित करने की अनुमति देता है, जिसे सारणी में बहिर्वेशन (extrapolation in array) कहते हैं। यह आंकिक धरातल में आतिथ्य (hospitality) सुनिश्चित करने में मदद करता है। दिए गए विकल्पों में से, 'interpolation in line' (पंक्ति में अंतर्वेशन) सबसे निकटतम है।",
+    "category": "Dynamic theory",
+    "source": "NVS 2022 EVENING"
+  },
+  {
+    "question": "रंगनाथन के अनुसार, 'एक वर्ग संख्या को केवल एक विषय अभिव्यक्त करना चाहिए और इसके विपरीत मात्र एक ही वर्ग संख्या के द्वारा विषय को द्योतित करना चाहिए।' यह किस सन्दर्भ में कहा गया ?",
+    "options": [
+      "पदानुक्रम का उपसूत्र/Canon of hierarchy",
+      "सहव्यापकता का उपसूत्र / Canon of Co extensiveness",
+      "सापेक्षता एवं एकरूपता का उपसूत्र/Canon of relativity and uniformity",
+      "समनाम और समानार्थी शब्दों का उपसूत्र/Canon of homonyms and synonyms"
+    ],
+    "answer": 3,
+    "explanation": "यह कथन समनाम का उपसूत्र (एक वर्ग संख्या केवल एक विषय का प्रतिनिधित्व करे) और पर्यायवाची का उपसूत्र (एक विषय केवल एक वर्ग संख्या द्वारा दर्शाया जाए) का सटीक वर्णन करता है। ये उपसूत्र आंकिक धरातल में एक-से-एक अद्वितीय मानचित्रण सुनिश्चित करते हैं।",
+    "category": "Dynamic theory",
+    "source": "NVS 2022 EVENING"
+  },
+  {
+    "question": "वर्गीकरण करने की गतिविधियों के 0-4 चरणों को कहते हैं?",
+    "options": [
+      "शाब्दिक धरातल/Verbal plane",
+      "वैचारिक धरातल/Idea plane",
+      "आंकिक धरातल/Notational plane",
+      "इनमें से कोई नही/None of these"
+    ],
+    "answer": 1,
+    "explanation": "एस.आर. रंगनाथन के अनुसार, व्यवस्थित वर्गीकरण के नौ चरण तीन धरातलों में विभाजित हैं। चरण 0 (अपरिष्कृत शीर्षक) से 5 (विशिष्ट विषय) वैचारिक धरातल (Idea Plane) से संबंधित हैं, क्योंकि इनमें सटीक विषय का निर्धारण करने के लिए बौद्धिक विश्लेषण शामिल है।",
+    "category": "Dynamic theory",
+    "source": "RSMSSB-2016"
+  },
+  {
+    "question": "किन्ही दो उपसूत्रो या/और सिद्धांतो के मध्य विवाद की स्थिति मे इसका निदान, निम्नलिखित के माध्यम से सम्भव है ?",
+    "options": [
+      "सिद्धान्त / नियम द्वारा / Principal",
+      "फेज़ रिलेशन द्वारा / Phase relation",
+      "पॉस्चुलेटस द्वारा / Postulates",
+      "पंच सूत्रों द्वारा / The Five Laws"
+    ],
+    "answer": 3,
+    "explanation": "रंगनाथन ने कहा कि किन्हीं दो उपसूत्रों, सिद्धांतों या अभिधारणाओं के बीच किसी भी संघर्ष की स्थिति में, समाधान पुस्तकालय विज्ञान के पंच सूत्रों से अपील करके खोजा जाना चाहिए, जो अंतिम मार्गदर्शक सिद्धांत हैं।",
+    "category": "Dynamic theory",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "निम्नलिखित का उनके घटते कवरेज (क्षेत्र) के अनुसार सही क्रम क्या है ?",
+    "options": [
+      "Principle-canon-Law",
+      "Canon-Law -principle",
+      "Law- Principle-Canon",
+      "Law- Canon -Principal"
+    ],
+    "answer": 2,
+    "explanation": "रंगनाथन के मानक सिद्धांतों के पदानुक्रम में, सूत्रों (जैसे पंच सूत्र) का दायरा सबसे व्यापक है। सिद्धांत सूत्रों से प्राप्त होते हैं, और उपसूत्र सिद्धांतों से प्राप्त होते हैं। इसलिए घटते कवरेज का क्रम है: सूत्र -> सिद्धांत -> उपसूत्र (Law -> Principle -> Canon)।",
+    "category": "Dynamic theory",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "निम्न में कौन वर्गीकरण का सिद्धान्त नहीं है ?",
+    "options": [
+      "एक्सक्लूसिवनेस का सिद्धान्त/Principle of exclusivity",
+      "प्रबन्धन का सिद्धान्त/Theory of management",
+      "सहायक क्रम का सिद्धान्त/Principle of helpfulness",
+      "एग्जौसटिवनेस का सिद्धान्त / Principle of exhaustiveness"
+    ],
+    "answer": 1,
+    "explanation": "वर्गीकरण के सिद्धांतों में सारणियों (arrays) के निर्माण का मार्गदर्शन करने वाले अनन्यता का सिद्धांत (Principle of Exclusiveness), सहायक क्रम का सिद्धांत (Principle of Helpfulness), और संपूर्णता का सिद्धांत (Principle of Exhaustiveness) शामिल हैं। प्रबंधन का सिद्धांत एक अलग अध्ययन क्षेत्र है और पुस्तकालय वर्गीकरण का सिद्धांत नहीं है।",
+    "category": "Dynamic theory",
+    "source": "AIIMS RAIPUR-2018"
+  },
+  {
+    "question": "निम्न मे से कोन सा एक डॉ. रंगनाथन का उपसूत्र नहीं है?",
+    "options": [
+      "व्यापकता का उपसूत्र / Canon of Comprehensiveness",
+      "संयतता का उपसूत्र / Canon of Reticence",
+      "प्रचलन का उपसूत्र / Canon of Currency",
+      "प्रसंग का उपसूत्र / Canon of Context"
+    ],
+    "answer": 0,
+    "explanation": "डॉ. रंगनाथन के उपसूत्रों में संयतता का उपसूत्र (Canon of Reticence), प्रचलन का उपसूत्र (Canon of Currency), और प्रसंग का उपसूत्र (Canon of Context) शामिल हैं। उनके ढांचे में 'व्यापकता का उपसूत्र (Canon of Comprehensiveness)' जैसा कोई उपसूत्र नहीं है।",
+    "category": "Dynamic theory",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "डॉ. एस.आर. रंगनाथन के अनुसार निम्नलिखित में से कौन सा मौखिक स्तर है ?<br>(A) Canon of enumeration<br>(B) Canon of currency<br>(C) Canon of synonym<br>(D) Canon of context",
+    "options": [
+      "(A), & (C) only",
+      "(B). & (D) only",
+      "(A), (B) & (C) only",
+      "(A) (B) & (D) only"
+    ],
+    "answer": 1,
+    "explanation": "रंगनाथन के ढांचे में, प्रचलन का उपसूत्र (Canon of Currency) और प्रसंग का उपसूत्र (Canon of Context) शाब्दिक/मौखिक स्तर (Verbal Plane) से संबंधित हैं, क्योंकि वे विषयों का प्रतिनिधित्व करने के लिए उपयोग की जाने वाली शब्दावली से संबंधित हैं।",
+    "category": "Dynamic theory",
+    "source": "TELANGANA-2023"
+  },
+  {
+    "question": "विचारों की शब्दों में अभिव्यक्ति पुस्तकालय वर्गीकरण के किस चरण में की जाती है?",
+    "options": [
+      "Notational Plane",
+      "Verbal Plane",
+      "Assortment of aggregates",
+      "Idea Plane"
+    ],
+    "answer": 1,
+    "explanation": "विचारों की शब्दों में अभिव्यक्ति शाब्दिक धरातल (Verbal Plane) का प्राथमिक कार्य है। वैचारिक धरातल में विषय का वैचारिक रूप से निर्धारण करने के बाद, शाब्दिक धरातल उसे व्यक्त करने के लिए सही शब्दावली ढूंढता है।",
+    "category": "Dynamic theory",
+    "source": "ALIGARH MUSLIM UNIVERSITY"
+  },
+  {
+    "question": "एस. आर. रंगनाथन के अनुसार निम्नलिखित में से कौन-सा कार्य का स्तर नहीं है ?",
+    "options": [
+      "Written",
+      "Notational",
+      "Idea",
+      "Verbal"
+    ],
+    "answer": 0,
+    "explanation": "एस.आर. रंगनाथन के कार्य के तीन स्तर हैं: वैचारिक धरातल (Idea Plane), शाब्दिक धरातल (Verbal Plane), और आंकिक धरातल (Notational Plane)। 'लिखित (Written)' इन परिभाषित स्तरों में से एक नहीं है।",
+    "category": "Dynamic theory",
+    "source": "EMRS-2023"
+  },
+  {
+    "question": "एसआर रंगनाथन के अनुसार, पुस्तकालय वर्गीकरण को निम्नलिखित में अपनाना होगा ?",
+    "options": [
+      "two planes",
+      "three planes",
+      "six planes",
+      "four planes"
+    ],
+    "answer": 1,
+    "explanation": "एस.आर. रंगनाथन के अनुसार, पुस्तकालय वर्गीकरण का कार्य व्यवस्थित रूप से तीन последовательных स्तरों में किया जाना चाहिए: वैचारिक, शाब्दिक और आंकिक (Idea, Verbal, and Notational)।",
+    "category": "Dynamic theory",
+    "source": "PATANA HIGH COURT 2022"
+  },
+  {
+    "question": "डॉ. एस.आर. रंगनाथन ने कार्य के तीन स्तरों को पहचाना है, जैसे ?<br>(A) Realistic Plane<br>(B) Idea Plane<br>(C) Verbal Plane<br>(D) Notational Plane",
+    "options": [
+      "(A), (B) &. (D) only",
+      "(B) & (C) only",
+      "(A), (B) & (C) only",
+      "(B)- (C) & (D) only"
+    ],
+    "answer": 3,
+    "explanation": "डॉ. एस.आर. रंगनाथन ने वर्गीकरण के लिए कार्य के तीन स्तरों की पहचान की: वैचारिक धरातल (Idea Plane), शाब्दिक धरातल (Verbal Plane), और आंकिक धरातल (Notational Plane)।",
+    "category": "Dynamic theory",
+    "source": "TELANGANA-2023"
+  },
+  {
+    "question": "वर्गीकरण शब्द लैटिन शब्द से आया है ?",
+    "options": [
+      "Classis",
+      "Classes",
+      "Clauses",
+      "Fiction"
+    ],
+    "answer": 0,
+    "explanation": "'वर्गीकरण' (Classification) शब्द लैटिन शब्द 'क्लासिस' (Classis) से लिया गया है, जिसका उपयोग कराधान के उद्देश्य से रोमन लोगों को वर्गों में विभाजित करने के लिए किया जाता था।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "UKSSSC-2018"
+  },
+  {
+    "question": "'वर्गीकरण' शब्द किस भाषा से लिया गया है ?",
+    "options": [
+      "German",
+      "Arabic",
+      "Persian",
+      "Latin"
+    ],
+    "answer": 3,
+    "explanation": "'वर्गीकरण' (Classification) शब्द लैटिन भाषा से लिया गया है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "KERLA PSC 2015"
+  },
+  {
+    "question": "पुस्तकालय वर्गीकरण का अर्थ है ?",
+    "options": [
+      "classification of knowledge",
+      "classification of books",
+      "(a) is true, (b) is false",
+      "both (a) and (b) are true"
+    ],
+    "answer": 1,
+    "explanation": "व्यावहारिक अर्थ में, पुस्तकालय वर्गीकरण का तात्पर्य पुस्तकों और अन्य पुस्तकालय सामग्रियों को उनकी विषय वस्तु के आधार पर वर्गीकृत करना है ताकि उनके संगठन और पुनर्प्राप्ति में सुविधा हो सके।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "ASSAM PLC-2019"
+  },
+  {
+    "question": "पुस्तकालयाध्यक्षता का आधार है ?",
+    "options": [
+      "Indexing",
+      "Referencing",
+      "Classification",
+      "Cataloguing"
+    ],
+    "answer": 2,
+    "explanation": "वर्गीकरण को पुस्तकालयाध्यक्षता का आधार माना जाता है क्योंकि यह संसाधनों की व्यवस्थित व्यवस्था प्रदान करता है, जो स्थान, पुनर्प्राप्ति और संग्रह प्रबंधन सहित सभी पुस्तकालय सेवाओं के लिए आवश्यक है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "PATANA HIGH COURT 2019"
+  },
+  {
+    "question": "वर्गीकरण पद्धति के प्रणेता को क्या कहा जाता है ?",
+    "options": [
+      "Classifier",
+      "Classicist",
+      "Classificationist",
+      "classer"
+    ],
+    "answer": 2,
+    "explanation": "वर्गीकरण की एक प्रणाली को डिजाइन या बनाने वाले व्यक्ति को वर्गीकरणकार (Classificationist) के रूप में जाना जाता है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "'समान या समान विषय सामग्री वाले दस्तावेजों का समूहन' कहलाता है ?",
+    "options": [
+      "Library Cataloguing",
+      "Library Schedules",
+      "Library Notation",
+      "Library Classification"
+    ],
+    "answer": 3,
+    "explanation": "पुस्तकालय वर्गीकरण समान या समान विषय वस्तु वाले दस्तावेजों को एक साथ समूहित करने की प्रक्रिया है। यह पुस्तकालय विज्ञान के दूसरे सूत्र, 'प्रत्येक पाठक को उसकी पुस्तक मिले' को पूरा करता है, क्योंकि यह संबंधित सामग्रियों को एक साथ लाता है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "G.G.S.IND. UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "'पुस्तकालय वर्गीकरण-पुस्तक के विषय के नाम का क्रमसूचक संख्याओं की वरीय कृत्रिम भाषा में अनुवाद है' किसने कहा है?",
+    "options": [
+      "Margaret Mann",
+      "Melvil Dewey",
+      "S.R. Ranganathan",
+      "Krishan Kumar"
+    ],
+    "answer": 2,
+    "explanation": "यह पुस्तकालय वर्गीकरण की एक प्रसिद्ध परिभाषा एस.आर. रंगनाथन द्वारा दी गई है, जिन्होंने इसे एक पुस्तक के विषय (वैचारिक धरातल में निर्धारित) को क्रमसूचक संख्याओं की कृत्रिम भाषा (आंकिक धरातल में) में अनुवाद के रूप में वर्णित किया।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "KVS 2023 SHIFT-2"
+  },
+  {
+    "question": "पुस्तकालय वर्गीकरण का मूल उद्देश्य क्या है ?",
+    "options": [
+      "Arrangement of books in a logical and helpful sequence / पुस्तकों को तार्किक और उपयोगी क्रम में व्यवस्थित करना",
+      "Arrangement of Universe of knowledge into disciplines / ज्ञान के ब्रह्मांड को विषयों में व्यवस्थित करना",
+      "Arrangement of books to facilitate stock verification / स्टॉक सत्यापन की सुविधा के लिए पुस्तकों की व्यवस्था",
+      "Arrangement of books for compact storage of books / पुस्तकों के सघन भंडारण के लिए पुस्तकों की व्यवस्था"
+    ],
+    "answer": 0,
+    "explanation": "पुस्तकालय वर्गीकरण का मूल उद्देश्य पुस्तकों और अन्य संसाधनों को एक तार्किक और सहायक क्रम (आमतौर पर विषय के अनुसार) में व्यवस्थित करना है ताकि उपयोगकर्ता आसानी से वह पा सकें जो वे खोज रहे हैं और संबंधित वस्तुओं की खोज कर सकें। इसे 'सहायक अनुक्रम' स्थापित करना भी कहा जाता है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "वर्गीकरण 'समानता और असमानता के आधार पर वस्तुओं को व्यवस्थित करना है' किसने कहा है?",
+    "options": [
+      "Melville Dewey",
+      "Margaret Mann",
+      "S.R. Ranganathan",
+      "W.C. Barwick Sayers"
+    ],
+    "answer": 1,
+    "explanation": "मार्गरेट मान ने अपनी पुस्तक 'Introduction to Cataloging and the Classification of Books' में वर्गीकरण को समानता और असमानता के अनुसार चीजों को व्यवस्थित करने के रूप में परिभाषित किया है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "किसी विषय पर प्रकाशित या प्रकाशित होने की संभावना वाले साहित्य की मात्रा है ?",
+    "options": [
+      "Literary Warrant",
+      "Users Warrant",
+      "Collocation",
+      "Filiatory Sequence"
+    ],
+    "answer": 0,
+    "explanation": "साहित्यिक वारंट (Literary Warrant), ई. विंधम हुल्मे द्वारा गढ़ा गया एक शब्द है, यह सिद्धांत है कि एक वर्गीकरण योजना उस वास्तविक साहित्य पर आधारित होनी चाहिए जो किसी विषय पर मौजूद है या प्रकाशित होने की संभावना है। एक वर्ग तभी बनाया जाना चाहिए जब उसमें रखने के लिए दस्तावेज हों।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "GUJARAT TECH.UNI. LIB. 2024"
+  },
+  {
+    "question": "'ग्रामर ऑफ क्लासिफिकेशन' के लेखक का नाम बताइए?",
+    "options": [
+      "S.R. Ranganathan",
+      "H.E. Bliss",
+      "W.C.B. Sayers",
+      "J. Mills"
+    ],
+    "answer": 2,
+    "explanation": "डब्ल्यू.सी.बी. सेयर्स 'ए मैनुअल ऑफ क्लासिफिकेशन फॉर लाइब्रेरियन्स एंड बिब्लियोग्राफर्स' और 'द ग्रामर ऑफ क्लासिफिकेशन' के लेखक हैं, जो वर्गीकरण सिद्धांत के अध्ययन में मूलभूत ग्रंथ हैं।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "UPPSC 2023 SHIFT-1"
+  },
+  {
+    "question": "'एन इंट्रोडक्शन टू लाइब्रेरी क्लासिफिकेशन' नामक पुस्तक किसने लिखी ?",
+    "options": [
+      "J.B. Brown",
+      "S.R. Ranganathan",
+      "W.C. Berwick Sayers",
+      "Howard Phillips"
+    ],
+    "answer": 2,
+    "explanation": "डब्ल्यू.सी. बेरविक सेयर्स ने प्रभावशाली पुस्तक 'एन इंट्रोडक्शन टू लाइब्रेरी क्लासिफिकेशन' लिखी।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "'ए स्टडी ऑफ जनरल कैटेगरीज एप्लिकेबल टू क्लासिफिकेशन' पुस्तक किसके द्वारा लिखी गई थी",
+    "options": [
+      "AC Foskett",
+      "S. R. Ranganathan",
+      "Eric de Grolier",
+      "Barbara Kayal"
+    ],
+    "answer": 2,
+    "explanation": "एरिक डी ग्रोलियर ने यूनेस्को के लिए 1962 में 'ए स्टडी ऑफ जनरल कैटेगरीज एप्लिकेबल टू क्लासिफिकेशन एंड कोडिंग इन डॉक्यूमेंटेशन' नामक पुस्तक लिखी थी।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "PRL AHAMBADAD 2023"
+  },
+  {
+    "question": "'ए मैनुअल ऑफ लाइब्रेरी क्लासिफिकेशन', 1926 के लेखक कौन हैं ?",
+    "options": [
+      "Henry Evelyn Blies",
+      "S.R. Ranganathan",
+      "W.C. Berwick Sayers",
+      "Charles Ammi Cutter"
+    ],
+    "answer": 2,
+    "explanation": "डब्ल्यू.सी. बेरविक सेयर्स 'ए मैनुअल ऑफ क्लासिफिकेशन फॉर लाइब्रेरियन्स' के लेखक हैं। पहला संस्करण 1926 में प्रकाशित हुआ था।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "ASSAM PLC-2019"
+  },
+  {
+    "question": "सूची-I को सूची-II से सुमेलित करें और नीचे दिए गए कोड का उपयोग करके सही उत्तर चुनें ?<br>List-1 (Books)<br>(i) The Subject Approach to Information<br>(ii) Classification and Communication<br>(iii) The Grammar of Classification<br>(iv) The Organization of Knowledge in Libraries<br>List-II (Authors)<br>a- W-C-B- Sayers<br>b- H-E-Bliss<br>c- S-R- Ranganathan<br>d- A-C-Foskett",
+    "options": [
+      "I (d) II (c) III (a) IV (b)",
+      "I (d) II (d) III (b) IV (c)",
+      "I (d) II (b) III (x) IV (a)",
+      "I (c) II (b) III (d) IV (a)"
+    ],
+    "answer": 0,
+    "explanation": "(i) The Subject Approach to Information - A.C. Foskett<br>(ii) Classification and Communication - S.R. Ranganathan<br>(iii) The Grammar of Classification - W.C.B. Sayers<br>(iv) The Organization of Knowledge in Libraries - H.E. Bliss",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "ALIGARH MUSLIM UNIVERSITY"
+  },
+  {
+    "question": "ए मॉडर्न आउटलाइन ऑफ लाइब्रेरी क्लासिफिकेशन के लेखक हैं?",
+    "options": [
+      "J. Mills",
+      "Krishna Kumar",
+      "A.C. Foskett",
+      "A. Maltby"
+    ],
+    "answer": 0,
+    "explanation": "जे. मिल्स 'ए मॉडर्न आउटलाइन ऑफ लाइब्रेरी क्लासिफिकेशन' पुस्तक के लेखक हैं।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "GUWAHTI HIGH COURT 2019"
+  },
+  {
+    "question": "लाइब्रेरी क्लासिफिकेशनः फेसेट्स एंड ऐनालिसिस किसके द्वारा लिखा गया है ?",
+    "options": [
+      "S. R. Ranganathan",
+      "Krishna Kumar",
+      "Shabahat Hussain",
+      "John F Feather"
+    ],
+    "answer": 2,
+    "explanation": "'लाइब्रेरी क्लासिफिकेशन: फेसेट्स एंड एनालिसिस' पुस्तक प्रोफेसर शबाहत हुसैन द्वारा लिखी गई थी।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "ISRO 2022"
+  },
+  {
+    "question": "निम्न में से मिलान कीजिये ?<br>(i) C.A. CUTTER<br>(ii) H.E. Bliss<br>(iii) J.D. Brown<br>(iv) Paul Otlet and Henry La Fontaine<br>---<br>(I) SUBJECT CLASSIFICATION<br>(II) Universal Decimal Classification<br>(III) Expansive Classification<br>(IV) Bibliographic Classification",
+    "options": [
+      "i-I, ii-II, iii-III, iv-IV",
+      "i-IV, ii-II, iii-I, iv-II",
+      "i-II, ii-III, iii-IV, iv-I",
+      "i-III, ii-IV, iii-I, iv-II"
+    ],
+    "answer": 3,
+    "explanation": "(i) C.A. Cutter - (III) Expansive Classification<br>(ii) H.E. Bliss - (IV) Bibliographic Classification<br>(iii) J.D. Brown - (I) Subject Classification<br>(iv) Paul Otlet and Henry La Fontaine - (II) Universal Decimal Classification",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "'क्लासिफिकेशन एंड इंडेक्सिंग' पुस्तक किसके द्वारा लिखी गई थी ?",
+    "options": [
+      "Berwick Sayer",
+      "Richardson",
+      "B.C. Vickery",
+      "Derek Austin"
+    ],
+    "answer": 2,
+    "explanation": "बी.सी. विकरी 'क्लासिफिकेशन एंड इंडेक्सिंग इन साइंस' पुस्तक के लेखक हैं।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "पुस्तकालय वर्गीकरण के लिए अभिधारणा-दृष्टिकोण प्रस्तावित किया गया था ?",
+    "options": [
+      "S.R. Ranganathan",
+      "D.J. Foskeft",
+      "Melvil Dewey",
+      "Krishan Kumar"
+    ],
+    "answer": 0,
+    "explanation": "पुस्तकालय वर्गीकरण के लिए अभिधारणात्मक दृष्टिकोण (Postulational Approach) एस.आर. रंगनाथन द्वारा प्रस्तावित और विकसित किया गया था ताकि वर्गीकरण योजनाओं को डिजाइन करने के लिए एक वैज्ञानिक आधार प्रदान किया जा सके।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "TNPSC LIBRARAY ASSISTANT"
+  },
+  {
+    "question": "प्रसिद्ध पुस्तक वर्गीकरण : 'सैद्धांतिक और व्यावहारिक' के लेखक हैं ?",
+    "options": [
+      "Edward Edwards",
+      "Ernest Cushing Richardson",
+      "S- R- Ranganathan",
+      "Henry Evelyn Bliss"
+    ],
+    "answer": 1,
+    "explanation": "अर्नेस्ट कुशिंग रिचर्डसन ने 1901 में मौलिक पुस्तक 'क्लासिफिकेशन: थिओरेटिकल एंड प्रैक्टिकल' लिखी।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "UPPSC 2023 SHIFT-1"
+  },
+  {
+    "question": "'एलिमेंट्स ऑफ लाइब्रेरी क्लासिफिकेशन' के लेखक हैं?",
+    "options": [
+      "Krishan Kumar",
+      "J- Mill",
+      "B-I- Palmen",
+      "S-R-Ranganathan"
+    ],
+    "answer": 3,
+    "explanation": "'एलिमेंट्स ऑफ लाइब्रेरी क्लासिफिकेशन' एस.आर. रंगनाथन द्वारा लिखित वर्गीकरण सिद्धांत पर महत्वपूर्ण पुस्तकों में से एक है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "GUWAHTI HIGH COURT 2019"
+  },
+  {
+    "question": "कटर बुक नम्बर प्रणाली के निर्माण का आधार क्या होता है ?",
+    "options": [
+      "Name of the Book",
+      "Name of the Author",
+      "Class Number",
+      "Table Number"
+    ],
+    "answer": 1,
+    "explanation": "कटर बुक नंबर प्रणाली, और इसका संस्करण कटर-सैनबोर्न प्रणाली, मुख्य रूप से लेखक के उपनाम का उपयोग करके एक कोड बनाती है जो एक ही वर्ग संख्या वाली पुस्तकों को लेखक के अनुसार वर्णानुक्रम में व्यवस्थित करती है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "RPSC ASS. PROFESSOR 2024"
+  },
+  {
+    "question": "पुस्तकालयों में सूचना और ज्ञान का संगठन निम्नलिखित में से किसके द्वारा किया जाता है?",
+    "options": [
+      "Documentation",
+      "Information Service Dissemination",
+      "Cataloguing",
+      "Classification"
+    ],
+    "answer": 3,
+    "explanation": "पुस्तकालयों में सूचना और ज्ञान का संगठन मुख्य रूप से वर्गीकरण की प्रक्रिया के माध्यम से प्राप्त किया जाता है, जो संबंधित संसाधनों को एक साथ समूहित करता है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "H. COURT OF PUNJAB-2024"
+  },
+  {
+    "question": "शोध पत्रिका 'लाइब्रेरी साइन्स विथ ए स्लान्ट टू डॉक्यूमेन्टेशन' को किस वर्ष शुरू किया गया ?",
+    "options": [
+      "1960",
+      "1964",
+      "1968",
+      "1970"
+    ],
+    "answer": 1,
+    "explanation": "शोध पत्रिका 'लाइब्रेरी साइंस विद ए स्लांट टू डॉक्यूमेंटेशन' 1964 में एस.आर. रंगनाथन द्वारा शुरू की गई थी और इसे डॉक्यूमेंटेशन रिसर्च एंड ट्रेनिंग सेंटर (DRTC), बैंगलोर द्वारा प्रकाशित किया गया था। बाद में इसका नाम बदलकर 'SRELS जर्नल ऑफ इंफॉर्मेशन मैनेजमेंट' कर दिया गया।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "NVS 2022 MORNING"
+  },
+  {
+    "question": "पुस्तकालय वर्गीकरण के एक सिद्धांत को स्थापित करने के लिए एक व्यवस्थित प्रयास करने वाले पहले वर्गीकरणकर्ता के रूप में किसे माना जाता है ?",
+    "options": [
+      "Hulme",
+      "Brown",
+      "Richardson",
+      "Sayers"
+    ],
+    "answer": 2,
+    "explanation": "अर्नेस्ट कुशिंग रिचर्डसन को अक्सर पुस्तकालय वर्गीकरण का एक सिद्धांत स्थापित करने के लिए व्यवस्थित प्रयास करने वाले पहले वर्गीकरणकार के रूप में माना जाता है। उनकी पुस्तक \"क्लासिफिकेशन: थिओरेटिकल एंड प्रैक्टिकल\" (1901) इस क्षेत्र में एक मील का पत्थर है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "DSSSB-2017"
+  },
+  {
+    "question": "सेयर्स ने 'पुस्तकालय वर्गीकरण का परिचय' किस वर्ष प्रकाशित किया ?",
+    "options": [
+      "1908",
+      "1911",
+      "1917",
+      "1922"
+    ],
+    "answer": 3,
+    "explanation": "डब्ल्यू.सी.बी. सेयर्स ने \"एन इंट्रोडक्शन टू लाइब्रेरी क्लासिफिकेशन\" प्रकाशित की। इसका पहला संस्करण 1918 में सामने आया। वर्ष 1922 संभवतः किसी बाद के संस्करण को संदर्भित करता है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "DSSSB-2017"
+  },
+  {
+    "question": "इन-हाउस ऑपरेशन में से कौन सा ILMS में शामिल नहीं है?",
+    "options": [
+      "Circulation",
+      "Cataloguing",
+      "Serial Control",
+      "Classification"
+    ],
+    "answer": 3,
+    "explanation": "एक एकीकृत पुस्तकालय प्रबंधन प्रणाली (ILMS) में आमतौर पर परिसंचरण (Circulation), सूचीकरण (Cataloguing), और क्रमिक नियंत्रण (Serial Control) के लिए मॉड्यूल होते हैं। वर्गीकरण (Classification) एक बौद्धिक प्रक्रिया है जो सूचीकरण से पहले की जाती है और यह स्वयं ILMS के भीतर एक कार्यात्मक मॉड्यूल नहीं है। वर्गीकरण के परिणाम (वर्ग संख्या) को सूचीकरण मॉड्यूल में दर्ज किया जाता है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "पुस्तकालय वर्गीकरण से निम्न में से किसमें सहायता मिलती है ?",
+    "options": [
+      "सूचना की पुनप्राप्ति / information Retrieval",
+      "संग्रह का विषयवार अवलोकन / Subject wise overview of the collection",
+      "सभी विकल्प/ All options",
+      "पुस्तकालय संग्रह को व्यवस्थित करने में / In organizing library collection"
+    ],
+    "answer": 2,
+    "explanation": "पुस्तकालय वर्गीकरण पुस्तकालय संग्रह को व्यवस्थित करने में मदद करता है, संग्रह का विषय-वार अवलोकन प्रदान करता है, और सूचना पुनर्प्राप्ति की सुविधा प्रदान करता है। इसलिए, दिए गए सभी विकल्प सही हैं।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "AIIMS RAIPUR-2018"
+  },
+  {
+    "question": "वर्गीकरण कार्य के चरणों को उचित क्रम में व्यवस्थित करें ?<br>(A) Checking with the catalogue<br>(B) Preliminary sorting<br>(C) Determining the specific subject<br>(D) Assigning the class number",
+    "options": [
+      "(C) (A) (B) (D)",
+      "(B) (D) (A) (C)",
+      "(A) (B) (D) (C)",
+      "(B) (A) (D) (C)"
+    ],
+    "answer": 3,
+    "explanation": "दिए गए विकल्प और उत्तर कुंजी में तार्किक त्रुटि है। वर्गीकरण कार्य का सही तार्किक क्रम है: (B) प्रारंभिक छंटाई -> (C) विशिष्ट विषय का निर्धारण -> (D) वर्ग संख्या निर्दिष्ट करना -> (A) सूची के साथ जाँच करना (स्थिरता के लिए)। इस प्रकार सही क्रम B, C, D, A होना चाहिए, जो विकल्पों में नहीं है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "CUET PG 2022"
+  },
+  {
+    "question": "घटना के वर्ष के अनुसार निम्नलिखित को व्यवस्थित करें ?<br>(a) International Study Conference on Classification, Dorking.<br>(b) International Study Conference on Classification Research, Bombay.<br>(c) International Study Conference on Classification Research, Elsinore.<br>(d) Royal Society Scientific Information Conference, London.",
+    "options": [
+      "(a), (d), (c), (b)",
+      "(c), (d), (b), (a)",
+      "(d), (a), (c), (b)",
+      "(b), (c), (a), (d)"
+    ],
+    "answer": 2,
+    "explanation": "इन सम्मेलनों का सही कालानुक्रमिक क्रम है:<br>1. (d) रॉयल सोसाइटी साइंटिफिक इंफॉर्मेशन कॉन्फ्रेंस, लंदन (1948)<br>2. (a) इंटरनेशनल स्टडी कॉन्फ्रेंस ऑन क्लासिफिकेशन, डॉर्किंग (1957)<br>3. (c) इंटरनेशनल स्टडी कॉन्फ्रेंस ऑन क्लासिफिकेशन रिसर्च, एल्सिनोर (1964)<br>4. (b) थर्ड इंटरनेशनल स्टडी कॉन्फ्रेंस ऑन क्लासिफिकेशन रिसर्च, बॉम्बे (1975)",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "GURUGRAM UNIVERSITY 2023"
+  },
+  {
+    "question": "यूएस संघीय सरकारी दस्तावेजों को क्रमबद्ध करने के लिए प्रयुक्त और दी गई वर्गीकरण संख्या..........है ?",
+    "options": [
+      "class number",
+      "call number",
+      "Sudox number",
+      "Reference number"
+    ],
+    "answer": 2,
+    "explanation": "दस्तावेजों के अधीक्षक (Superintendent of Documents - SuDocs) वर्गीकरण प्रणाली का उपयोग अमेरिकी संघीय सरकार के दस्तावेजों को व्यवस्थित करने के लिए किया जाता है। निर्दिष्ट संख्या को SuDocs नंबर कहा जाता है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "ISRO-2019 VIKRRM SARABHAI"
+  },
+  {
+    "question": "वर्गीकरण के लिए योजना जो कुछ पुस्तकों की विशेषताओं पर आधारित है, जो विषय वस्तु के बारे में एक विश्वसनीय मार्गदर्शन प्रदान नहीं करते हैं ?",
+    "options": [
+      "कृत्रिम वर्गीकरण / Artificial classification",
+      "फार्म वर्गीकरण/ Form classification",
+      "नम्य वर्गीकरण/ Flexible classification",
+      "फैमिफाइंग वर्गीकरण/ Famiflying classification"
+    ],
+    "answer": 0,
+    "explanation": "एक कृत्रिम वर्गीकरण प्रणाली वह है जो दस्तावेजों की आवश्यक विषय वस्तु के बजाय आकस्मिक या सतही विशेषताओं (जैसे आकार, रंग, या शीर्षक का पहला अक्षर) पर आधारित होती है। ऐसी प्रणाली विषय के बारे में विश्वसनीय मार्गदर्शन प्रदान नहीं करती है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "KVS 2015"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा एक ही विषय के संबंधित दस्तावेजों को एक साथ लाने के लिए है ?",
+    "options": [
+      "Cataloguing",
+      "Indexing",
+      "Documentation",
+      "Classification"
+    ],
+    "answer": 3,
+    "explanation": "वर्गीकरण पुस्तकालयों में एक ही विषय पर संबंधित दस्तावेजों को एक साथ लाने के लिए उपयोग किया जाने वाला प्राथमिक उपकरण है। इस प्रक्रिया को कोलोकेशन (collocation) कहते हैं।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सी स्कूल पुस्तकालयों में एक विस्तार गतिविधि नहीं है ?",
+    "options": [
+      "Story telling",
+      "Classification of books",
+      "Display orientation programme",
+      "Library orientation programme"
+    ],
+    "answer": 1,
+    "explanation": "कहानी सुनाना, प्रदर्शन अभिविन्यास और पुस्तकालय अभिविन्यास पुस्तकालय उपयोग को बढ़ावा देने के लिए डिज़ाइन की गई विस्तार गतिविधियाँ हैं। पुस्तकों का वर्गीकरण एक मुख्य, आंतरिक तकनीकी प्रक्रिया (पर्दे के पीछे का काम) है, न कि उपयोगकर्ताओं के लिए एक विस्तार गतिविधि।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "TNPSC-2017"
+  },
+  {
+    "question": "पुस्तकालय वर्गीकरण में प्रयोग की जाने वाली भाषा को.... भाषा कहा जाता है ?",
+    "options": [
+      "मूल / Original",
+      "वास्तविक / Real",
+      "कृत्रिम / Artificial",
+      "स्थानीय / Local"
+    ],
+    "answer": 2,
+    "explanation": "एक पुस्तकालय वर्गीकरण योजना की अंकन प्रणाली क्रमसूचक संख्याओं की एक कृत्रिम भाषा है, जिसे विशेष रूप से विषयों और उनके संबंधों का प्रतिनिधित्व करने के लिए डिज़ाइन किया गया है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "Match the following-<br>List-I<br>A- Ernest Cushing Richardson<br>B- Melville Louis Kossuth Dewey<br>C- Henry Evelyn Bliss<br>D- Shiyali Ramamrita Ranganathan<br>List-II<br>i. 1851-1931<br>ii. 1892-1972<br>iii. 1870-1955<br>iv. 1860-1939",
+    "options": [
+      "A-iii, B-iv, C-ii, D-i",
+      "A-iv, B-i, C-iii, D-ii",
+      "A-i, B-iii, C-iv, D-ii",
+      "A-ii, B-iii, C-iv, D-i"
+    ],
+    "answer": 1,
+    "explanation": "सही मिलान है:<br>A- अर्नेस्ट कुशिंग रिचर्डसन (1860-1939)<br>B- मेल्विल लुईस कोसुथ डेवी (1851-1931)<br>C- हेनरी एवलिन ब्लिस (1870-1955)<br>D- शियाली रामामृत रंगनाथन (1892-1972)",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "UPPSC 2023 SHIFT - 1"
+  },
+  {
+    "question": "शब्द 'पदानुक्रमित वर्गीकरण' किस दार्शनिक से लिया गया है ?",
+    "options": [
+      "Plato",
+      "Aristotle",
+      "Plato and Aristotle",
+      "Non one of these above"
+    ],
+    "answer": 1,
+    "explanation": "पदानुक्रमित वर्गीकरण, या चीजों को सामान्य से विशिष्ट में विभाजित करने की अवधारणा, यूनानी दार्शनिक अरस्तू (Aristotle) के तार्किक तरीकों, विशेष रूप से उनकी 'जीनस-डिफरेंशिया' परिभाषा से दृढ़ता से जुड़ी हुई है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "कालानुक्रमिक क्रम में वर्गीकरणकर्ता के योगदान का सही क्रम चुनें ?",
+    "options": [
+      "Francis Bacon, W.T. Harris, Melvil Dewey, J.D. Brown",
+      "W.T. Harris, Francis Bacon, Melvil Dewey, J.D. Brown",
+      "Francis Bacon, Melvil Dewey, J.D. Brown, W.T. Harris",
+      "Francis Bacon, J.D. Brown, W.T. Harris, Melvil Dewey"
+    ],
+    "answer": 0,
+    "explanation": "इन वर्गीकरणकर्ताओं के योगदान का सही कालानुक्रमिक क्रम है: फ्रांसिस बेकन (17वीं शताब्दी), डब्ल्यू.टी. हैरिस (1870), मेल्विल डेवी (1876), और जे.डी. ब्राउन (1906)।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "DSSSB-2017"
+  },
+  {
+    "question": "वर्गीकरण के कार्य को कितने तलों में विभाजित किया गया है ?",
+    "options": [
+      "Three",
+      "Four",
+      "Five",
+      "Two"
+    ],
+    "answer": 0,
+    "explanation": "एस.आर. रंगनाथन ने वर्गीकरण के कार्य को तीन последовательных तलों में विभाजित किया: वैचारिक तल (Idea Plane), शाब्दिक तल (Verbal Plane), और आंकिक तल (Notational Plane)।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "रंगनाथन के वर्गीकरण सिद्धांतों को कार्य के किन तीन स्तरों में वर्गीकृत किया गया है ?",
+    "options": [
+      "विचार, मौखिक और संख्या / Idea, Verbal and Number",
+      "विचार, मौखिक और सांकेतिक / Idea, Verbal and Notational",
+      "प्राकृतिक, कृत्रिम और कम्प्यूटर / Natural, Artificial and Computer",
+      "संख्या, सामान्य आइसोलेट और संयोजी प्रतीक / Number, Common Isolate and Connecting Symbol"
+    ],
+    "answer": 1,
+    "explanation": "रंगनाथन का वर्गीकरण का सिद्धांत कार्य के तीन स्तरों के आसपास संरचित है: वैचारिक (Idea), मौखिक (Verbal), और सांकेतिक (Notational)।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "PRL AHAMBADAD 2023"
+  },
+  {
+    "question": "वर्गीकरण की 'परासरण प्रणाली' का सुझाव निम्नलिखित में से किसने दिया ?",
+    "options": [
+      "A.C. Foskett",
+      "J.H. Shera",
+      "H.E. Bliss",
+      "S.R.Ranganathan"
+    ],
+    "answer": 3,
+    "explanation": "एस.आर. रंगनाथन ने पुनर्वर्गीकरण के लिए 'परासरण की विधि' (Method of Osmosis) का सुझाव दिया। इसमें एक ही बार में सब कुछ पुनर्वर्गीकृत करने के बजाय, केवल संग्रह के सबसे सक्रिय हिस्से और नए परिवर्धनों को पुनर्वर्गीकृत किया जाता है, जिससे परिवर्तन धीरे-धीरे पूरे पुस्तकालय में व्याप्त हो जाते हैं।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "KVS 2023 SHIFT-2"
+  },
+  {
+    "question": "उस वर्गीकरणकर्ता का नाम बताएँ, जिन्होंने 1901 में ही वर्गीकरण के एक सिद्धान्त को स्थापित करने के लिए एक बुनियादी प्रयास किया और 'विशिष्ट सूची' का समर्थन किया ?",
+    "options": [
+      "S.R. Ranganathan",
+      "H.E. Bliss",
+      "Melvil Dewey",
+      "E.C. Richardson"
+    ],
+    "answer": 3,
+    "explanation": "ई.सी. रिचर्डसन ने अपनी 1901 की पुस्तक \"क्लासिफिकेशन: थिओरेटिकल एंड प्रैक्टिकल\" में, वर्गीकरण का एक सिद्धांत स्थापित करने के लिए पहला व्यवस्थित प्रयास किया और वे निकट या विशिष्ट वर्गीकरण (close or specific classification) के प्रबल समर्थक थे।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "RPSC ASS. PROFESSOR PAPER II-2024"
+  },
+  {
+    "question": "मैक्रो दस्तावेज के लिए विस्तृत वर्गीकरण की आवश्यकता होती है, वह वर्गीकरण कौन-सा है ?",
+    "options": [
+      "Bibliographic Classification",
+      "Broad Classification",
+      "Depth Classification",
+      "Library Classification"
+    ],
+    "answer": 2,
+    "explanation": "गहन वर्गीकरण (Depth Classification) एक अत्यधिक विस्तृत और विशिष्ट वर्गीकरण योजना को संदर्भित करता है जिसे सूक्ष्म-विषयों को वर्गीकृत करने के लिए डिज़ाइन किया गया है, जो आमतौर पर लेखों और शोध पत्रों में पाए जाते हैं।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "KVS 2015"
+  },
+  {
+    "question": "परासरण की विधि (मैथड ऑफ ओस्मोसिस) किससे सम्बन्धित है?",
+    "options": [
+      "पुनर्वर्गीकरण / Reclassification",
+      "सूचीकरण विधि / Catalogue method",
+      "अनुक्रमणीकरण तकनीक / Indexing technique",
+      "परिसंचरण विधि/circulation method"
+    ],
+    "answer": 0,
+    "explanation": "परासरण की विधि (Method of Osmosis), जिसका सुझाव एस.आर. रंगनाथन ने दिया था, पुनर्वर्गीकरण (Reclassification) की एक तकनीक है। यह एक वर्गीकरण योजना से दूसरी में बदलने के बड़े पैमाने पर काम का प्रबंधन करने के लिए एक व्यावहारिक दृष्टिकोण है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "'पुस्तकालय वर्गीकरण के दर्शन' पर विनिबन्ध लिखने के लिए डॉ. एस. आर. रंगनाथन को किसने आमंत्रित किया था ?",
+    "options": [
+      "Melville Dewey",
+      "Jean Anker",
+      "P.N. Kaula",
+      "W.C.B.Sayers"
+    ],
+    "answer": 1,
+    "explanation": "कोपेनहेगन विश्वविद्यालय के पुस्तकालय के निदेशक डॉ. जीन एंकर (Jean Anker) ने डॉ. एस. आर. रंगनाथन को FID सम्मेलन के लिए 'पुस्तकालय वर्गीकरण के दर्शन' पर एक निबंध लिखने के लिए आमंत्रित किया था।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "'पदानुक्रमिक वर्गीकरण' में आप वर्गों के समूह को किस क्रम में व्यवस्थित कर सकते हैं ?",
+    "options": [
+      "Main Classes",
+      "Irregular Divisions",
+      "Successive Subdivision",
+      "Regular Classes"
+    ],
+    "answer": 2,
+    "explanation": "एक पदानुक्रमित वर्गीकरण में, वर्गों के समूहों को क्रमिक उपविभाजन (Successive Subdivision) के क्रम में व्यवस्थित किया जाता है, जो सबसे सामान्य वर्ग से लेकर तेजी से अधिक विशिष्ट उपवर्गों तक जाता है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "कक्षाएं एक ही सारणी से संबंधित हैं जिन्हें इस नाम से जाना जाता है ?",
+    "options": [
+      "Coordinate",
+      "Subordinate",
+      "Canonical",
+      "Collateral"
+    ],
+    "answer": 0,
+    "explanation": "वे वर्ग जो एक ही सारणी (array) से संबंधित हैं (अर्थात, वे एक ही विशेषता का उपयोग करके एक मूल वर्ग से प्राप्त होते हैं) एक ही क्रम के कहे जाते हैं और उन्हें समन्वय वर्ग (coordinate classes) के रूप में जाना जाता है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "GUWAHTI HIGH COURT 2019"
+  },
+  {
+    "question": "'रेमीफिकेशन' से आप क्या समझते हैं ?",
+    "options": [
+      "एक विषय क्षेत्र में विभाजन व उपविभाजन / Division and sub-division of a subject discipline",
+      "उपसूत्र / Canon",
+      "सामान्य एकल / Common isolates",
+      "पंक्ति / Arrays"
+    ],
+    "answer": 0,
+    "explanation": "रेमीफिकेशन (Ramification) एक वर्गीकरण योजना की शाखाओं वाली संरचना को संदर्भित करता है, जो सामान्य से विशिष्ट तक एक विषय अनुशासन के विभाजन और उप-विभाजन का प्रतिनिधित्व करता है, जिससे एक पदानुक्रम बनता है।",
+    "category": "वर्गीकरण के उपसूत्र",
+    "source": "RAJ.UNI. JTA-2018"
+  },
+  {
+    "question": "ऑन्टोलोजी है ?",
+    "options": [
+      "एक प्रलेखन सेवा",
+      "एक अनुक्रमण विधि",
+      "इंटरनेट आधारित दस्तावेजों का वर्गीकरण",
+      "इंटरनेट आधारित दस्तावेजों की सूची बनाना"
+    ],
+    "answer": 2,
+    "explanation": "सूचना विज्ञान और सिमेंटिक वेब के संदर्भ में, ऑन्टोलोजी एक साझा अवधारणा का औपचारिक, स्पष्ट विनिर्देशन है। इसका उपयोग अवधारणाओं और उनके बीच संबंधों को परिभाषित करके इंटरनेट-आधारित दस्तावेजों और संसाधनों को वर्गीकृत करने के लिए किया जाता है, जिससे मशीनें जानकारी को समझ और संसाधित कर सकें।",
+    "category": "Ontology",
+    "source": "IITH JUNIOR LIB. INFORMATION ASSISTANT-2023"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा टास्क ओरिएंटेड ऑन्टोलोजी का हिस्सा नहीं है ?",
+    "options": [
+      "Lexical level",
+      "Core level",
+      "Conceptual level",
+      "Symbol level"
+    ],
+    "answer": 1,
+    "explanation": "टास्क-ओरिएंटेड ऑन्टोलोजी को स्तरों में संरचित किया जाता है। इनमें आमतौर पर प्रतीक स्तर (symbol level), शाब्दिक स्तर (lexical level), और वैचारिक स्तर (conceptual level) शामिल होते हैं। 'कोर स्तर (Core level)' इस विशिष्ट मॉडल का एक मानक घटक नहीं है।",
+    "category": "Ontology",
+    "source": "RPSC ASS. PROFESSOR. 2024"
+  },
+  {
+    "question": "कौन सी वेब ऑन्टोलोजी भाषा की उप-भाषाओं का हिस्सा नहीं है ?",
+    "options": [
+      "OWL lite",
+      "OWL DL",
+      "OWL Full",
+      "OWL Protégé"
+    ],
+    "answer": 3,
+    "explanation": "OWL (वेब ऑन्टोलोजी भाषा) की तीन उप-भाषाएँ हैं: OWL Lite, OWL DL (डिस्क्रिप्शन लॉजिक), और OWL Full। Protégé OWL की उप-भाषा नहीं है; यह एक लोकप्रिय ओपन-सोर्स ऑन्टोलोजी संपादक और फ्रेमवर्क है जिसका उपयोग OWL सहित ऑन्टोलोजी बनाने और प्रबंधित करने के लिए किया जाता है।",
+    "category": "Ontology",
+    "source": "RPSC ASS. PROFESSOR PAPER II-2024"
+  },
+  {
+    "question": "कौन सी तकनीक ओन्टोलोजी के संगठन और प्रतिनिधित्व से जुड़ी है ?",
+    "options": [
+      "HTTP",
+      "XML",
+      "Z39.50",
+      "JSON"
+    ],
+    "answer": 3,
+    "explanation": "JSON (जावास्क्रिप्ट ऑब्जेक्ट नोटेशन) एक हल्का डेटा-इंटरचेंज प्रारूप है जिसका उपयोग ऑन्टोलोजी सहित संरचित डेटा के प्रतिनिधित्व और संगठन के लिए किया जा सकता है। XML भी एक विकल्प है, लेकिन आधुनिक वेब अनुप्रयोगों में JSON का अधिक उपयोग होता है।",
+    "category": "Ontology",
+    "source": "IITH LIBRARY INFORMATION ASST.-2023"
+  },
+  {
+    "question": "आन्टोलोजी सम्बन्धित है ?",
+    "options": [
+      "क्रिया का अध्ययन/study of action",
+      "सूचना प्रक्रियाकरण पर अध्ययन/Study on information processing.",
+      "कला का अध्ययन/Study of art",
+      "अस्तित्व की प्रकृति/Nature of existence"
+    ],
+    "answer": 3,
+    "explanation": "दार्शनिक अर्थ में, ऑन्टोलोजी (सत्तामीमांसा) तत्वमीमांसा की वह शाखा है जो अस्तित्व, होने, बनने और वास्तविकता की प्रकृति का अध्ययन करती है।",
+    "category": "Ontology",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "वह वर्गीकरण पद्धति जो विद्याशाखाओं (discipline) मुख्य वर्गों ओर उनके उपखंडों में विभाजित अतीत, वर्तमान और निकट भविष्य के सभी विषयों को व्यवस्थित रूप से सूचीबद्ध करती है ?",
+    "options": [
+      "Enumerative System",
+      "Rigidly Faceted Syatem",
+      "faceted System",
+      "Analytico-synthetic systeme"
+    ],
+    "answer": 0,
+    "explanation": "एक परिगणनात्मक वर्गीकरण प्रणाली (Enumerative Classification System) वह है जो अतीत, वर्तमान और अनुमानित भविष्य के सभी ज्ञात विषयों को एक पदानुक्रमित क्रम में सूचीबद्ध करने का प्रयास करती है। उपयोगकर्ता दिए गए शेड्यूल से सबसे उपयुक्त वर्ग का चयन करता है।",
+    "category": "Species of scheme for Classification of Subject",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "एस. आर. रंगनाथन के अनुसार 'वर्गीकरण पद्धति में अतीत, वर्तमान और पूर्वानुमानित भविष्य के सभी विषयों की आवश्यक रूप से एकल अनुसूची परिगणित होती है'?",
+    "options": [
+      "एक लगभग परिगणनात्मक/An Almost-Enumerative",
+      "एक अनम्य पक्षात्मक / A Rigidly Faceted",
+      "एक लगभग पक्षात्मक / An Almost Faceted",
+      "एक परिगणनात्मक / An Enumerative"
+    ],
+    "answer": 3,
+    "explanation": "यह एक परिगणनात्मक (Enumerative) वर्गीकरण योजना की परिभाषा है। यह योजना पहले से तैयार की गई एक विस्तृत अनुसूची प्रदान करती है जिसमें सभी संभावित विषय सूचीबद्ध होते हैं।",
+    "category": "Species of scheme for Classification of Subject",
+    "source": "KVS 2018 EVENING"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा कथन गणनात्मक वर्गीकरण योजना के बारे में सही है ?<br>(i) An enumerative classification attempts to list all subjects/एक गणनात्मक वर्गीकरण सभी विषयों को सूचीबद्ध करने का प्रयास करता है।<br>(ii) An enumerative classification is rigid in nature / गणनात्मक वर्गीकरण प्रकृति में कठोर होता है।<br>(iii) 'Colon Classification' is an example of enumerative classification/'कोलन वर्गीकरण' गणनात्मक वर्गीकरण का एक उदाहरण है।",
+    "options": [
+      "Only i",
+      "Only (i and ii)",
+      "Only iii",
+      "All of the above (i, ii and iii)"
+    ],
+    "answer": 0,
+    "explanation": "दिए गए विकल्पों में, केवल पहला कथन (i) पूरी तरह से सही है। कथन (ii) भी सही है, लेकिन कोलन वर्गीकरण (iii) एक पक्षात्मक (faceted) योजना है, न कि गणनात्मक। इसलिए सबसे सटीक उत्तर केवल (i) है। हालांकि, कुछ व्याख्याओं में (i) और (ii) दोनों को सही माना जा सकता है।",
+    "category": "Species of scheme for Classification of Subject",
+    "source": "KERLA PSC-2021"
+  },
+  {
+    "question": "'वैश्लेषिक संश्लेषित वर्गीकरण' का वैकल्पिक पद क्या है ?",
+    "options": [
+      "पक्षीय वर्गीकरण/Faceted classification.",
+      "लगभग-पक्षीय वर्गीकरण / Almost- faceted classification.",
+      "पूर्णतः परन्तु कड़ाई के साथ पक्षीय वर्गीकरण / Fully but rigidly faceted classification.",
+      "गणानात्मक वर्गीकरण / Enumerative Classification"
+    ],
+    "answer": 0,
+    "explanation": "वैश्लेषिक-संश्लेषित वर्गीकरण (Analytico-Synthetic Classification) का दूसरा नाम पक्षीय वर्गीकरण (Faceted Classification) है। इस विधि में पहले विषय का विश्लेषण करके उसके विभिन्न पक्षों (facets) को अलग किया जाता है और फिर नियमों के अनुसार उन पक्षों को संश्लेषित करके वर्ग संख्या का निर्माण किया जाता है।",
+    "category": "Species of scheme for Classification of Subject",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "निम्नलिखित में से वर्गीकरण की सबसे अधिक गणनात्मक प्रणाली कौन सी है ?",
+    "options": [
+      "LC",
+      "DDC",
+      "CC",
+      "UDC"
+    ],
+    "answer": 0,
+    "explanation": "लाइब्रेरी ऑफ कांग्रेस क्लासिफिकेशन (LC) को सबसे अधिक परिगणनात्मक (Enumerative) वर्गीकरण प्रणाली माना जाता है। इसमें अधिकांश वर्ग संख्याएँ पहले से ही अनुसूचियों में निर्मित होती हैं।",
+    "category": "Species of scheme for Classification of Subject",
+    "source": "SHREE CHITRA TIRUNAL INSTTUTE-2023"
+  },
+  {
+    "question": "लाइब्रेरी वर्गीकरण योजना को डिजाइन करने में एनालिटिको सिंथेटिक दृष्टिकोण का उपयोग किसने किया ?",
+    "options": [
+      "S.R. Ranganathan",
+      "HE Blis",
+      "Melvil Dewey",
+      "CA Cutter"
+    ],
+    "answer": 0,
+    "explanation": "एस.आर. रंगनाथन ने अपनी कोलन क्लासिफिकेशन (CC) योजना के डिजाइन में विश्लेषणात्मक-संश्लेषणात्मक (Analytico-Synthetic) या पक्षात्मक दृष्टिकोण का विकास और उपयोग किया।",
+    "category": "Species of scheme for Classification of Subject",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "एस.आर. रंगनाथन की वर्गीकरण प्रणाली आधारित है ?",
+    "options": [
+      "Analytico-Synthetic Approach",
+      "Consenses Approach",
+      "Cognitive approach",
+      "Bibliometric approach"
+    ],
+    "answer": 0,
+    "explanation": "एस.आर. रंगनाथन की वर्गीकरण प्रणाली, कोलन क्लासिफिकेशन, विश्लेषणात्मक-संश्लेषणात्मक (Analytico-Synthetic) दृष्टिकोण पर आधारित है।",
+    "category": "Species of scheme for Classification of Subject",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "पहली बार विकसित एनालेटिको सिंथेटिक (फेसेटड) पुस्तकालय वर्गीकरण योजना ?",
+    "options": [
+      "Colon Classification (CC)",
+      "DV Decimal Classification (DDC)",
+      "Library of Congress Classification (LC)",
+      "Universal Decimal Classification (U.D.C.)"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन (CC), जिसे 1933 में एस.आर. रंगनाथन द्वारा विकसित किया गया था, पहली विश्लेषणात्मक-संश्लेषणात्मक या पक्षात्मक (faceted) पुस्तकालय वर्गीकरण योजना है।",
+    "category": "Species of scheme for Classification of Subject",
+    "source": "ISRO-2015 VIKRAM SARABAI"
+  },
+  {
+    "question": "कौन सी पहली योजना थी जिसे पूरी तरह से विश्लेषणात्मक-सिंथेटिक वर्गीकरण योजना कहा जा सकता है?",
+    "options": [
+      "Colon Classification 6th Edition",
+      "Colon Classification 4th Edition",
+      "Colon Classification 3rd Edition",
+      "Colon Classification 1st Edition"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन का पहला संस्करण (1933) ही पहली पूर्णतः विश्लेषणात्मक-संश्लेषणात्मक वर्गीकरण योजना थी, हालांकि बाद के संस्करणों में इस अवधारणा को और अधिक परिष्कृत किया गया।",
+    "category": "Species of scheme for Classification of Subject",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "'सी.सी.' है ?",
+    "options": [
+      "वैश्लेषिक वर्गीकरण/Analytical classification",
+      "संश्लेषणात्मक वर्गीकरण/Synthetic classification",
+      "वैश्लेषी-संश्लेषणात्मक वर्गीकरण/Analytical-synthetic classification",
+      "परिगणित वर्गीकरण/Enumerated classification"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन (सी.सी.) एक वैश्लेषी-संश्लेषणात्मक (Analytical-synthetic) वर्गीकरण योजना है।",
+    "category": "Species of scheme for Classification of Subject",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "कोलन वर्गीकरण के किस संस्करण को एक (faceted classification scheme) के रूप में माना ?",
+    "options": [
+      "First edition",
+      "Fourth edition",
+      "Sixth edition",
+      "Seventh edition"
+    ],
+    "answer": 3,
+    "explanation": "हालांकि कोलन वर्गीकरण शुरू से ही एक पक्षात्मक योजना थी, लेकिन सातवें संस्करण (Seventh edition) को सबसे विकसित और पूर्णतः पक्षात्मक (freely faceted) योजना के रूप में माना जाता है।",
+    "category": "Species of scheme for Classification of Subject",
+    "source": "KERLA PSC 2016"
+  },
+  {
+    "question": "कोलन वर्गीकरण पहली बार कब प्रकाशित हुआ था ?",
+    "options": [
+      "1942",
+      "1928",
+      "1939",
+      "1933"
+    ],
+    "answer": 3,
+    "explanation": "एस.आर. रंगनाथन द्वारा कोलन क्लासिफिकेशन का पहला संस्करण वर्ष 1933 में प्रकाशित हुआ था।",
+    "category": "Colon Classification",
+    "source": "MIZORAM PSC 2013 PAPER-I"
+  },
+  {
+    "question": "कोलन क्लासीफिकेशन का पहला संस्करण किस वर्ष प्रकाशित हुआ था ?",
+    "options": [
+      "1924",
+      "1939",
+      "1933",
+      "1950"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन का पहला संस्करण 1933 में मद्रास लाइब्रेरी एसोसिएशन द्वारा प्रकाशित किया गया था।",
+    "category": "Colon Classification",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "सीसी में किस प्रकार के अंकन का प्रयोग किया जाता है ?",
+    "options": [
+      "Roman smalls",
+      "Mixed notation",
+      "Roman capitals",
+      "Hindu-Arabic numerals"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन (सीसी) में मिश्रित अंकन (Mixed notation) का उपयोग किया जाता है, जिसमें रोमन बड़े अक्षर (A-Z), रोमन छोटे अक्षर (a-z), इंडो-अरबी अंक (0-9) और विभिन्न प्रतीक शामिल हैं।",
+    "category": "Colon Classification",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "कोलन वर्गीकरण किसके द्वारा विकसित पुस्तकालय वर्गीकरण की एक प्रणाली है ?",
+    "options": [
+      "S. R. Ranganathan",
+      "Melvil Dewey",
+      "C. A. Cutter",
+      "H. E. Bliss"
+    ],
+    "answer": 0,
+    "explanation": "कोलन वर्गीकरण (Colon Classification) डॉ. एस. आर. रंगनाथन द्वारा विकसित एक पुस्तकालय वर्गीकरण प्रणाली है।",
+    "category": "Colon Classification",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "कोलन वर्गीकरण का सातवां संस्करण किस वर्ष में जारी किया गया था ?",
+    "options": [
+      "1933",
+      "1957",
+      "1987",
+      "1988"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन का सातवां और अब तक का अंतिम संस्करण 1987 में प्रकाशित हुआ था। इसे एम.ए. गोपीनाथ द्वारा संपादित किया गया था।",
+    "category": "Colon Classification",
+    "source": "TNPSC LIBRARAY ASSISTANT, ISRO 2022"
+  },
+  {
+    "question": "कोलन क्लासिफिकेशन का चौथा संस्करण किस वर्ष में प्रकाशित हुआ था ?",
+    "options": [
+      "1932",
+      "1942",
+      "1952",
+      "1962"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन का चौथा संस्करण वर्ष 1952 में प्रकाशित हुआ था।",
+    "category": "Colon Classification",
+    "source": "KERLA PSC 2021"
+  },
+  {
+    "question": "अपूर्ण-विराम वर्गीकरण (कोलन क्लासिफिकेशन) का छठा संस्करण किस साल प्रकाशित हुआ था ?",
+    "options": [
+      "1953",
+      "1960",
+      "1923",
+      "1943"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन का छठा संस्करण वर्ष 1960 में प्रकाशित हुआ था। इसका पुनर्मुद्रण (Reprint) 1963 में हुआ।",
+    "category": "Colon Classification",
+    "source": "NVS 2019"
+  },
+  {
+    "question": "अपूर्ण विराम (कोलन) वर्गीकरण से सम्बन्धित है:",
+    "options": [
+      "आंशिक फलकित / Partially faceted",
+      "दुर्नम्य फलकित / Rigidly faceted",
+      "लगभग फलकित / almost faceted",
+      "स्वेच्छा से फलकित / Freely faceted"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन एक स्वेच्छा से फलकित (Freely faceted) वर्गीकरण योजना का प्रमुख उदाहरण है, जिसका अर्थ है कि इसमें विभिन्न पक्षों को स्वतंत्र रूप से जोड़कर जटिल विषयों के लिए वर्ग संख्या बनाने की अत्यधिक स्वतंत्रता है।",
+    "category": "Colon Classification",
+    "source": "ISRO-2019 VIKRRM SARABHAI"
+  },
+  {
+    "question": "कोलन वर्गीकरण का छठा संस्करण किस श्रेणी में आता है ?",
+    "options": [
+      "Freely faceted classification scheme",
+      "Rigidly faceted classification scheme",
+      "Almost freely faceted classification scheme",
+      "Purely faceted classification scheme"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन का छठा संस्करण लगभग स्वेच्छा से फलकित (Almost freely faceted) योजना माना जाता है। हालांकि यह बहुत लचीला है, लेकिन सातवें संस्करण की तुलना में इसमें कुछ कठोरता है।",
+    "category": "Colon Classification",
+    "source": "DSSSB-2021 TECHNICAL ASSISTANT"
+  },
+  {
+    "question": "कोलन वर्गीकरण (छठा संस्करण) 1960 है ?",
+    "options": [
+      "Enumerative",
+      "Almost enumerative",
+      "Rigidly faceted",
+      "Freely faceted"
+    ],
+    "answer": 3,
+    "explanation": "कोलन वर्गीकरण का छठा संस्करण एक स्वेच्छा से फलकित (Freely faceted) वर्गीकरण योजना है। यह एक विषय के विभिन्न पहलुओं को अलग करने और फिर उन्हें एक विशिष्ट वर्ग संख्या बनाने के लिए संयोजित करने की अनुमति देता है।",
+    "category": "Colon Classification",
+    "source": "GUWAHTI HIGH COURT 2019"
+  },
+  {
+    "question": "कोलन वर्गीकरण इसका उदाहरण है ?",
+    "options": [
+      "Faceted",
+      "Freely faceted",
+      "Almost enumerative",
+      "Enumerative"
+    ],
+    "answer": 0,
+    "explanation": "कोलन वर्गीकरण एक पक्षात्मक (Faceted) वर्गीकरण योजना का सर्वोत्कृष्ट उदाहरण है।",
+    "category": "Colon Classification",
+    "source": "CGPSC LIBRARIAN"
+  },
+  {
+    "question": "कोलन वर्गीकरण में विषयों के ब्रह्मांड के मानचित्रण की विधि है ?",
+    "options": [
+      "Notational",
+      "Hierarchical",
+      "Enumerative",
+      "Faceted"
+    ],
+    "answer": 3,
+    "explanation": "कोलन वर्गीकरण ज्ञान के ब्रह्मांड का मानचित्रण करने के लिए पक्षात्मक (Faceted) विधि का उपयोग करता है, जिसमें विषयों को उनकी मौलिक श्रेणियों (PMEST) के आधार पर विश्लेषित किया जाता है।",
+    "category": "Colon Classification",
+    "source": "DSSSB-2021 TECHNICAL ASSISTANT"
+  },
+  {
+    "question": "कोलन वर्गीकरण के प्रथम तीन संस्करण (वर्ष 1933, 1939 एवं 1950) को..... कहते हैं ?",
+    "options": [
+      "मुक्त फलकित वर्गीकरण / Freely faceted classification",
+      "अनम्य फलकित वर्गीकरण / Rigidly faceted classification",
+      "लगभग फलकित वर्गीकरण / Almost faceted classification",
+      "लगभग नगणनात्मक वर्गीकरण / Almost enumerative classification"
+    ],
+    "answer": 1,
+    "explanation": "कोलन वर्गीकरण के पहले तीन संस्करणों को अनम्य फलकित (Rigidly faceted) माना जाता है क्योंकि उनमें प्रत्येक मुख्य वर्ग के लिए एक कठोर पक्ष सूत्र (facet formula) था, जो बाद के संस्करणों की तुलना में कम लचीला था।",
+    "category": "Colon Classification",
+    "source": "ISRO 2017"
+  },
+  {
+    "question": "द्विबिंदु वर्गीकरण पद्धति निम्न में से किससे सम्बन्धित है ?",
+    "options": [
+      "आंशिक फेसेटेड / Partial faceted",
+      "अनम्य फेसेटेड /inflexible faceted",
+      "लगभग फेसेटेड / almost faceted",
+      "निर्बाध फेसेटेड / seamless faceted"
+    ],
+    "answer": 3,
+    "explanation": "द्विबिंदु वर्गीकरण (कोलन क्लासिफिकेशन) एक निर्बाध या स्वेच्छा से फलकित (Freely/seamless faceted) वर्गीकरण पद्धति है।",
+    "category": "Colon Classification",
+    "source": "RSMSSB-2016"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण पद्धति का नवीनतम संस्करण है:",
+    "options": [
+      "पक्षात्मक / Faceted",
+      "लगभग पक्षात्मक / Almost Faceted",
+      "मुक्त पक्षात्मक/Freely Faceted",
+      "परिगणनात्मक/Enumerative"
+    ],
+    "answer": 2,
+    "explanation": "द्विबिन्दु वर्गीकरण का नवीनतम संस्करण, जो 7वां संस्करण (1987) है, एक मुक्त पक्षात्मक (Freely Faceted) योजना है, जो पक्षों के संयोजन में अधिकतम लचीलापन प्रदान करती है।",
+    "category": "Colon Classification",
+    "source": "RSMSSB-2019"
+  },
+  {
+    "question": "कोलन वर्गीकरण में T, U, W और Y को निम्न के रूप में जाना जाता है?",
+    "options": [
+      "Empty & Emptying Digits (EED)",
+      "Emptying Digit",
+      "Gap Device",
+      "Mixed Base"
+    ],
+    "answer": 0,
+    "explanation": "कोलन वर्गीकरण में, T, U, V, W, X, Y, और Z को 'खाली और खाली करने वाले अंक' (Empty and Emptying Digits) के रूप में उपयोग किया जाता है। ये अंक अपने आप में अर्थहीन होते हैं लेकिन एक सारणी में नए विषयों को जोड़ने (अंतर्वेशन) की अनुमति देते हैं।",
+    "category": "Colon Classification",
+    "source": "ALIGARH MUSLIM UNIVERSITY"
+  },
+  {
+    "question": "कौन सी वर्गीकरण पद्धति स्वतंत्र संश्लेषी विश्लेषी पद्धति का उदाहरण है ?",
+    "options": [
+      "DDC",
+      "LCC",
+      "UDC",
+      "CC"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन (CC) स्वतंत्र संश्लेषी-विश्लेषी (Freely Faceted) पद्धति का उदाहरण है।",
+    "category": "Colon Classification",
+    "source": "RPSC ASS. PROFESSOR PAPER 1-2024"
+  },
+  {
+    "question": "सीसी 6वें संस्करण में कितने प्रकार के चरण संबंधों (phase relations) का उपयोग किया जाता है ?",
+    "options": [
+      "Four",
+      "Two",
+      "Three",
+      "Five"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन के 6वें संस्करण में पांच प्रकार के चरण संबंधों (Phase Relations) का उपयोग किया जाता है: सामान्य (General), अभिनति (Bias), तुलना (Comparison), अंतर (Difference), और प्रभाव (Influence)।",
+    "category": "Colon Classification",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "सीसी 6वें संस्करण में कितने प्रकार के सामान्य आइसोलेट्स का उपयोग किया जाता है ?",
+    "options": [
+      "Two",
+      "Four",
+      "Three",
+      "Five"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन के 6वें संस्करण में दो प्रकार के सामान्य एकल (Common Isolates) हैं: पूर्ववर्ती सामान्य एकल (Anteriorising Common Isolates - ACI) और पश्चवर्ती सामान्य एकल (Posteriorising Common Isolates - PCI)।",
+    "category": "Colon Classification",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "पाँच मौलिक श्रेणी की अवधारणा का उपयोग किया गया है ?",
+    "options": [
+      "CC",
+      "UDC",
+      "DDC",
+      "LC"
+    ],
+    "answer": 0,
+    "explanation": "पाँच मौलिक श्रेणियों (PMEST - व्यक्तित्व, पदार्थ, ऊर्जा, स्थान, समय) की अवधारणा का उपयोग एस.आर. रंगनाथन द्वारा कोलन क्लासिफिकेशन (CC) में किया गया है।",
+    "category": "Colon Classification",
+    "source": "G. G. S. IND.UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "निम्नलिखित में से कौन-सा CC (Creative Commons) लाइसेंस सबसे अधिक प्रतिबंधात्मक है जिसे कोई भी बिना किसी बदलाव के केवल डाउनलोड और साझा कर सकता है ?",
+    "options": [
+      "CC BY-NC-ND",
+      "CC BY-NC",
+      "CC BY-ND",
+      "CC BY-SA"
+    ],
+    "answer": 0,
+    "explanation": "यह प्रश्न क्रिएटिव कॉमन्स (Creative Commons) लाइसेंस के बारे में है, न कि कोलन क्लासिफिकेशन (Colon Classification) के। CC BY-NC-ND (Attribution-NonCommercial-NoDerivs) सबसे अधिक प्रतिबंधात्मक है। यह दूसरों को आपके काम को डाउनलोड करने और साझा करने की अनुमति देता है, जब तक वे आपको श्रेय देते हैं, लेकिन वे इसे व्यावसायिक रूप से उपयोग नहीं कर सकते हैं या इसमें कोई बदलाव नहीं कर सकते हैं।",
+    "category": "Colon Classification",
+    "source": "PRL AHAMBADAD 2023"
+  },
+  {
+    "question": "कोलन वर्गीकरण में, किस संख्या को अष्टक अंक (octave digit) कहा जाता है ?",
+    "options": [
+      "4",
+      "6",
+      "7",
+      "9"
+    ],
+    "answer": 3,
+    "explanation": "कोलन वर्गीकरण में, अंक '9' को अष्टक युक्ति (Octave Device) के लिए उपयोग किया जाता है। यह एक सारणी में समान समकक्ष वर्गों के समूह के बाद नए वर्गों को जोड़ने की अनुमति देता है, जिससे सारणी की क्षमता असीमित हो जाती है।",
+    "category": "Colon Classification",
+    "source": "CGPSC LIBRARIAN"
+  },
+  {
+    "question": "निम्नलिखित वर्ग संख्याओं को कोलन वर्गीकरण (छठे संस्करण ) के अनुसार व्यवस्थित करें।<br>(A) 2:g R<br>(B) 2'N<br>(C) 2<br>(D) 2a",
+    "options": [
+      "(D), (C), (A) (B)",
+      "(C), (D), (A) (B)",
+      "(D), (C), (B), (A)",
+      "(D), (A), (B), (C)"
+    ],
+    "answer": 0,
+    "explanation": "कोलन वर्गीकरण में, व्यवस्था का क्रम योजक चिह्नों के घटते क्रमसूचक मान पर आधारित होता है। पूर्ववर्ती सामान्य एकल (ACI) जैसे 'a' पहले आते हैं। इसलिए, सही क्रम है: 2a (ACI), फिर 2 (मूल वर्ग), फिर 2:g (ऊर्जा पक्ष), और अंत में 2'N (काल पक्ष)। अतः, क्रम D, C, A, B है।",
+    "category": "Colon Classification",
+    "source": "CUET PG PAPER 2022"
+  },
+  {
+    "question": "सीसी, संस्करण 6 में संकेतक अंकों के क्रमिक मूल्य कैसे तय किए गए थे ?",
+    "options": [
+      "Decreasing order",
+      "Semantic order",
+      "Equal order",
+      "Increasing order"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन में, योजक चिह्नों (indicator digits) को घटते क्रमसूचक मान (Decreasing Ordinal Value) का सिद्धांत सौंपा गया है। इसका मतलब है कि बिना किसी चिह्न वाले अंक का मान सबसे अधिक होता है, और उसके बाद विभिन्न चिह्नों का मान घटता जाता है, जो फाइलिंग क्रम को निर्धारित करता है।",
+    "category": "Colon Classification",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "कोलन वर्गीकरण में निम्नलिखित में से कौन से रिक्त अंक हैं ?",
+    "options": [
+      "T, V",
+      "U, W",
+      "Y, X",
+      "9, Z"
+    ],
+    "answer": 3,
+    "explanation": "इस प्रश्न में दिए गए विकल्पों और उत्तर में विसंगति है। कोलन क्लासिफिकेशन में T, U, V, W, X, Y, Z सभी को 'खाली और खाली करने वाले अंक' के रूप में उपयोग किया जाता है। अंक 9 का उपयोग अष्टक युक्ति के लिए किया जाता है। दिए गए उत्तर (d) 9, Z के अनुसार, 9 एक अष्टक अंक है और Z एक खाली-खाली करने वाला अंक है।",
+    "category": "Colon Classification",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "सीसी संकेतकों में......... हैं?",
+    "options": [
+      "0 से 9 तक दो अक्षर",
+      "सामूहिक शब्द का उपयोग टैग और उपक्षेत्र कोड को संदर्भित करने के लिए किया जाता है",
+      "क्षेत्र के भीतर डेटा",
+      "फील्ड को एक अद्वितीय तीन अंकीय कोड द्वारा दर्शाया जाता है"
+    ],
+    "answer": 0,
+    "explanation": "यह प्रश्न संभवतः गलत तरीके से प्रस्तुत किया गया है और MARC प्रारूप से संबंधित लगता है। कोलन क्लासिफिकेशन के संदर्भ में, इसके संकेतक (योजक चिह्न) विभिन्न प्रकार के होते हैं, जिसमें 0 से 9 तक के अंक भी शामिल हैं।",
+    "category": "Colon Classification",
+    "source": "DSSSB 2023 SHIFT II"
+  },
+  {
+    "question": "CC में रोगों के आयुर्वेदिक उपचार के लिए वर्ग संख्या LB:4:6 है और जहाँ LB का अर्थ है ?",
+    "options": [
+      "Special",
+      "Basic facet",
+      "System",
+      "Special facet"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन में, मुख्य वर्ग चिकित्सा (L) में, 'B' अक्षर आयुर्वेद चिकित्सा पद्धति (System) का प्रतिनिधित्व करता है। इसलिए, LB एक सिस्टम पक्ष (System facet) है।",
+    "category": "Colon Classification",
+    "source": "GUWAHTI HIGH COURT 2019"
+  },
+  {
+    "question": "इनमें से कौन सा कनेक्टिंग सिंबल CC में प्रयोग नहीं किया जाता है?",
+    "options": [
+      "Colon (:)",
+      "Comma (,)",
+      "Arrow (→)",
+      "Point (.)"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन में कोलन (:), कॉमा (,), और डॉट (.) का उपयोग विभिन्न पक्षों को जोड़ने के लिए योजक चिह्नों के रूप में किया जाता है। तीर (Arrow →) का उपयोग काल पक्ष में समय अवधि दर्शाने के लिए किया जाता है, लेकिन यह एक मौलिक योजक चिह्न नहीं है। हालांकि, दिए गए विकल्पों में तीर सबसे अलग है।",
+    "category": "Colon Classification",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "कोलन क्लासिफिकेशन (छठा संस्करण) में, निम्नलिखित में से किसका उपयोग भविष्य के समय को इंगित करने के लिए किया जाता है ?",
+    "options": [
+      "Downward arrow",
+      "Forward arrow",
+      "Backward arrow",
+      "Upward arrow"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन में, काल पक्ष के भीतर, भविष्य के समय को इंगित करने के लिए आगे की ओर तीर (Forward arrow →) का उपयोग किया जाता है।",
+    "category": "Colon Classification",
+    "source": "JKSSB"
+  },
+  {
+    "question": "अंग्रेजी के बड़े अक्षर 'E' CC के अनुसार किस विषय को दर्शाता है?",
+    "options": [
+      "Chemistry",
+      "Zoology",
+      "Botany",
+      "English"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन (CC) में, मुख्य वर्ग 'E' रसायन विज्ञान (Chemistry) का प्रतिनिधित्व करता है।",
+    "category": "Colon Classification",
+    "source": "KARNATAKA PSC 2016"
+  },
+  {
+    "question": "कोलन वर्गीकरण (छटा संशोधित संस्करण) के अनुसार पुस्तक वर्गीकरण के लिए तालिकाओं की संख्या होती है ?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "answer": 1,
+    "explanation": "इस प्रश्न में संभवतः सामान्य एकल (Common Isolates) की तालिकाओं के बारे में पूछा जा रहा है। यद्यपि विभिन्न प्रकार की सारणियाँ हैं, लेकिन मुख्य तौर पर 5 मौलिक श्रेणियों (PMEST) को आधार माना जाता है।",
+    "category": "Colon Classification",
+    "source": "KVS 2013"
+  },
+  {
+    "question": "वर्गीकरण की किस योजना में '999' संख्या फ्री-एक्स्ट्रा-टेरिस्ट्रयल विषय है ?",
+    "options": [
+      "Colon Classification",
+      "Dewey Decimal Classification",
+      "Both (1) & (2)",
+      "None of these"
+    ],
+    "answer": 2,
+    "explanation": "दिए गए विकल्पों में, उत्तर (c) है, जिसका अर्थ है कि यह दोनों योजनाओं पर लागू होता है। हालांकि यह DDC या CC में एक मानक संख्या नहीं है, UDC में इसका उपयोग अलौकिक स्थानों के लिए किया जा सकता है। प्रश्न में संभवतः त्रुटि है।",
+    "category": "Colon Classification",
+    "source": "KVS 2015"
+  },
+  {
+    "question": "कोलन वर्गीकरण के अनुसार 'J' किस रूप में जाना जाता है ?",
+    "options": [
+      "कृषि/Agriculture",
+      "वनस्पति विज्ञान / Botany",
+      "औषधि / Medicine",
+      "साहित्य / Literature"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन (CC) में, मुख्य वर्ग 'J' कृषि (Agriculture) का प्रतिनिधित्व करता है।",
+    "category": "Colon Classification",
+    "source": "KVS 2015"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण (छठवां संस्करण) का भाग 3 किससे संबंधित है?",
+    "options": [
+      "विशिष्ट नामों के साथ श्रेण्य ग्रंथों और धर्म ग्रंथों की अनुसूची / Schedules of classics and sacred books with special names",
+      "नियमों / Rules",
+      "वर्गीकरण की अनुसूचियाँ / Schedules of Classification",
+      "सापेक्षिक अनुक्रमणिका / Relative Index"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन के 6वें संस्करण को तीन भागों में बांटा गया है। भाग 3 में विशिष्ट नामों वाले श्रेण्य ग्रंथों (Classics) और पवित्र पुस्तकों (Sacred Books) की अनुसूचियाँ हैं।",
+    "category": "Colon Classification",
+    "source": "KVS 2018 EVENING"
+  },
+  {
+    "question": "कोलन वर्गीकरण के भाग 3 का नाम है?",
+    "options": [
+      "Schedules of Classification",
+      "Index",
+      "Rules",
+      "Schedules of Classics and Sacred books"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन के भाग 3 का शीर्षक \"Schedules of Classics and Sacred books\" है।",
+    "category": "Colon Classification",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "1933 में प्रकाशित कोलन क्लासिफिकेशन का प्रकाशक कौन था?",
+    "options": [
+      "S.R.E.L.S",
+      "Madras Library Association",
+      "S.S. Prakashan",
+      "Academic Press"
+    ],
+    "answer": 1,
+    "explanation": "1933 में प्रकाशित कोलन क्लासिफिकेशन का पहला संस्करण मद्रास लाइब्रेरी एसोसिएशन (MALA) द्वारा प्रकाशित किया गया था।",
+    "category": "Colon Classification",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "डॉ. एस. आर. रंगनाथन ने एक सारणी में कितने जोनों को मान्यता दी है ?",
+    "options": [
+      "Three",
+      "Four",
+      "Five",
+      "Four"
+    ],
+    "answer": 1,
+    "explanation": "अपने जोन विश्लेषण में, डॉ. एस. आर. रंगनाथन ने एक सारणी के भीतर चार जोनों की पहचान की, ताकि एक सारणी में एकल (isolates) को व्यवस्थित किया जा सके और आतिथ्य (hospitality) सुनिश्चित हो सके।",
+    "category": "Colon Classification",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "कोलन वर्गीकरण योजना 6 संशोधित संस्करण में शामिल हैं ?",
+    "options": [
+      "Schedules",
+      "2 parts: Rules and Schedules",
+      "3 parts: Rules, Schedule, Classics.",
+      "4 parts: Rules, Annexure, Schedule, Classics"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन के छठे संशोधित संस्करण में 3 भाग हैं: भाग 1 (नियम), भाग 2 (वर्गीकरण की अनुसूचियाँ), और भाग 3 (श्रेण्य और पवित्र पुस्तकों की अनुसूचियाँ)।",
+    "category": "Colon Classification",
+    "source": "MAHARANA PARTAP UNIVERSITY 2023"
+  },
+  {
+    "question": "कोलन वर्गीकरण योजना 6 संशोधित संस्करण के अनुसार पुस्तक संख्या क्या है ?",
+    "options": [
+      "Year Number is the Book Number, e.g. N87",
+      "Author's Surname is the Book Number, e.g. SHARMA",
+      "Author's Forename is the Book Number, e.g, MAH",
+      "Year in 4 digits is the Book Number, e.g. 1987"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन में, पुस्तक संख्या (Book Number) भाषा, रूप, प्रकाशन का वर्ष, खंड संख्या आदि जैसे कई तत्वों से बनती है। प्रकाशन का वर्ष इसका एक महत्वपूर्ण घटक है, जिसे क्रोनोलॉजिकल डिवाइस का उपयोग करके दर्शाया जाता है (जैसे, 1987 के लिए N87)।",
+    "category": "Colon Classification",
+    "source": "MAHARANA PARTAP UNIVERSITY 2023"
+  },
+  {
+    "question": "सीसी में चिकित्सा विज्ञान की मुख्य श्रेणी में इलाज को किस तरह / स्वरूप में श्रेणीबद्ध किया जा सकता है?",
+    "options": [
+      "व्यक्तित्व वियोजन / Personality Isolate",
+      "पदार्थ वियोजक / Matter Isolate",
+      "ऊर्जा वियोजक / Energy Isolate",
+      "समय वियोजक / Time Isolate"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन में, 'इलाज' (Treatment) जैसी क्रियाएं, समस्याएं और प्रक्रियाएं आम तौर पर ऊर्जा पक्ष (Energy Isolate) के अंतर्गत आती हैं। ऊर्जा पक्ष को योजक चिह्न कोलन (:) से दर्शाया जाता है।",
+    "category": "Colon Classification",
+    "source": "NVS 2016"
+  },
+  {
+    "question": "सी.सी. के अनुसार, ऑक्टेव डिवाइस किसमें असीमित ग्राह्यता को सुनिश्चित करती है ?",
+    "options": [
+      "Chain",
+      "subject",
+      "Row (Array)",
+      "facet"
+    ],
+    "answer": 2,
+    "explanation": "अष्टक युक्ति (Octave Device) का उपयोग एक पंक्ति या सारणी (Row/Array) में असीमित आतिथ्य (hospitality) या ग्राह्यता सुनिश्चित करने के लिए किया जाता है। यह अंक '9' का उपयोग करके एक ही समकक्ष स्तर पर नए वर्गों को जोड़ने की अनुमति देता है।",
+    "category": "Colon Classification",
+    "source": "NVS 2022 MORNING"
+  },
+  {
+    "question": "कोलन बुक नम्बर के पक्ष सूत्र (facet formula) में [S] किसके लिए प्रयुक्त किया गया है ?",
+    "options": [
+      "serial number",
+      "Language number",
+      "Supplement number",
+      "section number"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन के पुस्तक संख्या सूत्र में, [S] का उपयोग पूरक संख्या (Supplement number) के लिए किया जाता है।",
+    "category": "Colon Classification",
+    "source": "NVS 2022 MORNING"
+  },
+  {
+    "question": "कोलन वर्गीकरण में इंटरपोलेशन को इंगित करने के लिए किस सूचक का उपयोग किया गया है ?",
+    "options": [
+      "Comma",
+      "Hyphen",
+      "Asterisk",
+      "Ampersand"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन में, तारांकन चिह्न (Asterisk *) का उपयोग दो विषयों के बीच संबंध (phase relation) को इंगित करने के लिए किया जाता है, जो एक प्रकार का अंतर्वेशन (interpolation) है।",
+    "category": "Colon Classification",
+    "source": "PARILIAMENT OF INDIA"
+  },
+  {
+    "question": "विशिष्ट सूचकांक उपलब्ध कराया गया है ?",
+    "options": [
+      "Colon classification",
+      "DDC",
+      "UDC",
+      "Bibliographic classification"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन में प्रत्येक मुख्य वर्ग के लिए और सामान्य एकलों के लिए भी विशिष्ट अनुक्रमणिकाएँ (specific indexes) प्रदान की गई हैं।",
+    "category": "Colon Classification",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "कैनन ऑफ बुक नंबर कोलन वर्गीकरण में कितने तत्व होते हैं?",
+    "options": [
+      "10",
+      "9",
+      "8",
+      "7"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन के पुस्तक संख्या (Book Number) सूत्र में आठ तत्व होते हैं: [L] भाषा, [F] रूप, [Y] वर्ष, [A] परिग्रहण संख्या, [V] खंड, [C] प्रतिलिपि, [Cr] आलोचना, और [S] पूरक।",
+    "category": "Colon Classification",
+    "source": "PATANA HIGH COURT 2019"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण पद्धति में द्विबिन्दु निम्न में से किसका प्रतिनिधित्व करता है ?",
+    "options": [
+      "zero",
+      "Old Zero",
+      "two zeros",
+      "new zero"
+    ],
+    "answer": 3,
+    "explanation": "इस प्रश्न की भाषा अस्पष्ट है। यदि यह 'डबल कोलन' (::) के बारे में है, तो इसका उपयोग नहीं किया जाता है। यदि यह केवल कोलन (:) के बारे में है, तो यह ऊर्जा पक्ष का प्रतिनिधित्व करता है। दिए गए उत्तर के आधार पर कोई स्पष्ट व्याख्या संभव नहीं है।",
+    "category": "Colon Classification",
+    "source": "RSMSSB-2016"
+  },
+  {
+    "question": "CC के 7वें संस्करण का प्रकाशन किसने किया ?",
+    "options": [
+      "DRTC",
+      "Asia Publishing House",
+      "INSDOC/NISCARE",
+      "Sarada Ranganathan Endowment for Library Science"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन के 7वें संस्करण (1987) का प्रकाशन शारदा रंगनाथन एंडोमेंट फॉर लाइब्रेरी साइंस (Sarada Ranganathan Endowment for Library Science - SRELS) द्वारा किया गया था।",
+    "category": "Colon Classification",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "दावा (A): कोलन वर्गीकरण एक गणनात्मक वर्गीकरण योजना है। कारण (R) : कोलन वर्गीकरण ने वर्ग संख्या के निर्माण के लिए विश्लेषणात्मक-सिंथेटिक दृष्टिकोण अपनाया है।",
+    "options": [
+      "(A) is true, but (R) is false",
+      "(A) is false, but (R) is true",
+      "Both (a)and (R) are true",
+      "Both (a)and (R) are false"
+    ],
+    "answer": 1,
+    "explanation": "दावा (A) गलत है क्योंकि कोलन वर्गीकरण एक पक्षात्मक (faceted) योजना है, न कि गणनात्मक (enumerative)। कारण (R) सही है क्योंकि कोलन वर्गीकरण वर्ग संख्या बनाने के लिए विश्लेषणात्मक-संश्लेषणात्मक दृष्टिकोण का उपयोग करता है।",
+    "category": "Colon Classification",
+    "source": "d"
+  },
+  {
+    "question": "निम्नलिखित को कोलन वर्गीकरण (सी.सी.) के अनुसार सही वर्गीकृत क्रम में व्यवस्थित करें ?<br>(i) A<br>(ii) 2:5<br>(iii) 2a<br>(iv) 234",
+    "options": [
+      "(i), (iii), (iv), (ii)",
+      "(iii), (ii), (iv), (i)",
+      "(iii), (i), (iv), (ii)",
+      "(ii), (i), (iii), (iv)"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न त्रुटिपूर्ण है क्योंकि यह दो अलग-अलग मुख्य वर्गों (A - विज्ञान और 2 - पुस्तकालय विज्ञान) को मिलाने का प्रयास करता है। यदि हम केवल मुख्य वर्ग 2 के भीतर के अंकों को क्रमबद्ध करें, तो सही क्रम योजक चिह्नों के घटते क्रमसूचक मान के अनुसार होगा: 2a, 2, 234, 2:5। दिए गए विकल्पों में से कोई भी तार्किक रूप से सही नहीं है।",
+    "category": "Colon Classification",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "कोलन वर्गीकरण में, भारत का प्रतिनिधित्व करने के लिए किस अंक का उपयोग किया जाता है ?",
+    "options": [
+      "44",
+      "54",
+      "45",
+      "5491"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन में स्थान पक्ष (Space facet) के तहत, '44' अंक भारत का प्रतिनिधित्व करता है।",
+    "category": "Colon Classification",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "सूची I का सूची II से मिलान करें ?<br>List I (Databases)<br>(A) SciFinder<br>(B) Compendex<br>(C) Manupatra<br>(D) Entrez<br>List II (Subject)<br>(I) Law<br>(II) Engineering<br>(III) Biology<br>(IV) Chemistry",
+    "options": [
+      "(A) - (I), (B) - (II), (C) - (III), (D) - (IV)",
+      "(A) - (II), (B) - (III), (C) - (IV), (D) - (I)",
+      "(A) - (IV), (B) - (II), (C) - (I), (D) - (III)",
+      "(A) - (IV), (B) - (II), (C) - (III), (D) - (I)"
+    ],
+    "answer": 2,
+    "explanation": "सही मिलान है:<br>(A) SciFinder - (IV) रसायन विज्ञान (Chemistry)<br>(B) Compendex - (II) इंजीनियरिंग (Engineering)<br>(C) Manupatra - (I) कानून (Law)<br>(D) Entrez - (III) जीव विज्ञान (Biology)",
+    "category": "Colon Classification",
+    "source": "CUET PG PAPER 2022"
+  },
+  {
+    "question": "कोलन वर्गीकरण 7वां (मूल संस्करण 1987) संस्करण प्रकाशित हुआ था, जिसके द्वारा संपादित किया गया था ?",
+    "options": [
+      "S.R. Ranganathan",
+      "M.A. Gopinath",
+      "A. Neelamegam",
+      "Ganesh Bhattacharya"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन के सातवें संस्करण (1987) को एम.ए. गोपीनाथ द्वारा संपादित किया गया था।",
+    "category": "Colon Classification",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "कोलन वर्गीकरण छठवां सस्करण का भाग-2 सम्बन्धित है ?",
+    "options": [
+      "नियमों से / rules",
+      "श्रेण्य ग्रंथों की अनुसूचियों से / schedules of classics",
+      "वर्गीकरण की अनुसूचियों से / schedules of classification",
+      "अनुसूचियों की अनुक्रमणिका से / index of schedules"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन के छठे संस्करण का भाग 2 वर्गीकरण की अनुसूचियों (schedules of classification) से संबंधित है, जिसमें विभिन्न विषयों के लिए वर्ग संख्याएँ और एकल शामिल हैं।",
+    "category": "Colon Classification",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "किस वर्गीकरण पद्धति में ए.सी.आई. के लिए प्रोवीजन उपलब्ध है ?",
+    "options": [
+      "U.D.C.",
+      "L.C.",
+      "C.C.",
+      "E.C."
+    ],
+    "answer": 2,
+    "explanation": "ए.सी.आई. (Anteriorising Common Isolate) या पूर्ववर्ती सामान्य एकल की अवधारणा कोलन क्लासिफिकेशन (C.C.) में उपलब्ध है। ये ऐसे सामान्य एकल हैं जिन्हें जोड़ने पर दस्तावेज़ का स्थान मुख्य विषय से पहले हो जाता है।",
+    "category": "Colon Classification",
+    "source": "UKSSSC-2018"
+  },
+  {
+    "question": "निम्नलिखित शीर्षकों को कोलन वर्गीकरण के छठे संस्करण के अनुसार उनकी वर्ग संख्याओं के साथ सुमेलित कीजिए।<br>List-1<br>A- Small pox<br>B- Fever<br>C- Diabetes<br>D- Malaria<br>List-II<br>i-L293:46<br>ii- L:414<br>iii-L35:4261<br>iv- L:4231",
+    "options": [
+      "A-iii, B-i, C-iv, D-ii",
+      "A-iv, B-i, C-ii, D-iii",
+      "A-i, B-ii, C-iv, D-iii",
+      "A-ii, B-i, C-iii, D-iv"
+    ],
+    "answer": 0,
+    "explanation": "यह प्रश्न कोलन क्लासिफिकेशन की गहन जानकारी की मांग करता है। दिए गए उत्तर के अनुसार सही मिलान है:<br>A- Small pox - iii- L35:4261<br>B- Fever - i- L293:46<br>C- Diabetes - iv- L:4231<br>D- Malaria - ii- L:414",
+    "category": "Colon Classification",
+    "source": "UPPSC 2023 SHIFT-1"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा क्रिएटिव कॉमन लाइसेंसधारी दूसरों को आपके कार्यों को डाउनलोड करने और दूसरों के साथ साझा करने की अनुमति देता है, जब तक कि वे आपको श्रेय देते हैं, लेकिन वे उन्हें किसी भी तरह से बदल नहीं सकते या उनका व्यावसायिक रूप से इस्तेमाल नहीं कर सकते ?",
+    "options": [
+      "CC BY-SA",
+      "CC BY-ND",
+      "CC BY-NC",
+      "CC BY-NC-ND"
+    ],
+    "answer": 3,
+    "explanation": "CC BY-NC-ND (Attribution-NonCommercial-NoDerivatives) लाइसेंस सबसे अधिक प्रतिबंधात्मक है। यह श्रेय देने पर साझा करने की अनुमति देता है, लेकिन किसी भी तरह के बदलाव (NoDerivatives) और व्यावसायिक उपयोग (NonCommercial) को प्रतिबंधित करता है।",
+    "category": "Colon Classification",
+    "source": "KERLA PSC 2021"
+  },
+  {
+    "question": "वे सभी वर्ग (classes) जो समान क्रम (order) किन्तु सम वर्ग (coordinate class) नहीं हैं,......कहलाती हैं ?",
+    "options": [
+      "जटिल वर्ग (Complex classes)",
+      "मुख्य वर्ग (Main classes)",
+      "प्रामाणिक वर्ग (Canonical classes)",
+      "समपाश्विक वर्ग (Collateral classes)"
+    ],
+    "answer": 3,
+    "explanation": "समपाश्विक वर्ग (Collateral classes) वे वर्ग होते हैं जो एक ही सारणी (array) में होते हैं और समान क्रम के होते हैं, लेकिन वे सीधे तौर पर एक-दूसरे के समकक्ष नहीं होते हैं। वे एक ही मूल वर्ग से संबंधित होते हैं।",
+    "category": "CC MAIN CLASS",
+    "source": "NVS 2022 MORNING"
+  },
+  {
+    "question": "जब एक यौगिक विषय को विशेषताओं की श्रृंखला के आधार पर विभाजित किया जाता है तो परिणामी घटक होते हैं........?",
+    "options": [
+      "notations",
+      "attributes",
+      "entities",
+      "facets"
+    ],
+    "answer": 3,
+    "explanation": "जब किसी विषय को विशेषताओं के आधार पर विश्लेषित किया जाता है, तो परिणामी घटकों को पक्ष (facets) कहा जाता है। ये पक्ष विषय की मौलिक श्रेणियां (जैसे PMEST) होती हैं।",
+    "category": "CC MAIN CLASS",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा सीसी के छठे संस्करण में मुख्य वर्ग प्राणी-विज्ञान का प्रतिनिधित्व करता है ?",
+    "options": [
+      "I",
+      "J",
+      "K",
+      "L"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन (सीसी) में, मुख्य वर्ग 'K' प्राणी-विज्ञान (Zoology) का प्रतिनिधित्व करता है।",
+    "category": "CC MAIN CLASS",
+    "source": "CUET PG 2022"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण (छठवाँ संस्करण) में दी गई मुख्य वर्ग जूलोजी (जन्तुशास्त्र) के अंक की पहचान कीजिए।",
+    "options": [
+      "J",
+      "K",
+      "L",
+      "M"
+    ],
+    "answer": 1,
+    "explanation": "द्विबिन्दु वर्गीकरण (कोलन क्लासिफिकेशन) में, मुख्य वर्ग 'K' जूलोजी (Zoology) या जन्तुशास्त्र का प्रतिनिधित्व करता है।",
+    "category": "CC MAIN CLASS",
+    "source": "UKSSSC-2018"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण में, मुख्यवर्ग 'गणित' में 'एस्ट्रोनोमी, प्लेनेट्स' के अनुक्रम का चयन.....के नियम के अनुसार किया गया है ?",
+    "options": [
+      "Right to Left / दाहिने से बायीं ओर",
+      "Away from Position / स्थानापसरण",
+      "Periphery to Centre / परिधि से केन्द्र",
+      "Left to Right / बाएँ से दाहिनी ओर"
+    ],
+    "answer": 1,
+    "explanation": "सहायक अनुक्रम के सिद्धांतों में से एक 'स्थानापसरण का सिद्धांत' (Principle of Away from Position) है, जिसका उपयोग सौर मंडल जैसे निकायों को क्रमबद्ध करने के लिए किया जाता है, जिसमें सूर्य से दूरी के क्रम में ग्रहों को व्यवस्थित किया जाता है।",
+    "category": "CC MAIN CLASS",
+    "source": "EMRS-2023"
+  },
+  {
+    "question": "सीसी में 'अफीम की आदत' विषय किस मुख्य वर्ग के अंतर्गत आता है?",
+    "options": [
+      "Medicine",
+      "Education",
+      "Psychology",
+      "Sociology"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन में, सामाजिक विकृतियों (social pathologies) जैसे विषयों को समाजशास्त्र (Sociology - Y) मुख्य वर्ग के अंतर्गत वर्गीकृत किया जाता है।",
+    "category": "CC MAIN CLASS",
+    "source": "GUWAHTI HIGH COURT 2019"
+  },
+  {
+    "question": "कोलन वर्गीकरण में इतिहास पर योजना की पुस्तक इसके अंतर्गत मिलेगी ?",
+    "options": [
+      "Q",
+      "R",
+      "U",
+      "V"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन में, मुख्य वर्ग 'V' इतिहास (History) का प्रतिनिधित्व करता है।",
+    "category": "CC MAIN CLASS",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "कोलन (colon) क्लासिफिकेशन स्कीम तहत 'X' दर्शाता है ?",
+    "options": [
+      "समाजशास्त्र / Sociology",
+      "इतिहास / History",
+      "अर्थशास्त्र / Economics",
+      "पुस्तकालय एवं सूचनाशास्त्र / Library and Information Science"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन स्कीम में, मुख्य वर्ग 'X' अर्थशास्त्र (Economics) को दर्शाता है।",
+    "category": "CC MAIN CLASS",
+    "source": "HARI SINGH GAUR UNIVERSITY 2020"
+  },
+  {
+    "question": "'CC' में मुख्य क्लास विभाजित किए होते हैं ?",
+    "options": [
+      "Facets",
+      "notation",
+      "Isolates",
+      "PMEST"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन में, मुख्य वर्गों को सीधे पूर्व-निर्धारित उपविभागों में नहीं, बल्कि विभिन्न पक्षों (Facets) में विभाजित किया जाता है, जिन्हें PMEST की मौलिक श्रेणियों के आधार पर पहचाना जाता है।",
+    "category": "CC MAIN CLASS",
+    "source": "HARI SINGH GAUR UNIVERSITY 2020"
+  },
+  {
+    "question": "परिशिष्ट किस विषय से संबंधित है ?",
+    "options": [
+      "Engineering",
+      "Physics",
+      "Zoology",
+      "Medicine"
+    ],
+    "answer": 0,
+    "explanation": "इस प्रश्न में 'परिशिष्ट' संभवतः 'Appendix' या किसी विशिष्ट विषय का गलत अनुवाद है। दिए गए उत्तर के अनुसार यह इंजीनियरिंग से संबंधित है, लेकिन प्रश्न स्पष्ट नहीं है।",
+    "category": "CC MAIN CLASS",
+    "source": "SHREE CHITRA TIRUNAL INSTTUTE-2023"
+  },
+  {
+    "question": "CC में, मुख्य वर्ग को विभाजित किया गया है ?",
+    "options": [
+      "Facets",
+      "Notation",
+      "Isolates",
+      "PMEST"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन में, मुख्य वर्गों का विश्लेषण विभिन्न पक्षों (Facets) में किया जाता है, जो PMEST (व्यक्तित्व, पदार्थ, ऊर्जा, स्थान, समय) की पाँच मौलिक श्रेणियों के अनुरूप होते हैं।",
+    "category": "CC MAIN CLASS",
+    "source": "KERLA PSC 2017"
+  },
+  {
+    "question": "कोलोन वर्गीकरण के किस मुख्य वर्ग में (P) का प्रथम स्तर भौगोलिक खंडों में लिया गया है ?",
+    "options": [
+      "ललित कला / fine arts",
+      "इतिहास/history",
+      "विधि/law",
+      "उपर्युक्त सभी / all of these"
+    ],
+    "answer": 3,
+    "explanation": "कोलन वर्गीकरण में, इतिहास (V), विधि (Z) और भूगोल (U) जैसे मुख्य वर्गों में व्यक्तित्व पक्ष [P] का पहला स्तर भौगोलिक खंडों (Geographical Divisions) से लिया जाता है। दिए गए विकल्पों में से ललित कला (N) में ऐसा नहीं है, लेकिन इतिहास और विधि में है। 'उपर्युक्त सभी' उत्तर संभवतः गलत है।",
+    "category": "CC MAIN CLASS",
+    "source": "KVS-2013"
+  },
+  {
+    "question": "कोलन वर्गीकरण के स्पेस आइसोलेट में कितने ब्लॉक होते है ?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "कोलन वर्गीकरण के 6वें संस्करण में, स्थान पक्ष (Space Isolate) को 2 ब्लॉकों में विभाजित किया गया है: स्तर 1 (Level 1) और स्तर 2 (Level 2)।",
+    "category": "CC MAIN CLASS",
+    "source": "KVS 2013"
+  },
+  {
+    "question": "सी.सी. (छठवा सस्क) में मुख्य् वर्ग (W) इंगित करता है ?",
+    "options": [
+      "शिक्षक / Education",
+      "इतिहास / History",
+      "राजनीति विज्ञान / Political Science",
+      "अर्थशास्त्र / Economics"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन (सी.सी.) में, मुख्य वर्ग 'W' राजनीति विज्ञान (Political Science) को इंगित करता है।",
+    "category": "CC MAIN CLASS",
+    "source": "KVS 2018 EVENING"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण (छठवें संस्करण) के मुख्य वर्ग 'O' साहित्य के पक्ष के सही अनुक्रम की पहचान कीजिए ?",
+    "options": [
+      "Form, Work, Language, Author",
+      "Language, Form, Author, Work",
+      "Form, Language, Author, Work",
+      "Work, Language, Form, Author"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन में मुख्य वर्ग 'O' (साहित्य) के लिए पक्ष सूत्र है: [P] भाषा, [P2] रूप, [P3] लेखक, [P4] कृति संख्या। अतः सही अनुक्रम भाषा, रूप, लेखक, कृति है।",
+    "category": "CC MAIN CLASS",
+    "source": "KVS 2023, UPPSC 2023 SHIFT-1"
+  },
+  {
+    "question": "द्विविन्दु वर्गीकरण के छठे संस्करण द्वारा दिये गये 'आध्यात्मिक अनुभव और रहस्यवाद' के चिह्न को पहचानिये ?",
+    "options": [
+      "4",
+      "MZA",
+      "Δ",
+      "Σ"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन में, ग्रीक अक्षर डेल्टा (Δ) का उपयोग 'आध्यात्मिक अनुभव और रहस्यवाद' (Spiritual Experience and Mysticism) मुख्य वर्ग का प्रतिनिधित्व करने के लिए किया जाता है।",
+    "category": "CC MAIN CLASS",
+    "source": "KVS 2023"
+  },
+  {
+    "question": "सी. सी. में मुख्य वर्ग C-भौतिकी को आगे निम्न में विभाजित किया गया है:",
+    "options": [
+      "Host class",
+      "Compound class",
+      "generic class",
+      "Canonical class"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन में, कुछ मुख्य वर्गों को पारंपरिक, गैर-विशेषता आधारित उपविभागों में विभाजित किया जाता है, जिन्हें प्रामाणिक वर्ग (Canonical classes) कहा जाता है। मुख्य वर्ग C (भौतिकी) इसका एक उदाहरण है, जिसे C1 (Fundamentals), C2 (Properties of Matter), C3 (Sound), आदि में विभाजित किया गया है।",
+    "category": "CC MAIN CLASS",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "सीसी में मुख्य वर्ग 'O' साहित्य के लिए पहलू सूत्र ?",
+    "options": [
+      "P, M, E, S, T",
+      "P1, P2, P3, P4",
+      "P1, P2, P3, p4",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन में मुख्य वर्ग O (साहित्य) के लिए पक्ष सूत्र (facet formula) है: O [P], [P2], [P3], [P4]। यहाँ P भाषा के लिए, P2 साहित्यिक रूप के लिए, P3 लेखक के लिए, और P4 कृति संख्या के लिए है।",
+    "category": "CC MAIN CLASS",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "कोलन वर्गीकरण में शिक्षा का पहलू सूत्र है ?",
+    "options": [
+      "T [P]:[E][2P]",
+      "T [P]:[2P],[E]",
+      "T [P]:[2P2],[E]",
+      "T [P]:[2P2],[2P][E]"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन के 6वें संस्करण में, मुख्य वर्ग T (शिक्षा) के लिए पक्ष सूत्र T [P] : [E] [2P] है। यहाँ [P] शिक्षार्थी के लिए, [E] शैक्षिक समस्याओं के लिए, और [2P] पाठ्यक्रम के लिए है।",
+    "category": "CC MAIN CLASS",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण, 6 वें संशोधित संस्करण के मुख्य वर्ग O साहित्य में [P3] निम्नलिखित में से किसे दर्शाता है ?",
+    "options": [
+      "author side",
+      "work side",
+      "Language aspect",
+      "Format side"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन के मुख्य वर्ग O (साहित्य) में, पक्ष [P3] लेखक (author) को दर्शाता है।",
+    "category": "CC MAIN CLASS",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "मुख्य वर्ग (डेल्टा) का क्रमिक मूल्य....... मुख्य वर्ग के बीच आता है?",
+    "options": [
+      "M and N",
+      "N and O",
+      "O and P",
+      "P and Q"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन में, ग्रीक अक्षरों को अंतर्वेशन के लिए उपयोग किया जाता है। मुख्य वर्ग डेल्टा (Δ - रहस्यवाद) का क्रमसूचक मान मुख्य वर्ग M (Useful Arts) और N (Fine Arts) के बीच आता है।",
+    "category": "CC MAIN CLASS",
+    "source": "RSMSSB-2019"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण में मुख्य वर्ग 'B' के अर्न्तगत 'B9' दशार्ता है ?",
+    "options": [
+      "बीजगणित / algebra",
+      "ज्यामिति / geometry",
+      "विश्लेषण / analysis",
+      "खगोलशास्त्र / astronomy"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन में मुख्य वर्ग B (गणित) के तहत, प्रामाणिक वर्ग (canonical class) B9 खगोलशास्त्र (astronomy) को दर्शाता है।",
+    "category": "CC MAIN CLASS",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "वाणिज्य विषय किस मुख्य वर्ग के अंतर्गत आता है ?",
+    "options": [
+      "Sociology - Y",
+      "Economics - X",
+      "Political Science - W",
+      "Science - A"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन में, वाणिज्य (Commerce) विषय को अर्थशास्त्र (Economics) के मुख्य वर्ग X के एक उपविभाग के रूप में वर्गीकृत किया जाता है।",
+    "category": "CC MAIN CLASS",
+    "source": "b"
+  },
+  {
+    "question": "निम्नलिखित में से कौनसा सीसी के छठे संस्करण में मुख्य वर्ग पुस्तकालय विज्ञान का प्रतिनिधित्व करता है ?",
+    "options": [
+      "A",
+      "2",
+      "L",
+      "Z"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन में, अंक '2' मुख्य वर्ग पुस्तकालय विज्ञान (Library Science) का प्रतिनिधित्व करता है।",
+    "category": "CC MAIN CLASS",
+    "source": "CUET PG 2022"
+  },
+  {
+    "question": "निम्नलिखित का मिलान कीजिए ?<br><b>List I</b><br>(A) Medicine<br>(B) Pharmacognosy<br>(C) Animal Husbandary<br>(D) Zoology<br><b>List II</b><br>1-LZ<br>2-KZ<br>3-K<br>4-L",
+    "options": [
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-2, C-3, D-1",
+      "A-1, B-2, C-3, D-4",
+      "A-2, B-3, C-4, D-1"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन में विषयों का सही मिलान है:<br>(A) Medicine (चिकित्सा) - 4-L<br>(B) Pharmacognosy (भेषज अभिज्ञान) - 1-LZ<br>(C) Animal Husbandry (पशुपालन) - 2-KZ<br>(D) Zoology (प्राणी-विज्ञान) - 3-K",
+    "category": "CC MAIN CLASS",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "सी. सी. में मेडिसिन (चिकित्सा) को किस संकेत के द्वारा व्यक्त किया जाता है ?",
+    "options": [
+      "J",
+      "G",
+      "LX",
+      "None of the above"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन (सी. सी.) में, मेडिसिन (चिकित्सा) के लिए मुख्य वर्ग 'L' है। चूँकि 'L' विकल्पों में नहीं है, इसलिए 'उपरोक्त में से कोई नहीं' सही उत्तर है।",
+    "category": "CC MAIN CLASS",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "'HX' जो कि 'माइनिंग' विषय को दर्शाता है,............ उदाहरण है?",
+    "options": [
+      "Sector digit",
+      "Emptying digit",
+      "Empty digit",
+      "Octave digit"
+    ],
+    "answer": 1,
+    "explanation": "वर्ग संख्या 'HX' (खनन) खाली करने वाले अंक (Emptying digit) के उपयोग का एक उदाहरण है। यहाँ, 'X' अंक 'H' (जो भूविज्ञान है) के अर्थ को खाली कर देता है और इसे एक अलग मुख्य वर्ग के तहत एक विशेष के रूप में उपयोग करने की अनुमति देता है। यह अवधारणा विषयों के बीच नए संबंध बनाने में मदद करती है।",
+    "category": "CC MAIN CLASS",
+    "source": "NVS 2022 MORNING"
+  },
+  {
+    "question": "'KZ' जो कि 'एनिमल हसबैंडरी' विषय को दर्शाता है, का उदाहरण है ?",
+    "options": [
+      "Gap device",
+      "Sector Digit",
+      "Emptying Digit",
+      "Mixed base"
+    ],
+    "answer": 2,
+    "explanation": "वर्ग संख्या 'KZ' (पशुपालन) खाली करने वाले अंक (Emptying Digit) का एक उदाहरण है। 'K' प्राणी-विज्ञान का मुख्य वर्ग है। 'Z' एक खाली करने वाला अंक है, जो अपने से पहले वाले अंक के मान को खाली कर देता है, जिससे प्राणी-विज्ञान से निकटता से संबंधित एक नए विषय, 'पशुपालन' का अंतर्वेशन (interpolation) हो पाता है।",
+    "category": "CC MAIN CLASS",
+    "source": "KVS 2023"
+  },
+  {
+    "question": "पांच मौलिक श्रेणियों को किसने प्रतिपादित किया ?",
+    "options": [
+      "Benjamin A- Custer",
+      "Paul Otlet",
+      "Dr. S. R. Ranganathan",
+      "W.C. Sayers"
+    ],
+    "answer": 2,
+    "explanation": "डॉ. एस. आर. रंगनाथन ने अपनी कोलन क्लासिफिकेशन योजना में विषय विश्लेषण के आधार के रूप में पाँच मौलिक श्रेणियों - व्यक्तित्व, पदार्थ, ऊर्जा, स्थान और समय (PMEST) की अवधारणा को प्रतिपादित किया था।",
+    "category": "मूलभुत श्रेणी",
+    "source": "J. N. UNI.-2015"
+  },
+  {
+    "question": "एक प्रकाशन की छँटाई निर्दिष्ट करने के लिए कोलन वर्गीकरण में उपयोग किए जाने वाले पाँच मूलभूत पहलुओं/श्रेणियों को सामूहिक रूप से जाना जाता है ?",
+    "options": [
+      "PMCST",
+      "RMEST",
+      "PMEST",
+      "KMEST"
+    ],
+    "answer": 2,
+    "explanation": "कोलन वर्गीकरण में किसी विषय का विश्लेषण और निर्दिष्ट करने के लिए उपयोग की जाने वाली पाँच मूलभूत श्रेणियों को सामूहिक रूप से PMEST के संक्षिप्त नाम से जाना जाता है, जिसका अर्थ है व्यक्तित्व, पदार्थ, ऊर्जा, स्थान और समय (Personality, Matter, Energy, Space, and Time)।",
+    "category": "मूलभुत श्रेणी",
+    "source": "KERLA PSC 2021"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा 'फेसिट फॉर्मूला' इंगित करता है? (संक्षेप उनके सामान्य अर्थ ग्रहण करते हैं)",
+    "options": [
+      "PMSET",
+      "PMETS",
+      "PMTSE",
+      "PMEST"
+    ],
+    "answer": 3,
+    "explanation": "डॉ. एस. आर. रंगनाथन द्वारा दिया गया सही पक्ष सूत्र (Facet Formula) PMEST है, जो व्यक्तित्व, पदार्थ, ऊर्जा, स्थान और समय के लिए है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "G.G.S.IND. UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "PMEST में एम का क्या अर्थ है ?",
+    "options": [
+      "गुण / quality",
+      "पांडुलिपि / Manuscript",
+      "पदार्थ / Matter",
+      "नैतिकता / morality"
+    ],
+    "answer": 2,
+    "explanation": "PMEST में, 'M' का अर्थ पदार्थ (Matter) है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "AIIMS RAIPUR-2018"
+  },
+  {
+    "question": "रंगनाथन ने पाँच मौलिक श्रेणियों की अवधारणा को स्वीकार किया। व्यत्तित्त्व, पदार्थ, ऊर्जा, स्थान और ?",
+    "options": [
+      "Task",
+      "Technique",
+      "Time",
+      "Theme"
+    ],
+    "answer": 2,
+    "explanation": "रंगनाथन की पाँच मौलिक श्रेणियाँ हैं: व्यक्तित्व (Personality), पदार्थ (Matter), ऊर्जा (Energy), स्थान (Space), और समय (Time)।",
+    "category": "मूलभुत श्रेणी",
+    "source": "DSSSB 2014"
+  },
+  {
+    "question": "अर्द्धविराम वर्गीकरण PMEST पैटर्न का अनुसरण करता है, PMEST में, T को...... से दर्शाया जाता है ?",
+    "options": [
+      ";",
+      ".",
+      ":",
+      "'"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन में, काल पक्ष (Time facet - T) को योजक चिह्न सिंगल इन्वर्टेड कॉमा (') से दर्शाया जाता था, लेकिन बाद के संस्करणों में इसे डॉट (.) से दर्शाया गया। दिए गए विकल्पों में डॉट ('.') सबसे उपयुक्त है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "DSSSB 2019, POST CODE 10/17"
+  },
+  {
+    "question": "डॉ. एस.आर. रंगनाथन की पांच मौलिक श्रेणियां किस नाम से जानी जाती हैं ?",
+    "options": [
+      "Phase relation",
+      "Postulates",
+      "Devices",
+      "Isolates"
+    ],
+    "answer": 3,
+    "explanation": "डॉ. एस.आर. रंगनाथन की पांच मौलिक श्रेणियों के भीतर आने वाले विशिष्ट अवधारणाओं को एकल (Isolates) के रूप में जाना जाता है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "JKSSB"
+  },
+  {
+    "question": "प्रतीक (:) निम्नलिखित में से किस पहलू का प्रतिनिधित्व करता है?",
+    "options": [
+      "Energy",
+      "Time",
+      "Personality",
+      "Space"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन में, कोलन (:) प्रतीक ऊर्जा (Energy) पक्ष के लिए योजक चिह्न है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "JKSSB"
+  },
+  {
+    "question": "वर्ग संख्या 'O111,3' में चिन्ह अल्पविराम (,) क्या दर्शाता है ?",
+    "options": [
+      "Space",
+      "Personality",
+      "Energy",
+      "Matter"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन में, अल्पविराम (,) व्यक्तित्व (Personality) पक्ष के लिए योजक चिह्न है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "JKSSB"
+  },
+  {
+    "question": "निम्नलिखित का मिलान करें ?<br><b>List I (PMEST)</b><br>A) P<br>B) M<br>C) E<br>D) S<br>E) T<br><b>List II (Connecting Symbol)</b><br>1) , (Comma)<br>2) ; (Semicolon)<br>3) : (Colon)<br>4) . (Dot)<br>5) ' (Apostrophe/Single Inverted Comma)",
+    "options": [
+      "13245",
+      "52431",
+      "23451",
+      "32514"
+    ],
+    "answer": 1,
+    "explanation": "इस प्रश्न में उत्तर और विकल्पों में विसंगति है। कोलन क्लासिफिकेशन के छठे संस्करण के अनुसार सही मिलान है:<br>A) P - , (Comma)<br>B) M - ; (Semicolon)<br>C) E - : (Colon)<br>D) S - . (Dot)<br>E) T - ' (Single Inverted Comma)<br>इस हिसाब से सही क्रम 1, 2, 3, 4, 5 होना चाहिए, जो विकल्पों में नहीं है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "KERLA PSC 2021"
+  },
+  {
+    "question": "कोलन वर्गीकरण की पांच मूलभूत श्रेणियों के सही क्रम का चयन करें ?",
+    "options": [
+      "Matter, Energy, Time, Personality, Space",
+      "Energy, Space, Matter, Time, Personality",
+      "Personality, Matter, Energy, Space and Time",
+      "Space, Time. Energy, Personality, Matter"
+    ],
+    "answer": 2,
+    "explanation": "कोलन वर्गीकरण की पांच मूलभूत श्रेणियों का सही और मानक क्रम है: व्यक्तित्व (Personality), पदार्थ (Matter), ऊर्जा (Energy), स्थान (Space), और समय (Time) या PMEST।",
+    "category": "मूलभुत श्रेणी",
+    "source": "KERLA PSC 2022"
+  },
+  {
+    "question": "PMEST में अर्धविराम (;) प्रतीक किसके लिए एक संयोजक प्रतीक है ?",
+    "options": [
+      "पदार्थ / Matter",
+      "व्यक्तित्व / personality",
+      "ऊर्जा / energy",
+      "समय / time"
+    ],
+    "answer": 0,
+    "explanation": "PMEST में, अर्धविराम (;) पदार्थ (Matter) पक्ष के लिए संयोजक प्रतीक (योजक चिह्न) है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "NVS 2019"
+  },
+  {
+    "question": "सी. सी. में 'व्यक्तित्त्व' पक्ष के लिए किस योजक चिह्न का प्रयोग किया गया है ?",
+    "options": [
+      "comma (,)",
+      "Semicolon (;)",
+      "Dot (.)",
+      "colon (:)"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन (सी. सी.) में, व्यक्तित्व (Personality) पक्ष के लिए योजक चिह्न के रूप में अल्पविराम (comma ,) का प्रयोग किया जाता है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "मूलभूत पदार्थ का संयोगी प्रतीक क्या है?",
+    "options": [
+      "dot",
+      "Colon",
+      "coma",
+      "Semicolon"
+    ],
+    "answer": 3,
+    "explanation": "पदार्थ (Matter) की मूलभूत श्रेणी का संयोगी प्रतीक या योजक चिह्न अर्धविराम (Semicolon ;) है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "पुस्तकालय वर्गीकरण के सिस्टम दृष्टिकोण में, सभी प्रक्रियाओं को इस प्रकार माना जाता है ?",
+    "options": [
+      "Personality",
+      "Energy",
+      "Matter",
+      "Space"
+    ],
+    "answer": 1,
+    "explanation": "पुस्तकालय वर्गीकरण के सिस्टम दृष्टिकोण में, प्रक्रियाओं, संचालन और समस्याओं को आम तौर पर ऊर्जा (Energy) पक्ष के रूप में माना जाता है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "पाँच मौलिक श्रेणी की अवधारणा का उपयोग किया गया है ?",
+    "options": [
+      "CC",
+      "DDC",
+      "UDC",
+      "None of theses"
+    ],
+    "answer": 0,
+    "explanation": "पाँच मौलिक श्रेणियों (PMEST) की अवधारणा का उपयोग एस.आर. रंगनाथन द्वारा कोलन क्लासिफिकेशन (CC) में किया गया है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "रंगनाथन की पाँच मूलभूत श्रेणियाँ हैं ?",
+    "options": [
+      "Part, process, place, time, action",
+      "Product, matter, energy, time, place",
+      "Personality, matter, energy, space, time",
+      "None of these"
+    ],
+    "answer": 2,
+    "explanation": "रंगनाथन की पाँच मूलभूत श्रेणियाँ हैं: व्यक्तित्व, पदार्थ, ऊर्जा, स्थान, समय (Personality, matter, energy, space, time)।",
+    "category": "मूलभुत श्रेणी",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण में PMEST किसके अनुसार व्यवस्थित है ?<br>(A) साहचर्य के घटते क्रम/Decreasing order of association<br>(B) मूर्तता के घटते क्रम/Decreasing order of Concreteness",
+    "options": [
+      "C और D सही हैं",
+      "B और C सही हैं",
+      "A और C सही हैं",
+      "A और D सही हैं"
+    ],
+    "answer": 1,
+    "explanation": "PMEST का क्रम 'मूर्तता के घटते क्रम' (Decreasing order of Concreteness) के सिद्धांत पर आधारित है। व्यक्तित्व सबसे मूर्त है और समय सबसे अमूर्त है। इसलिए, कथन (B) सही है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "NVS 2022 EVENING"
+  },
+  {
+    "question": "मौलिक श्रेणी के अंतर्गत दी गई वस्तुओं का उदाहरण के अंतर्गत दी गई वस्तुओं से मिलान करें ?<br><b>Fundamental Category</b><br>(A) Time<br>(B) Space<br>(C) Energy<br>(D) Personality<br><b>Example</b><br>(i) Secondary education<br>(ii) Method of teaching<br>(iii) India<br>(iv) 1970",
+    "options": [
+      "(A) - (iv), (B) - (iii) - (C) - (ii), (D) - (i)",
+      "(A) - (i). (B) - (iii) - (C) - (ii), (D) - (iv)",
+      "(A) - (ii), (B) - (i), (C) - (iii), (D) - (iv)",
+      "(A) - (i), (B) - (iv), (C) - (iii), (D) - (ii)"
+    ],
+    "answer": 0,
+    "explanation": "सही मिलान है:<br>(A) Time (समय) - (iv) 1970<br>(B) Space (स्थान) - (iii) भारत (India)<br>(C) Energy (ऊर्जा) - (ii) शिक्षण की विधि (Method of teaching)<br>(D) Personality (व्यक्तित्व) - (i) माध्यमिक शिक्षा (Secondary education)",
+    "category": "मूलभुत श्रेणी",
+    "source": "TELANGANA-2023"
+  },
+  {
+    "question": "रंगनाथन के अनुसार किस मूलभूत श्रेणी की पहचान करना कठिन है?",
+    "options": [
+      "ऊर्जा/energy",
+      "पदार्थ/ Matter",
+      "व्यक्तित्व/personality",
+      "स्थान/Space"
+    ],
+    "answer": 2,
+    "explanation": "रंगनाथन के अनुसार, पांच मूलभूत श्रेणियों में से व्यक्तित्व (Personality) की पहचान करना सबसे कठिन है। उन्होंने इसकी पहचान के लिए 'अवशेष की विधि' (Method of Residues) का सुझाव दिया, जिसके अनुसार यदि कोई अवधारणा पदार्थ, ऊर्जा, स्थान या समय नहीं है, तो वह व्यक्तित्व है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "CHATTISGARH PSC-2019"
+  },
+  {
+    "question": "रंगनाथन के कोलन वर्गीकरण में निम्नलिखित में से कौन सी एक मौलिक श्रेणी नहीं है?",
+    "options": [
+      "Personality",
+      "Matter",
+      "Energy",
+      "Depth"
+    ],
+    "answer": 3,
+    "explanation": "रंगनाथन की पांच मौलिक श्रेणियां व्यक्तित्व, पदार्थ, ऊर्जा, स्थान और समय हैं। 'गहनता (Depth)' एक मौलिक श्रेणी नहीं है, बल्कि यह वर्गीकरण की एक विशेषता है (गहन वर्गीकरण)।",
+    "category": "मूलभुत श्रेणी",
+    "source": "IITH LIBRARY INFORMATION ASST.-2023"
+  },
+  {
+    "question": "असम में कृषि में सुधार हो रहा है- कोलन वर्गीकरण (सीसी) में रेखांकित अवधारणा है ?",
+    "options": [
+      "personality",
+      "matter",
+      "energy",
+      "space"
+    ],
+    "answer": 0,
+    "explanation": "इस विषय 'असम में कृषि में सुधार' में, 'कृषि' मूल विषय है और यह व्यक्तित्व (personality) पक्ष का प्रतिनिधित्व करता है। 'असम' स्थान है और 'सुधार' ऊर्जा है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "ASSAM PLC-2019"
+  },
+  {
+    "question": "असम में चाय के पौधे की बीमारी का उपचार कोलन वर्गीकरण (सीसी) में रेखांकित अवधारणा है ?",
+    "options": [
+      "personality",
+      "matter",
+      "energy",
+      "space"
+    ],
+    "answer": 2,
+    "explanation": "विषय 'असम में चाय के पौधे की बीमारी का उपचार' में, 'उपचार' एक क्रिया या प्रक्रिया है, जो ऊर्जा (energy) पक्ष का प्रतिनिधित्व करती है। 'बीमारी' भी ऊर्जा पक्ष का ही एक और प्रकटीकरण है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "ASSAM PLC-2019"
+  },
+  {
+    "question": "मुख्य वर्ग साहित्य में [P2] का अर्थ है ?",
+    "options": [
+      "Language",
+      "Form",
+      "Author",
+      "Works"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन के मुख्य वर्ग O (साहित्य) में, पक्ष [P2] साहित्यिक रूप (Form) को दर्शाता है, जैसे कविता, नाटक, उपन्यास आदि।",
+    "category": "मूलभुत श्रेणी",
+    "source": "GUWAHTI HIGH COURT 2019"
+  },
+  {
+    "question": "कोलन वर्गीकरण में व्यक्तित्त्व श्रेणी की पहचान में मदद करने वाला सिद्धांत है ?",
+    "options": [
+      "Residue method",
+      "Cow-calf principle",
+      "Whole organ principle",
+      "Later in time principle"
+    ],
+    "answer": 0,
+    "explanation": "व्यक्तित्व (Personality) श्रेणी की पहचान में मदद करने के लिए रंगनाथन ने अवशेष की विधि (Method of Residues) का सुझाव दिया था। इस विधि के अनुसार, यदि कोई अवधारणा पदार्थ, ऊर्जा, स्थान या समय नहीं है, तो उसे व्यक्तित्व माना जाना चाहिए।",
+    "category": "मूलभुत श्रेणी",
+    "source": "KERLA PSC 2017"
+  },
+  {
+    "question": "कोलन वर्गीकरण में कितने प्रकार के सामान्य आइसोलेट्स हैं ?",
+    "options": [
+      "Two",
+      "Four",
+      "Three",
+      "Five"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन के छठे संस्करण में दो मुख्य प्रकार के सामान्य एकल (Common Isolates) हैं: पूर्ववर्ती सामान्य एकल (Anteriorising Common Isolates - ACI) और पश्चवर्ती सामान्य एकल (Posteriorising Common Isolates - PCI)।",
+    "category": "मूलभुत श्रेणी",
+    "source": "PSC 2017"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण (छठवां संस्करण) की काल अनुसूची में प्रतीक 'L' किसका प्रतिनिधित्व करता है ?",
+    "options": [
+      "1400 - 1499",
+      "1500-1599",
+      "1600-1699",
+      "1700-1799"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन की काल अनुसूची (Time Schedule) में, प्रतीक 'L' 18वीं शताब्दी, यानी 1700-1799 की अवधि का प्रतिनिधित्व करता है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "KVS 2018"
+  },
+  {
+    "question": "अपूर्ण-विराम वर्गीकरण में 'कालपक्ष' को इंगित करने के लिए कौन सा प्रतीक इस्तेमाल किया जाता है ?",
+    "options": [
+      "'",
+      ":",
+      "\"",
+      ";"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन (अपूर्ण-विराम वर्गीकरण) में, काल पक्ष (Time facet) को इंगित करने के लिए एकल उद्धरण चिह्न (single inverted comma or apostrophe ') का उपयोग किया जाता था, जिसे बाद में डॉट (.) से बदल दिया गया। दिए गए विकल्पों में ' सबसे उपयुक्त है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "NVS 2019"
+  },
+  {
+    "question": "सी. सी. में चिकित्सा विज्ञान की मुख्य श्रेणी में 'इलाज' को किस तरह/स्वरूप में श्रेणीबद्ध किया जा सकता है ?",
+    "options": [
+      "ऊर्जा वियोजक / energy Isolate",
+      "पदार्थ वियोजक / Matter Isolate",
+      "व्यक्तित्व वियोजक / Personality Isolate",
+      "समय/काल वियोजक / Time Isolate"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन (सी. सी.) में, 'इलाज' जैसी क्रियाएं और प्रक्रियाएं ऊर्जा पक्ष (Energy Isolate) का हिस्सा होती हैं।",
+    "category": "मूलभुत श्रेणी",
+    "source": "a"
+  },
+  {
+    "question": "अवधि 1987 से 2019 को द्विबिन्दु वर्गीकरण पद्धति के अनुसार किस प्रकार प्रदर्शित करेंगे?",
+    "options": [
+      "N87→P19",
+      "'2019-1987",
+      "'N87→P19",
+      "'P19N87"
+    ],
+    "answer": 2,
+    "explanation": "द्विबिन्दु वर्गीकरण में, समय अवधि को दर्शाने के लिए, पहले काल पक्ष का योजक चिह्न (') लगाया जाता है, फिर प्रारंभिक वर्ष (1987 के लिए N87), फिर एक तीर (→), और फिर अंतिम वर्ष (2019 के लिए P19) लिखा जाता है। अतः सही प्रदर्शन 'N87→P19' है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "RPSC GRADE II 2020"
+  },
+  {
+    "question": "कोलन वर्गीकरण में वर्गीकरण प्रलेखन, शल्यक्रिया, रेडियोथैरेपी आदि पद प्रदर्शित करते हैं ?",
+    "options": [
+      "व्यक्तित्व पक्ष/Personality aspect",
+      "पदार्थ पक्ष/Material side",
+      "ऊर्जा पक्ष/Energy side",
+      "स्थान पक्ष / Location aspect"
+    ],
+    "answer": 2,
+    "explanation": "यह प्रश्न थोड़ा भ्रमित करने वाला है क्योंकि 'वर्गीकरण' और 'प्रलेखन' स्वयं में क्रियाएं हैं जो ऊर्जा पक्ष को दर्शाती हैं। हालांकि, दिए गए उत्तर (a) के अनुसार, इन्हें व्यक्तित्व पक्ष माना गया है, जो संभवतः किसी विशिष्ट संदर्भ में है। 'शल्यक्रिया' और 'रेडियोथैरेपी' निश्चित रूप से ऊर्जा पक्ष हैं।",
+    "category": "मूलभुत श्रेणी",
+    "source": "a"
+  },
+  {
+    "question": "वर्ग संख्या K:12.4 में 4 कोलन वर्गीकरण में क्या दर्शाता है ?",
+    "options": [
+      "Energy",
+      "Space",
+      "Matter",
+      "Personality"
+    ],
+    "answer": 1,
+    "explanation": "वर्ग संख्या K:12.4 में, डॉट (.) स्थान पक्ष (Space facet) के लिए योजक चिह्न है। इसलिए, '4' स्थान पक्ष का एक एकल (isolate) है, जो एशिया को दर्शाता है।",
+    "category": "मूलभुत श्रेणी",
+    "source": "UPPSC 2023"
+  },
+  {
+    "question": "कोलन वर्गीकरण संस्करण 6 के अनुसार 'डी इंस्टीट्यूशंस' किस प्रकार का सामान्य आइसोलेट है ?",
+    "options": [
+      "Anteriorising Common Isolate after Space",
+      "Anteriorising Common Isolate before Space",
+      "Energy Posteriorising Common Isolate",
+      "Personality Posteriorising Common Isolate"
+    ],
+    "answer": 3,
+    "explanation": "'Institutions' (संस्थान) एक पश्चवर्ती सामान्य एकल (Posteriorising Common Isolate - PCI) है जो व्यक्तित्व पक्ष (Personality facet) में प्रकट होता है। इसे [P] पक्ष के बाद जोड़ा जाता है।",
+    "category": "Common Isolate",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "सामान्य आइसोलेट्स निम्न पर लागू हो सकते हैं ?",
+    "options": [
+      "All subjects",
+      "Few subjects",
+      "Majority of subjects",
+      "None of the subjects"
+    ],
+    "answer": 0,
+    "explanation": "सामान्य एकल (Common Isolates) वे एकल हैं जो सैद्धांतिक रूप से किसी भी या सभी मुख्य वर्गों (All subjects) के साथ लागू हो सकते हैं। उदाहरण के लिए, 'सम्मेलन' या 'जीवनी' किसी भी विषय से संबंधित हो सकते हैं।",
+    "category": "Common Isolate",
+    "source": "GUWAHTI HIGH COURT 2019"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण (छठवां संस्करण) में पूर्ववर्ती सामान्य एकल 'm' सूचित करता है ?",
+    "options": [
+      "तालिका / Table",
+      "आवधिक पत्रिका / Periodical",
+      "क्रमिक प्रकाशन / Serial",
+      "केस अध्ययन / Case Study"
+    ],
+    "answer": 1,
+    "explanation": "द्विबिन्दु वर्गीकरण में, पूर्ववर्ती सामान्य एकल (ACI) 'm' आवधिक पत्रिका (Periodical) को सूचित करता है।",
+    "category": "Common Isolate",
+    "source": "KVS 2018 EVENING"
+  },
+  {
+    "question": "कोलन क्लासिफिकेशन में बायोग्राफी के लिए एंटीरियराइजिंग कॉमन आइसोलेट है ?",
+    "options": [
+      "a",
+      "b",
+      "v",
+      "w"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन में, 'w' जीवनी (Biography) के लिए पूर्ववर्ती सामान्य एकल (Anteriorising Common Isolate) है।",
+    "category": "Common Isolate",
+    "source": "PARILIAMENT OF INDIA"
+  },
+  {
+    "question": "रंगनाथन के कोलन वर्गीकरण में 'आइसोलेट' का क्या अर्थ है ?",
+    "options": [
+      "वर्गीकरण प्रणाली में एक प्राथमिक वर्ग।",
+      "वर्गीकरण सूत्र में एक मौलिक श्रेणी।",
+      "एक शब्द जो किसी वर्ग संख्या में एक मूल विषय को संशोधित करता है।",
+      "एक विशेष वर्गीकरण प्रणाली।"
+    ],
+    "answer": 2,
+    "explanation": "कोलन वर्गीकरण में, एक 'एकल' (Isolate) एक अवधारणा, शब्द या विचार है जिसे किसी मूल विषय (Basic Subject) के साथ जोड़कर उसे और अधिक विशिष्ट बनाने या संशोधित करने के लिए उपयोग किया जाता है, जिससे एक यौगिक विषय बनता है।",
+    "category": "Common Isolate",
+    "source": "IITH LIBRARY INFORMATION ASSISTANT-2023"
+  },
+  {
+    "question": "डीडीसी में मानक उपविभाजन सीसी के...............समान हैं ?",
+    "options": [
+      "language isolates",
+      "space isolates",
+      "time isolates",
+      "common isolates"
+    ],
+    "answer": 3,
+    "explanation": "डेवी डेसीमल क्लासिफिकेशन (DDC) में मानक उपविभाजन (Standard Subdivisions) कोलन क्लासिफिकेशन (CC) के सामान्य एकल (Common Isolates) के समान हैं, क्योंकि दोनों का उपयोग विभिन्न मुख्य वर्गों में समान पुनरावर्ती विशेषताओं को दर्शाने के लिए किया जाता है।",
+    "category": "Common Isolate",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण के अनुसार प्रधानमंत्री की जीवनी का वर्णांक बनाने के लिए किस पूर्ववर्ती सामान्य एकल (ACI) का प्रयोग किया जाता है ?",
+    "options": [
+      "v",
+      "w",
+      "y7",
+      "k"
+    ],
+    "answer": 2,
+    "explanation": "द्विबिन्दु वर्गीकरण में, किसी व्यक्ति विशेष (जैसे प्रधानमंत्री) की जीवनी के लिए पूर्ववर्ती सामान्य एकल (ACI) 'y7' का प्रयोग किया जाता है। 'w' का प्रयोग सामान्य जीवनी के लिए होता है।",
+    "category": "Common Isolate",
+    "source": "RPSC GRADE II 2020"
+  },
+  {
+    "question": "वर्ग संख्या '2wm92' में शब्द 'w' क्या दर्शाता है ?",
+    "options": [
+      "इतिहास/History",
+      "आत्मकथा/Biography",
+      "संग्रहित कार्य/Collected work",
+      "पत्रिकाएँ/Periodicals"
+    ],
+    "answer": 1,
+    "explanation": "वर्ग संख्या में, 'w' एक पूर्ववर्ती सामान्य एकल है जो जीवनी या आत्मकथा (Biography) को दर्शाता है।",
+    "category": "Common Isolate",
+    "source": "UKSSSC-2018"
+  },
+  {
+    "question": "कोलन वर्गीकरण के अनुसार विषय की जीवनी को वर्गीकृत करने के लिए किस पूर्ववर्ती सामान्य आइसोलेट का उपयोग किया जाता है ?",
+    "options": [
+      "x",
+      "a",
+      "b",
+      "w"
+    ],
+    "answer": 3,
+    "explanation": "कोलन वर्गीकरण में, किसी विषय की सामान्य जीवनी को वर्गीकृत करने के लिए पूर्ववर्ती सामान्य आइसोलेट 'w' का उपयोग किया जाता है।",
+    "category": "Common Isolate",
+    "source": "UPPSC 2023 SHIFT-1"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण (छठवीं संस्करण) में पूर्ववर्ती सामान्य एकल 'b' संकेत करता है ?",
+    "options": [
+      "Encyclopedia",
+      "Conference Proceedings",
+      "Bibliography",
+      "serial"
+    ],
+    "answer": 2,
+    "explanation": "यह प्रश्न गलत है। ACI 'b' का उपयोग भिन्नता (variation) दर्शाने के लिए किया जाता है। ग्रंथसूची (Bibliography) के लिए 'a' का उपयोग होता है और सम्मेलन कार्यवाही (Conference Proceedings) के लिए 'p' का उपयोग होता है। दिए गए उत्तर (Conference Proceedings) के अनुसार यह 'p' होना चाहिए, न कि 'b'।",
+    "category": "Common Isolate",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "प्रथम स्तर टाइम आइसोलेट (T1) संख्या के साथ दूसरे स्तर के टाइम आइसोलेट नंबर (T2) को जोड़ने के लिए इस्तेमाल किया जाने वाला कनेक्टिंग सिंबल कोलन क्लासिफिकेशन (CC6) है?",
+    "options": [
+      "Apostrophe",
+      "Dot",
+      "Colon",
+      "Comma"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन में, एक ही पक्ष के भीतर विभिन्न स्तरों को जोड़ने के लिए किसी योजक चिह्न का उपयोग नहीं किया जाता है। वे सीधे जुड़ते हैं। हालांकि, T1 और T2 को अलग करने के लिए डॉट (.) का उपयोग किया जाता है। प्रश्न में संभवतः यही पूछा गया है।",
+    "category": "Common Isolate",
+    "source": "KERLA PSC 2016"
+  },
+  {
+    "question": "कोलन वर्गीकरण में 'F' प्रयोग है ?",
+    "options": [
+      "Posteriorising Personality Common Isolate",
+      "Anteriorising Common Isolate (applicable only after Space facet)",
+      "Anteriorising Common Isolate (applicable only after time facet)",
+      "Posteriorising Energy Common Isolate"
+    ],
+    "answer": 0,
+    "explanation": "'f' (छोटा f) एक पश्चवर्ती सामान्य एकल है जो जांच (investigation) का प्रतिनिधित्व करता है और ऊर्जा पक्ष में प्रकट होता है। 'F' (बड़ा F) प्रौद्योगिकी मुख्य वर्ग में एक विहित वर्ग है। दिए गए विकल्पों में से कोई भी पूरी तरह सही नहीं है, लेकिन (a) सबसे निकटतम है क्योंकि कुछ PCI व्यक्तित्व में होते हैं।",
+    "category": "Common Isolate",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "सी.सी. में जीवनी को दर्शाने हेतु कौन-सा चिन्ह ए.सी.आई. के रूप में प्रयुक्त होता है ?",
+    "options": [
+      "k",
+      "m",
+      "w",
+      "b"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन (सी.सी.) में, 'w' का उपयोग जीवनी (Biography) को दर्शाने के लिए पूर्ववर्ती सामान्य एकल (ACI) के रूप में किया जाता है।",
+    "category": "Common Isolate",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "सी. सी. 6वें संस्करण में ए.सी.आई. में 'n' निम्न में से किस का प्रतिनिधित्व करता है ?",
+    "options": [
+      "पत्रिका/Periodical",
+      "क्रमिक पत्रिका/serial",
+      "सम्मेलन/conference",
+      "जीवनी/biography"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न गलत है। ACI 'm' का उपयोग आवधिक पत्रिकाओं के लिए होता है और 'p' का उपयोग सम्मेलन के लिए होता है। ACI 'n' का उपयोग क्रमिक प्रकाशन (Serial) के लिए नहीं होता है। दिए गए उत्तर के अनुसार यह क्रमिक पत्रिका है, लेकिन यह मानक नहीं है।",
+    "category": "Common Isolate",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण (6वें संशोधित संस्करण) के अनुसार 654 ईस्वी हेतु वर्गांक होगा:",
+    "options": [
+      "D654",
+      "D345",
+      "C345",
+      "C354"
+    ],
+    "answer": 0,
+    "explanation": "द्विबिन्दु वर्गीकरण की कालानुक्रमिक युक्ति के अनुसार, 1-999 ईस्वी के वर्षों के लिए, अंक 'D' का उपयोग किया जाता है, जिसके बाद वर्ष के अंक लिखे जाते हैं। अतः 654 ईस्वी के लिए वर्गांक D654 होगा।",
+    "category": "Common Isolate",
+    "source": "RPSC GRADE 1ST SET- A 2016"
+  },
+  {
+    "question": "निम्नलिखित में से किस प्रकार की सारणी द्विबिन्दु वर्गीकरण में दी गई है ?",
+    "options": [
+      "सहायक सारणियाँ / Auxiliary tables",
+      "रूप विभाजन / form division",
+      "मानक उप-विभाजन / Standard sub-division",
+      "सामान्य एकल / Common Isolate"
+    ],
+    "answer": 3,
+    "explanation": "द्विबिन्दु वर्गीकरण में सामान्य एकल (Common Isolate) की सारणियाँ दी गई हैं, जो DDC की सहायक सारणियों (Auxiliary tables) या मानक उप-विभाजनों (Standard sub-divisions) के समान हैं।",
+    "category": "Common Isolate",
+    "source": "RAJASTHAN UNIVERSITY JTA-2018"
+  },
+  {
+    "question": "कोलोन वर्गीकरण में टाइम आइसोलेट के कितने स्तर होते है?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "कोलन वर्गीकरण में, काल एकल (Time Isolate) के दो स्तर होते हैं: T1 (सार्वजनिक समय, जैसे शताब्दी, दशक, वर्ष) और T2 (व्यक्तिगत समय, जैसे दिन, रात, मौसम)।",
+    "category": "Common Isolate",
+    "source": "KVS 2013"
+  }
+]
