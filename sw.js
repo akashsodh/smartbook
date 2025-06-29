@@ -25,6 +25,7 @@ const assets = [
     '/lib_unit4.json',
     '/sood_mcq.json',
     '/libpyq.json',
+    '/computer.json',
     '/images/icons/icon-72x72.png',
     '/images/icons/icon-96x96.png',
     '/images/icons/icon-128x128.png',
