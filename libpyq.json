@@ -4197,5 +4197,2851 @@
     "explanation": "कोलन वर्गीकरण में, काल एकल (Time Isolate) के दो स्तर होते हैं: T1 (सार्वजनिक समय, जैसे शताब्दी, दशक, वर्ष) और T2 (व्यक्तिगत समय, जैसे दिन, रात, मौसम)।",
     "category": "Common Isolate",
     "source": "KVS 2013"
+  },
+  {
+    "question": "जब एक ही प्रकार के पहलू से संबंधित पृथक विचार एक दूसरे विचार के साथ संबंध में होते हैं, तो यह है ?",
+    "options": [
+      "Intra Phase Relation",
+      "Intra Facet Relation",
+      "Intra Subject Relation",
+      "Intra Array Relation"
+    ],
+    "answer": 3,
+    "explanation": "अंतः-पंक्ति दशा संबंध (Intra-Array Phase Relation) का उपयोग एक ही पंक्ति (array) से संबंधित दो एकल विचारों (isolate ideas) के बीच संबंध दर्शाने के लिए किया जाता है। ये एकल विचार एक ही पक्ष (facet) के भीतर समकक्ष वर्ग होते हैं।",
+    "category": "Phase Relation",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "व्यक्तियों के लिए एक वर्गीकरण योजना में, आयु के आधार पर निम्नलिखित समूह बनाए जाते हैं शिशु, बच्चे, किशोर और वयस्क। यहाँ आयु का प्रतिनिधित्व करता है ?",
+    "options": [
+      "An array",
+      "A facet",
+      "A chain",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "'आयु' विभाजन की विशेषता का प्रतिनिधित्व करती है। परिणामी समकक्ष वर्गों (शिशु, बच्चे, किशोर, वयस्क) का समूह एक पंक्ति (An array) का निर्माण करता है।",
+    "category": "Phase Relation",
+    "source": "DSSSB-2017"
+  },
+  {
+    "question": "'जैन धर्म पर बौद्ध धर्म का प्रभाव' विषय में किस प्रकार का संबंध है ?",
+    "options": [
+      "Intra-array bias relation",
+      "Intra-facet influencing relation",
+      "Inter-facet influencing relation",
+      "General bias Phase relation"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रभाव दशा संबंध (influencing phase relation) का एक उदाहरण है। चूँकि 'जैन धर्म' और 'बौद्ध धर्म' दोनों एक ही मुख्य वर्ग (धर्म) और एक ही पक्ष से संबंधित हैं, यह एक अंतः-पक्ष प्रभाव संबंध (intra-facet influencing relation) है।",
+    "category": "Phase Relation",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "निम्नलिखित में से किस शब्द का उपयोग एकल विशेषता के आधार पर व्युत्पन्न वर्गों के लिए किया जाता है और अधिमान्य अनुक्रम में व्यवस्थित किया जाता है ?",
+    "options": [
+      "Attribute",
+      "Facet",
+      "Array",
+      "Analysis"
+    ],
+    "answer": 2,
+    "explanation": "एक पंक्ति (Array) उन वर्गों का एक समूह है जो एक ही विशेषता के आधार पर एक सामान्य वर्ग से प्राप्त होते हैं। इन वर्गों को एक सहायक अनुक्रम (helpful sequence) में व्यवस्थित किया जाता है।",
+    "category": "Phase Relation",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "इन्ट्रा फेसेट फेज रिलेशन का प्रयोग किस सम्बन्ध को प्रदर्शित करने के लिए किया जाता है ?",
+    "options": [
+      "विभिन्न पक्ष के दो एकलों का सम्बन्ध / two isolates belonging to the different facets",
+      "एक ही पक्ष के दो एकलों का सम्बन्ध / two Isolate belonging of the same Facets",
+      "एक ही विषय के दो एकलों का सम्बन्ध / two Isolate belonging of the same subject",
+      "विभिन्न विषयों के दो एकलों का सम्बन्ध / two Isolate belonging of the different subject"
+    ],
+    "answer": 1,
+    "explanation": "अंतः-पक्ष दशा संबंध (Intra-Facet Phase Relation) का प्रयोग एक ही विषय के भीतर एक ही पक्ष (Facet) से संबंधित दो एकलों (isolates) के बीच संबंध को प्रदर्शित करने के लिए किया जाता है।",
+    "category": "Phase Relation",
+    "source": "NVS 2022 EVENING"
+  },
+  {
+    "question": "रंगनाथन के अनुसार 'लेटेन्ट फेसेट' क्या है?",
+    "options": [
+      "अंत में जोड़ा गया पक्ष / Facet added at end",
+      "छिपा पक्ष / Hidden Facet",
+      "महत्वपूर्ण पक्ष / important aspects",
+      "सभी में अद्यतन पक्ष / Current of all Facet"
+    ],
+    "answer": 1,
+    "explanation": "रंगनाथन के अनुसार, एक 'अव्यक्त पक्ष' (Latent Facet) एक छिपा हुआ पक्ष है जो किसी विषय में निहित होता है लेकिन स्पष्ट रूप से व्यक्त नहीं किया जाता है। वर्गीकरणकर्ता को विषय का विश्लेषण करके इसे पहचानना होता है।",
+    "category": "Phase Relation",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "निम्न में से कौन-सा अक्षर सी.सी. 6 में 'इन्ट्रा- अरे डिफरेन्स' फेस रिलेशन के लिये प्रयुक्त होता है ?",
+    "options": [
+      "t",
+      "u",
+      "w",
+      "y"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन के 6वें संस्करण में, अंतः-पंक्ति अंतर संबंध (Intra-Array Difference Relation) के लिए योजक चिह्न के रूप में छोटे अक्षर 'w' का उपयोग किया जाता है।",
+    "category": "Phase Relation",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "'लाइब्रेरियन के लिए सांख्यिकी' का उदाहरण है ?",
+    "options": [
+      "Bias Phase Relation",
+      "Comparison Phase Relation",
+      "Difference Phase Relation",
+      "Tool Phase Relation"
+    ],
+    "answer": 0,
+    "explanation": "'लाइब्रेरियन के लिए सांख्यिकी' अभिनति दशा संबंध (Bias Phase Relation) का एक उदाहरण है। यहाँ, सांख्यिकी विषय को लाइब्रेरियन के दृष्टिकोण से प्रस्तुत किया गया है।",
+    "category": "Phase Relation",
+    "source": "PARILIAMENT OF INDIA"
+  },
+  {
+    "question": "एक प्रणाली में शामिल है ?",
+    "options": [
+      "Parts",
+      "Inter-relation parts having a purpose",
+      "A composite of items",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "एक प्रणाली (system) को परस्पर संबंधित भागों के एक समूह के रूप में परिभाषित किया जाता है जो एक विशिष्ट उद्देश्य को प्राप्त करने के लिए मिलकर काम करते हैं।",
+    "category": "Phase Relation",
+    "source": "PARILIAMENT OF INDIA"
+  },
+  {
+    "question": "दशा सम्बन्ध दो या दो से अधिक विषय और...... के साथ संयोजन है ?",
+    "options": [
+      "पुस्तकें / Books",
+      "पत्रिकाएँ / Periodicals",
+      "एकल विचार / Isolate ideas",
+      "संग्रहों / Collections"
+    ],
+    "answer": 2,
+    "explanation": "दशा संबंध (Phase Relation) दो या दो से अधिक मुख्य विषयों या एक ही पक्ष के भीतर दो या दो से अधिक एकल विचारों (Isolate ideas) के बीच संबंध को दर्शाता है।",
+    "category": "Phase Relation",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "'अभियंताओं के लिए गणित' द्विबिन्दु वर्गीकरण में किस पक्ष सम्बन्ध का उदाहरण है ?",
+    "options": [
+      "तुलना / comparison",
+      "सामान्य / General",
+      "प्रभाव / Influence",
+      "पक्षपात / Bias"
+    ],
+    "answer": 3,
+    "explanation": "'अभियंताओं के लिए गणित' अभिनति या पक्षपात दशा संबंध (Bias Phase Relation) का एक उदाहरण है। इसमें गणित विषय को अभियंताओं के एक विशिष्ट समूह के लिए प्रस्तुत किया गया है।",
+    "category": "Phase Relation",
+    "source": "RAJ, UNI. JTA-2018"
+  },
+  {
+    "question": "मुख्य विषय Biology (G) में CC (M) क्या है ?",
+    "options": [
+      "समस्याबद्ध पहलू / Problem facet",
+      "अंगीकार पहलू / Organ facet",
+      "उपाय पहलू / Solution facet",
+      "पदार्थबद्ध पहलू / Substance facet"
+    ],
+    "answer": 2,
+    "explanation": "यह प्रश्न अस्पष्ट है। CC में 'M' पदार्थ (Matter) पक्ष को दर्शाता है। यदि प्रश्न 'Medicine' के संदर्भ में है, तो [M] पदार्थ (दवा) का प्रतिनिधित्व कर सकता है। दिए गए उत्तर के अनुसार 'उपाय पहलू' है, जो संभवतः गलत है क्योंकि उपाय [E] (Energy) का हिस्सा होगा।",
+    "category": "Phase Relation",
+    "source": "UKSSSC-2018"
+  },
+  {
+    "question": "Z, 40j5 टोर्ट एंड क्राइम के मध्य रिलेशन उदाहरण है?",
+    "options": [
+      "Inter subject phase relation",
+      "Inter facet phase relation",
+      "Intra phase relation",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न कानून (main class Z) के भीतर दो अवधारणाओं ('टोर्ट' और 'क्राइम') के बीच संबंध दिखा रहा है। ये दोनों कानून के भीतर अलग-अलग पक्ष हो सकते हैं, इसलिए यह अंतरा-पक्ष दशा संबंध (Inter-facet phase relation) का एक उदाहरण है।",
+    "category": "Phase Relation",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "द्विविन्दु वर्गीकरण (छठवें संस्करण) में दशा संबंध अंक 'b' प्रदर्शित करता है ?",
+    "options": [
+      "सामान्य / General",
+      "अभिनति / Bias",
+      "अंतर / Difference",
+      "प्रभावी / Influencing"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन के छठे संस्करण में, दशा संबंध के लिए योजक चिह्न '0' (शून्य) के बाद विभिन्न छोटे अक्षरों का उपयोग किया जाता है। अक्षर 'b' अभिनति (Bias) संबंध को प्रदर्शित करता है।",
+    "category": "Phase Relation",
+    "source": "KVS 2018 EVENING"
+  },
+  {
+    "question": "सीसी के सातवें संस्करण में फेज रिलेशन के लिए कनेक्टिंग सिंबल है ?",
+    "options": [
+      "Dot",
+      "Ampersand",
+      "Comma",
+      "Zero"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन के 7वें संस्करण में, दशा संबंध (Phase Relation) को दर्शाने के लिए कनेक्टिंग सिंबल के रूप में एम्परसैंड (&) का उपयोग किया जाता है।",
+    "category": "Phase Relation",
+    "source": "DSSSB -2021 TECHNICAL ASSISTANT"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण में अंतः पंक्ति दशा सम्बंध का उपयोग निम्न में से किसमें सम्बंध प्रदर्शित करने के लिए किया जाता है ?",
+    "options": [
+      "two main class",
+      "One main class, one facet, two Array numbers in the same Array",
+      "One main class, two facet, two Array numbers",
+      "One main class, two facet, two series of single numbers"
+    ],
+    "answer": 1,
+    "explanation": "अंतः-पंक्ति दशा संबंध (Intra-Array Phase Relation) का उपयोग एक ही मुख्य वर्ग और एक ही पक्ष के भीतर, एक ही पंक्ति में दो एकल संख्याओं के बीच संबंध प्रदर्शित करने के लिए किया जाता है।",
+    "category": "Phase Relation",
+    "source": "RPSC GRADE II 2020"
+  },
+  {
+    "question": "मेल्विल डेवी इसके लेखक हैं ?",
+    "options": [
+      "Universal Decimal Classification (UDC)",
+      "Library of Congress Classification (LCC)",
+      "Dewey Decimal Classification (DDC)",
+      "Bibliographic Classification (BC)"
+    ],
+    "answer": 2,
+    "explanation": "मेल्विल डेवी, डेवी डेसीमल क्लासिफिकेशन (DDC) के निर्माता और लेखक हैं, जो दुनिया में सबसे व्यापक रूप से इस्तेमाल की जाने वाली पुस्तकालय वर्गीकरण प्रणालियों में से एक है।",
+    "category": "Dewey Decimal Classification",
+    "source": "ASSAM PLC-2019"
+  },
+  {
+    "question": "डेवी दशमलव वर्गीकरण (डीडीसी) प्रणाली किसने तैयार की ?",
+    "options": [
+      "S.R.Ranganathan",
+      "Melvil Dewey",
+      "Time Berners-Lee",
+      "Vint Cerf"
+    ],
+    "answer": 1,
+    "explanation": "डेवी दशमलव वर्गीकरण (DDC) प्रणाली 1876 में मेल्विल डेवी द्वारा तैयार की गई थी।",
+    "category": "Dewey Decimal Classification",
+    "source": "MIZORAM PSC 2013"
+  },
+  {
+    "question": "सर्वप्रथम किसके द्वारा दशमलव अपूर्ण अंकन का प्रयोग किया गया ?",
+    "options": [
+      "Richardson",
+      "Charles Martel",
+      "Melvil Dewey",
+      "HP Luhn"
+    ],
+    "answer": 2,
+    "explanation": "मेल्विल डेवी ने अपनी वर्गीकरण प्रणाली में दशमलव अंकन (decimal notation) के सिद्धांत का उपयोग किया, जिससे पदानुक्रम को दर्शाने और नए विषयों को समायोजित करने में लचीलापन आया।",
+    "category": "Dewey Decimal Classification",
+    "source": "KVS 2015"
+  },
+  {
+    "question": "डीडीसी है ?",
+    "options": [
+      "Alphabetical scheme",
+      "Numerical scheme",
+      "Alphanumerical scheme",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "यह प्रश्न और उत्तर गलत प्रतीत होते हैं। DDC मुख्य रूप से एक अंकीय योजना (Numerical Scheme) है जो इंडो-अरबी अंकों (000-999) का उपयोग करती है। इसलिए, यह एक शुद्ध अंकन योजना है। 'Alphanumerical' का अर्थ है अक्षर और अंक दोनों, जो CC या LC में होता है। दिए गए उत्तर के अनुसार यह 'Alphanumerical' है, जो गलत है।",
+    "category": "Dewey Decimal Classification",
+    "source": "MIZORAM PSC DEPUTY LIBRARIAN"
+  },
+  {
+    "question": "DDC में वर्गों के विभाजन का पहला क्रम इस पर आधारित है ?",
+    "options": [
+      "जेवेट की वर्गीकरण प्रणाली",
+      "पेरिस बुक सेलर्स की प्रणाली",
+      "निश्चित स्थान प्रणाली",
+      "फ्रांसिस बेकन के सीखने के तीन स्रोत"
+    ],
+    "answer": 3,
+    "explanation": "DDC के 10 मुख्य वर्गों का आधार डब्ल्यू.टी. हैरिस द्वारा विकसित फ्रांसिस बेकन के ज्ञान वर्गीकरण का उलटा संस्करण था। बेकन ने ज्ञान को इतिहास, काव्य और दर्शन में विभाजित किया था, जो स्मृति, कल्पना और तर्क की मानसिक क्षमताओं पर आधारित थे।",
+    "category": "Dewey Decimal Classification",
+    "source": "IITH LIBRARY INFORMATION ASSISTANT-2023"
+  },
+  {
+    "question": "निम्नलिखित में से सबसे पुरानी वर्गीकरण योजना कौन सी है ?",
+    "options": [
+      "UDC",
+      "DDC",
+      "CC",
+      "LC"
+    ],
+    "answer": 1,
+    "explanation": "डेवी डेसीमल क्लासिफिकेशन (DDC), जिसे पहली बार 1876 में प्रकाशित किया गया था, दी गई वर्गीकरण योजनाओं में सबसे पुरानी है।",
+    "category": "Dewey Decimal Classification",
+    "source": "G.G.S.IND.UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "DDC में किस प्रकार के अंकन का प्रयोग किया गया है ?",
+    "options": [
+      "Pure",
+      "Mixed",
+      "Both",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "DDC में शुद्ध अंकन (Pure Notation) का प्रयोग किया जाता है, जिसका अर्थ है कि यह केवल एक ही प्रकार के प्रतीकों, यानी इंडो-अरबी अंकों (0-9) का उपयोग करता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "HPSSC HAMIRPUR LIBRARIAN-2022"
+  },
+  {
+    "question": "डी डी सी के प्रथम संस्करण में है ?",
+    "options": [
+      "04 pages",
+      "144 pages",
+      "44 pages",
+      "244 pages"
+    ],
+    "answer": 2,
+    "explanation": "DDC का पहला संस्करण, जो 1876 में गुमनाम रूप से प्रकाशित हुआ था, कुल 44 पृष्ठों का था। इसमें 12 पृष्ठों की प्रस्तावना, 12 पृष्ठों की अनुसूचियाँ और 18 पृष्ठों की सापेक्षिक अनुक्रमणिका थी।",
+    "category": "Dewey Decimal Classification",
+    "source": "SHREE CHITRA TIRUNAL INSTTUTE-2023"
+  },
+  {
+    "question": "डीडीसी में कितने प्रमुख संस्करण प्रकाशित होते हैं ?",
+    "options": [
+      "21",
+      "22",
+      "23",
+      "20"
+    ],
+    "answer": 2,
+    "explanation": "डेवी डेसीमल क्लासिफिकेशन (DDC) के अब तक 23 पूर्ण संस्करण प्रकाशित हो चुके हैं। 23वां संस्करण 2011 में आया था।",
+    "category": "Dewey Decimal Classification",
+    "source": "KARNATAKA PSC 2016"
+  },
+  {
+    "question": "डेवी दशमलव वर्गीकरण पहली बार कब प्रकाशित हुआ था ?",
+    "options": [
+      "1874",
+      "1875",
+      "1876",
+      "1877"
+    ],
+    "answer": 2,
+    "explanation": "डेवी दशमलव वर्गीकरण का पहला संस्करण 1876 में प्रकाशित हुआ था।",
+    "category": "Dewey Decimal Classification",
+    "source": "G.G.S. IND.UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "सबसे पहले डीडीसी का दूसरा संस्करण निकाला गया ?",
+    "options": [
+      "1885",
+      "1886",
+      "1887",
+      "1888"
+    ],
+    "answer": 0,
+    "explanation": "डेवी डेसीमल क्लासिफिकेशन का दूसरा संस्करण वर्ष 1885 में प्रकाशित हुआ था।",
+    "category": "Dewey Decimal Classification",
+    "source": "KERLA PSC 2021"
+  },
+  {
+    "question": "डीडीसी का 23वां संस्करण किस वर्ष आया ?",
+    "options": [
+      "2011",
+      "2001",
+      "1999",
+      "2009"
+    ],
+    "answer": 0,
+    "explanation": "डेवी डेसीमल क्लासिफिकेशन (DDC) का 23वां संस्करण, जो नवीनतम पूर्ण संस्करण है, 2011 में प्रकाशित हुआ था।",
+    "category": "Dewey Decimal Classification",
+    "source": "GURUGRAM UNIVERSITY 2023"
+  },
+  {
+    "question": "एबिज्ड दशमलव वर्गीकरण पद्धति के नवीनतम संस्करण को बताइए?",
+    "options": [
+      "first edition",
+      "Fifteenth edition",
+      "Third Edition",
+      "Fourth edition"
+    ],
+    "answer": 1,
+    "explanation": "संक्षिप्त डेवी दशमलव वर्गीकरण (Abridged DDC) का नवीनतम संस्करण 15वां संस्करण है, जो 2012 में प्रकाशित हुआ था और यह पूर्ण DDC के 23वें संस्करण पर आधारित है।",
+    "category": "Dewey Decimal Classification",
+    "source": "RSMSSB-2016"
+  },
+  {
+    "question": "डीडीसी का नवीनतम प्रिंट संस्करण क्या है ?",
+    "options": [
+      "23rd",
+      "22nd",
+      "21st",
+      "24th"
+    ],
+    "answer": 0,
+    "explanation": "DDC का नवीनतम और अंतिम प्रिंट संस्करण 23वां संस्करण है, जो 2011 में प्रकाशित हुआ था। इसके बाद, DDC का विकास केवल ऑनलाइन संस्करण (WebDewey) में जारी है।",
+    "category": "Dewey Decimal Classification",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "दशमलव वर्गीकरण पद्धति के नवीनतम संस्करण को बताइए ?",
+    "options": [
+      "Third edition",
+      "Seventh edition",
+      "twenty-third edition",
+      "first edition"
+    ],
+    "answer": 2,
+    "explanation": "दशमलव वर्गीकरण पद्धति (DDC) का नवीनतम पूर्ण संस्करण 23वां (twenty-third) संस्करण है, जो 2011 में प्रकाशित हुआ।",
+    "category": "Dewey Decimal Classification",
+    "source": "RSMSSB-2016"
+  },
+  {
+    "question": "DDC का ऑनलाइन संस्करण कौन-सा है ?",
+    "options": [
+      "21th",
+      "19th",
+      "23rd",
+      "22nd"
+    ],
+    "answer": 2,
+    "explanation": "DDC का ऑनलाइन संस्करण, जिसे WebDewey कहा जाता है, लगातार अपडेट होता रहता है और यह 23वें प्रिंट संस्करण की सामग्री पर आधारित है और उसमें निरंतर सुधार करता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "निम्नलिखित में से कौन डी. डी.सी. 23वें संस्करण का सहायक संपादक नहीं है ?",
+    "options": [
+      "Rebecca Green",
+      "Michael Panzer",
+      "T.L. Carter",
+      "Jullianne Beall"
+    ],
+    "answer": 2,
+    "explanation": "DDC के 23वें संस्करण के संपादकीय दल में जोन एस. मिशेल (संपादक), माइकल Panzer, रेबेका ग्रीन और जूलियन बील शामिल थे। टी.एल. कार्टर इससे संबंधित नहीं हैं।",
+    "category": "Dewey Decimal Classification",
+    "source": "KVS 2023 SHIFT-2"
+  },
+  {
+    "question": "डीडीसी के 23वें संस्करण के प्रधान संपादक कौन हैं ?",
+    "options": [
+      "Benjamin A. Custer",
+      "John P. Comaromi",
+      "Winton E. Matthews",
+      "Joan S. Mitchell"
+    ],
+    "answer": 3,
+    "explanation": "जोन एस. मिशेल (Joan S. Mitchell) डेवी डेसीमल क्लासिफिकेशन के 21वें, 22वें और 23वें संस्करण की प्रधान संपादक थीं।",
+    "category": "Dewey Decimal Classification",
+    "source": "JAWAHARLAL NEHRU UNIVERSITY-2015"
+  },
+  {
+    "question": "निम्नलिखित में से कौन डीवी दशमलव वर्गीकरण (23वां संस्करण) का सहायक संपादक नहीं हैं ?",
+    "options": [
+      "Rebecca Green",
+      "Michael Panzer",
+      "J.D. McDonald",
+      "Julianne Beall"
+    ],
+    "answer": 2,
+    "explanation": "DDC के 23वें संस्करण के संपादकीय दल में रेबेका ग्रीन, माइकल Panzer और जूलियन बील शामिल थे। जे.डी. मैकडोनाल्ड इससे संबंधित नहीं हैं।",
+    "category": "Dewey Decimal Classification",
+    "source": "EMRS-2023"
+  },
+  {
+    "question": "डीडीसी के 20वें संस्करण के प्रधान संपादक ?",
+    "options": [
+      "Benjamin A- Custer",
+      "John P- Comaromi",
+      "Winton E- Matthews",
+      "John S- Mitchell"
+    ],
+    "answer": 1,
+    "explanation": "जॉन पी. कोमारोमी (John P. Comaromi) डेवी डेसीमल क्लासिफिकेशन के 20वें संस्करण के प्रधान संपादक थे।",
+    "category": "Dewey Decimal Classification",
+    "source": "JAWAHARLAL NEHRU UNIVERSITY-2015"
+  },
+  {
+    "question": "डीडीसी के 22वें संस्करण के प्रधान संपादक ?",
+    "options": [
+      "Benjamin A- Custer",
+      "John P- Comaromi",
+      "Winton E- Matthews",
+      "Joan S- Mitchell"
+    ],
+    "answer": 3,
+    "explanation": "जोन एस. मिशेल (Joan S. Mitchell) DDC के 22वें संस्करण की प्रधान संपादक थीं।",
+    "category": "Dewey Decimal Classification",
+    "source": "JAWAHARLAL NEHRU UNIVERSITY-2015"
+  },
+  {
+    "question": "डी.डी.सी. (19वें संस्करण) के सम्पादक कौन हैं ?",
+    "options": [
+      "Melville Dewey",
+      "John P. Komaromi",
+      "Benjamin Custer",
+      "E.M. Seymour"
+    ],
+    "answer": 2,
+    "explanation": "बेंजामिन ए. कस्टर (Benjamin A. Custer) DDC के 16वें, 17वें, 18वें और 19वें संस्करणों के संपादक थे।",
+    "category": "Dewey Decimal Classification",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "सूची-I और सूची-II में दी गई निम्नलिखित मदों को सुमेलित कीजिए।<br><b>List-I (Edition)</b><br>A- DDC 15th edition<br>B- DDC 20th edition<br>C- DDC 21st edition<br>D- DDC 22nd edition<br><b>List-II (Editors)</b><br>i- John Comaroni<br>ii- Milton J- Ferguson<br>iii- John Mitchell<br>iv- Benjamin Custer",
+    "options": [
+      "A-iii, B-iv, C-ii, D-i",
+      "A-i, B-ii, C-iii, D-iv",
+      "A-ii, B-iv, C-i, D-iii",
+      "A-iv, B-iii, C-ii, D-i"
+    ],
+    "answer": 2,
+    "explanation": "सही मिलान है:<br>A- DDC 15वां संस्करण - ii- मिल्टन जे. फर्ग्यूसन<br>B- DDC 20वां संस्करण - iv- बेंजामिन कस्टर (यह गलत है, 20वें के संपादक जॉन कोमारोमी थे। 19वें के कस्टर थे)<br>C- DDC 21वां संस्करण - i- जॉन कोमारोमी (यह भी गलत है, 21वें की संपादक जोन मिशेल थीं)<br>D- DDC 22वां संस्करण - iii- जॉन मिशेल (यह जोन मिशेल होना चाहिए)।<br>इस प्रश्न और विकल्पों में गंभीर त्रुटियाँ हैं।",
+    "category": "Dewey Decimal Classification",
+    "source": "UPPSC 2023 SHIFT-1"
+  },
+  {
+    "question": "डीडीसी के इलेक्ट्रोनिक संस्करण को इस नाम से जाना जाता है?",
+    "options": [
+      "Dewey Plus",
+      "Web Dewey",
+      "Online Dewey",
+      "UDC Online"
+    ],
+    "answer": 1,
+    "explanation": "DDC का ऑनलाइन संस्करण, जो लगातार अपडेट होता है, WebDewey के नाम से जाना जाता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "विंडोज के लिए डीडीसी संस्करण डेवी कब प्रकाशित हुआ था ?",
+    "options": [
+      "1993",
+      "1992",
+      "1994",
+      "1996"
+    ],
+    "answer": 3,
+    "explanation": "DDC का विंडोज-आधारित संस्करण, जिसे 'डेवी फॉर विंडोज' (Dewey for Windows) के नाम से जाना जाता है, 1996 में प्रकाशित हुआ था।",
+    "category": "Dewey Decimal Classification",
+    "source": "KERLA PSC 2017"
+  },
+  {
+    "question": "डीवी दशमलव वर्गीकरण के इलेक्ट्रोनिक संस्करण के रूप में जाना जाता है ?",
+    "options": [
+      "Electronic Dewey",
+      "Virtual Dewey",
+      "Online Dewey",
+      "Web Dewey"
+    ],
+    "answer": 0,
+    "explanation": "DDC का पहला इलेक्ट्रॉनिक संस्करण, जो सीडी-रोम पर जारी किया गया था, 'इलेक्ट्रॉनिक डेवी' (Electronic Dewey) के नाम से जाना जाता था।",
+    "category": "Dewey Decimal Classification",
+    "source": "CHAUDHARI CHARAN SINGH 2018"
+  },
+  {
+    "question": "डीडीसी-20 संस्करण का इलेक्ट्रोनिक संस्करण 1993 में सीडी-रोम शीर्षक पर जारी किया गया था ?",
+    "options": [
+      "Decimal Classification",
+      "Dewey for Windows",
+      "Dewey online",
+      "Electronic Dewey"
+    ],
+    "answer": 3,
+    "explanation": "DDC के 20वें संस्करण पर आधारित पहला सीडी-रोम संस्करण 1993 में 'इलेक्ट्रॉनिक डेवी' (Electronic Dewey) शीर्षक के तहत जारी किया गया था।",
+    "category": "Dewey Decimal Classification",
+    "source": "DSSSB-2021 TECHNICAL ASSISTANT"
+  },
+  {
+    "question": "दशमलव वर्गीकरण पद्धति के बीसवें संस्करण की प्रमुख उपलब्धिया है, इसका 1993 में सीडी रोम जारी किया गया इलेक्ट्रोनिक वर्जन जिसका नाम था ?",
+    "options": [
+      "Online DV",
+      "Virtual DV",
+      "Electronic DV",
+      "Computerized DV"
+    ],
+    "answer": 2,
+    "explanation": "1993 में जारी किए गए DDC के इलेक्ट्रॉनिक सीडी-रोम संस्करण का नाम 'इलेक्ट्रॉनिक डेवी' (Electronic Dewey) था।",
+    "category": "Dewey Decimal Classification",
+    "source": "RSMSSB-2016"
+  },
+  {
+    "question": "दशमलव वर्गीकरण पद्धति के इक्कीसवें संस्करण के इलेक्ट्रोनिक वर्जन का निम्न में से क्या नाम था ?",
+    "options": [
+      "DV for dose (DFD)",
+      "DV for Android (DF AE)",
+      "DV for iOS (DFI)",
+      "DV for Window (DFW)"
+    ],
+    "answer": 3,
+    "explanation": "DDC के 21वें संस्करण पर आधारित इलेक्ट्रॉनिक संस्करण को 'डेवी फॉर विंडोज' (Dewey for Windows - DFW) कहा गया, जो 1996 में जारी हुआ।",
+    "category": "Dewey Decimal Classification",
+    "source": "RSMSSB-2016"
+  },
+  {
+    "question": "डेवी दशमलव वर्गीकरण (DDC) प्रणाली का रखरखाव कौन करता है और वेबडेवी तक ऑनलाइन पहुँच प्रदान करता है ?",
+    "options": [
+      "American Library Association (ALA)",
+      "Library of Congress",
+      "Online Computer Library Center (OCLC)",
+      "ProQuest"
+    ],
+    "answer": 2,
+    "explanation": "ऑनलाइन कंप्यूटर लाइब्रेरी सेंटर (OCLC) 1988 से डेवी दशमलव वर्गीकरण प्रणाली के रखरखाव, विकास और प्रकाशन के लिए जिम्मेदार है। यह WebDewey के माध्यम से ऑनलाइन पहुँच भी प्रदान करता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "IITH LIBRARY INFORMATION ASSISTANT-2023"
+  },
+  {
+    "question": "डेवी दशमलव वर्गीकरण (डीडीसी) की देखभाल अब किसके द्वारा की जाती है?",
+    "options": [
+      "UNESCO",
+      "CILIP",
+      "ALA",
+      "OCLC"
+    ],
+    "answer": 3,
+    "explanation": "DDC की देखभाल और विकास अब OCLC (ऑनलाइन कंप्यूटर लाइब्रेरी सेंटर) द्वारा किया जाता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "MAHARANA PARTAP UNIVERSITY 2023"
+  },
+  {
+    "question": "डीडीसी का 22वां संस्करण प्रकाशित हुआ ?",
+    "options": [
+      "Forest Press",
+      "OCLC",
+      "IFLA",
+      "UNESCO"
+    ],
+    "answer": 1,
+    "explanation": "DDC का 22वां संस्करण (2003) OCLC द्वारा प्रकाशित किया गया था, जिसने फॉरेस्ट प्रेस का अधिग्रहण कर लिया था।",
+    "category": "Dewey Decimal Classification",
+    "source": "AIIMS, NAGPUR-2018"
+  },
+  {
+    "question": "डीडीसी-23 संस्करण का प्रकाशक कौन है ?",
+    "options": [
+      "Forest Press",
+      "IFLA",
+      "UNESCO",
+      "OCLC"
+    ],
+    "answer": 3,
+    "explanation": "DDC का 23वां संस्करण (2011) OCLC (ऑनलाइन कंप्यूटर लाइब्रेरी सेंटर) द्वारा प्रकाशित किया गया था।",
+    "category": "Dewey Decimal Classification",
+    "source": "PATANA HIGH COURT 2022"
+  },
+  {
+    "question": "डेवी दशमलव वर्गीकरण में सभी कॉपीराइट अधिकार किसके स्वामित्व में हैं ?",
+    "options": [
+      "DRTC",
+      "The Library of Congress",
+      "The Madras Library Association",
+      "OCLC"
+    ],
+    "answer": 3,
+    "explanation": "डेवी दशमलव वर्गीकरण के सभी कॉपीराइट अधिकार OCLC (ऑनलाइन कंप्यूटर लाइब्रेरी सेंटर) के स्वामित्व में हैं।",
+    "category": "Dewey Decimal Classification",
+    "source": "UKSSSC-2018"
+  },
+  {
+    "question": "डी.डी.सी. 22वाँ संस्करण प्रकाशित हुआ ?",
+    "options": [
+      "Forest Press",
+      "OCLC",
+      "IFLA",
+      "UNESCO"
+    ],
+    "answer": 1,
+    "explanation": "DDC का 22वां संस्करण OCLC द्वारा प्रकाशित किया गया था।",
+    "category": "Dewey Decimal Classification",
+    "source": "CUET PG PAPER 2022"
+  },
+  {
+    "question": "डेवी दशमलव वर्गीकरण (23 वा संस्करण) कितने खण्डों में प्रकाशित है ?",
+    "options": [
+      "1",
+      "5",
+      "4",
+      "3"
+    ],
+    "answer": 2,
+    "explanation": "DDC का 23वां संस्करण 4 खंडों (volumes) में प्रकाशित हुआ था।",
+    "category": "Dewey Decimal Classification",
+    "source": "JKSSB"
+  },
+  {
+    "question": "डीडीसी के नवीनतम पूर्ण संस्करण का प्रिंट संस्करण, संस्करण 23, निम्नलिखित प्रमुख भागों से बना है ?",
+    "options": [
+      "Five volumes",
+      "Four volumes",
+      "Three volumes",
+      "Six volumes"
+    ],
+    "answer": 1,
+    "explanation": "DDC का 23वां प्रिंट संस्करण चार खंडों (Four volumes) में प्रकाशित हुआ था।",
+    "category": "Dewey Decimal Classification",
+    "source": "MAHARANA PARTAP UNIVERSITY 2023"
+  },
+  {
+    "question": "डेवी दशमलव वर्गीकरण 19 संस्करण इसमें है ?",
+    "options": [
+      "Tables and Schedules",
+      "4 volumes: Introduction Tables Schedules, Divisions and Index",
+      "5 volumes: Rules. Introduction Tables, Schedules, Divisions and Index",
+      "3 volumes: Introduction Tables, Schedules, Index"
+    ],
+    "answer": 3,
+    "explanation": "DDC का 19वां संस्करण 3 खंडों में प्रकाशित हुआ था: खंड 1 (परिचय, तालिकाएँ), खंड 2 (अनुसूचियाँ), और खंड 3 (सापेक्षिक अनुक्रमणिका)।",
+    "category": "Dewey Decimal Classification",
+    "source": "RSMSSB-2016"
+  },
+  {
+    "question": "डेवी डेसीमल वर्गीकरण का 21वाँ संस्करण कितने खण्डों में है ?",
+    "options": [
+      "one volume",
+      "two volume",
+      "three volume",
+      "four volume"
+    ],
+    "answer": 3,
+    "explanation": "डेवी डेसीमल वर्गीकरण का 21वां संस्करण चार खंडों (four volumes) में प्रकाशित हुआ था।",
+    "category": "Dewey Decimal Classification",
+    "source": "MPPSC-2018, KVS 2023 SHIFT-2"
+  },
+  {
+    "question": "डी.डी.सी. (19वें संस्करण) के अनुसार निम्नलिखित तालिकाओं में से किसमें अग्रता-क्रम तालिका का प्रावधान है ?",
+    "options": [
+      "Table-1",
+      "Table-2",
+      "Table-5",
+      "Table-7"
+    ],
+    "answer": 0,
+    "explanation": "DDC में, अग्रता-क्रम तालिका (Table of Precedence) का प्रावधान तालिका-1 (मानक उप-विभाजन) में होता है, जो यह निर्धारित करता है कि यदि किसी विषय के लिए एक से अधिक मानक उप-विभाजन लागू होते हैं तो किसे प्राथमिकता दी जाएगी।",
+    "category": "Dewey Decimal Classification",
+    "source": "G.G. S. IND. UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "डीडीसी (19वें संस्करण) में, तालिका 2 निम्न से संबंधित है ?",
+    "options": [
+      "Languages",
+      "Areas",
+      "Persons",
+      "Racial, Ethnic, National Groups"
+    ],
+    "answer": 1,
+    "explanation": "DDC में, तालिका 2 भौगोलिक क्षेत्रों (Geographical Areas) से संबंधित है।",
+    "category": "Dewey Decimal Classification",
+    "source": "UKSSSC-2018"
+  },
+  {
+    "question": "डी.डी.सी. की द्वितीय सारणी सम्बन्धित है ?",
+    "options": [
+      "भाषा से / Language",
+      "व्यक्ति से / Person",
+      "साहित्य से / Literature",
+      "भौगोलिक क्षेत्र से / Geographical area"
+    ],
+    "answer": 3,
+    "explanation": "DDC की दूसरी सहायक तालिका (Table 2) भौगोलिक क्षेत्रों (Geographical area) से संबंधित है।",
+    "category": "Dewey Decimal Classification",
+    "source": "G.G. S. IND. UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "DDC के 19वें संस्करण में कितनी सहायक तालिकाएँ हैं ?",
+    "options": [
+      "four",
+      "five",
+      "six",
+      "seven"
+    ],
+    "answer": 3,
+    "explanation": "डेवी डेसीमल क्लासिफिकेशन के 19वें संस्करण में सात (seven) सहायक तालिकाएँ थीं।",
+    "category": "Dewey Decimal Classification",
+    "source": "KVS 2023"
+  },
+  {
+    "question": "निम्नलिखित में से डी.डी.सी. (19वां संस्करण) की कौन-सी तालिका 'रेशियल, एथनिक, नेशनल ग्रुप्स' के साथ संबंधित है।",
+    "options": [
+      "Table-1",
+      "Table 2",
+      "Table 5",
+      "Table -7"
+    ],
+    "answer": 2,
+    "explanation": "DDC के 19वें संस्करण में, तालिका 5 (Table 5) 'नस्लीय, जातीय, राष्ट्रीय समूहों' (Racial, Ethnic, National Groups) से संबंधित थी।",
+    "category": "Dewey Decimal Classification",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "डी.डी.सी. में तालिका-5 निम्नलिखित में से किसके लिए दी गई है?",
+    "options": [
+      "प्रजाति व राष्ट्रीय समूह / Ethnic and national group",
+      "भाषा / language",
+      "मानक उपविभाजन / Standard subdivision",
+      "उपर्युक्त में से कोई नहीं / None of the above"
+    ],
+    "answer": 0,
+    "explanation": "DDC में, तालिका 5 प्रजाति व राष्ट्रीय समूहों (Ethnic and national group) के लिए है।",
+    "category": "Dewey Decimal Classification",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "तालिका - 6 डी.डी.सी. (19 वें संस्करण) सम्बन्धित है ?",
+    "options": [
+      "भौगोलिक क्षेत्र से / Geographical area",
+      "व्यक्ति से / Person",
+      "भाषाओं से / Languages",
+      "साहित्य से / Literature"
+    ],
+    "answer": 2,
+    "explanation": "DDC के 19वें संस्करण में, तालिका 6 भाषाओं (Languages) से संबंधित थी।",
+    "category": "Dewey Decimal Classification",
+    "source": "PSSSB-2021"
+  },
+  {
+    "question": "डीडीसी के 23वें संस्करण में कितनी सहायक तालिकाएँ हैं ?",
+    "options": [
+      "16",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "DDC के 22वें और 23वें संस्करण में छह (6) सहायक तालिकाएँ हैं। तालिका 7 (व्यक्तियों के लिए समूह) को अनुसूचियों में मिला दिया गया था।",
+    "category": "Dewey Decimal Classification",
+    "source": "UKSSSC-2018 SET-A, DSSSB 2021"
+  },
+  {
+    "question": "डीडीसी 19वें संस्करण में कितनी तालिकाएँ हैं ?",
+    "options": [
+      "Six",
+      "Five",
+      "Seven",
+      "Eight"
+    ],
+    "answer": 2,
+    "explanation": "DDC के 19वें संस्करण में सात (Seven) सहायक तालिकाएँ थीं।",
+    "category": "Dewey Decimal Classification",
+    "source": "EMRS-2023"
+  },
+  {
+    "question": "डीवी दशमलव वर्गीकरण (19वां संस्करण) की तालिका 1 मानक उपविभाजनों का अंकन - 07 का प्रतिनिधित्व करता है ?",
+    "options": [
+      "Study and Teaching",
+      "Indexes",
+      "Philosophy and Theory",
+      "Dictionaries"
+    ],
+    "answer": 0,
+    "explanation": "DDC की तालिका 1 (मानक उपविभाजन) में, अंकन -07 'अध्ययन और शिक्षण' (Study and Teaching) का प्रतिनिधित्व करता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "ISRO-2022"
+  },
+  {
+    "question": "DDC में, तालिका 6 किस आइसोलेट्स से संबंधित है ?",
+    "options": [
+      "Persons",
+      "Languages",
+      "Form",
+      "Areas"
+    ],
+    "answer": 1,
+    "explanation": "DDC में, तालिका 6 भाषाओं (Languages) से संबंधित है।",
+    "category": "Dewey Decimal Classification",
+    "source": "JKSSB"
+  },
+  {
+    "question": "डीडीसी-22 संस्करण में कितनी तालिकाएं मौजूद हैं?",
+    "options": [
+      "9",
+      "6",
+      "8",
+      "7"
+    ],
+    "answer": 1,
+    "explanation": "DDC के 22वें संस्करण में छह (6) सहायक तालिकाएँ हैं।",
+    "category": "Dewey Decimal Classification",
+    "source": "KVS 2013"
+  },
+  {
+    "question": "डी.डी. सी. के नवीनतम संस्करण में कितने टेबल हैं?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 2,
+    "explanation": "DDC के नवीनतम (23वें) संस्करण में छह (6) सहायक तालिकाएँ हैं।",
+    "category": "Dewey Decimal Classification",
+    "source": "UKSSSC-2018"
+  },
+  {
+    "question": "डी.डी.सी.-23वें संस्करण में तालिका 3 है ?",
+    "options": [
+      "Literature Sub-Division",
+      "Standard Subdivision",
+      "Group of Persons",
+      "Language Division"
+    ],
+    "answer": 0,
+    "explanation": "DDC के 23वें संस्करण में, तालिका 3 कला, व्यक्तिगत साहित्य के लिए उप-विभाजनों से संबंधित है। इसलिए, 'Literature Sub-Division' सबसे उपयुक्त उत्तर है।",
+    "category": "Dewey Decimal Classification",
+    "source": "UKSSSC-2018"
+  },
+  {
+    "question": "निम्नलिखित में से कौनसी तालिका डीवी दशमलव वर्गीकरण (19 वीं संकरण) की अनुसूचीयों के किसी भी अंक के साथ जब भी आवश्यकता हो उपयोग की जा सकती है ?",
+    "options": [
+      "Table-1",
+      "Table-2",
+      "Table-4",
+      "Table-6"
+    ],
+    "answer": 0,
+    "explanation": "तालिका 1 (मानक उप-विभाजन) को अनुसूची में लगभग किसी भी संख्या में जोड़ा जा सकता है ताकि विषय के प्रस्तुतीकरण के रूप को निर्दिष्ट किया जा सके।",
+    "category": "Dewey Decimal Classification",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "डी.डी.सी. (20वें संस्करण) के प्रकाशन में तालिका 1 का प्रतिनिधित्व करता है ?",
+    "options": [
+      "स्टैण्डर्ड उपप्रभाग / Standard Subdivision",
+      "भौगोलिक क्षेत्र / Geographical area",
+      "व्यक्तिगत साहित्य / Individual literature",
+      "भाषा / language"
+    ],
+    "answer": 0,
+    "explanation": "DDC में तालिका 1 हमेशा मानक उप-विभाजनों (Standard Subdivision) का प्रतिनिधित्व करती है।",
+    "category": "Dewey Decimal Classification",
+    "source": "IITH JUNIOR LIB. INFORMATION ASST.-2023"
+  },
+  {
+    "question": "डेवी दशमलव वर्गीकरण मानव ज्ञान को निम्न में विभाजित करता है:",
+    "options": [
+      "10 basic categories",
+      "100 basic categories",
+      "1000 basic categories",
+      "10000 basic categories"
+    ],
+    "answer": 0,
+    "explanation": "डेवी दशमलव वर्गीकरण मानव ज्ञान के ब्रह्मांड को 10 मूल या मुख्य श्रेणियों (main classes) में विभाजित करता है, जिन्हें 000-900 द्वारा दर्शाया जाता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "DSSSB 2014"
+  },
+  {
+    "question": "डीडीसी में विषयों के ब्रह्मांड को.... मुख्य वर्गों में विभाजित किया गया है ?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "8"
+    ],
+    "answer": 1,
+    "explanation": "DDC ज्ञान के ब्रह्मांड को दस (10) मुख्य वर्गों में विभाजित करता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "डीडीसी में ज्ञान के ब्रह्मांड को 10 मुख्य वर्गों में विभाजित किया गया है ?",
+    "options": [
+      "000-999",
+      "A-Z",
+      "1-9",
+      "0-9"
+    ],
+    "answer": 0,
+    "explanation": "DDC के 10 मुख्य वर्गों को 000 से 999 तक की तीन-अंकीय संख्याओं द्वारा दर्शाया जाता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "PATANA HIGH COURT 2022"
+  },
+  {
+    "question": "डेवी डेसीमल क्लासिफिकेशन (DDC) में कितने मुख्य वर्ग हैं ?",
+    "options": [
+      "999",
+      "1000",
+      "100",
+      "10"
+    ],
+    "answer": 3,
+    "explanation": "DDC में दस (10) मुख्य वर्ग हैं।",
+    "category": "Dewey Decimal Classification",
+    "source": "RAJ. UNI. JTA-2018"
+  },
+  {
+    "question": "डी.डी.सी. में 'स्टैण्डर्ड सबडिवीजन' से पूर्व किस अंकन का उपयोग किया जाता है ?",
+    "options": [
+      "0000",
+      "00",
+      "000",
+      "0"
+    ],
+    "answer": 3,
+    "explanation": "DDC में, मानक उप-विभाजन (Standard Subdivision) को जोड़ने से पहले, योजक के रूप में एक '0' (शून्य) का उपयोग किया जाता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "DDC में कितने मुख्य वर्ग होते हैं ?",
+    "options": [
+      "10 (0-9)",
+      "9 (1-9)",
+      "9 (0-8)",
+      "11 (0-10)"
+    ],
+    "answer": 0,
+    "explanation": "DDC में 10 मुख्य वर्ग होते हैं, जिन्हें 0 से 9 तक की संख्याओं द्वारा दर्शाया जाता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "G.G. S. IND. UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "DDC के सूचकांक को किस नाम से जाना जाता है ?",
+    "options": [
+      "Relative index",
+      "Book index",
+      "Comparative index",
+      "Sequential index"
+    ],
+    "answer": 0,
+    "explanation": "DDC के साथ प्रदान की गई अनुक्रमणिका को सापेक्षिक अनुक्रमणिका (Relative Index) के रूप में जाना जाता है। यह विषयों को वर्णानुक्रम में सूचीबद्ध करती है और दिखाती है कि एक विषय विभिन्न अनुशासनों में कहाँ-कहाँ वर्गीकृत है।",
+    "category": "Dewey Decimal Classification",
+    "source": "CGPSC LIBRARIAN"
+  },
+  {
+    "question": "डेवी दशमलव वर्गीकरण योजना में प्रयुक्त सूचकांक है ?",
+    "options": [
+      "Keyword index",
+      "Relative index",
+      "Subject index",
+      "Book index"
+    ],
+    "answer": 1,
+    "explanation": "डेवी दशमलव वर्गीकरण योजना में सापेक्षिक अनुक्रमणिका (Relative index) का उपयोग किया जाता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "DDC में अनुक्रमणिका का नाम है ?",
+    "options": [
+      "Analytical Index",
+      "Relative Index",
+      "Book Index",
+      "Index"
+    ],
+    "answer": 1,
+    "explanation": "DDC की अनुक्रमणिका का नाम सापेक्षिक अनुक्रमणिका (Relative Index) है।",
+    "category": "Dewey Decimal Classification",
+    "source": "MIZORAM PSC DEPUTY LIBRARIAN"
+  },
+  {
+    "question": "डीडीसी के सूचकांक को सापेक्ष सूचकांक कहा जाता है। सापेक्ष सूचकांक में विषयों की व्यवस्था की जाती है ?",
+    "options": [
+      "Alphabetically",
+      "Chronologically",
+      "Hierarchically",
+      "All of the above"
+    ],
+    "answer": 0,
+    "explanation": "सापेक्षिक सूचकांक में विषयों को वर्णानुक्रम (Alphabetically) में व्यवस्थित किया जाता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "IITH LIBRARY INFORMATION ASSISTANT-2023"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा 'शिक्षा' के लिए डीडीसी नंबर होगा ?",
+    "options": [
+      "350",
+      "360",
+      "370",
+      "380"
+    ],
+    "answer": 2,
+    "explanation": "DDC में, '370' संख्या शिक्षा (Education) विषय का प्रतिनिधित्व करती है।",
+    "category": "Dewey Decimal Classification",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "डीडीसी संख्या 020 का अर्थ है?",
+    "options": [
+      "Library and Information Sciences",
+      "Bibliography",
+      "General Encyclopedic Works",
+      "General Subject Catalogues"
+    ],
+    "answer": 0,
+    "explanation": "DDC में, 020 वर्ग संख्या पुस्तकालय और सूचना विज्ञान (Library and Information Sciences) के लिए है।",
+    "category": "Dewey Decimal Classification",
+    "source": "CUET PG PAPER 2022"
+  },
+  {
+    "question": "सूची-I को सूची-II से सुमेलित करेंः निम्नलिखित को DDC संख्याओं से सुमेलित करें ?<br><b>List - I (Subject)</b><br>(A) Education<br>(B) Medicine<br>(C) Biology<br>(D) Botany<br><b>List - II (DDC number)</b><br>(I) 610<br>(II) 574<br>(III) 581<br>(IV) 370",
+    "options": [
+      "(A)-(III), (B)-(I), (C)-(IV), (D)-(II)",
+      "(A)-(II), (B)-(III), (C)-(I), (D)-(IV)",
+      "(A)-(I), (B)-(III), (C)-(II), (D)-(IV)",
+      "(A)-(IV), (B)-(I), (C)-(II), (D)-(III)"
+    ],
+    "answer": 3,
+    "explanation": "सही मिलान है:<br>(A) शिक्षा (Education) - (IV) 370<br>(B) चिकित्सा (Medicine) - (I) 610<br>(C) जीव विज्ञान (Biology) - (II) 574<br>(D) वनस्पति विज्ञान (Botany) - (III) 581",
+    "category": "Dewey Decimal Classification",
+    "source": "DSSSB 2014"
+  },
+  {
+    "question": "डीडीसी में भौतिकी के लिए वर्गीकरण संख्या है ?",
+    "options": [
+      "520",
+      "510",
+      "530",
+      "540"
+    ],
+    "answer": 2,
+    "explanation": "DDC में, 530 वर्ग संख्या भौतिकी (Physics) के लिए है।",
+    "category": "Dewey Decimal Classification",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "DDC संख्याएँ मिलाएँ ?<br><b>List - I</b><br>(a) Education<br>(b) Medicine<br>(c) Photography<br>(d) Astronomy<br><b>List - II</b><br>(i) 770<br>(ii) 370<br>(iii) 610<br>(iv) 520",
+    "options": [
+      "a-iii, b-i, c-iv, d-ii",
+      "a-ii, b-iii, c-i, d-iv",
+      "a-i, b-iv, c-iii, d-ii",
+      "a-iv, b-ii, c-i, d-iii"
+    ],
+    "answer": 1,
+    "explanation": "सही मिलान है:<br>(a) शिक्षा (Education) - (ii) 370<br>(b) चिकित्सा (Medicine) - (iii) 610<br>(c) फोटोग्राफी (Photography) - (i) 770<br>(d) खगोल विज्ञान (Astronomy) - (iv) 520",
+    "category": "Dewey Decimal Classification",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "डेवी दशमलव योजना में धर्म पर पुस्तक इसके अंतर्गत मिलेगी ?",
+    "options": [
+      "000",
+      "200",
+      "400",
+      "600"
+    ],
+    "answer": 1,
+    "explanation": "DDC में, 200 वर्ग धर्म (Religion) के लिए है।",
+    "category": "Dewey Decimal Classification",
+    "source": "ISRO 2016"
+  },
+  {
+    "question": "DDC में शिक्षा.......संख्या द्वारा निरूपित किया गया है ?",
+    "options": [
+      "610",
+      "570",
+      "500",
+      "370"
+    ],
+    "answer": 3,
+    "explanation": "DDC में, 370 संख्या शिक्षा (Education) के लिए है।",
+    "category": "Dewey Decimal Classification",
+    "source": "KERLA PSC 2021"
+  },
+  {
+    "question": "डेवी दशमलव वर्गीकरण (DDC) में 'कक्षा 500' को समर्पित है?",
+    "options": [
+      "Social Sciences",
+      "Technology",
+      "Science",
+      "Literature"
+    ],
+    "answer": 2,
+    "explanation": "DDC में, 500 वर्ग विज्ञान (Science) के लिए है।",
+    "category": "Dewey Decimal Classification",
+    "source": "KARNATAKA PSC 2016"
+  },
+  {
+    "question": "डीडीसी में वर्ग संख्या '600' दर्शाती है ?",
+    "options": [
+      "Pure Science",
+      "Technology",
+      "Language",
+      "Religion"
+    ],
+    "answer": 1,
+    "explanation": "DDC में, 600 वर्ग प्रौद्योगिकी (Technology) या अनुप्रयुक्त विज्ञान (Applied Sciences) को दर्शाता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "KVS 2018 EVENING"
+  },
+  {
+    "question": "डी.डी.सी. (19वां संस्कण) में मुख्य वर्ग '570' इंगित करता है ?",
+    "options": [
+      "भौतिकी/Physics",
+      "रसायनशास्त्र/Chemistry",
+      "जीव विज्ञान/ Life Science",
+      "पादप विज्ञान/Botanical Science"
+    ],
+    "answer": 2,
+    "explanation": "DDC में, 570 वर्ग जीव विज्ञान (Life Sciences) को इंगित करता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "डेवी दशमलव वर्गीकरण में, संख्या '028' का अर्थ है ?",
+    "options": [
+      "Libraries for specific subject",
+      "Reading and use of other information media",
+      "Library operations",
+      "General libraries"
+    ],
+    "answer": 1,
+    "explanation": "DDC में, वर्ग 020 पुस्तकालय विज्ञान के लिए है। इसके अंतर्गत, 028 'पठन और अन्य सूचना माध्यमों का उपयोग' (Reading and use of other information media) को दर्शाता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "डी.डी.सी में इंजीनियरिंग के लिए वर्ग संख्या है ?",
+    "options": [
+      "620",
+      "630",
+      "660",
+      "650"
+    ],
+    "answer": 0,
+    "explanation": "DDC में, 620 वर्ग संख्या इंजीनियरिंग (Engineering) और संबंधित संचालन के लिए है।",
+    "category": "Dewey Decimal Classification",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "निम्नलिखित में से कौन-सा विषय डी.डी.सी. (19वें संस्करण) में अंकन 370 के द्वारा प्रस्तुत किया गया है ?",
+    "options": [
+      "राजनीति विज्ञान/Political science",
+      "विधि / Law",
+      "सांख्यिकी /Statistics",
+      "शिक्षा / Education"
+    ],
+    "answer": 3,
+    "explanation": "DDC में, अंकन 370 शिक्षा (Education) विषय का प्रतिनिधित्व करता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "UKSSSC-2018"
+  },
+  {
+    "question": "डी.डी.सी. में 'अर्थशास्त्र' विषय का प्रतीक क्या है ?",
+    "options": [
+      "340",
+      "310",
+      "320",
+      "330"
+    ],
+    "answer": 3,
+    "explanation": "DDC में, 330 वर्ग संख्या अर्थशास्त्र (Economics) के लिए है।",
+    "category": "Dewey Decimal Classification",
+    "source": "UPPSC 2023"
+  },
+  {
+    "question": "Match the following DDC numbers-<br><b>List - I</b><br>A. Education<br>B. Medicine<br>C. Photography<br>D. Astronomy<br><b>List - II</b><br>i-770<br>ii-370<br>iii-610<br>iv- 520",
+    "options": [
+      "A-iv, B-ii, C-i, D-iii",
+      "A-ii, B-iii, C-i, D-iv",
+      "A-iii, B-i, C-iv, D-ii",
+      "A-i, B-iv, C-iii, D-ii"
+    ],
+    "answer": 1,
+    "explanation": "सही मिलान है:<br>A. Education (शिक्षा) - ii-370<br>B. Medicine (चिकित्सा) - iii-610<br>C. Photography (फोटोग्राफी) - i-770<br>D. Astronomy (खगोल विज्ञान) - iv- 520",
+    "category": "Dewey Decimal Classification",
+    "source": "KERLA PSC 2022"
+  },
+  {
+    "question": "फोनिक्स अनुसूचियाँ किस वर्गीकरण योजना का भाग हैं ?",
+    "options": [
+      "Dewey Decimal Classification",
+      "Universal Decimal Classification",
+      "Library of Congress Classification",
+      "Colon Classification"
+    ],
+    "answer": 0,
+    "explanation": "फोनिक्स अनुसूचियाँ (Phoenix Schedules) डेवी डेसीमल क्लासिफिकेशन (DDC) का एक हिस्सा हैं। ये वे अनुसूचियाँ हैं जिन्हें पूरी तरह से संशोधित या फिर से बनाया गया है, जिससे पुराने वर्ग संख्याएँ अप्रचलित हो जाती हैं और नई, बेहतर संरचना लागू होती है।",
+    "category": "Dewey Decimal Classification",
+    "source": "RPSC ASS. PROFESSOR PAPER II-2024"
+  },
+  {
+    "question": "डी.डी.सी. में फॅनिक्स शेड्यूल दर्शाते हैं ?",
+    "options": [
+      "भविष्य में संशोधित की जाने वाली वर्ग ।",
+      "वे वर्ग जो पूर्णतः परिवर्तित हो गये हैं।",
+      "वर्ग जो थोड़े संशोधित हैं ।",
+      "वर्ग जिनमें संशोधन नहीं किया जाएगा ।"
+    ],
+    "answer": 1,
+    "explanation": "फोनिक्स अनुसूचियाँ (Phoenix Schedules) DDC की वे अनुसूचियाँ हैं जिन्हें पूरी तरह से संशोधित या फिर से बनाया गया है, जैसे फीनिक्स पक्षी अपनी राख से पुनर्जन्म लेता है। ये उन वर्गों को दर्शाते हैं जो पूर्णतः परिवर्तित हो गए हैं।",
+    "category": "Dewey Decimal Classification",
+    "source": "RPSC ASS. PROFESSOR PAPER II-2024"
+  },
+  {
+    "question": "फोनिक्स अनुसूचियों का प्रयोग किस वर्गीकरण में किया जाता है?",
+    "options": [
+      "CC",
+      "UDC",
+      "DDC",
+      "LCC"
+    ],
+    "answer": 2,
+    "explanation": "फोनिक्स अनुसूचियों का प्रयोग डेवी डेसीमल क्लासिफिकेशन (DDC) में किया जाता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "MIZORAM PSC DEPUTY LIBRARIAN"
+  },
+  {
+    "question": "किस वर्ष डी.डी.सी. संपादकीय नीति समिति (ई.पी.सी.) को स्थापित किया गया था ?",
+    "options": [
+      "1930",
+      "1937",
+      "1939",
+      "1942"
+    ],
+    "answer": 1,
+    "explanation": "DDC संपादकीय नीति समिति (Decimal Classification Editorial Policy Committee - EPC) की स्थापना 1937 में की गई थी।",
+    "category": "Dewey Decimal Classification",
+    "source": "KVS 2023 SHIFT-2"
+  },
+  {
+    "question": "डेवी दशमलव वर्गीकरण प्रणाली में ई.पी.सी. (संपादकीय नीति समिति) का मुख्य कार्य क्या है ?",
+    "options": [
+      "अंतर्राष्ट्रीय पुस्तकालयों की देखरेख करना।",
+      "एक नई वर्गीकरण प्रणाली विकसित करना।",
+      "वर्गीकरण में परिवर्तन, नवाचार और सामान्य विकास पर संपादकों और ओ.सी.एल.सी. को सलाह देना।",
+      "ओ.सी.एल.सी. उपयोगकर्ताओं के हितों का प्रतिनिधित्व करना ।"
+    ],
+    "answer": 2,
+    "explanation": "संपादकीय नीति समिति (EPC) का मुख्य कार्य DDC के विकास पर OCLC और संपादकों को सलाह देना है। यह वर्गीकरण में परिवर्तनों और नवाचारों पर मार्गदर्शन करती है ताकि यह वर्तमान ज्ञान और उपयोगकर्ता की जरूरतों के अनुकूल बना रहे।",
+    "category": "Dewey Decimal Classification",
+    "source": "RPSC ASS. PROFESSOR PAPER II -2024"
+  },
+  {
+    "question": "निम्नलिखित में से कौनसी वर्गीकरण की गणनात्मक योजना है ?",
+    "options": [
+      "Colon Classification",
+      "Bliss Bibliographic Classification",
+      "Universal Decimal Classification",
+      "Dewey Decimal Classification"
+    ],
+    "answer": 3,
+    "explanation": "दिए गए विकल्पों में, डेवी डेसीमल क्लासिफिकेशन (DDC) को एक परिगणनात्मक (enumerative) योजना माना जाता है, हालांकि इसमें कुछ संश्लेषणात्मक तत्व भी हैं, इसलिए इसे 'लगभग परिगणनात्मक' कहना अधिक सटीक है।",
+    "category": "Dewey Decimal Classification",
+    "source": "CUET PG PAPER 2022"
+  },
+  {
+    "question": "डीडीसी का उपयोग दुनिया भर के अधिकांश पुस्तकालयों द्वारा किया जाता है। इसकी वर्गीकरण योजना किस श्रेणी में आती है ?",
+    "options": [
+      "Almost faceted",
+      "Almost enumerative",
+      "Enumerative",
+      "Rigidly faceted"
+    ],
+    "answer": 1,
+    "explanation": "DDC को लगभग परिगणनात्मक (Almost enumerative) योजना माना जाता है। यद्यपि इसका आधार परिगणनात्मक है, लेकिन सहायक तालिकाओं के माध्यम से संख्या निर्माण की अनुमति के कारण इसमें कुछ पक्षात्मक या संश्लेषणात्मक विशेषताएँ भी हैं।",
+    "category": "Dewey Decimal Classification",
+    "source": "JKSSB"
+  },
+  {
+    "question": "डी. डी. सी. (उन्नीसवां संस्करण) पद्धति है ?",
+    "options": [
+      "लगभग परिगणनात्मक / almost enumerative",
+      "एक परिगणनात्मक / An enumerative",
+      "लगभग पक्षात्मक / Almost faceted",
+      "मुक्त पक्षात्मक / Freely faceted"
+    ],
+    "answer": 0,
+    "explanation": "DDC का उन्नीसवां संस्करण एक लगभग परिगणनात्मक (almost enumerative) पद्धति है।",
+    "category": "Dewey Decimal Classification",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "अभिकथन (ए): डेवी दशमलव वर्गीकरण की एक गणनात्मक योजना है। कारण (आर): इस योजना ने कई उपकरण विकसित किए हैं और यह अब वर्गीकरण की एक गणनात्मक योजना नहीं है।",
+    "options": [
+      "(A) is true but (R) is false",
+      "Both (A) and (R) are false",
+      "Both (A) and (R) are true",
+      "(A) is not true but (R) is true"
+    ],
+    "answer": 3,
+    "explanation": "अभिकथन (A) सत्य नहीं है क्योंकि DDC पूरी तरह से गणनात्मक नहीं है, बल्कि 'लगभग गणनात्मक' है। कारण (R) सत्य है क्योंकि सहायक तालिकाओं जैसे उपकरणों के विकास ने इसे पारंपरिक गणनात्मक योजनाओं से अधिक लचीला बना दिया है।",
+    "category": "Dewey Decimal Classification",
+    "source": "d"
+  },
+  {
+    "question": "वर्गीकरण की डीडीसी और सीसी दोनों योजनाओं में निम्नलिखित में से किस प्रतीक का उपयोग किया जाता है ?",
+    "options": [
+      "colon",
+      "comma",
+      "equal sign",
+      "Inverted comma"
+    ],
+    "answer": 0,
+    "explanation": "हालांकि दोनों योजनाओं में उपयोग अलग-अलग है, कोलन (:) प्रतीक दोनों में मौजूद है। CC में यह ऊर्जा पक्ष के लिए एक योजक चिह्न है, जबकि DDC में इसका उपयोग अनुसूची में दिए गए निर्देशों के तहत संख्या निर्माण के लिए किया जा सकता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "CUET PG-2022"
+  },
+  {
+    "question": "'साइबर डेवी' किसका व्यत्क्त्तिागत प्रयास है ?",
+    "options": [
+      "David A- Mundie",
+      "Benjamin A- Custer",
+      "J-P- Comaromi",
+      "H-J- Ferguson"
+    ],
+    "answer": 0,
+    "explanation": "'साइबर डेवी' (CyberDewey), जो DDC पर आधारित एक वेब निर्देशिका है, डेविड ए. मुंडी (David A. Mundie) का व्यक्तिगत प्रयास था।",
+    "category": "Dewey Decimal Classification",
+    "source": "NVS 2022"
+  },
+  {
+    "question": "निम्नलिखित वर्ग संख्याओं की कौन सी श्रृंखला क्रमिक रूप से DDC के प्रथम, द्वितीय और तृतीय सारांश से संबंधित है ?",
+    "options": [
+      "800, 320, 624",
+      "560, 400, 120",
+      "300, 624, 310",
+      "110, 345,000"
+    ],
+    "answer": 0,
+    "explanation": "DDC के तीन सारांश इस प्रकार हैं: प्रथम सारांश (10 मुख्य वर्ग, जैसे 800-साहित्य), द्वितीय सारांश (100 विभाग, जैसे 320-राजनीति विज्ञान), और तृतीय सारांश (1000 अनुभाग, जैसे 624-सिविल इंजीनियरिंग)। विकल्प (a) इस क्रम का सही प्रतिनिधित्व करता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "G.G.S.IND.UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "निम्नलिखित में से कौन 'डीवी दशमलव वर्गीकरण' की संश्लेषी विशेषताएँ हैं ?<br>(i) Relative index<br>(ii) Calculation of schedules<br>(iii) Tables<br>(iv) Linking instructions",
+    "options": [
+      "(i) और (ii) सही हैं",
+      "(ii) और (iii) सही हैं",
+      "(i), (iii) और (iv) सही हैं",
+      "(iii) और (iv) सही हैं"
+    ],
+    "answer": 3,
+    "explanation": "DDC की संश्लेषी (synthetic) या संख्या निर्माण की विशेषताएँ सहायक तालिकाओं (Tables) और अनुसूचियों में दिए गए 'add to' जैसे जोड़ने वाले निर्देशों (Linking instructions) से आती हैं। सापेक्षिक सूचकांक एक पुनर्प्राप्ति उपकरण है, न कि संश्लेषण उपकरण।",
+    "category": "Dewey Decimal Classification",
+    "source": "RAJASTHAN UNIVERSITY JTA-2018"
+  },
+  {
+    "question": "विश्व में पुस्तकालयाध्यक्षता में प्रथम विद्यालय किसने प्रारंभ किया ?",
+    "options": [
+      "Melvil Dewey",
+      "C-A- Cutter",
+      "F.W.-Rider",
+      "J-D- Brown"
+    ],
+    "answer": 0,
+    "explanation": "मेल्विल डेवी ने 1887 में कोलंबिया कॉलेज में विश्व का पहला पुस्तकालय विज्ञान विद्यालय, 'स्कूल ऑफ लाइब्रेरी इकोनॉमी' प्रारंभ किया।",
+    "category": "Dewey Decimal Classification",
+    "source": "DSSSB-2021 TECHNICAL ASSISTANT"
+  },
+  {
+    "question": "एक पुस्तकालय की पुस्तकों और पैम्फलेटों को सूचीबद्ध करने और व्यवस्थित करने के लिए एक वर्गीकरण और विषय सूचकांक' के पहले संस्करण का शीर्षक था ?",
+    "options": [
+      "Anglo American Cataloguing Rules",
+      "Colon Classification",
+      "Classified Catalogue Code",
+      "Dewey Decimal Classification"
+    ],
+    "answer": 3,
+    "explanation": "DDC के पहले संस्करण का पूरा शीर्षक था 'A Classification and Subject Index for Cataloguing and Arranging the Books and Pamphlets of a Library' (एक पुस्तकालय की पुस्तकों और पैम्फलेटों को सूचीबद्ध करने और व्यवस्थित करने के लिए एक वर्गीकरण और विषय सूचकांक)।",
+    "category": "Dewey Decimal Classification",
+    "source": "PSC 2016"
+  },
+  {
+    "question": "निम्न में से डी.डी.सी. का कौन-सा वर्गांक का सही अनुक्रम है?",
+    "options": [
+      "355, 49, 55, 64, 9",
+      "9, 49, 55, 64, 355",
+      "355, 64, 55, 49, 9",
+      "355, 49, 9, 55, 64"
+    ],
+    "answer": 1,
+    "explanation": "DDC में, संख्याओं को दशमलव के रूप में माना जाता है, इसलिए छोटी संख्याएँ पहले आती हैं। सही संख्यात्मक अनुक्रम है: 9, 49, 55, 64, 355।",
+    "category": "Dewey Decimal Classification",
+    "source": "RSMSSB-2019"
+  },
+  {
+    "question": "डॉ. निहार रंजन राय से संबंधित है ?",
+    "options": [
+      "वेब पर रंगनाथन के नियमों का अनुप्रयोग",
+      "भारत में पहला पेशेवर रूप से योग्य विश्वविद्यालय लाइब्रेरियन",
+      "उन्होंने भारत में पहली बार डीडीसी और एएसीआर नियम लागू किया",
+      "इंपीरियल लाइब्रेरी (अब नेशनल लाइब्रेरी, कोलकाता) के पहले लाइब्रेरियन"
+    ],
+    "answer": 2,
+    "explanation": "यह प्रश्न गलत है। भारत में DDC और AACR नियमों को लागू करने का श्रेय डब्ल्यू.ए. बोर्डेन को दिया जाता है, न कि निहार रंजन राय को। डॉ. निहार रंजन राय एक प्रसिद्ध इतिहासकार और भारतीय राष्ट्रीय पुस्तकालय के लाइब्रेरियन थे।",
+    "category": "Dewey Decimal Classification",
+    "source": "AIIMS BATHINDA-2019"
+  },
+  {
+    "question": "संयुक्तराज्य अमेरिका में तीन महान उपलब्धियाँ देखी गई अर्थात् डीडीसी वर्गीकरण योजना की घोषणा, अमेरिकन लाइब्रेरी एसोसिएशन का गठन और वर्ष में लाइब्रेरियनशिप के पहले जर्नल का प्रकाशन ?",
+    "options": [
+      "1857",
+      "1859",
+      "1876",
+      "1901"
+    ],
+    "answer": 2,
+    "explanation": "वर्ष 1876 पुस्तकालय विज्ञान के इतिहास में एक मील का पत्थर है। इसी वर्ष डेवी डेसीमल क्लासिफिकेशन का प्रकाशन हुआ, अमेरिकन लाइब्रेरी एसोसिएशन (ALA) की स्थापना हुई, और पहले पुस्तकालय जर्नल, 'लाइब्रेरी जर्नल' का प्रकाशन शुरू हुआ।",
+    "category": "Dewey Decimal Classification",
+    "source": "AIIMS, NAGPUR-2018"
+  },
+  {
+    "question": "डीडीसी में 'स्वतंत्रता-पूर्व काल के दौरान असम में लाइब्रेरियनशिप का इतिहास' के अंतर्गत आता है ?",
+    "options": [
+      "History",
+      "Library science",
+      "Assam",
+      "pre-independent period"
+    ],
+    "answer": 1,
+    "explanation": "DDC में, विषय का वर्गीकरण उसके मूल अनुशासन के आधार पर किया जाता है। 'लाइब्रेरियनशिप का इतिहास' का मूल विषय 'लाइब्रेरियनशिप' यानी पुस्तकालय विज्ञान है, न कि इतिहास। इसलिए, इसे पुस्तकालय विज्ञान (020) के अंतर्गत वर्गीकृत किया जाएगा, जिसमें इतिहास और स्थान के लिए सहायक संख्याओं को जोड़ा जाएगा।",
+    "category": "Dewey Decimal Classification",
+    "source": "ASSAM PLC-2019"
+  },
+  {
+    "question": "'वैबरेरी' द्वारा कौन सी वर्गीकरण स्कीम का उपयोग किया जाता है?",
+    "options": [
+      "Colon classification",
+      "Library of congress classification",
+      "Dewey Decimal Classification",
+      "Universal Decimal Classification"
+    ],
+    "answer": 2,
+    "explanation": "'वैबरेरी' (Webbrary), जो इंटरनेट पब्लिक लाइब्रेरी का एक हिस्सा था, वेब संसाधनों को व्यवस्थित करने के लिए डेवी डेसीमल क्लासिफिकेशन (DDC) का उपयोग करता था।",
+    "category": "Dewey Decimal Classification",
+    "source": "RPSC ASS. PROFESSOR PAPER II-2024"
+  },
+  {
+    "question": "निम्नलिखित में से कौन-सा पुस्तक वर्गीकरण में बहुत प्रसिद्ध है ?",
+    "options": [
+      "डीवी दशमलव वर्गीकरण/Dewey decimal classification",
+      "अर्धविराम वर्गीकरण/Colon classification",
+      "कांग्रेस वर्गीकरण का पुस्तकालय / Library of Congress Classification",
+      "ब्लिस संदर्भागार वर्गीकरण / Bliss Bibliographic classification"
+    ],
+    "answer": 0,
+    "explanation": "डेवी दशमलव वर्गीकरण (DDC) दुनिया भर में, विशेष रूप से सार्वजनिक और स्कूल पुस्तकालयों में, पुस्तक वर्गीकरण के लिए सबसे प्रसिद्ध और व्यापक रूप से उपयोग की जाने वाली प्रणाली है।",
+    "category": "Dewey Decimal Classification",
+    "source": "DSSSB 2019, POST CODE 10/17"
+  },
+  {
+    "question": "डीडीसी में, निम्नलिखित में से कौन संख्या निर्माण के लिए अंकन का स्रोत नहीं है ?",
+    "options": [
+      "Add tables in the schedules",
+      "Table 1 Standard Subdivisions",
+      "Other parts of the schedules",
+      "Relative Index"
+    ],
+    "answer": 3,
+    "explanation": "DDC में, संख्या निर्माण अनुसूचियों में दिए गए 'add to' निर्देशों, तालिका 1 (मानक उप-विभाजन) और अन्य तालिकाओं का उपयोग करके किया जाता है। सापेक्षिक सूचकांक (Relative Index) एक खोज उपकरण है, यह संख्या निर्माण के लिए अंकन का स्रोत नहीं है।",
+    "category": "Dewey Decimal Classification",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "डीडीसी में पहला सारांश कहा जाता है ?",
+    "options": [
+      "Divisions",
+      "Sections",
+      "Main classes",
+      "Subsections"
+    ],
+    "answer": 2,
+    "explanation": "DDC में, पहले सारांश (First Summary) में दस मुख्य वर्ग (Main classes) शामिल होते हैं।",
+    "category": "Dewey Decimal Classification",
+    "source": "GUWAHTI HIGH COURT 2019"
+  },
+  {
+    "question": "किस संस्करण में 'क्षेत्र के लिए सहायक तालिका' पहली बार पेश की गई थी ?",
+    "options": [
+      "DDC 14",
+      "DDC 15",
+      "DDC 16",
+      "DDC 17"
+    ],
+    "answer": 3,
+    "explanation": "DDC के 17वें संस्करण में पहली बार क्षेत्र (Area) के लिए एक अलग सहायक तालिका (Table 2) पेश की गई थी, जिससे भौगोलिक उपचार को मानकीकृत किया गया।",
+    "category": "Dewey Decimal Classification",
+    "source": "JAWAHARLAL NEHRU UNI.-2015"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा मेलविल डेवी का पूरा नाम है ?",
+    "options": [
+      "Melville Kossuth Dewey",
+      "Melville Dewey",
+      "Melville Louis Dewey",
+      "Melville Louis Kossuth Dewey"
+    ],
+    "answer": 3,
+    "explanation": "मेलविल डेवी का पूरा नाम मेल्विल लुइस कोसुथ डेवी (Melville Louis Kossuth Dewey) था।",
+    "category": "Dewey Decimal Classification",
+    "source": "KERLA PSC 2017"
+  },
+  {
+    "question": "डेवी डेसीमल क्लासिफिकेशन (डीडीसी) में वर्ग संख्याओं को समूहों में सूचीबद्ध किया गया है ?",
+    "options": [
+      "Ten digits",
+      "Five digits",
+      "Seven digits",
+      "Three digits"
+    ],
+    "answer": 3,
+    "explanation": "DDC में वर्ग संख्याओं को हमेशा कम से कम तीन अंकों (Three digits) के समूह में लिखा जाता है। दो अंकों की संख्या से पहले एक शून्य जोड़ा जाता है (जैसे, 30 नहीं, 030)।",
+    "category": "Dewey Decimal Classification",
+    "source": "KERLA PSC 2021"
+  },
+  {
+    "question": "अधिकांश सार्वजनिक पुस्तकालय किताबों के वर्गीकरण के लिए ......... वर्गीकरण योजना का प्रयोग करते हैं ?",
+    "options": [
+      "Colon Classification",
+      "Dewey Decimal Classification",
+      "Universal Decimal Classification",
+      "Scheme for classification of books"
+    ],
+    "answer": 1,
+    "explanation": "अधिकांश सार्वजनिक पुस्तकालय, विशेष रूप से अंग्रेजी बोलने वाले देशों में, अपनी उपयोग में आसानी और व्यापक उपलब्धता के कारण डेवी डेसीमल क्लासिफिकेशन (DDC) का उपयोग करते हैं।",
+    "category": "Dewey Decimal Classification",
+    "source": "KVS 2013"
+  },
+  {
+    "question": "वर्गीकरण की किस योजना में यह प्रावधान है कि संकेतन में अंतराल छोड़कर लघु और बड़े विषय दोनों की व्यवस्था करना है?",
+    "options": [
+      "कांग्रेस वर्गीकरण का पुस्तकालय / Library of Congress classification",
+      "डेवी दशमलव वर्गीकरण / Dewey Decimal Classification",
+      "सार्वभौमिक पुस्तकालय / Universal classification",
+      "कोलोन वर्गीकरण / colon classification"
+    ],
+    "answer": 1,
+    "explanation": "डेवी दशमलव वर्गीकरण (DDC) अपने पदानुक्रमित और दशमलव अंकन के कारण संकेतन में अंतराल छोड़कर नए विषयों (लघु और बड़े दोनों) को समायोजित करने की अनुमति देता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "KVS 2015"
+  },
+  {
+    "question": "डी.डी.सी. के अनुसार 'अनइम्प्लाइड कारपेन्टर्स' किसका उदाहरण है?",
+    "options": [
+      "Simple Subject",
+      "Complex Subject",
+      "Compound Subject",
+      "Complete Subject"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न DDC की एक विशिष्ट अवधारणा से संबंधित है जहाँ दो विषयों के बीच एक निहित संबंध होता है। 'अनइम्प्लाइड कारपेन्टर्स' जैसे वाक्यांश जटिल विषय (Complex Subject) का उदाहरण हो सकते हैं, जहाँ दो अलग-अलग विषयों को जोड़ा जाता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "KVS 2023"
+  },
+  {
+    "question": "दावा (A): डीडीसी वर्गीकरण है जो 140 वर्षों तक जीवित रहा है और नियमित रूप से अद्यतन किया जाता है। कारण (R): इसे मजबूत संस्था समर्थन प्राप्त है।",
+    "options": [
+      "(A) is true and (R) is false",
+      "(A) is false and (R) is true",
+      "Both (A) and (R) are false",
+      "Both (A) and (R) are true"
+    ],
+    "answer": 3,
+    "explanation": "यह प्रश्न त्रुटिपूर्ण उत्तर कुंजी के साथ है। वास्तव में, दावा (A) और कारण (R) दोनों सही हैं। DDC 140 से अधिक वर्षों से अस्तित्व में है और नियमित रूप से अपडेट किया जाता है (A सही है)। इसका कारण यह है कि इसे OCLC जैसे मजबूत संस्थागत समर्थन प्राप्त है (R सही है)। इसलिए, सही उत्तर 'Both (A) and (R) are true' होना चाहिए।",
+    "category": "Dewey Decimal Classification",
+    "source": "MHPSC 2017 PAPER-III"
+  },
+  {
+    "question": "डीडीसी में, भारत के लिए क्षेत्र अंकन है ?",
+    "options": [
+      "45",
+      "73",
+      "54",
+      "64"
+    ],
+    "answer": 2,
+    "explanation": "DDC की तालिका 2 (क्षेत्र) में, भारत के लिए अंकन '-54' है।",
+    "category": "Dewey Decimal Classification",
+    "source": "MIZORAM PSC 2013"
+  },
+  {
+    "question": "डीडीसी में चरण संबंधों का प्रावधान निम्नलिखित में से किस संस्करण से उपलब्ध कराया गया था ?",
+    "options": [
+      "14",
+      "2",
+      "9",
+      "11"
+    ],
+    "answer": 3,
+    "explanation": "DDC में चरण संबंध (phase relations) के लिए स्पष्ट प्रावधान, विशेष रूप से मानक उप-विभाजन -024 (विशिष्ट व्यक्तियों के लिए काम) के माध्यम से, 11वें संस्करण से शुरू हुआ।",
+    "category": "Dewey Decimal Classification",
+    "source": "PUNJAB PSSSB-2021"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सी वर्गीकरण प्रणाली आमतौर पर भारतीय पुस्तकालयों में उपयोग की जाती है ?",
+    "options": [
+      "Universal Decimal Classification",
+      "Dewey Decimal Classification",
+      "Colon Classification Scheme",
+      "Both (b) & (c)"
+    ],
+    "answer": 3,
+    "explanation": "भारतीय पुस्तकालयों में, विशेष रूप से सार्वजनिक और स्कूल पुस्तकालयों में डेवी डेसीमल क्लासिफिकेशन (DDC) और अकादमिक और विशेष पुस्तकालयों में कोलन क्लासिफिकेशन (CC) का व्यापक रूप से उपयोग किया जाता है। इसलिए, दोनों (b) और (c) सही हैं।",
+    "category": "Dewey Decimal Classification",
+    "source": "PATANA HIGH COURT 2019"
+  },
+  {
+    "question": "दशमलव वर्गीकरण पद्धति का प्रथम संस्करण किस आख्या से प्रकाशित हुआ ?",
+    "options": [
+      "Abridged Dewey Decimal Classification Scheme",
+      "Dewey Decimal Classification Scheme",
+      "CD Rom Dewey Decimal Classification Scheme",
+      "A Classification & Subject Index for Cataloguing & Arranging the book & Pamplets of a library"
+    ],
+    "answer": 3,
+    "explanation": "DDC के पहले संस्करण की आख्या (title) थी: 'A Classification and Subject Index for Cataloguing and Arranging the Books and Pamphlets of a Library'।",
+    "category": "Dewey Decimal Classification",
+    "source": "RSMSSB-2016"
+  },
+  {
+    "question": "दशमलव वर्गीकरण पद्धति का वह कौन-सा संस्करण जिसकी आख्या में डेवी का नाम नहीं था अपितु उसे मुख्य पृष्ठ के पीछे लिखा गया था ?",
+    "options": [
+      "first edition",
+      "eighteenth edition",
+      "twenty-first edition",
+      "Twenty-second edition"
+    ],
+    "answer": 0,
+    "explanation": "DDC का पहला संस्करण गुमनाम रूप से प्रकाशित किया गया था। मेल्विल डेवी का नाम शीर्षक पृष्ठ पर नहीं था, बल्कि कॉपीराइट पृष्ठ पर था।",
+    "category": "Dewey Decimal Classification",
+    "source": "RSMSSB-2016"
+  },
+  {
+    "question": "डी.डी.सी. (23rd ed.) में प्रयुक्त वाक्यांश 'सामान्य एकल' का समतुल्य पद है ?",
+    "options": [
+      "रूप विभाजन / Form Devision",
+      "मानक विभाजन /Standard Devision",
+      "मानक उप-विभाजन / Standard Sub- Devision",
+      "सामान्य उप-विभाजन/Common Sub-Devision"
+    ],
+    "answer": 2,
+    "explanation": "DDC में, जो अवधारणा कोलन क्लासिफिकेशन के 'सामान्य एकल' (Common Isolates) के समतुल्य है, उसे 'मानक उप-विभाजन' (Standard Subdivisions) कहा जाता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "डेवी डेसीमल क्लासिफिकेशन में 'टेबल्स ऑफ प्रेसीडेंस' निम्नलिखित प्रयोजन हेतु प्रदत्त है ?",
+    "options": [
+      "संयोजन हेतु वैकल्पिक उपाय/Alternative way of arrangement",
+      "एकरूपता/Consistency",
+      "स्टैण्डर्ड सबडिवीजन को जोड़ना / Addition of Standard Subdivision",
+      "उपर्युक्त सभी/All of the above"
+    ],
+    "answer": 2,
+    "explanation": "अग्रता तालिका (Table of Precedence) यह मार्गदर्शन करती है कि जब किसी वर्ग संख्या में एक से अधिक मानक उप-विभाजन जोड़े जा सकते हों, तो उन्हें किस क्रम में जोड़ा जाना चाहिए, जिससे एकरूपता बनी रहे।",
+    "category": "Dewey Decimal Classification",
+    "source": "RAJ. UNI. JTA-2018"
+  },
+  {
+    "question": "डी.डी.सी. के किस संस्करण में दशा संबंध के प्रावधान को शामिल किया गया है ?",
+    "options": [
+      "2nd edition",
+      "11th edition",
+      "15th edition",
+      "7th edition"
+    ],
+    "answer": 1,
+    "explanation": "DDC में दशा संबंध (phase relation) के लिए प्रावधान 11वें संस्करण से शुरू हुआ माना जाता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा सही नहीं है ?",
+    "options": [
+      "DDC is a hierarchical scheme of classification",
+      "Eleventh edition of DDC appeared in 1979",
+      "DDC has 10 main classes",
+      "In DDC, 500 represents technology"
+    ],
+    "answer": 3,
+    "explanation": "कथन 'In DDC, 500 represents technology' सही नहीं है। DDC में, 500 विज्ञान (Science) का प्रतिनिधित्व करता है, जबकि 600 प्रौद्योगिकी (Technology) का प्रतिनिधित्व करता है।",
+    "category": "Dewey Decimal Classification",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "डी.डी.सी. के प्रथम सारांश को भी कहा जाता है।",
+    "options": [
+      "सामान्य उपविभाजन/General subdivision",
+      "दस मुख्य वर्ग/Ten main classes",
+      "विभाजन/Devision",
+      "वर्ग/Sections"
+    ],
+    "answer": 1,
+    "explanation": "DDC के प्रथम सारांश में दस मुख्य वर्ग (Ten main classes) शामिल हैं।",
+    "category": "Dewey Decimal Classification",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "किस वर्गीकरण पद्धति में शून्य केवल सूचकांक है ?",
+    "options": [
+      "CC",
+      "DDC",
+      "UDC",
+      "LC"
+    ],
+    "answer": 1,
+    "explanation": "DDC में, शून्य (0) का उपयोग एक सूचक अंक (indicator digit) के रूप में किया जाता है, विशेष रूप से मानक उप-विभाजनों को जोड़ने के लिए।",
+    "category": "Dewey Decimal Classification",
+    "source": "UKSSSC-2018"
+  },
+  {
+    "question": "सार्वभौम दशमलव वर्गीकरण वर्ष में प्रकाशित किया गया था ?",
+    "options": [
+      "1902",
+      "1905",
+      "1907",
+      "1901"
+    ],
+    "answer": 1,
+    "explanation": "सार्वभौम दशमलव वर्गीकरण (UDC) का पहला संस्करण, जिसे 'Manuel du Répertoire Bibliographique Universel' के नाम से जाना जाता है, 1905 में प्रकाशित हुआ था।",
+    "category": "Universal Decimal Classification",
+    "source": "GURUGRAM UNIVERSITY 2023"
+  },
+  {
+    "question": "सार्वभौमिक दशमलव वर्गीकरण (UDC) किसके द्वारा विकसित किया गया था ?",
+    "options": [
+      "Melvil Dewey",
+      "WCB Sayers",
+      "SR Ranganathan",
+      "Paul Otlet and Henri La Fontaine"
+    ],
+    "answer": 3,
+    "explanation": "सार्वभौमिक दशमलव वर्गीकरण (UDC) को दो बेल्जियन ग्रंथ सूची विशेषज्ञों, पॉल ओटलेट और हेनरी ला फोंटेन द्वारा विकसित किया गया था।",
+    "category": "Universal Decimal Classification",
+    "source": "JKSSB"
+  },
+  {
+    "question": "पोल ओटलेट और लाफोंटेन द्वारा वर्गीकरण की कौन सी योजना तैयार की गई थी ?",
+    "options": [
+      "UDC",
+      "DDC",
+      "EC",
+      "CC"
+    ],
+    "answer": 0,
+    "explanation": "पॉल ओटलेट और हेनरी ला फोंटेन ने सार्वभौमिक दशमलव वर्गीकरण (UDC) योजना तैयार की थी।",
+    "category": "Universal Decimal Classification",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "पोल ओटलेट निम्न में से किसके रचनाकारों में से एक हैं ?",
+    "options": [
+      "Library of Congress Classification",
+      "Sears List of Subject Heading",
+      "Anglo-American Cataloguing Rules",
+      "None of these"
+    ],
+    "answer": 3,
+    "explanation": "पॉल ओटलेट सार्वभौमिक दशमलव वर्गीकरण (UDC) के सह-निर्माता थे। चूंकि UDC विकल्पों में नहीं है, इसलिए 'इनमें से कोई नहीं' सही उत्तर है।",
+    "category": "Universal Decimal Classification",
+    "source": "ISRO 2022"
+  },
+  {
+    "question": "निम्नलिखित में से सबसे पहले यूडीसी का विकास किसने किया था ?",
+    "options": [
+      "Paul Otlet",
+      "E.C. Richardson",
+      "H.E. Bliss",
+      "Melvil Dewey"
+    ],
+    "answer": 0,
+    "explanation": "UDC का विकास पॉल ओटलेट और हेनरी ला फोंटेन द्वारा किया गया था। दिए गए विकल्पों में से, पॉल ओटलेट सही हैं।",
+    "category": "Universal Decimal Classification",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "यूडी.सी. ....... एक उदाहरण है ?",
+    "options": [
+      "गणनारमक योजना / Enumerative Scheme",
+      "फलकित योजना / Faceted Scheme",
+      "प्रायः फलकित योजना / Almost Faceted Schemes elements-",
+      "वर्गीकरण की मुक्त फलकित योजना / Freely Faceted Scheme of Classification"
+    ],
+    "answer": 2,
+    "explanation": "UDC को एक प्रायः फलकित योजना (Almost Faceted Scheme) माना जाता है। इसका आधार DDC की तरह गणनात्मक है, लेकिन इसमें कई सहायक सारणियों और प्रतीकों के उपयोग के कारण यह अत्यधिक पक्षात्मक और संश्लेषणात्मक है।",
+    "category": "Universal Decimal Classification",
+    "source": "KVS 2018 EVENING"
+  },
+  {
+    "question": "सार्वभौम दशमलव वर्गीकरण किस प्रकार की योजना है ?",
+    "options": [
+      "Enumerative",
+      "Almost enumerative",
+      "Almost faceted",
+      "Fully faceted"
+    ],
+    "answer": 2,
+    "explanation": "सार्वभौम दशमलव वर्गीकरण (UDC) एक प्रायः फलकित (Almost faceted) योजना है।",
+    "category": "Universal Decimal Classification",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "यूनिवर्सल डेसिमल क्लासिफिकेशन (यूडीसी) को सर्वप्रथम किस संस्करण में प्रकाशित किया जाता है ?",
+    "options": [
+      "English",
+      "French",
+      "Russian",
+      "German"
+    ],
+    "answer": 1,
+    "explanation": "UDC का पहला संस्करण फ्रांसीसी (French) भाषा में 'Manuel du Répertoire Bibliographique Universel' के शीर्षक से प्रकाशित हुआ था।",
+    "category": "Universal Decimal Classification",
+    "source": "KERLA PSC 2022"
+  },
+  {
+    "question": "यूडीसी का पहला अंग्रेजी संस्करण इसी का माना जाता है ?",
+    "options": [
+      "6th Edition",
+      "4th Edition",
+      "3rd Edition",
+      "1st Edition"
+    ],
+    "answer": 1,
+    "explanation": "UDC का पहला अंग्रेजी संस्करण, जिसका प्रकाशन 1936 में शुरू हुआ, अंतर्राष्ट्रीय चौथे संस्करण पर आधारित था।",
+    "category": "Universal Decimal Classification",
+    "source": "b"
+  },
+  {
+    "question": "UDC में अंकन प्रणाली है ?",
+    "options": [
+      "रैखिक अंकन / Linear Notation",
+      "मिश्रित अंकन / Mixed Notation",
+      "शुद्ध अंकन/Pure Notation",
+      "समतल अंकन/Plane Notation"
+    ],
+    "answer": 1,
+    "explanation": "UDC में मिश्रित अंकन (Mixed Notation) का उपयोग किया जाता है। इसमें DDC के शुद्ध अंकीय आधार के साथ-साथ विभिन्न प्रकार के प्रतीकों (जैसे +, /, :, (), =) का उपयोग किया जाता है, जो इसे अत्यधिक लचीला बनाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "DSSSB-2021 TECHNICAL ASSISTANT"
+  },
+  {
+    "question": "सार्वभौमिक दशमलव वर्गीकरण में अंकन का उपयोग किया जाता है ?",
+    "options": [
+      "Pure",
+      "Mixed",
+      "Faceted",
+      "Rigid"
+    ],
+    "answer": 1,
+    "explanation": "सार्वभौमिक दशमलव वर्गीकरण (UDC) में मिश्रित अंकन (Mixed Notation) का उपयोग किया जाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "b"
+  },
+  {
+    "question": "..मे 'विशेष सहायक' की अवधारणा दी गई है ?",
+    "options": [
+      "CC Avneesh",
+      "DDC",
+      "UDC",
+      "LCC"
+    ],
+    "answer": 2,
+    "explanation": "'विशेष सहायक' (Special Auxiliaries) की अवधारणा सार्वभौमिक दशमलव वर्गीकरण (UDC) में दी गई है। ये वे प्रतीक हैं जिनका उपयोग सीमित सीमा के भीतर पुनरावर्ती विशेषताओं को दर्शाने के लिए किया जाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "RPSC ASS. PROFESSOR PAPER 1-2024"
+  },
+  {
+    "question": "यू.डी.सी. में सामान्य एकलों को कहा जाता है ?",
+    "options": [
+      "Standard Sub Divisions",
+      "Common Auxiliary Tables",
+      "Form of divisions",
+      "View point numbers"
+    ],
+    "answer": 1,
+    "explanation": "UDC में, जो अवधारणा CC के 'सामान्य एकल' या DDC के 'मानक उप-विभाजन' के समान है, उसे 'सामान्य सहायक सारणियाँ' (Common Auxiliary Tables) कहा जाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "UDC में दो प्रकार की सहायक सारणियाँ पायी जाती हैं ?",
+    "options": [
+      "स्वरूप एवं भाषा / Form & Language",
+      "पूर्ववर्ती एवं पश्चवर्ती / Anterior and Posterior",
+      "स्थान एवं काल /Space & Time",
+      "सामान्य एवं विशिष्ट/Common & Special"
+    ],
+    "answer": 3,
+    "explanation": "UDC में दो मुख्य प्रकार की सहायक सारणियाँ होती हैं: सामान्य सहायक (Common Auxiliaries), जो पूरी प्रणाली में कहीं भी लागू हो सकती हैं, और विशेष सहायक (Special Auxiliaries), जो केवल अनुसूची के कुछ हिस्सों में लागू होती हैं।",
+    "category": "Universal Decimal Classification",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "किस वर्गीकरण पद्धति में विशेष सहायक क्रियाएँ, स्थानीय रूप से पुनरावर्ती विशेषताएँ इंगित करती है ?",
+    "options": [
+      "Dewey decimal classification",
+      "Universal Decimal Classification",
+      "Bibliographic classification",
+      "Colon classification"
+    ],
+    "answer": 1,
+    "explanation": "सार्वभौमिक दशमलव वर्गीकरण (UDC) में 'विशेष सहायक' (Special auxiliaries) का उपयोग स्थानीय रूप से, यानी अनुसूची के केवल विशिष्ट भागों में पुनरावर्ती विशेषताओं को इंगित करने के लिए किया जाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "यूडीसी में, सामान्य सहायक चिन्ह (कोलन) का अर्थ है ?",
+    "options": [
+      "Form",
+      "Relation",
+      "Language",
+      "Race and Nationality"
+    ],
+    "answer": 1,
+    "explanation": "UDC में, कोलन (:) का उपयोग दो या दो से अधिक विषयों के बीच संबंध (Relation) दर्शाने के लिए किया जाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "सामान्य सहायक का उपयोग किया जाता है ?",
+    "options": [
+      "CC",
+      "DDC",
+      "UDC",
+      "BSO"
+    ],
+    "answer": 2,
+    "explanation": "सामान्य सहायक (Common Auxiliaries) की अवधारणा का उपयोग सार्वभौमिक दशमलव वर्गीकरण (UDC) में किया जाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "ISRO-2019 VIKRRM SARABHAI"
+  },
+  {
+    "question": "1948 में किस सम्मेलन में यंत्रीकृत पुनर्प्राप्ति में यू.डी.सी. की संभावनाओं का पता लगाने की आवश्यकता पर प्रकाश डाला गया ?",
+    "options": [
+      "अंतर्राष्ट्रीय सूचना संगोष्ठी",
+      "रॉयल सोसाइटी का वैज्ञानिक सूचना सम्मेलन",
+      "यू.डी.सी. अनुसंधान शिखर सम्मेलन",
+      "यू.डी.सी. मैनुअल सम्मेलन"
+    ],
+    "answer": 1,
+    "explanation": "1948 में लंदन में हुए रॉयल सोसाइटी के वैज्ञानिक सूचना सम्मेलन (Royal Society's Scientific Information Conference) में मशीनीकृत सूचना पुनर्प्राप्ति के लिए UDC के उपयोग की क्षमता पर महत्वपूर्ण चर्चा हुई।",
+    "category": "Universal Decimal Classification",
+    "source": "RPSC ASS. PROFESSOR PAPER II-2024"
+  },
+  {
+    "question": "निम्नलिखित का मिलान करें :<br><b>List-I</b><br>A. EDUG<br>B. Electronic Dewey<br>C. Dewey Section<br>D. UDC consortium<br><b>List-II</b><br>i. 1992<br>ii. 1993<br>iii. 2007<br>iv. 1957",
+    "options": [
+      "A-iii, B-ii, C-i, D-iv",
+      "A-iii, B-ii, C-iv, D-i",
+      "A-ii, B-iii, C-i, D-iv",
+      "A-iv, B-ii, C-i, D-i"
+    ],
+    "answer": 1,
+    "explanation": "यह एक कठिन और विशिष्ट मिलान वाला प्रश्न है। दिए गए उत्तर के अनुसार सही मिलान है:<br>A. EDUG (European DDC Users Group) - iii. 2007<br>B. Electronic Dewey - ii. 1993<br>C. Dewey Section (at Library of Congress) - iv. 1957<br>D. UDC consortium - i. 1992",
+    "category": "Universal Decimal Classification",
+    "source": "RPSC ASS. PROFESSOR PAPER II-2024"
+  },
+  {
+    "question": "'डॉक्यूमेंटेशन' शब्द किसने प्रतिपादित किया ?",
+    "options": [
+      "S.R.Ranganathan",
+      "Kelvin Moores",
+      "Paul Otlet",
+      "Mikhailo"
+    ],
+    "answer": 2,
+    "explanation": "'डॉक्यूमेंटेशन' (प्रलेखन) शब्द का प्रतिपादन पॉल ओटलेट ने किया था, जिन्हें अक्सर डॉक्यूमेंटेशन आंदोलन का जनक माना जाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "यूडीसी वर्ग संख्या 323.1(540)\"92\" में सामान्य सहायक \"92\" से लिया गया है ?",
+    "options": [
+      "Language",
+      "Material",
+      "Time",
+      "Persons"
+    ],
+    "answer": 2,
+    "explanation": "UDC में, उद्धरण चिह्नों \"...\" के भीतर की संख्याएँ समय (Time) की सामान्य सहायक सारणी से ली जाती हैं। यहाँ \"92\" बीसवीं शताब्दी के दूसरे दशक (1920s) को दर्शाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "यूडीसी का प्रबंधन कौन करता है?",
+    "options": [
+      "UDC consortium",
+      "Paul Otlet",
+      "FID",
+      "ISKO"
+    ],
+ हेग, नीदरलैंड में स्थित यूडीसी कंसोर्टियम (UDC Consortium) के पास है।",
+    "category": "Universal Decimal Classification",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "वर्तमान में UDC का कॉपीराइट किसके पास है ?",
+    "options": [
+      "IFLA",
+      "UDC Consortium",
+      "OCLC",
+      "Henri La Fountaine"
+    ],
+    "answer": 1,
+    "explanation": "वर्तमान में, UDC का कॉपीराइट यूडीसी कंसोर्टियम (UDC Consortium) के पास है।",
+    "category": "Universal Decimal Classification",
+    "source": "MHPSC 2017 PAPER-III"
+  },
+  {
+    "question": "UDC मुख्य कक्षा 1-9 में, अंक 4 किसके लिए है?",
+    "options": [
+      "Vacant",
+      "Literature",
+      "Language",
+      "Law"
+    ],
+    "answer": 0,
+    "explanation": "UDC के मुख्य वर्गों में, वर्ग 4 वर्तमान में खाली (Vacant) है। इसे भविष्य में किसी नए विषय के लिए उपयोग करने के लिए आरक्षित रखा गया है। पहले यह भाषा विज्ञान के लिए था, जिसे अब वर्ग 8 में स्थानांतरित कर दिया गया है।",
+    "category": "Universal Decimal Classification",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "निम्नलिखित में से किसने 1967-1968 में 'अमेरिकन इंस्टिट्यूट ऑफ फिजिक्स' में 'आटोमैटिक डाइरेक्ट एक्सेस टू इनफॉर्मेशन विद ऑनलाइन यू डी सी सिस्टम (AUDACIOUS)' परियोजना को आरंभ किया ?",
+    "options": [
+      "Freeman and Atherton",
+      "Buxton and Holder",
+      "Rayward and Rigby",
+      "Holder and Freeman"
+    ],
+    "answer": 0,
+    "explanation": "AUDACIOUS (Automatic Direct Access to Information with the On-line UDC System) परियोजना रॉबर्ट फ्रीमैन और पॉलीन एथरटन (Freeman and Atherton) द्वारा अमेरिकन इंस्टीट्यूट ऑफ फिजिक्स में शुरू की गई थी।",
+    "category": "Universal Decimal Classification",
+    "source": "EMRS-2023"
+  },
+  {
+    "question": "वर्गीकरण की यूडीसी योजना के बारे में क्या सही है ?<br>(1) It is faceted classification scheme.<br>(2) Paul Otlet and Henry La Fontaine are associated with it.<br>(3) It has relative index.<br>(4) It use pure notation.",
+    "options": [
+      "(2) and (3) are correct.",
+      "(1) and (2) are correct.",
+      "(3) and (4) are correct.",
+      "(1) and (3) are correct."
+    ],
+    "answer": 1,
+    "explanation": "UDC के बारे में, कथन (1) 'यह एक पक्षात्मक योजना है' सही है (यह लगभग-पक्षात्मक है)। कथन (2) 'पॉल ओटलेट और हेनरी ला फोंटेन इससे जुड़े हैं' भी सही है। कथन (3) गलत है, UDC में वर्णानुक्रमिक सूचकांक होता है, लेकिन DDC की तरह 'सापेक्षिक सूचकांक' इसकी मुख्य विशेषता नहीं है। कथन (4) गलत है, UDC मिश्रित अंकन का उपयोग करता है। इसलिए, (1) और (2) सही हैं।",
+    "category": "Universal Decimal Classification",
+    "source": "KERLA PSC 2017"
+  },
+  {
+    "question": "सार्वभौमिक दशमलव वर्गीकरण प्रकाशित की गई ?",
+    "options": [
+      "Library of Congress",
+      "UNESCO",
+      "FID",
+      "ALA"
+    ],
+    "answer": 2,
+    "explanation": "सार्वभौमिक दशमलव वर्गीकरण (UDC) को मूल रूप से अंतर्राष्ट्रीय ग्रंथसूची संस्थान (IIB) द्वारा विकसित किया गया था, जो बाद में FID (अंतर्राष्ट्रीय प्रलेखन संघ) बन गया। FID कई वर्षों तक इसके प्रकाशन के लिए जिम्मेदार था।",
+    "category": "Universal Decimal Classification",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "कौन सार्वभौमिक दशमलव वर्गीकरण अनुसूची प्रकाशित करता है ?",
+    "options": [
+      "FLA",
+      "ALA",
+      "BSI",
+      "Elsevier"
+    ],
+    "answer": 2,
+    "explanation": "ब्रिटिश मानक संस्थान (BSI) ने UDC के अंग्रेजी संस्करणों को प्रकाशित करने में महत्वपूर्ण भूमिका निभाई है। UDC कंसोर्टियम के पास समग्र कॉपीराइट है, लेकिन BSI जैसे राष्ट्रीय निकाय इसके वितरक और प्रकाशक रहे हैं।",
+    "category": "Universal Decimal Classification",
+    "source": "ISRO 2017"
+  },
+  {
+    "question": "सार्वभौम दशमलव वर्गीकरण था ?",
+    "options": [
+      "FID",
+      "IFLA",
+      "ALA",
+      "LA"
+    ],
+    "answer": 0,
+    "explanation": "सार्वभौम दशमलव वर्गीकरण (UDC) का विकास और रखरखाव लंबे समय तक FID (Fédération Internationale de Documentation) द्वारा किया गया।",
+    "category": "Universal Decimal Classification",
+    "source": "KERLA PSC 2015"
+  },
+  {
+    "question": "पुस्तकालय वर्गीकरण योजना का आविष्कार करने वाले प्रसिद्ध ग्रंथकार ने 1913 में नोबेल शांति पुरस्कार भी जीता था ?",
+    "options": [
+      "Henri La Fontaine",
+      "Melvil Dewey",
+      "Paul Otlet",
+      "C. A. Cutter"
+    ],
+    "answer": 0,
+    "explanation": "हेनरी ला फोंटेन, जो पॉल ओटलेट के साथ UDC के सह-निर्माता थे, को अंतर्राष्ट्रीय शांति प्रयासों में उनके काम के लिए 1913 में नोबेल शांति पुरस्कार से सम्मानित किया गया था।",
+    "category": "Universal Decimal Classification",
+    "source": "KERLA PSC 2022"
+  },
+  {
+    "question": "निम्नलिखित में से कौन नोबल पुरस्कार विजेता है ?",
+    "options": [
+      "Melville Dewey",
+      "S.R. Ranganathan",
+      "Paul Otlet",
+      "Henry LaFontaine"
+    ],
+    "answer": 3,
+    "explanation": "हेनरी ला फोंटेन (Henry LaFontaine) को 1913 में नोबेल शांति पुरस्कार मिला था।",
+    "category": "Universal Decimal Classification",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "यूनिवर्सल डेसीमल क्लासिफिकेशन में समय एकल हेतु निम्नलिखित संकेतांक का उपयोग किया जाता है ?",
+    "options": [
+      "Bracket",
+      "Equal Sign",
+      "Double Inverted Comma",
+      "Dot"
+    ],
+    "answer": 2,
+    "explanation": "UDC में, समय (Time) के सामान्य सहायक को दर्शाने के लिए उद्धरण चिह्नों (Double Inverted Comma \"...\") का उपयोग किया जाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "RPSC ASS. PROFESSOR PAPER 1-2024"
+  },
+  {
+    "question": "यूडीसी में कोष्ठक में बराबर चिह्न (=) से दर्शाया जाता है ?",
+    "options": [
+      "Relation sign",
+      "Language",
+      "Race and Nationality",
+      "Place"
+    ],
+    "answer": 1,
+    "explanation": "UDC में, बराबर चिह्न (=...) का उपयोग भाषा (Language) के सामान्य सहायक को दर्शाने के लिए किया जाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "RPSC ASS. PROFESSOR PAPER I-2024"
+  },
+  {
+    "question": "यूडीसी में, दो विषयों के बीच अंतर-संबंध को दर्शाया जाता है ?",
+    "options": [
+      "Ampersand followed by Roman Smalls",
+      "A colon",
+      "Hyphen",
+      "Double colon"
+    ],
+    "answer": 1,
+    "explanation": "UDC में, दो या दो से अधिक अलग-अलग विषयों के बीच संबंध को दर्शाने के लिए एक कोलन (A colon :) का उपयोग किया जाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "यूडीसी में एक प्रकार का संबंध रखने वाले दो या दो से अधिक वर्गों के नोटेशन को संयोजित करने के लिए निम्नलिखित में से किस सूचक अंक का उपयोग किया जाता है ?",
+    "options": [
+      "Plus (+)",
+      "Colon (:)",
+      "Semicolon (;)",
+      "Slash (/)"
+    ],
+    "answer": 1,
+    "explanation": "UDC में, दो या दो से अधिक वर्गों के बीच एक सामान्य संबंध को दर्शाने के लिए कोलन (Colon :) का उपयोग किया जाता है। प्लस (+) का उपयोग तब किया जाता है जब वे निकटता से संबंधित हों, और स्लैश (/) का उपयोग एक सीमा (range) को दर्शाने के लिए किया जाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "ALIGARH MUSLIM UNIVERSITY"
+  },
+  {
+    "question": "यूडीसी में, भाषा सहायक संख्या का प्रतिनिधित्व करने के लिए किस प्रतीक का उपयोग किया जाता है ?",
+    "options": [
+      "(0) (With bracket zero)",
+      "(=) (With in bracket equal)",
+      "(+) (Plus)",
+      "= (Equal)"
+    ],
+    "answer": 3,
+    "explanation": "UDC में, भाषा (Language) के लिए सामान्य सहायक संख्या का प्रतिनिधित्व बराबर चिह्न (=) द्वारा किया जाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "JKSSB"
+  },
+  {
+    "question": "जिम्मेदारी के बाद के बयान के लिए विराम चिह्न है ?",
+    "options": [
+      ";",
+      "=",
+      ":",
+      ","
+    ],
+    "answer": 0,
+    "explanation": "यह प्रश्न सूचीकरण (cataloguing) से संबंधित है, न कि वर्गीकरण से। AACR2 और RDA जैसे सूचीकरण मानकों में, जिम्मेदारी के बाद के बयानों को अलग करने के लिए अर्धविराम (semicolon ;) का उपयोग किया जाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "KERLA PSC 2014"
+  },
+  {
+    "question": "UDC में बराबर (=) के चिह्न का प्रयोग जोड़ने के लिए किया जाता है ?",
+    "options": [
+      "Common auxiliary of form",
+      "Common auxiliary of language",
+      "Common auxiliary of place",
+      "Common auxiliary of time"
+    ],
+    "answer": 1,
+    "explanation": "UDC में, बराबर (=) चिह्न का प्रयोग भाषा के सामान्य सहायक (Common auxiliary of language) को जोड़ने के लिए किया जाता है।",
+    "category": "Universal Decimal Classification",
+    "source": "KERLA PSC 2016"
+  },
+  {
+    "question": "UDC में, दो अपूर्ण-विराम चिह्नों :: का इस्तेमाल क्या इंगित करने के लिए किया जाता है ?",
+    "options": [
+      "स्थान / Space",
+      "क्रम निर्धारण/Order fixing",
+      "समय / time",
+      "प्रपत्र / form"
+    ],
+    "answer": 1,
+    "explanation": "UDC में, दोहरे कोलन (Double colon ::) का उपयोग क्रम निर्धारण (Order fixing) के लिए किया जाता है। यह सुनिश्चित करता है कि उद्धृत घटक हमेशा एक निश्चित क्रम में फाइल हों, चाहे उनका मुख्य वर्ग कुछ भी हो।",
+    "category": "Universal Decimal Classification",
+    "source": "NVS 2019"
+  },
+  {
+    "question": "एक ही क्रम मे नही आने वाले अंकों को जोड़ने हेतु यू. डी. सी. में निम्नांकित का उपयोग किया जाता है ?",
+    "options": [
+      "Slash (/)",
+      "Small bracket ( )",
+      "Plus (+)",
+      "Colon (:)"
+    ],
+    "answer": 2,
+    "explanation": "UDC में, प्लस (+) चिह्न का उपयोग दो या दो से अधिक गैर-लगातार वर्ग संख्याओं को एक साथ जोड़ने के लिए किया जाता है ताकि एक यौगिक विषय बनाया जा सके।",
+    "category": "Universal Decimal Classification",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "'लाइब्रेरी ऑफ कांग्रेस क्लासिफिकेशन सिस्टम' किसके द्वारा विकसित किया गया?",
+    "options": [
+      "Charles Martel",
+      "Herbert Putnam",
+      "James C.M. Hanson",
+      "Charles Martel and James C.M. Hanson both"
+    ],
+    "answer": 3,
+    "explanation": "लाइब्रेरी ऑफ कांग्रेस क्लासिफिकेशन (LCC) का विकास मुख्य रूप से हरबर्ट पुटनम के मार्गदर्शन में जेम्स सी.एम. हैनसन और चार्ल्स मार्टेल द्वारा किया गया था। इसलिए, हैनसन और मार्टेल दोनों इसके विकास में प्रमुख व्यक्ति थे।",
+    "category": "Library of Congress Classification",
+    "source": "MPPSC-2019"
+  },
+  {
+    "question": "लाइब्रेरी ऑफ कांग्रेस वर्गीकरण प्रणाली मानव ज्ञान को विभाजित करती है ?",
+    "options": [
+      "20 major classes",
+      "21 major classes",
+      "25 major classes",
+      "30 major classes"
+    ],
+    "answer": 1,
+    "explanation": "लाइब्रेरी ऑफ कांग्रेस क्लासिफिकेशन (LCC) ज्ञान को 21 मुख्य वर्गों (major classes) में विभाजित करता है, जिन्हें वर्णमाला के अक्षरों (A-Z, I, O, W, X, Y को छोड़कर) द्वारा दर्शाया जाता है।",
+    "category": "Library of Congress Classification",
+    "source": "AIIMS BATHINDA-2019"
+  },
+  {
+    "question": "लाइब्रेरी ऑफ कांग्रेस क्लासिफिकेशन में कितने मुख्य वर्ग हैं ?",
+    "options": [
+      "13",
+      "100",
+      "10",
+      "21"
+    ],
+    "answer": 3,
+    "explanation": "LCC में 21 मुख्य वर्ग हैं।",
+    "category": "Library of Congress Classification",
+    "source": "DSSSB 2023"
+  },
+  {
+    "question": "जे. सी. एम. हैनसन से संबंधित ?",
+    "options": [
+      "Sears List of Subject Heading",
+      "Library of Congress Classification System",
+      "UDC",
+      "Dictionary Catalogue"
+    ],
+    "answer": 1,
+    "explanation": "जेम्स क्रिश्चियन मीनू हैनसन (J. C. M. Hanson) ने लाइब्रेरी ऑफ कांग्रेस क्लासिफिकेशन सिस्टम के विकास में महत्वपूर्ण भूमिका निभाई थी।",
+    "category": "Library of Congress Classification",
+    "source": "AIIMS BATHINDA-2019"
+  },
+  {
+    "question": "वर्गीकरण की एक विशुद्ध रूप से गणनात्मक योजना है ?",
+    "options": [
+      "Dewey Decimal Classification (DDC)",
+      "Universal Decimal Classficiation (UDC)",
+      "Library of Congress Classification (LCC)",
+      "Bibliographic Classification (BC)"
+    ],
+    "answer": 2,
+    "explanation": "लाइब्रेरी ऑफ कांग्रेस क्लासिफिकेशन (LCC) को एक विशुद्ध रूप से गणनात्मक (purely enumerative) योजना माना जाता है क्योंकि इसमें अधिकांश विषयों के लिए पहले से तैयार वर्ग संख्याएँ होती हैं और संख्या निर्माण की गुंजाइश बहुत सीमित होती है।",
+    "category": "Library of Congress Classification",
+    "source": "ASSAM PLC-2019"
+  },
+  {
+    "question": "लाइब्रेरी ऑफ कांग्रेस क्लासिफिकेशन (एल.सी.सी.) का उदाहरण है ?",
+    "options": [
+      "पक्षात्मक वर्गीकरण / Faceted Classification",
+      "शुद्ध परिगणनात्मक वर्गीकरण / Purely enumerative classification",
+      "परिगणनात्मक वर्गीकरण / Enumerative classification",
+      "लगभग पक्षात्मक वर्गीकरण /Almost Faceted Scheme"
+    ],
+    "answer": 1,
+    "explanation": "LCC एक शुद्ध परिगणनात्मक वर्गीकरण (Purely enumerative classification) का उदाहरण है।",
+    "category": "Library of Congress Classification",
+    "source": "NVS 2022 EVENING"
+  },
+  {
+    "question": "साइबरस्टैक्स महत्वपूर्ण वेब एवं अन्य इंटरनेट साधनों का एक संग्रह है जिसको प्रणाली का उपयोग करके श्रेणीबद्ध किया गया है ?",
+    "options": [
+      "Dewey Decimal Classification (DDC)",
+      "Universal Decimal Classification (UDC)",
+      "Library of Congress Classification (LCC)",
+      "Bibliographic Classification (BC)"
+    ],
+    "answer": 2,
+    "explanation": "साइबरस्टैक्स (CyberStacks) इंटरनेट संसाधनों का एक संग्रह था जिसे लाइब्रेरी ऑफ कांग्रेस क्लासिफिकेशन (LCC) प्रणाली का उपयोग करके व्यवस्थित और वर्गीकृत किया गया था।",
+    "category": "Library of Congress Classification",
+    "source": "NVS 2022 EVENING"
+  },
+  {
+    "question": "विषय वर्गीकरण किसने प्रतिपादित किया ?",
+    "options": [
+      "J-D- Brown",
+      "W-C- Sayers",
+      "Benjamin A- Custer",
+      "Frist Donker Duyvis"
+    ],
+    "answer": 0,
+    "explanation": "विषय वर्गीकरण (Subject Classification) योजना 1906 में जेम्स डफ ब्राउन (James Duff Brown) द्वारा प्रतिपादित की गई थी।",
+    "category": "Subject Classification",
+    "source": "DSSSB 2023"
+  },
+  {
+    "question": "किस वर्गीकरण पद्धति को 'एक स्थान सिद्धान्त' का पालन करने के लिए जाना जाता है ?",
+    "options": [
+      "Library of Congress Classification",
+      "Subject Classification",
+      "Bibliographic Classification",
+      "Colon Classification"
+    ],
+    "answer": 1,
+    "explanation": "जे.डी. ब्राउन की विषय वर्गीकरण (Subject Classification) पद्धति को 'एक स्थान सिद्धांत' (One-Place Theory) के लिए जाना जाता है, जिसका उद्देश्य किसी विषय और उसके सभी पहलुओं को एक ही स्थान पर वर्गीकृत करना था।",
+    "category": "Subject Classification",
+    "source": "KVS 2023"
+  },
+  {
+    "question": "जे.डी. ब्राउन के लेखक हैं?",
+    "options": [
+      "Subject classification",
+      "Expansive classification",
+      "UDC",
+      "Colon classification"
+    ],
+    "answer": 0,
+    "explanation": "जे.डी. ब्राउन (James Duff Brown) विषय वर्गीकरण (Subject Classification) योजना के लेखक हैं।",
+    "category": "Subject Classification",
+    "source": "PSC DEPUTY LIBRARIAN"
+  },
+  {
+    "question": "ब्रॉड आर्डरिंग सिस्टम (बी. एस. ओ.) एक...है ?",
+    "options": [
+      "अनुक्रमणी पद्धति/indexing system",
+      "वर्गीकरण योजना/Classification Scheme",
+      "सूची पत्र कोड/catalogue code",
+      "प्रबंधन साधन/Management tool"
+    ],
+    "answer": 1,
+    "explanation": "ब्रॉड सिस्टम ऑफ ऑर्डरिंग (BSO) एक व्यापक वर्गीकरण योजना है जिसे सूचना प्रणालियों के बीच स्विचिंग भाषा के रूप में कार्य करने के लिए डिज़ाइन किया गया है।",
+    "category": "BSO (Broad System of Ordering)",
+    "source": "KVS 2013"
+  },
+  {
+    "question": "वर्गीकरण में बीएसओ का अर्थ है ?",
+    "options": [
+      "Basic Subject of Organisation",
+      "Broad system of Ordering",
+      "Bibliography of Subject Ordering",
+      "Bibliographic Subject Organisation"
+    ],
+    "answer": 1,
+    "explanation": "BSO का अर्थ है ब्रॉड सिस्टम ऑफ ऑर्डरिंग (Broad System of Ordering)।",
+    "category": "BSO (Broad System of Ordering)",
+    "source": "AIIMS, NAGPUR-2018"
+  },
+  {
+    "question": "कौन-सी वर्गीकरण योजना स्विचिंग भाषा के रूप में कार्य करने हेतु अभिकल्पित हुई है ?",
+    "options": [
+      "Colon Classification",
+      "Universal Decimal Classification",
+      "Bibliographic Classification",
+      "Broad System of Ordering"
+    ],
+    "answer": 3,
+    "explanation": "ब्रॉड सिस्टम ऑफ ऑर्डरिंग (BSO) को विशेष रूप से एक स्विचिंग भाषा (switching language) के रूप में कार्य करने के लिए डिज़ाइन किया गया था, ताकि विभिन्न अनुक्रमण और वर्गीकरण प्रणालियों के बीच संगतता प्रदान की जा सके।",
+    "category": "BSO (Broad System of Ordering)",
+    "source": "ISRO 2017"
+  },
+  {
+    "question": "ब्रॉड सिस्टम ऑफ ऑर्डरिंग एक वर्गीकरण प्रणाली या स्विचिंग भाषा है जिसे विकसित किया गया है ?",
+    "options": [
+      "UNESCO",
+      "UNISIST",
+      "UN",
+      "ISO"
+    ],
+    "answer": 1,
+    "explanation": "ब्रॉड सिस्टम ऑफ ऑर्डरिंग (BSO) को यूनेस्को (UNESCO) और FID द्वारा UNISIST कार्यक्रम के हिस्से के रूप में विकसित किया गया था।",
+    "category": "BSO (Broad System of Ordering)",
+    "source": "KERLA PSC 2016"
+  },
+  {
+    "question": "विषय संदर्भ कोड (एसआरसी) शब्द किससे संबंधित है ?",
+    "options": [
+      "Library of Congress Classification",
+      "Universal Decimal Classification",
+      "Broad System of Ordering",
+      "Bibliographic Classification"
+    ],
+    "answer": 2,
+    "explanation": "यह प्रश्न थोड़ा अस्पष्ट है। 'SRC' आमतौर पर ब्रॉड सिस्टम ऑफ ऑर्डरिंग (BSO) से जुड़ा है, जिसे कभी-कभी सब्जेक्ट-फील्ड रेफरेंस कोड (SRC) भी कहा जाता था।",
+    "category": "BSO (Broad System of Ordering)",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "बीएसओ, एक सामान्य वर्गीकरण योजना पहली बार प्रकाशित हुई थी ?",
+    "options": [
+      "1976",
+      "1977",
+      "1978",
+      "1979"
+    ],
+    "answer": 2,
+    "explanation": "ब्रॉड सिस्टम ऑफ ऑर्डरिंग (BSO) योजना पहली बार 1978 में प्रकाशित हुई थी।",
+    "category": "BSO (Broad System of Ordering)",
+    "source": "TNPSC LIBRARAY ASSISTANT"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सी वर्गीकरण की पूर्णतः गणनात्मक योजना है ?",
+    "options": [
+      "Bibliographic Classification",
+      "Rider International Classification",
+      "Broad System of Ordering",
+      "Universal Decimal Classification"
+    ],
+    "answer": 1,
+    "explanation": "राइडर इंटरनेशनल क्लासिफिकेशन (Rider's International Classification), जिसे 1961 में फ्रीमोंट राइडर द्वारा विकसित किया गया था, एक गणनात्मक योजना है जो मुख्य रूप से छोटे और मध्यम आकार के पुस्तकालयों के लिए थी।",
+    "category": "Rider's International Classification",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "फरमॉण्ट राइडर किस लिए जाना जाता है ?",
+    "options": [
+      "विषय वर्गीकरण / Subject classification",
+      "अन्तर्राष्ट्रीय वर्गीकरण/International classification",
+      "सूचीकरण / Catalogue",
+      "सार्वत्रिक दशमलव वर्गीकरण / Universal Decimal Classification"
+    ],
+    "answer": 1,
+    "explanation": "फ्रीमोंट राइडर अपने अंतर्राष्ट्रीय वर्गीकरण (International Classification) के लिए जाने जाते हैं।",
+    "category": "Rider's International Classification",
+    "source": "CHATTISGARH PSC-2019"
+  },
+  {
+    "question": "राइडर का अंतर्राष्ट्रीय वर्गीकरण है ?",
+    "options": [
+      "Faceted Classification",
+      "Freely Faceted Classification",
+      "Enumerative Classification",
+      "Almost Enumerative Classification"
+    ],
+    "answer": 2,
+    "explanation": "राइडर का अंतर्राष्ट्रीय वर्गीकरण एक गणनात्मक वर्गीकरण (Enumerative Classification) योजना है।",
+    "category": "Rider's International Classification",
+    "source": "DSSSB-2017"
+  },
+  {
+    "question": "ग्रंथ सूची वर्गीकरण योजना किसके द्वारा तैयार की गई थी ?",
+    "options": [
+      "Melvil Dewey",
+      "F- Rider",
+      "H-E- Bliss",
+      "H. P. Luhn"
+    ],
+    "answer": 2,
+    "explanation": "ग्रंथ सूची वर्गीकरण (Bibliographic Classification - BC) योजना हेनरी एवलिन ब्लिस (H.E. Bliss) द्वारा तैयार की गई थी। इसका प्रकाशन 1940 और 1953 के बीच हुआ।",
+    "category": "Bibliographic Classification",
+    "source": "MAHARANA PARTAP UNIVERSITY 2023"
+  },
+  {
+    "question": "सी.ए. कटर द्वारा विकसित वर्गीकरण योजना है ?",
+    "options": [
+      "Bibliographic Classification",
+      "Expansive Classification",
+      "Universal Decimal Classification",
+      "Colon Classification"
+    ],
+    "answer": 1,
+    "explanation": "चार्ल्स अम्मी कटर (C.A. Cutter) द्वारा विकसित वर्गीकरण योजना एक्सपेंसिव क्लासिफिकेशन (Expansive Classification) है।",
+    "category": "Expansive Classification",
+    "source": "KERLA PSC 2015"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा गलत सुमेलित है ?",
+    "options": [
+      "Colon classification - S.R. Ranganathan",
+      "Decimal classification - Melvil Dewey",
+      "Bibliographic classification - B.C.Vickery",
+      "Subject classification - J.D. Brown"
+    ],
+    "answer": 2,
+    "explanation": "विकल्प (c) गलत सुमेलित है। बिब्लियोग्राफिक क्लासिफिकेशन (Bibliographic classification) को एच.ई. ब्लिस (H.E. Bliss) ने विकसित किया था, न कि बी.सी. विकरी ने।",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "रंगनाथन के अनुसार, ज्ञान के ब्रह्मांड के क्रमिक विभाजनों के दौरान होने वाली कक्षाओं के फिलाटिव अनुक्रम को दर्शाने वाला कथन है ?",
+    "options": [
+      "Vedic Scheme",
+      "Scheme of Classes",
+      "Greek Scheme",
+      "Scheme of Classification"
+    ],
+    "answer": 3,
+    "explanation": "रंगनाथन के अनुसार, एक वर्गीकरण योजना (Scheme of Classification) को ज्ञान के ब्रह्मांड के क्रमिक विभाजन से उत्पन्न वर्गों के सहजात अनुक्रम (Filiatory Sequence) को प्रतिबिंबित करना चाहिए।",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "PATANA HIGH COURT 2022"
+  },
+  {
+    "question": "निम्न में से कौन वर्गाचार्य नहीं था ?",
+    "options": [
+      "H.E. Bliss",
+      "W.C.B. Sayers",
+      "C.A. cutter",
+      "J.D. Brown"
+    ],
+    "answer": 1,
+    "explanation": "एच.ई. ब्लिस, सी.ए. कटर, और जे.डी. ब्राउन सभी वर्गीकरणकार (classificationists) थे जिन्होंने अपनी वर्गीकरण योजनाएं बनाईं। डब्ल्यू.सी.बी. सेयर्स एक महान वर्गीकरण सिद्धांतकार थे, लेकिन उन्होंने अपनी कोई योजना नहीं बनाई।",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "RSMSSB-2019"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सी एक वर्गीकरण योजना नहीं है ?",
+    "options": [
+      "Dewey Decimal Classification",
+      "Universal Decimal Classification",
+      "International Classification",
+      "National Classification"
+    ],
+    "answer": 3,
+    "explanation": "DDC और UDC प्रसिद्ध वर्गीकरण योजनाएं हैं। राइडर की योजना को 'इंटरनेशनल क्लासिफिकेशन' के नाम से भी जाना जाता है। 'नेशनल क्लासिफिकेशन' किसी मानक वर्गीकरण योजना का नाम नहीं है।",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "DSSSB 2014"
+  },
+  {
+    "question": "मैक्रो दस्तावेजों के लिए आवश्यक विस्तृत वर्गीकरण के रूप में जाना जाता है ?",
+    "options": [
+      "Library Classification",
+      "Depth Classification",
+      "Broad Classification",
+      "Bibliographic Classification"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न विरोधाभासी है। मैक्रो दस्तावेजों (जैसे किताबें) के लिए आमतौर पर व्यापक वर्गीकरण (Broad Classification) का उपयोग किया जाता है। विस्तृत वर्गीकरण, जिसे गहन वर्गीकरण (Depth Classification) कहा जाता है, सूक्ष्म दस्तावेजों (जैसे लेख) के लिए होता है। दिए गए उत्तर के अनुसार यह 'गहन वर्गीकरण' है।",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "GUWAHTI HIGH COURT 2022"
+  },
+  {
+    "question": "सूची-I को सूची-II के साथ सुमेलित करें और नीचे दिए गए कोड का उपयोग करके सही उत्तर चुनें ?<br><b>List-I (Classification Scheme)</b><br>I. Subject Classification<br>II. Bibliographic Classification<br>III. Expansive Classification<br>IV. Universal Decimal Classification<br><b>List-II (Name of Designer)</b><br>a. H. E. Bliss<br>b. J. D. Brown<br>c. Paul Otlet and Henri La Fontaine<br>d. C.A. Cutter",
+    "options": [
+      "I(a), II(c), III(d), IV(b)",
+      "I(d), II(c), III(a), IV(b)",
+      "I(b), II(a), III(d), IV(c)",
+      "I(a), II(d), III(b), IV(c)"
+    ],
+    "answer": 2,
+    "explanation": "सही मिलान है:<br>I. Subject Classification - b. J. D. Brown<br>II. Bibliographic Classification - a. H. E. Bliss<br>III. Expansive Classification - d. C.A. Cutter<br>IV. Universal Decimal Classification - c. Paul Otlet and Henri La Fontaine",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "ALIGARH MUSLIM UNIVERSITY"
+  },
+  {
+    "question": "Match the following:<br><b>List-I (Classification Scheme)</b><br>(A) Subject Classification<br>(B) Colon Classification<br>(C) Universal Decimal Classification<br>(D) Library of Congress Classification<br><b>List-II (Category)</b><br>(I) Almost faceted<br>(II) Purely Enumerative<br>(III) Faceted<br>(IV) Enumerative",
+    "options": [
+      "(A)-(II), (B)-(IV), (C)-(III), (D)-(I)",
+      "(A)-(IV), (B)-(III), (C)-(II), (D)-(I)",
+      "(A)-(IV), (B)-(III), (C)-(I), (D)-(II)",
+      "(A)-(III), (B)-(IV), (C)-(I), (D)-(II)"
+    ],
+    "answer": 2,
+    "explanation": "सही मिलान है:<br>(A) Subject Classification - (IV) Enumerative<br>(B) Colon Classification - (III) Faceted<br>(C) Universal Decimal Classification - (I) Almost faceted<br>(D) Library of Congress Classification - (II) Purely Enumerative",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "KVS 2023"
+  },
+  {
+    "question": "उद्भव के अनुसार कालानुक्रमिक क्रम में व्यवस्थित करें ?<br>1. Bibliographic Classification<br>2. Colon Classification<br>3. Subject Classification<br>4. Universal Decimal Classification",
+    "options": [
+      "1, 2, 3, 4",
+      "4, 3, 2, 1",
+      "3, 4, 1, 2",
+      "2, 1, 4, 3"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न और उत्तर गलत हैं। सही कालानुक्रमिक क्रम है:<br>4. Universal Decimal Classification (1905)<br>3. Subject Classification (1906)<br>2. Colon Classification (1933)<br>1. Bibliographic Classification (1935)।<br>सही क्रम 4, 3, 2, 1 है।",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "निम्नलिखित युग्मों में से कौन सही सुमेलित है ?<br>1. Bibliographic Classification - (a) C.A. cutter<br>2. Expansive Classification - (b) J.D. Brown<br>3. Subject Classification - (c) S R Ranganathan<br>4. Colon Classification - (d) H.E. Bliss",
+    "options": [
+      "3,1,4,2",
+      "1,4,2,3",
+      "2,3,4,1",
+      "4,1,3,2"
+    ],
+    "answer": 3,
+    "explanation": "इस प्रश्न का प्रारूप अस्पष्ट है। यदि हमें योजनाओं को उनके रचनाकारों से मिलाना है, तो सही मिलान होगा:<br>1. Bibliographic Classification - H.E. Bliss (d)<br>2. Expansive Classification - C.A. cutter (a)<br>3. Subject Classification - J.D. Brown (b)<br>4. Colon Classification - S R Ranganathan (c)<br>इस आधार पर, सही क्रम 4,1,3,2 नहीं बनता। प्रश्न में त्रुटि है।",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "NVS 2016"
+  },
+  {
+    "question": "वर्गीकरण प्रणाली का उसके प्रतिपादक के साथ मिलान कीजिए ?<br><b>List-I (classification system)</b><br>(A) Expansive classification<br>(B) Subject classification<br>(C) Bibliographic classification<br>(D) International Classification<br><b>List-II (exponent)</b><br>(I) H.E. bliss<br>(II) F. rider<br>(III) C.A. cutter<br>(IV) J.D.Brown",
+    "options": [
+      "A-III, B-IV, C-I, D-II",
+      "A-II, B-I, C-IV, D-III",
+      "A-I, B-III, C-II, D-IV",
+      "A-III, B-IV, C-II, D-I"
+    ],
+    "answer": 0,
+    "explanation": "सही मिलान है:<br>(A) Expansive classification - (III) C.A. cutter<br>(B) Subject classification - (IV) J.D.Brown<br>(C) Bibliographic classification - (I) H.E. bliss<br>(D) International Classification - (II) F. rider",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "NVS 2022 MORNING"
+  },
+  {
+    "question": "निम्नलिखित को सुमेलित कीजिए ?<br><b>List-I</b><br>(I) Library of Congress Classification<br>(II) Application of Ranganathan's Laws to the Web<br>(III) Theory X and Theory Y<br>(IV) 12 rules of relational database<br><b>List-II</b><br>(A) Alireza Noruji<br>(B) J.C.M. Hansan<br>(C) Edgar F Codd<br>(D) Douglas McGregor",
+    "options": [
+      "I-B, II-A, III-D, IV-C",
+      "I-B, II-A, IV-D, III-C",
+      "I-A, II-B, III-C, IV-D",
+      "I-B, II-D, III-A, IV-C"
+    ],
+    "answer": 0,
+    "explanation": "सही मिलान है:<br>(I) Library of Congress Classification - (B) J.C.M. Hansan<br>(II) Application of Ranganathan's Laws to the Web - (A) Alireza Noruji<br>(III) Theory X and Theory Y - (D) Douglas McGregor<br>(IV) 12 rules of relational database - (C) Edgar F Codd",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "NVS 2022 EVENING"
+  },
+  {
+    "question": "वर्गीकरण प्रणालियों का उसके डिजाइनरों से मिलान करें ?<br>(i) Bibliographic classification<br>(ii) Expansive classification<br>(iii) International classification<br>(iv) Colon classification<br>---<br>1. C.A. Cutter<br>2. H.E. Bliss<br>3. S.R. Ranganathan<br>4. Fremont Rider",
+    "options": [
+      "i-2, ii-1, iii-4, iv-3",
+      "i-4, ii-1, iii-3, iv-2",
+      "i-3, ii-4, iii-2, iv-1",
+      "i-2, ii-3, iii-1, iv-4"
+    ],
+    "answer": 0,
+    "explanation": "सही मिलान है:<br>(i) Bibliographic classification - 2. H.E. Bliss<br>(ii) Expansive classification - 1. C.A. Cutter<br>(iii) International classification - 4. Fremont Rider<br>(iv) Colon classification - 3. S.R. Ranganathan",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "निम्न वर्गीकरण प्रणालियों को उनके प्रथम प्रकाशित वर्षों के अनुसार दर्शाइये ?<br>(a) DDC<br>(b) UDC<br>(c) CC<br>(d) BC<br>---<br>(i) 1895 (यह 1905 होना चाहिए)<br>(ii) 1876<br>(iii) 1935<br>(iv) 1933",
+    "options": [
+      "a-i, b-ii, c-iii, d-iv",
+      "a-ii, b-i, c-iv, d-iii",
+      "a-iii, b-i, c-iv, d-ii",
+      "a-iv, b-iii, c-i, d-ii"
+    ],
+    "answer": 1,
+    "explanation": "सही मिलान है (वर्षों में सुधार के साथ):<br>(a) DDC - (ii) 1876<br>(b) UDC - (i) 1905<br>(c) CC - (iv) 1933<br>(d) BC - (iii) 1935",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "RPSC GRADE II 2020"
+  },
+  {
+    "question": "निम्नलिखित को सुमेलित किजिए ?<br><b>सूची-I</b><br>(a) Henri La Fontaine<br>(b) H.E. Bliss<br>(c) C.A. Cutter<br>(d) J.C.M Hansan<br><b>सूची-II</b><br>(i) विस्तृत वर्गीकरण/Expansive classification<br>(ii) ग्रंथसूची वर्गीकरण/Bibliographic classification<br>(iii) नियंत्रक रेखा/Line of Control (यह LCC होना चाहिए)<br>(iv) यू.डी.सी./UDC",
+    "options": [
+      "(a)-i, (b)-iii, (c)-ii, (d)-iv",
+      "(a)-iii, (b)-ii, (c)-iv, (d)-i",
+      "(a)-iv, (b)-ii, (c)-i, (d)-iii",
+      "(a)-ii, (b)-iv, (c)-i, (d)-iii"
+    ],
+    "answer": 2,
+    "explanation": "सही मिलान है:<br>(a) Henri La Fontaine - (iv) यू.डी.सी./UDC<br>(b) H.E. Bliss - (ii) ग्रंथसूची वर्गीकरण/Bibliographic classification<br>(c) C.A. Cutter - (i) विस्तृत वर्गीकरण/Expansive classification<br>(d) J.C.M Hansan - (iii) लाइब्रेरी ऑफ कांग्रेस क्लासिफिकेशन (LCC)",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "उनके प्रथम प्रकाशन वर्गीकरण की निम्नलिखित योजनाओं को कालानुक्रमिक क्रम में व्यवस्थित करें ?<br>(A) Dewey Decimal Classification<br>(B) Universal Decimal Classification<br>(C) Colon Classification<br>(D) Subject Classification",
+    "options": [
+      "(A), (B), (D), (C)",
+      "(A), (B), (C), (D)",
+      "(B), (D), (C), (A)",
+      "(D), (B), (A), (C)"
+    ],
+    "answer": 0,
+    "explanation": "प्रकाशन वर्ष के अनुसार सही कालानुक्रमिक क्रम है:<br>(A) Dewey Decimal Classification (1876)<br>(D) Subject Classification (1906) - यह UDC से बाद में आया।<br>(B) Universal Decimal Classification (1905)<br>(C) Colon Classification (1933)<br>सही क्रम A, B, D, C होना चाहिए।",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "TELANGANA-2023"
+  },
+  {
+    "question": "निम्नलिखित का मिलान करे ?<br><b>List-I</b><br>1. UDC<br>2. DDC<br>3. IBM<br>4. LC<br><b>Lis-II</b><br>(i) Relative index<br>(ii) Alphabetical index<br>(iii) Permuted index<br>(iv) KWIC index",
+    "options": [
+      "1-ii, 2-i, 3-iv, 4-ii",
+      "1-i, 2-ii, 3-iii, 4-iv",
+      "1-ii, 2-i, 3-iv, 4-ii",
+      "1-iii, 2-iv, 3-i, 4-ii"
+    ],
+    "answer": 2,
+    "explanation": "यह प्रश्न योजनाओं को उनकी अनुक्रमणिका से मिलाता है।<br>1. UDC - (ii) वर्णानुक्रमिक सूचकांक<br>2. DDC - (i) सापेक्षिक सूचकांक<br>3. IBM - (iv) KWIC (कीवर्ड-इन-कॉन्टेक्स्ट) इंडेक्सिंग का विकास किया<br>4. LC - (ii) वर्णानुक्रमिक सूचकांक<br>विकल्प (a) और (c) समान हैं, और दोनों में LC और UDC के लिए वर्णानुक्रमिक सूचकांक (ii) है, जो सही है।",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "निम्नलिखित का मिलान कीजिए ?<br><b>Column A</b><br>(A) J.D. Brown<br>(B) H.E. Bliss<br>(C) C.A. Cutter<br>(D) Melvil Dewey<br><b>Column B</b><br>1. Decimal classification<br>2. Expansive classification<br>3. Bibliographic classification.<br>4. Subject classification",
+    "options": [
+      "A-1, B-2, C-3, D-4",
+      "A-4, B-1, C-2, D-3",
+      "A-4, B-3, C-2, D-1",
+      "A-2, B-1, C-4, D-3"
+    ],
+    "answer": 2,
+    "explanation": "सही मिलान है:<br>(A) J.D. Brown - 4. Subject classification<br>(B) H.E. Bliss - 3. Bibliographic classification<br>(C) C.A. Cutter - 2. Expansive classification<br>(D) Melvil Dewey - 1. Decimal classification",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "निम्नलिखित का मिलान करें ?<br><b>(A) Colon classification</b> - 1. 1876<br><b>(B) Dewey decimal classification</b> - 2. 1905<br><b>(C) Universal decimal classification</b> - 3. 1627 (यह 1605, बेकन के लिए होना चाहिए)<br><b>(D) Baconian classification</b> - 4. 1933",
+    "options": [
+      "A-3, B-2, C-4, D-1",
+      "A-4, B-1, C-2, D-3",
+      "A-2, B-1, C-3, D-4",
+      "A-2, B-4, C-3, D-1"
+    ],
+    "answer": 1,
+    "explanation": "सही मिलान है:<br>(A) Colon classification - 4. 1933<br>(B) Dewey decimal classification - 1. 1876<br>(C) Universal decimal classification - 2. 1905<br>(D) Baconian classification - 3. 1605",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "निम्न में से उद्भव का सही क्रम कौन-सा है ?",
+    "options": [
+      "UDC, DDC, LC, EC, CC",
+      "DDC, CC, UDC, LC, EC",
+      "EC, DDC,UDC, LC, CC",
+      "DDC, EC, LC, UDC, CC"
+    ],
+    "answer": 3,
+    "explanation": "प्रकाशन के वर्ष के अनुसार सही कालानुक्रमिक क्रम है:<br>DDC (1876), Expansive Classification (EC, 1891), Library of Congress (LC, 1899), UDC (1905), Colon Classification (CC, 1933)।",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "वर्गीकरण की निम्नलिखित योजनाओं को उनके प्रकाशन के वर्ष के अनुसार व्यवस्थित करें ?<br>i. Expansive Classification<br>ii. Subject Classification<br>iii. Bibliographic Classification<br>iv. Library of Congress Classification",
+    "options": [
+      "ii, iii, i, iv",
+      "i, iv, iii, ii",
+      "i, iv, ii, iii",
+      "iii, iv, i, ii"
+    ],
+    "answer": 2,
+    "explanation": "सही कालानुक्रमिक क्रम है:<br>i. Expansive Classification (1891)<br>iv. Library of Congress Classification (1899)<br>ii. Subject Classification (1906)<br>iii. Bibliographic Classification (1935)",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "UPPSC 2023 SHIFT-1"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा युग्म सही नहीं है ?",
+    "options": [
+      "Rider - Classification",
+      "Bradford - Documentation",
+      "Lancaster - Paperless Society",
+      "Vickery - Cataloguing"
+    ],
+    "answer": 3,
+    "explanation": "बी.सी. विकरी (B.C. Vickery) मुख्य रूप से वर्गीकरण और सूचना पुनर्प्राप्ति के क्षेत्र में अपने काम के लिए जाने जाते हैं, न कि सूचीकरण (Cataloguing) के लिए। अन्य सभी युग्म सही हैं।",
+    "category": "वर्गीकरण पद्धतियो",
+    "source": "d"
   }
 ]
