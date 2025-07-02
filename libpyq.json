@@ -6240,7 +6240,7 @@
     "source": "MPPSC-2018"
   },
   {
-    "question": "यूडीसी वर्ग संख्या 323.1(540)\"92\" में सामान्य सहायक \"92\" से लिया गया है ?",
+    "question": "यूडीसी वर्ग संख्या 323.1(540)\"92\" में \"92\" सामान्य सहायक \"92\" से लिया गया है ?",
     "options": [
       "Language",
       "Material",
@@ -6260,8 +6260,9 @@
       "FID",
       "ISKO"
     ],
- हेग, नीदरलैंड में स्थित यूडीसी कंसोर्टियम (UDC Consortium) के पास है।",
-    "category": "Universal Decimal Classification",
+    "answer": 0,
+    "explanation": "सार्वभौम दशमलव वर्गीकरण (UDC) का प्रबंधन UDC Consortium द्वारा किया जाता है। यह एक अंतरराष्ट्रीय संगठन है जो UDC के विकास, रखरखाव और प्रचार के लिए जिम्मेदार है।",
+    "category": "Universal Decimal Classification", 
     "source": "AIIMS JODHPUR-2018"
   },
   {
