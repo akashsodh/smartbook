@@ -89,12 +89,5 @@
     "description": "इस विषय के महत्वपूर्ण प्रश्न",
     "icon": "fas fa-book-open-reader",
     "questionFile": "computer.json"
-  },
-  {
-    "id": "unit115",
-    "title": "Test Series",
-    "description": "इस विषय के महत्वपूर्ण प्रश्न",
-    "icon": "fas fa-book-open-reader",
-    "questionFile": "test.json"
   }
 ]
