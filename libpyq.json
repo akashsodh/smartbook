@@ -7044,5 +7044,2202 @@
     "explanation": "बी.सी. विकरी (B.C. Vickery) मुख्य रूप से वर्गीकरण और सूचना पुनर्प्राप्ति के क्षेत्र में अपने काम के लिए जाने जाते हैं, न कि सूचीकरण (Cataloguing) के लिए। अन्य सभी युग्म सही हैं।",
     "category": "वर्गीकरण पद्धतियो",
     "source": "d"
+  },
+   {
+    "question": "अंकन के संदर्भ में 'कार्डिनल वैल्यू' का क्या अर्थ है ?",
+    "options": [
+      "Quantitative value that each digit possesses",
+      "Position of a digit in series",
+      "Type of notation used",
+      "Concept that refers to semantics"
+    ],
+    "answer": 0,
+    "explanation": "अंकन में, 'कार्डिनल वैल्यू' का अर्थ प्रत्येक अंक का मात्रात्मक मान (quantitative value) होता है, जैसे गणित में 2, 1 से बड़ा होता है। इसके विपरीत, वर्गीकरण में अंकों का क्रमसूचक मान (ordinal value) होता है, जो केवल क्रम निर्धारित करता है, मात्रा नहीं।",
+    "category": "अंकन",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "'सिमेंटिक वैल्यू ऑफ नोटेशन' का क्या मतलब है ?",
+    "options": [
+      "अंकन के क्रम को संदर्भित करता है।",
+      "श्रृंखला में एक अंक की स्थिति को परिभाषित करता है",
+      "प्रत्येक अंक का मात्रात्मक मूल्य",
+      "उस अवधारणा को संदर्भित करता है जिसका यह प्रतिनिधित्व करता है"
+    ],
+    "answer": 3,
+    "explanation": "'सिमेंटिक वैल्यू' का अर्थ है कि अंकन उस अवधारणा या विषय का प्रतिनिधित्व करता है जिसे वह निर्दिष्ट कर रहा है। यह अंकन का अर्थपूर्ण पहलू है।",
+    "category": "अंकन",
+    "source": "AIIMS JODHPUR -2018"
+  },
+  {
+    "question": "जब वर्ग संख्या 'बहुपक्षीय संकेतन' का प्रतिनिधित्व करती है, तो इसे ........ कहा जाता है ?",
+    "options": [
+      "enumerative notation",
+      "pure notation",
+      "non-faceted notation",
+      "faceted notation"
+    ],
+    "answer": 3,
+    "explanation": "जब एक वर्ग संख्या का निर्माण विभिन्न पक्षों (facets) के संयोजन से होता है, तो ऐसे संकेतन को पक्षात्मक संकेतन (faceted notation) कहा जाता है।",
+    "category": "अंकन",
+    "source": "AIIMS JODHPUR -2018"
+  },
+  {
+    "question": "वर्ग संख्या 551, 2, 951 के कुछ उदाहरण हैं ?",
+    "options": [
+      "Faceted notation",
+      "Mixed notation",
+      "Group notation",
+      "Pure notation"
+    ],
+    "answer": 3,
+    "explanation": "ये वर्ग संख्याएँ केवल एक ही प्रकार के प्रतीकों (इंडो-अरबी अंकों) का उपयोग करती हैं। ऐसा संकेतन जो केवल एक प्रकार के अंक का उपयोग करता है, उसे शुद्ध संकेतन (Pure notation) कहा जाता है।",
+    "category": "अंकन",
+    "source": "DSSSB-2021 TECHNICAL ASSISTANT"
+  },
+  {
+    "question": "संकेतन प्रणाली (Notation system) में अंकों का मान क्या है ?",
+    "options": [
+      "क्रमसूचक मान (Ordinal value)",
+      "मात्रात्मक मान (Quantitative value)",
+      "मूलबोध मान (Cardinal value)",
+      "अभिहित मान (Norminal Value)"
+    ],
+    "answer": 0,
+    "explanation": "पुस्तकालय वर्गीकरण की संकेतन प्रणाली में, अंकों का मान क्रमसूचक (Ordinal) होता है। इसका अर्थ है कि वे केवल दस्तावेजों को एक क्रम में व्यवस्थित करने का कार्य करते हैं, उनका कोई गणितीय या मात्रात्मक मान नहीं होता है।",
+    "category": "अंकन",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "'संकेतन' को आशुलिपि चिह्न के रूप में किसने परिभाषित किया ?",
+    "options": [
+      "E.C. Richardson",
+      "S.R. Ranganathan",
+      "W.C.B. Sayers",
+      "C.A. Cutter"
+    ],
+    "answer": 0,
+    "explanation": "ई.सी. रिचर्डसन ने संकेतन (Notation) को एक 'आशुलिपि चिह्न' (shorthand sign) के रूप में परिभाषित किया था, जो ज्ञान के पदानुक्रम में किसी वर्ग या विषय का प्रतिनिधित्व करता है।",
+    "category": "अंकन",
+    "source": "GURUGRAM UNIVERSITY 2023"
+  },
+  {
+    "question": "निम्नलिखित में कौन-से गुण है जो डॉ. एस. आर. रंगनाथन के अनुसार एक 'नोटेशन' में होने चाहिए ?",
+    "options": [
+      "एकता, शक्ति, अभिव्यक्ति",
+      "अद्वितीयत्व, संक्षिप्तता, अभिव्यक्तता",
+      "संघात्मता, संक्षिप्तता, अनावरणता",
+      "संलग्नता, सुस्पष्टता, विस्तारता"
+    ],
+    "answer": 1,
+    "explanation": "डॉ. एस. आर. रंगनाथन के अनुसार, एक अच्छे अंकन में अद्वितीयता (Uniqueness), संक्षिप्तता (Brevity), और अभिव्यंजकता (Expressiveness) जैसे गुण होने चाहिए।",
+    "category": "अंकन",
+    "source": "HARI SINGH GAUR UNIVERSITY 2020"
+  },
+  {
+    "question": "किसने एक अच्छे अंकन की विशेषताओं के अपने सारांश में निम्नलिखित को शामिल किया है 'संकेतन को कहना, पढ़ना और लिखना या टाइप करना आसान होना चाहिए' ?",
+    "options": [
+      "Ranganathan",
+      "Sayers",
+      "J. Mills",
+      "Bliss"
+    ],
+    "answer": 1,
+    "explanation": "डब्ल्यू.सी.बी. सेयर्स (W.C.B. Sayers) ने एक अच्छे अंकन के गुणों का विस्तार से वर्णन किया, जिसमें यह भी शामिल था कि संकेतन उच्चारण करने और लिखने में आसान होना चाहिए।",
+    "category": "अंकन",
+    "source": "KERLA PSC 2021"
+  },
+  {
+    "question": "आइडिया प्लेन, वर्बल प्लेन और नोटेशनल प्लेन की संकल्पना .........द्वारा विकसित की गई थी ?",
+    "options": [
+      "SR Ranganathan",
+      "M A Gopinath",
+      "A Neelameghan",
+      "G Bhattacharyya"
+    ],
+    "answer": 0,
+    "explanation": "वैचारिक धरातल (Idea Plane), शाब्दिक धरातल (Verbal Plane), और आंकिक धरातल (Notational Plane) की संकल्पना डॉ. एस. आर. रंगनाथन द्वारा उनके वर्गीकरण के गतिशील सिद्धांत के हिस्से के रूप में विकसित की गई थी।",
+    "category": "अंकन",
+    "source": "KVS 2013"
+  },
+  {
+    "question": "वर्गीकरण पद्धति जिसमें दो या दो से अधिक अंकों की जातियों का प्रयोग किया जाता है, के संकेतकों (नोटेशन) को इस रूप में जाना जाता है ?",
+    "options": [
+      "जटिल संकेतांक (नोटेशन) / Complex notation",
+      "संयुक्त संकेतांक (नोटेशन) / Compound notation",
+      "विशुद्ध संकेतांक (नोटेशन) / Pure notation",
+      "मिश्र संकेतांक (नोटेशन) / Mixed notation"
+    ],
+    "answer": 3,
+    "explanation": "जब एक वर्गीकरण पद्धति में दो या दो से अधिक प्रकार के प्रतीकों (जैसे अक्षर, अंक, और अन्य चिह्न) का उपयोग किया जाता है, तो उस संकेतन को मिश्रित संकेतांक (Mixed notation) कहा जाता है।",
+    "category": "अंकन",
+    "source": "NVS 2016"
+  },
+  {
+    "question": "'रेट्रोएक्टिव ओर्डिनल नोटेशन' की खोज किसने की ?",
+    "options": [
+      "Melville Dewey",
+      "S.R. Ranganathan",
+      "E.J. Coates",
+      "W.C.B. Sayers"
+    ],
+    "answer": 2,
+    "explanation": "'रेट्रोएक्टिव ऑर्डिनल नोटेशन' की अवधारणा ई.जे. कोट्स (E.J. Coates) द्वारा विकसित की गई थी, विशेष रूप से ब्रिटिश टेक्नोलॉजी इंडेक्स (BTI) के संदर्भ में।",
+    "category": "अंकन",
+    "source": "NVS 2022 MORNING"
+  },
+  {
+    "question": "सामान्यतया 'डीवी डेसीमल क्लासीफिकेशन' में 'स्टैण्डर्ड सबडिविजन्स' से पूर्व किस अंकन का उपयोग किया जाता है ?",
+    "options": [
+      "0",
+      "00",
+      "000",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "DDC में, मानक उप-विभाजनों (Standard Subdivisions) को जोड़ने से पहले, एक योजक अंक के रूप में एक शून्य (0) का उपयोग किया जाता है।",
+    "category": "अंकन",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "डॉ. एस. आर. रंगनाथन द्वारा कितने प्रकार के अंकन प्रतिपादित किये गये ?",
+    "options": [
+      "five",
+      "four",
+      "two",
+      "three"
+    ],
+    "answer": 1,
+    "explanation": "डॉ. एस. आर. रंगनाथन ने मुख्य रूप से चार प्रकार के अंकन की चर्चा की: शुद्ध अंकन, मिश्रित अंकन, पक्षात्मक अंकन, और पदानुक्रमित अंकन।",
+    "category": "अंकन",
+    "source": "RAJASTHAN UNIVERSITY JTA-2018"
+  },
+  {
+    "question": "एक अच्छे नोटेशन के गुण होते हैं ?<br>(A) Brevity of class number<br>(B) Complexity<br>(C) Speed of Writing<br>(D) Pronunciability",
+    "options": [
+      "(A) - (C) only",
+      "(B) (D) only",
+      "(A), (B) (C) only",
+      "(A), (C) (D) only"
+    ],
+    "answer": 3,
+    "explanation": "एक अच्छे अंकन के गुणों में संक्षिप्तता (Brevity), लिखने में आसानी (Speed of Writing), और उच्चारण में सुगमता (Pronunciability) शामिल हैं। जटिलता (Complexity) एक अवगुण है।",
+    "category": "अंकन",
+    "source": "TELANGANA-2023"
+  },
+  {
+    "question": "नोटेशन एक 'संक्षिप्त, सरल, लचीला और स्मरणीय होना चाहिए', उपरोक्त उद्धरण द्वारा योगदान दिया गया है ?",
+    "options": [
+      "H.E. Bliss",
+      "W.C. Berwick Sayer",
+      "Jevons. W. Stanley",
+      "S.R. Ranganathan"
+    ],
+    "answer": 1,
+    "explanation": "डब्ल्यू.सी. बेरविक सेयर्स ने एक अच्छे अंकन के गुणों को सूचीबद्ध किया, जिसमें संक्षिप्तता, सरलता, लचीलापन और स्मरणीयता शामिल है।",
+    "category": "अंकन",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "रंगनाथन ने अंकन के लचीलेपन को इस प्रकार कहा ?",
+    "options": [
+      "Expansiveness of Notation",
+      "Hospitality of Notation",
+      "Permission of Notation to insert any new class",
+      "Accommodation of Notation"
+    ],
+    "answer": 1,
+    "explanation": "रंगनाथन ने अंकन की उस क्षमता को, जिससे वह नए विषयों को अपने मौजूदा क्रम में कहीं भी समायोजित कर सकता है, 'आतिथ्य' (Hospitality of Notation) कहा।",
+    "category": "अंकन",
+    "source": "ALIGARH MUSLIM UNIVERSITY"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण पद्धति में कितने अंकनों का प्रयोग किया गया है?",
+    "options": [
+      "65",
+      "74",
+      "54",
+      "32"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन के छठे संस्करण में कुल 74 विभिन्न प्रतीकों (अक्षरों, अंकों और चिह्नों) का उपयोग किया गया है, जो इसकी मिश्रित अंकन प्रणाली को दर्शाता है।",
+    "category": "अंकन",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण पद्धति के प्रथम संस्करण में कितने योजक चिह्नों का प्रयोग किया गया है ?",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "1"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन के पहले संस्करण (1933) में केवल एक योजक चिह्न, कोलन (:), का उपयोग किया गया था, जिसका प्रयोग सभी पक्षों को जोड़ने के लिए होता था।",
+    "category": "अंकन",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "'कैटालाग' शब्द निम्न में से किस ग्रीक अभिव्यक्ति के संयोजन से प्राप्त किया गया है ?",
+    "options": [
+      "Kata + Logous",
+      "Kata + Logos",
+      "Kata + Logis",
+      "Kata + Logas"
+    ],
+    "answer": 1,
+    "explanation": "'कैटालॉग' शब्द ग्रीक शब्दों 'Kata' (जिसका अर्थ है 'अनुसार' या 'द्वारा') और 'Logos' (जिसका अर्थ है 'शब्द', 'क्रम', या 'तर्क') के संयोजन से बना है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "RAJASTHAN UNIVERSITY JTA-2018"
+  },
+  {
+    "question": "निम्नलिखित में से किस शब्द से कैटालॉग शब्द बना है ?",
+    "options": [
+      "Katalogos",
+      "Katalogus",
+      "Catalogus",
+      "Catalogos"
+    ],
+    "answer": 0,
+    "explanation": "कैटालॉग शब्द ग्रीक शब्द 'Katalogos' से बना है, जिसका अर्थ है एक व्यवस्थित सूची।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "SHREE CHITRA TIRUNAL INSTTUTE-2023"
+  },
+  {
+    "question": "यदि किसी पुस्तक के लेखक का न पता हो, तो ऐसे कार्य को क्या कहा जाता है ?",
+    "options": [
+      "कूटनाम/code name",
+      "काल्पनिक लेखक/Fictional writer",
+      "लेखक/writer",
+      "गुमनाम/anonymous"
+    ],
+    "answer": 3,
+    "explanation": "जिस पुस्तक के लेखक का पता नहीं होता, उसे गुमनाम (anonymous) कृति कहा जाता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "NVS 2019"
+  },
+  {
+    "question": "अज्ञात लेखक कृतियों को कहा जाता है ?",
+    "options": [
+      "गुमनाम कृति/Anonymous work",
+      "कृत्रिम नाम कृति/Pseudonymous work",
+      "समानार्थ कृति/Synonymous work",
+      "उपन्यास कृति/Fiction work"
+    ],
+    "answer": 0,
+    "explanation": "जिन कृतियों के लेखक अज्ञात होते हैं, उन्हें गुमनाम कृतियाँ (Anonymous work) कहा जाता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "RAJASTHAN UNIVERSITY JTA-2018"
+  },
+  {
+    "question": "'अज्ञात या 'सदिग्ध' लेखकत्व की पुस्तकों को कहा जाता है ?",
+    "options": [
+      "Apocryphal book",
+      "Blue book",
+      "Apograph",
+      "Incunabula"
+    ],
+    "answer": 0,
+    "explanation": "जिन पुस्तकों का लेखकत्व अज्ञात या संदिग्ध होता है, उन्हें एपोक्रिफल (Apocryphal) पुस्तकें कहा जाता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "MAHARANA PARTAP UNIVERSITY 2023"
+  },
+  {
+    "question": "सेमोर लुबेट्स्की और मैरी पिगॉट निम्नलिखित मे से किसके साथ जुडे हुए है ?",
+    "options": [
+      "अनुक्रमण/Indexing",
+      "वर्गीकरण/Classification",
+      "प्रबंधन/Management",
+      "कैटालॉगिंग/Cataloguing"
+    ],
+    "answer": 3,
+    "explanation": "सेमोर लुबेट्स्की और मैरी पिगॉट दोनों ही 20वीं सदी के प्रमुख सूचीकरण सिद्धांतकार थे और सूचीकरण (Cataloguing) के क्षेत्र से जुड़े हुए हैं।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "PRL AHAMBADAD 2023"
+  },
+  {
+    "question": "निम्न में से किसने कहा कि 'पुस्तकों की सूची वह सूची होती है जो किसी निश्चित योजना के अनुसार व्यवस्थित की जाती है' ?",
+    "options": [
+      "S.R. Ranganathan",
+      "W.C.B. Sayers",
+      "A. Panizzi",
+      "C.A.Cutter"
+    ],
+    "answer": 3,
+    "explanation": "यह परिभाषा सी.ए. कटर (C.A. Cutter) द्वारा दी गई है, जिन्होंने पुस्तकालय सूची के उद्देश्यों को परिभाषित किया था।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "'सूची पत्रकों पर पुस्तकों के विषयांश हेतु प्रयुक्त शब्द या वाक्यांश को विषय शीर्षक कहते हैं।' यह कथन दिया गया:",
+    "options": [
+      "By H.D. Sharma",
+      "By Margaret Mann",
+      "Morris F. tower",
+      "Dr. S.R.Ranganathan"
+    ],
+    "answer": 1,
+    "explanation": "यह विषय शीर्षक की एक मानक परिभाषा है और इसे मार्गरेट मान (Margaret Mann) ने अपनी सूचीकरण की पुस्तक में प्रस्तुत किया था।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "किसने कहा कि कैटालॉगिंग का उद्देश्य किसी व्यक्ति को ऐसी पुस्तक ढूंढने में सक्षम बनाना है जिसके लेखक, शीर्षक, विषय में से किसी एक का पता हो ?",
+    "options": [
+      "C.A. Cutter",
+      "S.R. Ranganathan",
+      "Henry A. Sharp",
+      "Anthony Panizzi"
+    ],
+    "answer": 0,
+    "explanation": "यह कथन सी.ए. कटर (C.A. Cutter) द्वारा दिए गए पुस्तकालय सूची के उद्देश्यों (Objects of the Catalogue) में से पहला उद्देश्य है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "कैटालॉग कुछ तत्वों की एक ऐसी सूची है जो किसी निश्चित प्लान के साथ व्यवस्थित होती है ?",
+    "options": [
+      "Melville Dewey",
+      "C.A. cutter",
+      "Eugene Garfield",
+      "W.C.B. Sayers"
+    ],
+    "answer": 1,
+    "explanation": "यह परिभाषा सी.ए. कटर (C.A. Cutter) से संबंधित है, जिन्होंने एक सूची को एक निश्चित योजना के अनुसार व्यवस्थित रिकॉर्ड के रूप में परिभाषित किया था।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "MPPSC-2019"
+  },
+  {
+    "question": "एक पुस्तकालय या एक संग्रह में दस्तावेजों की एक सूची जिसे इसके एक हिस्से के रूप में जाना जाता है ?",
+    "options": [
+      "Library Catalogue",
+      "Library Classification",
+      "Indexing",
+      "Abstracting"
+    ],
+    "answer": 0,
+    "explanation": "एक पुस्तकालय सूची (Library Catalogue) किसी विशेष पुस्तकालय या संग्रह में मौजूद सभी दस्तावेजों का एक व्यवस्थित रिकॉर्ड या सूची होती है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "DSSSB 2014"
+  },
+  {
+    "question": "सूचीकरण में 'साइनो लोको' (Sine loco) का आशय है ?",
+    "options": [
+      "Without week",
+      "Without year",
+      "Without place",
+      "Without class number"
+    ],
+    "answer": 2,
+    "explanation": "'Sine loco' एक लैटिन वाक्यांश है जिसका अर्थ है 'बिना स्थान के' (Without place)। इसका उपयोग सूचीकरण में तब किया जाता है जब किसी दस्तावेज़ के प्रकाशन का स्थान ज्ञात नहीं होता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "KVS 2023"
+  },
+  {
+    "question": "RemoteXs तथा EZProxy, पुस्तकालय के उदाहरण हैं?",
+    "options": [
+      "ऑनलाइन पब्लिक एक्सेस कैटालॉग/Online Public Access Catalogue",
+      "यूनियन कैटालॉग / Union catalogue",
+      "ऑफ कैंपस एक्सेस कैटालॉग / Off-campus access mechanism",
+      "डोक्यूमेंट डेलिवरी सर्विस / Document Delivery Service"
+    ],
+    "answer": 2,
+    "explanation": "RemoteXs और EZProxy ऐसे उपकरण या तंत्र हैं जो उपयोगकर्ताओं को पुस्तकालय के इलेक्ट्रॉनिक संसाधनों तक दूरस्थ (off-campus) पहुँच प्रदान करते हैं।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "ISRO 2021"
+  },
+  {
+    "question": "LOCAS (स्थानीय कैटलॉग सेवा) किसके द्वारा शुरू की गई थी ?",
+    "options": [
+      "The British Library",
+      "The National Library of Medicine, USA",
+      "The Pierpont Morgan Library, New York",
+      "Library of Congress"
+    ],
+    "answer": 0,
+    "explanation": "LOCAS (Local Catalogue Service) ब्रिटिश लाइब्रेरी द्वारा शुरू की गई एक सेवा थी, जो अन्य पुस्तकालयों को उनके कैटलॉग रिकॉर्ड बनाने में मदद करती थी।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "DSSSB 2023 SHIFT II"
+  },
+  {
+    "question": "लाइब्रेरी कैटालॉग और ग्रंथ सूची के बीच एक बुनियादी अंतर है?",
+    "options": [
+      "लाइब्रेरी कैटालॉग केवल कार्ड के रूप में है।",
+      "पुस्तकालय सूची केवल पुस्तकालय में ही देखी जा सकती है।",
+      "लाइब्रेरी कैटालॉग लाइब्रेरी में दस्तावेज का स्थान दिखाता है।",
+      "उपरोक्त सभी"
+    ],
+    "answer": 2,
+    "explanation": "एक ग्रंथ सूची (bibliography) केवल दस्तावेजों का वर्णन करती है, जबकि एक पुस्तकालय सूची (library catalogue) यह भी बताती है कि वह दस्तावेज उस विशेष पुस्तकालय में कहाँ स्थित है (उसका कॉल नंबर/स्थान चिह्न प्रदान करके)।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "MIZORAM PSC LIBRARY ASSISTANT"
+  },
+  {
+    "question": "सीपीएसओ का मतलब है ?",
+    "options": [
+      "Classification Publishing and Support Office",
+      "Classification Policy and Support Office",
+      "Cataloguing Publishing and Support Office",
+      "Cataloguing Policy and Support Office"
+    ],
+    "answer": 3,
+    "explanation": "CPSO का मतलब कैटलॉगिंग पॉलिसी एंड सपोर्ट ऑफिस (Cataloguing Policy and Support Office) है, जो लाइब्रेरी ऑफ कांग्रेस का एक विभाग है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "PATANA HIGH COURT 2022"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा केंद्रीकृत कैटालॉगिंग में शामिल नहीं है ?",
+    "options": [
+      "कार्य के दोहराव से बचने के लिए",
+      "कैटालॉगिंग की लागत को कम करने के लिए",
+      "कैटालॉगिंग की गुणवत्ता का स्तर बढ़ाना",
+      "ई-संसाधनों के उपयोग को बढ़ावा देना"
+    ],
+    "answer": 3,
+    "explanation": "केंद्रीकृत कैटालॉगिंग का उद्देश्य कार्य के दोहराव से बचना, लागत कम करना और कैटालॉगिंग की गुणवत्ता और मानकीकरण को बढ़ाना है। ई-संसाधनों का उपयोग बढ़ाना इसका प्रत्यक्ष उद्देश्य नहीं है, हालांकि यह एक परिणाम हो सकता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "आधिकारिक कैटालॉग ज्यादातर किसके द्वारा उपयोग किया जाता है ?",
+    "options": [
+      "Guidance of Refresher",
+      "By Library staff",
+      "By all users",
+      "By particular user"
+    ],
+    "answer": 1,
+    "explanation": "आधिकारिक कैटलॉग (Official Catalogue) या शेल्फ सूची मुख्य रूप से पुस्तकालय कर्मचारियों (Library staff) द्वारा आंतरिक कार्यों जैसे स्टॉक सत्यापन, वर्गीकरण में स्थिरता बनाए रखने आदि के लिए उपयोग किया जाता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "'एन.पी.ए.सी.' कार्यक्रम अधीन है ?",
+    "options": [
+      "नेटवर्क पद्धति के Network method",
+      "अंतर-पुस्तकालय आदान / Inter-library exchange",
+      "सहभागिता सूचीकरण / Cooperative Cataloguing",
+      "उपर्युक्त में से कोई नहीं / None of the above"
+    ],
+    "answer": 2,
+    "explanation": "NPAC (नेशनल प्रोग्राम फॉर एक्विजिशन एंड कैटलॉगिंग) लाइब्रेरी ऑफ कांग्रेस द्वारा शुरू किया गया एक सहकारी या सहभागी सूचीकरण (Cooperative Cataloguing) कार्यक्रम था।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "कौन-सा अंतर्राष्ट्रीय संगठन पुस्तकालय कैटलॉगिंग और मेटाडेटा के मानकों को बढ़ावा देता है ?",
+    "options": [
+      "International Federation of Library Associations and Institutions (IFLA)",
+      "American Library Association (ALA)",
+      "Library and Information Technology Association (LITA)",
+      "Special Libraries Association (SLA)"
+    ],
+    "answer": 0,
+    "explanation": "इंटरनेशनल फेडरेशन ऑफ लाइब्रेरी एसोसिएशन्स एंड इंस्टीट्यूशन्स (IFLA) वह प्रमुख अंतरराष्ट्रीय संगठन है जो पुस्तकालय सूचीकरण और मेटाडेटा के लिए मानकों (जैसे ISBD, FRBR) का विकास और प्रचार करता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "PRL-2023"
+  },
+  {
+    "question": "पुस्तक कैटालॉग और विभिन्न प्रकार की पुस्तक मेटाडेटा को छाँटने और साझा करने के लिए वेब एप्लिकेशन की एक सामाजिक सूचीकरण को कहा जाता है ?",
+    "options": [
+      "Cataloguing",
+      "Internet of Things",
+      "Social Thing",
+      "Library Thing"
+    ],
+    "answer": 3,
+    "explanation": "लाइब्रेरीथिंग (LibraryThing) एक सामाजिक सूचीकरण वेब एप्लिकेशन है जो उपयोगकर्ताओं को अपनी किताबों को सूचीबद्ध करने, खोजने और अन्य उपयोगकर्ताओं के साथ साझा करने की अनुमति देता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "मूल कैटालॉगिंग से तात्पर्य कैटालॉगिंग से है ?",
+    "options": [
+      "एक नियमित वस्तु के लिए किया गया जिसके लिए कैटालॉगिंग रिकॉर्ड उपलब्ध है।",
+      "एक अद्वितीय वस्तु के लिए किया गया जिसके लिए कैटालॉगिंग रिकॉर्ड उपलब्ध है।",
+      "एक नियमित वस्तु के लिए किया गया जिसके लिए कोई कैटालॉगिंग रिकॉर्ड उपलब्ध नहीं है।",
+      "एक अद्वित्तीय वस्तु के लिए किया गया जिसके लिए कोई कैटालॉगिंग रिकॉर्ड उपलब्ध नहीं है।"
+    ],
+    "answer": 3,
+    "explanation": "मूल कैटालॉगिंग (Original Cataloguing) उस प्रक्रिया को संदर्भित करता है जब किसी दस्तावेज़ के लिए पहले से कोई कैटलॉगिंग रिकॉर्ड मौजूद नहीं होता है और लाइब्रेरियन को खरोंच से एक नया रिकॉर्ड बनाना पड़ता है। यह अक्सर अद्वितीय या दुर्लभ वस्तुओं के लिए आवश्यक होता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "DSSSB 2023"
+  },
+  {
+    "question": "दस्तावेजों की एक सूची जो शेल्फ पर दस्तावेजों को व्यवस्थित करने के तरीके को दर्शाती है, कहलाती है ?",
+    "options": [
+      "Library Catalogue",
+      "Shelf Register",
+      "Accession Register",
+      "Publisher Catalogue"
+    ],
+    "answer": 0,
+    "explanation": "यह प्रश्न थोड़ा अस्पष्ट है। 'शेल्फ रजिस्टर' या 'शेल्फ लिस्ट' दस्तावेजों की सूची होती है जो उसी क्रम में होती है जैसे वे शेल्फ पर व्यवस्थित होते हैं। 'लाइब्रेरी कैटलॉग' उपयोगकर्ताओं के लिए एक खोज उपकरण है। दिए गए उत्तर के अनुसार यह लाइब्रेरी कैटलॉग है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "GUWAHTI HIGH COURT 2022"
+  },
+  {
+    "question": "किस रूप में कैटलॉग संदर्भित है ?",
+    "options": [
+      "प्रक्रिया/Process",
+      "साधन/Tool",
+      "विधि/Method",
+      "तकनीक/Techniques"
+    ],
+    "answer": 1,
+    "explanation": "एक पुस्तकालय कैटलॉग को एक पुनर्प्राप्ति उपकरण या साधन (Tool) के रूप में संदर्भित किया जाता है जो उपयोगकर्ताओं को पुस्तकालय के संग्रह तक पहुँचने में मदद करता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "KVS 2015"
+  },
+  {
+    "question": "एनपीएसी इसका एक उदाहरण है ?",
+    "options": [
+      "Pre natal catalogue",
+      "Union catalogue",
+      "Cooperative catalogue",
+      "Shared catalogue"
+    ],
+    "answer": 2,
+    "explanation": "NPAC (नेशनल प्रोग्राम फॉर एक्विजिशन एंड कैटलॉगिंग) सहकारी सूचीकरण (Cooperative catalogue) का एक उत्कृष्ट उदाहरण है, जहां कई पुस्तकालय कैटलॉगिंग के काम को साझा करते हैं।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "PATANA HIGH COURT 2019"
+  },
+  {
+    "question": "फ्यूमीगेशन किसके पुस्तकालय अनुभाग में है ?",
+    "options": [
+      "Cataloguing",
+      "Reference",
+      "Accession",
+      "Maintenance"
+    ],
+    "answer": 3,
+    "explanation": "फ्यूमीगेशन (धूनी देना) पुस्तकों को कीड़ों और फफूंद से बचाने की एक प्रक्रिया है, जो पुस्तकालय के रखरखाव (Maintenance) या परिरक्षण (Preservation) अनुभाग का हिस्सा है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "MIZORAM PSC 2013 PAPER-1"
+  },
+  {
+    "question": "कुछ केंद्रीय संगठन द्वारा दस्तावेजों की सूचीकरण को कहा जाता है?",
+    "options": [
+      "Subject cataloguing",
+      "Centralized cataloguing",
+      "Cataloguing-in-source",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "जब कई पुस्तकालयों के लिए दस्तावेजों का सूचीकरण किसी एक केंद्रीय एजेंसी या संगठन द्वारा किया जाता है, तो इस प्रक्रिया को केंद्रीकृत सूचीकरण (Centralized cataloguing) कहा जाता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "MIZORAM PSC 2013 PAPER-I"
+  },
+  {
+    "question": "APA शैली में 'लेखक-तिथि' पैटर्न के अनुसार एक लेख के लिए ग्रंथसूची प्रविष्टि में तत्त्वों का सही क्रम कौन सा है ?",
+    "options": [
+      "Title of the article, author, year, title of journal",
+      "Author, year, title of the article, title of the journal",
+      "Author, year, title of the journal, title of the article",
+      "Author, title of the article, title of the journal, year"
+    ],
+    "answer": 1,
+    "explanation": "APA (अमेरिकन साइकोलॉजिकल एसोसिएशन) शैली में, एक जर्नल लेख के लिए ग्रंथसूची प्रविष्टि का सही क्रम है: लेखक (Author), प्रकाशन का वर्ष (year), लेख का शीर्षक (title of the article), और फिर जर्नल का शीर्षक (title of the journal), खंड, अंक, और पृष्ठ संख्या।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "MHPSC 2017 PAPER-III"
+  },
+  {
+    "question": "मुख्य प्रकार के कैटलॉग हैं ?",
+    "options": [
+      "alphabetic, classified and alphabetic- classed catalogue",
+      "subject, alphabetic and divided catalogue",
+      "title, dictionary and subject catalogue",
+      "none of these"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न अस्पष्ट है। कैटलॉग के मुख्य आंतरिक रूप शब्दकोशीय (dictionary), वर्गीकृत (classified), और वर्णानुक्रम-वर्गीकृत (alphabetico-classed) होते हैं। भौतिक रूप कार्ड, शीफ, पुस्तक और ऑनलाइन हो सकते हैं। दिए गए विकल्पों में से, विकल्प (b) विभिन्न प्रकारों का मिश्रण प्रस्तुत करता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "MIZORAM PSC 2013 PAPER-I"
+  },
+  {
+    "question": "कैटालॉग प्रविष्टियां तैयार करने के लिए जिम्मेदार एक कर्मचारी सदस्य है ?",
+    "options": [
+      "Classificationist",
+      "Classifier",
+      "Cataloguer",
+      "Documentalist"
+    ],
+    "answer": 2,
+    "explanation": "पुस्तकालय में कैटलॉग प्रविष्टियाँ तैयार करने के लिए जिम्मेदार कर्मचारी सदस्य को सूचीकार (Cataloguer) कहा जाता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "सुश्री मार्गेट मान का नाम निम्नलिखित में से किससे सम्बन्धित है ?",
+    "options": [
+      "प्रलेखन / Documentation",
+      "प्रबन्ध / management",
+      "वर्गीकरण / Classification",
+      "सूचीकरण / Cataloguing"
+    ],
+    "answer": 3,
+    "explanation": "सुश्री मार्गेट मान (Margaret Mann) एक प्रभावशाली अमेरिकी लाइब्रेरियन और शिक्षक थीं, जो अपने सूचीकरण (Cataloguing) और वर्गीकरण पर लिखे गए कार्यों के लिए प्रसिद्ध हैं, विशेष रूप से उनकी पुस्तक 'Introduction to Cataloging and the Classification of Books' के लिए।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "RAJASTHAN UNIVERSITY JTA-2018"
+  },
+  {
+    "question": "रोमनों ने एक किताब बनाने के लिए एक साथ बंधी हुई प्राचमेंट शीट का इस्तेमाल किया, जिसे कहा जाता है ?",
+    "options": [
+      "Kardex",
+      "Linedex",
+      "Codex",
+      "Fladex"
+    ],
+    "answer": 2,
+    "explanation": "रोमनों द्वारा विकसित, एक साथ बंधी हुई चर्मपत्र (parchment) शीटों से बनी पुस्तक को कोडेक्स (Codex) कहा जाता है। इसने स्क्रॉल का स्थान लिया और आधुनिक पुस्तक का अग्रदूत बना।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "किसके आधार पर किसी पुस्तक की विषय-वस्तु का निर्धारण किया जाता है ?",
+    "options": [
+      "Title",
+      "Author",
+      "Contents",
+      "Index"
+    ],
+    "answer": 2,
+    "explanation": "किसी पुस्तक की विषय-वस्तु का सबसे विश्वसनीय निर्धारण उसकी सामग्री-तालिका (Contents) और प्रस्तावना से होता है, क्योंकि शीर्षक भ्रामक हो सकता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "KERLA PSC 2022"
+  },
+  {
+    "question": "पुस्तक की विस्तृत जानकारी जैसे-शीर्षक लेखक, संपादक, प्रकाशक, पृष्ठों की संख्या आदि क्या कहलाती है ?",
+    "options": [
+      "इम्प्रिंट / Imprint",
+      "टिप्पणी / Annotations",
+      "समानुक्रमित / Collation",
+      "बिब्लियोग्राफिकल डेटा / Bibliographical data"
+    ],
+    "answer": 3,
+    "explanation": "किसी पुस्तक के बारे में विस्तृत जानकारी जैसे शीर्षक, लेखक, प्रकाशक, प्रकाशन की तिथि, पृष्ठों की संख्या आदि को सामूहिक रूप से ग्रन्थसूची संबंधी डेटा (Bibliographical data) कहा जाता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "MPPSC-2019"
+  },
+  {
+    "question": "'प्रसवपूर्व सूचीकरण' का अर्थ है ?",
+    "options": [
+      "Selective cataloguing",
+      "Descriptive cataloguing",
+      "Limited cataloguing",
+      "Cataloguing in source"
+    ],
+    "answer": 3,
+    "explanation": "'प्रसवपूर्व सूचीकरण' (Pre-natal cataloguing) का अर्थ है 'प्रकाशन में सूचीकरण' (Cataloguing in Source)। यह वह प्रक्रिया है जिसमें पुस्तक के प्रकाशन से पहले ही उसका सूचीकरण डेटा तैयार कर लिया जाता है और पुस्तक में ही मुद्रित कर दिया जाता है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "PLIB-2012, TNPSC LIBRARAY ASSISTANT"
+  },
+  {
+    "question": "'प्रीनेटल कैटालॉगिंग' किसके द्वारा गढ़ा गया था ?",
+    "options": [
+      "C.A. Cutter",
+      "A. Neelameghan",
+      "A. Panizzi",
+      "S.R. Ranganathan"
+    ],
+    "answer": 3,
+    "explanation": "'प्री-नेटल कैटालॉगिंग' (Pre-natal Cataloguing) या 'प्रसवपूर्व सूचीकरण' शब्द डॉ. एस. आर. रंगनाथन द्वारा गढ़ा गया था, जो 'प्रकाशन में सूचीकरण' (Cataloguing-in-Publication) की अवधारणा को संदर्भित करता है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "G.G.S. IND.UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "प्री-नेटल कैटालॉग संबंधित है ?",
+    "options": [
+      "SR. Ranganathan",
+      "C.A. Cutter",
+      "Melvil Dewey",
+      "M.A. Gopinath"
+    ],
+    "answer": 0,
+    "explanation": "प्री-नेटल कैटालॉगिंग की अवधारणा डॉ. एस. आर. रंगनाथन से संबंधित है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "प्रीनेटल कैटलॉगिंग शब्द का पहली बार प्रयोग.......द्वारा किया गया?",
+    "options": [
+      "Michael Gorman",
+      "Dr. S.R. Ranganathan",
+      "E.B. Ross",
+      "Melvin Dewey"
+    ],
+    "answer": 1,
+    "explanation": "प्री-नेटल कैटलॉगिंग शब्द का प्रयोग पहली बार डॉ. एस.आर. रंगनाथन द्वारा किया गया था।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "JAWAHARLAL NEHRU UNIVERSITY-2015"
+  },
+  {
+    "question": "'ऐसी स्थिति जहां कई स्वतंत्र पुस्तकालय अपने पारस्परिक लाभ के लिए एक सूची बनाने का काम साझा करते हैं' कहलाती है ?",
+    "options": [
+      "Co-operative cataloguing",
+      "Centralized cataloguing",
+      "Subject cataloguing",
+      "Pre-natal cataloguing"
+    ],
+    "answer": 0,
+    "explanation": "जब कई स्वतंत्र पुस्तकालय मिलकर सूची बनाने का काम साझा करते हैं, तो इसे सहकारी सूचीकरण (Co-operative cataloguing) कहा जाता है। इसका उद्देश्य लागत को कम करना और कार्य के दोहराव से बचना है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "MIZORAM PSC 2013 PAPER-I"
+  },
+  {
+    "question": "कई पुस्तकालयों के संग्रहण को वर्णित करने वाली सम्मिलित पुस्तकालय सूचीपत्र को ..........कहा जाता है।",
+    "options": [
+      "विषय सूचीपत्र / Subject Catalogue",
+      "संघ सूचीपत्र /Union Catalogue",
+      "ग्रंथसूची / Bibliography",
+      "डिस्कवरी सेवा/Discovery Services"
+    ],
+    "answer": 1,
+    "explanation": "कई पुस्तकालयों के संग्रह को सूचीबद्ध करने वाली एक सम्मिलित सूची को संघ सूचीपत्र (Union Catalogue) कहा जाता है। यह संसाधनों के स्थान और उपलब्धता का पता लगाने में मदद करता है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "ISRO 2021"
+  },
+  {
+    "question": "एक संघ सूची है ?",
+    "options": [
+      "ग्रंथ सूची संबंधी जानकारी प्राप्त करने के लिए उपयोगी स्रोत",
+      "एक अनुक्रम में कैटलॉग सूची, दो या दो से अधिक पुस्तकालयों की होल्डिंग्स या होल्डिंग्स का हिस्सा।",
+      "किसी दिए गए भौगोलिक क्षेत्र में पुस्तकालय का कुल दस्तावेज संसाधन",
+      "दस्तावेज के स्थान के लिए उपकरण"
+    ],
+    "answer": 1,
+    "explanation": "एक संघ सूची (Union Catalogue) एक ऐसी सूची है जो एक ही क्रम में दो या दो से अधिक पुस्तकालयों के संग्रह (holdings) को सूचीबद्ध करती है, जिससे संसाधनों के अंतर-पुस्तकालय ऋण में सुविधा होती है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "MIZORAM PSC 2013 PAPER-I"
+  },
+  {
+    "question": "'संघ सूची' किसका अभिलेख है ?",
+    "options": [
+      "केंद्र शासित प्रदेश में रहने वाले पुस्तकालय सदस्य",
+      "पुस्तकालयों के समूह में उपलब्ध पत्रिकाएँ",
+      "केंद्र शासित प्रदेश में स्थित पुस्तकालय संघ",
+      "पुस्तकालय संघ के सदस्यों की सूची"
+    ],
+    "answer": 1,
+    "explanation": "एक संघ सूची कई पुस्तकालयों के संयुक्त संग्रह का एक अभिलेख है। यह विशेष रूप से पत्रिकाओं (Periodicals) जैसे संसाधनों का पता लगाने के लिए उपयोगी है, इसलिए विकल्प (b) एक बहुत ही सामान्य और महत्वपूर्ण अनुप्रयोग है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "PARILIAMENT OF INDIA"
+  },
+  {
+    "question": "संघ सूची का सर्वप्रथम निर्माण 1901 ई. में किसके द्वारा किया गया।",
+    "options": [
+      "Library of Congress",
+      "British Library",
+      "ALA",
+      "ILA"
+    ],
+    "answer": 0,
+    "explanation": "लाइब्रेरी ऑफ कांग्रेस (Library of Congress) ने 1901 में अपने राष्ट्रीय संघ सूची (National Union Catalog) का निर्माण शुरू किया, जो संयुक्त राज्य अमेरिका में संघ सूची का एक प्रारंभिक और महत्वपूर्ण उदाहरण है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "दो से अधिक पुस्तकालयों के संग्रह का प्रतिनिधित्व करने वाले कैटलॉग को कहा जाता है ?",
+    "options": [
+      "Subject Catalogue",
+      "Classified Catalogue",
+      "Union Catalogue",
+      "Online Catalogue"
+    ],
+    "answer": 2,
+    "explanation": "दो या दो से अधिक पुस्तकालयों के संग्रह का प्रतिनिधित्व करने वाले कैटलॉग को संघ सूची (Union Catalogue) कहा जाता है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "CUET PG PAPER 2022"
+  },
+  {
+    "question": "विभिन्न पुस्तकालयों की पुस्तकों, आवधिक पत्रिकाओं और अन्य दस्तावेजों की संयुक्त सूची......कहलाती है ?",
+    "options": [
+      "Cooperative Catalogue",
+      "shared catalogue",
+      "CIP",
+      "Union Catalogue"
+    ],
+    "answer": 3,
+    "explanation": "विभिन्न पुस्तकालयों के दस्तावेजों की एक संयुक्त सूची को संघ सूची (Union Catalogue) कहा जाता है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "DSSSB 2019, POST CODE 10/17"
+  },
+  {
+    "question": "एक यूनियन कैटालॉग है ?",
+    "options": [
+      "A catalogue of group of libraries",
+      "A catalogue of one particular library",
+      "A catalogue of special libraries",
+      "All of the above"
+    ],
+    "answer": 0,
+    "explanation": "एक संघ सूची (Union Catalogue) पुस्तकालयों के एक समूह (group of libraries) की सूची है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "MIZORAM PSC LIBRARY ASST"
+  },
+  {
+    "question": "निम्नलिखित पुस्तकालयों की एक ऑनलाइन यूनियन सूची है ?",
+    "options": [
+      "Indian Universities",
+      "IITs",
+      "IIMs",
+      "Indian universities and colleges"
+    ],
+    "answer": 0,
+    "explanation": "IndCat (इंडियन कैटलॉग) भारतीय विश्वविद्यालयों की एक ऑनलाइन संघ सूची है, जिसे INFLIBNET द्वारा बनाए रखा जाता है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "G.G.S.IND.UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "लाइब्रेरी हब डिस्कवर एक है ?",
+    "options": [
+      "Union Catalogue of Library holdings in Australia",
+      "Directory of Libraries in the World",
+      "Union Catalogue of Library holdings in UK",
+      "Union Catalogue of Library holdings in Ireland"
+    ],
+    "answer": 2,
+    "explanation": "लाइब्रेरी हब डिस्कवर (Library Hub Discover) यूनाइटेड किंगडम (UK) में कई बड़े अकादमिक और विशेषज्ञ पुस्तकालयों के संग्रह का एक संघ सूची है, जिसे Jisc द्वारा प्रबंधित किया जाता है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "IIT ROPAR WRITTEN EXAMINATION 2023"
+  },
+  {
+    "question": "नेशनल यूनियन कैटालॉग (एनयूसी) किसके द्वारा संकलित, अनुरक्षित और मुद्रित किया जाता है ?",
+    "options": [
+      "national Library of India",
+      "State Lenin Library",
+      "Library of Congress",
+      "British Library"
+    ],
+    "answer": 2,
+    "explanation": "नेशनल यूनियन कैटलॉग (NUC) को लाइब्रेरी ऑफ कांग्रेस (Library of Congress) द्वारा संकलित और अनुरक्षित किया जाता है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "DSSSB-2021 TECHNICAL ASSISTANT"
+  },
+  {
+    "question": "शब्दकोश प्रसूची क्या है ?",
+    "options": [
+      "लेखक, शीर्षक, विषय, श्रृंखला आदि और संबंधित संदर्भ एक वर्णमाला क्रम में व्यवस्थित",
+      "विषय प्रविष्टियाँ वर्णानुक्रम में व्यवस्थित की गईं",
+      "लेखक सूची और विषय सूची एक क्रम में मिश्रित",
+      "लेखक प्रविष्टियाँ वर्णमाला क्रम में व्यवस्थित"
+    ],
+    "answer": 0,
+    "explanation": "एक शब्दकोश सूची (Dictionary Catalogue) में सभी प्रकार की प्रविष्टियों (लेखक, शीर्षक, विषय, आदि) को एक ही वर्णानुक्रम में एक साथ व्यवस्थित किया जाता है, जैसे एक शब्दकोश में शब्द होते हैं।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "एस.आर. रंगनाथन का 'शब्दकोश सूची कोड' को पहली बार प्रकाशित किया गया था ?",
+    "options": [
+      "1933",
+      "1934",
+      "1908",
+      "1945"
+    ],
+    "answer": 3,
+    "explanation": "डॉ. एस. आर. रंगनाथन का 'लाइब्रेरी कैटलॉग: फंडामेंटल्स एंड प्रोसीजर', जिसमें डिक्शनरी कैटलॉग कोड भी शामिल था, 1945 में प्रकाशित हुआ था।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "KERLA PSC 2015"
+  },
+  {
+    "question": "डिक्शनरी कैटलॉग कोड (1945) द्वारा तैयार किया गया है ?",
+    "options": [
+      "Library of Congress",
+      "S-R- Ranganathan",
+      "C-A- Cutter",
+      "American Library Association"
+    ],
+    "answer": 1,
+    "explanation": "डिक्शनरी कैटलॉग कोड, डॉ. एस. आर. रंगनाथन द्वारा तैयार किया गया था और उनकी पुस्तक 'लाइब्रेरी कैटलॉग: फंडामेंटल्स एंड प्रोसीजर' (1945) में प्रकाशित हुआ था।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "b"
+  },
+  {
+    "question": "सर्वानवर्ण सूची (शब्दकोश सूची) में सम्मिलित की जाती है ?",
+    "options": [
+      "केवल आख्या प्रविष्टियाँ / Only title entries",
+      "केवल लेखक प्रविष्टियाँ / Only Author entries",
+      "केवल विषय प्रविष्टियाँ / Only Subject entries",
+      "वर्णानुक्रम में सभी प्रकार की प्रविष्टियाँ/All types of entries in alphabetical order"
+    ],
+    "answer": 3,
+    "explanation": "एक शब्दकोश सूची (Dictionary Catalogue) में सभी प्रकार की प्रविष्टियों को एक ही वर्णानुक्रम में व्यवस्थित किया जाता है।",
+    "category": "सूचीकरण के प्रकार",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "साधारणतया, पुस्तकालय सूची........... है?",
+    "options": [
+      "पुस्तक प्रदर्शन हेतु एक उपकरण / A aidfor displaying books",
+      "पुस्तकों की एक सूची / A list of books",
+      "एक पुस्तकालय की पुस्तकों की सूची / A list of books of a particular library",
+      "पुस्तकालयों की पुस्तकों की सूची / A List of books of the libraries"
+    ],
+    "answer": 2,
+    "explanation": "एक पुस्तकालय सूची एक विशेष पुस्तकालय (a particular library) में रखी गई पुस्तकों और अन्य सामग्रियों की एक व्यवस्थित सूची होती है।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "एक पुस्तकालय सूची है ?",
+    "options": [
+      "A biographic tool",
+      "A bibliography",
+      "A bibliographic tool",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "एक पुस्तकालय सूची एक ग्रन्थसूची उपकरण (A bibliographic tool) है जो किसी विशेष संग्रह का वर्णन करता है और उसमें दस्तावेजों का पता लगाने में मदद करता है।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "MIZORAM PSC"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा एप्रोफाइल पुस्तक के रूप में जाना जाता है ?",
+    "options": [
+      "Rare Book",
+      "Books of unknown or doubtful authorship",
+      "Multivolume book",
+      "Oversized book"
+    ],
+    "answer": 1,
+    "explanation": "एपोक्रिफल (Apocryphal) पुस्तकें वे होती हैं जिनका लेखकत्व अज्ञात या संदिग्ध (unknown or doubtful authorship) होता है।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "JKSSB"
+  },
+  {
+    "question": "किसी लेखक की पुस्तकों की विस्तृत सूची है ?",
+    "options": [
+      "Title bibliography",
+      "Author index",
+      "Author catalogue",
+      "Author bibliography"
+    ],
+    "answer": 3,
+    "explanation": "किसी एक लेखक द्वारा या उस पर लिखी गई पुस्तकों की एक विस्तृत सूची को लेखक ग्रंथसूची (Author bibliography) कहा जाता है।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "PATANA HIGH COURT 2019"
+  },
+  {
+    "question": "एनपीएसी का क्या अर्थ है ?",
+    "options": [
+      "National process of accessing cards",
+      "National programme for acquistion of codes",
+      "National programme for acquisition and cataloguing",
+      "National performance assessment of companies"
+    ],
+    "answer": 2,
+    "explanation": "NPAC का अर्थ है नेशनल प्रोग्राम फॉर एक्विजिशन एंड कैटलॉगिंग (National Programme for Acquisition and Cataloguing)।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "PATANA HIGH COURT 2019"
+  },
+  {
+    "question": "एक पुस्तकालय सूची का प्राथमिक उद्देश्य सामग्री के संग्रह के लिए एक के रूप में सेवा करना है ?",
+    "options": [
+      "खोजकर्ता / Locator",
+      "स्रोत / Source",
+      "वर्णनकर्ता / Descriptor",
+      "उपर्युक्त में से कोई नहीं / None of the above"
+    ],
+    "answer": 0,
+    "explanation": "एक पुस्तकालय सूची का प्राथमिक उद्देश्य एक खोजकर्ता या लोकेटर (Locator) के रूप में कार्य करना है, जो उपयोगकर्ताओं को यह पता लगाने में मदद करता है कि पुस्तकालय में कौन सी सामग्री उपलब्ध है और वह कहाँ स्थित है।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "सूचीकरण शब्दावली में, अवैयक्तिक लेखकत्व को...... माना जाता है?",
+    "options": [
+      "corporate authorship",
+      "personal authorship",
+      "shared authorship",
+      "pseudonymous authorship"
+    ],
+    "answer": 0,
+    "explanation": "सूचीकरण में, जब कोई कृति किसी संगठन, संस्था या सरकारी निकाय द्वारा तैयार की जाती है, न कि किसी व्यक्ति द्वारा, तो इसे समष्टिगत या निगमित लेखकत्व (corporate authorship) माना जाता है।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "कॉपी कैटालॉगिंग का तात्पर्य निम्नलिखित द्वारा की गई कैटालॉगिंग से है ?",
+    "options": [
+      "using cataloguing records from a single source",
+      "using cataloguing records from both in-house and external source",
+      "using cataloguing record from an external source",
+      "using cataloguing records from an in-house source"
+    ],
+    "answer": 2,
+    "explanation": "कॉपी कैटालॉगिंग वह प्रक्रिया है जिसमें एक पुस्तकालय किसी बाहरी स्रोत (जैसे OCLC, राष्ट्रीय पुस्तकालय) से पहले से मौजूद कैटलॉगिंग रिकॉर्ड को कॉपी और अनुकूलित करता है, बजाय इसके कि वह स्वयं एक नया रिकॉर्ड बनाए।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "DSSSB 2023 SHIFT II"
+  },
+  {
+    "question": "'आइएमसीई' का मतलब है ?",
+    "options": [
+      "International Meeting of Cataloguing Experts",
+      "International Meeting of Computer Experts",
+      "International Meeting of Communication Experts",
+      "International Meeting of Classification Experts"
+    ],
+    "answer": 0,
+    "explanation": "'IMCE' का मतलब है इंटरनेशनल मीटिंग ऑफ कैटलॉगिंग एक्सपर्ट्स (International Meeting of Cataloguing Experts), जो 1969 में कोपेनहेगन में आयोजित की गई थी।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "ISRO-2019 VIKRRM SARABHAI"
+  },
+  {
+    "question": "भारत में प्रकाशित पुस्तकें खरीदने के लिए आप किस स्रोत से परामर्श लेंगे ?",
+    "options": [
+      "ASLIB Book List",
+      "The Library of Congress Catalogue",
+      "British National Bibliography",
+      "Indian National bibliography"
+    ],
+    "answer": 3,
+    "explanation": "भारत में प्रकाशित पुस्तकों की जानकारी और चयन के लिए सबसे आधिकारिक स्रोत भारतीय राष्ट्रीय ग्रंथसूची (Indian National Bibliography - INB) है।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "CGPSC LIBRARIAN"
+  },
+  {
+    "question": "अलग-अलग पुस्तकालयों द्वारा उपलब्ध कराए गए आंकड़ों के आधार पर संघ सूची का निर्माण कहलाता है ?",
+    "options": [
+      "Combined catalogue",
+      "Cooperative cataloguing",
+      "Joint catalogue",
+      "Shared catalogue"
+    ],
+    "answer": 1,
+    "explanation": "जब विभिन्न पुस्तकालय संघ सूची बनाने के लिए अपने कैटलॉगिंग डेटा का योगदान करते हैं, तो इस प्रक्रिया को सहकारी सूचीकरण (Cooperative cataloguing) कहा जाता है।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "MIZORAM PSC 2019 HELTH"
+  },
+  {
+    "question": "यदि एक कैटालॉग विभिन्न पुस्तकालयों के संग्रह का प्रतिनिधित्व करता है, तब इसे कहा जाता है ?",
+    "options": [
+      "संघीय सूची/Union Catalogue",
+      "वर्गीकृत सूची/Classified Catalogue",
+      "शब्दकोशीय सूची/Dictionary Catalogue",
+      "विषय सूची / Subject Catalogue"
+    ],
+    "answer": 0,
+    "explanation": "एक कैटलॉग जो कई अलग-अलग पुस्तकालयों के संग्रह का प्रतिनिधित्व करता है, उसे संघ सूची (Union Catalogue) कहा जाता है।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "RAJASTHAN UNIVERSITY JTA-2018"
+  },
+  {
+    "question": "भारत में नेशनल यूनियन कैटालॉग ऑफ साइंटिफिक सीरियल्स है?",
+    "options": [
+      "दृष्टांत डाटाबेस / Citation Database",
+      "सांख्यिकीय सारांश / Statistical Abstract",
+      "यूनियन कैटालॉग / Union Catalogue",
+      "ट्रेंड रिपोर्ट / Trend Report"
+    ],
+    "answer": 2,
+    "explanation": "भारत में नेशनल यूनियन कैटलॉग ऑफ साइंटिफिक सीरियल्स (NUCSSI) एक संघ सूची (Union Catalogue) है, जिसे INSDOC (अब NISCAIR/NIScPR) द्वारा बनाए रखा जाता था।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "DSSSB 2019,POST CODE 9/17"
+  },
+  {
+    "question": "पहला वैज्ञानिक जर्नल, किस वर्ष को प्रकाशित किया गया?",
+    "options": [
+      "1665",
+      "1756",
+      "1965",
+      "1905"
+    ],
+    "answer": 0,
+    "explanation": "पहले वैज्ञानिक जर्नलों में से एक, 'जर्नल डेस सावांट्स' (Journal des sçavans) पेरिस में 1665 में प्रकाशित हुआ था।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "ISRO 2021"
+  },
+  {
+    "question": "'ए डिक्शनरी ऑफ ऐनोनिमस एण्ड स्यूडोनिमस लिटरेचर' के लेखक / लैक्सिकोग्राफर कौन हैं?",
+    "options": [
+      "S. Halkett and J. Laing",
+      "Robert Proctor",
+      "Ralph de Sauls",
+      "Hanuman Sastri"
+    ],
+    "answer": 0,
+    "explanation": "गुमनाम और छद्मनाम साहित्य पर प्रसिद्ध कृति, 'A Dictionary of Anonymous and Pseudonymous Literature', को सैमुअल हॉकेट और जॉन लैंग (S. Halkett and J. Laing) द्वारा संकलित किया गया था।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "NVS 2022 MORNING"
+  },
+  {
+    "question": "उस सूची को क्या कहा जाता है जिसमें पुस्तकों के लेखक, शीर्षक, विषय आदि से सम्बन्धित प्रविष्टियों को वर्णानुक्रम में व्यवस्थित किया जाता है ?",
+    "options": [
+      "नाम सूची / Name Catalogue",
+      "शब्दकोशीय सूची / Dictionary Catalogue",
+      "मिश्रित सूची / Mixed Catalogue",
+      "वर्गीकृत सूची / classified Catalogue"
+    ],
+    "answer": 1,
+    "explanation": "जिस सूची में लेखक, शीर्षक, और विषय सभी प्रविष्टियों को एक ही वर्णानुक्रम में व्यवस्थित किया जाता है, उसे शब्दकोशीय सूची (Dictionary Catalogue) कहा जाता है।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "सीए कटर के पुस्तकालय सूची के उद्देश्यों में किस कथन को सहवर्ती उद्देश्य' माना जाता है ?",
+    "options": [
+      "किसी व्यक्ति को पुस्तक ढूंढने में सक्षम बनाना।",
+      "यह दिखाने के लिए कि पुस्तकालय में क्या है।",
+      "पुस्तक के चयन में सहायता करना।",
+      "यह दिखाने के लिए कि रिकॉर्ड बुक में प्रविष्टि कैसे की जाती है।"
+    ],
+    "answer": 1,
+    "explanation": "सी.ए. कटर के अनुसार, एक कैटलॉग को 'यह दिखाना चाहिए कि पुस्तकालय में क्या है' (To show what the library has) - एक दिए गए लेखक द्वारा, एक दिए गए विषय पर, और एक दी गई तरह के साहित्य में। इसे एक सहवर्ती उद्देश्य माना जाता है।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "SHREE CHITRA TIRUNAL INSTTUTE-2023"
+  },
+  {
+    "question": "निम्नलिखित कथनों पर विचार कीजिए :<br>कथन (1): एलसी सहकारी कैटालॉगिंग कार्यक्रम 1830 में स्थापित किया गया था।<br>कथन (2): 1950 में कैलिफोर्निया में सार्वजनिक पुस्तकालय होल्डिंग्स की यूनियन सूची विकसित हुई।",
+    "options": [
+      "Both (1) and (2) are correct",
+      "Both (1) and (2) are incorrect",
+      "(1) is correct, (2) is incorrect",
+      "(1) is incorrect, (2) is correct"
+    ],
+    "answer": 1,
+    "explanation": "कथन (1) गलत है; एलसी का सहकारी कैटलॉगिंग कार्यक्रम 1901 में कार्ड वितरण सेवा के साथ शुरू हुआ। कथन (2) भी गलत है; कैलिफोर्निया में संघ सूची का विकास इस अवधि में हुआ, लेकिन यह एक अधिक जटिल प्रक्रिया थी। इसलिए, दोनों कथन गलत हैं।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "दावा (ए): शब्दकोश कैटालॉग से परामर्श करना बहुत आसान है। कारण (आर): शब्दकोश सूची में केवल लेखक और शीर्षक प्रविष्टियाँ शामिल हैं।",
+    "options": [
+      "Both (A) and (R) are false",
+      "(A) is true, but (R) is false",
+      "B) is false, but (R) is true",
+      "Both (A) and (R) are true"
+    ],
+    "answer": 1,
+    "explanation": "दावा (A) सही है क्योंकि शब्दकोश कैटलॉग का उपयोग करना आसान होता है क्योंकि सब कुछ वर्णानुक्रम में होता है। कारण (R) गलत है क्योंकि शब्दकोश सूची में लेखक और शीर्षक के अलावा विषय प्रविष्टियाँ और अन्य प्रविष्टियाँ भी शामिल होती हैं।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "UPPSC 2023 SHIFT-1"
+  },
+  {
+    "question": "जब कोई पुस्तकालय प्रकाशित कीमतों पर पुस्तकों की आपूर्ति का आदेश देता है, तो ऐसी खरीद प्रणाली को....... कहा जाता है ?",
+    "options": [
+      "vendor system",
+      "tender system",
+      "net book agreement",
+      "quotation system"
+    ],
+    "answer": 2,
+    "explanation": "नेट बुक एग्रीमेंट एक ऐसी प्रणाली थी (अब ब्रिटेन में समाप्त हो गई है) जिसमें प्रकाशक पुस्तकों की न्यूनतम बिक्री मूल्य तय करते थे। यह प्रकाशित कीमतों पर पुस्तकों की खरीद से संबंधित है।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "निम्नलिखित में से क्या संकेतन की गुणवत्ता नहीं है ?",
+    "options": [
+      "सरलता / Simplicity",
+      "सूची / Catalogue",
+      "स्मृति-विज्ञान / Mnemonic quality",
+      "संक्षिप्तता / brevity"
+    ],
+    "answer": 1,
+    "explanation": "संकेतन (Notation) के गुणों में सरलता, स्मरणीयता (mnemonic quality), और संक्षिप्तता शामिल हैं। 'सूची' (Catalogue) स्वयं एक उत्पाद है, संकेतन का गुण नहीं।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "वर्गीकृत सूची में मुख्य प्रविष्टियों की क्या व्यवस्था है ?",
+    "options": [
+      "According to the Author",
+      "According to the title",
+      "By a classification scheme",
+      "Alphbetically"
+    ],
+    "answer": 2,
+    "explanation": "एक वर्गीकृत सूची (Classified Catalogue) में, मुख्य प्रविष्टियों को एक वर्गीकरण योजना (by a classification scheme) के अनुसार व्यवस्थित किया जाता है, जो विषय के अनुसार होती हैं।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "KVS 2015"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सबसे पहले सूचीबद्ध करने के उद्देश्यों और साधनों की रूपरेखा तैयार करने वाला है ?",
+    "options": [
+      "Berwick Sayers",
+      "Seymour Lubetzky",
+      "S.R. Ranganathan",
+      "Charles A. Cutter"
+    ],
+    "answer": 3,
+    "explanation": "चार्ल्स ए. कटर ने 1876 में अपने 'रूल्स फॉर ए डिक्शनरी कैटलॉग' में पहली बार एक पुस्तकालय सूची के उद्देश्यों और कार्यों को व्यवस्थित रूप से परिभाषित किया।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "शेल्फ सूची क्या है ?",
+    "options": [
+      "Catalogue entries of special collection",
+      "Book order card",
+      "Catalogue with entries sorted by call number",
+      "Copy of main entry card"
+    ],
+    "answer": 2,
+    "explanation": "शेल्फ सूची (Shelf List) एक ऐसी सूची होती है जिसकी प्रविष्टियों को कॉल नंबर (call number) के अनुसार व्यवस्थित किया जाता है, ठीक उसी क्रम में जैसे किताबें शेल्फ पर रखी होती हैं।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "कटर बुक नम्बर बनने का आधार क्या है ?",
+    "options": [
+      "Name of the author",
+      "Year of publication",
+      "ISBN",
+      "Book Number"
+    ],
+    "answer": 0,
+    "explanation": "कटर बुक नंबर प्रणाली का आधार लेखक का नाम (Name of the author) है, जिसका उपयोग एक ही वर्ग संख्या के भीतर पुस्तकों को वर्णानुक्रम में व्यवस्थित करने के लिए किया जाता है।",
+    "category": "पुस्तकालय सूची (Library Catalogue)",
+    "source": "MIZORAM PSC 2013 PAPER-I"
+  },
+   {
+    "question": "प्रसूचीकरण प्रविष्टि में 'कोलेशन' क्या है ?",
+    "options": [
+      "Pagination, size, illustrations etc",
+      "Publisher details",
+      "Series details",
+      "Amplification of formal description"
+    ],
+    "answer": 0,
+    "explanation": "सूचीकरण में, 'कोलेशन' (Collation) या भौतिक विवरण क्षेत्र में पुस्तक के भौतिक पहलुओं का वर्णन होता है, जिसमें पृष्ठों की संख्या (Pagination), चित्र (illustrations), और आकार (size) शामिल होते हैं।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "कैटलॉग के निम्नलिखित तत्वों में से कौन सा पेजिनेशन से संबंधित है, वॉल्यूम की संख्या, आदि ?",
+    "options": [
+      "Series",
+      "Collation",
+      "Imprint",
+      "Note"
+    ],
+    "answer": 1,
+    "explanation": "कोलेशन (Collation) क्षेत्र में पुस्तक के भौतिक विवरण, जैसे पृष्ठों या खंडों की संख्या (pagination/volumes), का उल्लेख होता है।",
+    "category": "सूचीकरण: सामान्य अवधारणाएं",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "किस पुस्तकालय द्वारा सर्वप्रथम मुद्रित सूची उपयोग में लाई गयी ?",
+    "options": [
+      "British Museum",
+      "Library of Congress",
+      "Lenin State Library",
+      "Imperial Library"
+    ],
+    "answer": 0,
+    "explanation": "ब्रिटिश म्यूजियम (British Museum) मुद्रित सूची (printed catalogue) के विकास में अग्रणी था। सर एंथोनी पनिज़ी के 91 नियमों पर आधारित इसका कैटलॉग, आधुनिक सूचीकरण के विकास में एक मील का पत्थर था।",
+    "category": "Development of Catalogue Code",
+    "source": "KERLA PSC 2014, UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "प्रसूचीकरण के नियम सर्वप्रथम किसने तैयार किये ?",
+    "options": [
+      "C.A. cutter",
+      "W.C.B. Sayers",
+      "A. Panizzi",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "पुस्तकालय सूचीकरण के लिए नियमों का पहला व्यवस्थित सेट सर एंथोनी पनिज़ी (A. Panizzi) द्वारा ब्रिटिश संग्रहालय के लिए 1841 में तैयार किया गया था, जिसे '91 रूल्स' के नाम से जाना जाता है।",
+    "category": "Development of Catalogue Code",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "ब्रिटिश म्यूजियम कैटलॉग ऑफ प्रिंटेड बुक्स' किस वर्ष प्रकाशित हुई थी ?",
+    "options": [
+      "1839",
+      "1840",
+      "1841",
+      "1842"
+    ],
+    "answer": 2,
+    "explanation": "पनिज़ी के प्रसिद्ध 91 नियमों वाला ब्रिटिश म्यूजियम कैटलॉग 1841 में प्रकाशित हुआ था।",
+    "category": "Development of Catalogue Code",
+    "source": "DELHI UNIVERSITY-2019"
+  },
+  {
+    "question": "सर एंथोनी पन्निजी किससे जुड़े थे ?",
+    "options": [
+      "National Library of India",
+      "British Museum",
+      "National Library of Australia",
+      "Library of Congress"
+    ],
+    "answer": 1,
+    "explanation": "सर एंथोनी पनिज़ी ब्रिटिश म्यूजियम (British Museum) से जुड़े थे, जहाँ वे प्रिंसिपल लाइब्रेरियन थे और उन्होंने सूचीकरण के प्रसिद्ध 91 नियमों का विकास किया।",
+    "category": "Development of Catalogue Code",
+    "source": "CUET PG PAPER 2022"
+  },
+  {
+    "question": "ब्रिटिश म्यूजियम कैटालॉगिंग रूल्स को इस रूप में भी जाना जाता है ?",
+    "options": [
+      "Baber's Rules",
+      "Vatican Rules",
+      "Panizzi's Rules",
+      "Jewett's Rules"
+    ],
+    "answer": 2,
+    "explanation": "ब्रिटिश म्यूजियम के सूचीकरण नियमों को उनके निर्माता, सर एंथोनी पनिज़ी के नाम पर 'पनिज़ी के नियम' (Panizzi's Rules) के रूप में भी जाना जाता है।",
+    "category": "Development of Catalogue Code",
+    "source": "DSSSB-2017"
+  },
+  {
+    "question": "'नाइनटी वन कैटलॉगिंग रूल्स' द्वारा लिखा गया ?",
+    "options": [
+      "SR Ranganathan",
+      "Charles C Jewett",
+      "Charles Cutter",
+      "Anthony Panizzi"
+    ],
+    "answer": 3,
+    "explanation": "नाइनटी वन (91) कैटलॉगिंग रूल्स एंथोनी पनिज़ी (Anthony Panizzi) द्वारा ब्रिटिश संग्रहालय के लिए लिखे गए थे।",
+    "category": "Development of Catalogue Code",
+    "source": "ISRO 2017"
+  },
+  {
+    "question": "डिक्शनरी कैटलॉग का आविष्कार किसने किया था ?",
+    "options": [
+      "Dr. S. R. Ranganathan",
+      "C.A. Cutter",
+      "D.B. Krishna Rao",
+      "K.N. Raj"
+    ],
+    "answer": 1,
+    "explanation": "डिक्शनरी कैटलॉग (शब्दकोश सूची) का आविष्कार और उसके लिए विस्तृत नियम चार्ल्स अम्मी कटर (C.A. Cutter) द्वारा विकसित किए गए थे।",
+    "category": "Development of Catalogue Code",
+    "source": "SHREE CHITRA TIRUNAL INSTTUTE-2023"
+  },
+  {
+    "question": "'मुद्रित शब्दकोश सूची के नियम' किसने तैयार किए ?",
+    "options": [
+      "S.R. Ranganathan",
+      "S. Lubetzky",
+      "A. Panizzi",
+      "C.A. Cutter"
+    ],
+    "answer": 3,
+    "explanation": "'रूल्स फॉर ए प्रिंटेड डिक्शनरी कैटलॉग' (Rules for a Printed Dictionary Catalogue) चार्ल्स अम्मी कटर (C.A. Cutter) द्वारा 1876 में तैयार किए गए थे।",
+    "category": "Development of Catalogue Code",
+    "source": "ISRO 2017, DELHI UNIVERSITY-2019"
+  },
+  {
+    "question": "चार्ल्स अम्मी कटर को किसके लिए जाना जाता है ?",
+    "options": [
+      "Dictionary catalogue",
+      "Classified catalogue",
+      "Alphabetico classified catalogue",
+      "Mixed catalogue"
+    ],
+    "answer": 0,
+    "explanation": "चार्ल्स अम्मी कटर को शब्दकोश सूची (Dictionary catalogue) और उसके लिए नियम बनाने के लिए जाना जाता है।",
+    "category": "Development of Catalogue Code",
+    "source": "MIZORAM PSC LIBRARY ASSISTANT"
+  },
+  {
+    "question": "रूल्स फॉर डिक्शनरी कैटलॉग, 1876 के लेखक हैं ?",
+    "options": [
+      "E.J. Coates",
+      "Charles Ammi Cutter",
+      "S.R. Ranganathan",
+      "J.Kaiser"
+    ],
+    "answer": 1,
+    "explanation": "'रूल्स फॉर ए डिक्शनरी कैटलॉग' (Rules for a Dictionary Catalogue), जो 1876 में प्रकाशित हुआ, के लेखक चार्ल्स अम्मी कटर हैं।",
+    "category": "Development of Catalogue Code",
+    "source": "MAHARANA PARTAP UNIVERSITY 2023"
+  },
+  {
+    "question": "सीए कटर (1837-1903) के मुख्य योगदानों में से एक की व्याख्या है ?",
+    "options": [
+      "Anglo American Cataloguing Rules",
+      "Online Public Access Catalogue Rules",
+      "Rules for a Printed Dictionary Catalogue",
+      "British Museum Cataloguing Rules"
+    ],
+    "answer": 2,
+    "explanation": "सी.ए. कटर का मुख्य योगदान 'रूल्स फॉर ए प्रिंटेड डिक्शनरी कैटलॉग' (Rules for a Printed Dictionary Catalogue) का विकास था।",
+    "category": "Development of Catalogue Code",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "कौन-सा प्रसूची नियम 1876 के दौरान प्रकाशित हुआ था ?",
+    "options": [
+      "Published the CCC",
+      "Published the AACR Rules",
+      "Published the Rules for Dictionary Catalogue",
+      "Alphabetical catalogue Rules"
+    ],
+    "answer": 2,
+    "explanation": "चार्ल्स ए. कटर के 'रूल्स फॉर ए डिक्शनरी कैटलॉग' (Rules for Dictionary Catalogue) 1876 में प्रकाशित हुए थे।",
+    "category": "Development of Catalogue Code",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "1876 में एक पुस्तकालय सूची के उद्देश्यों का व्यापक रूप से वर्णन किया गया था ?",
+    "options": [
+      "Charles Ammi Cutter",
+      "S.R. Ranganathan",
+      "Melvil Dewey",
+      "W.A. Bordon"
+    ],
+    "answer": 0,
+    "explanation": "चार्ल्स अम्मी कटर ने 1876 में अपने 'रूल्स फॉर ए डिक्शनरी कैटलॉग' में पुस्तकालय सूची के उद्देश्यों का व्यापक वर्णन किया।",
+    "category": "Development of Catalogue Code",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "वेटिकन कोड प्रकाशित किया गया था ?",
+    "options": [
+      "1930",
+      "1931",
+      "1932",
+      "1933"
+    ],
+    "answer": 1,
+    "explanation": "वेटिकन लाइब्रेरी के सूचीकरण नियम, जिन्हें वेटिकन कोड के रूप में जाना जाता है, 1931 में प्रकाशित हुए थे।",
+    "category": "Development of Catalogue Code",
+    "source": "DSSSB-2017"
+  },
+  {
+    "question": "वेटिकन रूल्स ऑफ कैटालॉगिंग वर्ष में प्रकाशित है ?",
+    "options": [
+      "1908",
+      "1852",
+      "1757",
+      "1931"
+    ],
+    "answer": 3,
+    "explanation": "वेटिकन रूल्स ऑफ कैटालॉगिंग 1931 में प्रकाशित हुए थे। दिए गए विकल्पों में से 1927 सबसे निकट है, लेकिन यह गलत है। सही उत्तर 1931 है।",
+    "category": "Development of Catalogue Code",
+    "source": "GUWAHTI HIGH COURT 2022"
+  },
+  {
+    "question": "लाइब्रेरी एसोसिएशन लंदन और अमेरिकन लाइब्रेरी एसोसिएशन द्वारा संयुक्तरूप से तैयार किया गया कैटालॉग कोड कहलाता है ?",
+    "options": [
+      "Rules for Dictionary Catalogue",
+      "AA Code",
+      "Classified Catalogue Code",
+      "British Museum Code"
+    ],
+    "answer": 1,
+    "explanation": "ब्रिटिश लाइब्रेरी एसोसिएशन और अमेरिकन लाइब्रेरी एसोसिएशन द्वारा संयुक्त रूप से तैयार किए गए 1908 के कोड को एंग्लो-अमेरिकन कोड (AA Code) के रूप में जाना जाता है।",
+    "category": "Development of Catalogue Code",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "शब्दकोश सूची कार्ड में आम तौर पर कितने खंड/डेटा तत्व होते हैं?",
+    "options": [
+      "Five",
+      "Six",
+      "Seven",
+      "Eight"
+    ],
+    "answer": 3,
+    "explanation": "एक मानक कैटलॉग कार्ड में ISBD (अंतर्राष्ट्रीय मानक ग्रंथसूची विवरण) के अनुसार आठ खंड या क्षेत्र होते हैं, जैसे शीर्षक और जिम्मेदारी का बयान, संस्करण, प्रकाशन विवरण, भौतिक विवरण, श्रृंखला, नोट, मानक संख्या, आदि।",
+    "category": "Development of Catalogue Code",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "निम्नलिखित सूचीकरण विशेषज्ञों की उनकी जन्मतिथि के अनुसार सही अनुक्रम की पहचान कीजिए ?<br>(I) Charles Ammi Cutter<br>(II) Sir Antonio Genesio Maria Panizzi<br>(III) S.R. Ranganathan<br>(IV) Charles Coffin Jewet",
+    "options": [
+      "(I), (II), (III), (IV)",
+      "(II), (IV), (I), (III)",
+      "(IV), (II), (I), (III)",
+      "(II), (IV), (III), (I)"
+    ],
+    "answer": 1,
+    "explanation": "जन्म वर्ष के अनुसार सही क्रम है:<br>(II) पनिज़ी (1797)<br>(IV) ज्वेट (1816)<br>(I) कटर (1837)<br>(III) रंगनाथन (1892)",
+    "category": "Development of Catalogue Code",
+    "source": "EMRS-2023"
+  },
+  {
+    "question": "मुद्रित सूची को प्रस्तुत करने वाला पहला पुस्तकालय ?",
+    "options": [
+      "British Museum",
+      "Library of Congress",
+      "Lelin State",
+      "Imperial Library"
+    ],
+    "answer": 0,
+    "explanation": "ब्रिटिश म्यूजियम मुद्रित सूची के विकास में अग्रणी था और इसके कैटलॉग ने आधुनिक सूचीकरण को बहुत प्रभावित किया।",
+    "category": "Development of Catalogue Code",
+    "source": "JAWAHARLAL NEHRU UNIVERSITY-2015"
+  },
+  {
+    "question": "एंग्लो-अमेरिकन (AA) कोड किस वर्ष प्रकाशित हुआ था ?",
+    "options": [
+      "1961",
+      "1949",
+      "1908",
+      "1876"
+    ],
+    "answer": 2,
+    "explanation": "पहला एंग्लो-अमेरिकन कोड (AA Code) वर्ष 1908 में प्रकाशित हुआ था।",
+    "category": "Development of Catalogue Code",
+    "source": "KERLA PSC 2017"
+  },
+  {
+    "question": "निम्नलिखित में से किस कोड को विषय कैटलॉग के लिए पूर्ण कोडिफीकेशन माना जाता था ?",
+    "options": [
+      "Vatican Code",
+      "Jewett's Code",
+      "Ranganathan Code",
+      "CA Cutter's Code"
+    ],
+    "answer": 2,
+    "explanation": "रंगनाथन का क्लासिफाइड कैटलॉग कोड (CCC) विषय सूची के लिए एक पूर्ण संहिता (पूर्ण कोडिफीकेशन) माना जाता है, जिसमें श्रृंखला प्रक्रिया (chain procedure) के माध्यम से विषय प्रविष्टियों को प्राप्त करने के लिए विस्तृत नियम हैं।",
+    "category": "Development of Catalogue Code",
+    "source": "KVS 2015"
+  },
+  {
+    "question": "निम्नलिखित को सुमेलित कीजिए ?<br><b>List-I</b><br>(A) Rules for a Dictionary Catalogue<br>(B) Anglo-American Cataloguing Rules<br>(C) Anglo-American Cataloguing Rules (2nd edition)<br>(D) Ninety-one Cataloguing Rules<br><b>List-II</b><br>(i) 1841<br>(ii) 1978<br>(iii) 1967<br>(iv) 1876",
+    "options": [
+      "A-i, B-iv, C-ii, D-iii",
+      "A-iv, B-iii, C-ii, D-i",
+      "A-iv, B-iii, C-ii, D-i",
+      "A-ii, B-iv, C-iii, D-i"
+    ],
+    "answer": 2,
+    "explanation": "सही मिलान है:<br>(A) Rules for a Dictionary Catalogue - (iv) 1876<br>(B) Anglo-American Cataloguing Rules (AACR-1) - (iii) 1967<br>(C) Anglo-American Cataloguing Rules (2nd edition) - (ii) 1978<br>(D) Ninety-one Cataloguing Rules - (i) 1841",
+    "category": "Development of Catalogue Code",
+    "source": "KVS 2023 SHIFT-2"
+  },
+  {
+    "question": "Match List -1 Correctly with List -II<br><b>List-I</b><br>(A) British Museum Code<br>(B) ALA Code<br>(C) Anglo-American Code<br>(D) Rules for Dictionary Catalogue<br><b>List-II</b><br>1-1949<br>2-1841<br>3-1876<br>4-1908",
+    "options": [
+      "A-4, B-1, C-2, D-3",
+      "A-2, B-1, C-4, D-3",
+      "A-1, B-4, C-3, D-2",
+      "A-3, B-2, C-4, D-1"
+    ],
+    "answer": 1,
+    "explanation": "सही मिलान है:<br>(A) ब्रिटिश म्यूजियम कोड - 2-1841<br>(B) एएलए कोड - 1-1949<br>(C) एंग्लो-अमेरिकन कोड - 4-1908<br>(D) रूल्स फॉर डिक्शनरी कैटलॉग - 3-1876",
+    "category": "Development of Catalogue Code",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "निम्नलिखित सूचीकरण संहिताओं को उनके उद्भव अनुसार क्रम में रखे ?<br>(A) A.A.C.R. 2<br>(B) CCC<br>(C) AA code<br>(D) ALA code",
+    "options": [
+      "C, D, A, B",
+      "B, D, C, A",
+      "C, B, D, A",
+      "D, A, B, C"
+    ],
+    "answer": 2,
+    "explanation": "यह प्रश्न गलत है क्योंकि विकल्पों में त्रुटि है। सही कालानुक्रमिक क्रम है:<br>(C) AA code (1908)<br>(B) CCC (1934)<br>(D) ALA code (1949)<br>(A) A.A.C.R. 2 (1978)।<br>सही क्रम C, B, D, A होना चाहिए।",
+    "category": "Development of Catalogue Code",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "निम्नलिखित सूची कोड को उनके उद्भव अनुसार क्रम मे रखे ?<br>(1) AACR -2<br>(2) CCC<br>(3) AA Code<br>(4) ALA Code",
+    "options": [
+      "3, 2, 4, 1",
+      "4, 1, 2, 3",
+      "3, 4, 1, 2",
+      "2, 4, 3, 1"
+    ],
+    "answer": 0,
+    "explanation": "प्रकाशन के वर्ष के अनुसार सही कालानुक्रमिक क्रम है:<br>(3) AA Code (1908)<br>(2) CCC (1934)<br>(4) ALA Code (1949)<br>(1) AACR-2 (1978)",
+    "category": "Development of Catalogue Code",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "निम्नलिखित को उनके प्रकाशन वर्ष के अनुसार व्यवस्थित करें<br>(i) Sear's list of subject headings<br>(ii) Panizzi code<br>(iii) AACR-1<br>(iv) CCC",
+    "options": [
+      "ii, i, iv, iii",
+      "i, iii, ii, iv",
+      "iv, ii, iii, i",
+      "iii, iv, i, ii"
+    ],
+    "answer": 0,
+    "explanation": "प्रकाशन के वर्ष के अनुसार सही कालानुक्रमिक क्रम है:<br>(ii) Panizzi code (1841)<br>(i) Sear's list of subject headings (1923)<br>(iv) CCC (1934)<br>(iii) AACR-1 (1967)",
+    "category": "Development of Catalogue Code",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "निम्नलिखित का मिलान करें और नीचे दिए गए कोड से सही उत्तर का चयन करें ?<br><b>List I</b><br>(A) C.A. Cutter<br>(B) Anthony Panizzi<br>(C) S-R- Ranganathan<br>(D) Seymour Lubetzky<br><b>List II</b><br>(i) ALA Code<br>(ii) CCC<br>(iii) British Museum<br>(iv) Rules for Dictionary Catalogue",
+    "options": [
+      "A-iii, B-iv, C-ii, D-i",
+      "A-iv, B-iii, C-ii, D-i",
+      "A-i, B-iv, C-ii, D-iii",
+      "A-ii, B-i, C-iv, D-iii"
+    ],
+    "answer": 1,
+    "explanation": "सही मिलान है:<br>(A) C.A. Cutter - (iv) Rules for Dictionary Catalogue<br>(B) Anthony Panizzi - (iii) British Museum Code<br>(C) S-R- Ranganathan - (ii) CCC (Classified Catalogue Code)<br>(D) Seymour Lubetzky - (i) ALA Code (1949 के कोड के पुनरीक्षण में महत्वपूर्ण भूमिका निभाई)",
+    "category": "Development of Catalogue Code",
+    "source": "MHPSC 2017 PAPER-III"
+  },
+  {
+    "question": "पुस्तकालय के संदर्भ में 'फाइलिंग नियम' क्या हैं ?",
+    "options": [
+      "Rules for filing membership cards",
+      "Rules for filing catalogue cards",
+      "Rules for filing office records",
+      "Rules for filing charged cards"
+    ],
+    "answer": 1,
+    "explanation": "पुस्तकालय के संदर्भ में, 'फाइलिंग नियम' (Filing Rules) वे नियम हैं जो कैटलॉग कार्ड या प्रविष्टियों को एक विशिष्ट क्रम (जैसे वर्णानुक्रम) में व्यवस्थित करने के लिए उपयोग किए जाते हैं।",
+    "category": "Physical form of Library Catalogue",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "कैटालॉग कार्ड का मानक आकार है ?",
+    "options": [
+      "12.5 cm x 7.5 cm",
+      "12 cm x 7 cm",
+      "11 cm x 5 cm",
+      "10 cm x 4 cm"
+    ],
+    "answer": 0,
+    "explanation": "लाइब्रेरी कैटलॉग कार्ड का अंतरराष्ट्रीय मानक आकार 12.5 सेमी x 7.5 सेमी (या लगभग 5 इंच x 3 इंच) है।",
+    "category": "Physical form of Library Catalogue",
+    "source": "SHREE CHITRA TIRUNAL INSTTUTE-2023"
+  },
+  {
+    "question": "निम्नलिखित में से एक कैटलॉग कार्ड के मानक आकार की पहचान करें जिसे डेवी द्वारा इसे मानक बनाने के लिए प्रोत्साहित किया गया था ?",
+    "options": [
+      "12.6 cm x 7.5 cm",
+      "12.7 cm x 7.5 cm",
+      "12.5 cm x 7.5 cm",
+      "12.4 cm x 7.5 cm"
+    ],
+    "answer": 2,
+    "explanation": "कैटलॉग कार्ड का मानक आकार 12.5 सेमी x 7.5 सेमी है।",
+    "category": "Physical form of Library Catalogue",
+    "source": "JKSSB"
+  },
+  {
+    "question": "पुस्तकालय सूची पत्रक विशेषरूप से निर्मित दराजों (ड्रोर्स) में रखे जाते समय उनको निम्न में से क्या कहा जाता है ?",
+    "options": [
+      "चार्जिंग ट्रे/Charging Tray",
+      "फिलिंग उपकरण/Filling Equipment",
+      "प्रदर्शन ग्रंथाधार/Display Rack",
+      "सूची कैबीनेट/Cataloguing cabinet"
+    ],
+    "answer": 3,
+    "explanation": "पुस्तकालय सूची पत्रकों को रखने के लिए विशेष रूप से निर्मित दराजों वाली अलमारी को सूची कैबिनेट (Catalogue Cabinet) कहा जाता है।",
+    "category": "Physical form of Library Catalogue",
+    "source": "RSMSSB 2016"
+  },
+  {
+    "question": "निम्नलिखित में से किसमें लाइब्रेरी कैटालॉग कार्ड विशिष्ट दराज में फाइल किए जाते हैं'?",
+    "options": [
+      "Filing draw",
+      "Charging tray",
+      "Display shelf",
+      "Catalogue shelf"
+    ],
+    "answer": 0,
+    "explanation": "लाइब्रेरी कैटलॉग कार्ड को फाइलिंग दराज (Filing draw) में फाइल किया जाता है, जो एक कैटलॉग कैबिनेट का हिस्सा होता है।",
+    "category": "Physical form of Library Catalogue",
+    "source": "AIIMS, BHUBANESWAR-2019"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा कैटालॉग का भौतिक रूप नहीं है ?",
+    "options": [
+      "Sheaf Catalogue",
+      "OPAC",
+      "Microfilm Catalogue",
+      "Dictionary Catalogue"
+    ],
+    "answer": 3,
+    "explanation": "शीफ, ओपेक, और माइक्रोफिल्म कैटलॉग के भौतिक रूप हैं। शब्दकोश कैटलॉग (Dictionary Catalogue) कैटलॉग का एक आंतरिक रूप (inner form) है, जो प्रविष्टियों की व्यवस्था को संदर्भित करता है, न कि उसके भौतिक स्वरूप को।",
+    "category": "Physical form of Library Catalogue",
+    "source": "CGPSC LIBRARIAN"
+  },
+  {
+    "question": "पुस्तकों के भौतिक प्रसंस्करण के चरणों में शामिल नहीं हैं ?",
+    "options": [
+      "preparation for call number tags",
+      "preparing catalogue card",
+      "preparation for circulation",
+      "inspection"
+    ],
+    "answer": 1,
+    "explanation": "भौतिक प्रसंस्करण में पुस्तकों पर कॉल नंबर टैग लगाना, परिसंचरण के लिए तैयार करना (जैसे बारकोड, डेट स्लिप लगाना), और निरीक्षण शामिल है। कैटलॉग कार्ड तैयार करना एक तकनीकी प्रक्रिया है, भौतिक प्रसंस्करण नहीं।",
+    "category": "Physical form of Library Catalogue",
+    "source": "PATANA HIGH COURT 2022"
+  },
+  {
+    "question": "नीचे दो कथन दिए गए हैं :<br>कथन I: विषय सूचीकरण लेखक और शीर्षक प्रविष्टियों की तुलना मे कम महत्वपूर्ण नहीं है।<br>कथन II : वर्णनात्मक कैटलॉगिंग से तात्पर्य उपयोगकर्ता द्वारा इसकी त्वरित पहचान की दृष्टि से कैटलॉग प्रविष्टि पर किसी पुस्तक या अन्य पठन सामग्री का वर्णन करने की प्रक्रिया से है।",
+    "options": [
+      "Both Statement I and Statement II are true",
+      "Both Statement I and Statement II are false",
+      "Statement I is true but Statement II is false",
+      "Statement I is false but Statement II is true"
+    ],
+    "answer": 0,
+    "explanation": "दोनों कथन सत्य हैं। कथन I सही है क्योंकि विषय पहुंच उपयोगकर्ता के लिए उतनी ही महत्वपूर्ण है जितनी लेखक या शीर्षक पहुंच। कथन II वर्णनात्मक कैटलॉगिंग की सही परिभाषा है, जिसका उद्देश्य किसी दस्तावेज़ की पहचान करने के लिए पर्याप्त भौतिक विवरण प्रदान करना है।",
+    "category": "Physical form of Library Catalogue",
+    "source": "CUET PG PAPER 2022"
+  },
+  {
+    "question": "माइक्रोफॉर्म कैटालॉग का व्यापक रूप से उपयोग किया जा रहा है.........?",
+    "options": [
+      "1970s",
+      "1990s",
+      "1980s",
+      "1960s"
+    ],
+    "answer": 3,
+    "explanation": "माइक्रोफॉर्म कैटलॉग का उपयोग 1960 के दशक में शुरू हुआ और यह ऑनलाइन कैटलॉग के आने से पहले एक लोकप्रिय विकल्प था।",
+    "category": "Physical form of Library Catalogue",
+    "source": "DSSSB-2021 TECHNICAL ASSISTANT"
+  },
+  {
+    "question": "लाइब्रेरी कैटालॉग कार्ड विशेष रूप से डिजाइन किए गए दराजों में रखे जाते हैं जिन्हें कहा जाता है ?",
+    "options": [
+      "Charging tray",
+      "Catalogue cabinet",
+      "Display rack",
+      "Filling equipment"
+    ],
+    "answer": 1,
+    "explanation": "लाइब्रेरी कैटलॉग कार्ड को कैटलॉग कैबिनेट (Catalogue cabinet) नामक विशेष फर्नीचर में रखा जाता है।",
+    "category": "Physical form of Library Catalogue",
+    "source": "GURUGRAM UNI. 2023"
+  },
+  {
+    "question": "पुस्तकालय द्वारा ज्यादातर केटालॉग का कौन सा भौतिक रूप इस्तेमाल किया जाता है ?",
+    "options": [
+      "Card form",
+      "Register form",
+      "Sheaf form",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "20वीं शताब्दी के अधिकांश समय में, कैटलॉग का सबसे प्रचलित भौतिक रूप कार्ड रूप (Card form) था। अब इसका स्थान OPAC ने ले लिया है।",
+    "category": "Physical form of Library Catalogue",
+    "source": "HPSSC HAMIRPUR 2022"
+  },
+  {
+    "question": "यूनिट कार्ड सिद्धान्त...........से सम्बन्धित है ?",
+    "options": [
+      "कार्ड सूचीपत्र / card catalogue",
+      "शेल्फ कार्ड / shelf card",
+      "पुस्तक कार्ड / book card",
+      "उपरोक्त सभी / All of the above"
+    ],
+    "answer": 0,
+    "explanation": "यूनिट कार्ड सिद्धांत कार्ड कैटलॉग (card catalogue) से संबंधित है। इस सिद्धांत के अनुसार, एक मुख्य प्रविष्टि (main entry) कार्ड बनाया जाता है और फिर आवश्यक अतिरिक्त प्रविष्टियाँ (added entries) बनाने के लिए उसी कार्ड की प्रतियां उपयोग की जाती हैं, जिन पर केवल उपयुक्त शीर्षक जोड़ा जाता है।",
+    "category": "Physical form of Library Catalogue",
+    "source": "ISRO 2016"
+  },
+  {
+    "question": "कार्ड कैटलॉग में कार्ड की मानक मोटाई क्या है ?",
+    "options": [
+      "0.24 mm",
+      "0.23 mm",
+      "0.25 mm",
+      "0.26 mm"
+    ],
+    "answer": 2,
+    "explanation": "कार्ड कैटलॉग में उपयोग किए जाने वाले कार्ड की मानक मोटाई लगभग 0.25 मिमी होती है ताकि वे टिकाऊ रहें।",
+    "category": "Physical form of Library Catalogue",
+    "source": "JKSSB"
+  },
+  {
+    "question": "माइक्रोफिश का मानक आकार है ?",
+    "options": [
+      "3\" x 5\"",
+      "5\" x 6\"",
+      "3\" x 4\"",
+      "4\" x 6\""
+    ],
+    "answer": 3,
+    "explanation": "माइक्रोफिश का मानक आकार 4 इंच x 6 इंच (या 105 मिमी x 148 मिमी) है।",
+    "category": "Physical form of Library Catalogue",
+    "source": "KERLA PSC 2015"
+  },
+  {
+    "question": "निम्नलिखित में से कौन-सा सूची का आन्तरिक स्वरूप नहीं है ?",
+    "options": [
+      "शब्दकोशीय सूची/Dictionary Catalogue",
+      "वर्गीकृत सूची/Classified Catalogue",
+      "शीर्ष सूची/Title Catalogue",
+      "पुस्तक स्वरूप सूची/Book form of Catalogue"
+    ],
+    "answer": 3,
+    "explanation": "शब्दकोशीय, वर्गीकृत और शीर्षक सूची, सूची के आंतरिक स्वरूप (inner forms) हैं जो प्रविष्टियों की व्यवस्था को दर्शाते हैं। पुस्तक स्वरूप (Book form) सूची का एक भौतिक स्वरूप (physical form) है।",
+    "category": "Inner form of Library Catalogue",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "'सब्जेक्ट कैटालॉगः हेडिग्स एण्ड स्ट्रक्चर' नामक पुस्तक के लेखक कौन थे ?",
+    "options": [
+      "C.A. Cutter",
+      "E.J. Coates",
+      "J. Kaiser",
+      "S.R. Ranganathan"
+    ],
+    "answer": 1,
+    "explanation": "'सब्जेक्ट कैटालॉग्स: हेडिंग्स एंड स्ट्रक्चर' (Subject Catalogues: Headings and Structure) पुस्तक के लेखक ई.जे. कोट्स (E.J. Coates) हैं।",
+    "category": "Inner form of Library Catalogue",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "पुस्तकालयों में पुस्तकें सामान्यतः निम्नानुसार व्यवस्थित की जाती हैं ?",
+    "options": [
+      "Author",
+      "Title",
+      "Subject",
+      "Accession number"
+    ],
+    "answer": 2,
+    "explanation": "पुस्तकालयों में, पुस्तकों को आम तौर पर विषय (Subject) के अनुसार व्यवस्थित किया जाता है ताकि संबंधित सामग्री एक साथ मिल सके। यह व्यवस्था वर्गीकरण के माध्यम से प्राप्त की जाती है।",
+    "category": "Inner form of Library Catalogue",
+    "source": "GUWAHTI HIGH COURT 2019"
+  },
+  {
+    "question": "विषय प्रसूची के लेखक कौन हैं ?",
+    "options": [
+      "J. Kaiser",
+      "S. R. Ranganathan",
+      "C.A. cutter",
+      "E.J. Coates"
+    ],
+    "answer": 3,
+    "explanation": "यह प्रश्न पिछले प्रश्न जैसा ही है। 'सब्जेक्ट कैटालॉग्स: हेडिंग्स एंड स्ट्रक्चर' के लेखक ई.जे. कोट्स हैं, जो विषय सूचीकरण के एक प्रमुख सिद्धांतकार थे।",
+    "category": "Inner form of Library Catalogue",
+    "source": "RAJASTHAN UNIVERSITY JTA-2018"
+  },
+  {
+    "question": "वर्गीकृत प्रसूची है ?",
+    "options": [
+      "विषय प्रसूची / Subject Catalogue",
+      "आख्या प्रसूची / Title Catalogue",
+      "लेखक प्रसूची / Author Catalogue",
+      "सम्पादक प्रसूची / Editor's Catalogue"
+    ],
+    "answer": 0,
+    "explanation": "एक वर्गीकृत प्रसूची (Classified Catalogue) में मुख्य प्रविष्टियाँ विषय के अनुसार व्यवस्थित होती हैं, इसलिए इसे विषय प्रसूची भी कहा जा सकता है।",
+    "category": "Inner form of Library Catalogue",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "विषय प्रसूची से अभिप्राय है ?",
+    "options": [
+      "विषयों की प्रसूची / A Catalogue of subjects",
+      "प्रसूची के लिए विषयों का विभाजन / A Division of subjects for Catalogue",
+      "विषय संलेख युक्त प्रसूची / A Catalogue consisting of subject entries",
+      "उपर्युक्त में से कोई नहीं/None of the above"
+    ],
+    "answer": 2,
+    "explanation": "एक विषय प्रसूची (Subject Catalogue) वह सूची होती है जो विषय प्रविष्टियों (subject entries) से बनी होती है, जिससे उपयोगकर्ता विषय के आधार पर सामग्री खोज सकते हैं।",
+    "category": "Inner form of Library Catalogue",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "निम्नलिखित में से कौन-से वर्गीकृत प्रसूची के भाग हैं ?",
+    "options": [
+      "An author-title file",
+      "Subject file arranged by library classification",
+      "An alphabetical index to the subject file",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "एक वर्गीकृत प्रसूची (Classified Catalogue) में दो मुख्य भाग होते हैं: वर्गीकृत भाग (classified part), जिसमें मुख्य प्रविष्टियाँ वर्गीकरण योजना के अनुसार व्यवस्थित होती हैं, और एक वर्णानुक्रमिक भाग (alphabetical part), जिसमें लेखक, शीर्षक, और विषय सूचकांक प्रविष्टियाँ होती हैं। इसलिए, दिए गए सभी विकल्प इसके हिस्से हैं।",
+    "category": "Inner form of Library Catalogue",
+    "source": "AEES-2018"
+  },
+  {
+    "question": "कैटालॉग के निम्नलिखित में से किस रूप में सभी प्रविष्टियाँ (लेखक, शीर्षक, विषय श्रृंखला आदि) और उनके संबंधित संदर्भ एक सामान्य वर्णमाला में एक साथ व्यवस्थित हैं ?",
+    "options": [
+      "Classified Catalogue",
+      "Automated Catalogue",
+      "Dictionary Catalogue",
+      "Alphabetico-Classed Catalogue"
+    ],
+    "answer": 2,
+    "explanation": "शब्दकोश सूची (Dictionary Catalogue) में, सभी प्रकार की प्रविष्टियाँ - लेखक, शीर्षक, विषय, आदि - एक ही वर्णानुक्रमिक क्रम में एक साथ व्यवस्थित होती हैं।",
+    "category": "Inner form of Library Catalogue",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "विषय सूची है ?",
+    "options": [
+      "Catalogue of subject entries",
+      "Catalogue of author entries",
+      "Catalogue of Publisher entries",
+      "Catalogue if title entries"
+    ],
+    "answer": 0,
+    "explanation": "एक विषय सूची (Subject Catalogue) विषय प्रविष्टियों (subject entries) की एक सूची है।",
+    "category": "Inner form of Library Catalogue",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "स्थानों से सम्बन्धित पुस्तकों का कैटलॉग है ?",
+    "options": [
+      "स्थलाकृतिक कैटालॉग/Topographical catalogue",
+      "संयोजी कैटालॉग/Connective catalogue",
+      "व्यापार कैटालॉग/Trade catalogue",
+      "आनुक्रमिक कैटालॉग/Serial catalogue"
+    ],
+    "answer": 2,
+    "explanation": "यह प्रश्न भ्रामक है। 'स्थलाकृतिक कैटलॉग' आमतौर पर मानचित्रों से संबंधित है। व्यापार कैटलॉग (Trade catalogue) प्रकाशकों या पुस्तक विक्रेताओं द्वारा जारी किया जाता है और यह विभिन्न स्थानों से संबंधित पुस्तकें सूचीबद्ध कर सकता है। दिए गए उत्तर के अनुसार यह 'व्यापार कैटलॉग' है।",
+    "category": "Inner form of Library Catalogue",
+    "source": "KVS 2015"
+  },
+  {
+    "question": "OPAC का अर्थ है ?",
+    "options": [
+      "Catalogue Online Private Access Catalogue",
+      "Online Periodicals Access",
+      "Online Public Access Catalogue",
+      "Online Public Access Classification"
+    ],
+    "answer": 2,
+    "explanation": "OPAC का अर्थ है ऑनलाइन पब्लिक एक्सेस कैटलॉग (Online Public Access Catalogue)। यह पुस्तकालय के संग्रह का एक कम्प्यूटरीकृत संस्करण है जिसे उपयोगकर्ता खोज सकते हैं।",
+    "category": "OPAC",
+    "source": "DSSSB 2023 SHIFT II"
+  },
+  {
+    "question": "ओपेक को बढ़ावा देने में क्या मदद करता है ?",
+    "options": [
+      "Networking arrangement",
+      "Library networking arrangement",
+      "Online library networking arrangement",
+      "Computer in invention"
+    ],
+    "answer": 2,
+    "explanation": "ऑनलाइन पुस्तकालय नेटवर्किंग व्यवस्था (Online library networking arrangement) ने ओपेक के विकास और उपयोग को बहुत बढ़ावा दिया है, जिससे उपयोगकर्ता एक ही इंटरफेस से कई पुस्तकालयों के संग्रह को खोज सकते हैं।",
+    "category": "OPAC",
+    "source": "MIZORAM PSC 2013"
+  },
+  {
+    "question": "ओपेक उपयोगकर्ताओं को क्या प्रदान करता है ?",
+    "options": [
+      "More accessibility particularly by title",
+      "More accessibility",
+      "More accessibility particularly by author",
+      "More accessibility by title, author, publisher, ISBN, etc"
+    ],
+    "answer": 3,
+    "explanation": "OPAC उपयोगकर्ताओं को कई पहुँच बिंदुओं (access points) जैसे शीर्षक, लेखक, प्रकाशक, ISBN, कीवर्ड आदि के माध्यम से बेहतर पहुँच (More accessibility) प्रदान करता है, जो पारंपरिक कार्ड कैटलॉग की तुलना में बहुत अधिक लचीला है।",
+    "category": "OPAC",
+    "source": "MIZORAM PSC 2019"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा वेब ओपेक का लाभ है ?",
+    "options": [
+      "इंटरनेट कनेक्शन की कोई आवश्यकता नहीं है",
+      "यह विंडोज के किसी भी संस्करण पर चलता है",
+      "दुनिया के किसी भी कोने से पहुंच संभव हैं",
+      "यह मुफ्त उपलब्ध ओपन सोर्स सॉफ्टवेयर पर चलता है"
+    ],
+    "answer": 2,
+    "explanation": "वेब ओपेक का सबसे बड़ा लाभ यह है कि इंटरनेट कनेक्शन के साथ दुनिया के किसी भी कोने से पुस्तकालय के कैटलॉग तक पहुँचा जा सकता है, जिससे यह 24/7 उपलब्ध रहता है।",
+    "category": "OPAC",
+    "source": "ALIGARH MUSLIM UNIVERSITY"
+  },
+  {
+    "question": "वे कार्ड कैटालॉग जो एक विशिष्टतः डिजाइन किए गए कैटालॉग कैबिनेट में व्यवस्थित किए गए थे, अब......द्वारा प्रतिस्थापित किए गए हैं ?",
+    "options": [
+      "OPAC",
+      "OPEC",
+      "OPUC",
+      "OPCA"
+    ],
+    "answer": 0,
+    "explanation": "पारंपरिक कार्ड कैटलॉग को अब बड़े पैमाने पर OPAC (ऑनलाइन पब्लिक एक्सेस कैटलॉग) द्वारा प्रतिस्थापित कर दिया गया है।",
+    "category": "OPAC",
+    "source": "DSSSB 2019, POST CODE 10/17"
+  },
+  {
+    "question": "वेब OPAC या ऑनलाइन कैटालॉग कौन-से मानक का अनुसरण करता है ?",
+    "options": [
+      "MARC",
+      "DC",
+      "AACR",
+      "All the above"
+    ],
+    "answer": 0,
+    "explanation": "वेब ओपेक में ग्रंथसूची संबंधी रिकॉर्ड बनाने, संग्रहीत करने और आदान-प्रदान करने के लिए MARC (मशीन-पठनीय सूचीकरण) मानक का अनुसरण किया जाता है।",
+    "category": "OPAC",
+    "source": "DSSSB 2019, POST CODE 10/17"
+  },
+  {
+    "question": "कैटालॉग, डिजिटल लाइब्रेरी, आइआर आदि को शामिल करके और परंपरागत ओपेक को प्रतिस्थापित कर उपयोक्ताओं को पूरे पुस्तकालय संसाधनों की खोज व ब्राउस करने में सहायक है ?",
+    "options": [
+      "Invenio",
+      "Koha",
+      "VuFind",
+      "DOmka"
+    ],
+    "answer": 2,
+    "explanation": "VuFind एक ओपन-सोर्स डिस्कवरी इंटरफ़ेस है जो पारंपरिक OPAC को प्रतिस्थापित करता है और उपयोगकर्ताओं को एक ही खोज बॉक्स के माध्यम से पुस्तकालय के सभी संसाधनों (कैटलॉग, डिजिटल लाइब्रेरी, संस्थागत भंडार आदि) को खोजने की अनुमति देता है।",
+    "category": "OPAC",
+    "source": "ISRO 2017"
+  },
+  {
+    "question": "पारंपरिक कार्ड कैटलॉग को कम्प्यूटरीकृत में बदलने की प्रक्रिया ने ओपेक को जन्म दिया है। ओपेक का मतलब है ?",
+    "options": [
+      "Online Public Available Catalogue",
+      "Online Platform Automated Catalogue",
+      "Online Public Access Catalogue",
+      "Online Public Automated Catalogue"
+    ],
+    "answer": 2,
+    "explanation": "OPAC का मतलब ऑनलाइन पब्लिक एक्सेस कैटलॉग (Online Public Access Catalogue) है।",
+    "category": "OPAC",
+    "source": "JKSSB"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा वेब पर प्रदान किया जाता है और इंटरनेट की सहायता से कहीं से भी पहुँचा जा सकता है ?",
+    "options": [
+      "Web OPAC",
+      "Dictionary Catalogue",
+      "Classified Catalogue",
+      "OPAC"
+    ],
+    "answer": 0,
+    "explanation": "वेब ओपेक (Web OPAC) एक ऑनलाइन कैटलॉग है जिसे वेब ब्राउज़र और इंटरनेट कनेक्शन का उपयोग करके कहीं से भी एक्सेस किया जा सकता है।",
+    "category": "OPAC",
+    "source": "JKSSB"
+  },
+  {
+    "question": "दावा (A) : वेब ओपेक एक कम्प्यूटरीकृत पुस्तकालय सूची है जो ऑनलाइन संरक्षक के लिए उपलब्ध है। कारण (R) : इसे उपयोक्ता द्वारा पुस्तकालय की चार दीवारी के भीतर ही खोजा जा सकता है।",
+    "options": [
+      "Both (A) and (R) are true.",
+      "Both (A) and (R) are false.",
+      "(A) is true but (R) is false.",
+      "(A) is false but (R) is True."
+    ],
+    "answer": 2,
+    "explanation": "दावा (A) सही है कि वेब ओपेक एक ऑनलाइन कम्प्यूटरीकृत सूची है। कारण (R) गलत है क्योंकि वेब ओपेक को इंटरनेट के माध्यम से कहीं से भी खोजा जा सकता है, न कि केवल पुस्तकालय के भीतर।",
+    "category": "OPAC",
+    "source": "KERLA PSC 2017"
+  },
+  {
+    "question": "निम्नलिखित में से किस सॉफ्टवेयर में सर्च मॉड्यूल के लिए ओपेक के स्थान पर इंक्वायरी शब्द का प्रयोग किया जाता है ?",
+    "options": [
+      "Virtua",
+      "LibSys",
+      "SOUL",
+      "Alice for Windows"
+    ],
+    "answer": 1,
+    "explanation": "LibSys, जो भारत में एक लोकप्रिय पुस्तकालय प्रबंधन सॉफ्टवेयर है, अपने सार्वजनिक खोज मॉड्यूल के लिए 'OPAC' के बजाय 'Inquiry' शब्द का उपयोग करता है।",
+    "category": "OPAC",
+    "source": "PSC 2022"
+  },
+  {
+    "question": "ओपेक की निम्नलिखित में से किस विशेषता ने पारंपरिक कैटलॉग पर उनके उपयोग को बढ़ाया है ?",
+    "options": [
+      "किसी भी तत्व के तहत खोज सुविधा उपलब्ध है",
+      "मीडिया क्वालीफायर की कोई आवश्यकता नहीं है",
+      "सॉर्टिंग प्रक्रिया स्थिर है",
+      "ग्रंथसूची विवरण में तत्वों के बीच विराम चिह्न की कोई आवश्यकता नहीं है"
+    ],
+    "answer": 0,
+    "explanation": "ओपेक की सबसे बड़ी विशेषता यह है कि यह किसी भी तत्व (जैसे लेखक, शीर्षक, कीवर्ड, ISBN) के तहत खोज की सुविधा प्रदान करता है, जो कार्ड कैटलॉग की सीमित पहुँच बिंदुओं की तुलना में बहुत अधिक शक्तिशाली है।",
+    "category": "OPAC",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सी वेब ओपेक की एक विशेषता है ?",
+    "options": [
+      "It is pre-coordinated",
+      "It is command-language-based",
+      "It is navigation-based",
+      "It is phrase-indexed"
+    ],
+    "answer": 2,
+    "explanation": "आधुनिक वेब ओपेक अक्सर नेविगेशन-आधारित (navigation-based) होते हैं, जो उपयोगकर्ताओं को हाइपरलिंक्स, पहलुओं (facets) और अन्य वेब-अनुकूल सुविधाओं का उपयोग करके परिणामों को ब्राउज़ करने और परिष्कृत करने की अनुमति देते हैं।",
+    "category": "OPAC",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "दावा (A) : भारत में विश्वविद्यालय पुस्तकालय पूरी तरह से स्वचालित नहीं हैं। कारण (R) : केवल ओपेक के विकास और परिसंचरण अनुभाग को स्वचालित करने पर प्राथमिकता दी गई है।",
+    "options": [
+      "Both (A) and (R) are true",
+      "Both (A) and (R) are false",
+      "(A) is true, but (R) is false",
+      "(A) is false, but (R) is true"
+    ],
+    "answer": 0,
+    "explanation": "यह कथन भारत में पुस्तकालय स्वचालन की स्थिति का यथार्थवादी मूल्यांकन प्रस्तुत करता है। दावा (A) और कारण (R) दोनों सही हैं, क्योंकि कई विश्वविद्यालय पुस्तकालयों में स्वचालन अभी भी आंशिक है और प्राथमिकता अक्सर परिसंचरण और ओपेक जैसे उपयोगकर्ता-सामना करने वाले मॉड्यूल को दी जाती है।",
+    "category": "OPAC",
+    "source": "MHPSC 2017"
+  },
+  {
+    "question": "इंटरनेट के माध्यम से सुलभ ओपेक को कहा जाता है ?",
+    "options": [
+      "Online OPAC",
+      "e-OPAC",
+      "Web OPAC",
+      "Internet OPAC"
+    ],
+    "answer": 2,
+    "explanation": "इंटरनेट या वेब के माध्यम से सुलभ OPAC को आमतौर पर वेब ओपेक (Web OPAC) कहा जाता है।",
+    "category": "OPAC",
+    "source": "MIZORAM PSC 2013"
+  },
+  {
+    "question": "केटालॉग रिकॉर्ड को खोजने और ब्राउस करने की सुविधा देने वाले मॉडयूल को कहा जाता है ?",
+    "options": [
+      "परिसंचलन/Circulation",
+      "ग्रंथअर्जन/Acquisition",
+      "ओपेक/OPAC",
+      "सीरियल कन्ट्रोल/Serial control"
+    ],
+    "answer": 2,
+    "explanation": "पुस्तकालय प्रबंधन सॉफ्टवेयर में, वह मॉड्यूल जो उपयोगकर्ताओं को कैटलॉग रिकॉर्ड खोजने और ब्राउज़ करने की सुविधा देता है, उसे ओपेक (OPAC) कहा जाता है।",
+    "category": "OPAC",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "अभिकथन (A) : वेब ओपेक एक कम्प्यूटरीकृत पुस्तकालय सूची है जो संरक्षकों के लिए ऑनलाइन उपलब्ध है। कारण (R) : इसे उपयोगकर्ताओं द्वारा पुस्तकालय की चार दीवारों के भीतर ही खोजा जा सकता है।",
+    "options": [
+      "(A) is true but (R) is false",
+      "(A) is false but (R) is true",
+      "Both (A) and (R) are true",
+      "Both (A) and (R) are false"
+    ],
+    "answer": 0,
+    "explanation": "अभिकथन (A) सत्य है, लेकिन कारण (R) असत्य है। वेब ओपेक की प्रकृति ही यह है कि इसे इंटरनेट के माध्यम से कहीं से भी एक्सेस किया जा सकता है, न कि केवल पुस्तकालय के भीतर।",
+    "category": "OPAC",
+    "source": "SHREE CHITRA TIRUNAL INSTTUTE-2023"
+  },
+  {
+    "question": "ओपेक के लाभ हैं ?<br>(A) किसी व्यक्ति को दस्तावेज ढूंढने में सक्षम बनाना।<br>(B) क्वेरी शर्तों के अनुवाद में पर्याप्त सहायता प्रदान करें।<br>(C) प्रिंट कैटालॉग का उपयोग करने के लिए पुस्तकालय में आना आवश्यक नहीं है।<br>(D) डेटाबेस खोजना आसान है।",
+    "options": [
+      "(A) - (B) only",
+      "(A)-(B), (C) only",
+      "(B) (C), (D) only",
+      "(A)-(C), (D) only"
+    ],
+    "answer": 3,
+    "explanation": "OPAC उपयोगकर्ताओं को दस्तावेज़ खोजने में सक्षम बनाता है (A), दूरस्थ पहुँच प्रदान करता है जिससे पुस्तकालय आना आवश्यक नहीं है (C), और डेटाबेस खोजना आसान बनाता है (D)। विकल्प (B) सीधे तौर पर ओपेक का लाभ नहीं है।",
+    "category": "OPAC",
+    "source": "TELANGANA-2023"
+  },
+  {
+    "question": "किस पुस्तकालय ने ओपेक कैटालॉगिंग सिस्टम विकसित किया ?",
+    "options": [
+      "National Library of India",
+      "Library of Congress",
+      "British library",
+      "Ohio University"
+    ],
+    "answer": 3,
+    "explanation": "ओपेक का विकास कई संस्थानों में हुआ, लेकिन ओहियो विश्वविद्यालय (Ohio University) अग्रणी में से एक था, जिसने 1970 के दशक की शुरुआत में अपनी प्रणाली विकसित की।",
+    "category": "OPAC",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा सही सुमेलित है ?",
+    "options": [
+      "OPAC - User friendly than a card catalogue",
+      "Radio and Telephone - System Automated",
+      "Automation - Links a group organisations",
+      "Network - Electronic equipment"
+    ],
+    "answer": 0,
+    "explanation": "विकल्प (a) सही सुमेलित है। ओपेक कार्ड कैटलॉग की तुलना में अधिक उपयोगकर्ता-अनुकूल (User friendly) है क्योंकि यह कीवर्ड खोज, बूलियन ऑपरेटर और कई पहुँच बिंदु प्रदान करता है।",
+    "category": "OPAC",
+    "source": "TNPSC-2015"
   }
 ]
