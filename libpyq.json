@@ -9241,5 +9241,3450 @@
     "explanation": "विकल्प (a) सही सुमेलित है। ओपेक कार्ड कैटलॉग की तुलना में अधिक उपयोगकर्ता-अनुकूल (User friendly) है क्योंकि यह कीवर्ड खोज, बूलियन ऑपरेटर और कई पहुँच बिंदु प्रदान करता है।",
     "category": "OPAC",
     "source": "TNPSC-2015"
+  },
+  {
+    "question": "वर्गीकृत सूची संहिता है ?",
+    "options": [
+      "ए. नीलमेघन द्वारा प्रतिपादित",
+      "रंगनाथन की प्रथम ग्रंथ",
+      "डी.आर.टी.सी द्वारा प्रतिपादित",
+      "भारत की प्रथम वर्गीकृत सूची संहिता"
+    ],
+    "answer": 3,
+    "explanation": "एस.आर. रंगनाथन द्वारा विकसित क्लासिफाइड कैटलॉग कोड (CCC), भारत की पहली और एक मौलिक वर्गीकृत सूची संहिता (classified catalogue code) है, जिसने विषय सूचीकरण के लिए वैज्ञानिक सिद्धांत प्रदान किए।",
+    "category": "CCC",
+    "source": "RSMSSB-2016"
+  },
+  {
+    "question": "C.C.C. का पूर्ण रूप क्या है ?",
+    "options": [
+      "Classified Catalogue Code.",
+      "Catalogue Conduct Code for Classified Index.",
+      "Classified Catalogue Code with additional rules for the Dictionary Catalogue Code.",
+      "Classification and Cataloguing Code."
+    ],
+    "answer": 0,
+    "explanation": "C.C.C. का पूर्ण रूप क्लासिफाइड कैटलॉग कोड (Classified Catalogue Code) है।",
+    "category": "CCC",
+    "source": "MAH. PARTAP UNI. 2023"
+  },
+  {
+    "question": "क्लासीफाइड कैटालॉग कोड' (सी.सी.सी.) निम्न में से किसने तैयार किया ?",
+    "options": [
+      "A. Panizzi",
+      "C.A. cutter",
+      "Melville Dewey",
+      "Dr. S.R. Ranganathan"
+    ],
+    "answer": 3,
+    "explanation": "क्लासीफाइड कैटालॉग कोड (CCC) को डॉ. एस.आर. रंगनाथन द्वारा तैयार किया गया था।",
+    "category": "CCC",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "'वर्गीकृत प्रसूची सहिता' का प्रथम संस्करण किस वर्ष में प्रकाशित हुआ था ?",
+    "options": [
+      "In 1931 AD",
+      "In 1932 AD",
+      "In 1934 AD",
+      "In 1936 AD"
+    ],
+    "answer": 2,
+    "explanation": "क्लासिफाइड कैटलॉग कोड (CCC) का प्रथम संस्करण वर्ष 1934 में मद्रास लाइब्रेरी एसोसिएशन द्वारा प्रकाशित किया गया था।",
+    "category": "CCC",
+    "source": "MPPSC-2019"
+  },
+  {
+    "question": "वर्गीकृत कैटलॉग कोड को किस वर्ष में रंगनाथन द्वारा डिजाइन किया गया था।",
+    "options": [
+      "1931",
+      "1932",
+      "1933",
+      "1934"
+    ],
+    "answer": 3,
+    "explanation": "वर्गीकृत कैटलॉग कोड (CCC) का पहला संस्करण 1934 में डॉ. एस.आर. रंगनाथन द्वारा प्रकाशित किया गया था।",
+    "category": "CCC",
+    "source": "G.G.S.IND. UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "सी.सी.सी. (पाँचवाँ संस्करण) का सहायक कौन था ?",
+    "options": [
+      "G. Bhattacharya",
+      "A. Neelmeghan",
+      "S.R. Ranganathan",
+      "M.A. Gopinath"
+    ],
+    "answer": 1,
+    "explanation": "क्लासिफाइड कैटलॉग कोड के पांचवें संस्करण के प्रकाशन में ए. नीलमेघन (A. Neelmeghan) ने डॉ. रंगनाथन की सहायता की थी।",
+    "category": "CCC",
+    "source": "RSMSSB-2019"
+  },
+  {
+    "question": "सीसीसी क्लासीफाइड कैटालॉगिंग कोड का पांचवां संस्करण कब प्रकाशित हुआ था ?",
+    "options": [
+      "1962",
+      "1964",
+      "1966",
+      "1971"
+    ],
+    "answer": 1,
+    "explanation": "क्लासिफाइड कैटलॉग कोड (CCC) का पांचवां संस्करण वर्ष 1964 में प्रकाशित हुआ था।",
+    "category": "CCC",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "CCC के अब तक कितने संस्करण प्रकाशित हो चुके हैं ?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 1,
+    "explanation": "क्लासिफाइड कैटलॉग कोड (CCC) के अब तक कुल पांच संस्करण प्रकाशित हुए हैं, जिनमें से अंतिम संस्करण 1964 में आया।",
+    "category": "CCC",
+    "source": "TNPSC LIBRARAY ASSISTANT"
+  },
+  {
+    "question": "वर्गीकृत प्रसूची कोड के वर्ष 1994 ई. तक कितने संस्करण प्रकाशित हुए ?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "5"
+    ],
+    "answer": 3,
+    "explanation": "1994 तक क्लासिफाइड कैटलॉग कोड के पांच संस्करण प्रकाशित हो चुके थे (1934, 1945, 1951, 1958, 1964)।",
+    "category": "CCC",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "रंगनाथन के वर्गीकृत कैटालॉग कोड में लेखकत्व के संघर्ष में शामिल हैं ?",
+    "options": [
+      "Person versus Person.",
+      "Person versus Corporate body.",
+      "Government versus Institution.",
+      "Person versus Publisher."
+    ],
+    "answer": 0,
+    "explanation": "रंगनाथन ने CCC में लेखकत्व के संघर्ष (Conflict of Authorship) के विभिन्न मामलों पर चर्चा की, जिसमें व्यक्ति बनाम व्यक्ति, व्यक्ति बनाम निगमित निकाय, और सरकार बनाम संस्थान शामिल हैं।",
+    "category": "CCC",
+    "source": "GURUGRAM UNIVERSITY 2023"
+  },
+  {
+    "question": "किस क्रम में, प्रविष्टियों को वर्गीकृत सूची में व्यवस्थित किया जाता है ?",
+    "options": [
+      "By specific subject",
+      "By class number",
+      "By accession no.",
+      "By author name"
+    ],
+    "answer": 3,
+    "explanation": "यह प्रश्न भ्रामक है। एक वर्गीकृत सूची में, मुख्य प्रविष्टियाँ वर्ग संख्या (class number) के अनुसार व्यवस्थित होती हैं, जो विषय का प्रतिनिधित्व करती है। वर्णानुक्रमिक भाग में प्रविष्टियाँ लेखक के नाम (author name), शीर्षक आदि के अनुसार व्यवस्थित होती हैं। दिए गए उत्तर के अनुसार यह लेखक का नाम है।",
+    "category": "CCC",
+    "source": "MIZORAM PSC DEPUTY LIBRARIAN"
+  },
+  {
+    "question": "'क्लासीफाइड कैटालॉग कोड' में विषय शीर्षक हेतु किस प्रविधि का उपयोग किया गया है ?",
+    "options": [
+      "Sears List of Subject Headings",
+      "Library of Congress Subject Headings",
+      "Chain procedure",
+      "British National Bibliography"
+    ],
+    "answer": 2,
+    "explanation": "क्लासिफाइड कैटलॉग कोड (CCC) में विषय शीर्षक (subject headings) बनाने के लिए श्रृंखला प्रक्रिया (Chain Procedure) नामक एक अद्वितीय और वैज्ञानिक विधि का उपयोग किया जाता है।",
+    "category": "CCC",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "पुस्तकालय हस्तलिपि की अवधारणा किसमें दी गई है?",
+    "options": [
+      "A. A.C.R. I code",
+      "A.A.C.R. - II Code",
+      "ALA. Code",
+      "CCC"
+    ],
+    "answer": 3,
+    "explanation": "'पुस्तकालय हस्तलिपि' (Library Hand) की अवधारणा, जो कैटलॉग कार्ड पर सुपाठ्य और मानकीकृत लिखावट पर जोर देती है, का विस्तृत वर्णन डॉ. रंगनाथन ने अपने क्लासिफाइड कैटलॉग कोड (CCC) में किया था।",
+    "category": "CCC",
+    "source": "RSMSSB-2019"
+  },
+  {
+    "question": "किस कोड के अनुसार, लेखक की जन्म तिथि को गोल ब्रैकेट द्वारा संलग्न किया जाता है?",
+    "options": [
+      "ALA code",
+      "CCC",
+      "AACR-I",
+      "AACR-II"
+    ],
+    "answer": 1,
+    "explanation": "क्लासिफाइड कैटलॉग कोड (CCC) के नियमों के अनुसार, लेखक के नाम के बाद उनकी जन्म तिथि को गोल ब्रैकेट () में लिखा जाता है।",
+    "category": "CCC",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "वर्गीकृत सूची संहिता (सी.सी.सी.) के अनुसार, मिनिस्ट्री ऑफ एजुकेशन, गवर्नमेंट ऑफ दिल्ली को किस रूप में लिखा जायेगा ?",
+    "options": [
+      "Ministry of Education (Delhi)",
+      "Delhi, Education (Ministry of.)",
+      "Delhi, (Education (Ministry of.))",
+      "Delhi, Ministry of Education"
+    ],
+    "answer": 1,
+    "explanation": "CCC के नियमों (विशेष रूप से सरकारी प्रकाशनों के लिए) के अनुसार, सही प्रतिपादन होगा: पहले क्षेत्र का नाम, फिर विभाग का नाम, और फिर कोष्ठक में निगमित निकाय का प्रकार। अतः, Delhi, Education (Ministry of.) सही है।",
+    "category": "CCC",
+    "source": "RAJASTHAN UNIVERSITY JTA-2018"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा सही नहीं है ?",
+    "options": [
+      "एक मुख्य प्रविष्टि वर्गीकृत कैटालॉग कोड में अग्रणी अनुभाग शामिल है।",
+      "वर्गीकृत कैटालॉग कोड में, कॉल नंबर हमेशा पेंसिल में लिखा जाता है।",
+      "वर्गीकृत कैटालॉग कोड में, ट्रेसिंग अनुभाग मुख्य प्रविष्टि के पीछे दिया गया है।",
+      "वर्गीकृत कैटालॉग कोड में हम लेखक का नाम अग्रणी अनुभाग में लिख सकते हैं।"
+    ],
+    "answer": 3,
+    "explanation": "कथन (d) सही नहीं है। CCC में, मुख्य प्रविष्टि के अग्रणी अनुभाग (Leading Section) में लेखक का नाम नहीं, बल्कि वर्ग संख्या (Class Number) लिखी जाती है।",
+    "category": "CCC",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "अनुनय सूची में कितने प्रकार की ग्रंथ निर्देशी प्रविष्टियाँ बनाई जाती हैं ?",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न 'अनुनय सूची' के बजाय संभवतः 'CCC' के बारे में है। CCC में, चार प्रकार की पुस्तक निर्देशी प्रविष्टियाँ (Book Index Entries) होती हैं: लेखक, सहकारक, शीर्षक, और श्रृंखला प्रविष्टि।",
+    "category": "CCC",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "पुस्तक 'क्लासिफाइड केटालॉग कोड विद एडिशनल रूल्स फॉर डिक्शनरी केटालोग कोड' के लेखक है ?",
+    "options": [
+      "J.A. mills",
+      "S.R.Ranganathan",
+      "M.E. sears",
+      "Michael Gorman"
+    ],
+    "answer": 1,
+    "explanation": "यह पुस्तक डॉ. एस. आर. रंगनाथन द्वारा लिखी गई थी।",
+    "category": "CCC",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "मुख्य प्रविष्टि तैयार करने में सी.सी.सी. के नियमानुसार परिग्रहण संख्या लिखी जाती है ?",
+    "options": [
+      "in the fifth row",
+      "in the fourth row",
+      "in the bottom row",
+      "in the first row"
+    ],
+    "answer": 2,
+    "explanation": "CCC के अनुसार, मुख्य प्रविष्टि में परिग्रहण संख्या (Accession number) को सबसे निचली पंक्ति (bottom row) में, टिप्पणी अनुभाग के बाद लिखा जाता है।",
+    "category": "CCC",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "किस कैटालॉग कोड में संकेतन अनुभाग मुख्य संलेख के पार्श्व भाग में लिखा जाता है ?",
+    "options": [
+      "AACR II",
+      "UDC",
+      "CCC",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "यह प्रश्न संभवतः 'अनुरेखण अनुभाग' (Tracing section) के बारे में है। क्लासिफाइड कैटलॉग कोड (CCC) में, अनुरेखण मुख्य प्रविष्टि के पिछले भाग (back side) में लिखा जाता है।",
+    "category": "CCC",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "एस आर रंगनाथन के वर्गीकृत कैटालॉग कोड में लेखकत्व का संघर्ष शामिल है ?<br>A. Person versus Person<br>B. Person versus Corporate Body<br>C. Government versus Institution<br>D. Person versus Publisher",
+    "options": [
+      "D, C and A are correct",
+      "A, B and D are correct",
+      "A, B and C are correct",
+      "B, C and D are correct"
+    ],
+    "answer": 2,
+    "explanation": "रंगनाथन के CCC में, लेखकत्व के संघर्ष के नियमों में व्यक्ति बनाम व्यक्ति (A), व्यक्ति बनाम निगमित निकाय (B), और सरकार बनाम संस्थान (C) के मामले शामिल हैं। व्यक्ति बनाम प्रकाशक एक मानक संघर्ष श्रेणी नहीं है।",
+    "category": "CCC",
+    "source": "UPPSC 2023 SHIFT-1"
+  },
+  {
+    "question": "क्लासीफाइड कैटालॉग कोड (CCC) में कितने प्रकार की पुस्तक अनुक्रमणिका प्रविष्टियाँ तैयार की जाती हैं ?",
+    "options": [
+      "Two",
+      "Four",
+      "Five",
+      "Three"
+    ],
+    "answer": 1,
+    "explanation": "CCC में चार प्रकार की पुस्तक अनुक्रमणिका प्रविष्टियाँ (Book Index Entries) होती हैं: लेखक प्रविष्टि, सहकारक प्रविष्टि, शीर्षक प्रविष्टि, और श्रृंखला प्रविष्टि।",
+    "category": "CCC",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "सीसीसी के अनुसार शीर्षक का चयन करने का सबसे अच्छा तरीका है...के सिद्धांत पर निर्भर होना ?",
+    "options": [
+      "Prepotency",
+      "Context",
+      "Individualization",
+      "Ascertainability"
+    ],
+    "answer": 3,
+    "explanation": "सुनिश्चितता का उपसूत्र (Canon of Ascertainability) के अनुसार, शीर्षक और अन्य ग्रंथसूची संबंधी जानकारी दस्तावेज़ के शीर्षक पृष्ठ और उसके अतिप्रवाह पृष्ठों से ही ली जानी चाहिए।",
+    "category": "CCC",
+    "source": "DSSSB-2021 TECHNICAL ASSISTANT"
+  },
+  {
+    "question": "निम्नलिखित में से कौनसा नियम क्लासिफाइड कैटालॉग कोड में व्यक्तिगत नाम की पसंद का मार्गदर्शन करता हैं ?",
+    "options": [
+      "निर्धानियता का नियम/Law of indeterminacy",
+      "अधिक्षमता का नियम/Law of excess capacity",
+      "मुद्रा का नियम/Law of currency",
+      "संग का नियम/Law of association"
+    ],
+    "answer": 0,
+    "explanation": "यह प्रश्न और इसके विकल्प अस्पष्ट हैं और CCC के मानक नियमों से मेल नहीं खाते।",
+    "category": "CCC",
+    "source": "DSSSB 2023"
+  },
+  {
+    "question": "वर्गीकृत कैटलॉग कोड के शीर्षक अनुभाग में प्रवेश तत्व क्या है ?",
+    "options": [
+      "Title and Statement of responsibility",
+      "Author",
+      "Call Number",
+      "Title"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न गलत है। CCC में, शीर्षक अनुभाग (Title Section) का प्रवेश तत्व शीर्षक (Title) होता है। हालांकि, शीर्षक अनुभाग के भीतर लेखक (Author) का भी उल्लेख होता है। दिए गए उत्तर के अनुसार यह लेखक है।",
+    "category": "CCC",
+    "source": "DSSSB 2023"
+  },
+  {
+    "question": "वर्गीकृत कैटलॉग कोड का नवीनतम संस्करण क्या है?",
+    "options": [
+      "5th edition",
+      "4th edition",
+      "6th edition",
+      "7th edition"
+    ],
+    "answer": 0,
+    "explanation": "क्लासिफाइड कैटलॉग कोड (CCC) का नवीनतम और अंतिम संस्करण 5वां संस्करण है, जो 1964 में प्रकाशित हुआ था।",
+    "category": "CCC",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "वर्गीकृत सूची में सम्मिलित होते हैं ?",
+    "options": [
+      "वर्गीकृत भाग तथा वर्णमाला भाग/Classified part and alphabetical part",
+      "वर्गीकृत भाग तथा लेखक सूची / Classified section and author Index",
+      "वर्गीकृत भाग तथा नाम सूची / Classified parts and name Index",
+      "वर्गीकृत भाग तथा विषय सूची / Classified Part and Subject Index"
+    ],
+    "answer": 0,
+    "explanation": "एक वर्गीकृत सूची (Classified Catalogue) में दो भाग होते हैं: वर्गीकृत भाग (Classified part), जिसमें मुख्य प्रविष्टियाँ वर्ग संख्या के क्रम में होती हैं, और वर्णमाला भाग (alphabetical part), जिसमें लेखक, शीर्षक, विषय आदि की सहायक प्रविष्टियाँ होती हैं।",
+    "category": "CCC",
+    "source": "ISRO-2019 U.R.RAO"
+  },
+  {
+    "question": "वर्गीकृत कैटलॉग है ?",
+    "options": [
+      "Title Catalogue",
+      "Author Catalogue",
+      "Subject Catalogue",
+      "Dictionary Catalogue"
+    ],
+    "answer": 2,
+    "explanation": "एक वर्गीकृत कैटलॉग अनिवार्य रूप से एक विषय कैटलॉग (Subject Catalogue) है क्योंकि इसकी मुख्य व्यवस्था विषय पर आधारित होती है।",
+    "category": "CCC",
+    "source": "KERLA PSC 2021"
+  },
+  {
+    "question": "कैटलॉग कोड जो वर्णन के तीन स्तर प्रदान करता है ?",
+    "options": [
+      "Classified catalogue code",
+      "AACR - II",
+      "Dictionary catalogue code",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "AACR-II वर्णन के तीन स्तर प्रदान करता है ताकि विभिन्न प्रकार के पुस्तकालय अपनी आवश्यकताओं के अनुसार सूचीकरण की गहराई का चयन कर सकें। CCC भी विभिन्न स्तरों की अनुमति देता है। इसलिए 'All of these' एक संभावित उत्तर हो सकता है।",
+    "category": "CCC",
+    "source": "KVS 2015"
+  },
+  {
+    "question": "कैटलॉग जिसमें कुछ प्रविष्टियाँ संख्या प्रविष्टियों के रूप में होती हैं और कुछ टेक्स्ट प्रविष्टियों के रूप में होती हैं, कहलाती हैं ?",
+    "options": [
+      "Dictionary catalogue",
+      "Classified catalogue",
+      "Author catalogue",
+      "Title catalogue"
+    ],
+    "answer": 1,
+    "explanation": "एक वर्गीकृत सूची (Classified catalogue) में एक संख्यात्मक भाग (वर्गीकृत भाग) और एक शाब्दिक भाग (वर्णानुक्रमिक भाग) होता है।",
+    "category": "CCC",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "'क्लासीफाइड कैटालॉग कोड' में विषय शीर्षकों की किस प्रणाली का उपयोग किया गया है।",
+    "options": [
+      "Sears List of Subject Handings",
+      "Library of Congress Subject Handings",
+      "chain process",
+      "British National Bibliography"
+    ],
+    "answer": 2,
+    "explanation": "क्लासिफाइड कैटलॉग कोड (CCC) में विषय शीर्षक बनाने के लिए श्रृंखला प्रक्रिया (Chain procedure) का उपयोग किया जाता है।",
+    "category": "CCC",
+    "source": "MPPSC-2020"
+  },
+  {
+    "question": "कार्ड कैटलॉग में दो लंबवत रेखाओं को जाना जाता है ?",
+    "options": [
+      "Hanging indention",
+      "Indention",
+      "Heading line",
+      "Access point"
+    ],
+    "answer": 1,
+    "explanation": "कार्ड कैटलॉग में, पहली और दूसरी लंबवत रेखाओं को इंडेंटेशन (Indention) या हाशिया कहा जाता है, जो प्रविष्टि के विभिन्न अनुभागों को शुरू करने के लिए स्थान निर्धारित करते हैं।",
+    "category": "CCC",
+    "source": "MIZORAM PSC 2013"
+  },
+  {
+    "question": "वर्गीकृत कैटालॉग कोड के अनुसार प्रविष्टियों के नाम लिखें।",
+    "options": [
+      "Main entry and Tracing",
+      "Author card, Title card, Subject card",
+      "Classified cards as per the class number",
+      "Main entry, Tracing, Class Index Entries, Book Index Entries, Cross Reference Index Entries, Cross Reference Entries"
+    ],
+    "answer": 3,
+    "explanation": "CCC में विभिन्न प्रकार की प्रविष्टियाँ होती हैं, जिनमें मुख्य प्रविष्टि, अनुरेखण, वर्ग निर्देशी प्रविष्टि, ग्रंथ निर्देशी प्रविष्टि, और विभिन्न प्रकार की प्रति-संदर्भ प्रविष्टियाँ शामिल हैं।",
+    "category": "CCC",
+    "source": "MAHARANA PARTAP UNI. 2023"
+  },
+  {
+    "question": "वह कैटालॉग जिसमें संख्या प्रविष्टियाँ और शब्द प्रविष्टियाँ होती हैं, कहलाती है ?",
+    "options": [
+      "Dictionary catalogue",
+      "Alphabetico classed catalogue",
+      "Classified catalogue",
+      "None of the above"
+    ],
+    "answer": 2,
+    "explanation": "एक वर्गीकृत सूची (Classified catalogue) में संख्यात्मक प्रविष्टियाँ (वर्गीकृत भाग में) और शाब्दिक प्रविष्टियाँ (वर्णानुक्रमिक भाग में) दोनों होती हैं।",
+    "category": "CCC",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "यदि किसी लेखक द्वारा स्वयं की पहचान छिपाने के लिये कोई नाम रखा जाये तो वह कहलाता है ?",
+    "options": [
+      "विपर्याय / Antonym",
+      "अनाम / anonym",
+      "छद्म नाम / pseudonym",
+      "वैकल्पिक नाम / alternative name"
+    ],
+    "answer": 2,
+    "explanation": "जब कोई लेखक अपनी वास्तविक पहचान छिपाने के लिए किसी काल्पनिक नाम का उपयोग करता है, तो उसे छद्म नाम (pseudonym) कहा जाता है।",
+    "category": "CCC",
+    "source": "MPPSC-2019"
+  },
+  {
+    "question": "विश्वविद्यालय के पुस्तकालय में पुस्तकों को व्यवस्थित करने के लिए शेल्फ व्यवस्था की कौन सी विधि उपयोगी है ?",
+    "options": [
+      "Alphabetical",
+      "Classified",
+      "Chronological",
+      "Language"
+    ],
+    "answer": 1,
+    "explanation": "विश्वविद्यालय जैसे बड़े पुस्तकालयों में, पुस्तकों को विषय के अनुसार व्यवस्थित करने के लिए वर्गीकृत (Classified) शेल्फ व्यवस्था सबसे उपयोगी होती है, क्योंकि यह संबंधित सामग्री को एक साथ रखती है।",
+    "category": "CCC",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "पारंपरिक दस्तावेज को सूचीबद्ध करने के लिए सूचना का मुख्य स्रोत है ?",
+    "options": [
+      "Title Page",
+      "Index Page",
+      "Content Page",
+      "Whole Book"
+    ],
+    "answer": 0,
+    "explanation": "सूचीकरण के लिए, सूचना का मुख्य और सबसे आधिकारिक स्रोत शीर्षक पृष्ठ (Title Page) और उसके अतिप्रवाह पृष्ठ (जैसे वर्सो ऑफ टाइटल पेज) होते हैं।",
+    "category": "CCC",
+    "source": "G.G.S.IND.UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "यदि किसी पुस्तक के शीर्षक पृष्ठ पर 4 लेखकों के नाम प्रदर्शित हों और प्रमुख उत्तरदायित्व का संकेत न दिया गया हो, तो शीर्षक की रचना....... के अन्तर्गत की जाएगी ।",
+    "options": [
+      "सभी लेखकों/All writers",
+      "पहले लेखक/first author",
+      "पहले तीन लेखकों/First three writers",
+      "शीर्षक/title"
+    ],
+    "answer": 3,
+    "explanation": "AACR-2 नियमों के अनुसार, यदि किसी कृति के तीन से अधिक लेखक हैं, तो मुख्य प्रविष्टि कृति के शीर्षक (title) के अंतर्गत बनाई जाती है।",
+    "category": "CCC",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "कैटलॉग कार्ड में वर्गाकार कोष्ठकों में दी गई जानकारी यह दर्शाती है कि ?",
+    "options": [
+      "यह बाहरी स्रोतों से ली गई है।",
+      "यह अत्यधिक प्रामाणिक है",
+      "यह अप्रचलित है",
+      "उपरोक्त में से कोई नहीं"
+    ],
+    "answer": 0,
+    "explanation": "सूचीकरण में, वर्गाकार कोष्ठकों [ ] का उपयोग उस जानकारी को संलग्न करने के लिए किया जाता है जो निर्धारित सूचना स्रोत (जैसे शीर्षक पृष्ठ) से नहीं, बल्कि बाहरी स्रोतों (outside sources) से ली गई है।",
+    "category": "CCC",
+    "source": "IITH JUNIOR LIB. INFORMATION ASST.-2023"
+  },
+  {
+    "question": "वर्गीकृत प्रसूची कोड (5वीं संस्करण) की मुख्य प्रविष्टि में होते है?",
+    "options": [
+      "छः भाग होते हैं/Six Sections",
+      "सात भाग होते हैं/seven Sections",
+      "आठ भाग होते हैं/eight Sections",
+      "नौ भाग होते हैं/nine Sections"
+    ],
+    "answer": 0,
+    "explanation": "क्लासिफाइड कैटलॉग कोड (CCC) के 5वें संस्करण के अनुसार, एक मुख्य प्रविष्टि में छह अनुभाग (Six Sections) होते हैं: अग्र अनुच्छेद, शीर्षक अनुच्छेद, आख्या अनुच्छेद, टिप्पणी अनुच्छेद, परिग्रहण संख्या, और अनुरेखण।",
+    "category": "CCC Main Entries",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "सी.सी.सी. की मुख्य प्रविष्टि में अनुच्छेदो की संख्या...........है ?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": 2,
+    "explanation": "CCC की मुख्य प्रविष्टि में छह (6) अनुच्छेद या अनुभाग होते हैं।",
+    "category": "CCC Main Entries",
+    "source": "RAJASTHAN UNIVERSITY JTA-2018"
+  },
+  {
+    "question": "किसी पुस्तक के बारे में मुख्य सूचनाएँ आप किस प्रविष्टि से प्राप्त करेंगे ?",
+    "options": [
+      "विषय प्रविष्टि / Subject entry",
+      "मुख्य प्रविष्टि / Main entry",
+      "प्रति संदर्भ प्रविष्टि / Reference entry",
+      "वर्ग निर्देशी प्रविष्टि / Class Index entry"
+    ],
+    "answer": 1,
+    "explanation": "किसी पुस्तक के बारे में संपूर्ण ग्रंथसूची संबंधी जानकारी मुख्य प्रविष्टि (Main entry) से प्राप्त होती है।",
+    "category": "CCC Main Entries",
+    "source": "b"
+  },
+  {
+    "question": "क्लासिफाईड केटालॉग कोड (CCC)' के अनुसार निम्नलिखित विभागों के संदर्भ में एन्ट्री का सही क्रम क्या है ?<br>(i) Note section<br>(ii) Leading section<br>(iii) Heading section<br>(iv) Title section main",
+    "options": [
+      "(ii), (iii), (iv), (i)",
+      "(iv), (i), (ii), (iii)",
+      "(i), (ii), (iv), (iii)",
+      "(ii), (i), (iv), (iii)"
+    ],
+    "answer": 0,
+    "explanation": "CCC में मुख्य प्रविष्टि के अनुभागों का सही क्रम है: (ii) अग्र अनुच्छेद (Leading section), (iii) शीर्षक अनुच्छेद (Heading section), (iv) आख्या अनुच्छेद (Title section), और (i) टिप्पणी अनुच्छेद (Note section)।",
+    "category": "CCC Main Entries",
+    "source": "HARI SINGH GAUR UNIVERSITY 2020"
+  },
+  {
+    "question": "क्लासीफाइड कैटालॉग कोड (CCC) में, अग्रणी खंड में शामिल हैं ?",
+    "options": [
+      "Title",
+      "Accession Number",
+      "Author",
+      "Call Number"
+    ],
+    "answer": 3,
+    "explanation": "CCC में, अग्रणी खंड (Leading section) में ग्रंथालय की मांग संख्या या कॉल नंबर (Call Number) लिखा जाता है।",
+    "category": "CCC Main Entries",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "सी.सी.सी. (संस्क, 5 ) की मुख्य प्रविष्टि में क्रमांक अंक कहाँ पर प्रदर्शित होता है ?",
+    "options": [
+      "अग्र अनुच्छेद/Leading Section",
+      "शीर्षक अनुच्छेद/Heading Section",
+      "आख्या अनुच्छेद/Title Section",
+      "टिप्पणी अनुच्छेद/Note Section"
+    ],
+    "answer": 0,
+    "explanation": "CCC की मुख्य प्रविष्टि में, क्रमांक अंक (Call Number) अग्र अनुच्छेद (Leading Section) में प्रदर्शित होता है।",
+    "category": "CCC Main Entries",
+    "source": "KVS 2018 EVENING"
+  },
+  {
+    "question": "'क्लासीफाइड केटालॉग कोड' की मुख्य प्रविष्टि में नामांक........ में प्रदर्शित होता है।",
+    "options": [
+      "Title Section",
+      "Note Section",
+      "Heading Section",
+      "Leading Section"
+    ],
+    "answer": 3,
+    "explanation": "'क्लासीफाइड केटालॉग कोड' की मुख्य प्रविष्टि में नामांक (Call Number) अग्र अनुच्छेद (Leading Section) में प्रदर्शित होता है।",
+    "category": "CCC Main Entries",
+    "source": "EMRS-2023"
+  },
+  {
+    "question": "किसी पुस्तक के बारे में मुख्य सूचनाएँ आप किस प्रविष्टि से प्राप्त करेंगे ?",
+    "options": [
+      "विषय प्रविष्टि / subject entry",
+      "मुख्य प्रविष्टि / main entry",
+      "प्रति संदर्भ प्रविष्टि / Cross reference entry",
+      "वर्ग निर्देशी प्रविष्टि / class index entry"
+    ],
+    "answer": 1,
+    "explanation": "किसी पुस्तक के बारे में पूरी ग्रंथसूची संबंधी जानकारी मुख्य प्रविष्टि (main entry) से प्राप्त होती है।",
+    "category": "CCC Main Entries",
+    "source": "MPPSC-2020"
+  },
+  {
+    "question": "सी.सी.सी. के अनुसार मुख्य प्रविष्टि के निम्नलिखित अनुच्छेदों का सही क्रम है ?<br>(i) शीर्षक अनुच्छेद / Heading section<br>(ii) अग्र अनुच्छेद / Leading section<br>(iii) टिप्पणी अनुच्छेद / Note section<br>(iv) आख्या अनुच्छेद / Title section",
+    "options": [
+      "(ii), (iv), (i) (iii)",
+      "(i), (ii), (iv), (iii)",
+      "(ii), (i), (iv), (iii)",
+      "उपरोक्त में से कोई नहीं"
+    ],
+    "answer": 2,
+    "explanation": "CCC में मुख्य प्रविष्टि के अनुच्छेदों का सही क्रम है: (ii) अग्र अनुच्छेद (Leading section), (i) शीर्षक अनुच्छेद (Heading section), (iv) आख्या अनुच्छेद (Title section), और (iii) टिप्पणी अनुच्छेद (Note section)।",
+    "category": "CCC Main Entries",
+    "source": "RSMSSB 2022"
+  },
+   {
+    "question": "शिक्षा मंत्रालय, दिल्ली सरकार को क्लासीफाइड कैटालॉग (सी. सी.सी.) के अनुसार निम्नुसार प्रस्तुत किया जाएगा?",
+    "options": [
+      "Delhi. (Education (Ministry.))",
+      "Delhi, Education (Ministry.)",
+      "Delhi. Ministry of Education",
+      "Ministry of Education (Delhi)"
+    ],
+    "answer": 1,
+    "explanation": "क्लासिफाइड कैटलॉग कोड (CCC) के नियमों के अनुसार, सरकारी प्रकाशनों के लिए शीर्षक इस प्रकार बनाया जाता है: पहले भौगोलिक क्षेत्र का नाम, फिर विभाग का नाम, और फिर कोष्ठक में निकाय का प्रकार। अतः, 'Delhi, Education (Ministry.)' सही प्रारूप है।",
+    "category": "CCC Main Entries",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "वर्गीकृत कैटालॉग कोड में, \"द्वितीय संस्करण' कैसे लिखें?",
+    "options": [
+      "Ed. 2",
+      "Edition 2",
+      "2nd ed.",
+      "2nd Ed."
+    ],
+    "answer": 0,
+    "explanation": "CCC के नियमों के अनुसार, संस्करण (Edition) को 'Ed.' के बाद अंक में लिखा जाता है। इसलिए, \"द्वितीय संस्करण\" को 'Ed. 2' लिखा जाएगा।",
+    "category": "CCC Main Entries",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "CCC में मुख्य एंट्री के किस हिस्से में ट्रेसिंग का काम किया जाता है?",
+    "options": [
+      "Bottom of main entry",
+      "In the back of the card",
+      "Right in main entry",
+      "None of these"
+    ],
+    "answer": 1,
+    "explanation": "क्लासिफाइड कैटलॉग कोड (CCC) में, अनुरेखण (Tracing) का कार्य मुख्य प्रविष्टि कार्ड के पिछले हिस्से (In the back of the card) पर किया जाता है।",
+    "category": "CCC Main Entries",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "क्लासीफाइड कैटलॉग कोड (CCC) में, ट्रेसिंग कहाँ दर्ज की जाती हैं ?",
+    "options": [
+      "First vertical of the bottom most line/सबसे निचली पंक्ति का पहला ऊर्धवाधर ।",
+      "Second vertical after heading section/शीर्षक अनुभाग के बाद दूसरा ऊर्ध्वाधर",
+      "Second vertical after note section/ नोट अनुभाग के बाद दूसरा ऊर्ध्वाधर",
+      "Back of the main entry card / मुख्य प्रवेश कार्ड के पीछे"
+    ],
+    "answer": 3,
+    "explanation": "CCC में, अनुरेखण (Tracing) की जानकारी मुख्य प्रविष्टि कार्ड के पीछे (Back of the main entry card) दर्ज की जाती है।",
+    "category": "CCC Main Entries",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "क्लासिफाइड केटालॉग कोड (संस्क. 5) के अनुसार निम्नलिखित में से कौन-सा मुख्य प्रविष्टि का भाग नहीं है ?",
+    "options": [
+      "Title section",
+      "Name section",
+      "Leading section",
+      "Tracing section"
+    ],
+    "answer": 1,
+    "explanation": "CCC की मुख्य प्रविष्टि में अग्र अनुच्छेद (Leading section), शीर्षक अनुच्छेद (Heading section), आख्या अनुच्छेद (Title section), और अनुरेखण अनुच्छेद (Tracing section) होते हैं। 'नाम अनुभाग' (Name section) इसका मानक भाग नहीं है, हालांकि शीर्षक अनुभाग में नाम होते हैं।",
+    "category": "CCC Main Entries",
+    "source": "KVS 2023"
+  },
+  {
+    "question": "सी.सी.सी. के अनुसार ट्रेसिंग भाग का बायाँ आधा हिस्सा किसको समर्पित है ?",
+    "options": [
+      "Class Index Entry",
+      "Cross Reference Index Entry",
+      "Book Index Entry",
+      "Cross Reference Entry"
+    ],
+    "answer": 3,
+    "explanation": "यह प्रश्न थोड़ा विशिष्ट और संभवतः गलत है। आमतौर पर, ट्रेसिंग में सभी सहायक प्रविष्टियों की सूची होती है।",
+    "category": "CCC Main Entries",
+    "source": "RPSC ASS. PROFESSOR-2024"
+  },
+  {
+    "question": "किसी पुस्तक से सम्बन्धित अन्य कैटालॉग कार्डों के लिए मुख्य प्रविष्टि कार्ड के पृष्ठ भाग पर अंकित की जाने वाली प्रविष्टियों हेतु पद ?",
+    "options": [
+      "Tracing",
+      "series comment",
+      "Comment section",
+      "report"
+    ],
+    "answer": 0,
+    "explanation": "मुख्य प्रविष्टि कार्ड के पिछले भाग पर उन सभी अतिरिक्त प्रविष्टियों की सूची अंकित की जाती है जो उस पुस्तक के लिए बनाई गई हैं। इस प्रक्रिया को अनुरेखण (Tracing) कहा जाता है।",
+    "category": "CCC Main Entries",
+    "source": "RAJASTHAN UNIVERSITY JTA-2018"
+  },
+  {
+    "question": "सी.सी.सी. मे एडेड एंट्री के भाग के अन्तर्गत आती है ?",
+    "options": [
+      "Leading Section",
+      "Tracing Section",
+      "Title Section",
+      "Accession Part"
+    ],
+    "answer": 1,
+    "explanation": "अनुरेखण अनुभाग (Tracing Section) में उन सभी अतिरिक्त प्रविष्टियों (Added Entries) की सूची होती है जो एक दस्तावेज़ के लिए बनाई जाती हैं।",
+    "category": "CCC Main Entries",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "सी.सी.सी. में संकेतन अनुच्छेद कितने भागों में विभाजित है ?",
+    "options": [
+      "three",
+      "two",
+      "one",
+      "four"
+    ],
+    "answer": 1,
+    "explanation": "CCC में संकेतन या मांग संख्या (Call Number) अनुच्छेद, जो अग्र अनुच्छेद में होता है, दो भागों में विभाजित होता है: वर्ग संख्या (Class Number) और ग्रंथ संख्या (Book Number)।",
+    "category": "CCC Main Entries",
+    "source": "UKSSSC-2018"
+  },
+  {
+    "question": "सी.सी.सी. (संस्क, 5 ) का भाग 'जे' किससे संबंधित हैं ?",
+    "options": [
+      "लेखकीय द्वन्द्व / Conflict of authorship",
+      "व्यक्ति नाम / Person of name",
+      "नामों का अभिकल्पन / Rendering of names",
+      "वर्ग निर्देशि प्रविधि / Class index entry"
+    ],
+    "answer": 2,
+    "explanation": "CCC का भाग 'J' नामों का अभिकल्पन (Rendering of names) से संबंधित है, जिसमें व्यक्तिगत और निगमित निकायों के नामों को लिखने के नियम दिए गए हैं।",
+    "category": "CCC Main Entries",
+    "source": "KVS 2018"
+  },
+  {
+    "question": "सीसीसी-एंट्री (कौन सी एंट्री) को हम पेंसिल से कहां लिखते हैं ?",
+    "options": [
+      "Where Ever Call No's",
+      "Only Leading Section",
+      "Only Accession Section",
+      "Added Entry only"
+    ],
+    "answer": 0,
+    "explanation": "CCC के नियमों के अनुसार, मांग संख्या (Call Number) को मुख्य प्रविष्टि और सभी सहायक प्रविष्टियों पर पेंसिल से लिखा जाना चाहिए ताकि यदि आवश्यक हो तो इसे आसानी से बदला जा सके।",
+    "category": "CCC Main Entries",
+    "source": "TNPSC-2015"
+  },
+  {
+    "question": "अतिरिक्त प्रविष्टियों का दूसरा नाम क्या है ?",
+    "options": [
+      "Main entry",
+      "Cross reference entry",
+      "Secondary entries",
+      "Subject entry"
+    ],
+    "answer": 2,
+    "explanation": "अतिरिक्त प्रविष्टियों (Added Entries) को द्वितीयक प्रविष्टियों (Secondary entries) के रूप में भी जाना जाता है क्योंकि वे मुख्य प्रविष्टि के अलावा अन्य पहुँच बिंदु प्रदान करती हैं।",
+    "category": "CCC Added entries",
+    "source": "JAWAHARLAL NEHRU UNI. -2015"
+  },
+  {
+    "question": "क्रॉस रेफरेंस एडेड एंट्री क्या है ?",
+    "options": [
+      "Subject entry",
+      "Class number entry",
+      "Series",
+      "Title entry"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न अस्पष्ट है। क्रॉस-रेफरेंस एंट्री आमतौर पर एक नाम या शीर्षक से दूसरे की ओर निर्देशित करती है। वर्ग संख्या प्रविष्टि (Class number entry), जिसे वर्ग निर्देशी प्रविष्टि भी कहते हैं, एक प्रकार की विषय सहायक प्रविष्टि है। दिए गए उत्तर के अनुसार यह वर्ग संख्या प्रविष्टि है।",
+    "category": "CCC Added entries",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "क्लासीफाइड कैटालॉग कोड में कितने प्रकार की अतिरिक्त प्रविष्टियाँ तैयार की जाती हैं ?",
+    "options": [
+      "Five",
+      "Six",
+      "Four",
+      "Three"
+    ],
+    "answer": 2,
+    "explanation": "CCC में मुख्य रूप से चार प्रकार की अतिरिक्त प्रविष्टियाँ होती हैं: वर्ग निर्देशी प्रविष्टि (Class Index Entry), ग्रंथ निर्देशी प्रविष्टि (Book Index Entry), नामान्तर निर्देशी प्रविष्टि (Cross Reference Index Entry), और अन्तर्विषयी प्रविष्टि (Cross Reference Entry)।",
+    "category": "CCC Added entries",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "सी सी सी के अनुसार छद्म नाम से वास्तविक नाम प्रविष्टि को क्या कहा जाता है ?",
+    "options": [
+      "CRE",
+      "BIE",
+      "CRIE",
+      "CIE"
+    ],
+    "answer": 2,
+    "explanation": "CCC के अनुसार, जब एक छद्म नाम से वास्तविक नाम की ओर निर्देशित किया जाता है, तो इस प्रविष्टि को नामान्तर निर्देशी प्रविष्टि (Cross Reference Index Entry - CRIE) कहा जाता है।",
+    "category": "CCC Added entries",
+    "source": "RPSC ASS. PROFESSOR-2024"
+  },
+  {
+    "question": "वर्गीकृत सूचीकरण सहिंता के अनुसार छद्मनाम-वास्तविक नाम के लिए निम्न में से एक प्रविष्टि बनाई जाती है ?",
+    "options": [
+      "अन्तर्विषयी प्रविष्टि/Cross reference entry",
+      "ग्रंथ निर्देशी प्रविष्टि/Book index entry",
+      "वर्ग निर्देश प्रविष्टि/Class index entry",
+      "नामान्तर निर्देशी प्रविष्टि/Cross reference index entry"
+    ],
+    "answer": 3,
+    "explanation": "छद्मनाम से वास्तविक नाम के लिए नामान्तर निर्देशी प्रविष्टि (Cross Reference Index Entry) बनाई जाती है।",
+    "category": "CCC Added entries",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "उस पुस्तक के प्रकार का नाम बताइए जिसके लिए चेन क्रॉस रेफरेंस एंट्री तैयार की जानी है ?",
+    "options": [
+      "Composite book",
+      "Reference book",
+      "Text book",
+      "All of these"
+    ],
+    "answer": 3,
+    "explanation": "श्रृंखला प्रक्रिया (Chain Procedure) से बनने वाली वर्ग निर्देशी प्रविष्टियाँ (Class Index Entries) किसी भी प्रकार की पुस्तक के लिए बनाई जा सकती हैं, चाहे वह समग्र हो, संदर्भ हो या पाठ्य पुस्तक हो, जब तक कि उसका कोई विशिष्ट विषय हो। इसलिए, 'उपरोक्त सभी' सही है।",
+    "category": "CCC Added entries",
+    "source": "MIZORAM PSC 2013"
+  },
+  {
+    "question": "वह पद्धति जिसमें ग्रंथ की मुख्य संलेख एवं सहायक संलेखों में समान सूचना दी जाती है, वह है ?",
+    "options": [
+      "एकल पत्रक प्रणाली / Unit Card System",
+      "बहु पत्रक प्रणाली / Multiple Card System",
+      "अतिरिक्त पत्रक प्रणाली / Additional Card System",
+      "संयुक्त पत्रक प्रणाली / Combined Card System"
+    ],
+    "answer": 0,
+    "explanation": "एकल पत्रक प्रणाली (Unit Card System) में, एक विस्तृत मुख्य प्रविष्टि बनाई जाती है और फिर उसी की प्रतियों का उपयोग सभी सहायक प्रविष्टियों को बनाने के लिए किया जाता है, जिससे सभी प्रविष्टियों में समान सूचना सुनिश्चित होती है।",
+    "category": "CCC Added entries",
+    "source": "RPSC GRADE 1ST 2016"
+  },
+  {
+    "question": "एक दस्तावेज विवरण में पाया जा सकता है ?",
+    "options": [
+      "वर्गीकरण नम्बर/Classification number",
+      "सूची प्रविष्टि/list entry",
+      "अवाप्ति नम्बर इंडेक्स/Accession number index",
+      "एक्सेस रजिस्टर/access register"
+    ],
+    "answer": 1,
+    "explanation": "एक दस्तावेज़ का विस्तृत विवरण उसकी सूची प्रविष्टि (list entry) में पाया जा सकता है, जिसमें शीर्षक, लेखक, प्रकाशन विवरण आदि शामिल होते हैं।",
+    "category": "CCC Added entries",
+    "source": "AIIMS RAIPUR-2018"
+  },
+  {
+    "question": "अनुरेखण अनुभाग की पहचान करने में कौन सहायता करता है ?",
+    "options": [
+      "जोड़ी गई प्रविष्टियाँ /Added entries",
+      "सामान्य विषय-प्रविष्टियाँ/General Subject entry",
+      "विशिष्ट विषय की प्रविष्ट्रियाँ/Specific Subject entry",
+      "इनमें से कोई नहीं/None of these"
+    ],
+    "answer": 0,
+    "explanation": "अनुरेखण (Tracing) अनुभाग में उन सभी जोड़ी गई प्रविष्टियों (Added entries) की सूची होती है जो किसी विशेष दस्तावेज़ के लिए बनाई गई हैं। यह पहचानने में मदद करता है कि कौन-कौन सी सहायक प्रविष्टियाँ बनाई गई हैं।",
+    "category": "CCC Added entries",
+    "source": "a"
+  },
+  {
+    "question": "सी.सी.सी. में क्लास इंडेक्स एंट्री को कहा जाता है?",
+    "options": [
+      "Main Entry",
+      "Cross Reference Entry",
+      "Cross Reference Index Entry",
+      "Subject Analytical Entry"
+    ],
+    "answer": 3,
+    "explanation": "यह प्रश्न गलत है। क्लास इंडेक्स एंट्री (CIE) एक अलग प्रकार की प्रविष्टि है। दिए गए उत्तर के अनुसार इसे 'विषय विश्लेषणात्मक प्रविष्टि' कहा गया है, जो सही नहीं है। CIE को 'वर्ग निर्देशी प्रविष्टि' कहते हैं।",
+    "category": "CCC Added entries",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "'संदर्भ भी देखे' का कार्य है ?",
+    "options": [
+      "किसी व्यक्ति के नाम के एक रूप से कैटलॉग के उपयोगकर्ता को निर्देशित करें",
+      "किसी कैटलॉग के उपयोगकर्ता को एक नाम शीर्षक या समान शीर्षक से दूसरे संबंधित शीर्षक की ओर निर्देशित करें",
+      "(ए) और (बी) दोनों",
+      "उपरोक्त में से कोई नहीं"
+    ],
+    "answer": 1,
+    "explanation": "'See also' या 'संदर्भ भी देखें' निर्देश का उपयोग उपयोगकर्ता को एक शीर्षक से दूसरे संबंधित शीर्षक की ओर निर्देशित करने के लिए किया जाता है।",
+    "category": "CCC Added entries",
+    "source": "MIZORAM PSC DEPUTY LIBRARIAN"
+  },
+  {
+    "question": "किसी दस्तावेज के भागों या अध्यायों के लिए एक सूची में जाने वाली प्रविष्टि को कहा जाता है ?",
+    "options": [
+      "Main entry",
+      "Analytical entry",
+      "Book index entry",
+      "Class index entry"
+    ],
+    "answer": 1,
+    "explanation": "किसी दस्तावेज़ के एक विशिष्ट भाग, जैसे एक अध्याय, के लिए बनाई गई प्रविष्टि को विश्लेषणात्मक प्रविष्टि (Analytical entry) कहा जाता है।",
+    "category": "CCC Added entries",
+    "source": "PUNJAB PSSSB-2021"
+  },
+  {
+    "question": "सी. सी. सी. में 'एडिटर ऑफ सीरीज एन्ट्री' कहलाती है ?",
+    "options": [
+      "अन्तर्विषयी संलेख (CRE)/Cross reference entry",
+      "नामान्तर निर्देशी संलेख (CRIE)/Cross reference Index entry",
+      "ग्रंथ निर्देशी संलेख (BIE)/Book Index entry",
+      "वर्ग निर्देशी संलेख (CIE)/Class Index entry"
+    ],
+    "answer": 1,
+    "explanation": "CCC में, श्रृंखला के संपादक (Editor of Series) के लिए बनाई गई प्रविष्टि एक प्रकार की नामान्तर निर्देशी संलेख (Cross Reference Index Entry - CRIE) होती है, जो संपादक के नाम से श्रृंखला के नाम की ओर निर्देशित करती है।",
+    "category": "CCC Added entries",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "सी.सी.सी. में विषय विश्लेषणात्मक प्रविष्टि को निम्नलिखित में से किससे जाना जाता है ?",
+    "options": [
+      "C.I.E.",
+      "B.I.E.",
+      "C.R.I.E.",
+      "C.R.E."
+    ],
+    "answer": 3,
+    "explanation": "यह प्रश्न गलत है। विषय विश्लेषणात्मक प्रविष्टि को Subject Analytical Entry कहते हैं। दिए गए उत्तर के अनुसार यह CRE (Cross Reference Entry) है, जो गलत है।",
+    "category": "CCC Added entries",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "निम्न में से कौन-सी अंकन (संख्या) प्रविष्टि है ?",
+    "options": [
+      "CRE",
+      "CIE",
+      "BIE",
+      "CRIE"
+    ],
+    "answer": 0,
+    "explanation": "CCC में, वर्ग निर्देशी प्रविष्टि (CIE) और अन्तर्विषयी प्रविष्टि (CRE) दोनों में संख्यात्मक (वर्गीकरण संख्या) और शाब्दिक भाग होते हैं। प्रश्न अस्पष्ट है, लेकिन दिए गए उत्तर के अनुसार CRE सही है।",
+    "category": "CCC Added entries",
+    "source": "RSMSSB-2019"
+  },
+  {
+    "question": "CCC में क्लास इंडेक्स एन्ट्री में क्रमिक रूप से निम्नलिखित भाग होते है: (1) Heading (2) Second Section (3) ........Number.",
+    "options": [
+      "call",
+      "index",
+      "class",
+      "book"
+    ],
+    "answer": 1,
+    "explanation": "एक वर्ग निर्देशी प्रविष्टि (Class Index Entry) में शीर्षक अनुभाग (Heading), द्वितीय अनुभाग (Second Section - जो विषय को शब्दों में बताता है), और फिर एक निर्देश होता है जिसके बाद वर्ग संख्या (Class Number) लिखी होती है, न कि इंडेक्स नंबर। यह प्रश्न गलत प्रतीत होता है।",
+    "category": "CCC Added entries",
+    "source": "RSMSSB-2019"
+  },
+  {
+    "question": "सूची जिनमें कुछ प्रविष्टियाँ संख्या में एवं कुछ प्रविष्टियाँ शब्द में हो ऐसी सूची को एस.आर. रंगनाथन के सी.सी.सी. कोड के अनुसार क्या कहा जाता है ?",
+    "options": [
+      "वर्णनानुक्रम सूची/Alphabetical Catalogue",
+      "वर्गीकृत सूची/Classified Catalogue",
+      "विषय सूची/Subject Catalogue",
+      "शब्दकोश सूची/Dictionary Catalogue"
+    ],
+    "answer": 1,
+    "explanation": "जिस सूची में एक संख्यात्मक भाग (वर्गीकृत भाग) और एक शाब्दिक भाग (वर्णानुक्रमिक भाग) होता है, उसे वर्गीकृत सूची (Classified Catalogue) कहा जाता है।",
+    "category": "CCC Added entries",
+    "source": "RPSC GRADE II 2020"
+  },
+  {
+    "question": "निम्नलिखित में से कौनसी प्रविष्टि सी.सी.सी. के वर्णानुक्रमिक भाग में सम्मिलित नहीं है?",
+    "options": [
+      "वर्ग निर्देशी प्रविष्टि/Class index entry",
+      "अन्तर्विषयी प्रविष्टि / Cross reference entry",
+      "ग्रंथ निर्देशी प्रविष्टि/Book index entry",
+      "नामान्तर निर्देशी प्रविष्टि/Cross index entry"
+    ],
+    "answer": 1,
+    "explanation": "CCC के वर्णानुक्रमिक भाग में वर्ग निर्देशी, ग्रंथ निर्देशी, और नामान्तर निर्देशी प्रविष्टियाँ शामिल होती हैं। अन्तर्विषयी प्रविष्टि (Cross Reference Entry) को वर्गीकृत भाग में रखा जाता है।",
+    "category": "CCC Added entries",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "विश्लेषिक प्रविष्टि बनाई जाती है ?",
+    "options": [
+      "प्रलेख के एक भाग के लिए / Part of a Document",
+      "सम्पूर्ण प्रलेख के लिए / Whole Document,",
+      "प्रलेख के खण्डों के लिए / Volumes of a Document",
+      "जर्नल के लिए / Journal"
+    ],
+    "answer": 0,
+    "explanation": "विश्लेषणात्मक प्रविष्टि (Analytical Entry) किसी प्रलेख के एक विशिष्ट भाग (Part of a Document) के लिए बनाई जाती है, जैसे किसी पुस्तक का एक अध्याय या किसी पत्रिका का एक लेख।",
+    "category": "CCC Added entries",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "सी.सी.सी. में शृंखला सम्पादक के लिए सूची तैयार की जाती है ?",
+    "options": [
+      "प्रति सन्दर्भ अनुक्रमणिका प्रविष्टि / Cross reference Index Entry",
+      "संयुक्त प्रविष्टि/Added entry",
+      "प्रति सन्दर्भ प्रविष्टि/cross reference entry",
+      "शृंखला पुस्तक अनुक्रमणिका प्रविष्टि/series book index entry"
+    ],
+    "answer": 0,
+    "explanation": "CCC में, श्रृंखला के संपादक के लिए एक प्रति संदर्भ अनुक्रमणिका प्रविष्टि (Cross Reference Index Entry) तैयार की जाती है।",
+    "category": "CCC Added entries",
+    "source": "NVS 2022 MORNING"
+  },
+  {
+    "question": "सी.सी.सी. में विषय वैश्लेषिक प्रविष्टि को जाना जाता है ?",
+    "options": [
+      "सकल सन्दर्भ प्रविष्टि/Gross reference entry",
+      "विशिष्ट प्रविष्टि/specific entry",
+      "सन्दर्भ प्रविष्टि/reference entry",
+      "उपर्युक्त में से कोई नहीं/None of the above"
+    ],
+    "answer": 1,
+    "explanation": "CCC में विषय विश्लेषणात्मक प्रविष्टि एक विशिष्ट प्रविष्टि (specific entry) है जो दस्तावेज़ के एक विशिष्ट विषय-भाग को इंगित करती है।",
+    "category": "CCC Added entries",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "एक पुस्तक में एक अध्याय के विषय के लिए की गई प्रविष्टि को कहा जाता है ?",
+    "options": [
+      "Cross Reference Entry",
+      "Cross Reference Index Entry",
+      "Chapter Index Entry",
+      "Book Chapter Index Entry"
+    ],
+    "answer": 0,
+    "explanation": "यह प्रश्न भ्रामक है। एक अध्याय के विषय के लिए बनाई गई प्रविष्टि को 'विषय विश्लेषणात्मक प्रविष्टि' (Subject Analytical Entry) कहते हैं। दिए गए विकल्पों में से, 'Cross Reference Entry' सबसे निकटतम हो सकता है यदि यह उपयोगकर्ता को मुख्य प्रविष्टि की ओर निर्देशित करता है।",
+    "category": "CCC Added entries",
+    "source": "DSSSB-2017"
+  },
+  {
+    "question": "सी.सी.सी. में तीन प्रकार की विश्लेषणात्मक प्रविष्टियाँ लेखक विश्लेषणात्मक, शीर्षक विश्लेषणात्मक और...... विश्लेषणात्मक हैं ?",
+    "options": [
+      "edition",
+      "name",
+      "subject",
+      "series"
+    ],
+    "answer": 2,
+    "explanation": "CCC में तीन प्रकार की विश्लेषणात्मक प्रविष्टियाँ हैं: लेखक विश्लेषणात्मक, शीर्षक विश्लेषणात्मक, और विषय विश्लेषणात्मक (subject analytical)।",
+    "category": "CCC Added entries",
+    "source": "DSSSB-2021 TECHNICAL ASSISTANT"
+  },
+  {
+    "question": "एक प्रविष्टि जो किसी पुस्तक में किसी अध्याय के विषय के लिए की जाती है, उसे कहते हैं ?",
+    "options": [
+      "Cross Reference Entry",
+      "Class Index Entry",
+      "Book Index entry",
+      "Cross Reference Index Entry"
+    ],
+    "answer": 0,
+    "explanation": "यह प्रश्न पिछले प्रश्न जैसा ही है और उतना ही भ्रामक है। इसे 'विषय विश्लेषणात्मक प्रविष्टि' कहा जाना चाहिए।",
+    "category": "CCC Added entries",
+    "source": "DSSSB-2021"
+  },
+  {
+    "question": "सी.सी.सी. में 'विशिष्ट अतिरिक्त वर्ग संख्या प्रविष्टि' क्या है ?",
+    "options": [
+      "Cross Reference Index Entry",
+      "Book Index Entry",
+      "Class Index Entry",
+      "Cross Reference Entry"
+    ],
+    "answer": 3,
+    "explanation": "CCC में, जब एक दस्तावेज़ में कई विषय होते हैं, तो मुख्य विषय के अलावा अन्य विषयों के लिए अतिरिक्त वर्ग संख्याएँ दी जा सकती हैं। इन अतिरिक्त वर्ग संख्याओं से पाठकों को मुख्य प्रविष्टि की ओर निर्देशित करने के लिए अन्तर्विषयी प्रविष्टि या क्रॉस रेफरेंस एंट्री (Cross Reference Entry) बनाई जाती है।",
+    "category": "CCC Added entries",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "सी.सी.सी. में तीन विश्लेषणात्मक प्रविष्टियाँ हैं-लेखक प्रविष्टियाँ, विषय प्रविष्टियाँ और.......।",
+    "options": [
+      "श्रेणीपरक विश्लेषणात्मक / Series Analytical",
+      "संस्करण विश्लेषणात्मक / Edition Analytical",
+      "शीर्षक विश्लेषणात्मक / Title Analytical",
+      "स्थल विश्लेषणात्मक / Place analytical"
+    ],
+    "answer": 2,
+    "explanation": "CCC में तीन प्रकार की विश्लेषणात्मक प्रविष्टियाँ हैं: लेखक विश्लेषणात्मक, विषय विश्लेषणात्मक, और शीर्षक विश्लेषणात्मक।",
+    "category": "CCC Added entries",
+    "source": "ISRO-2019 U.R.RAO"
+  },
+  {
+    "question": "वर्गीकृत सूची में विषय विश्लेषणात्मक प्रविष्टि को जाना जाता है?",
+    "options": [
+      "Cross Reference Entry",
+      "Class Index Entry",
+      "Class Reference Index Entry",
+      "Book Index Entry"
+    ],
+    "answer": 0,
+    "explanation": "यह प्रश्न गलत है। विषय विश्लेषणात्मक प्रविष्टि को 'Subject Analytical' कहा जाता है। दिए गए उत्तर के अनुसार यह CRE है, जो गलत है।",
+    "category": "CCC Added entries",
+    "source": "JKSSB"
+  },
+  {
+    "question": "सी.सी.सी. में अतिरिक्त प्रविष्टियाँ होती हैं?<br>1. CRE<br>2. CIE<br>3. CRIE<br>4. BIE<br>5. BRIE",
+    "options": [
+      "1, 2, 3, 4, 5",
+      "1, 2, 3, 4 only",
+      "1, 2, 3 only",
+      "1, 3, 4 only"
+    ],
+    "answer": 1,
+    "explanation": "CCC में विभिन्न प्रकार की अतिरिक्त प्रविष्टियाँ होती हैं, जिनमें अन्तर्विषयी प्रविष्टि (CRE), वर्ग निर्देशी प्रविष्टि (CIE), नामान्तर निर्देशी प्रविष्टि (CRIE), और ग्रंथ निर्देशी प्रविष्टि (BIE) शामिल हैं। BRIE एक मानक संक्षिप्त नाम नहीं है।",
+    "category": "CCC Added entries",
+    "source": "KERLA PSC 2022"
+  },
+  {
+    "question": "वर्गीकृत कैटालॉग कोड में, एक वर्गीकृत कैटालॉग में 'विशिष्ट अतिरिक्त वर्ग संख्या प्रविष्टि' को इस प्रकार परिभाषित किया गया है ?",
+    "options": [
+      "Cross reference entry",
+      "Cross reference index entry",
+      "Book index entry",
+      "Class index entry"
+    ],
+    "answer": 0,
+    "explanation": "जैसा कि पहले बताया गया है, एक विशिष्ट अतिरिक्त वर्ग संख्या के लिए बनाई गई प्रविष्टि को क्रॉस रेफरेंस एंट्री कहा जाता है।",
+    "category": "CCC Added entries",
+    "source": "KVS 2018 MORNING"
+  },
+  {
+    "question": "वह प्रणाली जिसमें मुख्य प्रविष्टि और अतिरिक्त प्रविष्टियाँ दस्तावेज के बारे में समान जानकारी ले जाती हैं, को. प्रणाली के रूप में जाना जाता है ?",
+    "options": [
+      "बहुपत्रक/Multi sheet",
+      "एकक पत्रक/unit sheet",
+      "एकल पत्रक/single sheet",
+      "एकीकृत पत्रक/integrated sheet"
+    ],
+    "answer": 1,
+    "explanation": "यह 'एकल पत्रक प्रणाली' (Unit Card System) की परिभाषा है, जिसे 'Unit Sheet' भी कहा जा सकता है।",
+    "category": "CCC Added entries",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "'संदर्भ भी देखें' का कार्य है ?",
+    "options": [
+      "उपयोगकर्ता को एक नाम शीर्षक या समान शीर्षक से दूसरे शीर्षक की और निर्देशित करे जो उससे संबधित हो।",
+      "किसी व्यक्ति के नाम से कैटालॉग के उपयोगकर्त्ता को निर्देशित करे",
+      "कैटालॉग के उपयोगकर्ता को कॉर्पोरेट निकाय के एक रूप से निर्देशित करे",
+      "इनमे से कोई नही"
+    ],
+    "answer": 0,
+    "explanation": "'See also' या 'संदर्भ भी देखें' निर्देश का उपयोग उपयोगकर्ता को एक विषय शीर्षक से दूसरे संबंधित विषय शीर्षक की ओर निर्देशित करने के लिए किया जाता है।",
+    "category": "CCC Added entries",
+    "source": "MIZORAM PSC 2013"
+  },
+  {
+    "question": "'प्रविष्टियाँ दाखिल करने की संपूर्ण व्यवस्था' से क्या तात्पर्य है ?",
+    "options": [
+      "Class number arrangement",
+      "Letter by letter arrangement,",
+      "Class number and Book number arrangement",
+      "Word by word arrangement"
+    ],
+    "answer": 1,
+    "explanation": "फाइलिंग या प्रविष्टियों को दाखिल करने की दो मुख्य प्रणालियाँ हैं: शब्द-दर-शब्द (Word by word) और अक्षर-दर-अक्षर (Letter by letter)। संपूर्ण व्यवस्था का तात्पर्य आमतौर पर अक्षर-दर-अक्षर व्यवस्था से होता है।",
+    "category": "CCC Added entries",
+    "source": "DSSSB 2023"
+  },
+  {
+    "question": "एएसी आर है ?",
+    "options": [
+      "Anglo America Catalogue Rules",
+      "Asian and African catalogue rules",
+      "Anglo America Computer Rules",
+      "Anglo African Catalogue Rules"
+    ],
+    "answer": 0,
+    "explanation": "AACR का पूर्ण रूप एंग्लो-अमेरिकन कैटलॉगिंग रूल्स (Anglo-American Cataloguing Rules) है।",
+    "category": "AACR",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "AACR का पहला संस्करण किसके द्वारा संपादित किया गया था ?",
+    "options": [
+      "C. Summer Spalding",
+      "Michael Gorman",
+      "Seymour Lubetzky",
+      "Paul W- Winkler"
+    ],
+    "answer": 2,
+    "explanation": "AACR के पहले संस्करण (1967) के विकास में सेमुर लुबेट्स्की (Seymour Lubetzky) ने एक प्रमुख सैद्धांतिक भूमिका निभाई थी, हालांकि संपादक सी. समनर स्पॉल्डिंग थे। दिए गए विकल्पों में से, लुबेट्स्की सबसे उपयुक्त उत्तर है।",
+    "category": "AACR",
+    "source": "ALIGARH MUSLIM UNIVERSITY"
+  },
+  {
+    "question": "नेशनल लाइब्रेरी ऑफ कांग्रेस अपनी पुस्तकों को सूचीबद्ध करने के लिए किस कोड का उपयोग करती है ?",
+    "options": [
+      "CCC",
+      "AACR I",
+      "AACR II",
+      "AACR II and CCC"
+    ],
+    "answer": 2,
+    "explanation": "लाइब्रेरी ऑफ कांग्रेस (नेशनल लाइब्रेरी ऑफ कांग्रेस एक गलत नाम है) लंबे समय से एंग्लो-अमेरिकन कैटलॉगिंग रूल्स (AACR-II) का उपयोग कर रही है, और अब इसके उत्तराधिकारी, आरडीए (RDA) का उपयोग करती है।",
+    "category": "AACR",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "ए.ए.सी.आर. में जी.एम.डी. का प्रयोग किया जाता है ?",
+    "options": [
+      "सामान्य सामग्री विकासीकरण/General Materials Development",
+      "सामान्य सामग्री. पद/General material designation",
+      "भौगोलिक सामग्री विवरण/Geographical material description",
+      "सामान्य विनिबंध पद/General Monographic designation"
+    ],
+    "answer": 1,
+    "explanation": "AACR में, GMD का अर्थ सामान्य सामग्री पदनाम (General Material Designation) है, जिसका उपयोग सामग्री के प्रकार (जैसे, वीडियोरिकॉर्डिंग, मानचित्र) को इंगित करने के लिए किया जाता है।",
+    "category": "AACR",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "AACR में संपादित कार्यों को......के नीचे दर्ज किया जाता है ?",
+    "options": [
+      "असंपादक/ Editor",
+      "प्रकाशन / Publication",
+      "दस्तावेज का शीर्षक / Title of the document",
+      "उपर्युक्त सभी / All of these"
+    ],
+    "answer": 2,
+    "explanation": "AACR के नियमों के अनुसार, यदि किसी कृति का कोई लेखक नहीं है और उसे एक संपादक द्वारा संकलित किया गया है, तो मुख्य प्रविष्टि कृति के शीर्षक (Title of the document) के अंतर्गत बनाई जाती है।",
+    "category": "AACR",
+    "source": "KVS 2013"
+  },
+   {
+    "question": "AACR-II किस वर्ष प्रकाशित हुआ ?",
+    "options": [
+      "1980",
+      "1978",
+      "1989",
+      "1990"
+    ],
+    "answer": 1,
+    "explanation": "एंग्लो-अमेरिकन कैटलॉगिंग रूल्स का दूसरा संस्करण (AACR-II) 1978 में प्रकाशित हुआ था।",
+    "category": "AACR",
+    "source": "RPSC GRADE II 2020"
+  },
+  {
+    "question": "ए.ए.सी.आर.-2 का पूर्ण रूप है ?",
+    "options": [
+      "Anglo-American Cataloguing Rules Second Edition.",
+      "Anglo-Asian Cataloguing Rules - Second Edition",
+      "Anglo-Irish Classification Edition Rules-Second",
+      "Asian-Anglo Classification Rights-Second Edition"
+    ],
+    "answer": 0,
+    "explanation": "AACR-2 का पूर्ण रूप एंग्लो-अमेरिकन कैटलॉगिंग रूल्स, दूसरा संस्करण (Anglo-American Cataloguing Rules, Second Edition) है।",
+    "category": "AACR",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "ए.ए.सी.आर.2 (1978) किसके द्वारा सम्पादित किया गया ?<br>(A) Eric J. Hunter<br>(B) Michael Gorman<br>(C) Paul W Winkler<br>(D) Joseph Juran",
+    "options": [
+      "(A) and (B) are correct",
+      "(B) and (C) are correct",
+      "(C) and (D) are correct",
+      "(A) and (D) are correct"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2 को माइकल गोरमन (Michael Gorman) और पॉल डब्ल्यू. विंकलर (Paul W. Winkler) द्वारा संपादित किया गया था।",
+    "category": "AACR",
+    "source": "KVS 2023"
+  },
+  {
+    "question": "ए.ए.सी.आर. 2 के अनुसार मुख्य प्रविष्टि में.........अनुच्छेद होते हैं?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "answer": 2,
+    "explanation": "AACR-2, ISBD (अंतर्राष्ट्रीय मानक ग्रंथसूची विवरण) पर आधारित है, जिसमें ग्रंथसूची संबंधी विवरण के लिए आठ (8) क्षेत्र या अनुच्छेद होते हैं।",
+    "category": "AACR",
+    "source": "NVS 2022"
+  },
+  {
+    "question": "AACR-II के अनुसार, यदि कोई पुस्तक तीन लेखकों द्वारा लिखी गई हैं, तो मुख्य प्रविष्टि निम्न होनी चाहिए ?",
+    "options": [
+      "The first author",
+      "Second author",
+      "Title",
+      "Third author"
+    ],
+    "answer": 0,
+    "explanation": "AACR-II के नियमों के अनुसार, यदि किसी पुस्तक के दो या तीन लेखक हैं, तो मुख्य प्रविष्टि पहले नामित लेखक (The first author) के तहत बनाई जाती है।",
+    "category": "AACR",
+    "source": "HPSSC-2022"
+  },
+  {
+    "question": "AACR-II के अनुसार, मानचित्र या एटलस का लेखक कौन है ?",
+    "options": [
+      "Publisher",
+      "Translator",
+      "Cartographer",
+      "Illustrator"
+    ],
+    "answer": 2,
+    "explanation": "AACR-II के अनुसार, मानचित्र, एटलस और अन्य मानचित्रकारी सामग्री बनाने के लिए जिम्मेदार व्यक्ति या निकाय को मानचित्रकार (Cartographer) कहा जाता है।",
+    "category": "AACR",
+    "source": "G.G.S.IND.UNI, NEW DELHI-2024"
+  },
+  {
+    "question": "ए.ए.सी.आर.-2 के अध्ययन-9 ने ए.ए.सी.आर.-2 आर 2002 में अपना नाम परिवर्तित कर लिया है। परिवर्तित नाम की पहचान करें।",
+    "options": [
+      "Computer files",
+      "Electronic resources",
+      "Machine Readable Data File",
+      "Computer resources"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2 के 2002 के संशोधन में, अध्याय 9, जो पहले 'कंप्यूटर फाइल्स' को कवर करता था, का नाम बदलकर 'इलेक्ट्रॉनिक संसाधन' (Electronic resources) कर दिया गया ताकि विभिन्न प्रकार की डिजिटल सामग्री को शामिल किया जा सके।",
+    "category": "AACR",
+    "source": "RAJASTHAN UNI. JTA-2018"
+  },
+  {
+    "question": "ए.ए.सी.आर.-2 में बाइबिल, वेद, कुरान, उपनिषद, गीता की मुख्य प्रविष्टि होती है ?",
+    "options": [
+      "editor",
+      "cofactor",
+      "interpreter",
+      "title"
+    ],
+    "answer": 3,
+    "explanation": "AACR-2 के अनुसार, पवित्र ग्रंथों जैसे बाइबिल, वेद, कुरान आदि की मुख्य प्रविष्टि उनके मानकीकृत शीर्षक (Uniform title) के अंतर्गत बनाई जाती है।",
+    "category": "AACR",
+    "source": "UKSSSC-2018"
+  },
+  {
+    "question": "ए.ए.सी.आर. 2 एक कूट है जो.......के लिए है ?",
+    "options": [
+      "Dictionary catalogue",
+      "Alphabetic catalogue",
+      "Name catalogue",
+      "Subject catalogue"
+    ],
+    "answer": 3,
+    "explanation": "यह प्रश्न गलत है। AACR-2 एक वर्णनात्मक सूचीकरण कोड है, न कि किसी विशेष प्रकार के कैटलॉग के लिए। हालांकि, यह मुख्य रूप से लेखक/शीर्षक पहुँच से संबंधित है। दिए गए उत्तर के अनुसार यह 'विषय सूची' है, जो निश्चित रूप से गलत है।",
+    "category": "AACR",
+    "source": "PSC-2013"
+  },
+  {
+    "question": "ए.ए.सी.आर.-2 विवरण के कितने स्तर निर्दिष्ट करता है ?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2 ग्रंथसूची संबंधी विवरण के तीन (3) स्तर प्रदान करता है, जिससे पुस्तकालय अपनी आवश्यकताओं के अनुसार सूचीकरण की गहराई का चयन कर सकें।",
+    "category": "AACR",
+    "source": "PSC DEPUTY LIBRARIAN"
+  },
+  {
+    "question": "यदि किसी पुस्तक के 3 लेखक हैं तो एएसीआर-2 के अनुसार मुख्य प्रविष्टि किस इकाई के अंतर्गत तैयार की जाएगी ?",
+    "options": [
+      "Under the name of first author; all three authors shall be shown in the title section",
+      "Under the name of all three authors.",
+      "Under the Title of the book.",
+      "Under the name of the Editor of the book."
+    ],
+    "answer": 0,
+    "explanation": "AACR-2 के अनुसार, यदि किसी पुस्तक के तीन लेखक हैं, तो मुख्य प्रविष्टि पहले लेखक के नाम के तहत बनाई जाएगी, और सभी तीन लेखकों को शीर्षक और जिम्मेदारी के बयान क्षेत्र में दिखाया जाएगा।",
+    "category": "AACR",
+    "source": "MAHARANA PARTAP UNI. 2023"
+  },
+  {
+    "question": "यदि आपके सामने प्रकाशन का वर्ष उपलब्ध नहीं है, जब आप एएसीआर-2 के अनुसार कैटालॉग कार्ड तैयार कर रहे हों तो प्रकाशन वर्ष के संबंध में आप क्या दिखायेंगे ?",
+    "options": [
+      "'No Year' shall be shown at the catalogue card",
+      "A symbol '?' shall be shown at the catalogue card",
+      "'No Publication Year' shall be shown at the catalogue card",
+      "No need to write anything for it"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2 के अनुसार, यदि प्रकाशन का अनुमानित वर्ष भी ज्ञात नहीं है, तो एक प्रश्न चिह्न [?] का उपयोग किया जाता है, जिसे वर्गाकार कोष्ठकों में रखा जाता है।",
+    "category": "AACR",
+    "source": "MAHARANA PARTAP UNIVERSITY 2023"
+  },
+  {
+    "question": "ऐंग्लो-अमेरिकन कैटालागिंग रूल्स (ए.ए.सी. आर.-2) को संयुक्त रूप से किसके द्वारा प्रकाशित किया जाता है ?<br>(A) IFLA<br>(B) American Library Association<br>(C) Canadian Library Association<br>(D) British Library",
+    "options": [
+      "B और D सही हैं",
+      "C और D सही हैं",
+      "A और B सही हैं",
+      "B और C सही है"
+    ],
+    "answer": 3,
+    "explanation": "AACR-2 को संयुक्त रूप से अमेरिकन लाइब्रेरी एसोसिएशन (B) और कैनेडियन लाइब्रेरी एसोसिएशन (C) द्वारा ब्रिटिश लाइब्रेरी के सहयोग से प्रकाशित किया गया था। दिए गए विकल्पों में से B और C सही हैं।",
+    "category": "AACR",
+    "source": "NVS 2022 EVENING"
+  },
+  {
+    "question": "ए.ए.सी.आर-द्वितीय के अनुसार, भारत के (पूर्व) राष्ट्रपति प्रणब मुखर्जी का नाम दर्ज किया जाना चाहिए ?",
+    "options": [
+      "India President (Mukherjee, Pranab)",
+      "India President (Pranab Mukherjee)",
+      "India President (2012-2017; Pranab Mukherjee)",
+      "Mukherjee] Pranab India (President India)"
+    ],
+    "answer": 2,
+    "explanation": "AACR-2 के अनुसार, किसी राष्ट्राध्यक्ष के लिए शीर्षक इस प्रारूप में बनाया जाता है: [क्षेत्र का नाम]। [पद]। ([कार्यकाल]; [नाम])। इसलिए, सही प्रारूप 'India. President (2012-2017; Pranab Mukherjee)' होगा।",
+    "category": "AACR",
+    "source": "PARILIAMENT OF INDIA"
+  },
+  {
+    "question": "ए.ए.सी.आर.-II के अनुसार सम्मेलन की कार्यवाही हेतु स्थान, संख्या एवं समय का क्रम सम्मेलन आदेश होगा ?",
+    "options": [
+      "Place: number: year",
+      "Number: year: place",
+      "Number: place: year",
+      "Place: year: number"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2 के अनुसार, एक सम्मेलन के लिए शीर्षक बनाने का सही क्रम है: सम्मेलन की संख्या (Number), प्रकाशन का वर्ष (year), और सम्मेलन का स्थान (place)।",
+    "category": "AACR",
+    "source": "PARILIAMENT OF INDIA"
+  },
+  {
+    "question": "एंग्लो अमेरिकन कैटालॉग में पत्रिकाओं को...........के अंतर्गत दर्ज किया जाता है ?",
+    "options": [
+      "Sponsoring Body",
+      "Publisher's Name",
+      "Title of the Journal",
+      "None of these"
+    ],
+    "answer": 2,
+    "explanation": "AACR के अनुसार, पत्रिकाओं या धारावाहिक प्रकाशनों (serials) की मुख्य प्रविष्टि उनके शीर्षक (Title of the Journal) के अंतर्गत बनाई जाती है।",
+    "category": "AACR",
+    "source": "PARILIAMENT OF INDIA"
+  },
+  {
+    "question": "एएसीआर-2-भाग-2 से संबंधित है ?",
+    "options": [
+      "Description",
+      "Rules",
+      "Determination of Headings or Access Points",
+      "Tracings"
+    ],
+    "answer": 2,
+    "explanation": "AACR-2 को दो भागों में बांटा गया है। भाग-1 'विवरण' (Description) से संबंधित है। भाग-2 'शीर्षकों, एक समान शीर्षकों, और संदर्भों के निर्धारण' (Determination of Headings, Uniform Titles, and References) या पहुँच बिंदुओं (Access Points) से संबंधित है।",
+    "category": "AACR",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "'उपलब्धता की शर्तें' का प्रयोग किया जाता है ?",
+    "options": [
+      "CCF",
+      "AACR-2",
+      "CCC",
+      "None of the above"
+    ],
+    "answer": 1,
+    "explanation": "'उपलब्धता की शर्तें और मूल्य' (Terms of availability and price) AACR-2 में एक वैकल्पिक नोट क्षेत्र है।",
+    "category": "AACR",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "ए.ए.सी.आर. II के अनुसार अनाम ग्रंथों को निम्नलिखित में किसके अन्तर्गत प्रविष्टि किया जायेगा ?",
+    "options": [
+      "आख्या / Title",
+      "सम्पादक / Editor",
+      "विषय / Subject",
+      "सहकारक / Collaborator"
+    ],
+    "answer": 0,
+    "explanation": "AACR-II के अनुसार, अनाम या गुमनाम (anonymous) ग्रंथों की मुख्य प्रविष्टि उनकी आख्या (Title) के अंतर्गत बनाई जाती है।",
+    "category": "AACR",
+    "source": "RPSC GRADE 1ST 2016"
+  },
+  {
+    "question": "शीर्षक पृष्ठ पर मात्र सम्पादक का ही नाम होने की स्थिति में, ए.ए.सी.आर.-2 के अनुसार मुख्य प्रविष्टि बनेगी ?",
+    "options": [
+      "सम्पादक के नाम से/Under the editor",
+      "पुस्तक के शीर्षक से/Under the title of the book",
+      "पुस्तक के अलावा बाह्य स्रोत से प्राप्त लेखक के नाम से/Under the author found from outside the book",
+      "इनमें से किसी प्रकार से नहीं/None of these"
+    ],
+    "answer": 1,
+    "explanation": "यदि किसी कृति का कोई व्यक्तिगत लेखक नहीं है और उसे एक संपादक द्वारा तैयार किया गया है, तो AACR-2 के अनुसार मुख्य प्रविष्टि पुस्तक के शीर्षक (Under the title of the book) के तहत बनेगी।",
+    "category": "AACR",
+    "source": "RPSC GRADE 1ST SET-A 2016"
+  },
+  {
+    "question": "किसी व्यक्तिद्वारा संपादित सम्मेलन कार्यवाही के लिए AACR-II में मुख्य प्रविष्टि का शीर्षक, निम्न में से किसके अन्तर्गत तैयार किया जाता है ?",
+    "options": [
+      "सम्पादक के नाम/Name of the editor",
+      "सम्मेलन के स्थान/ Place of conference",
+      "खण्ड के शीर्षक/Title of the volume",
+      "सम्मेलन के नाम/Name of the conference"
+    ],
+    "answer": 3,
+    "explanation": "AACR-II के अनुसार, एक सम्मेलन की कार्यवाही के लिए मुख्य प्रविष्टि सम्मेलन के नाम (Name of the conference) के तहत बनाई जाती है।",
+    "category": "AACR",
+    "source": "RSMSSB-2019"
+  },
+  {
+    "question": "AACR-2 में एक व्यावसायिक प्रकाशक द्वारा प्रकाशित क्रमिक प्रकाशन के लिए मुख्य प्रविष्टि निम्नानुसार होगी ?",
+    "options": [
+      "निगमित निकाय (Corporate Body)",
+      "शीर्षक (Title)",
+      "संपादक (Editor)",
+      "इनमें से कोई भी नहीं/None of the above"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2 के अनुसार, क्रमिक प्रकाशनों (serials) या पत्रिकाओं के लिए मुख्य प्रविष्टि हमेशा उनके शीर्षक (Title) के तहत बनाई जाती है।",
+    "category": "AACR",
+    "source": "RPSC 2020"
+  },
+  {
+    "question": "GMD को, AACR-II में निरूपित करता हैं ?",
+    "options": [
+      "General material description",
+      "General, material designation",
+      "Geographical material description",
+      "General Monographic Designation"
+    ],
+    "answer": 1,
+    "explanation": "GMD का अर्थ है 'सामान्य सामग्री पदनाम' (General Material Designation)।",
+    "category": "AACR",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "ए.ए.सी.आर-2 में तृतीय या काल्पनिक इण्डैंशन निम्नांकित से आरम्भ होता है ?",
+    "options": [
+      "AT any margin",
+      "8 spaces of margin",
+      "12 spaces of margin",
+      "14 spaces of margin"
+    ],
+    "answer": 3,
+    "explanation": "यह प्रश्न इंडेंटेशन के बारे में है, लेकिन 'तृतीय या काल्पनिक' इंडेंटेशन एक मानक शब्द नहीं है। AACR-2 में, दूसरा इंडेंटेशन 5 स्पेस पर और तीसरा 7 स्पेस पर होता है। दिए गए विकल्प मानक अभ्यास से मेल नहीं खाते हैं।",
+    "category": "AACR",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "AACR-2 में, जब किसी पुस्तक को शीर्षक के अंतर्गत दर्ज किया जाता है, शीर्षक की जानकारी पहले इंडेंटेशन से शुरू होती है और निरंतरता दूसरे इंडेंटेशन से होती है, इसे कहा जाता है ?",
+    "options": [
+      "Gap indention",
+      "Hanging indention",
+      "False indention",
+      "Imaginary indention"
+    ],
+    "answer": 1,
+    "explanation": "जब एक प्रविष्टि की पहली पंक्ति सामान्य हाशिये से शुरू होती है और बाद की सभी पंक्तियाँ इंडेंट की जाती हैं, तो इसे हैंगिंग इंडेंटेशन (Hanging indention) कहा जाता है। इसका उपयोग तब किया जाता है जब मुख्य प्रविष्टि शीर्षक के तहत बनाई जाती है।",
+    "category": "AACR",
+    "source": "SHREE CHITRA TIRUNAL INSTTUTE-2023"
+  },
+  {
+    "question": "ए.ए.सी.आर-2 के अनुसार बाइबिल निम्न में से कौन-सी श्रेणी के अन्तर्गत आती है ?",
+    "options": [
+      "Heavenly Work",
+      "Anonymous work",
+      "Uniform title",
+      "Pseudonymous"
+    ],
+    "answer": 2,
+    "explanation": "AACR-2 में, बाइबिल जैसे पवित्र ग्रंथों को मानकीकृत करने और विभिन्न संस्करणों को एक साथ लाने के लिए एक समान शीर्षक (Uniform title) के तहत सूचीबद्ध किया जाता है।",
+    "category": "AACR",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "ए ए सी आर 2 के अनुसार, समानान्तर आख्या क्या है ?",
+    "options": [
+      "Title in uppercase",
+      "Title in lowercase",
+      "A title proper in another language",
+      "A condensed title"
+    ],
+    "answer": 2,
+    "explanation": "AACR-2 के अनुसार, समानांतर आख्या (Parallel title) किसी अन्य भाषा में उचित आख्या (title proper) होती है।",
+    "category": "AACR",
+    "source": "EMRS-2023"
+  },
+  {
+    "question": "AACR-2 में, शीर्षक प्रविष्टि है ?",
+    "options": [
+      "main entry",
+      "reference entry",
+      "added entry",
+      "cross-reference entry"
+    ],
+    "answer": 0,
+    "explanation": "AACR-2 में, यदि मुख्य प्रविष्टि लेखक के तहत है, तो शीर्षक के लिए एक अतिरिक्त प्रविष्टि (added entry) बनाई जाती है। यदि कोई लेखक नहीं है या तीन से अधिक लेखक हैं, तो शीर्षक प्रविष्टि ही मुख्य प्रविष्टि (main entry) होती है। दिए गए उत्तर के अनुसार, इसे मुख्य प्रविष्टि माना गया है।",
+    "category": "AACR",
+    "source": "ASSAM PLC-2019"
+  },
+  {
+    "question": "AACR-2 में धारावाहिक प्रकाशन निम्न के अंतर्गत दर्ज है ?",
+    "options": [
+      "the publisher",
+      "the editor",
+      "the title",
+      "the subject"
+    ],
+    "answer": 2,
+    "explanation": "AACR-2 के अनुसार, धारावाहिक प्रकाशनों (Serials) को हमेशा उनके शीर्षक (the title) के तहत दर्ज किया जाता है।",
+    "category": "AACR",
+    "source": "ASSAM PLC-2019"
+  },
+  {
+    "question": "जब कोई पुस्तक चार लेखकों द्वारा लिखी जाती है तो AACR-2 मे मुख्य प्रविष्टि किसके अनुसार की जाएगी ?",
+    "options": [
+      "Title",
+      "of the first three authors",
+      "All authors",
+      "First author only"
+    ],
+    "answer": 0,
+    "explanation": "AACR-2 के 'तीन के नियम' (Rule of Three) के अनुसार, यदि किसी कृति के तीन से अधिक लेखक होते हैं, तो मुख्य प्रविष्टि शीर्षक (Title) के तहत बनाई जाती है।",
+    "category": "AACR",
+    "source": "UPPSC"
+  },
+  {
+    "question": "AACR-2 में वह प्रविष्टि जो पाठकों को एक शीर्षक से दूसरे शीर्षक की ओर निर्देशित करती है, कहलाती है ?",
+    "options": [
+      "analytical entry",
+      "added entry",
+      "main entry",
+      "reference entry"
+    ],
+    "answer": 3,
+    "explanation": "एक प्रविष्टि जो पाठकों को एक शीर्षक से दूसरे की ओर निर्देशित करती है (जैसे 'see' या 'see also'), उसे संदर्भ प्रविष्टि (reference entry) कहा जाता है।",
+    "category": "AACR",
+    "source": "PLC-2019"
+  },
+  {
+    "question": "AACR-2 में एक सरकारी प्रकाशन को निम्न के अंतर्गत दर्ज किया जाता है ?",
+    "options": [
+      "the name of the title of the book",
+      "the name of the department",
+      "the name of the subject of the department",
+      "the name of the country"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न गलत है। AACR-2 में, सरकारी प्रकाशनों को आमतौर पर सरकारी निकाय (यानी देश या क्षेत्र का नाम, उसके बाद विभाग का नाम) के तहत दर्ज किया जाता है। दिए गए उत्तर (विभाग का नाम) अपूर्ण है।",
+    "category": "AACR",
+    "source": "ASSAM PLC-2019"
+  },
+  {
+    "question": "AACR-II संशोधित संस्करण के अनुसार कैटालॉग प्रविष्टि में GMD दी जाती है ?",
+    "options": [
+      "टाइटल प्रोपर के पश्चात/After the title proper",
+      "उत्तरदायित्व के कथन के पश्चात/After the statement of responsibility",
+      "टाइटल के पहले/before the title",
+      "उत्तरदायित्व के कथन के पहले/Before the statement of responsibility"
+    ],
+    "answer": 0,
+    "explanation": "AACR-II के अनुसार, GMD (सामान्य सामग्री पदनाम) को हमेशा उचित शीर्षक (title proper) के तुरंत बाद वर्गाकार कोष्ठकों में दिया जाता है।",
+    "category": "AACR",
+    "source": "CHATTISGARH PSC-2019"
+  },
+  {
+    "question": "AACR-II का अध्याय 12 किससे संबंधित है ?",
+    "options": [
+      "General rules for description",
+      "Rules for Analytical Entries",
+      "Serial publication",
+      "Sound Recording"
+    ],
+    "answer": 2,
+    "explanation": "AACR-II का अध्याय 12 क्रमिक प्रकाशनों या धारावाहिकों (Serial publication) के सूचीकरण से संबंधित है।",
+    "category": "AACR",
+    "source": "CUET PG PAPER 2022"
+  },
+  {
+    "question": "एएसीआर 2 का ऑनलाइन संस्करण कैटालॉगर्स डेस्कटॉप के माध्यम से कब उपलब्ध है ?",
+    "options": [
+      "2002 revision and 2005 update",
+      "2003 revision and 2005 update",
+      "2005 revision and 2006 update",
+      "2007 revision and 2008 update"
+    ],
+    "answer": 0,
+    "explanation": "AACR-2 का 2002 का संशोधन, जो ऑनलाइन कैटलॉगर्स डेस्कटॉप के माध्यम से उपलब्ध कराया गया, 2005 तक अपडेट के साथ जारी रहा, जिसके बाद इसे RDA द्वारा प्रतिस्थापित करने की प्रक्रिया शुरू हुई।",
+    "category": "AACR",
+    "source": "DSSSB-2017"
+  },
+  {
+    "question": "AACR II एक विशेष पुस्तकालय की आवश्यकता और दस्तावेज की आवश्यकता के अनुसार क्या प्रदान करता है ?",
+    "options": [
+      "One level of description",
+      "Two levels of description",
+      "Three levels of description",
+      "Four levels of description"
+    ],
+    "answer": 2,
+    "explanation": "AACR-II ग्रंथसूची संबंधी विवरण के तीन स्तर (Three levels of description) प्रदान करता है, जिससे विभिन्न प्रकार के पुस्तकालय अपनी जरूरतों के अनुसार सूचीकरण की गहराई चुन सकते हैं।",
+    "category": "AACR",
+    "source": "DSSSB-2017"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा क्षेत्र एएसीआर-द्वितीय द्वारा निर्धारित विवरण का हिस्सा नहीं है ?",
+    "options": [
+      "Edition",
+      "Publication and distribution",
+      "Title and statement of responsibility",
+      "Address and location"
+    ],
+    "answer": 3,
+    "explanation": "AACR-II द्वारा निर्धारित विवरण के 8 क्षेत्रों में संस्करण, प्रकाशन, और शीर्षक शामिल हैं। 'पता और स्थान' (Address and location) इसका मानक क्षेत्र नहीं है।",
+    "category": "AACR",
+    "source": "DSSSB-2021 TECHNICAL ASSISTANT"
+  },
+  {
+    "question": "AACR-II में मुख्य प्रविष्टि के किस भाग में अनुरेखण का कार्य किया जाता है ?",
+    "options": [
+      "Bottom of main entry",
+      "In the back of the card in the main entry",
+      "Right in main entry",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "AACR-II में, अनुरेखण (Tracing) को मुख्य प्रविष्टि के निचले भाग में (Bottom of main entry) एक अलग पैराग्राफ में लिखा जाता है।",
+    "category": "AACR",
+    "source": "HPSSC HAMIRPUR LIBRARIAN 2022"
+  },
+  {
+    "question": "ए.ए.सी.आर.-2 के अनुसार आर. के. गुप्ता (R.K. Gupta) नाम का शीर्षक....... होगा ?",
+    "options": [
+      "GUPTA (R.K.)",
+      "GUPTA, R.K.",
+      "Gupta, R.K.",
+      "Gupta (R.K.)"
+    ],
+    "answer": 2,
+    "explanation": "AACR-2 के अनुसार, व्यक्तिगत लेखक के नाम के लिए शीर्षक इस प्रारूप में होता है: उपनाम, अल्पविराम, फिर पहला नाम या आद्याक्षर। अतः, 'Gupta, R.K.' सही प्रारूप है।",
+    "category": "AACR",
+    "source": "RSMSSB-2019"
+  },
+  {
+    "question": "ए. एसी. आर. 2 की प्रतिस्थापना के लिए वर्ष 2010 में विमोचित कैटालॉगिंग स्टैंडर्ड.......है?",
+    "options": [
+      "C.C.C. 2",
+      "A.A.C.R.",
+      "RDA",
+      "M.A.R.C."
+    ],
+    "answer": 2,
+    "explanation": "AACR-2 को प्रतिस्थापित करने के लिए 2010 में जो नया कैटलॉगिंग मानक जारी किया गया, वह आरडीए (RDA - Resource Description and Access) है।",
+    "category": "AACR",
+    "source": "ISRO-2015 VIKRAM SARABAI"
+  },
+  {
+    "question": "AACR-II संस्करण में स्टेटमैंट ......में लिखते है?",
+    "options": [
+      "रोमन वर्णमाला/Roman alphabet",
+      "चित्र/picture",
+      "शब्द/word",
+      "इंडो-एरेबिक/Indo-Arabic"
+    ],
+    "answer": 3,
+    "explanation": "AACR-II में, पृष्ठों की संख्या जैसे भौतिक विवरणों को इंडो-अरबी (Indo-Arabic) अंकों में लिखा जाता है, जबकि प्रारंभिक पृष्ठों को रोमन (Roman) अंकों में लिखा जा सकता है।",
+    "category": "AACR",
+    "source": "ISRO 2016"
+  },
+  {
+    "question": "AACR-II संशोधित संस्करण के अनुसार कैटालॉग प्रविष्टि में GMD निम्न रूप से दिया जाता है ?",
+    "options": [
+      "उचित शीर्षक के बाद/After the title proper",
+      "शीर्षक से पहले/Before the title",
+      "उत्तरदायित्व बयान के बाद/After the statement of responsibility",
+      "उत्तरदायित्त्व बयान से पहले / Before the statement of responsibility"
+    ],
+    "answer": 0,
+    "explanation": "AACR-II में GMD (सामान्य सामग्री पदनाम) को उचित शीर्षक (title proper) के तुरंत बाद वर्गाकार कोष्ठकों में दिया जाता है।",
+    "category": "AACR",
+    "source": "ISRO 2022"
+  },
+  {
+    "question": "ए.ए.सी.आर.-2 को किसके द्वारा प्रतिस्थापित किया गया है ?",
+    "options": [
+      "BIBFRAME",
+      "AACR-2",
+      "Resource Description and Access",
+      "CCC"
+    ],
+    "answer": 2,
+    "explanation": "AACR-2 को आरडीए (RDA), यानी रिसोर्स डिस्क्रिप्शन एंड एक्सेस (Resource Description and Access) द्वारा प्रतिस्थापित किया गया है।",
+    "category": "AACR",
+    "source": "KVS 2018 EVENING"
+  },
+  {
+    "question": "ए.ए.सी.आर-II के संपादकों में से एक है?",
+    "options": [
+      "Michel Gorman",
+      "Lubetzki",
+      "KGB Backwell",
+      "Ashworth"
+    ],
+    "answer": 0,
+    "explanation": "माइकल गोरमन (Michel Gorman) AACR-II के दो संपादकों में से एक थे।",
+    "category": "AACR",
+    "source": "KERLA PSC 2015"
+  },
+  {
+    "question": "ए.ए.सी.आर.-2 तथा आई.एस.बी.डी. के अनुसार संकलित ग्रंथ सूची विवरण में कितने क्षेत्र होते हैं ?",
+    "options": [
+      "Five areas",
+      "Six areas",
+      "Seven areas",
+      "Eight areas"
+    ],
+    "answer": 3,
+    "explanation": "AACR-2 और ISBD दोनों के अनुसार, ग्रंथसूची संबंधी विवरण में आठ (Eight) क्षेत्र होते हैं।",
+    "category": "AACR",
+    "source": "KERLA PSC 2021"
+  },
+  {
+    "question": "किस वर्ष में एएसीआर 2 को रिसोर्स डिस्क्रिप्शन एंड एक्सेस (आरडीए) द्वारा प्रतिस्थापित किया गया था ?",
+    "options": [
+      "2010",
+      "2013",
+      "2012",
+      "2011"
+    ],
+    "answer": 0,
+    "explanation": "आरडीए (रिसोर्स डिस्क्रिप्शन एंड एक्सेस) को आधिकारिक तौर पर 2010 में जारी किया गया था, जिसका उद्देश्य AACR-2 को प्रतिस्थापित करना था।",
+    "category": "AACR",
+    "source": "PSC 2022"
+  },
+  {
+    "question": "ए.ए.सी.आर.2 में साझे उत्तरदायित्व वाले कार्यों की दशा में मुख्य प्रविष्टि निम्न प्रकार से तैयार की जायेगी ?",
+    "options": [
+      "First author",
+      "First two authors",
+      "Title",
+      "Subject"
+    ],
+    "answer": 2,
+    "explanation": "यह प्रश्न भ्रामक है। साझे उत्तरदायित्व के मामले में, यदि लेखकों की संख्या तीन से अधिक है तो मुख्य प्रविष्टि शीर्षक के तहत बनाई जाती है। यदि तीन तक हैं, तो पहले लेखक के तहत। दिए गए उत्तर के अनुसार यह शीर्षक है, जो तीन से अधिक लेखकों की स्थिति में सही है।",
+    "category": "AACR",
+    "source": "KVS 2018"
+  },
+  {
+    "question": "AACR-II का अध्याय 10 किससे सम्बन्धित है ?",
+    "options": [
+      "तीन आयामी कलाकृतियों से/three dimensional artefacts",
+      "ग्राफिक सामग्री से/graphic material",
+      "मशीन पठनीय डेटा फाइल/machine readable data file",
+      "ध्वनि रिकार्डिंग से / sound recording"
+    ],
+    "answer": 0,
+    "explanation": "AACR-II में, अध्याय 10 तीन-आयामी कलाकृतियों और वास्तविक वस्तुओं (Three-Dimensional Artefacts and Realia) के सूचीकरण से संबंधित है।",
+    "category": "AACR",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "AACR-2 में एक व्यावसायिक प्रकाशक द्वारा प्रकाशित क्रमिक प्रकाशन के लिए मुख्य प्रविष्टि निम्नानुसार होगी ?",
+    "options": [
+      "निगमित निकाय/corporate body",
+      "शीर्षक/title",
+      "संपादक/editor",
+      "इनमें से कोई नहीं/none of these"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2 के अनुसार, क्रमिक प्रकाशनों (serials) के लिए मुख्य प्रविष्टि हमेशा उनके शीर्षक (title) के तहत बनाई जाती है।",
+    "category": "AACR",
+    "source": "MPPSC-2020"
+  },
+  {
+    "question": "ए.ए.सी.आर.-2 को मान्यता प्राप्त शब्दकोश सूची में निम्नलिखित प्रकार की प्रविष्टियों में से विषम को चुनें ?",
+    "options": [
+      "Main entry",
+      "Added entries",
+      "References",
+      "Title entry"
+    ],
+    "answer": 2,
+    "explanation": "मुख्य प्रविष्टि और अतिरिक्त प्रविष्टियाँ सीधे दस्तावेज़ का वर्णन करती हैं, जबकि संदर्भ (References), जैसे 'see' और 'see also', उपयोगकर्ताओं को एक शीर्षक से दूसरे पर निर्देशित करते हैं और सीधे दस्तावेज़ का वर्णन नहीं करते। इसलिए, यह विषम है।",
+    "category": "AACR",
+    "source": "MIZORAM PSC 2013"
+  },
+  {
+    "question": "2002 में प्रकाशित AACR-2R में पहला भाग कितने अध्यायों में बंटा हुआ है ?",
+    "options": [
+      "11",
+      "13",
+      "10",
+      "12"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2R (2002 संशोधन) का पहला भाग, जो विवरण (Description) से संबंधित है, 13 अध्यायों में विभाजित है। इसमें विभिन्न प्रकार की सामग्रियों के लिए नियम शामिल हैं।",
+    "category": "AACR-2R",
+    "source": "NVS 2019"
+  },
+  {
+    "question": "AACR-R संस्करण किस वर्ष में प्रकाशित हुआ ?",
+    "options": [
+      "1967",
+      "1978",
+      "1988",
+      "1992"
+    ],
+    "answer": 2,
+    "explanation": "AACR का दूसरा संशोधित संस्करण, जिसे AACR-2R के नाम से जाना जाता है, 1988 में प्रकाशित हुआ था।",
+    "category": "AACR-2R",
+    "source": "NVS 2022"
+  },
+  {
+    "question": "ए.ए.सी.आर.-2 आर (1988) के भाग II में ........... के नियमों के बारे में बताया गया है ?",
+    "options": [
+      "description of items",
+      "added entries",
+      "reference entries",
+      "access points"
+    ],
+    "answer": 3,
+    "explanation": "AACR-2R का भाग II पहुँच बिंदुओं (access points), यानी शीर्षकों (headings), एक समान शीर्षकों (uniform titles), और संदर्भों (references) के चयन और रूप से संबंधित है।",
+    "category": "AACR-2R",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "निम्नलिखित में से कौन ए.ए.सी.आर-2 आर का उत्तराधिकारी है ?",
+    "options": [
+      "RDA",
+      "MARC 21",
+      "RDF",
+      "FRBR"
+    ],
+    "answer": 0,
+    "explanation": "आरडीए (RDA - Resource Description and Access), AACR-2R का उत्तराधिकारी है और डिजिटल वातावरण के लिए डिज़ाइन किया गया एक नया सूचीकरण मानक है।",
+    "category": "AACR-2R",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "ऐंग्लो-अमेरिकन कैटालॉगिंग रूल्स (ए.ए.सी.आर. रिवीजन-2R) में वर्णनात्मक सूचीकरण के कितने स्तर उपलब्ध कराए जाते है ?",
+    "options": [
+      "Four",
+      "Three",
+      "Two",
+      "Five"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2R में वर्णनात्मक सूचीकरण के तीन (Three) स्तर उपलब्ध कराए गए हैं।",
+    "category": "AACR-2R",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "ए.ए.सी.आर.-2 आर में मुख्य प्रविष्टि........... के अंतर्गत दी गई है ?",
+    "options": [
+      "ISBN",
+      "call number",
+      "author",
+      "title"
+    ],
+    "answer": 2,
+    "explanation": "AACR-2R में, मुख्य प्रविष्टि आमतौर पर प्राथमिक लेखक (author) के नाम के तहत बनाई जाती है, यदि वह ज्ञात हो।",
+    "category": "AACR-2R",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "AACR-2R (1988) के सूचकांक का अनुपालन किया गया ?",
+    "options": [
+      "Paul Winkler",
+      "K-G-B-Backwell",
+      "Eric J-Hunter",
+      "Jean Weins"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2R (1988) की अनुक्रमणिका के.जी.बी. बैकवेल (K.G.B. Backwell) द्वारा तैयार की गई थी।",
+    "category": "AACR-2R",
+    "source": "UPPSC 2023 SHIFT-1"
+  },
+  {
+    "question": "AACR-2R में निजी लेखकों की गुम नाम कृतियों को ........ के अंतर्गत दर्ज किया जाना है ?",
+    "options": [
+      "Subject",
+      "Title",
+      "Editor",
+      "Collaborator"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2R के अनुसार, गुमनाम कृतियों (anonymous works) को उनके शीर्षक (Title) के तहत दर्ज किया जाता है।",
+    "category": "AACR-2R",
+    "source": "DSSSB-2021 TECHNICAL ASST"
+  },
+  {
+    "question": "AACR-2R के अनुसार, हम दक्षिण भारतीय नामों के शीर्षक का रूप कैसे प्रदर्शित करते है ?",
+    "options": [
+      "दिए गए / प्रथम नाम/Given/First Name",
+      "किसी अन्य उपसर्ग जैसे स्थान या जाति / any other prefix like place or caste",
+      "उपनाम/surname",
+      "पिता के दिए हुए नाम / Name given by father"
+    ],
+    "answer": 0,
+    "explanation": "AACR-2R दक्षिण भारतीय नामों के लिए, जो अक्सर उपनाम का उपयोग नहीं करते हैं, दिए गए नाम या प्रथम नाम (Given/First Name) को प्रवेश तत्व के रूप में उपयोग करने का निर्देश देता है।",
+    "category": "AACR-2R",
+    "source": "DSSSB 2023 SHIFT-1"
+  },
+  {
+    "question": "एएसीआर 2 (आर) का भाग ए, खंड 12 से संबंधित है ?",
+    "options": [
+      "Serials Publication",
+      "Title",
+      "Note Section",
+      "Heading"
+    ],
+    "answer": 0,
+    "explanation": "AACR-2R का भाग A (विवरण), अध्याय 12, धारावाहिक प्रकाशनों (Serials Publication) से संबंधित है।",
+    "category": "AACR-2R",
+    "source": "PSC 2022"
+  },
+  {
+    "question": "दो समान्तर शीर्षकों को जोड़ने के लिए ए.ए.सी.आर.-II में सूचक चिह्न होता है ?",
+    "options": [
+      "Hyphen",
+      "Stroke",
+      "Plus",
+      "Equal Sign"
+    ],
+    "answer": 3,
+    "explanation": "AACR-II में, समानांतर शीर्षकों (Parallel Titles) को जोड़ने के लिए बराबर चिह्न (Equal Sign =) का उपयोग किया जाता है।",
+    "category": "AACR SIGN",
+    "source": "RPSC ASS. PROFESSOR PAPER I-2024"
+  },
+  {
+    "question": "AACR-II के अनुसार, उत्तरदायित्व कथन से पहले यह लगा होना चाहिए ?",
+    "options": [
+      "Semicolon (;)",
+      "Diagonal oblique (/)",
+      "Incomplete pause (:)",
+      "comma (,)"
+    ],
+    "answer": 1,
+    "explanation": "AACR-II में, उत्तरदायित्व के कथन (statement of responsibility) से पहले एक स्पेस, एक विकर्ण तिर्यक (diagonal oblique /), और फिर एक स्पेस का उपयोग किया जाता है।",
+    "category": "AACR SIGN",
+    "source": "NVS 2019"
+  },
+  {
+    "question": "AACR-2 में मिश्रित जिम्मेदारी किससे जुड़ी है ?",
+    "options": [
+      ":",
+      ";",
+      ".",
+      "/"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2 में, जब एक ही प्रकार की जिम्मेदारी (जैसे कई लेखक) के विभिन्न समूहों का उल्लेख किया जाता है, तो उन्हें अर्धविराम (semicolon ;) द्वारा अलग किया जाता है।",
+    "category": "AACR SIGN",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "ए.ए.सी.आर.-2 के अनुसार, भौतिक विवरण में पुस्तक चित्रण से पहले है ?",
+    "options": [
+      "Comma",
+      "Semicolon",
+      "Full Stop",
+      "Colon"
+    ],
+    "answer": 3,
+    "explanation": "AACR-2 में, भौतिक विवरण क्षेत्र के भीतर, पृष्ठ संख्या के बाद चित्रण (illustrations) के विवरण से पहले एक स्पेस, कोलन (:), और फिर एक स्पेस का उपयोग किया जाता है।",
+    "category": "AACR SIGN",
+    "source": "PUNJAB PSSSB-2021"
+  },
+  {
+    "question": "एंग्लो एमेरिकन कैटालोगिंग रूल्स-2 (ए.ए.सी. आर-2) के मुताबिक, मुख्य प्रविष्टि बनाने के दौरान प्रत्येक क्षेत्र, पहले क्षेत्र के अलावा, की शुरुआत....तथा नया अनुच्छेद शुरू होने से पूर्व निम्न में से किस चिह्न संयोजन का प्रयोग किया जाता है ?",
+    "options": [
+      "(.) full stop",
+      "(. --) full stop, space, dash, space",
+      "(-) dash",
+      "(/) slash"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2 में, प्रत्येक क्षेत्र (पहले को छोड़कर) एक पूर्ण विराम, स्पेस, डैश, स्पेस (. --) के पूर्वनिर्धारित विराम चिह्न से शुरू होता है।",
+    "category": "AACR SIGN",
+    "source": "RSMSSB-2016"
+  },
+  {
+    "question": "एंग्लो अमेरिकन कैटालोगिंग रूल्स-2 के मुताबिक (एएसीआर-2) यदि सूचना निर्धारित स्रोत के अलावा बाहर से ली जाती तो उनको निम्न में से किस कोष्ठक में बंद किया जाता है ?",
+    "options": [
+      "{} middle bracket",
+      "() small bracket",
+      "[] big brackets",
+      "<> angle bracket"
+    ],
+    "answer": 2,
+    "explanation": "AACR-2 में, जब कोई जानकारी निर्धारित स्रोत के बाहर से ली जाती है, तो उसे वर्गाकार कोष्ठकों (square brackets या big brackets []) में बंद किया जाता है।",
+    "category": "AACR SIGN",
+    "source": "c"
+  },
+  {
+    "question": "AACR-II कोड के अनुसार पुस्तक के आकार को भौतिक विवरण क्षेत्र में निम्नलिखित में से किस चिन्ह द्वारा प्रदर्शित किया जाता है ?",
+    "options": [
+      "Colon",
+      "Semi-colon",
+      "full stop",
+      "coma"
+    ],
+    "answer": 1,
+    "explanation": "AACR-II में, भौतिक विवरण क्षेत्र में, पुस्तक के आकार (size) के विवरण से पहले एक अर्धविराम (Semi-colon ;) का उपयोग किया जाता है।",
+    "category": "AACR SIGN",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "ए.ए.सी.आर.-2 के अनुसार, बाह्य स्रोत से प्राप्त सूचना को निम्नलिखित के अंदर दर्शाया जाता है ?",
+    "options": [
+      "[] big bracket",
+      "() small bracket",
+      "<> angle brackets",
+      "{} middle brackets"
+    ],
+    "answer": 0,
+    "explanation": "बाहरी स्रोतों से प्राप्त जानकारी को वर्गाकार कोष्ठकों (big bracket []) में दर्शाया जाता है।",
+    "category": "AACR SIGN",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "ए.ए.सी.आर.-2 के अनुसार, बाह्य स्त्रोत से प्राप्त सूचना को निम्नलिखित के अंदर दर्शाया जाता है ?",
+    "options": [
+      "() Parenthesis",
+      "[] square brackets",
+      "<> angle brackets",
+      "{ } braces or curly bracdets"
+    ],
+    "answer": 1,
+    "explanation": "बाहरी स्रोतों से प्राप्त जानकारी को वर्गाकार कोष्ठकों (square brackets []) में दर्शाया जाता है।",
+    "category": "AACR SIGN",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "ए.ए.सी.आर. द्वितीय के अनुसार भौतिक वर्णन क्षेत्र में पुस्तक के आकार से पहले आता है ?",
+    "options": [
+      "colon",
+      "semi colon",
+      "full stop",
+      "coma"
+    ],
+    "answer": 1,
+    "explanation": "AACR-II में भौतिक वर्णन क्षेत्र में, आकार के विवरण से पहले एक अर्धविराम (semi colon) आता है।",
+    "category": "AACR SIGN",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "AACR-2 में प्रकाशन के स्थान से पहले किस विराम चिह्न का उपयोग किया जाता है ?",
+    "options": [
+      "Semi Colon and Space",
+      "Full stop, space and dash",
+      "Space and colon",
+      "Full stop only"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न भ्रामक है। प्रकाशन, वितरण आदि क्षेत्र (Imprint) एक नए पैराग्राफ के रूप में शुरू होता है और (. --) से पहले आता है। प्रकाशन के स्थान के बाद कोलन (:) आता है। दिए गए विकल्पों में से, 'Full stop, space and dash' क्षेत्र विभाजक का सबसे अच्छा वर्णन करता है।",
+    "category": "AACR SIGN",
+    "source": "ISRO 2022"
+  },
+  {
+    "question": "AARC-2 के अनुसार कैटलॉगिंग में, वर्ग कोष्ठक, को संलग्न करने के लिए उपयोग किया जाता है ?",
+    "options": [
+      "statement of accompanying material",
+      "the details of author",
+      "series statements",
+      "information taken from outside"
+    ],
+    "answer": 3,
+    "explanation": "AACR-2 में, वर्गाकार कोष्ठकों का उपयोग उस जानकारी को संलग्न करने के लिए किया जाता है जो निर्धारित सूचना स्रोतों के बाहर से ली गई हो (information taken from outside)।",
+    "category": "AACR SIGN",
+    "source": "JKSSB"
+  },
+  {
+    "question": "ए.ए.सी.आर.-II संहिता के अनुसार भौतिक विवरण क्षेत्र में पुस्तक के आकार के पहले किस प्रतीक का प्रयोग किया जाता है ?",
+    "options": [
+      "Brackets",
+      "Full Stop",
+      "Comma",
+      "Semi-colon"
+    ],
+    "answer": 3,
+    "explanation": "AACR-II में भौतिक विवरण क्षेत्र में, आकार के विवरण से पहले एक अर्धविराम (Semi-colon) का प्रयोग किया जाता है।",
+    "category": "AACR SIGN",
+    "source": "PSC 2016"
+  },
+  {
+    "question": "AACR-2R में GMD (सामान्य सामग्री विवरण) के लिए इस्तेमाल किया जाने वाला विराम चिह्न ?",
+    "options": [
+      "Full stop, dash, space",
+      "Square bracket",
+      "Equal sign",
+      "Colon"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2R में, GMD (सामान्य सामग्री पदनाम) को वर्गाकार कोष्ठक (Square bracket) में रखा जाता है।",
+    "category": "AACR SIGN",
+    "source": "G.G. S. IND. UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "कैटालॉगिंग सिद्धांतों पर अंतर्राष्ट्रीय सम्मेलन (1961) कहाँ आयोजित किया गया था ?",
+    "options": [
+      "New York",
+      "Paris",
+      "New Delhi",
+      "London"
+    ],
+    "answer": 1,
+    "explanation": "कैटलॉगिंग सिद्धांतों पर अंतर्राष्ट्रीय सम्मेलन (International Conference on Cataloguing Principles - ICCP), जिसे पेरिस सम्मेलन के नाम से भी जाना जाता है, 1961 में पेरिस, फ्रांस में आयोजित किया गया था।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "UPPSC 2023 SHIFT-1"
+  },
+  {
+    "question": "निम्न में से कौनसा नाम 'अन्तर्राष्ट्रीय सूचीकरण सिद्धान्तों के सम्मेलन' के लिए उपयोग किया जाता है ?",
+    "options": [
+      "Paris Conference",
+      "London Conference",
+      "Delhi Conference",
+      "New York Conference"
+    ],
+    "answer": 0,
+    "explanation": "1961 में हुए 'अंतर्राष्ट्रीय सूचीकरण सिद्धांतों के सम्मेलन' को आमतौर पर पेरिस सम्मेलन (Paris Conference) के रूप में जाना जाता है।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "RSMSSB-2019"
+  },
+  {
+    "question": "सूचीकरण के उपसूत्रों का प्रथम बार निरूपण डॉ. एस. आर. रंगनाथन की निम्न में से किस पुस्तक मे किया गया था ?",
+    "options": [
+      "Headings and Canons",
+      "Classified Catalogue Code",
+      "Library Manual",
+      "Theory of Library Catalogue"
+    ],
+    "answer": 3,
+    "explanation": "डॉ. एस. आर. रंगनाथन ने पहली बार अपनी पुस्तक 'थ्योरी ऑफ लाइब्रेरी कैटलॉग' (Theory of Library Catalogue), 1938 में सूचीकरण के उपसूत्रों (Canons of Cataloguing) का व्यवस्थित रूप से निरूपण किया।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "रंगनाथन द्वारा प्रसूचीकरण से संबंधित नियमों को क्या नाम दिया गया था ?",
+    "options": [
+      "Laws",
+      "Theories",
+      "Canons",
+      "Principle"
+    ],
+    "answer": 2,
+    "explanation": "रंगनाथन ने सूचीकरण के मार्गदर्शक सिद्धांतों को 'उपसूत्र' (Canons) नाम दिया, जैसे सुनिश्चितता का उपसूत्र, प्रासंगिकता का उपसूत्र आदि।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "KERLA PSC 2017"
+  },
+  {
+    "question": "एस.आर. रंगनाथन द्वारा प्रसूचीकरण के कितने सिद्धांतों की चर्चा की गई है ?",
+    "options": [
+      "Nine",
+      "Six",
+      "Seven",
+      "Eight"
+    ],
+    "answer": 0,
+    "explanation": "डॉ. एस. आर. रंगनाथन ने सूचीकरण के नौ उपसूत्रों (Nine Canons) की चर्चा की, जिनमें सुनिश्चितता, प्रासंगिकता, स्थायित्व, मुद्रा, संदर्भ, प्रबलता, शुद्धता, स्मरण मान, और मितव्ययिता का उपसूत्र शामिल हैं।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "कौनसा उपसूत्र सूची प्रविष्टियों के व्यवस्थापन से सम्बन्धित है ?",
+    "options": [
+      "पुनः स्मरणमान का उपसूत्र/Canon of recall value",
+      "वांछित शीर्षक का उपसूत्र/Canon of Sought heading",
+      "स्थायित्व का उपसूत्र/Canon of permanence",
+      "प्रबलता का उपसूत्र/Canon of prepotence"
+    ],
+    "answer": 3,
+    "explanation": "प्रबलता का उपसूत्र (Canon of Prepotence) सूची प्रविष्टियों की व्यवस्था से संबंधित है। यह कहता है कि एक प्रविष्टि में सबसे शक्तिशाली या आसानी से याद किया जाने वाला तत्व व्यवस्थापन का आधार होना चाहिए।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "UKSSSC-2018 SET-C"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा प्रसूचीकरण का उपसूत्र यह निर्देशित करता है कि शीर्षक पृष्ठ व सहायक पृष्ठों पर उपलब्ध सूचनाओं का उपयोग मुख्य प्रविष्टि बनाये जाने हेतु किया जाना चाहिए ?",
+    "options": [
+      "Canon of Context",
+      "Canon of Ascertainability",
+      "Canon of pre-potence",
+      "Canon of sought Heading"
+    ],
+    "answer": 1,
+    "explanation": "सुनिश्चितता का उपसूत्र (Canon of Ascertainability) यह निर्देश देता है कि कैटलॉग प्रविष्टि के लिए जानकारी दस्तावेज़ के शीर्षक पृष्ठ और उसके अतिप्रवाह पृष्ठों से ही ली जानी चाहिए।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "RPSC ASS. PROFESSOR 2024"
+  },
+  {
+    "question": "'पारसीमोनी का नियम' किसको संदर्भित करता है ?",
+    "options": [
+      "Overall performance",
+      "Overall economy",
+      "Overall evaluation",
+      "Overall management"
+    ],
+    "answer": 1,
+    "explanation": "मितव्ययिता का नियम (Law of Parsimony) समग्र अर्थव्यवस्था (overall economy) को संदर्भित करता है। यह कहता है कि दो या दो से अधिक संभावित विकल्पों के बीच, उस एक को प्राथमिकता दी जानी चाहिए जो मानव और भौतिक दोनों संसाधनों के मामले में सबसे किफायती हो।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "G.G.S. IND. UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "मानक सिद्धांत जो एक पुस्तकालय में दस्तावेज के पुनर्वर्गीकरण और पुर्नसूचीकरण की सुविधा प्रदान करता है ?",
+    "options": [
+      "Principle of Osmosis",
+      "Law of Parsimony",
+      "Law of Permanence",
+      "Principle of Ascertaninality"
+    ],
+    "answer": 0,
+    "explanation": "परासरण का सिद्धांत (Principle of Osmosis), जिसे रंगनाथन ने प्रतिपादित किया, एक पुस्तकालय में पुनर्वर्गीकरण और पुर्नसूचीकरण की एक व्यावहारिक विधि है जो सेवाओं को बाधित किए बिना धीरे-धीरे बदलाव की अनुमति देती है।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "एक पुस्तकालय द्वारा 'पुनः प्रक्रिया' हेतु 'कार्यशील संग्रह' को पहचानने की युक्ति है ?",
+    "options": [
+      "Canon of Ascertainability",
+      "Principle of Osmosis",
+      "Canon of Prepotence",
+      "Principle of Local Variation"
+    ],
+    "answer": 1,
+    "explanation": "परासरण का सिद्धांत (Principle of Osmosis) वह युक्ति है जो पुनर्वर्गीकरण और पुर्नसूचीकरण के लिए 'कार्यशील संग्रह' (सक्रिय रूप से उपयोग किए जा रहे दस्तावेज) और नए अधिग्रहणों पर ध्यान केंद्रित करने की सलाह देती है।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "RPSC ASS. PROFESSOR-2024"
+  },
+  {
+    "question": "कथन (A): ओस्मोसिस मेथड एक पुस्तकालय को पुनर्वर्गीकृत करने के लिए एक प्रक्रियात्मक तरीका है जिसमें इसकी सेवाएँ निर्बाध रूप से चलती रहती है।<br>कारण (R): इस मेथड के अनुसार केवल वे दस्तावेज जिन्हें वर्तमान में उपयोग में नहीं लिया जा रहा है, को नये वर्गीकरण संख्याएँ दी जाती हैं।",
+    "options": [
+      "(A) is true. (R) is false.",
+      "(A) is false, (R) is true.",
+      "Both (A) and (R) are true.",
+      "Both (A) and (R) are false"
+    ],
+    "answer": 0,
+    "explanation": "कथन (A) सही है। परासरण विधि एक व्यावहारिक तरीका है जो सेवाओं को बाधित किए बिना पुनर्वर्गीकरण की अनुमति देता है। कारण (R) गलत है। इस विधि के अनुसार, उन दस्तावेजों को प्राथमिकता दी जाती है जो उपयोग में हैं (जैसे कि जब वे परिसंचरण से वापस आते हैं) और नए प्राप्त दस्तावेजों को, न कि उन दस्तावेजों को जो उपयोग में नहीं हैं।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "RPSC ASS. PROFESSOR PAPER II-2024"
+  },
+  {
+    "question": "'ओस्मोसिस के सिद्धान्त' का सम्बन्ध है ?",
+    "options": [
+      "अवाप्ति में / Acquisition",
+      "पुनः वर्गीकरण में / re-classification",
+      "परीक्षण में / Preservation",
+      "भण्डार सूची कार्य में / stock-taking"
+    ],
+    "answer": 1,
+    "explanation": "परासरण का सिद्धांत (Principle of Osmosis) पुनः वर्गीकरण (re-classification) की प्रक्रिया से संबंधित है।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "RAJ. UNI. JTA-2018"
+  },
+  {
+    "question": "कैटलॉगिंग का एक मूलभूत सिद्धांत क्या है जो बिना किसी संशोधन या व्याख्या के आइटम को उसी रूप में वर्णित करने पर जोर देता है जैसा वह है ?",
+    "options": [
+      "Canon of Accuracy",
+      "Canon of Uniformity",
+      "Canon of Standardization",
+      "Canon of Literary Excellence"
+    ],
+    "answer": 0,
+    "explanation": "शुद्धता का उपसूत्र (Canon of Accuracy) इस बात पर जोर देता है कि कैटलॉग प्रविष्टि में दिया गया विवरण दस्तावेज़ में दिए गए विवरण के बिल्कुल अनुरूप होना चाहिए, बिना किसी त्रुटि या संशोधन के।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "IITH JUNIOR LIB. INFORMATION ASST.-2023"
+  },
+  {
+    "question": "निम्नलिखित में से कौन-सा सूचीकरण का उपसूत्र (Canon of Cataloguing) नहीं है ?",
+    "options": [
+      "अन्विष्ट शीर्षक का उपसूत्र/Canon of Sought heading",
+      "प्रबलता का उपसूत्र/Canon of Prepotence",
+      "स्थायित्व का उपसूत्र/Canon of Permanence",
+      "अनन्यता का उपसूत्र/Canon of exclusiveness"
+    ],
+    "answer": 3,
+    "explanation": "अन्विष्ट शीर्षक, प्रबलता, और स्थायित्व सूचीकरण के उपसूत्र हैं। अनन्यता का उपसूत्र (Canon of Exclusiveness) वर्गीकरण की सारणी (array) से संबंधित एक उपसूत्र है, न कि सूचीकरण का।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "RSMSSB-2019"
+  },
+  {
+    "question": "निम्न में से कौन-सा 'प्रबलता का उपसूत्र' से सम्बन्धित है ?",
+    "options": [
+      "Reference service",
+      "Documentation Service",
+      "Classification",
+      "Cataloguing"
+    ],
+    "answer": 3,
+    "explanation": "प्रबलता का उपसूत्र (Canon of Prepotence) सूचीकरण (Cataloguing) का एक उपसूत्र है।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "सूची का आन्तरिक स्वरूप कौन-सा नहीं है ?",
+    "options": [
+      "लेखक सूची/Author Catalogue",
+      "सूची का पुस्तक स्वरूप/Book form of Catalogue",
+      "आख्या सूची/Title Catalogue",
+      "वर्गीकृत सूची/classified Catalogue"
+    ],
+    "answer": 1,
+    "explanation": "लेखक, आख्या, और वर्गीकृत सूची, सूची के आंतरिक स्वरूप (inner forms) हैं। सूची का पुस्तक स्वरूप (Book form of Catalogue) सूची का एक भौतिक स्वरूप (physical form) है।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "RSMSSB GRADE III 2020"
+  },
+  {
+    "question": "सूचीकरण को विज्ञान स्थापित करने के रंगनाथन के प्रयास कैसे सफल हुए ?",
+    "options": [
+      "कुछ नियम बना करके / By making few rules",
+      "सूचीकरण के आदर्शक सिद्धान्त की स्थापना करके / By establishing Normative principle",
+      "सूचीकरण के उपसूत्र की स्थापना करके / By establishing commons of Cataloguing",
+      "सूचीकरण के आदर्शक सिद्धान्त और उपसूत्र की स्थापना करके/By establishing normative Principle commons"
+    ],
+    "answer": 3,
+    "explanation": "रंगनाथन ने सूचीकरण को एक विज्ञान के रूप में स्थापित करने के लिए आदर्शक सिद्धांतों (Normative Principles) का एक व्यापक ढाँचा तैयार किया, जिसमें पुस्तकालय विज्ञान के सूत्र, मौलिक नियम और सूचीकरण के विशिष्ट उपसूत्र शामिल थे।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "RAJASTHAN UNIVERSITY JTA-2018"
+  },
+  {
+    "question": "वह कैनन जो ग्रंथ सूची डेटा के मानकीकरण को बनाए रखने में मदद करता है, वैरिएंट के प्रतिकूल प्रभाव से बचाता है ?",
+    "options": [
+      "Canon of Sought Heading element",
+      "Canon of Currency",
+      "Canon of Consistency",
+      "Canon of Permanence"
+    ],
+    "answer": 2,
+    "explanation": "संगति का उपसूत्र (Canon of Consistency) यह सुनिश्चित करता है कि समान प्रकार की प्रविष्टियों के लिए हमेशा समान नियमों और प्रारूपों का उपयोग किया जाए, जिससे मानकीकरण बना रहता है और भिन्नताओं से बचा जाता है।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "ALIGARH MUSLIM UNIVERSITY"
+  },
+  {
+    "question": "प्रसूचीकरण के संदर्भ में 'सिद्धांत' क्या है ?",
+    "options": [
+      "कला या विज्ञान की खोज में पालन की जाने वाली आवश्यक प्रक्रिया या विधि को विनियमित करने वाला नियम।",
+      "एक मानक जिसके द्वारा निर्णय लिया जा सकता है",
+      "परिचालन पद्धति के लिए दिशानिर्देश",
+      "बताएं कि क्या करना है और क्या नहीं करना है।"
+    ],
+    "answer": 0,
+    "explanation": "प्रसूचीकरण के संदर्भ में, एक 'सिद्धांत' (Principle/Canon) एक मार्गदर्शक नियम है जो सूचीकरण की प्रक्रिया या विधि को नियंत्रित करता है ताकि स्थिरता और प्रभावशीलता सुनिश्चित हो सके।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "कैटलॉगिंग का कौन सा सिद्धांत यह निर्धारित करता है कि विषय प्रविष्टि में शब्द वर्तमान में उपयोग में आने चाहिए ?",
+    "options": [
+      "Canon of Context",
+      "Canon of Relevance",
+      "Canon of Currency",
+      "Canon of Potency"
+    ],
+    "answer": 2,
+    "explanation": "मुद्रा का उपसूत्र (Canon of Currency) यह निर्धारित करता है कि सूचीकरण में उपयोग की जाने वाली शब्दावली (विशेषकर विषय शीर्षकों में) वर्तमान में प्रचलित और उपयोगकर्ताओं द्वारा समझी जाने वाली होनी चाहिए।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा कानून निर्देश देता है कि किसी विशेष घटना पर दो या दो से अधिक संभावित वैकल्पिक नियमों के बीच एक का चयन करें जो समग्र अर्थव्यवस्था की ओर जाता है ?",
+    "options": [
+      "Law of Symmetry",
+      "Law of Parsimony",
+      "Law of Impartiality",
+      "Law of Interpretation"
+    ],
+    "answer": 1,
+    "explanation": "मितव्ययिता का नियम (Law of Parsimony) निर्देश देता है कि जब दो या दो से अधिक विकल्प हों, तो उसे चुनें जो कम से कम प्रयास और संसाधन (समग्र अर्थव्यवस्था) में काम पूरा करे।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "निम्नलिखित को स्तरों के अनुसार व्यवस्थित करें ?<br>i. Canons of Cataloguing<br>ii. Laws of Library Science<br>iii. General Normative Principles<br>iv. Principles of Cataloguing",
+    "options": [
+      "ii iv i iii",
+      "i iii ii iv",
+      "iv i iii ii",
+      "iii ii i iv"
+    ],
+    "answer": 3,
+    "explanation": "रंगनाथन के आदर्शक सिद्धांतों का पदानुक्रम इस प्रकार है: सबसे ऊपर सामान्य आदर्शक सिद्धांत (iii), जिनसे पुस्तकालय विज्ञान के सूत्र (ii) निकलते हैं, फिर सूचीकरण के उपसूत्र (i), और फिर सूचीकरण के सिद्धांत (iv)। दिए गए विकल्पों में से (d) सबसे निकटतम है।",
+    "category": "सूचीकरण के नियामक सिद्धांत",
+    "source": "GURUGRAM UNI. 2023"
+  },
+  {
+    "question": "आईएसबीडी का अर्थ है ?",
+    "options": [
+      "Indian Standard Bibliography Description",
+      "International Standard Bibliographic Description",
+      "Indian Scientific Bibliographic Division",
+      "International Standard Book Description"
+    ],
+    "answer": 1,
+    "explanation": "ISBD का अर्थ है अंतर्राष्ट्रीय मानक ग्रंथसूची विवरण (International Standard Bibliographic Description)।",
+    "category": "ISBD",
+    "source": "RAJ. UNI. JTA-2018"
+  },
+  {
+    "question": "पुस्तकालय सूची में उपयोग किए जाने वाले मानक ग्रंथ सूची विवरण बनाने के लिए आईएफएलए द्वारा निर्मित नियमों का एक सेट कहा जाता है ?",
+    "options": [
+      "ISSN",
+      "ISRO",
+      "ISBN",
+      "ISBD"
+    ],
+    "answer": 3,
+    "explanation": "IFLA द्वारा विकसित नियमों का वह सेट जो मानक ग्रंथसूची विवरण बनाने के लिए उपयोग होता है, उसे ISBD (अंतर्राष्ट्रीय मानक ग्रंथसूची विवरण) कहा जाता है।",
+    "category": "ISBD",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "अंतर्राष्ट्रीय मानक ग्रंथ सूची विवरण (आईएसबीडी) लाइब्रेरी कैटालॉग में उपयोग किए जाने वाले नियमों का एक सेट किसके द्वारा तैयार किया गया है ?",
+    "options": [
+      "IFLA",
+      "UNESCO",
+      "ALA",
+      "FID"
+    ],
+    "answer": 0,
+    "explanation": "ISBD को IFLA (इंटरनेशनल फेडरेशन ऑफ लाइब्रेरी एसोसिएशन्स एंड इंस्टीट्यूशन्स) द्वारा तैयार और विकसित किया गया है।",
+    "category": "ISBD",
+    "source": "DSSSB 2021"
+  },
+  {
+    "question": "निम्नलिखित आई.एस.बी.डी. को उनके निर्माण के वर्षों के अनुसार व्यवस्थित करें ?<br>(i) ISBD (M)<br>(ii) ISBD (CM)<br>(iii) ISBD (CF)<br>(iv) ISBD (A)",
+    "options": [
+      "(i), (ii), (iv), (iii)",
+      "(ii), (i), (iv), (iii)",
+      "(iii), (i), (iv), (ii)",
+      "(iv), (iii), (ii), (i)"
+    ],
+    "answer": 0,
+    "explanation": "इनके प्रकाशन का सही कालानुक्रमिक क्रम है:<br>(i) ISBD(M) - मोनोग्राफ (1971)<br>(ii) ISBD(CM) - कार्टोग्राफिक सामग्री (1977)<br>(iv) ISBD(A) - पुरातन (1980)<br>(iii) ISBD(CF) - कंप्यूटर फ़ाइलें (1990)",
+    "category": "ISBD",
+    "source": "RPSC ASS. PROFESSOR-2024"
+  },
+  {
+    "question": "निम्नलिखित क्षेत्रो या पहुँच बिन्दुओं को उनके व्यवस्थित क्रमानुसार संयोजित करिए, जेसा की आई.एस.बी.डी. के अनुसार निर्धारित है ?<br>(i) Notes<br>(ii) Series<br>(iii) Edition<br>(iv) Material Specific details",
+    "options": [
+      "(i), (ii), (iii), (iv)",
+      "(iii), (iv), (ii), (i)",
+      "(ii), (iii), (iv), (i)",
+      "(iv), (iii), (ii), (i)"
+    ],
+    "answer": 3,
+    "explanation": "यह प्रश्न गलत है। ISBD के अनुसार क्षेत्रों का सही क्रम है: (iii) संस्करण, (iv) सामग्री विशिष्ट विवरण, (ii) श्रृंखला, और (i) टिप्पणी। इसलिए सही क्रम iii, iv, ii, i होना चाहिए। विकल्प (b) और (d) लगभग समान हैं, लेकिन दिए गए उत्तर (d) में क्रम गलत है।",
+    "category": "ISBD",
+    "source": "RPSC ASS. PROFESSOR PAPER 1-2024"
+  },
+  {
+    "question": "निम्नलिखित ग्रंथपरक मानकों को उनके विकास के वर्ष के अनुसार व्यवस्थित कीजिए ?<br>(i) ISBD<br>(ii) MARC<br>(iii) CCF<br>(iv) Dublin Core",
+    "options": [
+      "(i), (ii), (iv), (iii)",
+      "(ii), (i), (iii), (iv)",
+      "(iii), (iv), (i), (ii)",
+      "(ii), (iii), (i), (iv)"
+    ],
+    "answer": 1,
+    "explanation": "इनके विकास का सही कालानुक्रमिक क्रम है:<br>(ii) MARC (1960s)<br>(i) ISBD (1971)<br>(iii) CCF (1984)<br>(iv) Dublin Core (1995)",
+    "category": "ISBD",
+    "source": "RPSC ASS. PROFESSOR-2024"
+  },
+  {
+    "question": "I.S.B.D (S) का फुल फॉर्म क्या है ?",
+    "options": [
+      "Indian Standard Bibliographic Description (Serials)",
+      "International Statistical Bibliographic Description (Serials)",
+      "Indian Specific Bibliographic Description (Serials)",
+      "International Standard Bibliographic Description (Serials)"
+    ],
+    "answer": 3,
+    "explanation": "ISBD(S) का पूर्ण रूप इंटरनेशनल स्टैंडर्ड ग्रंथसूची विवरण (धारावाहिकों के लिए) - International Standard Bibliographic Description (Serials) है।",
+    "category": "ISBD",
+    "source": "MAH. PARTAP UNI. 2023"
+  },
+  {
+    "question": "आई.एस.बी.डी. और सूचीकरण संहिताओं के बीच क्या संबध है ?",
+    "options": [
+      "वे बिल्कुल भी संबंधित नही है",
+      "आइ.एस.बी.डी में सूचीकरण नियमों सम्मिलित है",
+      "सूचीकरण संहिताओं में ग्रंथसूची विवरण सम्मिलित होना",
+      "ISBD can replace Cataloguing rules"
+    ],
+    "answer": 2,
+    "explanation": "ISBD एक विवरण मानक है, जबकि सूचीकरण संहिताएँ (जैसे AACR2) नियम प्रदान करती हैं। संबंध यह है कि आधुनिक सूचीकरण संहिताएँ ग्रंथसूची विवरण के लिए ISBD के ढांचे और विराम चिह्नों को अपनाती हैं।",
+    "category": "ISBD",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "आईएसबीडी का निर्माण और प्रकाशन किसके द्वारा किया जाता है?",
+    "options": [
+      "UNESCO",
+      "ICSV",
+      "FID",
+      "IFLA"
+    ],
+    "answer": 3,
+    "explanation": "ISBD का निर्माण और प्रकाशन IFLA (इंटरनेशनल फेडरेशन ऑफ लाइब्रेरी एसोसिएशन्स एंड इंस्टीट्यूशन्स) द्वारा किया जाता है।",
+    "category": "ISBD",
+    "source": "KERLA PSC 2021"
+  },
+  {
+    "question": "सूचीकरण के संदर्भ में पुस्तक की ग्रन्थपरक सूचना का विवरण देने के लिए निम्नलिखित में से कौन-से मानक को अन्तर्राष्ट्रीय स्वीकृति प्राप्त है ?",
+    "options": [
+      "ISDS",
+      "ISSN",
+      "ISBN",
+      "ISBD"
+    ],
+    "answer": 3,
+    "explanation": "ग्रन्थपरक सूचना का विवरण देने के लिए अंतर्राष्ट्रीय रूप से स्वीकृत मानक ISBD (अंतर्राष्ट्रीय मानक ग्रंथसूची विवरण) है।",
+    "category": "ISBD",
+    "source": "UPPSC 2023 SHIFT-1"
+  },
+  {
+    "question": "ग्रंथ सूची विवरण के लिए अंतर्राष्ट्रीय मानक (आईएसबीडीएस) द्वारा प्रकाशित किया जाता है ?",
+    "options": [
+      "UNESCO",
+      "IFLA",
+      "ICSU",
+      "WHO"
+    ],
+    "answer": 1,
+    "explanation": "ISBDs, IFLA द्वारा प्रकाशित किए जाते हैं।",
+    "category": "ISBD",
+    "source": "CGPSC LIBRARIAN"
+  },
+  {
+    "question": "आईएसबीडी (एम) किस वर्ष पहली बार प्रकाशित हुआ था ?",
+    "options": [
+      "1970",
+      "1968",
+      "1969",
+      "1971"
+    ],
+    "answer": 3,
+    "explanation": "ISBD(M), जो मोनोग्राफ (एकल-ग्रंथों) के लिए है, पहली बार 1971 में प्रकाशित हुआ था।",
+    "category": "ISBD",
+    "source": "DELHI UNIVERSITY-2019"
+  },
+  {
+    "question": "आईएसबीडी (G) को कितने तत्वों में विभाजित किया गया है।",
+    "options": [
+      "NINE",
+      "TEN",
+      "EIGHT",
+      "SIX"
+    ],
+    "answer": 2,
+    "explanation": "ISBD(G) - सामान्य ISBD - ग्रंथसूची संबंधी विवरण को आठ (EIGHT) क्षेत्रों या तत्वों में विभाजित करता है।",
+    "category": "ISBD",
+    "source": "DSSSB 2023 SHIFT II"
+  },
+  {
+    "question": "किस कैटालॉगिंग कोड ने ISBD का पहली बार प्रयोग किया ?",
+    "options": [
+      "CCC",
+      "AACR 2",
+      "ALA",
+      "All of the Above"
+    ],
+    "answer": 1,
+    "explanation": "AACR-2 वह पहला प्रमुख सूचीकरण कोड था जिसने ग्रंथसूची संबंधी विवरण के लिए ISBD की संरचना और विराम चिह्नों को पूरी तरह से अपनाया।",
+    "category": "ISBD",
+    "source": "ISRO 2016"
+  },
+  {
+    "question": "सूचीबद्धता जानकारी के विनिमय हेतु IFLA द्वारा निर्मित नियमावली है ?",
+    "options": [
+      "ISSN",
+      "ISBN",
+      "ISBD",
+      "CAS"
+    ],
+    "answer": 2,
+    "explanation": "IFLA द्वारा विकसित ISBD, ग्रंथसूची संबंधी जानकारी के आदान-प्रदान के लिए एक मानक नियमावली है।",
+    "category": "ISBD",
+    "source": "ISRO-2019 U.R.RAO SATELITE"
+  },
+  {
+    "question": "आईएसबीडी (एस) निम्नलिखित के लिए अंतर्राष्ट्रीय मानक ग्रंथसूची विवरण है ?",
+    "options": [
+      "Series",
+      "Serials",
+      "Standards",
+      "Software"
+    ],
+    "answer": 1,
+    "explanation": "ISBD(S) धारावाहिकों (Serials) के लिए अंतर्राष्ट्रीय मानक ग्रंथसूची विवरण है।",
+    "category": "ISBD",
+    "source": "KERLA PSC 2015"
+  },
+  {
+    "question": "ISBD (ER) में, ER का अर्थ है ?",
+    "options": [
+      "English Region",
+      "Every Reader",
+      "Eastern Russia",
+      "Electronic Resource"
+    ],
+    "answer": 3,
+    "explanation": "ISBD(ER) में, ER का अर्थ इलेक्ट्रॉनिक संसाधन (Electronic Resource) है।",
+    "category": "ISBD",
+    "source": "KERLA PSC 2016"
+  },
+  {
+    "question": "आईएसबीडी प्रारूप के अनुसार जीएमडी दर्ज किया जाता है ?",
+    "options": [
+      "After the statement of responsibility",
+      "After the title proper",
+      "After the subtitle",
+      "After the series statement"
+    ],
+    "answer": 1,
+    "explanation": "ISBD के अनुसार, GMD (सामान्य सामग्री पदनाम) को उचित शीर्षक (title proper) के तुरंत बाद दर्ज किया जाता है।",
+    "category": "ISBD",
+    "source": "MHPSC 2017"
+  },
+  {
+    "question": "निम्नलिखित आईएसबीडी को उनके निर्माण के वर्ष के अनुसार व्यवस्थित करें ?<br>(a) ISBD (PM)<br>(ii) ISBD (CF)<br>(iii) ISBD (M)<br>(iv) ISBD (S)",
+    "options": [
+      "iii, iv, i, ii",
+      "ii, iv, iii, i",
+      "ii, i, iii, iv",
+      "ii, i, iv, iii"
+    ],
+    "answer": 0,
+    "explanation": "सही कालानुक्रमिक क्रम है:<br>(iii) ISBD(M) - मोनोग्राफ (1971)<br>(iv) ISBD(S) - धारावाहिक (1977)<br>(a) ISBD(PM) - मुद्रित संगीत (1980)<br>(ii) ISBD(CF) - कंप्यूटर फ़ाइलें (1990)",
+    "category": "ISBD",
+    "source": "MHPSC 2017 PAPER-III"
+  },
+  {
+    "question": "मानक पुस्तक संख्या का विचार किस देश ने विकसित किया ?",
+    "options": [
+      "USA",
+      "Australia",
+      "Great Britain",
+      "India"
+    ],
+    "answer": 0,
+    "explanation": "यह प्रश्न भ्रामक है। SBN (मानक पुस्तक संख्या) का विचार गॉर्डन फोस्टर द्वारा यूके में विकसित किया गया था। हालाँकि, MARC, जो मशीन-पठनीय सूचीकरण का आधार है, यूएसए में विकसित किया गया था। दिए गए उत्तर के अनुसार यह यूएसए है।",
+    "category": "ISBD",
+    "source": "MIZORAM PSC 2013 PAPER-I"
+  },
+  {
+    "question": "MARC-1 का 'पायलट प्रोजेक्ट' किस वर्ष में शुरू किया गया था ?",
+    "options": [
+      "In 1966 AD",
+      "In 1972 AD",
+      "In 1974 AD",
+      "In 1962 AD"
+    ],
+    "answer": 0,
+    "explanation": "लाइब्रेरी ऑफ कांग्रेस द्वारा MARC-I का पायलट प्रोजेक्ट 1966 में शुरू किया गया था।",
+    "category": "MARC",
+    "source": "UKSSSC-2018 SET-A"
+  },
+  {
+    "question": "मशीन रीडेबल कैटालॉग (मार्क)..... वर्ष में प्रारम्भ हुआ था ?",
+    "options": [
+      "1962",
+      "1966",
+      "1975",
+      "1985"
+    ],
+    "answer": 1,
+    "explanation": "मशीन-पठनीय सूचीकरण (MARC) परियोजना 1966 में लाइब्रेरी ऑफ कांग्रेस द्वारा शुरू की गई थी।",
+    "category": "MARC",
+    "source": "MPPSC-2019"
+  },
+  {
+    "question": "'मशीन रीडेबिल कैटालॉग' किसके द्वारा सबसे पहले आरम्भ किया गया ?",
+    "options": [
+      "The British Library",
+      "Library of Congress",
+      "INSDOC",
+      "DESIDOC"
+    ],
+    "answer": 1,
+    "explanation": "मशीन-पठनीय कैटलॉग (MARC) सबसे पहले लाइब्रेरी ऑफ कांग्रेस (Library of Congress) द्वारा शुरू किया गया था।",
+    "category": "MARC",
+    "source": "RPSC ASS. PROFESSOR-2024"
+  },
+  {
+    "question": "अंतर्राष्ट्रीय मार्क का एक कार्यक्रम है ?",
+    "options": [
+      "Library of Congress",
+      "The British Library",
+      "IFLA",
+      "FID"
+    ],
+    "answer": 2,
+    "explanation": "यूनिवर्सल मार्क (UNIMARC) का विकास IFLA (इंटरनेशनल फेडरेशन ऑफ लाइब्रेरी एसोसिएशन्स एंड इंस्टीट्यूशन्स) का एक कार्यक्रम था, जिसका उद्देश्य विभिन्न राष्ट्रीय MARC प्रारूपों के बीच डेटा के आदान-प्रदान को सुविधाजनक बनाना था।",
+    "category": "MARC",
+    "source": "KERLA PSC 2015"
+  },
+  {
+    "question": "मार्क परियोजना कब पूरी हुई थी ?",
+    "options": [
+      "1987",
+      "1967",
+      "1970",
+      "1971"
+    ],
+    "answer": 1,
+    "explanation": "MARC पायलट प्रोजेक्ट 1966 में शुरू हुआ और 1967-68 में पूरा हुआ, जिसके बाद MARC II प्रारूप का वितरण शुरू हुआ। दिए गए विकल्पों में से 1967 सबसे उपयुक्त है।",
+    "category": "MARC",
+    "source": "GURUGRAM UNI. 2023"
+  },
+  {
+    "question": "MARC को सर्वप्रथम किसके द्वारा विकसित किया गया था ?",
+    "options": [
+      "Henriette Avram",
+      "Kaiser",
+      "Brunet",
+      "A.C. Fosket"
+    ],
+    "answer": 0,
+    "explanation": "MARC प्रारूप का विकास मुख्य रूप से हेनरीएट अवराम (Henriette Avram) के नेतृत्व में लाइब्रेरी ऑफ कांग्रेस में हुआ था।",
+    "category": "MARC",
+    "source": "KERLA PSC 2014"
+  },
+  {
+    "question": "1966 में, पायलट परियोजना के रूप में MARC किसके द्वारा शुरू किया गया था ?",
+    "options": [
+      "OCLC",
+      "Library of Congress",
+      "The British Library",
+      "American Library Association"
+    ],
+    "answer": 1,
+    "explanation": "MARC पायलट परियोजना 1966 में लाइब्रेरी ऑफ कांग्रेस (Library of Congress) द्वारा शुरू की गई थी।",
+    "category": "MARC",
+    "source": "SHREE CHITRA TIRUNAL INSTTUTE-2023"
+  },
+  {
+    "question": "निम्नलिखित में से मार्क रिकार्ड फील्ड 'लीडर' के बारे में क्या सही नहीं है ?<br>A. Leader is the first field in any MARC Record.<br>B. It has a fixed length of 24 characters<br>C. It has a fix length of 20 characters<br>D. All characters of ASCII are allowed",
+    "options": [
+      "(A) and (B) are correct",
+      "(A) and (C) are correct",
+      "(C) and (D) are correct",
+      "(B) and (D) are correct"
+    ],
+    "answer": 2,
+    "explanation": "MARC रिकॉर्ड के लीडर के बारे में, कथन A और B सही हैं। लीडर पहला क्षेत्र होता है और इसकी लंबाई 24 कैरेक्टर होती है। कथन C गलत है। कथन D भी गलत है क्योंकि इसमें केवल विशिष्ट ASCII वर्णों की अनुमति है। इसलिए, 'क्या सही नहीं है' के संदर्भ में, C और D सही नहीं हैं, जिसका अर्थ है कि विकल्प (c) प्रश्न का उत्तर है।",
+    "category": "MARC",
+    "source": "KVS 2023 SHIFT-2"
+  },
+  {
+    "question": "OCLC प्रोजेक्ट, MARC प्रोजेक्ट उदाहरण हैं ?",
+    "options": [
+      "सामग्रियों के सहकारी भण्डारण के",
+      "सामग्रियों के सहाकारी अर्जन के",
+      "सामग्रियों के सहकारी प्रसंस्करण के",
+      "सामग्रियों के सहकारी साझेदारी के"
+    ],
+    "answer": 2,
+    "explanation": "MARC प्रोजेक्ट और OCLC दोनों ही सहकारी प्रसंस्करण (Co-operative processing) के उदाहरण हैं, विशेष रूप से सहकारी सूचीकरण के, जहाँ ग्रंथसूची संबंधी रिकॉर्ड बनाए और साझा किए जाते हैं।",
+    "category": "MARC",
+    "source": "CHATTISGARH PSC-2019"
+  },
+  {
+    "question": "निम्नलिखित का मिलान करें ?<br>I. MARC<br>II. MARC II<br>III. RDA<br>IV. ISBD",
+    "options": [
+      "I(d)-1971, II(a)-1969, III(b)-2010, IV(c)-1968",
+      "I(d)-1971, II(c)-1968, III(b)-2010, IV(a)-1969",
+      "I(c)-1968, II(a)-1969, III(b)-2010, IV(d)-1971",
+      "I(c)-1968, II(d)-1971, III(b)-2010, IV(a)-1969"
+    ],
+    "answer": 2,
+    "explanation": "यह प्रश्न त्रुटिपूर्ण है। सही वर्ष हैं:<br>MARC (पायलट) - 1966-68<br>MARC II - 1968<br>ISBD(M) - 1971<br>RDA - 2010<br>दिए गए विकल्पों में से कोई भी पूरी तरह सही नहीं है।",
+    "category": "MARC",
+    "source": "ALIGARH MUSLIM UNI"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा ग्रंथसूची संबंधीत जानकारी के लिए एक मानक एन्कोडिंग प्रारूप है ?",
+    "options": [
+      "MARC 21",
+      "AACR",
+      "CCC",
+      "Z39-50"
+    ],
+    "answer": 0,
+    "explanation": "MARC 21 ग्रंथसूची संबंधी जानकारी को एनकोड करने के लिए एक मानक प्रारूप है ताकि इसे कंप्यूटर द्वारा पढ़ा और आदान-प्रदान किया जा सके।",
+    "category": "MARC",
+    "source": "AIIMS JODHPUR-2018"
+  },
+  {
+    "question": "डिजिटल कैटालॉग के लिए मानक है ?",
+    "options": [
+      "MARC",
+      "Dublin Core",
+      "ISO-2709",
+      "ISBD"
+    ],
+    "answer": 0,
+    "explanation": "MARC (मशीन-पठनीय सूचीकरण) डिजिटल कैटलॉग बनाने के लिए एक मूलभूत मानक है, जो ग्रंथसूची डेटा की संरचना को परिभाषित करता है।",
+    "category": "MARC",
+    "source": "ASSAM PLC-2019"
+  },
+  {
+    "question": "MARC प्रारूप के फील्ड एन्युमरेटर्स में कितने अंक होते हैं जो प्रत्येक फील्ड की डेटा सामग्री को परिभाषित करते हैं ?",
+    "options": [
+      "Two-digit number",
+      "Three-digit number",
+      "Four-digit number",
+      "Five-digit number"
+    ],
+    "answer": 1,
+    "explanation": "MARC प्रारूप में, प्रत्येक फ़ील्ड को एक तीन-अंकीय संख्या (Three-digit number) द्वारा पहचाना जाता है, जिसे टैग कहा जाता है (जैसे, 245 शीर्षक के लिए)।",
+    "category": "MARC",
+    "source": "KERLA PSC 2021"
+  },
+  {
+    "question": "निम्नलिखित में से कौन सा मार्क रिकॉर्ड संरचना का हिस्सा नहीं है ?",
+    "options": [
+      "Leader",
+      "Directory",
+      "Record terminator",
+      "Check digit"
+    ],
+    "answer": 3,
+    "explanation": "एक MARC रिकॉर्ड की संरचना में लीडर, डायरेक्टरी, और वेरिएबल फ़ील्ड शामिल होते हैं। रिकॉर्ड टर्मिनेटर रिकॉर्ड के अंत को चिह्नित करता है। 'चेक डिजिट' ISBN या ISSN जैसी प्रणालियों का हिस्सा है, न कि MARC रिकॉर्ड संरचना का।",
+    "category": "MARC",
+    "source": "DSSSB 2017"
+  },
+  {
+    "question": "MARC रिकॉर्ड में निम्नलिखित विशेषता शामिल है ?",
+    "options": [
+      "Leader, Directory, Control Field, Field",
+      "Leader, Directory, Control Field, Variable Field",
+      "Leader, glossary, Control Field, Variable Field",
+      "Leader, glossary, Control Field, Field"
+    ],
+    "answer": 1,
+    "explanation": "एक MARC रिकॉर्ड की तार्किक संरचना में लीडर (Leader), डायरेक्टरी (Directory), कंट्रोल फ़ील्ड (Control Field), और वेरिएबल फ़ील्ड (Variable Field) शामिल होते हैं।",
+    "category": "MARC",
+    "source": "PSC 2021"
+  },
+  {
+    "question": "कंप्यूटर-पठनीय रूप में ग्रंथ सूची संबंधी जानकारी के आदान-प्रदान के लिए कौन सा प्रारूप मानक बन गया ?",
+    "options": [
+      "Unit Recording Format",
+      "MARC II",
+      "UKMARC",
+      "MARC"
+    ],
+    "answer": 1,
+    "explanation": "MARC II, जिसे MARC पायलट प्रोजेक्ट के बाद विकसित किया गया था, ग्रंथसूची संबंधी जानकारी के आदान-प्रदान के लिए एक व्यापक रूप से अपनाया गया मानक बन गया।",
+    "category": "MARC",
+    "source": "MIZORAM PSC 2014"
+  },
+  {
+    "question": "इनमें से क्या MARC अभिलेखों का एक खंड नहीं है ?",
+    "options": [
+      "संदर्शक / viewer",
+      "निर्देशिका / Directory",
+      "क्षेत्र / area",
+      "चर / variable"
+    ],
+    "answer": 0,
+    "explanation": "MARC रिकॉर्ड की संरचना में निर्देशिका (Directory), और चर क्षेत्र (variable fields) शामिल होते हैं। 'संदर्शक' (viewer) इसका एक मानक खंड नहीं है।",
+    "category": "MARC",
+    "source": "NVS 2019"
+  },
+  {
+    "question": "कैटालॉगिंग डेटा के आदान-प्रदान के लिए अंतर्राष्ट्रीय संचार प्रारूप है ?",
+    "options": [
+      "MARC",
+      "HTTP",
+      "CCC",
+      "CIP"
+    ],
+    "answer": 0,
+    "explanation": "MARC (मशीन-पठनीय सूचीकरण) कैटलॉगिंग डेटा के आदान-प्रदान के लिए एक अंतरराष्ट्रीय संचार प्रारूप है।",
+    "category": "MARC",
+    "source": "PLIB-2012"
+  },
+  {
+    "question": "ग्रंथसूची रिकॉर्ड के निर्माण के लिए लागू मानक है?",
+    "options": [
+      "Z39.50",
+      "MARC",
+      "Z39.93",
+      "ISO 9000"
+    ],
+    "answer": 1,
+    "explanation": "ग्रंथसूची रिकॉर्ड के निर्माण, संचार और संरचना के लिए लागू मानक MARC है। Z39.50 एक क्लाइंट-सर्वर प्रोटोकॉल है जो डेटाबेस से जानकारी खोजने और पुनर्प्राप्त करने के लिए है।",
+    "category": "MARC",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "MARC में संपूर्ण ग्रंथसूची विवरण किसमें उपलब्ध हैं ?",
+    "options": [
+      "Variable fields",
+      "Leader",
+      "Record directing",
+      "Control fields"
+    ],
+    "answer": 0,
+    "explanation": "MARC में, संपूर्ण ग्रंथसूची विवरण (जैसे शीर्षक, लेखक, प्रकाशन जानकारी) चर क्षेत्रों (Variable fields) में उपलब्ध होता है।",
+    "category": "MARC",
+    "source": "SHREE CHITRA TIRUNAL INSTTUTE-2023"
+  },
+  {
+    "question": "निम्नलिखित को कालानुक्रमिक रूप से उनके विकास के क्रम में व्यवस्थित कीजिए।<br>A. ISBD<br>B. MARC<br>C. CCF<br>D. RDA",
+    "options": [
+      "B, D, C, A",
+      "B, A, C, D",
+      "A, D, C, B",
+      "C, D, A, B"
+    ],
+    "answer": 1,
+    "explanation": "सही कालानुक्रमिक क्रम है:<br>B. MARC (1960s)<br>A. ISBD (1971)<br>C. CCF (1984)<br>D. RDA (2010)",
+    "category": "MARC",
+    "source": "UPPSC 2023 SHIFT-1"
+  },
+  {
+    "question": "संरचना के संदर्भ में मार्क रिकॉर्ड का पहला घटक क्या है ?",
+    "options": [
+      "Directory",
+      "Fixed Fields",
+      "Leader",
+      "Variable Fields"
+    ],
+    "answer": 2,
+    "explanation": "किसी भी MARC रिकॉर्ड की संरचना का पहला घटक लीडर (Leader) होता है, जो 24 वर्णों का एक निश्चित-लंबाई वाला क्षेत्र है।",
+    "category": "MARC",
+    "source": "KVS 2023"
+  },
+  {
+    "question": "मार्क रिकॉर्ड की सामग्री कितने चर क्षेत्रों में विभाजित होती है ?",
+    "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न अस्पष्ट है। एक MARC रिकॉर्ड में कई चर क्षेत्र होते हैं, न कि रिकॉर्ड स्वयं चर क्षेत्रों में विभाजित होता है। यदि प्रश्न यह पूछ रहा है कि एक चर क्षेत्र में कितने भाग होते हैं, तो उत्तर दो है: संकेतक (indicators) और उपक्षेत्र (subfields)।",
+    "category": "MARC",
+    "source": "MPPSC-2018"
+  },
+  {
+    "question": "मशीन रीडेबल फारमेट में रखे गये सूचना या रिकार्ड क्या कहलाते हैं?",
+    "options": [
+      "website",
+      "Database",
+      "network",
+      "software"
+    ],
+    "answer": 1,
+    "explanation": "मशीन-पठनीय प्रारूप में रखे गए सूचना या रिकॉर्ड के एक संगठित संग्रह को डेटाबेस (Database) कहा जाता है।",
+    "category": "MARC",
+    "source": "MPPSC-2019"
+  },
+  {
+    "question": "मार्क के अन्तर्गत शब्दों (टर्म्स) या अभिलेखों के संग्रह को निम्न में से क्या कहते हैं ?",
+    "options": [
+      "system",
+      "network",
+      "website",
+      "database"
+    ],
+    "answer": 3,
+    "explanation": "MARC प्रारूप में अभिलेखों के संग्रह को एक ग्रंथसूची डेटाबेस (bibliographic database) कहा जाता है।",
+    "category": "MARC",
+    "source": "RSMSSB-2016"
+  },
+  {
+    "question": "MARC रिकॉर्ड में तीन तत्व शामिल हैं: वे हैं ?<br>(A) The data content<br>(B) The subject<br>(C) The record structure<br>(D) The content designation",
+    "options": [
+      "(A), (B) & (C) only",
+      "(A), (C) & (D) only",
+      "(A), (B) & (D) only",
+      "(B), (C) & (D) only"
+    ],
+    "answer": 1,
+    "explanation": "एक MARC रिकॉर्ड में तीन मूलभूत तत्व होते हैं: रिकॉर्ड संरचना (The record structure), सामग्री पदनाम (The content designation - टैग, संकेतक, उपक्षेत्र कोड), और डेटा सामग्री (The data content)।",
+    "category": "MARC",
+    "source": "2023"
+  },
+  {
+    "question": "मार्क-21 किस पर आधारित है ?",
+    "options": [
+      "PDF",
+      "ISO 2709",
+      "ISO 2708",
+      "Z50.4"
+    ],
+    "answer": 1,
+    "explanation": "MARC 21 का रिकॉर्ड संरचना मानक ISO 2709 पर आधारित है, जो ग्रंथसूची संबंधी जानकारी के आदान-प्रदान के लिए एक अंतर्राष्ट्रीय मानक है।",
+    "category": "MARC",
+    "source": "RPSC ASS. PROFESSOR 2024"
+  },
+  {
+    "question": "ग्रंथ सूची डेटा के लिए मार्क 21 प्रारूप किसके द्वारा शुरू किया गया था ?",
+    "options": [
+      "Library of Congress",
+      "OCLC",
+      "The British Library",
+      "IFLA"
+    ],
+    "answer": 0,
+    "explanation": "MARC 21 प्रारूप का विकास और रखरखाव लाइब्रेरी ऑफ कांग्रेस (Library of Congress) द्वारा किया जाता है।",
+    "category": "MARC",
+    "source": "KERLA PSC 2022"
+  },
+  {
+    "question": "संरचनाओं के सन्दर्भ में मार्क रिकॉर्ड का दूसरा घटक कौन-सा है ?",
+    "options": [
+      "Directory",
+      "Leader",
+      "Variable field",
+      "Fixed field"
+    ],
+    "answer": 0,
+    "explanation": "एक MARC रिकॉर्ड की संरचना में, लीडर के बाद दूसरा घटक डायरेक्टरी (Directory) होता है, जो रिकॉर्ड में मौजूद सभी वेरिएबल फ़ील्ड्स के लिए एक सूचकांक के रूप में कार्य करता है।",
+    "category": "MARC",
+    "source": "NVS 2022"
+  },
+  {
+    "question": "MARC 21 में, शीर्षक, संस्करण, छाप जानकारी, आदि किस फील्ड में हैं?",
+    "options": [
+      "1XX",
+      "2XX",
+      "3XX",
+      "7XX"
+    ],
+    "answer": 1,
+    "explanation": "MARC 21 में, 2XX ब्लॉक का उपयोग शीर्षक और जिम्मेदारी के बयान (245), संस्करण (250), और प्रकाशन या छाप जानकारी (260) जैसे वर्णनात्मक डेटा के लिए किया जाता है।",
+    "category": "MARC",
+    "source": "G.G.S.IND.UNI. NEW DELHI-2024"
+  },
+  {
+    "question": "यूएस व केनेडियन MARC फॉर्मेट के मेल के साथ 1999 में USMARC को अधिक्रमित करने वाला मशीन पठनीय सूचीपन का रूपांतरण है ?",
+    "options": [
+      "MARC 24",
+      "MARC 21",
+      "MARC 20",
+      "MARC 32"
+    ],
+    "answer": 1,
+    "explanation": "1999 में, USMARC और CAN/MARC प्रारूपों को मिलाकर एक सामंजस्यपूर्ण प्रारूप बनाया गया, जिसे MARC 21 के नाम से जाना जाता है।",
+    "category": "MARC",
+    "source": "ISRO 2021"
+  },
+  {
+    "question": "MARC 21 में इनमें से किस स्थान में DDC संख्या होती है ?",
+    "options": [
+      "080",
+      "084",
+      "082",
+      "050"
+    ],
+    "answer": 2,
+    "explanation": "MARC 21 में, डेवी डेसीमल क्लासिफिकेशन (DDC) संख्या को टैग 082 में रखा जाता है।",
+    "category": "MARC",
+    "source": "NVS 2019"
+  },
+  {
+    "question": "'मार्क 21' में परिगृहीत विषय है ?",
+    "options": [
+      "3xx",
+      "4xx",
+      "5xx",
+      "6xx"
+    ],
+    "answer": 3,
+    "explanation": "MARC 21 में, 6XX ब्लॉक का उपयोग विषय पहुँच क्षेत्रों (Subject Access Fields) के लिए किया जाता है, जिसमें विषय शीर्षक और वर्गीकरण संख्याएँ शामिल होती हैं।",
+    "category": "MARC",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "MARC 21 रिकॉर्ड के लीडर में कितने अक्षर होते हैं ?",
+    "options": [
+      "24",
+      "12",
+      "2",
+      "42"
+    ],
+    "answer": 0,
+    "explanation": "MARC 21 रिकॉर्ड का लीडर 24 वर्णों का एक निश्चित-लंबाई वाला क्षेत्र होता है।",
+    "category": "MARC",
+    "source": "SHREE CHITRA TIRUNAL INSTTUTE-2023"
+  },
+  {
+    "question": "मार्क 21 ग्रंथ सूची डेटा के 4XX क्षेत्र के लिए आवंटित किया गया है?",
+    "options": [
+      "Title statement",
+      "Edition, imprint field",
+      "Series statement",
+      "Physical description"
+    ],
+    "answer": 2,
+    "explanation": "MARC 21 में, 4XX ब्लॉक श्रृंखला कथन (Series Statement) के लिए आवंटित किया गया है (जैसे, 490)।",
+    "category": "MARC",
+    "source": "KERLA PSC 2022"
+  },
+  {
+    "question": "मार्क टैग 490 इनमें से किस क्षेत्र के साथ संबंधित है ?",
+    "options": [
+      "Personal name main entry",
+      "Title information main entry",
+      "Series statement main entry",
+      "Library of Congress Control Number"
+    ],
+    "answer": 2,
+    "explanation": "MARC टैग 490 श्रृंखला कथन (Series Statement) के लिए है।",
+    "category": "MARC",
+    "source": "KVS 2023"
+  },
+  {
+    "question": "निम्नलिखित मार्क-21 टैग को सम्बन्धित फील्ड के साथ मिलान करें ?<br><b>LIST-I (Tag)</b><br>(a) 245<br>(b) 260<br>(c) 250<br><b>LIST-II (Field)</b><br>(i) Edition Statement<br>(ii) Title Statement<br>(iii) Publication",
+    "options": [
+      "a-i, b-ii, c-iii",
+      "a-ii, b-iii, c-i",
+      "a-iii, b-i, c-ii",
+      "a-i, b-iii, c-ii"
+    ],
+    "answer": 1,
+    "explanation": "सही मिलान है:<br>(a) 245 - (ii) Title Statement (शीर्षक कथन)<br>(b) 260 - (iii) Publication (प्रकाशन)<br>(c) 250 - (i) Edition Statement (संस्करण कथन)<br>नोट: 260 अब अप्रचलित है और 264 का उपयोग किया जाता है।",
+    "category": "MARC",
+    "source": "RPSC ASS. PROFESSOR PAPER 1-2024"
+  },
+  {
+    "question": "UNIMARC किसके द्वारा विकसित किया गया था ?",
+    "options": [
+      "IFLA",
+      "UNESCO",
+      "Library of Congress",
+      "IAEA"
+    ],
+    "answer": 0,
+    "explanation": "UNIMARC (यूनिवर्सल MARC) को IFLA (इंटरनेशनल फेडरेशन ऑफ लाइब्रेरी एसोसिएशन्स एंड इंस्टीट्यूशन्स) द्वारा विभिन्न राष्ट्रीय MARC प्रारूपों के बीच डेटा के आदान-प्रदान को सुविधाजनक बनाने के लिए विकसित किया गया था।",
+    "category": "अन्य मार्क (Other Marc)",
+    "source": "DRDO-2016"
+  },
+  {
+    "question": "यूकेएमएआरसी, किसके द्वारा विकसित..... ?",
+    "options": [
+      "IISB",
+      "USLC",
+      "BNB",
+      "INB"
+    ],
+    "answer": 2,
+    "explanation": "UKMARC का विकास ब्रिटिश नेशनल बिब्लियोग्राफी (BNB) द्वारा किया गया था, जो ब्रिटिश लाइब्रेरी का हिस्सा है।",
+    "category": "अन्य मार्क (Other Marc)",
+    "source": "DSSSB-2021 TECHNICAL ASST."
+  },
+  {
+    "question": "वर्चुआ मार्क मानक के विभिन्न संस्करण को समायोजित करता है?",
+    "options": [
+      "USMARC",
+      "UKMARC",
+      "CANMARC",
+      "All of above"
+    ],
+    "answer": 3,
+    "explanation": "वर्चुआ (Virtua), एक एकीकृत पुस्तकालय प्रणाली, को विभिन्न MARC मानकों जैसे USMARC, UKMARC, और CAN/MARC के साथ संगत होने के लिए डिज़ाइन किया गया था।",
+    "category": "अन्य मार्क (Other Marc)",
+    "source": "JAWAHARLAL NEHRU UNIVERSITY-2015"
+  },
+  {
+    "question": "USMARC रिकॉर्ड फॉर्मेट में तीन सब्जेक्ट एक्सेस सिस्टम में से कौन सा शामिल है ?",
+    "options": [
+      "Dewey Decimal Classification, Library of Congress Classification and Library of Congress Subject Headings",
+      "The Thesaurofacet, Dewey Decimal Classification and The Library of Congress Classification",
+      "PRECIS, Library of Congress Subject Headings and Library of Congress Classification",
+      "Library of Congress Subject Headings, Sears List of Subject Headings, Dewey Decimal Classification"
+    ],
+    "answer": 0,
+    "explanation": "USMARC प्रारूप में विषय पहुँच के लिए DDC, LCC, और LCSH (लाइब्रेरी ऑफ कांग्रेस सब्जेक्ट हेडिंग्स) जैसी प्रमुख प्रणालियों के लिए क्षेत्र शामिल हैं।",
+    "category": "अन्य मार्क (Other Marc)",
+    "source": "KERLA PSC 2021"
+  },
+  {
+    "question": "'इंडोमार्क' किस देश से संबंधित है ?",
+    "options": [
+      "India",
+      "Indonesia",
+      "West Indies",
+      "Indiana"
+    ],
+    "answer": 1,
+    "explanation": "इंडोमार्क (INDOMARC) इंडोनेशिया का राष्ट्रीय MARC प्रारूप है।",
+    "category": "अन्य मार्क (Other Marc)",
+    "source": "PSC 2019 HELTH"
+  },
+  {
+    "question": "CCF का मतलब है ?",
+    "options": [
+      "Current Classification Format",
+      "Current Communication Format",
+      "Common Communication Format",
+      "Common Classification Format"
+    ],
+    "answer": 2,
+    "explanation": "CCF का मतलब कॉमन कम्युनिकेशन फॉर्मेट (Common Communication Format) है।",
+    "category": "CCF",
+    "source": "2023"
+  },
+  {
+    "question": "सी.सी.एफ. का प्रथम संस्करण किस वर्ष में प्रकाशित हुआ था।",
+    "options": [
+      "1962",
+      "1974",
+      "1984",
+      "1976"
+    ],
+    "answer": 2,
+    "explanation": "कॉमन कम्युनिकेशन फॉर्मेट (CCF) का पहला संस्करण 1984 में प्रकाशित हुआ था।",
+    "category": "CCF",
+    "source": "RSMSSB 2022"
+  },
+  {
+    "question": "CCF किसके द्वारा विकसित किया गया था?",
+    "options": [
+      "UNESCO",
+      "IFLA",
+      "FID",
+      "Library of Congress"
+    ],
+    "answer": 0,
+    "explanation": "CCF को यूनेस्को (UNESCO) द्वारा विकसित किया गया था ताकि विभिन्न ग्रंथसूची डेटाबेस के बीच डेटा के आदान-प्रदान के लिए एक सामान्य प्रारूप प्रदान किया जा सके।",
+    "category": "CCF",
+    "source": "MAHARANA PARTAP UNI. 2023"
+  },
+  {
+    "question": "कॉमन कम्युनिकेशन फॉर्मेट (CCF) को 1984 में किसके द्वारा डिजाइन और प्रकाशित किया गया था ?",
+    "options": [
+      "ALA",
+      "IFLA",
+      "UNESCO",
+      "FID"
+    ],
+    "answer": 2,
+    "explanation": "CCF को 1984 में यूनेस्को (UNESCO) द्वारा डिजाइन और प्रकाशित किया गया था।",
+    "category": "CCF",
+    "source": "KERLA PSC 2021"
+  },
+  {
+    "question": "संक्षिप्ताक्षर CCF (F) का अर्थ है ?",
+    "options": [
+      "Common Communication Format (Fields)",
+      "Common Communication Format (Factual)",
+      "Common Communication Format (Foundation)",
+      "Common Communication Format (File)"
+    ],
+    "answer": 1,
+    "explanation": "यह प्रश्न भ्रामक है। CCF में 'F' का अर्थ 'Format' है। दिए गए उत्तर के अनुसार यह 'Factual' है, जो सही नहीं है।",
+    "category": "CCF",
+    "source": "SHREE CHITRA TIRUNAL INSTTUTE-201"
+  },
+  {
+    "question": "ग्रंथसूची संचार मानकों के संदर्भ में CCF का क्या अर्थ है ?",
+    "options": [
+      "केंद्रीकृत कैटलॉगिंग प्रारूप",
+      "सामान्य संचार प्रारूप",
+      "सहकारी कैटलॉगिंग ढांचा",
+      "कैटलॉगिंग और वर्गीकरण प्रारूप"
+    ],
+    "answer": 1,
+    "explanation": "CCF का अर्थ सामान्य संचार प्रारूप (Common Communication Format) है।",
+    "category": "CCF",
+    "source": "IITH LIBRARY INFORMATION ASST. 2023"
+  },
+  {
+    "question": "CCF में, MARC 21 में लीडर के समकक्ष को कहा जाता है ?",
+    "options": [
+      "Directory",
+      "Record Label",
+      "Record Separator",
+      "Data Fields"
+    ],
+    "answer": 1,
+    "explanation": "कॉमन कम्युनिकेशन फॉर्मेट (CCF) में, जो MARC के लीडर के समकक्ष है, उसे रिकॉर्ड लेबल (Record Label) कहा जाता है।",
+    "category": "CCF",
+    "source": "APPSC-2018"
+  },
+  {
+    "question": "प्रत्येक CCF रिकॉर्ड......के एक निश्चित रिकॉर्ड लेबल के साथ शुरू होता है और इसमें डेटा तत्व होता है जिसमें रिकॉर्ड होता है ?",
+    "options": [
+      "4 characters",
+      "20 characters",
+      "24 characters",
+      "16 characters"
+    ],
+    "answer": 2,
+    "explanation": "MARC की तरह, CCF में भी रिकॉर्ड लेबल की लंबाई 24 वर्ण (characters) होती है।",
+    "category": "CCF",
+    "source": "c"
+  },
+  {
+    "question": "विषम का पता लगायें ?",
+    "options": [
+      "AA Code",
+      "CCF",
+      "AACR-II",
+      "CCC"
+    ],
+    "answer": 1,
+    "explanation": "AA Code, AACR-II, और CCC सूचीकरण नियम संहिताएँ (cataloguing codes) हैं जो प्रविष्टियों को कैसे बनाया जाए इसके नियम प्रदान करती हैं। CCF एक संचार प्रारूप (communication format) है जो डेटा के आदान-प्रदान की संरचना को परिभाषित करता है। इसलिए, CCF विषम है।",
+    "category": "CCF",
+    "source": "HPSSC HAMIRPUR 2022"
+  },
+  {
+    "question": "CCF का ढाँचा..........पर आधारित होता है ?",
+    "options": [
+      "ISO 2701",
+      "ISO 2000",
+      "ISO 2700",
+      "ISO 2709"
+    ],
+    "answer": 3,
+    "explanation": "CCF का ढाँचा, MARC की तरह, ग्रंथसूची संबंधी जानकारी के आदान-प्रदान के लिए अंतर्राष्ट्रीय मानक ISO 2709 पर आधारित है।",
+    "category": "CCF",
+    "source": "PSC-2019"
+  },
+  {
+    "question": "सीसीएफ ग्रंथसूचीय दस्तावेज किसको संदर्भित है ?",
+    "options": [
+      "Data storage",
+      "Data transfer and standard tags of data indemnification",
+      "Data storage and formatting of records",
+      "Formatting of records"
+    ],
+    "answer": 1,
+    "explanation": "CCF मुख्य रूप से डेटा के हस्तांतरण (Data transfer) और डेटा की पहचान के लिए मानक टैग (standard tags) से संबंधित है, ताकि विभिन्न प्रणालियों के बीच संचार संभव हो सके।",
+    "category": "CCF",
+    "source": "KVS 2015"
   }
 ]
