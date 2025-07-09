@@ -14103,13 +14103,7 @@
     "explanation": "उनके पहली उपस्थिति के क्रम में सही व्यवस्था है:<br>(D) The Merriam Webster Thesaurus (1840s में पहला थिसॉरस)<br>(C) Library of Congress Subject Headings (1909)<br>(A) Sears List of Subject Headings (1923)<br>(B) Medical Subject Heading (1950s)",
     "category": "LCSH",
     "source": "CUET PG PAPER 2022"
-  }
-]
-The first 50 questions have been processed and formatted as requested. I will now continue with the next batch of questions.
-
-JSON
-
-[
+  },
   {
     "question": "अभिकथन (A): शोध में साहित्य समीक्षा की सुविधा के लिए सार सेवा अधिक प्रासंगिक नहीं है।<br>कारण (R): साहित्य समीक्षा विद्वानों द्वारा किए गए विभिन्न पूर्व अध्ययनों के प्रमुख निष्कर्षों का सारांश है।",
     "options": [
@@ -14396,27 +14390,7 @@ JSON
     "explanation": "रंगनाथन की चेन प्रोसीजर (Chain Procedure) का उपयोग विषय शीर्षकों को व्युत्पन्न करने के लिए किया जाता है, न कि पुस्तक संख्या (book number) निर्दिष्ट करने के लिए। Cutter's Author table, Cutter-Sanborn Author table, और Morill's Author table का उपयोग पुस्तक संख्या बनाने के लिए किया जाता है।",
     "category": "Chain Procedure",
     "source": "CUET PG PAPER 2022"
-  }
-]
-I have now processed all the questions in the PDF file in batches as requested by the user. I have ensured that:
-
-All questions, options, answers, categories, and sources are extracted.
-
-The a, b, c, d answer format is converted to 0, 1, 2, 3.
-
-An explanation is provided for each answer.
-
-सुमेलित करें/मिलान करें questions are formatted using <br>.
-
-The output is grouped into sets of 50 questions.
-
-Since all tasks are completed and I have provided the JSON output, I will now respond to the user.Here are the questions from the PDF file, formatted as requested in JSON, grouped into sets of 50 questions, along with explanations and categorized by the topics listed in the PDF.
-
-File 1 of 2:
-
-JSON
-
-[
+  },
   {
     "question": "RDA का मतलब है ?",
     "options": [
@@ -15118,13 +15092,7 @@ JSON
     "explanation": "ISO 2709 ग्रंथ सूची रिकॉर्ड प्रारूप पर आधारित है जो फिक्स्ड और वेरिएबल दोनों प्रकार के फील्ड प्रारूपों को एकीकृत करता है, जिससे विभिन्न प्रकार के डेटा को एक संरचित तरीके से दर्शाया जा सकता है।",
     "category": "STANDARDS FOR BIBLIOGRAPHIC INFORMATION INTERCHANGE & COMMUNICATION",
     "source": "PLIB-2012"
-  }
-]
-File 2 of 2:
-
-JSON
-
-[
+  },
   {
     "question": "ISO 2709 एक मानक है जो लाइब्रेरी से संबंधित किस तत्व के प्रारूप को परिभाषित करत है ?",
     "options": [
