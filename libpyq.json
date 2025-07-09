@@ -13388,13 +13388,7 @@
     "explanation": "ISO 2709 ग्रंथ सूची रिकॉर्ड प्रारूप पर आधारित है जो फिक्स्ड और वेरिएबल दोनों प्रकार के फील्ड प्रारूपों को एकीकृत करता है, जिससे विभिन्न प्रकार के डेटा को एक संरचित तरीके से दर्शाया जा सकता है।",
     "category": "STANDARDS FOR BIBLIOGRAPHIC INFORMATION INTERCHANGE & COMMUNICATION",
     "source": "PLIB-2012"
-  }
-]
-The first 50 questions have been processed and formatted as requested. I will now continue with the next batch of questions.
-
-JSON
-
-[
+  },
   {
     "question": "ISO 2709 एक मानक है जो लाइब्रेरी से संबंधित किस तत्व के प्रारूप को परिभाषित करत है ?",
     "options": [
