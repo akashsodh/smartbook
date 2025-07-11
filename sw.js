@@ -2,7 +2,7 @@
 
 // **महत्वपूर्ण:** जब भी आप कोई टेस्ट सीरीज़ या कोई और फाइल अपडेट करें,
 // तो इस संस्करण को बदलें (जैसे, 'smartbook-v2', 'smartbook-v4', आदि)
-const cacheName = 'smartbook-v41';
+const cacheName = 'smartbook-v42';
 
 // वे सभी फाइलें जिन्हें आप ऑफलाइन उपलब्ध कराना चाहते हैं
 const assets = [
@@ -18,6 +18,7 @@ const assets = [
     '/rajasthan_history.json',
     '/current.json',
     '/yuth_history_pyq.json',
+    '/dishaindiaworld.json',
     '/psychology.json',
     '/lib_unit1.json',
     '/lib_unit2.json',
