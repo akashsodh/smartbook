@@ -2200,5 +2200,1204 @@
     "options": ["ii, iii, iv", "i, ii, iv", "i, iv", "i, ii, iii, iv"],
     "answer": 3,
     "explanation": "अशोक चक्र भारत का शांति काल में दिया जाने वाला सर्वोच्च वीरता पदक है। राजस्थान के जिन वीरों को यह सम्मान मिला है उनमें हवलदार शंभूपाल सिंह (1961), सूबेदार लालसिंह (1957, 1962 में नहीं), सूबेदार मानसिंह (1952, 1962 में नहीं), और सूबेदार महेंद्र सिंह तंवर (1965) शामिल हैं। (वर्षों में कुछ भिन्नता हो सकती है, लेकिन ये सभी अशोक चक्र विजेता हैं)।"
+  },
+  {
+    "question": "पुस्तकालय एवं सूचना विज्ञान के पाठ्यक्रम विकास हेतु विश्वविद्यालय अनुदान आयोग द्वारा 1990 में किस समिति का गठन किया गया था ?<br>Mention the Committee, appointed by the U.G.C. for curriculum development of library and information science, (1990):",
+    "options": [
+      "मेहरोत्रा समिति / Mehrotra Committee",
+      "पुस्तकालय समिति / Library Committee",
+      "शिक्षा आयोग/ Education Commission",
+      "पुस्तकालय एवं सूचना विज्ञान पाठ्यक्रम विकास समिति / Curriculm Development Committee in Library & Information Science"
+    ],
+    "answer": 3,
+    "explanation": "विश्वविद्यालय अनुदान आयोग (UGC) द्वारा 1990 में पुस्तकालय एवं सूचना विज्ञान के पाठ्यक्रम विकास हेतु 'पुस्तकालय एवं सूचना विज्ञान पाठ्यक्रम विकास समिति' का गठन किया गया था।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "'इंडियन लाइब्रेरी साइंस एब्स्ट्रेक्ट' (ILSA) के प्रकाशक का क्या नाम है ?<br>What is the name of publisher of \"Indian Library Science Abstract (ILSA)\"?",
+    "options": [
+      "निस्केयर / NISCAIR",
+      "आई.ए.एस.एल.आई.सी. (आइसलिक) /IASLIC",
+      "ए.एल.ए. / ALA",
+      "डेसीडॉक / DESIDOC"
+    ],
+    "answer": 1,
+    "explanation": "इंडियन लाइब्रेरी साइंस एब्स्ट्रेक्ट (ILSA) का प्रकाशक IASLIC (इंडियन एसोसिएशन ऑफ स्पेशल लाइब्रेरीज एंड इंफॉर्मेशन सेंटर्स) है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "एफ.आर.बी.आर. मॉडल में कौन सी इकाइयाँ शामिल है ?<br>What entities are included in the FRBR model ?",
+    "options": [
+      "कार्यवाही, जगह, प्रभाव, श्रेणी / Action, Place, Impact, Category",
+      "किताब, रूप, उपलब्धता, प्रकार / Book Form, Availablity, Type",
+      "कार्य, अभिव्यक्ति, जाहिर करना, वस्तु / Work Expression, Manifestation, Item",
+      "व्यक्तित्व, पदार्थ, ऊर्जा, स्थान / Personality, Matter, Energy, Space"
+    ],
+    "answer": 2,
+    "explanation": "FRBR (Functional Requirements for Bibliographic Records) मॉडल में चार मुख्य इकाइयाँ शामिल हैं: Work (कार्य), Expression (अभिव्यक्ति), Manifestation (जाहिर करना), और Item (वस्तु)।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "'जैड 39.50' निम्नलिखित हेतु एक मानक है /'Z 39.50' is standard for:",
+    "options": [
+      "संचार प्रतिरूप / Communication formats",
+      "खोज एवं पुनःप्राप्ति सेवाएँ / Search and retrieval services",
+      "वेब संसाधनों का प्रसूचीकरण / Cataloguing web resources",
+      "पुस्तकालय प्रबन्धन सेवाएँ / Library Management Services"
+    ],
+    "answer": 1,
+    "explanation": "Z39.50 सूचना पुनर्प्राप्ति के लिए एक क्लाइंट-सर्वर प्रोटोकॉल है, जिसका उपयोग डेटाबेस में खोज और पुनर्प्राप्ति सेवाओं के लिए किया जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित आई.एस.बी.डी. को उनके निर्माण के वर्षों के अनुसार व्यवस्थित करें:<br>Accroding the following ISBDS according to their year of formulation:<br>(i) ISBD (M)<br>(ii) ISBD (CM)<br>(iii) ISBD (CF)<br>(iv) ISBD (A)",
+    "options": [
+      "(i), (ii), (iv), (iii)",
+      "(ii), (i), (iv), (iii)",
+      "(iii), (i), (iv), (ii)",
+      "(iv), (iii), (ii), (i)"
+    ],
+    "answer": 2,
+    "explanation": "ISBDs के निर्माण के वर्ष के अनुसार सही क्रम है: ISBD (A) (1980), ISBD (CF) (1974, अब ISBD (CR)), ISBD (M) (1971), और ISBD (CM) (1977)।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "'यूनिवर्सल डेसीमल क्लासिफिकेशन' में समय एकल हेतु निम्नलिखित संकेतांक का उपयोग किया जाता है / What is the indicator digit used for time isolates in Universal Decimal Classification?",
+    "options": [
+      "कोष्ठक / Bracket",
+      "समान चिन्ह / Equal Sign",
+      "डबल इन्वरटेड कोमा / Double Inverted Comma",
+      "डॉट / Dot"
+    ],
+    "answer": 2,
+    "explanation": "यूनिवर्सल डेसीमल क्लासिफिकेशन (UDC) में समय एकल (time isolates) के लिए डबल इनवर्टेड कॉमा ('') का उपयोग किया जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित में से कौन-सा प्रसूचीकरण का उपसूत्र यह निर्देशित करता है कि शीर्षक पृष्ठ व सहायक पृष्ठों पर उपलब्ध सूचनाओं का उपयोग मुख्य प्रविष्टि बनाये जाने हेतु किया जाना चाहिए ?<br>Which of the canons of cataloguing prescribes that the information found on title and overflow pages should be used for preparing main entry?",
+    "options": [
+      "संदर्भ का उपसूत्र, Canon of Context",
+      "निर्धायता का उपसूत्र / Canon of Ascertainability",
+      "प्रबलता का उपसूत्र Canon of pre-potence",
+      "खोज शीर्षक उपसूत्र / Canon of sought Heading"
+    ],
+    "answer": 1,
+    "explanation": "कैनन ऑफ असर्टेनेबिलिटी (Canon of Ascertainability) यह बताता है कि कैटलॉगिंग के लिए जानकारी मुख्य रूप से शीर्षक पृष्ठ और अन्य सहायक पृष्ठों से ली जानी चाहिए।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "'विशेषता का उपसूत्र' किसका उदाहरण है ?<br>'Cannon of Characteristics' is is an example of:",
+    "options": [
+      "शब्दिक धरातल का उपसूत्र / Canon of Verbal Plane",
+      "वैचारिक धरातल का उपसूत्र / Canon of Idea Plane",
+      "आंकिक धरातल का उपसूत्र / Canon of Notational Plane",
+      "संज्ञानात्मक धरातल का उपसूत्र / Canon of Cognitive Plane"
+    ],
+    "answer": 1,
+    "explanation": "विशेषता का उपसूत्र (Canon of Characteristics) वैचारिक धरातल (Idea Plane) का एक उदाहरण है, जो विषयों को उनकी विशेषताओं के आधार पर व्यवस्थित करने से संबंधित है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "सी सी सी के अनुसार छद्‌म नाम से वास्तविक नाम प्रविष्टि को क्या कहा जाता है ?<br>According to CCC, pseudonym to Real name entry is called:",
+    "options": [
+      "सी आर ई/ CRE",
+      "बी आई ई / BIE",
+      "सी आर आई ई / CRIE",
+      "सी आई ई / CIE"
+    ],
+    "answer": 0,
+    "explanation": "CCC (क्लासिफाइड कैटलॉग कोड) के अनुसार, छद्म नाम से वास्तविक नाम प्रविष्टि को 'क्रॉस रेफरेंस एंट्री' (CRE) कहा जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "मुक्त भाषा कोश अनुरक्षण के लिए क्या आवश्यक है ? / What is the requirement for maintaining free language theasaurus ?",
+    "options": [
+      "मैनुअल रखरखाव / Manual maintennace",
+      "स्वचालित अद्यतन / Automatic updates",
+      "नियंत्रित शब्द चयन/Controlled term selection",
+      "मशीन से रखरखाव और पुनर्प्राप्ति / Machine Maintenace and Retrieval"
+    ],
+    "answer": 3,
+    "explanation": "मुक्त भाषा कोश (Free language thesaurus) के रखरखाव के लिए मशीन रखरखाव और पुनर्प्राप्ति (Machine Maintenance and Retrieval) आवश्यक है ताकि शब्दों को कुशलता से प्रबंधित और पुनर्प्राप्त किया जा सके।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "'प्रत्येक व्यक्ति और वस्तु का एक स्थान होना चाहिए' यह प्रबंधन के किस सिद्धान्त से सम्बन्धित है ?<br>'Place for everyone and everything' relates to which Principle of Management ?",
+    "options": [
+      "व्यवस्थापन / Organising",
+      "समानता / Equity",
+      "क्रम / Order",
+      "अनुशासन / Discipline"
+    ],
+    "answer": 2,
+    "explanation": "यह सिद्धांत 'क्रम' (Order) से संबंधित है, जिसका अर्थ है कि हर व्यक्ति और वस्तु का अपना उचित स्थान होना चाहिए ताकि कार्यकुशलता बनी रहे।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "'स्केलर श्रृंखला' प्रदर्शित करती है ?<br>'Scalar Chain' shows:",
+    "options": [
+      "श्रृंखला की कड़ी / A link of Chain",
+      "अवस्थापना हेतु श्रृंखला / Chain for locating",
+      "अधिकार संरचना / Authority structure",
+      "कार्मिकों के निष्पादन का पैमाना / Scale of performance of staff"
+    ],
+    "answer": 2,
+    "explanation": "स्केलर श्रृंखला (Scalar Chain) प्रबंधन में अधिकार संरचना (Authority structure) को दर्शाती है, जो शीर्ष से निचले स्तर तक के संचार और अधिकार के क्रम को परिभाषित करती है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "'गेल डायरेक्टरी ऑफ डाटाबेसिस' को पुस्तकालयों द्वारा सामान्यतः किस हेतु प्रयुक्त किया जाता है ?<br>'Gale Directory of Databases' is generally used by the libraries for:",
+    "options": [
+      "परिचालन / Circulation",
+      "स्वचालन / Automation",
+      "विपणन / Marketing",
+      "पुस्तक चयन / Book Selection"
+    ],
+    "answer": 3,
+    "explanation": "गेल डायरेक्टरी ऑफ डेटाबेसिस (Gale Directory of Databases) का उपयोग आमतौर पर पुस्तकालयों द्वारा डेटाबेस के चयन के लिए किया जाता है, जो पुस्तक चयन के व्यापक दायरे में आता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "वैज्ञानिक जर्नल्स के क्षेत्र में 'हाफ लाइफ' शब्द के जनक कौन हैं?<br>Who has coined the term 'half-life' in the field of scientific journals ?",
+    "options": [
+      "अर्नेस्ट रदरफोर्ड / Ernest Rutherford",
+      "मेरी क्यूरी / Marie Curie",
+      "नील्स बोहर / Niels Bohr",
+      "अल्बर्ट आइन्सटीन / Albert Einstein"
+    ],
+    "answer": 0,
+    "explanation": "वैज्ञानिक जर्नल्स के क्षेत्र में 'हाफ-लाइफ' (Half-life) शब्द का प्रयोग अर्नेस्ट रदरफोर्ड ने किया था, हालांकि यह मूल रूप से रेडियोधर्मी क्षय के संदर्भ में था, लेकिन इसे बिब्लियोमेट्रिक्स में भी लागू किया गया है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निधानी सूची क्या है ? / What is a shelf list ?",
+    "options": [
+      "प्रदर्शित पत्रिकाओं की सूची / List of periodical in display",
+      "मुख्य प्रविष्टि की प्रति / Copy of main entry card",
+      "पुस्तकों की सूची जो निधानियों पर किसी भी पुस्तक की स्थिति दर्शाती है। / List of books, which shows the position of any book on the shelves",
+      "पुस्तक आदेश पत्रक / Books order card"
+    ],
+    "answer": 2,
+    "explanation": "निधानी सूची (Shelf list) एक ऐसी सूची है जो पुस्तकालय की अलमारियों पर पुस्तकों की स्थिति को दर्शाती है, आमतौर पर वर्गीकरण संख्या के क्रम में।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "पत्रिका नियंत्रण के लिए त्रिपत्रक प्रणाली में ग्रंथ, अंक और प्रकाशन आदि से संबंधित प्रविष्टियों को अभिलेखबद्ध करने के लिए किस पत्र का उपयोग किया जाता है ?<br>In the three card system for periodical control, which card is used for recording entries relating to the volume, issue and publication etc.?",
+    "options": [
+      "जाँच पत्रक / Check card",
+      "वर्गीकृत पत्रक / Classified card",
+      "पंजीकरण पत्रक / Register card",
+      "वर्गीकृत्त अनुक्रमणिका पत्रक / Classified index card"
+    ],
+    "answer": 2,
+    "explanation": "पत्रिका नियंत्रण के लिए त्रिपत्रक प्रणाली (Three card system) में, 'पंजीकरण पत्रक' (Register card) का उपयोग ग्रंथ, अंक और प्रकाशन आदि से संबंधित प्रविष्टियों को अभिलेखबद्ध करने के लिए किया जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "'डेट्रॉइट सेल्फ चार्जिंग सिस्टम' को किसने विकसित किया था ?<br>'Detroit self-charging system' was developd by",
+    "options": [
+      "फ्रैंक पियर्स हिल / Frank Pierce Hill",
+      "वर्जीनिया वूल्फ / Virginia Woolf",
+      "राल्फ उल्वेलिंग / Ralph Ulveling",
+      "निना ई. ब्राउन / Nina E. Browne"
+    ],
+    "answer": 2,
+    "explanation": "डेट्रॉइट सेल्फ-चार्जिंग सिस्टम (Detroit self-charging system) को राल्फ उल्वेलिंग (Ralph Ulveling) ने विकसित किया था।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "अनुसंधान प्रक्रिया में \"परिकल्पना\" क्या है ? / What is 'hypothesis' in the research process?",
+    "options": [
+      "एक सिद्ध हकीकत / A proven fact",
+      "पूर्वानुमान व्याख्या / Tentative Explantion",
+      "शोध परिणाम का सारांश / Summary of Research Findings",
+      "स्थापित सिद्धान्त / Established theory"
+    ],
+    "answer": 1,
+    "explanation": "अनुसंधान प्रक्रिया में 'परिकल्पना' (hypothesis) एक अस्थायी व्याख्या या शिक्षित अनुमान है जिसे आगे के शोध द्वारा परीक्षण और सत्यापन किया जाना बाकी है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "बिब्लियोग्राफिक कप्लिंग का विचार किसने दिया ? / The Concept of Bibliographic coupling was introduced by",
+    "options": [
+      "यूजिन गारफिल्ड / Eugene Garfiled",
+      "एम.एम. केसलर / M.M. Kessler",
+      "एस.सी. ब्राडफोर्ड / S.C. Bradford",
+      "एस. हेनरी / S. Henry"
+    ],
+    "answer": 1,
+    "explanation": "बिब्लियोग्राफिक कपलिंग (Bibliographic coupling) का विचार एम.एम. केसलर (M.M. Kessler) द्वारा प्रस्तुत किया गया था।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "1886 में कॉपीराइट कानून सम्बन्धी सम्मेलन को निम्नलिखित से जाना जाता है:<br>The copyright Convention held in 1886 is known as:",
+    "options": [
+      "डबलिन सेमीनार / Dublin Seminar",
+      "बर्न कन्वेन्शन / Berne Convention",
+      "कनाडा कन्वेशन / Canada Convention",
+      "जकार्ता कन्वेन्शन / Zakarta Convention"
+    ],
+    "answer": 1,
+    "explanation": "1886 में आयोजित कॉपीराइट कानून संबंधी सम्मेलन को 'बर्न कन्वेंशन' (Berne Convention) के नाम से जाना जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित में से कौन-सा पुस्तकालय भारत सरकार के द्वारा यूनेस्को परियोजना के रूप में प्रारंभ किया गया था ?<br>Which of the following library was started by Government of India, as UNESCO project?",
+    "options": [
+      "भारतीय राष्ट्रीय ग्रंथालय, कोलकाता / National Library of India, Kolkata",
+      "इम्पीरियल पुस्तकालय, कोलकाता / Imperial Library, Kolkata",
+      "दिल्ली पब्लिक लाइब्रेरी / Delhi Public Library",
+      "राज्य केन्द्रीय संदर्भ पुस्तकालय, बैंगलोर / State Central Refernce Library, Bangalore"
+    ],
+    "answer": 2,
+    "explanation": "दिल्ली पब्लिक लाइब्रेरी (Delhi Public Library) को भारत सरकार द्वारा यूनेस्को परियोजना के रूप में शुरू किया गया था।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित लाइब्रेरी एसोसिएशन का उनकी स्थापना के वर्ष से मिलाने करें :<br>Match the following Library Association with their year of Inception :<br>सूची-1 /(List-I)<br>a. सिलिप (CILIP)<br>b. ए एल ए (ALA)<br>c. ए एस एल आई बी (ASLIB)<br>d. एस एल ए (SLA)<br>सूची-II /(List-II)<br>i. 1909<br>ii. 1924<br>iii. 2002<br>iv. 1876",
+    "options": [
+      "ii, iii, i, iv",
+      "iv, ii, iii, i",
+      "iii, iv, i, ii",
+      "iii, i, iv, ii"
+    ],
+    "answer": 2,
+    "explanation": "सही मिलान इस प्रकार है:<br>a. [cite_start]CILIP (2002) [cite: 158]<br>b. [cite_start]ALA (1876) [cite: 160]<br>c. [cite_start]ASLIB (1924) [cite: 156]<br>d. [cite_start]SLA (1909) [cite: 154]",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित पुस्तकालय अधिनियमों को उनके पारित होने के वर्ष के अनुसार व्यवस्थित कीजिए: / Arrange the following Library Acts according to the year enactement:<br>a. उत्तर प्रदेश सार्वजनिक पुस्तकालय अधिनियम / Utttar Pradesh Public Libraries Act<br>b. मणिपुर सार्वजनिक पुस्तकालय अधिनियम / Manipur Public Libraries Act<br>c. मिजोरम सार्वजनिक पुस्तकालय / Mizoram Public Libraries Act<br>d. हरियाणा सार्वजनिक पुस्तकालय अधिनियम / Haryana Public Libraries Act",
+    "options": [
+      "a, c, b, d",
+      "c, b, a, d",
+      "b, c, d, a",
+      "b, d, c, a"
+    ],
+    "answer": 3,
+    "explanation": "पुस्तकालय अधिनियमों के पारित होने के वर्ष के अनुसार सही क्रम है: मणिपुर सार्वजनिक पुस्तकालय अधिनियम (1988), हरियाणा सार्वजनिक पुस्तकालय अधिनियम (1989), मिजोरम सार्वजनिक पुस्तकालय अधिनियम (1993), और उत्तर प्रदेश सार्वजनिक पुस्तकालय अधिनियम (1972)।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "राजा राममोहन राय लाइब्रेरी फाउण्डेशन (RRRLF) किस पंचवर्षीय योजना में स्थापित किया गया था ?<br>Raja Rammohan Roy Library Foundation (RRRLF) was established in which five year plan?",
+    "options": [
+      "तृतीय / Third",
+      "चतुर्थ / Fourth",
+      "पंचम/Fifth",
+      "छठवीं / Sixth"
+    ],
+    "answer": 2,
+    "explanation": "राजा राममोहन राय लाइब्रेरी फाउण्डेशन (RRRLF) की स्थापना 1972 में हुई थी, जो पंचम पंचवर्षीय योजना (1974-1979) के दौरान आता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित में से किसने बड़ौदा रियासत में पुस्तकालयाध्यक्षों के लिए प्रशिक्षण कार्यक्रम को प्रारम्भ किया था ?<br>Who among the following started a libraries training program in princely State of Baroda?",
+    "options": [
+      "मेल्विल डीवी / Melvil Dewey",
+      "डब्ल्यू. ए. बॉर्डन / W.A. Borden",
+      "डी.बी. कृष्णा राव / D. B. Krishna Rao",
+      "ई.डब्ल्यू ह्यूम / E.W. Hulme"
+    ],
+    "answer": 1,
+    "explanation": "डब्ल्यू. ए. बॉर्डन (W.A. Borden) ने बड़ौदा रियासत में पुस्तकालयाध्यक्षों के लिए प्रशिक्षण कार्यक्रम शुरू किया था।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "नेस्टेड फ्रेज अनुक्रमणीकरण प्रणाली (NEPHIS) को निम्नलिखित में से किसने विकसित किया था ?<br>The Nested Phrase Indexing System (NEPHIS) was developed by:",
+    "options": [
+      "टिमोथी सी. क्रावेन / Timothy C. Craven",
+      "गणेश भट्टाचार्य / Ganesh Bhattacharya",
+      "डेरिक ऑस्टिन / Derik Austin",
+      "एच.पी.लुहन / H.P. Luhn"
+    ],
+    "answer": 0,
+    "explanation": "नेस्टेड फ्रेज अनुक्रमणीकरण प्रणाली (NEPHIS) को टिमोथी सी. क्रावेन (Timothy C. Craven) ने विकसित किया था।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "प्रेसिस (PRECIS) में रोल ऑपरेटर 2' किसके लिए आवंटित है ?<br>In PRECIS, role operator allotec for:",
+    "options": [
+      "लोकेशन / Location",
+      "ऑब्जेक्ट / Object",
+      "एक्शन / Action",
+      "एजेंट / Agent"
+    ],
+    "answer": 2,
+    "explanation": "PRECIS (Preserved Context Index System) में, रोल ऑपरेटर 2 'एक्शन' (Action) के लिए आवंटित है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "'उचित पाठक को उचित समय पर उचित पुस्तक प्रदान करना' किसने प्रतिपादित किया है ?<br>\"To provide the right book to right reader and right time' who formulated ?",
+    "options": [
+      "एस.आर. रंगनाथन / S.R. Ranganathan",
+      "मेल्विल डीवी/Melvil Dewey",
+      "जी.ई. गोरमैन / G.E. Gorman",
+      "फ्रांसिस डुरी / Francis Drury"
+    ],
+    "answer": 3,
+    "explanation": "यह कथन फ्रांसिस डुरी (Francis Drury) द्वारा प्रतिपादित किया गया था।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "सूचना साक्षरता के 'प्लस प्रतिरूप' (PLUS) Model) को किसके द्वारा विकसित किया गया ?<br>Who developed \"The PLUS Model' of information literacy?",
+    "options": [
+      "जेम्स हेरिंग / James Herring",
+      "ट्रेवोर बोंड / Trevor Bond",
+      "एनेट लैम्ब / Annette Lamb",
+      "माइक ईसनबर्ग / Mike Eisenberg"
+    ],
+    "answer": 0,
+    "explanation": "सूचना साक्षरता के 'प्लस मॉडल' (PLUS Model) को जेम्स हेरिंग (James Herring) द्वारा विकसित किया गया था।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "प्रतिलिप्यधिकार अधिनियम (Copyright Act.), 1957 (भारत) की धारा 52 से संबंधित है। / Section 52 of the Copyright Act, 1957 (India) deals with",
+    "options": [
+      "प्रतिलिप्यधिकार समितियां / Copyright Societies",
+      "उपचार / Remedies",
+      "शास्तियां / Penalites",
+      "कतिपय कार्यो का प्रतिलिप्यधिकार का उल्लंघन न होना / Certain acts not to be infringement of copyright"
+    ],
+    "answer": 3,
+    "explanation": "भारतीय कॉपीराइट अधिनियम, 1957 की धारा 52 कुछ ऐसे कार्यों से संबंधित है जिन्हें कॉपीराइट का उल्लंघन नहीं माना जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित में से कौन-सा क्विक (KWIC) का एक प्रकार नहीं है ? / Which of the following is not a variant of KWIC?",
+    "options": [
+      "क्वॉक / (KWOC)",
+      "क्वको / (KWCO)",
+      "के.डब्ल्यू. डब्ल्यू.सी. / (KWWC)",
+      "क्वाक / (KWAC)"
+    ],
+    "answer": 2,
+    "explanation": "KWWC (कीवर्ड विद इन वर्ड कॉन्टेक्स्ट) KWIC (कीवर्ड इन कॉन्टेक्स्ट) का एक ज्ञात प्रकार नहीं है। KWOC (कीवर्ड आउट ऑफ कॉन्टेक्स्ट), KWCO (कीवर्ड एंड कॉन्टेक्स्ट आउट ऑफ कीवर्ड) और KWAC (कीवर्ड एंड कॉन्टेक्स्ट) KWIC के प्रकार हैं।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित में से किसे सूचना का प्राथमिक स्त्रोत नहीं माना जाता है ? / Which of the following is not considered a primary source of information ?",
+    "options": [
+      "लघु शोध प्रबंध एवं शोध प्रबंध / Dissertations and Theses",
+      "तकनीकी प्रतिवेदन / Technical Reports",
+      "विश्वकोश / Encylopedias"
+    ],
+    "answer": 3,
+    "explanation": "विश्वकोश (Encyclopedias) सूचना का प्राथमिक स्रोत नहीं बल्कि एक द्वितीयक स्रोत है, जो विभिन्न प्राथमिक और द्वितीयक स्रोतों से जानकारी को संकलित और सारांशित करता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित में से कौनसी वित्तीय आंकलन की विधि नहीं है ? / Which of the following is not a method of financial estimation?",
+    "options": [
+      "ब्यौरवार विधि / Method of details",
+      "लाइन आइटम विधि / Line item method",
+      "आनुपातिक विधि / Proportional method",
+      "प्रति व्यक्ति विधि / Per capita method"
+    ],
+    "answer": 2,
+    "explanation": "आनुपातिक विधि (Proportional method) आमतौर पर वित्तीय आकलन की एक विशिष्ट विधि नहीं है। अन्य विकल्प बजटिंग और वित्तीय नियोजन में उपयोग की जाने वाली सामान्य विधियाँ हैं।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "'सीयर्स लिस्ट ऑफ सब्जेक्ट हेडिंग्स का प्रतिपादन किसने किया ?<br>Who formulated the 'Sears List of Subject Headings ?",
+    "options": [
+      "डी.ई. सियर्स / D.E. Sears",
+      "थॉमस एम. सियर्स / Thomas M. Sears",
+      "मिन्नी अर्ल सियर्स / Minnie Earl Sears",
+      "जे.एल. सियर्स / J.L. Sears"
+    ],
+    "answer": 2,
+    "explanation": "'सीयर्स लिस्ट ऑफ सब्जेक्ट हेडिंग्स' (Sears List of Subject Headings) का प्रतिपादन मिन्नी अर्ल सियर्स (Minnie Earl Sears) ने किया था।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "डी.डी.सी. के मानक उपविभाजन में शोध के लिए क्या अंकन प्रयुक्त हुआ है ? / What is the notation used for 'research' in Standard Subdivisons of DDC?",
+    "options": [
+      "-071",
+      "-072",
+      "-074",
+      "-075"
+    ],
+    "answer": 1,
+    "explanation": "DDC (डेवी डेसीमल क्लासिफिकेशन) के मानक उपविभाजनों में 'शोध' (research) के लिए अंकन '-072' प्रयुक्त होता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "डेवी दशमलव वर्गीकरण (19 वें संस्करण) की तालिका 1 मानक उपविभाजनों का अंकन 05 किसका प्रतिनिधित्व करता है ?<br>Notation-05 in Table, 1 Standard Subdivisions of Dewey Decimal Classification (19th edition) represents-",
+    "options": [
+      "क्रमिक प्रकाशन / Serial Publications",
+      "दर्शन और सिद्धांत / Phiolosophy and Theory",
+      "शब्दकोश / Disctionaries",
+      "अध्ययन और अध्यापन / Study and Teaching"
+    ],
+    "answer": 0,
+    "explanation": "डेवी दशमलव वर्गीकरण (19वें संस्करण) की तालिका 1 मानक उपविभाजनों में अंकन '-05' 'क्रमिक प्रकाशन' (Serial Publications) का प्रतिनिधित्व करता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "द्विबिन्दु वर्गीकरण 6 वें संस्करण में, निम्नलिखित में से कौनसे मुख्य वर्गों के लिए पक्ष परिसूत्र में सभी चार स्तरों में 'व्यक्तित्व' (Personality) [P] प्रकट करता है ?<br>In Colon Claasification 6th edition, which of the following main classes are manifesting 'Personality' [P] in all four levels in its facet formula ?<br>(i) सामान्य ग्रंथसूची / Generalia Bibliography<br>(ii) साहित्य / Literature<br>(iii) भाषा विज्ञान / Linguistics<br>(iv) इतिहास / History",
+    "options": [
+      "केवल (ii) और (iii)",
+      "(i), (ii), (iii) और (iv)",
+      "केवल (i) और (ii)",
+      "केवल (i), (ii) और (iii)"
+    ],
+    "answer": 0,
+    "explanation": "कोलन क्लासिफिकेशन के 6वें संस्करण में, साहित्य (Literature) और भाषा विज्ञान (Linguistics) मुख्य वर्ग अपने पक्ष सूत्र में सभी चार स्तरों में 'व्यक्तित्व' (Personality) [P] को प्रकट करते हैं।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "जियोपॉलिटिक्स' विषय निर्माण की किस विधि द्वारा बना है ?<br>'Geopolitics' is formed by which modes of formation of subject ?",
+    "options": [
+      "स्तरीकरण (लेमिनेशन) / Lamination",
+      "विलयन / Fusion",
+      "आसवन / Distillation",
+      "समूहीकरण (गुच्छन) / Clustering"
+    ],
+    "answer": 1,
+    "explanation": "'जियोपॉलिटिक्स' (Geopolitics) विषय निर्माण की 'विलयन' (Fusion) विधि द्वारा बना है, जहाँ दो या दो से अधिक अलग-अलग विषयों के विचार मिलकर एक नया विषय बनाते हैं।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "The Delivery of Book and Newspapers Act of .. लागू किया गया और में अंतिम संशोधन किया गया :<br>The Delivery of Books and Newspapers Act was enacted and last amended:<br>(a) 1954 (b) 1964 (c) 1956 (d) 1974",
+    "options": [
+      "a and b are correct",
+      "b and c are correct",
+      "a and care correct",
+      "cand d are correct"
+    ],
+    "answer": 2,
+    "explanation": "द डिलीवरी ऑफ बुक्स एंड न्यूजपेपर्स (पब्लिक लाइब्रेरीज) एक्ट 1954 में अधिनियमित किया गया था, और इसमें अंतिम संशोधन 1956 में किया गया था।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "डॉ. एस.आर. रंगनाथन विश्वविद्यालय अनुदान आयोग की पुस्तकालय समिति के अध्यक्ष किस वर्ष में थे ?<br>Dr. S.R. Ranganathan was the Chairman of the U.G.C.(University Grant Commission) Library Committee in which year ?",
+    "options": [
+      "1958",
+      "1960",
+      "1957",
+      "1961"
+    ],
+    "answer": 0,
+    "explanation": "डॉ. एस.आर. रंगनाथन 1958 में विश्वविद्यालय अनुदान आयोग (UGC) की पुस्तकालय समिति के अध्यक्ष थे।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "एक मूल वर्ग और एक या अधिक आइसोलेट्स से बने एक विषय को कहा जाता है / A subject made of a basic class and one more isolates is said to be a:",
+    "options": [
+      "Simple Class / Subject",
+      "Complex Class / Subject",
+      "Compound Class/ Subject",
+      "Amplified Class / Subject"
+    ],
+    "answer": 2,
+    "explanation": "एक मूल वर्ग (basic class) और एक या अधिक आइसोलेट्स (isolates) से बने विषय को 'यौगिक वर्ग' (Compound Class) या 'यौगिक विषय' (Compound Subject) कहा जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "CC में जीवनी को दर्शाने हेतु कौन-सा चिन्ह के रूप में प्रयुक्त होता है ?<br>Which symbol is used for representing 'Biography' as ACI in CC?",
+    "options": [
+      "k",
+      "m",
+      "b",
+      "w"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन (CC) में, जीवनी (Biography) को दर्शाने के लिए 'w' चिन्ह का उपयोग किया जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्न में से विषम का चयन कीजिए / Point odd one out:",
+    "options": [
+      "Cow-Calf principle",
+      "Principle of Osmosis",
+      "Wall picture principle",
+      "Whole organ principle"
+    ],
+    "answer": 0,
+    "explanation": "'काऊ-कॉफ प्रिंसिपल' (Cow-Calf principle) कोलन क्लासिफिकेशन के सिद्धांत में एक विषम है। अन्य सभी (ऑस्मोसिस का सिद्धांत, वॉल-पिक्चर प्रिंसिपल, होल-ऑर्गन प्रिंसिपल) रंगनाथन द्वारा दिए गए विषय निर्माण के सिद्धांत हैं।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित में से कौन-सी सारणी द्विबिन्दु वर्गीकरण में प्रदान की गई है ? / Which of the following types of the schedules CC provides ?",
+    "options": [
+      "सहायक सारणियाँ / Auxiliary tables",
+      "रूप विभाजन / Form division",
+      "मानक उप-विभाजन / Standard Sub-divisions",
+      "सामान्य एकल / Common Isolate"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन (CC) 'सामान्य एकल' (Common Isolate) प्रदान करता है, जो विभिन्न मुख्य वर्गों में उपयोग किए जाने वाले सामान्य विभाजनों को संदर्भित करता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "\"Mathematics for Engineers' द्विबिन्दु वर्गीकरण में किस पक्ष संबंध का उदाहरण है ? / \"Mathematics for Engineers\" is the example of which phase relation in CC?",
+    "options": [
+      "तुलना / Comparison",
+      "सामान्य / General",
+      "प्रभाव / Influence",
+      "पक्षपात / Bias"
+    ],
+    "answer": 3,
+    "explanation": "“इंजीनियर्स के लिए गणित” (Mathematics for Engineers) कोलन क्लासिफिकेशन (CC) में 'पक्षपात' (Bias) संबंध का एक उदाहरण है, क्योंकि यह एक विषय का दूसरे विषय की ओर झुकाव या अनुप्रयोग दर्शाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "विषय निर्माण की विधियाँ किसने दी है? / Who gave the modes of Formation of Subjects?",
+    "options": [
+      "जे. मार्टिन / J. Martin",
+      "एस.सी. ब्रैडफोर्ड / S.C. Bradford",
+      "डी.जे. फोरस्केट/ D. J. Foskett",
+      "रंगनाथन / Ranganthan"
+    ],
+    "answer": 3,
+    "explanation": "विषय निर्माण की विधियाँ (Modes of Formation of Subjects) डॉ. एस.आर. रंगनाथन द्वारा प्रतिपादित की गई हैं।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "डॉ. एस.आर. रंगनाथन के द्वारा कितने प्रकार के अंकन प्रतिपादित किये गये ? / How many kinds of notation have been introduced by Dr. S.R. Ranganthan?",
+    "options": [
+      "Five",
+      "Four",
+      "Two",
+      "Three"
+    ],
+    "answer": 2,
+    "explanation": "डॉ. एस.आर. रंगनाथन ने दो प्रकार के अंकन (Notation) प्रतिपादित किए: शुद्ध अंकन (Pure Notation) और मिश्रित अंकन (Mixed Notation)।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "'डायनेमिक थ्योरी वर्गीकरण का सुझाव किसके द्वारा दिया गया था : \"Dynamic Theory\" of Classification was suggested by:",
+    "options": [
+      "Melvil Dewey",
+      "S.R. Ranganathan",
+      "W.C.B. Sayers",
+      "J.D. Brown"
+    ],
+    "answer": 1,
+    "explanation": "'वर्गीकरण का गतिशील सिद्धांत' (Dynamic Theory of Classification) डॉ. एस.आर. रंगनाथन द्वारा सुझाया गया था।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "'यूनीमार्क' किसका योगदान है ? / UNIMARC is a contribution of:",
+    "options": [
+      "LC",
+      "OCLC",
+      "IFLA",
+      "UNESCO"
+    ],
+    "answer": 2,
+    "explanation": "यूनीमार्क (UNIMARC) इंटरनेशनल फेडरेशन ऑफ लाइब्रेरी एसोसिएशंस एंड इंस्टीट्यूशंस (IFLA) का योगदान है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "CC के 7 वें संस्करण में उल्लिखित एक साधारण पुस्तक के वर्गीकरण करने के निम्नलिखित चरणों को व्यवस्थित कीजिए।<br>Arrange the Following stepes of procedure for classifying a simple books as mentioned in CC 7th Edition.<br>a.Title in Karnel Terms b. Expressive Title<br>c.Title in Facet Numbers d. Title in Standard terms",
+    "options": [
+      "(a) (b) (d) (c)",
+      "(b) (a) (d) (c)",
+      "(b) (d) (a) (c)",
+      "(a) (b) (c) (d)"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन (CC) के 7वें संस्करण में एक साधारण पुस्तक के वर्गीकरण की प्रक्रिया के चरण इस प्रकार हैं: एक्सप्रेसिव टाइटल (Expressive Title), कर्नेल टर्म्स में टाइटल (Title in Karnel Terms), स्टैंडर्ड टर्म्स में टाइटल (Title in Standard Terms), और फेसेट नंबर्स में टाइटल (Title in Facet Numbers)।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "कोलन वर्गीकरण 6 वें संस्करण में मुख्य वर्ग गणित के विभाजन निम्नानुसार हैं : / The divisions of the main class Mathematics in Colon Classification 6th edition follows:",
+    "options": [
+      "काल क्रम में उत्तरवर्ती का सिद्धांत / Principle of later -in-time",
+      "विकास क्रम में उत्तरवर्ती का सिद्धांत / Principle of later -in- evolution",
+      "जटिलता वृद्धि का सिद्धांत / Principle of increasing complexity",
+      "प्रमाणिक, उपसूत्र का सिद्धांत / Principle of canonical sequence"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन के 6वें संस्करण में मुख्य वर्ग गणित के विभाजन 'कैनोनिकल सीक्वेंस के सिद्धांत' (Principle of Canonical Sequence) का पालन करते हैं।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "Emptying Digit का उपयोग कोलन वर्गीकरण में... प्रदान करने के लिए किया जाता है।. / Emptying digit is used in colon classification to provide...",
+    "options": [
+      "Hospitality in chain",
+      "Hospitality in array",
+      "Hospitality in notation",
+      "Broken order"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन में एम्प्टीइंग डिजिट (Emptying Digit) का उपयोग 'ऐरे में आतिथ्य' (Hospitality in array) प्रदान करने के लिए किया जाता है, जिससे मौजूदा ऐरे में नए विषयों को जोड़ा जा सके।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित में से किसने वर्गीकरण के लिए अपने प्रामाणिक सिद्धांतों के नामकरण में 'कैनन' शब्द का प्रयोग किया है।<br>Which among the following have used the term 'Canon' in naming their normative principles for classification?<br>(i) S.R. Ranganathan (ii) W.C.B. Sayers<br>(iii) E.C. Richardson (iv) Wyndham Hulme",
+    "options": [
+      "(i) and (iii) are correct",
+      "(ii) and (iii) are correct",
+      "(iii) and (iv) are correct",
+      "(i) and (ii) are correct"
+    ],
+    "answer": 3,
+    "explanation": "एस.आर. रंगनाथन और डब्ल्यू.सी.बी. सेयर्स दोनों ने वर्गीकरण के लिए अपने प्रामाणिक सिद्धांतों के नामकरण में 'कैनन' (Canon) शब्द का प्रयोग किया है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "CC में प्रयुक्त पक्ष संकेतक को तार्किक क्रम में व्यवस्थित करें :<br>Arrange in logical order the facet indicators used in CC:<br>(a) Colon (:)<br>(c) Inverted comma (')<br>(e) (.) Dot<br>(b) Comma (,)<br>(d) Semicolon (;)",
+    "options": [
+      "(a) (b) (c) (d) (e)",
+      "(b) (d) (a) (e) (c)",
+      "(c) (b) (a) (e) (d)",
+      "(d) (c) (e) (a) (b)"
+    ],
+    "answer": 1,
+    "explanation": "कोलन क्लासिफिकेशन (CC) में प्रयुक्त पक्ष संकेतकों का तार्किक क्रम है: अल्पविराम (,), अर्धविराम (;), कोलन (:), डॉट (.), और इनवर्टेड कॉमा (')।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "डी.डी.सी. में कोई एक क्रमांक जिसका स्वयं में कोई अर्थ नही है किंतु उसे विषय शीर्षक के उदाहरण के लिए प्रयोग किया जाता है, को कहा जाता है: 'A number in DDC without meaning in itself, but used to introduce examples of the topic is known as:",
+    "options": [
+      "वर्गाक / Class Number",
+      "ग्रंथांक / Book Number",
+      "हुक क्रमांक /Hook Number",
+      "संग्रहंक / Collection Number"
+    ],
+    "answer": 2,
+    "explanation": "DDC में ऐसा क्रमांक जिसका स्वयं में कोई अर्थ नहीं है, लेकिन उसे विषय शीर्षक के उदाहरण के लिए प्रयोग किया जाता है, उसे 'हुक क्रमांक' (Hook Number) कहा जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "उन व्यक्त्तियों की पहचान कीजिए जो UDC विकास से संबंद्धित नहीं हैंः / Identify the persons NOT Associated with the development of UDC:<br>(a) S.R. Rangnathan<br>(b) Paul Otlet<br>(c) H.E. Bliss<br>(d) Henry La Fontain",
+    "options": [
+      "(a) and (c) are correct",
+      "(a) and (b) are correct",
+      "(c) and (d) are correct",
+      "(b) and (d) are correct"
+    ],
+    "answer": 0,
+    "explanation": "एस.आर. रंगनाथन और एच.ई. ब्लिस यूडीसी (यूनिवर्सल डेसीमल क्लासिफिकेशन) के विकास से जुड़े नहीं हैं। पॉल ओटलेट और हेनरी ला फॉन्टेन यूडीसी के विकास से जुड़े प्रमुख व्यक्ति थे।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "यूडीसी में, 2- प्रतिनिधित्व करता है: / In UDC, 2- represents:",
+    "options": [
+      "जूलॉजी/ Zoology",
+      "धर्म / Religion",
+      "सामाजिक विज्ञान / Social Sciences",
+      "सामान्य कार्य/ General works"
+    ],
+    "answer": 2,
+    "explanation": "यूडीसी (यूनिवर्सल डेसीमल क्लासिफिकेशन) में, '2' 'सामाजिक विज्ञान' (Social Sciences) का प्रतिनिधित्व करता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "कोलन वर्गीकरण में \"डी\" किस मुख्य वर्ग को संदर्भित करता है-/In colon classification 'D' refers to which main class ?",
+    "options": [
+      "इतिहास / History",
+      "कानून/Law",
+      "विज्ञान / Sciences",
+      "इंजीनियरिंग / Engieering"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन (CC) में 'D' मुख्य वर्ग 'इंजीनियरिंग' (Engineering) को संदर्भित करता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "किसने कहा \"विभिन्न वस्तुओं के संयोजन से सभी संभावित विषयों का निर्माण किया जा सकता है\" ? / Who said \"All possible subjects can be constructed by way of combining different objects\"?",
+    "options": [
+      "एस.आर. रंगनाथन / S.R. Ranganathan",
+      "मेलविल डेवी/Melvil Dewey",
+      "सेयर्स / Sayers",
+      "पॉल ओटलेट/Paul Otlet"
+    ],
+    "answer": 0,
+    "explanation": "यह कथन डॉ. एस.आर. रंगनाथन द्वारा दिया गया था, जो विषय निर्माण के उनके सिद्धांतों को दर्शाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "कोलन क्लासिफिकेशन है / Colon Classification is a:",
+    "options": [
+      "परिगणनात्मक वर्गीकरण / Enumerative Classification",
+      "पदानुक्रम वर्गीकरण / Hierarchical Classification",
+      "वैश्लैषी-संश्लेषणात्मक वर्गीकरण / Analytic-Synthetic Classification",
+      "विस्तार वर्गीकरण / Expansion Classification"
+    ],
+    "answer": 2,
+    "explanation": "कोलन क्लासिफिकेशन (Colon Classification) एक 'विश्लेषणात्मक-संश्लेषणात्मक वर्गीकरण' (Analytic-Synthetic Classification) प्रणाली है, जो विषयों को उनके घटक भागों में विश्लेषण करती है और फिर उन्हें एक संख्या बनाने के लिए संश्लेषित करती है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "एक और समान पंक्ति से संबंधित वर्गों को कहा जा सकता है : /The classes belonging to one and the same array may be called as",
+    "options": [
+      "Unitary Class",
+      "Multiple Class",
+      "Co-Ordinate Class",
+      "Class"
+    ],
+    "answer": 2,
+    "explanation": "एक ही ऐरे (array) से संबंधित वर्गों को 'को-ऑर्डिनेट क्लास' (Co-Ordinate Class) कहा जाता है, जिसका अर्थ है कि वे एक ही स्तर पर हैं।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "यूडीसी में कॉमन आइसोलेट्स को कहा जाता है : / The common isolates in UDC are called:",
+    "options": [
+      "Auxiliary Tables",
+      "Main Tables",
+      "Sub Tables",
+      "Standard Tables"
+    ],
+    "answer": 0,
+    "explanation": "यूडीसी (यूनिवर्सल डेसीमल क्लासिफिकेशन) में कॉमन आइसोलेट्स को 'सहायक तालिकाएँ' (Auxiliary Tables) कहा जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "आधुनिक पुस्तकालय वर्गीकरण के जनक है / The father of modern library classification is-",
+    "options": [
+      "S.R. Ranganthan",
+      "Melvil Dewey",
+      "J.D. Brown",
+      "E.C. Richardson"
+    ],
+    "answer": 1,
+    "explanation": "आधुनिक पुस्तकालय वर्गीकरण के जनक मेल्विल डेवी (Melvil Dewey) हैं, जिन्होंने डेवी दशमलव वर्गीकरण (DDC) प्रणाली का विकास किया।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "'Organisation of Knowledge in Libraries' 'शीर्षक पुस्तक लिखी गई: / The book entitled \"Organsisation of knowledge in Libraries\" written by:",
+    "options": [
+      "S.R. Ranganathan",
+      "H.E. Bliss",
+      "W.C. Berwick Sayer",
+      "C.A. Cutter"
+    ],
+    "answer": 1,
+    "explanation": "'ऑर्गेनाइजेशन ऑफ नॉलेज इन लाइब्रेरीज' (Organisation of Knowledge in Libraries) नामक पुस्तक एच.ई. ब्लिस (H.E. Bliss) द्वारा लिखी गई थी।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "यूडीसी में गैर-तर्कसंगत विषयों को जोड़ने के लिए किस चिन्ह का उपयोग किया जाता है- / Which sign is used in UDC to agglomerate non-consective subjects?",
+    "options": [
+      "/ (Stroke)",
+      "+ (Plus)",
+      "() (Circular Brackets)",
+      "[] (Square Brackets)"
+    ],
+    "answer": 1,
+    "explanation": "यूडीसी (यूनिवर्सल डेसीमल क्लासिफिकेशन) में गैर-लगातार विषयों को जोड़ने के लिए 'प्लस' (+) चिन्ह का उपयोग किया जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्न में से कौन-सा शब्द कैनन ऑफ टर्मिनोलॉजी का उदाहरण है, जिसे कोलन क्लासीफिकेशन में वर्णित किया गया है-<br>Which of the following is an example of Canon of Terminology as depicted in Colon Classification ?",
+    "options": [
+      "Canon of Modulation",
+      "Canon of Coordinate Class",
+      "Canon of Consistency",
+      "Canon of Currency"
+    ],
+    "answer": 3,
+    "explanation": "कोलन क्लासिफिकेशन में वर्णित 'कैनन ऑफ टर्मिनोलॉजी' (Canon of Terminology) का एक उदाहरण 'कैनन ऑफ करेंसी' (Canon of Currency) है, जो यह सुनिश्चित करता है कि वर्गीकरण में उपयोग की जाने वाली शब्दावली वर्तमान और प्रासंगिक हो।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्न में से कौन-सा OCLC का उत्पाद और सेवा नहीं है -<br>Which of the following is not a product and service of OCLC?",
+    "options": [
+      "World Cat",
+      "Web Junction",
+      "Dewey Services",
+      "Facet Publishing"
+    ],
+    "answer": 3,
+    "explanation": "फेसट पब्लिशिंग (Facet Publishing) OCLC (ऑनलाइन कंप्यूटर लाइब्रेरी सेंटर) का उत्पाद या सेवा नहीं है। WorldCat, WebJunction और Dewey Services OCLC द्वारा प्रदान किए जाते हैं।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "सीसीसी में तीन विश्लेषणात्मक प्रविष्टियाँ लेखक प्रविष्टियाँ, विषय प्रविष्टियाँ और...... / In CC three analytical entries are; author analytical, subject analytical and :",
+    "options": [
+      "श्रेणीपरक विश्लेषणात्मक / Series analytical",
+      "संस्करण विश्लेषणात्मक / Edition analytical",
+      "शीर्षक विश्लेषणात्मक / Title analytical",
+      "स्थल विश्लेषणात्मक / Place analytical"
+    ],
+    "answer": 2,
+    "explanation": "सीसीसी (क्लासिफाइड कैटलॉग कोड) में तीन विश्लेषणात्मक प्रविष्टियां हैं: लेखक विश्लेषणात्मक, विषय विश्लेषणात्मक और शीर्षक विश्लेषणात्मक।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "सी सी सी (संस्करण 5) के अनुसार निम्नलिखित में कौन से अनुच्छेद मुख्य प्रविष्टि का भाग हैं ?<br>Which of the following Sections Constitute the parts of main entry according to CCC (Ed.5) ?<br>(a) Leading Section (b) Title Section<br>(c) Format Section (d) Note Section",
+    "options": [
+      "(a), (b) and (c) are correct",
+      "(a), (b) and (d) are correct",
+      "(b), (c) and (d) are correct",
+      "(a), (c) and (d) are correct"
+    ],
+    "answer": 1,
+    "explanation": "सीसीसी (क्लासिफाइड कैटलॉग कोड) के 5वें संस्करण के अनुसार, मुख्य प्रविष्टि के भाग हैं: लीडिंग सेक्शन (Leading Section), टाइटल सेक्शन (Title Section) और नोट सेक्शन (Note Section)। फॉर्मेट सेक्शन मुख्य प्रविष्टि का भाग नहीं है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित में से कौन एंग्लो अमेरिकन कैटलॉगिंग नियमों से संबंधित है ? / Which of the following are related to Anglo American Cataloguing Rules?<br>(a) Resource Description Framework<br>(b) Resource Description and Access<br>(c) Functional Requrirements for Bibliographic Records<br>(d) Functional Referenece and Bibliography for Reading",
+    "options": [
+      "(a) and (b) are correct",
+      "(b) and (c) are correct",
+      "(c) and (d) are correct",
+      "(d) and (a) are correct"
+    ],
+    "answer": 1,
+    "explanation": "एंग्लो अमेरिकन कैटलॉगिंग नियमों (AACR) से संबंधित हैं: 'रिसोर्स डिस्क्रिप्शन एंड एक्सेस' (Resource Description and Access - RDA) जो AACR2 का उत्तराधिकारी है, और 'फंक्शनल रिक्वायरमेंट्स फॉर बिब्लियोग्राफिक रिकॉर्ड्स' (Functional Requirements for Bibliographic Records - FRBR) जो RDA का आधार है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "सी.ए. कटर लेखक है/ C.A. Cutter is the author of:<br>(a) Expansive Classification<br>(b) Bibliographic Classifiction<br>(c) Rules for dictionary catalogue<br>(d) Broad system of ordering",
+    "options": [
+      "a and b are correct",
+      "a and c are correct",
+      "b and c are correct",
+      "d and c are correct"
+    ],
+    "answer": 1,
+    "explanation": "सी.ए. कटर (C.A. Cutter) 'एक्सपेंसिव क्लासिफिकेशन' (Expansive Classification) और 'रूल्स फॉर डिक्शनरी कैटलॉग' (Rules for Dictionary Catalogue) के लेखक हैं।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित में से कौन-से मार्क अभिलेख संरचना के भाग हैं ?<br>Which of the following are parts of MARC record structure ?<br>(a) Check Digit<br>(c) Directory<br>(b) Leader<br>(d) Record Terminator",
+    "options": [
+      "(a) (c) and (d)",
+      "(a) (b) and (d)",
+      "(a) (b) and (c)",
+      "(b) (c) and (d)"
+    ],
+    "answer": 3,
+    "explanation": "MARC (मशीन-रीडेबल कैटलॉगिंग) अभिलेख संरचना के भाग हैं: लीडर (Leader), डायरेक्टरी (Directory) और रिकॉर्ड टर्मिनेटर (Record Terminator)। चेक डिजिट MARC संरचना का मानक भाग नहीं है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "सार्वभौमिक ग्रंथसूची नियंत्रण और अंतर्राष्ट्रीय मार्क निम्नलिखित में से किसका मुख्य कार्यक्रम है ? / Universal bibliographic control and international MARC (UBCIM) is a core activity of",
+    "options": [
+      "IFLA",
+      "UNESCO",
+      "OCLC",
+      "ALA"
+    ],
+    "answer": 0,
+    "explanation": "यूनिवर्सल बिब्लियोग्राफिक कंट्रोल और इंटरनेशनल MARC (UBCIM) इंटरनेशनल फेडरेशन ऑफ लाइब्रेरी एसोसिएशंस एंड इंस्टीट्यूशंस (IFLA) का एक मुख्य कार्यक्रम है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "कैनमार्क और यूएस मार्क का एक साथ किस में विलय हुआः ?<br>CANMARC and US-MARC are merged together with:",
+    "options": [
+      "सीसीएफ / CCF",
+      "यूनिमार्क / UNIMARC",
+      "यूके मार्क / UK-MARC",
+      "मार्क 21/MARC-21"
+    ],
+    "answer": 3,
+    "explanation": "कैनमार्क (CANMARC) और यूएस-मार्क (US-MARC) का विलय 'मार्क 21' (MARC 21) में हुआ।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "ISBD की रचना किसने की और इसका रखरखाव किसके द्वारा किया जाता है- / ISBD was created and is maintaing by :",
+    "options": [
+      "OCLC",
+      "UNESCO",
+      "IFLA",
+      "Library of Congress"
+    ],
+    "answer": 2,
+    "explanation": "ISBD (इंटरनेशनल स्टैंडर्ड बिब्लियोग्राफिक डिस्क्रिप्शन) की रचना IFLA (इंटरनेशनल फेडरेशन ऑफ लाइब्रेरी एसोसिएशंस एंड इंस्टीट्यूशंस) द्वारा की गई थी और इसका रखरखाव भी IFLA द्वारा ही किया जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "उस सूची को क्या कहा जाता है जिसमें पुस्तकों के लेखक, शीर्षक विषय आदि से संबंधित प्रविष्टियों को वर्णानानुक्रम में व्यवस्थित किया जाता है।<br>What is the catalogue called in which entries relating to the authors title subjects etc. of the books arranged alphabetically?",
+    "options": [
+      "Classified catalogue",
+      "Name catalogue",
+      "Dictionary catalogue",
+      "Mixed catalogue"
+    ],
+    "answer": 2,
+    "explanation": "ऐसी सूची जिसमें पुस्तकों के लेखक, शीर्षक, विषय आदि से संबंधित प्रविष्टियों को वर्णानुक्रम में व्यवस्थित किया जाता है, उसे 'डिक्शनरी कैटलॉग' (Dictionary catalogue) कहा जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "किसी पुस्तक के बारे में मुख्य सूचनाएं आप किस प्रविष्टि से प्राप्त करेंगे ?<br>By which entry you will get main information about a book?",
+    "options": [
+      "Subject Entry",
+      "Main Entry",
+      "Cross Reference Entry",
+      "Class Index Entry"
+    ],
+    "answer": 1,
+    "explanation": "किसी पुस्तक के बारे में मुख्य सूचनाएं 'मुख्य प्रविष्टि' (Main Entry) से प्राप्त होंगी, क्योंकि इसमें पुस्तक से संबंधित सबसे विस्तृत और आवश्यक जानकारी होती है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "सूची जिसमें कुछ प्रविष्टिया संख्या प्रविष्टियों में होती है और कुछ शब्द प्रविष्टियाँ हो ऐसी सूची को एस.आर. रंगनाथन के शब्दकोशीय सूची कोड (सीसीसी) के अनुसार क्या कहा जाता है- / What is known\"? when a catalogue in which some entries are in number entries and some are word entires ? (As per the C.C.C with additional register for dictionary catalogue code of S.R. Ranganthan) Ranganthan)",
+    "options": [
+      "Alphabetical Catalogue",
+      "Classified Catalogue",
+      "Subject Catalogue",
+      "Dictionary Catalogue"
+    ],
+    "answer": 1,
+    "explanation": "एस.आर. रंगनाथन के सीसीसी (क्लासिफाइड कैटलॉग कोड) के अनुसार, ऐसी सूची जिसमें कुछ प्रविष्टियाँ संख्या प्रविष्टियों में होती हैं और कुछ शब्द प्रविष्टियाँ होती हैं, उसे 'वर्गीकृत कैटलॉग' (Classified Catalogue) कहा जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "ग्रंथसूची नियंत्रण के छह कार्यों की पहचान किसने की ? / Who identified the six functions of bibliographic control?",
+    "options": [
+      "Arlene G. Taylor",
+      "Patrick Wilson",
+      "Robert B. Downs",
+      "Ronald Hagler"
+    ],
+    "answer": 0,
+    "explanation": "ग्रंथसूची नियंत्रण के छह कार्यों की पहचान आर्लेन जी. टेलर (Arlene G. Taylor) ने की थी।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "संसाधन साझेदारी के लिए OCLC द्वारा निर्मित क्लाउड-आधारित इंटरफेस का नाम क्या है- / What is the name of the cloud-based interface produced by OCLC for resource sharing ?",
+    "options": [
+      "Tipasa",
+      "Relais D2D",
+      "World Share Inter Library Loan",
+      "CONTENT dm"
+    ],
+    "answer": 2,
+    "explanation": "संसाधन साझेदारी के लिए OCLC द्वारा निर्मित क्लाउड-आधारित इंटरफ़ेस का नाम 'वर्ल्डशेयर इंटर लाइब्रेरी लोन' (WorldShare Inter Library Loan) है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित में से कौन-सा भारत के सूचना और प्रसारण मंत्रालय के प्रकाशन विभाग का प्रकाशन है- / Which of the following is a publication of the publications divisions of Ministry of Information and Broadcasting of Inda?",
+    "options": [
+      "मेरी सरकार / My Government",
+      "विदेश से भारतीय साहित्य / India literature abroad",
+      "व्यापार में भारत / India in Business",
+      "भारत 2024 : एक संदर्भ वार्षिक पत्रिका / India 2024 : A reference annual"
+    ],
+    "answer": 3,
+    "explanation": "भारत के सूचना और प्रसारण मंत्रालय के प्रकाशन विभाग का प्रकाशन 'भारत 2024: एक संदर्भ वार्षिक पत्रिका' (India 2024: A reference annual) है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "INFA का पूर्ण / INFA stands for:",
+    "options": [
+      "इंडिया न्यूज और फीचर्स एलायंस / India News and Features Alliance",
+      "इंडिया न्यूज एंड फेक्ट्स अब्रॉर्ड / Indian News and Facts Abroad",
+      "इंडिया न्यूज फॉर फार्मरस एंड एलाइड / Indian News for farmers and allied",
+      "इंडिया न्यूज एंड फाइनेंशियल एडवाइजर / India News and financial advisor"
+    ],
+    "answer": 0,
+    "explanation": "INFA का पूर्ण रूप 'इंडिया न्यूज एंड फीचर्स एलायंस' (India News and Features Alliance) है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "जब 1829 में इनसाइक्लोपीडिया अमेरिकाना प्रकाशित किया गया था, तब मूल रूप से इसका संकलनकर्ता और संपादक कौन था -/Who was the complier and editor of Encyclopedia Americana when it was originally published in 1829 ?",
+    "options": [
+      "फ्रांसिस लिबेर / Francis Lieber",
+      "जिम्मी वेल्स / Jimmy wales",
+      "लैरी सिंगर / Larry Singer",
+      "केनेथ क्रिस्टर / Kenneth Christer"
+    ],
+    "answer": 0,
+    "explanation": "जब 1829 में एनसाइक्लोपीडिया अमेरिकाना (Encyclopedia Americana) प्रकाशित किया गया था, तब मूल रूप से इसका संकलनकर्ता और संपादक फ्रांसिस लिबर (Francis Lieber) थे।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "एस.आर.रंगनाथन के अनुसार गहन प्रकृति की संदर्भ सेवा को कहा जाता है : / According to S.R. Ranganathan a reference service of an intensive nature is called",
+    "options": [
+      "पाठकीय सलाहकार सेवा / Documentaion Service",
+      "रेफरल सेवा / Referral Service",
+      "प्रलेखन सेवा / Documentation service",
+      "रिप्रोग्राफी सेवा / Reprography Service"
+    ],
+    "answer": 2,
+    "explanation": "एस.आर. रंगनाथन के अनुसार, गहन प्रकृति की संदर्भ सेवा को 'प्रलेखन सेवा' (Documentation service) कहा जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "सूचना से ज्ञान प्राप्त करने की वास्तविक प्रक्रिया कौन सी है -/Which is the real process to gain knowledge from information?",
+    "options": [
+      "Data, Knowledge, Information",
+      "Information, Data, Knowledge",
+      "Information, Knowledge, Data",
+      "Data, Information, Knowledge"
+    ],
+    "answer": 3,
+    "explanation": "सूचना से ज्ञान प्राप्त करने की वास्तविक प्रक्रिया 'डेटा, सूचना, ज्ञान' (Data, Information, Knowledge) है। डेटा को संसाधित करने पर सूचना प्राप्त होती है, और सूचना को समझने और लागू करने पर ज्ञान प्राप्त होता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "शैनन और वीवर ने किस वर्ष में संचार के गणितीय सिद्धांत का उल्लेख किया :/ Shannon and Weaver enunciated the mathematical theory of communication in the year:",
+    "options": [
+      "1978-1979",
+      "1958-1959",
+      "1968-1969",
+      "1948-1949"
+    ],
+    "answer": 3,
+    "explanation": "शैनन और वीवर ने 1948 में संचार के गणितीय सिद्धांत का उल्लेख किया।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित में से किस विधि को रंगनाथन के द्वारा प्रतिपादित किया गया है ? / Which of the following method is enunciated by Ranganthan?",
+    "options": [
+      "त्रिपत्रक प्रणाली / Three card system",
+      "कार्डेक्स प्रणाली / Kardex system",
+      "एक पत्रक प्रणाली / One card system",
+      "दो पत्रक प्रणाली / Two card system"
+    ],
+    "answer": 0,
+    "explanation": "डॉ. एस.आर. रंगनाथन द्वारा 'त्रिपत्रक प्रणाली' (Three card system) को प्रतिपादित किया गया है, जिसका उपयोग पत्रिकाओं के नियंत्रण के लिए किया जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "उपयोगकर्ता की शिक्षा के व्यवस्थित उपयोग में किसने योगदान दिया ? / Who contributed to systematic use of User's Education?",
+    "options": [
+      "एस.एस. ग्रीन / SS. Green",
+      "मेलविल डेवी / Melvil Dewey",
+      "ई.जे. कोट/ E.J. Coates",
+      "पी.बी. नैप / P.B. Knapp"
+    ],
+    "answer": 3,
+    "explanation": "पी.बी. नैप (P.B. Knapp) ने उपयोगकर्ता की शिक्षा के व्यवस्थित उपयोग में महत्वपूर्ण योगदान दिया।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "'वेब ऑफ साइंस' एक ऑनलाइन सदस्यता आधारित उद्धरण अनुक्रमणिकाकरण को, निम्नलिखित में से कौन व्यवस्थित रखता है ? / Who, among the following manintanis the \"Web of science\", an online subscription based citation indexing ?",
+    "options": [
+      "क्लोरिवेट एनालिटिक्स / Clarivate Analytics",
+      "एल्जविएर / ELSEVIER",
+      "प्रोक्वेस्ट / ProQuest",
+      "रासायनिक सार सेवा / Chemical Abstract Service"
+    ],
+    "answer": 0,
+    "explanation": "'वेब ऑफ साइंस' (Web of Science) एक ऑनलाइन सदस्यता आधारित उद्धरण अनुक्रमणिकाकरण सेवा है जिसका रखरखाव 'क्लोरिवेट एनालिटिक्स' (Clarivate Analytics) द्वारा किया जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "भारतीय आवधिक साहित्य को अनुक्रमणिका इंडेक्स इंडियाना' का संकलन किसके द्वारा किया जा रहा है- / Index Indiana, an index to Indian Periodical Literacture is being complied by:",
+    "options": [
+      "Central Reference Library, Kolkata",
+      "National Library of India:",
+      "NISCAIR",
+      "IASLIC"
+    ],
+    "answer": 0,
+    "explanation": "'इंडेक्स इंडियाना' (Index Indiana), जो भारतीय आवधिक साहित्य का एक सूचकांक है, का संकलन 'सेंट्रल रेफरेंस लाइब्रेरी, कोलकाता' (Central Reference Library, Kolkata) द्वारा किया जा रहा है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "प्रेसीज का विकास डेरेक ऑस्टिन द्वारा के उपयोग के लिए किया गया-/ PRECIS was developed by Derek Austin for use in the",
+    "options": [
+      "आइएनबी / INB",
+      "बीएनबी/BNB",
+      "आइएसबीडी / ISBD",
+      "आइएसबीएन / ISBN"
+    ],
+    "answer": 1,
+    "explanation": "PRECIS (Preserved Context Index System) का विकास डेरेक ऑस्टिन द्वारा 'ब्रिटिश नेशनल बिब्लियोग्राफी' (BNB) में उपयोग के लिए किया गया था।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "Classaurus एक शब्दावली नियंत्रण उपकरण है जिसे भट्टाचार्य ने विकसित किया.......में प्रयुक्त Classaurus is a Vocabulary Control tool, developed by Bhattacharya and it is used in..?",
+    "options": [
+      "Pre Coordinate Indexing",
+      "Post Coordinate Indexing",
+      "Both (Pre coordinate Indexing & Post coordinate Indexing)",
+      "None of these"
+    ],
+    "answer": 0,
+    "explanation": "क्लासॉरस (Classaurus) एक शब्दावली नियंत्रण उपकरण है जिसे भट्टाचार्य ने विकसित किया और इसका उपयोग मुख्य रूप से 'प्री-कोऑर्डिनेट इंडेक्सिंग' (Pre Coordinate Indexing) में किया जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "पुनस्मरण और परिशुद्धता अनुपात का प्रयोग सामान्यतः किसके मूल्यांकन के लिए किया जाता है ? / Recall and Precision Ratio are usually used in the evaluation of:",
+    "options": [
+      "सूचना पुनप्राप्ति के लिए / Information Retrival",
+      "संदर्भ सेवा के लिए / Refernence Service",
+      "ग्रंथ सूची सेवा के लिए / Bibliographic service",
+      "प्रलेख प्रदान सेवा के लिए / Document delivery service"
+    ],
+    "answer": 0,
+    "explanation": "पुनस्मरण (Recall) और परिशुद्धता अनुपात (Precision Ratio) का प्रयोग सामान्यतः 'सूचना पुनर्प्राप्ति' (Information Retrieval) प्रणालियों के मूल्यांकन के लिए किया जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "पूर्व - समन्वय अनुक्रमणीकरण प्रणालियों में शामिल है/ Pre-coordinate indexing systems comprice:<br>(a) NEPHIS (b) SLIC (c) Peek-a-boo<br>(d) Edge-Notched card",
+    "options": [
+      "(a) and (b) are correct",
+      "(a) and (d) are correct",
+      "(b) and (c) are correct",
+      "(c) and (d) are correct."
+    ],
+    "answer": 0,
+    "explanation": "पूर्व-समन्वय अनुक्रमणिका प्रणालियों (Pre-coordinate indexing systems) में NEPHIS (Nested Phrase Indexing System) और SLIC (Selective Listing in Combination) शामिल हैं। पीक-ए-बू और एज-नॉच्ड कार्ड पोस्ट-कोऑर्डिनेट सिस्टम हैं।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "निम्नलिखित अनुक्रमणीकरण तकनीकों को उनके उ‌द्भव के वर्ष के अनुसार व्यवस्थित कीजिए।/ 1/Match the following Indexing Techniques according to their year of Origin.<br>(a) COMPASS<br>(b) SLIC<br>(c) KWIC<br>(d)",
+    "options": [
+      "(a) (c) (d) (b)",
+      "(b) (a)",
+      "म एकडमा अकार",
+      "(d)"
+    ],
+    "answer": 0,
+    "explanation": "यह प्रश्न अधूरा है, क्योंकि विकल्प (d) और इसके लिए कोई वर्ष नहीं दिया गया है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "क्या है ? What is \"INFOPORT\"?",
+    "options": [
+      "MIT लाइब्रेरी का सूचना पोर्टल / Information portal of MIT Library",
+      "OCLC का फेडरेटेड सर्च इंजन / OCLC's federated serach engine",
+      "स्टैनफोर्ड यूनिवर्सिटी लाईब्रेरी का सूचना पोर्टल / Information portal of Standford University Library",
+      "भारतीय इलेक्ट्रॉनिक संसाधनों का विषय गेटवे / Subject Gateway of Indian Electronic Resources"
+    ],
+    "answer": 3,
+    "explanation": "INFOPORT भारतीय इलेक्ट्रॉनिक संसाधनों का एक विषय गेटवे है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "श्रृंखला प्रक्रिया में योजक चिन्हको प्रदर्शित करते /In chain Procedure connecting symbols represent.",
+    "options": [
+      "Missing link",
+      "Sought link",
+      "Unsought link",
+      "False link"
+    ],
+    "answer": 2,
+    "explanation": "श्रृंखला प्रक्रिया (Chain Procedure) में, योजक चिन्ह 'अनसॉट लिंक' (Unsought link) को प्रदर्शित करते हैं, जो ऐसे शब्द होते हैं जिनका उपयोग खोज शीर्षकों के रूप में नहीं किया जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "पुस्तक / वस्तु की पहचान के लिए निम्नलिखित में से किन आर.एफ.आई.डी. घटक को संलग्न किया जाता है ? / Which RFID component is attached to the book / item for identification?",
+    "options": [
+      "बार कोड / Barcode",
+      "एंटिना Antenna",
+      "रीडर / Reader",
+      "टैग / (Tag)"
+    ],
+    "answer": 3,
+    "explanation": "पुस्तक/वस्तु की पहचान के लिए RFID (रेडियो फ्रीक्वेंसी आइडेंटिफिकेशन) घटक 'टैग' (Tag) को संलग्न किया जाता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "WordNet है: / WordNet is:",
+    "options": [
+      "A networking programme",
+      "A thesaurus",
+      "An ontology",
+      "A library network"
+    ],
+    "answer": 1,
+    "explanation": "WordNet एक 'थिसॉरस' (thesaurus) और सिमेंटिक नेटवर्क है, जो अंग्रेजी संज्ञाओं, क्रियाओं, विशेषणों और क्रियाविशेषणों को सिमेंटिक संबंधों द्वारा समूहित करता है।",
+    "category": "लाइब्रेरियन पेपर 2"
+  },
+  {
+    "question": "E- Granthalaya को किसने विकसित किया ?/E- Granthalya is developed by..",
+    "options": [
+      "NCERT",
+      "CSIR",
+      "DRDO",
+      "NIC"
+    ],
+    "answer": 3,
+    "explanation": "ई-ग्रंथालय (E-Granthalaya) को 'राष्ट्रीय सूचना विज्ञान केंद्र' (NIC) द्वारा विकसित किया गया है।",
+    "category": "लाइब्रेरियन पेपर 2"
   }
 ]
