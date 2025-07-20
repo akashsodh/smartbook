@@ -103,5 +103,19 @@
     "description": "इस विषय के महत्वपूर्ण प्रश्न",
     "icon": "fas fa-book-open-reader",
     "questionFile": "2025.json"
+  },
+    {
+    "id": "unit121",
+    "title": "Disha Hindi",
+    "description": "इस विषय के महत्वपूर्ण प्रश्न",
+    "icon": "fas fa-book-open-reader",
+    "questionFile": "dishahindi.json"
+  },
+    {
+    "id": "unit122",
+    "title": "Disha Indian Polity",
+    "description": "इस विषय के महत्वपूर्ण प्रश्न",
+    "icon": "fas fa-book-open-reader",
+    "questionFile": "indianpolity.json"
   }
 ]
