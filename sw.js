@@ -28,6 +28,8 @@ const assets = [
     '/libpyq.json',
     '/computer.json',
     '/2025.json',
+    '/indianpolity.json',
+    '/dishahindi.json',
     '/test.json',
     '/images/icons/icon-72x72.png',
     '/images/icons/icon-96x96.png',
