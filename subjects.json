@@ -1,0 +1,86 @@
+[
+  {
+    "id": "unit0001",
+    "title": "RSSB 2025 PYQs",
+    "description": "राजस्थान की 2025 की परीक्षाओ के प्रश्न",
+    "icon": "fas fa-book",
+    "questionFile": "2025.json"
+  },
+  {
+    "id": "unit0002",
+    "title": "Raj-History-Culture-PYQs",
+    "description": "राजस्थान की पिछली परीक्षाओ के प्रश्न",
+    "icon": "fas fa-book",
+    "questionFile": "raj_arts_culture_pyq.json"
+  },
+  {
+    "id": "unit0003",
+    "title": "Rajasthan-Geography-PYQs",
+    "description": "राजस्थान की पिछली परीक्षाओ के प्रश्न",
+    "icon": "fas fa-book-open-reader",
+    "questionFile": "raj_geography_pyq.json"
+  },
+  {
+    "id": "unit0004",
+    "title": "Rajasthan-Economy-PYQs",
+    "description": "राजस्थान की पिछली परीक्षाओ के प्रश्न",
+    "icon": "fas fa-book-open-reader",
+    "questionFile": "#"
+  },
+  {
+    "id": "unit0005",
+    "title": "Rajasthan-Polity-PYQs",
+    "description": "राजस्थान की पिछली परीक्षाओ के प्रश्न",
+    "icon": "fas fa-book-open-reader",
+    "questionFile": "#"
+  },
+  {
+    "id": "unit0006",
+    "title": "Raj-Current-Affairs",
+    "description": "राजस्थान की समसामयिकी के प्रश्न",
+    "icon": "fas fa-book-open-reader",
+    "questionFile": "raj_current.json"
+  },
+  {
+    "id": "unit0007",
+    "title": "Hindi PYQs",
+    "description": "राजस्थान की पिछली परीक्षाओ के प्रश्न",
+    "icon": "fas fa-book-open-reader",
+    "questionFile": "disha_hindi.json"
+  },
+  {
+    "id": "unit0008",
+    "title": "Computer MCQs",
+    "description": "राजस्थान की पिछली परीक्षाओ के प्रश्न",
+    "icon": "fas fa-book-open-reader",
+    "questionFile": "computer.json"
+  },
+  {
+    "id": "unit0009",
+    "title": "Indian Polity PYQs",
+    "description": "राजस्थान की पिछली परीक्षाओ के प्रश्न",
+    "icon": "fas fa-book-open-reader",
+    "questionFile": "disha_india_polity.json"
+  },
+  {
+    "id": "unit0010",
+    "title": "India GK PYQs",
+    "description": "राजस्थान की पिछली परीक्षाओ के प्रश्न",
+    "icon": "fas fa-book-open-reader",
+    "questionFile": "disha_india_gk.json"
+  },
+  {
+    "id": "unit0011",
+    "title": "World GK PYQs",
+    "description": "राजस्थान की पिछली परीक्षाओ के प्रश्न",
+    "icon": "fas fa-book-open-reader",
+    "questionFile": "disha_world_gk.json"
+  },
+  {
+    "id": "unit0012",
+    "title": "Kalam Maths Booklet",
+    "description": "अभ्यास प्रश्न और उनकी व्याख्या सहित हल",
+    "icon": "fas fa-book-open-reader",
+    "questionFile": "kalam_maths.json"
+  }
+]
