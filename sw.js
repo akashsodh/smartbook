@@ -2,7 +2,7 @@
 
 // **महत्वपूर्ण:** जब भी आप कोई टेस्ट सीरीज़ या कोई और फाइल अपडेट करें,
 // तो इस संस्करण को बदलें (जैसे, 'smartbook-v2', 'smartbook-v4', आदि)
-const cacheName = 'smartbookai-v3';
+const cacheName = 'smartbookai-v5';
 
 // वे सभी फाइलें जिन्हें आप ऑफलाइन उपलब्ध कराना चाहते हैं
 const assets = [
@@ -23,6 +23,7 @@ const assets = [
     '/raj_geography_pyq.json',
     '/raj_current.json.json',
     '/kalam_maths.json',
+    '/patwartest.json',
     '/images/icons/banner.png',
     '/images/icons/icon-192x192.png',
     '/images/icons/icon-512x512.png',

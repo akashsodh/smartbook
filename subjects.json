@@ -82,6 +82,13 @@
     "description": "अभ्यास प्रश्न और उनकी व्याख्या सहित हल",
     "icon": "fas fa-book-open-reader",
     "questionFile": "kalam_maths.json"
+  },
+  {
+    "id": "unit0013",
+    "title": "Patwar Test Series",
+    "description": "अभ्यास प्रश्न और उनकी व्याख्या सहित हल",
+    "icon": "fas fa-trophy",
+    "questionFile": "patwartest.json"
   }
 ]
 

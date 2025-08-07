@@ -3,116 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmartAkash</title>
+    <title>SmartBook by Akash Choudhary</title>
     <link rel="manifest" href="/smartbook/manifest.json">
     <link rel="icon" type="image/png" href="/smartbook/icons/icon-192x192.png">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="homepage.style.css">
 </head>
 <body>
     <div class="container">
-        <header>
-    <img src="icons/banner.png" alt="SmartBook Banner" class="header-banner">
-</header>
-<main id="dashboard-container" class="dashboard">
-    </main>
+        <header class="page-header">
+            <div class="header-content">
+                <h1>
+                    <i class="fas fa-book-reader header-icon"></i>
+                    <span>SmartBook</span>
+                </h1>
+                <p class="subtitle">by Akash Choudhary</p>
+            </div>
+        </header>
 
-<div id="mode-modal" class="modal-overlay hidden">
-    <div class="modal-content">
-        <h3 id="modal-title">मोड चुनें</h3>
-        <p id="modal-description"></p>
-        <div class="modal-buttons">
-            <a id="modal-practice-btn" href="#" class="modal-btn practice">
-                <i class="fas fa-book-open"></i> प्रैक्टिस मोड
-            </a>
+        <main id="dashboard-container" class="dashboard">
+            <!-- कार्ड्स यहाँ जावास्क्रिप्ट से लोड होंगे -->
+        </main>
+
+        <div id="mode-modal" class="modal-overlay hidden">
+            <div class="modal-content">
+                <button id="modal-close-btn" class="close-button">&times;</button>
+                <div id="modal-icon-container">
+                    <i id="modal-icon" class="fas fa-book"></i>
+                </div>
+                <h3 id="modal-title">मोड चुनें</h3>
+                <p id="modal-description"></p>
+                <div class="modal-buttons">
+                    <a id="modal-practice-btn" href="#" class="modal-btn practice">
+                        <i class="fas fa-pencil-alt"></i> प्रैक्टिस मोड
+                    </a>
+                    <a id="modal-test-btn" href="#" class="modal-btn test">
+                        <i class="fas fa-stopwatch"></i> टेस्ट मोड
+                    </a>
+                    <!-- ===== नया सिमुलेशन मोड बटन ===== -->
+                    <a id="modal-simulation-btn" href="#" class="modal-btn simulation">
+                        <i class="fas fa-laptop-code"></i> परीक्षा सिमुलेशन
+                    </a>
+                </div>
+            </div>
         </div>
-        <button id="modal-close-btn" class="close-button">&times;</button>
     </div>
-</div>
-</div>
 
     <script>
-        // DOM तत्वों का चयन
-const dashboardContainer = document.getElementById('dashboard-container');
-const modal = document.getElementById('mode-modal');
-const modalTitle = document.getElementById('modal-title');
-const modalDescription = document.getElementById('modal-description');
-const modalPracticeBtn = document.getElementById('modal-practice-btn');
-const modalCloseBtn = document.getElementById('modal-close-btn');
+        const dashboardContainer = document.getElementById('dashboard-container');
+        const modal = document.getElementById('mode-modal');
+        const modalTitle = document.getElementById('modal-title');
+        const modalDescription = document.getElementById('modal-description');
+        const modalPracticeBtn = document.getElementById('modal-practice-btn');
+        const modalTestBtn = document.getElementById('modal-test-btn');
+        const modalSimulationBtn = document.getElementById('modal-simulation-btn'); // नया बटन
+        const modalCloseBtn = document.getElementById('modal-close-btn');
+        const modalIcon = document.getElementById('modal-icon');
 
-// पेज लोड होने पर डैशबोर्ड बनाने वाला फंक्शन
-async function buildDashboard() {
-    try {
-        const response = await fetch('subjects.json');
-        if (!response.ok) throw new Error('subjects.json not found');
-        const subjects = await response.json();
+        async function buildDashboard() {
+            try {
+                const response = await fetch('subjects.json');
+                if (!response.ok) throw new Error('subjects.json not found');
+                const subjects = await response.json();
 
-        dashboardContainer.innerHTML = ''; // कंटेनर को साफ़ करें
+                dashboardContainer.innerHTML = ''; 
 
-        subjects.forEach(subject => {
-            const card = document.createElement('div');
-            card.className = 'subject-card';
-            card.innerHTML = `
-                <div class="icon-container" style="background: linear-gradient(135deg, #667eea, #764ba2);">
-                    <i class="${subject.icon || 'fas fa-book'}"></i>
-                </div>
-                <div class="card-content">
-                    <h2>${subject.title}</h2>
-                    <p>${subject.description}</p>
-                </div>
-            `;
-            // कार्ड पर क्लिक करने पर मोड चुनने वाला पॉप-अप खुलेगा
-            card.addEventListener('click', () => openModeModal(subject));
-            dashboardContainer.appendChild(card);
+                subjects.forEach((subject, index) => {
+                    const card = document.createElement('div');
+                    card.className = 'subject-card';
+                    card.style.setProperty('--delay', `${index * 100}ms`);
+
+                    card.innerHTML = `
+                        <div class="icon-container">
+                            <i class="${subject.icon || 'fas fa-book'}"></i>
+                        </div>
+                        <div class="card-content">
+                            <h2>${subject.title}</h2>
+                            <p>${subject.description}</p>
+                        </div>
+                        <div class="card-arrow">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    `;
+                    card.addEventListener('click', () => openModeModal(subject));
+                    dashboardContainer.appendChild(card);
+                });
+
+            } catch (error) {
+                console.error('Error building dashboard:', error);
+                dashboardContainer.innerHTML = '<p>टेस्ट सीरीज लोड करने में त्रुटि हुई।</p>';
+            }
+        }
+
+        function openModeModal(subject) {
+            modalTitle.innerText = subject.title;
+            modalDescription.innerText = `इस विषय के लिए क्विज़ मोड चुनें।`;
+            modalIcon.className = `${subject.icon || 'fas fa-book'}`;
+            
+            const quizUrl = `quiz.html?id=${subject.id}&file=${subject.questionFile}`;
+            modalPracticeBtn.href = `${quizUrl}&mode=practice`;
+            modalTestBtn.href = `${quizUrl}&mode=test`;
+            modalSimulationBtn.href = `${quizUrl}&mode=simulation`; // नया लिंक
+
+            modal.classList.remove('hidden');
+        }
+
+        function closeModal() {
+            modal.classList.add('hidden');
+        }
+
+        modalCloseBtn.addEventListener('click', closeModal);
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeModal();
+            }
         });
 
-    } catch (error) {
-        console.error('Error building dashboard:', error);
-        dashboardContainer.innerHTML = '<p>टेस्ट सीरीज लोड करने में त्रुटि हुई।</p>';
-    }
-}
+        buildDashboard();
 
-// मोड चुनने वाला पॉप-अप खोलने का फंक्शन
-function openModeModal(subject) {
-    modalTitle.innerText = subject.title;
-    modalDescription.innerText = `इस विषय के लिए क्विज़ मोड चुनें।`;
-    
-    // प्रैक्टिस बटन के लिंक को डायनामिक रूप से सेट करें
-    modalPracticeBtn.href = `quiz.html?id=${subject.id}&file=${subject.questionFile}&mode=practice`;
-
-    modal.classList.remove('hidden');
-}
-
-// पॉप-अप बंद करने का फंक्शन
-function closeModal() {
-    modal.classList.add('hidden');
-}
-
-// इवेंट लिस्नर
-modalCloseBtn.addEventListener('click', closeModal);
-modal.addEventListener('click', (e) => {
-    // अगर काले बैकग्राउंड पर क्लिक हो तो भी पॉप-अप बंद हो जाए
-    if (e.target === modal) {
-        closeModal();
-    }
-});
-
-// डैशबोर्ड बनाने के लिए फंक्शन को कॉल करें
-buildDashboard();
-
-// सर्विस वर्कर को रजिस्टर करने के लिए यह कोड जोड़ें
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/smartbook/sw.js')
-          .then(registration => {
-            console.log('ServiceWorker सफलतापूर्वक रजिस्टर हुआ:', registration.scope);
-          })
-          .catch(err => {
-            console.log('ServiceWorker रजिस्ट्रेशन विफल हुआ:', err);
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/smartbook/sw.js')
+              .then(registration => console.log('ServiceWorker registered.'))
+              .catch(err => console.log('ServiceWorker registration failed: ', err));
           });
-      });
-    }
+        }
     </script>
 </body>
 </html>

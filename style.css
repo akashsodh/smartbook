@@ -91,7 +91,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* सॉफ्ट UI बटन (Shuffle, Theme, etc.) */
 .tools-section .button {
     display: flex;
     align-items: center;
@@ -114,14 +113,18 @@ body {
 .tools-section .button:hover { color: #fff; transform: translateY(-2px); }
 .tools-section .button:active { box-shadow: inset 4px 4px 8px #5f4494, inset -4px -4px 8px #855ec4; transform: translateY(0); }
 .tools-section .button i { font-size: 1.1em; }
+.tools-section .button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+    background: #555;
+    box-shadow: none;
+}
 
-/* "डेटा साफ़ करें" बटन */
 .tools-section .clear-data-btn {
     background: linear-gradient(145deg, #e53935, #c2302c);
     box-shadow: 4px 4px 8px #b02a27, -4px -4px 8px #f8423f;
 }
 
-/* फॉन्ट-साइज़ कंट्रोल्स */
 .font-size-controls { margin-bottom: 15px; }
 .font-size-controls button {
     display: inline-block;
@@ -136,14 +139,12 @@ body {
 }
 .font-size-controls button:hover { background: rgba(255,255,255,0.2); }
 
-/* --- Sidebar Search Controls --- */
 .search-controls {
     margin-bottom: 15px;
-    padding: 0 10px; /* Add some padding for alignment */
+    padding: 0 10px;
 }
-
 .search-controls input[type="text"] {
-    width: calc(100% - 20px); /* Adjust width for padding */
+    width: calc(100% - 20px);
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -152,12 +153,11 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
 .search-controls .button {
-    width: 100%; /* Make search buttons full width */
-    margin-bottom: 10px; /* Space between buttons */
+    width: 100%;
+    margin-bottom: 10px;
 }
-/* श्रेणी फ़िल्टर */
+
 .category-filter { margin-top: 20px; }
 .category-filter label { background: none; padding: 0; margin-bottom: 8px; cursor: default; text-align: center; font-weight: 600; color: #fff; }
 .category-filter select { width: 90%; margin: 0 auto 10px auto; display: block; padding: 8px; border-radius: 5px; }
@@ -174,11 +174,6 @@ body {
 /* ===                  क्विज़ कंटेंट स्टाइल                  === */
 /* ============================================================= */
 
-/* ============================================================= */
-/* ===       प्रोग्रेस बार और सबमिट बटन का अंतिम डिज़ाइन        === */
-/* ============================================================= */
-
-/* हेडर को व्यवस्थित करने के लिए */
 .quiz-header-controls {
     display: flex;
     align-items: center;
@@ -189,40 +184,57 @@ body {
     padding-bottom: 15px;
 }
 
-/* --- प्रोग्रेस बार का नया और मिनिमल स्टाइल --- */
 .progress-bar-container {
     flex-grow: 1;
-    height: 38px; /* बटन के बराबर ऊंचाई */
+    height: 38px;
     background-color: #e9ecef;
-    border-radius: 6px; /* बटन के जैसा कोना */
+    border-radius: 6px;
     position: relative;
     box-shadow: none;
 }
-
 .progress-bar-fill {
     height: 100%;
     width: 0%; 
     background-color: #2c3e50;
     border-radius: 6px;
     transition: width 0.4s ease;
-    animation: none;
 }
-
 .progress-text {
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white; /* टेक्स्ट का बेस रंग सफेद सेट करें */
+    color: white;
     font-size: 0.85em;
-    font-weight: 700; /* ब्लेंड मोड के साथ मोटा फॉन्ट बेहतर दिखता है */
-    
-    /* --- यह जादुई प्रॉपर्टी है --- */
+    font-weight: 700;
     mix-blend-mode: difference; 
-    
-    /* इस मोड के साथ text-shadow की जरूरत नहीं है */
     text-shadow: none; 
+}
+
+.submit-test-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.submit-test-button:hover {
+    background-color: #388E3C;
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.submit-test-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .question { font-size: 20px; font-weight: 600; margin-bottom: 20px; }
@@ -233,17 +245,20 @@ label.incorrect { background: #f8d7da; border-color: #721c24; }
 .correct-answer { margin-top: 15px; font-weight: 600; color: #155724; }
 .explanation { margin-top: 10px; padding: 10px; background-color: #f8f9fa; border-left: 4px solid #764ba2; }
 
-/* --- स्कोर और प्रोग्रेस दिखाने के लिए नया स्टाइल --- */
 #score-summary {
-    text-align: right; /* टेक्स्ट को दाईं ओर संरेखित करें */
-    margin-top: -10px; /* इसे थोड़ा ऊपर ले जाएँ */
+    text-align: right;
+    margin-top: -10px;
     margin-bottom: 20px;
-    font-size: 0.9em; /* फॉन्ट थोड़ा छोटा */
+    font-size: 0.9em;
     font-weight: 500;
     color: #555;
 }
-
-#result { border-top: 1px solid #eee; padding-top: 20px; }
+#result, #completion-message { 
+    border-top: 1px solid #eee; 
+    padding-top: 20px; 
+    margin-top: 20px;
+    text-align: center;
+}
 
 /* ============================================================= */
 /* ===                      नेविगेशन स्टाइल                    === */
@@ -273,28 +288,204 @@ label.incorrect { background: #f8d7da; border-color: #721c24; }
     flex-grow: 0;
     padding: 10px;
 }
-
 #bookmarkBtn:hover, #reAttemptBtn:hover {
     transform: scale(1.1);
     box-shadow: none;
 }
-
-#bookmarkBtn i {
-    font-size: 1.8rem;
-    color: #f59f00;
-    transition: all 0.2s ease;
-}
-
-#reAttemptBtn i {
-    font-size: 1.6rem;
-    color: #6c757d;
-    transition: all 0.2s ease;
-}
-
+#bookmarkBtn i { font-size: 1.8rem; color: #f59f00; transition: all 0.2s ease; }
+#reAttemptBtn i { font-size: 1.6rem; color: #6c757d; transition: all 0.2s ease; }
 #bookmarkBtn i.fas { color: #e08e00; }
+body.dark #reAttemptBtn i { color: #adb5bd; }
 
-body.dark #reAttemptBtn i {
-    color: #adb5bd;
+/* ============================================================= */
+/* ===         पॉप-अप और रिजल्ट कार्ड की स्टाइल (अपडेटेड)       === */
+/* ============================================================= */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    transition: opacity 0.3s ease;
+}
+
+.modal-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+#topic-modal h3, #simulation-config-modal h3 {
+    font-size: 1.6em;
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+#topic-modal p {
+    margin: 0 0 25px 0;
+    color: #555;
+}
+
+/* सिमुलेशन कॉन्फ़िगरेशन फॉर्म की स्टाइल */
+.config-form {
+    margin: 25px 0;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+    background: none;
+    padding: 0;
+    border: none;
+    font-size: 1em;
+    text-align: left;
+}
+
+.form-group label i {
+    margin-right: 8px;
+    color: #667eea;
+    width: 20px;
+    text-align: center;
+}
+
+.topic-select-input {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.topic-select-input:focus {
+    outline: none;
+    border-color: #764ba2;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
+
+.modal-btn {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.modal-btn.test { background: linear-gradient(135deg, #667eea, #764ba2); }
+.modal-btn.simulation { background: linear-gradient(135deg, #ff416c, #ff4b2b); }
+
+.modal-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* रिजल्ट कार्ड की स्टाइल */
+.result-card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 25px 30px;
+    text-align: center;
+    border-top: 5px solid #667eea;
+}
+
+.result-header h2 {
+    margin: 0 0 20px 0;
+    font-size: 1.8em;
+    color: #333;
+    font-weight: 700;
+}
+
+.result-score { margin-bottom: 25px; }
+.result-score .score-icon { font-size: 3em; color: #ffd700; }
+.result-score .score-percentage {
+    display: block;
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #667eea;
+    margin: 5px 0;
+}
+.result-score .score-label { font-size: 1.1em; color: #555; font-weight: 600; }
+
+.result-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.stat-item {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+.stat-item:hover { transform: translateY(-5px); }
+.stat-item .stat-icon { font-size: 2em; margin-bottom: 10px; color: #7f8c8d; }
+.stat-item .stat-value { font-size: 1.8em; font-weight: 700; color: #2c3e50; }
+.stat-item .stat-label { font-size: 0.9em; color: #555; font-weight: 500; }
+.stat-item.correct .stat-icon, .stat-item.correct .stat-value { color: #28a745; }
+.stat-item.incorrect .stat-icon, .stat-item.incorrect .stat-value { color: #dc3545; }
+
+/* ============================================================= */
+/* ===           सिमुलेशन टाइमर डिस्प्ले की स्टाइल             === */
+/* ============================================================= */
+.simulation-timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ff416c;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 8px;
+    position: sticky;
+    top: 10px;
+    z-index: 999;
+    box-shadow: 0 4px 10px rgba(255, 65, 108, 0.4);
 }
 
 /* ============================================================= */
@@ -310,14 +501,18 @@ body.dark .sidebar { background: #2c3e50; }
 body.dark .explanation { background-color: #2a2a2a; border-left-color: #9b70e0; }
 body.dark .progress-bar-container { background-color: #444; }
 body.dark .navigation button { background: #333; color: #e0e0e0; border-color: #555; }
-/* Dark mode for search input */
-body.dark .search-controls input[type="text"] {
-    background: #333;
-    border-color: #555;
-    color: #e0e0e0;
-}
+body.dark .search-controls input[type="text"] { background: #333; border-color: #555; color: #e0e0e0; }
 body.dark #bookmarkBtn i { color: #ffd166; }
 body.dark #bookmarkBtn i.fas { color: #f59f00; }
+body.dark .submit-test-button { background-color: #4caf50; }
+body.dark .result-card { background: #1e1e1e; border-top-color: #9b70e0; }
+body.dark .result-header h2, body.dark .result-score .score-label, body.dark .stat-item .stat-label { color: #e0e0e0; }
+body.dark .result-score .score-percentage { color: #9b70e0; }
+body.dark .stat-item { background-color: #2a2a2a; }
+body.dark .stat-item .stat-value { color: #fff; }
+body.dark .modal-content { background: #2c3e50; }
+body.dark #topic-modal h3, body.dark #simulation-config-modal h3, body.dark #topic-modal p, body.dark .form-group label { color: #e0e0e0; }
+body.dark .topic-select-input { background-color: #333; border-color: #555; color: #e0e0e0; }
 
 /* ============================================================= */
 /* ===                     रिस्पॉन्सिव डिज़ाइन                  === */
@@ -345,7 +540,7 @@ body.dark #bookmarkBtn i.fas { color: #f59f00; }
       border-top-color: rgba(255, 255, 255, 0.1);
   }
 }
-/* प्रश्न स्रोत (Exam Source) के लिए स्टाइल */
+
 .question-source {
     font-size: 0.8em;
     color: #888;
@@ -354,8 +549,18 @@ body.dark #bookmarkBtn i.fas { color: #f59f00; }
     font-style: italic;
     font-weight: 600;
 }
+body.dark .question-source { color: #bbb; }
 
-/* डार्क मोड में प्रश्न स्रोत का रंग */
-body.dark .question-source {
-    color: #bbb;
+/* अक्षम विकल्पों की स्टाइल */
+.sidebar .category-filter select:disabled,
+.sidebar .category-filter button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background-color: rgba(0,0,0,0.1);
+    border-color: rgba(255,255,255,0.3);
+    color: #e0e0e0;
+}
+
+.sidebar .category-filter button:disabled:hover {
+    transform: none;
 }
