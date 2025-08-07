@@ -8,28 +8,28 @@
   },
   {
     "id": "unit0002",
-    "title": "Raj-History-Culture-PYQs",
+    "title": "Raj-History-Culture",
     "description": "राजस्थान की पिछली परीक्षाओ के प्रश्न",
     "icon": "fas fa-book",
     "questionFile": "raj_arts_culture_pyq.json"
   },
   {
     "id": "unit0003",
-    "title": "Rajasthan-Geography-PYQs",
+    "title": "Rajasthan-Geography",
     "description": "राजस्थान की पिछली परीक्षाओ के प्रश्न",
     "icon": "fas fa-book-open-reader",
     "questionFile": "raj_geography_pyq.json"
   },
   {
     "id": "unit0004",
-    "title": "Rajasthan-Economy-PYQs",
+    "title": "Rajasthan-Economy",
     "description": "राजस्थान की पिछली परीक्षाओ के प्रश्न",
     "icon": "fas fa-book-open-reader",
     "questionFile": "#"
   },
   {
     "id": "unit0005",
-    "title": "Rajasthan-Polity-PYQs",
+    "title": "Rajasthan-Polity",
     "description": "राजस्थान की पिछली परीक्षाओ के प्रश्न",
     "icon": "fas fa-book-open-reader",
     "questionFile": "#"
@@ -84,3 +84,4 @@
     "questionFile": "kalam_maths.json"
   }
 ]
+
