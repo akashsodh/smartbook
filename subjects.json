@@ -78,10 +78,10 @@
   },
   {
     "id": "unit0012",
-    "title": "Kalam Maths Booklet",
-    "description": "अभ्यास प्रश्न और उनकी व्याख्या सहित हल",
+    "title": " Reet Mains Test",
+    "description": "Minor and Full Test",
     "icon": "fas fa-book-open-reader",
-    "questionFile": "kalam_maths.json"
+    "questionFile": "reet_mains.json"
   },
   {
     "id": "unit0013",
@@ -91,5 +91,6 @@
     "questionFile": "patwartest.json"
   }
 ]
+
 
 
