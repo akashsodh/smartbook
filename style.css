@@ -525,8 +525,8 @@ body.dark #reAttemptBtn i { color: #adb5bd; }
     justify-content: center;
     align-items: center;
     text-decoration: none; 
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     border-radius: 8px; /* गोल चौकोर */
     margin: auto;
     font-size: 1em; 
@@ -550,13 +550,13 @@ body.dark #reAttemptBtn i { color: #adb5bd; }
 #questionGridContainer .bookmarked::after {
     font-family: "Font Awesome 6 Free"; 
     font-weight: 900; 
-    content: '\f005'; 
+    content: '☆'; 
     position: absolute;
-    top: -8px;
-    right: -8px;
+    top: -5px;
+    right: -5px;
     width: 22px;
     height: 22px;
-    background: #f1c40f;
+    background: #FF9933;
     color: white;
     border-radius: 50%;
     display: flex;
