@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartBook by Akash Choudhary</title>
-    <link rel="manifest" href="/smartbook/manifest.json">
-    <link rel="icon" type="image/png" href="/smartbook/icons/icon-192x192.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icons/icon-192x192.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="homepage.style.css">
@@ -38,10 +38,6 @@
                     <a id="modal-practice-btn" href="#" class="modal-btn practice">
                         <i class="fas fa-pencil-alt"></i> प्रैक्टिस मोड
                     </a>
-                    <a id="modal-test-btn" href="#" class="modal-btn test">
-                        <i class="fas fa-stopwatch"></i> टेस्ट मोड
-                    </a>
-                    <!-- ===== नया सिमुलेशन मोड बटन ===== -->
                     <a id="modal-simulation-btn" href="#" class="modal-btn simulation">
                         <i class="fas fa-laptop-code"></i> परीक्षा सिमुलेशन
                     </a>
@@ -56,13 +52,13 @@
         const modalTitle = document.getElementById('modal-title');
         const modalDescription = document.getElementById('modal-description');
         const modalPracticeBtn = document.getElementById('modal-practice-btn');
-        const modalTestBtn = document.getElementById('modal-test-btn');
-        const modalSimulationBtn = document.getElementById('modal-simulation-btn'); // नया बटन
+        const modalSimulationBtn = document.getElementById('modal-simulation-btn');
         const modalCloseBtn = document.getElementById('modal-close-btn');
         const modalIcon = document.getElementById('modal-icon');
 
         async function buildDashboard() {
             try {
+                // Assuming subjects.json is in the same directory
                 const response = await fetch('subjects.json');
                 if (!response.ok) throw new Error('subjects.json not found');
                 const subjects = await response.json();
@@ -103,8 +99,7 @@
             
             const quizUrl = `quiz.html?id=${subject.id}&file=${subject.questionFile}`;
             modalPracticeBtn.href = `${quizUrl}&mode=practice`;
-            modalTestBtn.href = `${quizUrl}&mode=test`;
-            modalSimulationBtn.href = `${quizUrl}&mode=simulation`; // नया लिंक
+            modalSimulationBtn.href = `${quizUrl}&mode=simulation`;
 
             modal.classList.remove('hidden');
         }
@@ -120,11 +115,18 @@
             }
         });
 
+        // Clear any previous test state when returning to the homepage
+        Object.keys(localStorage).forEach(key => {
+            if (key.includes('_simulation_state')) {
+                localStorage.removeItem(key);
+            }
+        });
+
         buildDashboard();
 
         if ('serviceWorker' in navigator) {
           window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/smartbook/sw.js')
+            navigator.serviceWorker.register('sw.js')
               .then(registration => console.log('ServiceWorker registered.'))
               .catch(err => console.log('ServiceWorker registration failed: ', err));
           });

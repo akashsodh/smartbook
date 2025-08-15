@@ -5,7 +5,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #f4f7f6;
     margin: 0;
-    padding-left: 20px;
+    padding: 0;
     color: #333;
     transition: padding-left 0.3s ease;
 }
@@ -17,6 +17,43 @@ body {
     border-radius: 12px;
     padding: 30px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-top: 100px; /* हेडर के लिए जगह */
+}
+
+/* ============================================================= */
+/* ===                  नया क्विज़ पेज हेडर                    === */
+/* ============================================================= */
+.quiz-page-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 2001; /* साइडबार से ऊपर */
+    box-sizing: border-box;
+}
+
+.app-branding {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    transform: translateX(-25px); /* टॉगल बटन के लिए जगह बनाना */
+}
+
+.app-branding .header-icon {
+    font-size: 1.8em;
+    color: #667eea;
+}
+
+.app-branding h1 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
 }
 
 /* ============================================================= */
@@ -24,7 +61,7 @@ body {
 /* ============================================================= */
 .sidebar {
     position: fixed;
-    top: 0;
+    top: 30px; /* हेडर के नीचे */
     left: 0;
     width: 240px;
     height: 100%;
@@ -33,57 +70,46 @@ body {
     box-shadow: 2px 0 10px rgba(0,0,0,0.1);
     overflow-y: auto;
     transition: transform 0.3s ease;
-    z-index: 1000;
+    z-index: 2000; /* सबसे ऊपर */
 }
 .sidebar.hidden { transform: translateX(-260px); }
 
 .toggle-btn {
-    position: fixed;
-    top: 15px;
-    left: 15px;
     width: 30px;
     height: 22px;
     cursor: pointer;
-    z-index: 1002;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: none;
+    border: none;
+    padding: 0;
+    z-index: 2001; /* साइडबार से भी ऊपर */
 }
 .toggle-btn span { display: block; height: 4px; background: #333; border-radius: 2px; }
 
 .sidebar h2 { color: #fff; text-align: center; font-size: 1.2em; }
 
-/* प्रश्न नेविगेशन टेबल */
-.sidebar table {
-    table-layout: fixed;
+/* साइडबार ओवरले */
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    border-spacing: 4px;
-    margin-bottom: 20px;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1999; /* साइडबार के ठीक नीचे */
+    transition: opacity 0.3s ease;
 }
-.sidebar td a {
-    display: block;
-    background: rgba(255, 255, 255, 0.2);
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 8px 2px;
-    border-radius: 6px;
-    text-align: center;
-    font-size: 0.95em;
-    transition: all 0.2s ease;
+.sidebar-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
 }
-.sidebar td a:hover { background: rgba(255, 255, 255, 0.4); }
-.sidebar td a.correct { background: #a5d6a7 !important; color: #1b5e20 !important; }
-.sidebar td a.incorrect { background: #ef9a9a !important; color: #b71c1c !important; }
-.sidebar td a.active { background: #ffd166 !important; color: #000 !important; }
-.sidebar td a.unanswered { opacity: 0.7; }
-.sidebar td a.bookmarked { border: 2px solid #ffd166; padding: 6px 0px; }
-.sidebar td a.attempted { background: #a9dff3 !important; color: #0c5460 !important; }
+
 
 /* ============================================================= */
 /* ===              साइडबार टूल्स सेक्शन की स्टाइल              === */
 /* ============================================================= */
-
 .tools-section {
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -178,64 +204,70 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 15px;
+    gap: 10px;
     margin-bottom: 20px;
     border-bottom: 1px solid #e0e0e0;
     padding-bottom: 15px;
 }
 
+/* नया सर्कुलर प्रोग्रेस बार */
 .progress-bar-container {
     flex-grow: 1;
-    height: 38px;
-    background-color: #e9ecef;
-    border-radius: 6px;
-    position: relative;
-    box-shadow: none;
+    display: flex;
+    justify-content: flex-start;
 }
-.progress-bar-fill {
-    height: 100%;
-    width: 0%; 
-    background-color: #2c3e50;
-    border-radius: 6px;
-    transition: width 0.4s ease;
+.progress-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: conic-gradient(#4CAF50 var(--progress-percent, 0%), #e9ecef 0);
+    position: relative;
+    transition: background 0.4s ease;
+}
+.progress-circle::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 50%;
 }
 .progress-text {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 0.85em;
+    position: relative;
+    font-size: 0.9em;
     font-weight: 700;
-    mix-blend-mode: difference; 
-    text-shadow: none; 
+    color: #333;
 }
 
-.submit-test-button {
+
+.header-icon-btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border: none;
     border-radius: 50%;
+    background-color: #f0f0f0;
+    color: #555;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.header-icon-btn:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.1);
+}
+.header-icon-btn.submit-btn {
     background-color: #4CAF50;
     color: white;
-    font-size: 1.5em;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
-.submit-test-button:hover {
+.header-icon-btn.submit-btn:hover {
     background-color: #388E3C;
-    transform: scale(1.1);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-.submit-test-button:active {
-    transform: scale(0.95);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
+
 
 .question { font-size: 20px; font-weight: 600; margin-bottom: 20px; }
 label { display: block; background: #f1f1f1; padding: 12px 18px; margin: 10px 0; border-radius: 8px; cursor: pointer; transition: all 0.3s ease; border: 2px solid transparent; }
@@ -312,7 +344,7 @@ body.dark #reAttemptBtn i { color: #adb5bd; }
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 2000;
+    z-index: 3000; /* सभी पॉप-अप सबसे ऊपर */
     transition: opacity 0.3s ease;
 }
 
@@ -329,143 +361,103 @@ body.dark #reAttemptBtn i { color: #adb5bd; }
     max-width: 450px;
     width: 90%;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    position: relative;
 }
 
-#topic-modal h3, #simulation-config-modal h3 {
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #aaa;
+    line-height: 1;
+    transition: all 0.2s ease;
+}
+.close-button:hover { color: #333; transform: rotate(90deg); }
+
+.modal-content h3 {
     font-size: 1.6em;
     margin: 0 0 10px 0;
     color: #2c3e50;
     font-weight: 600;
 }
 
-#topic-modal p {
+.modal-content p {
     margin: 0 0 25px 0;
     color: #555;
 }
 
-/* सिमुलेशन कॉन्फ़िगरेशन फॉर्म की स्टाइल */
-.config-form {
-    margin: 25px 0;
-    text-align: left;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group label {
-    display: block;
-    margin-bottom: 8px;
-    font-weight: 600;
-    color: #555;
-    background: none;
-    padding: 0;
-    border: none;
-    font-size: 1em;
-    text-align: left;
-}
-
-.form-group label i {
-    margin-right: 8px;
-    color: #667eea;
-    width: 20px;
-    text-align: center;
-}
-
-.topic-select-input {
-    width: 100%;
-    padding: 12px 15px;
-    border-radius: 10px;
-    border: 1px solid #ddd;
-    font-size: 1em;
-    background-color: #f8f9fa;
-    box-sizing: border-box;
-    transition: border-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.topic-select-input:focus {
-    outline: none;
-    border-color: #764ba2;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+.modal-buttons-horizontal {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
 }
 
 .modal-btn {
-    width: 100%;
-    padding: 15px 20px;
+    flex: 1;
+    padding: 12px 20px;
     border-radius: 12px;
     text-decoration: none;
     color: #fff;
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 1em;
     transition: all 0.2s ease;
     border: none;
     cursor: pointer;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+}
+.modal-btn.success { background: linear-gradient(135deg, #56ab2f, #a8e063); }
+.modal-btn.danger { background: linear-gradient(135deg, #ff416c, #ff4b2b); }
+.modal-btn:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+
+/* सिमुलेशन कॉन्फ़िगरेशन फॉर्म की स्टाइल */
+.config-form { margin: 25px 0; text-align: left; }
+.form-group { margin-bottom: 20px; }
+.form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: #555; background: none; padding: 0; border: none; font-size: 1em; text-align: left; }
+.form-group label i { margin-right: 8px; color: #667eea; width: 20px; text-align: center; }
+.topic-select-input { width: 100%; padding: 12px 15px; border-radius: 10px; border: 1px solid #ddd; font-size: 1em; background-color: #f8f9fa; box-sizing: border-box; transition: border-color 0.2s ease, box-shadow 0.2s ease; }
+.topic-select-input:focus { outline: none; border-color: #764ba2; box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2); }
+#start-simulation-btn {
+    background: linear-gradient(135deg, #667eea, #764ba2);
 }
 
-.modal-btn.test { background: linear-gradient(135deg, #667eea, #764ba2); }
-.modal-btn.simulation { background: linear-gradient(135deg, #ff416c, #ff4b2b); }
-
-.modal-btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+/* सबमिट कन्फर्मेशन सारांश */
+.submission-summary {
+    text-align: left;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+.submission-summary p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #333;
+}
+.submission-summary p span {
+    font-weight: bold;
+    float: right;
 }
 
 /* रिजल्ट कार्ड की स्टाइल */
-.result-card {
-    background: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    padding: 25px 30px;
-    text-align: center;
-    border-top: 5px solid #667eea;
-}
-
-.result-header h2 {
-    margin: 0 0 20px 0;
-    font-size: 1.8em;
-    color: #333;
-    font-weight: 700;
-}
-
+.result-card { background: #ffffff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); padding: 25px 30px; text-align: center; border-top: 5px solid #667eea; }
+.result-header h2 { margin: 0 0 20px 0; font-size: 1.8em; color: #333; font-weight: 700; }
 .result-score { margin-bottom: 25px; }
 .result-score .score-icon { font-size: 3em; color: #ffd700; }
-.result-score .score-percentage {
-    display: block;
-    font-size: 3.5em;
-    font-weight: 700;
-    color: #667eea;
-    margin: 5px 0;
-}
+.result-score .score-percentage { display: block; font-size: 3.5em; font-weight: 700; color: #667eea; margin: 5px 0; }
 .result-score .score-label { font-size: 1.1em; color: #555; font-weight: 600; }
-
-.result-stats {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    border-top: 1px solid #eee;
-    padding-top: 20px;
-}
-
-.stat-item {
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.2s ease;
-}
+.result-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; border-top: 1px solid #eee; padding-top: 20px; }
+.stat-item { background-color: #f8f9fa; border-radius: 10px; padding: 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: transform 0.2s ease; }
 .stat-item:hover { transform: translateY(-5px); }
 .stat-item .stat-icon { font-size: 2em; margin-bottom: 10px; color: #7f8c8d; }
 .stat-item .stat-value { font-size: 1.8em; font-weight: 700; color: #2c3e50; }
 .stat-item .stat-label { font-size: 0.9em; color: #555; font-weight: 500; }
 .stat-item.correct .stat-icon, .stat-item.correct .stat-value { color: #28a745; }
 .stat-item.incorrect .stat-icon, .stat-item.incorrect .stat-value { color: #dc3545; }
+.review-btn { margin-top: 20px; background: linear-gradient(135deg, #667eea, #764ba2); }
 
 /* ============================================================= */
 /* ===           सिमुलेशन टाइमर डिस्प्ले की स्टाइल             === */
@@ -473,55 +465,176 @@ body.dark #reAttemptBtn i { color: #adb5bd; }
 .simulation-timer {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 10px;
-    padding: 10px;
-    margin-bottom: 20px;
-    background-color: #ff416c;
-    color: white;
-    font-size: 1.2em;
+    padding: 8px 15px;
+    background-color: #dc3545;
+    color: #ffffff;
+    font-size: 1.1em;
     font-weight: 600;
-    border-radius: 8px;
-    position: sticky;
-    top: 10px;
-    z-index: 999;
-    box-shadow: 0 4px 10px rgba(255, 65, 108, 0.4);
+    border-radius: 25px;
 }
+.simulation-timer .timer-control-btn {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* ============================================================= */
+/* ===                   प्रश्न ग्रिड पॉप-अप (नई डिज़ाइन)       === */
+/* ============================================================= */
+.grid-modal-content { 
+    max-width: 500px;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.grid-modal-header {
+    background-color: #667eea;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid-modal-header h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.grid-modal-header .close-button {
+    color: white;
+    position: static;
+    font-size: 1.5em;
+}
+
+#questionGridContainer {
+    padding: 20px;
+    max-height: 50vh; /* ग्रिड की अधिकतम ऊंचाई */
+    overflow-y: auto; /* स्क्रॉलिंग जोड़ें */
+}
+
+#questionGridContainer table { 
+    width: 100%; 
+    border-spacing: 8px; 
+    table-layout: fixed; 
+}
+#questionGridContainer td a { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    width: 25px;
+    height: 25px;
+    border-radius: 8px; /* गोल चौकोर */
+    margin: auto;
+    font-size: 1em; 
+    transition: all 0.2s ease; 
+    font-weight: bold; 
+    color: #333;
+    border: 1px solid #ddd;
+    position: relative;
+    overflow: hidden;
+}
+#questionGridContainer td a:hover { transform: scale(1.1); box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+
+/* विभिन्न स्थितियों के लिए स्टाइल */
+#questionGridContainer .correct { background: #2ecc71 !important; color: white !important; border-color: #2ecc71; }
+#questionGridContainer .incorrect { background: #e74c3c !important; color: white !important; border-color: #e74c3c; }
+#questionGridContainer .attempted { background: #3498db !important; color: white !important; border-color: #3498db; }
+#questionGridContainer .unanswered { background: #ecf0f1; color: #7f8c8d; border-color: #bdc3c7; }
+#questionGridContainer .active { border-color: #667eea; box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.5); }
+
+/* बुकमार्क के लिए स्टाइलिश टैग */
+#questionGridContainer .bookmarked::after {
+    font-family: "Font Awesome 6 Free"; 
+    font-weight: 900; 
+    content: '\f005'; 
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 22px;
+    height: 22px;
+    background: #f1c40f;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.grid-legend { display: none; } 
+
+/* ============================================================= */
+/* ===                   पॉज पॉप-अप स्टाइल                    === */
+/* ============================================================= */
+#pause-modal .pause-content {
+    text-align: center;
+    color: white;
+}
+#pause-modal .pause-content i {
+    font-size: 5em;
+    margin-bottom: 20px;
+    display: block;
+}
+#pause-modal .pause-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+#modal-resume-btn {
+    display: inline-flex;
+    flex: none;
+    width: auto;
+    padding: 12px 30px;
+}
+
 
 /* ============================================================= */
 /* ===                       डार्क मोड                         === */
 /* ============================================================= */
 body.dark { background: #121212; color: #e0e0e0; }
+body.dark .quiz-page-header { background: #1e1e1e; }
+body.dark .app-branding h1 { color: #e0e0e0; }
+body.dark .toggle-btn span { background: #e0e0e0; }
 body.dark .quiz-container { background: #1e1e1e; }
-body.dark .toggle-btn span { background: #fff; }
 body.dark label { background: #333; }
 body.dark label.correct { background: #285b30; }
 body.dark label.incorrect { background: #6c2e33; }
 body.dark .sidebar { background: #2c3e50; }
 body.dark .explanation { background-color: #2a2a2a; border-left-color: #9b70e0; }
-body.dark .progress-bar-container { background-color: #444; }
+body.dark .progress-circle { background: conic-gradient(#4CAF50 var(--progress-percent, 0%), #444 0); }
+body.dark .progress-circle::before { background: #1e1e1e; }
+body.dark .progress-text { color: #e0e0e0; }
 body.dark .navigation button { background: #333; color: #e0e0e0; border-color: #555; }
 body.dark .search-controls input[type="text"] { background: #333; border-color: #555; color: #e0e0e0; }
 body.dark #bookmarkBtn i { color: #ffd166; }
 body.dark #bookmarkBtn i.fas { color: #f59f00; }
-body.dark .submit-test-button { background-color: #4caf50; }
+body.dark .header-icon-btn { background-color: #333; color: #e0e0e0; }
+body.dark .header-icon-btn.submit-btn { background-color: #4caf50; }
 body.dark .result-card { background: #1e1e1e; border-top-color: #9b70e0; }
 body.dark .result-header h2, body.dark .result-score .score-label, body.dark .stat-item .stat-label { color: #e0e0e0; }
 body.dark .result-score .score-percentage { color: #9b70e0; }
 body.dark .stat-item { background-color: #2a2a2a; }
 body.dark .stat-item .stat-value { color: #fff; }
-body.dark .modal-content { background: #2c3e50; }
-body.dark #topic-modal h3, body.dark #simulation-config-modal h3, body.dark #topic-modal p, body.dark .form-group label { color: #e0e0e0; }
+body.dark .modal-content { background: #2c3e50; color: #e0e0e0; }
+body.dark .modal-content h3, body.dark .modal-content p { color: #e0e0e0; }
 body.dark .topic-select-input { background-color: #333; border-color: #555; color: #e0e0e0; }
+body.dark .simulation-timer { background-color: #dc3545; color: #ffffff; }
+body.dark .simulation-timer .timer-control-btn { color: #ffffff; }
+body.dark .submission-summary { background-color: #3a3a3a; border-color: #555; }
+body.dark .submission-summary p { color: #e0e0e0; }
+body.dark #questionGridContainer .unanswered { background: #3a3a3a; color: #bdc3c7; border-color: #555; }
+body.dark .grid-modal-header { background-color: #3a4a78; }
+body.dark .grid-modal-header .close-button { color: #ccc; }
 
 /* ============================================================= */
 /* ===                     रिस्पॉन्सिव डिज़ाइन                  === */
 /* ============================================================= */
 @media (max-width: 768px) {
-  body { padding-left: 0; }
-  .quiz-container { margin: 60px 10px 85px 10px; padding: 20px; }
-  .sidebar { transform: translateX(-260px); }
-  body.sidebar-visible .sidebar { transform: translateX(0); }
+  .quiz-container { margin: 80px 10px 85px 10px; padding: 20px; }
   
   .navigation {
       position: fixed;
@@ -534,6 +647,7 @@ body.dark .topic-select-input { background-color: #333; border-color: #555; colo
       padding: 10px;
       margin-top: 0;
       border-top: 1px solid rgba(0, 0, 0, 0.1);
+      z-index: 999;
   }
   body.dark .navigation {
       background-color: rgba(20, 20, 20, 0.8);
@@ -551,7 +665,6 @@ body.dark .topic-select-input { background-color: #333; border-color: #555; colo
 }
 body.dark .question-source { color: #bbb; }
 
-/* अक्षम विकल्पों की स्टाइल */
 .sidebar .category-filter select:disabled,
 .sidebar .category-filter button:disabled {
     opacity: 0.5;
