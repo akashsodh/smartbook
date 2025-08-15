@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
   
   <div id="sidebar-overlay" class="sidebar-overlay hidden" onclick="toggleSidebar()"></div>
 
-  <!-- ===== नया वेबपेज हेडर ===== -->
+  <!-- ===== New Webpage Header ===== -->
   <header class="quiz-page-header">
       <button class="toggle-btn" onclick="toggleSidebar()">
           <span></span><span></span><span></span>
@@ -25,23 +25,23 @@
       </div>
   </header>
 
-  <!-- ===== सिमुलेशन कॉन्फ़िगरेशन पॉप-अप ===== -->
+  <!-- ===== Simulation Configuration Popup ===== -->
   <div id="simulation-config-modal" class="modal-overlay hidden">
     <div class="modal-content">
-        <h3>परीक्षा सिमुलेशन सेटिंग्स</h3>
+        <h3>Exam Simulation Settings</h3>
         <div class="config-form">
             <div class="form-group">
-                <label for="sim-topic-select"><i class="fas fa-filter"></i> टॉपिक चुनें</label>
+                <label for="sim-topic-select"><i class="fas fa-filter"></i> Select Topic</label>
                 <select id="sim-topic-select" class="topic-select-input"></select>
             </div>
             <div class="form-group">
-                <label for="sim-time-input"><i class="fas fa-clock"></i> समय (मिनट में)</label>
+                <label for="sim-time-input"><i class="fas fa-clock"></i> Time (in minutes)</label>
                 <input type="number" id="sim-time-input" class="topic-select-input" value="60" min="1">
             </div>
             <div class="form-group">
-                <label for="sim-negative-marking"><i class="fas fa-calculator"></i> नेगेटिव मार्किंग</label>
+                <label for="sim-negative-marking"><i class="fas fa-calculator"></i> Negative Marking</label>
                 <select id="sim-negative-marking" class="topic-select-input">
-                    <option value="0">कोई नहीं</option>
+                    <option value="0">None</option>
                     <option value="0.25">1/4 (0.25)</option>
                     <option value="0.33">1/3 (0.33)</option>
                     <option value="0.5">1/2 (0.50)</option>
@@ -49,42 +49,42 @@
             </div>
         </div>
         <button id="start-simulation-btn" class="modal-btn simulation">
-            <i class="fas fa-play-circle"></i> सिमुलेशन शुरू करें
+            <i class="fas fa-play-circle"></i> Start Simulation
         </button>
     </div>
   </div>
   
-  <!-- ===== टेस्ट फिर से शुरू करने का पॉप-अप (Resume) ===== -->
+  <!-- ===== Resume Test Popup ===== -->
   <div id="resume-test-modal" class="modal-overlay hidden">
       <div class="modal-content">
-          <h3>टेस्ट फिर से शुरू करें?</h3>
-          <p>आपका एक अधूरा टेस्ट मिला है। क्या आप वहीं से जारी रखना चाहते हैं?</p>
+          <h3>Resume Test?</h3>
+          <p>An incomplete test was found. Do you want to continue where you left off?</p>
           <div class="modal-buttons-horizontal">
-              <button id="start-new-test-btn" class="modal-btn danger">नया टेस्ट शुरू करें</button>
-              <button id="resume-test-btn" class="modal-btn success">हाँ, जारी रखें</button>
+              <button id="start-new-test-btn" class="modal-btn danger">Start New Test</button>
+              <button id="resume-test-btn" class="modal-btn success">Yes, Resume</button>
           </div>
       </div>
   </div>
 
-  <!-- ===== सबमिट कन्फर्मेशन पॉप-अप ===== -->
+  <!-- ===== Submit Confirmation Popup ===== -->
   <div id="submit-confirm-modal" class="modal-overlay hidden">
       <div class="modal-content">
           <button class="close-button" onclick="closeSubmitConfirmModal()">&times;</button>
-          <h3>टेस्ट सबमिट करें?</h3>
-          <p>क्या आप वाकई टेस्ट सबमिट करना चाहते हैं?</p>
+          <h3>Submit Test?</h3>
+          <p>Are you sure you want to submit the test?</p>
           <div class="submission-summary">
-              <p>हल किए गए: <span id="attempted-count">0</span></p>
-              <p>बिना हल किए: <span id="unattempted-count">0</span></p>
-              <p>समीक्षा के लिए चिह्नित: <span id="bookmarked-count">0</span></p>
+              <p>Attempted: <span id="attempted-count">0</span></p>
+              <p>Unattempted: <span id="unattempted-count">0</span></p>
+              <p>Marked for Review: <span id="bookmarked-count">0</span></p>
           </div>
           <div class="modal-buttons-horizontal">
-              <button class="modal-btn danger" onclick="closeSubmitConfirmModal()">रद्द करें</button>
-              <button class="modal-btn success" id="confirm-submit-btn">हाँ, सबमिट करें</button>
+              <button class="modal-btn danger" onclick="closeSubmitConfirmModal()">Cancel</button>
+              <button class="modal-btn success" id="confirm-submit-btn">Yes, Submit</button>
           </div>
       </div>
   </div>
 
-  <!-- ===== प्रश्न ग्रिड पॉप-अप ===== -->
+  <!-- ===== Question Grid Popup ===== -->
   <div id="question-grid-modal" class="modal-overlay hidden" onclick="handleGridOverlayClick(event)">
       <div class="modal-content grid-modal-content">
           <div class="grid-modal-header">
@@ -95,13 +95,13 @@
       </div>
   </div>
   
-  <!-- ===== टेस्ट पॉज पॉप-अप ===== -->
+  <!-- ===== Test Pause Popup ===== -->
   <div id="pause-modal" class="modal-overlay hidden">
       <div class="pause-content">
           <i class="fas fa-pause-circle"></i>
-          <h2>टेस्ट रुका हुआ है</h2>
-          <p>टेस्ट जारी रखने के लिए रिज्यूमे बटन पर क्लिक करें।</p>
-          <button id="modal-resume-btn" class="modal-btn success"><i class="fas fa-play"></i> रिज्यूमे</button>
+          <h2>Test Paused</h2>
+          <p>Click the resume button to continue the test.</p>
+          <button id="modal-resume-btn" class="modal-btn success"><i class="fas fa-play"></i> Resume</button>
       </div>
   </div>
 
@@ -114,26 +114,26 @@
         <button onclick="changeFontSize(2)">A+</button>
       </div>
       <div class="search-controls">
-        <input type="text" id="questionSearchInput" placeholder="प्रश्न खोजें..." onkeyup="handleSearchInput(event)">
-        <button class="button" onclick="searchQuestions()"><i class="fas fa-search"></i>खोजें</button>
-        <button class="button clear-search-btn" onclick="clearSearch()"><i class="fas fa-times"></i> साफ़ करें</button>
+        <input type="text" id="questionSearchInput" placeholder="Search questions..." onkeyup="handleSearchInput(event)">
+        <button class="button" onclick="searchQuestions()"><i class="fas fa-search"></i>Search</button>
+        <button class="button clear-search-btn" onclick="clearSearch()"><i class="fas fa-times"></i> Clear</button>
       </div>
       <div class="category-filter">
-        <label for="categorySelect"><i class="fas fa-filter"></i> टॉपिक चुनें:</label>
+        <label for="categorySelect"><i class="fas fa-filter"></i> Select Topic:</label>
         <select id="categorySelect" onchange="filterQuestionsByCategory(this.value)">
-          <option value="">सभी टॉपिक</option>
+          <option value="">All Topics</option>
         </select>
-        <button class="button" id="showAllCategoriesBtn" onclick="showAllCategories()">सभी टॉपिक देखें</button>
+        <button class="button" id="showAllCategoriesBtn" onclick="showAllCategories()">Show All Topics</button>
       </div>
-       <button class="button" onclick="showUnansweredQuestions()"><i class="fas fa-question-circle"></i>बिना हल किए दिखाएं</button>
-       <button class="button" onclick="showIncorrectlyAnsweredQuestions()"><i class="fas fa-times-circle"></i> गलत प्रश्न दिखाएं</button>
-       <button class="button" onclick="showBookmarkedQuestions()"><i class="fas fa-bookmark"></i> बुकमार्क किए दिखाएं</button>
-       <button class="button" id="shuffleQuestionsBtn" onclick="shuffleQuestions()"><i class="fas fa-random"></i> प्रश्न शफ़ल करें</button>
-       <button class="button" id="shuffleOptionsBtn" onclick="shuffleOptions()"><i class="fas fa-retweet"></i> विकल्प शफ़ल करें</button>
-       <button class="button" id="resetOrderBtn" onclick="resetOrder()"><i class="fas fa-undo"></i> क्रम रीसेट करें</button>
-       <button class="button theme-btn" onclick="toggleTheme()"><i class="fas fa-adjust"></i> थीम बदलें</button>
-       <button class="button fullscreen-btn" onclick="toggleFullscreen()"><i class="fas fa-expand-arrows-alt"></i> फ़ुलस्क्रीन</button>
-       <button class="button clear-data-btn" onclick="clearSavedData()"><i class="fas fa-trash-alt"></i> डेटा साफ़ करें</button>
+       <button class="button" onclick="showUnansweredQuestions()"><i class="fas fa-question-circle"></i>Show Unanswered</button>
+       <button class="button" onclick="showIncorrectlyAnsweredQuestions()"><i class="fas fa-times-circle"></i> Show Incorrect</button>
+       <button class="button" onclick="showBookmarkedQuestions()"><i class="fas fa-bookmark"></i> Show Bookmarked</button>
+       <button class="button" id="shuffleQuestionsBtn" onclick="shuffleQuestions()"><i class="fas fa-random"></i> Shuffle Questions</button>
+       <button class="button" id="shuffleOptionsBtn" onclick="shuffleOptions()"><i class="fas fa-retweet"></i> Shuffle Options</button>
+       <button class="button" id="resetOrderBtn" onclick="resetOrder()"><i class="fas fa-undo"></i> Reset Order</button>
+       <button class="button theme-btn" onclick="toggleTheme()"><i class="fas fa-adjust"></i> Change Theme</button>
+       <button class="button fullscreen-btn" onclick="toggleFullscreen()"><i class="fas fa-expand-arrows-alt"></i> Fullscreen</button>
+       <button class="button clear-data-btn" onclick="clearSavedData()"><i class="fas fa-trash-alt"></i> Clear Data</button>
     </div>
   </div>
 
@@ -149,25 +149,25 @@
             <span id="countdown-timer">00:00</span>
             <button id="pauseResumeBtn" class="timer-control-btn"><i class="fas fa-pause"></i></button>
         </div>
-        <button id="gridBtn" class="header-icon-btn" onclick="toggleQuestionGridModal()" title="प्रश्न ग्रिड"><i class="fas fa-list"></i></button>
-        <button id="submitTestBtn" class="header-icon-btn submit-btn" onclick="showSubmitConfirmModal()" title="टेस्ट सबमिट करें"><i class="fas fa-check-double"></i></button>
+        <button id="gridBtn" class="header-icon-btn" onclick="toggleQuestionGridModal()" title="Question Grid"><i class="fas fa-list"></i></button>
+        <button id="submitTestBtn" class="header-icon-btn submit-btn" onclick="showSubmitConfirmModal()" title="Submit Test"><i class="fas fa-check-double"></i></button>
     </div>
     <div id="quiz-content"></div>
-    <div class="time-tracking" id="time-tracking">समय: 0 सेकंड</div>
+    <div class="time-tracking" id="time-tracking">Time: 0 seconds</div>
     <div class="navigation">
-      <button onclick="prevQuestion()"><i class="fas fa-arrow-left"></i><span>पिछला</span></button>
+      <button onclick="prevQuestion()"><i class="fas fa-arrow-left"></i><span>Previous</span></button>
       <button id="bookmarkBtn" onclick="toggleBookmark()"><i class="far fa-bookmark"></i></button>
       <button id="reAttemptBtn" onclick="reAttemptCurrentQuestion()"><i class="fas fa-redo"></i></button>
-      <button onclick="nextQuestion()"><span>अगला</span><i class="fas fa-arrow-right"></i></button>
+      <button onclick="nextQuestion()"><span>Next</span><i class="fas fa-arrow-right"></i></button>
     </div>
     <div id="result" style="display: none;"></div>
-    <div id="score-summary">सही उत्तर: 0 | गलत उत्तर: 0</div>
+    <div id="score-summary">Correct: 0 | Incorrect: 0</div>
     <div id="completion-message"></div>
   </div>
 
 <script>
 // =============================================================
-// ===                 ग्लोबल वेरिएबल्स और सेटअप             ===
+// ===                 GLOBAL VARIABLES & SETUP              ===
 // =============================================================
 const urlParams = new URLSearchParams(window.location.search);
 const UNIT_ID = urlParams.get('id');
@@ -199,11 +199,11 @@ const TEST_SUBMITTED_KEY = `${UNIT_ID}_${quizMode}_submitted`;
 const SIMULATION_STATE_KEY = `${UNIT_ID}_simulation_state`;
 
 // =============================================================
-// ===                 मुख्य फंक्शंस                       ===
+// ===                 CORE FUNCTIONS                        ===
 // =============================================================
 async function initializeQuiz() {
     if (!questionFile) {
-        document.getElementById("quiz-content").innerHTML = `<p style="color: red;">प्रश्नों की फ़ाइल का नाम URL में नहीं दिया गया है।</p>`;
+        document.getElementById("quiz-content").innerHTML = `<p style="color: red;">Question file name is not provided in the URL.</p>`;
         return;
     }
     try {
@@ -239,7 +239,7 @@ async function initializeQuiz() {
         }
     } catch (error) {
         console.error('Error loading questions:', error);
-        document.getElementById("quiz-content").innerHTML = `<p style="color: red;">प्रश्नों को लोड करने में त्रुटि हुई।</p>`;
+        document.getElementById("quiz-content").innerHTML = `<p style="color: red;">Error loading questions.</p>`;
     }
 }
 
@@ -253,7 +253,7 @@ function promptForSimulationConfig(categories) {
     document.querySelector('.quiz-container').style.display = 'none';
     document.querySelector('.sidebar').style.display = 'none';
 
-    topicSelect.innerHTML = '<option value="">सभी टॉपिक</option>';
+    topicSelect.innerHTML = '<option value="">All Topics</option>';
     categories.sort().forEach(category => {
         topicSelect.innerHTML += `<option value="${category}">${category}</option>`;
     });
@@ -326,7 +326,7 @@ function startCountdownTimer(totalSeconds) {
 
         if (remainingSeconds <= 0) {
             clearInterval(countdownInterval);
-            alert("समय समाप्त! आपका टेस्ट ऑटो-सबमिट किया जा रहा है।");
+            alert("Time is up! Your test is being submitted automatically.");
             submitTest(true);
             return;
         }
@@ -516,35 +516,35 @@ function showFinalResults() {
     if (quizMode === 'simulation') {
         resultsHtml = `
         <div class="result-card">
-            <div class="result-header"><h2>परीक्षा परिणाम</h2></div>
+            <div class="result-header"><h2>Exam Result</h2></div>
             <div class="result-score">
                 <span class="score-percentage">${finalScore.toFixed(2)}</span>
-                <span class="score-label">अंतिम स्कोर</span>
+                <span class="score-label">Final Score</span>
             </div>
             <div class="result-stats">
-                <div class="stat-item"><i class="fas fa-list-ol stat-icon"></i><span class="stat-value">${total}</span><span class="stat-label">कुल प्रश्न</span></div>
-                <div class="stat-item"><i class="fas fa-pencil-alt stat-icon"></i><span class="stat-value">${answeredCount}</span><span class="stat-label">हल किए गए</span></div>
-                <div class="stat-item correct"><i class="fas fa-check-circle stat-icon"></i><span class="stat-value">${correct}</span><span class="stat-label">सही उत्तर</span></div>
-                <div class="stat-item incorrect"><i class="fas fa-times-circle stat-icon"></i><span class="stat-value">${wrong}</span><span class="stat-label">गलत उत्तर</span></div>
-                <div class="stat-item incorrect" style="grid-column: span 2;"><i class="fas fa-minus-circle stat-icon"></i><span class="stat-value">${marksDeducted.toFixed(2)}</span><span class="stat-label">नेगेटिव अंक</span></div>
+                <div class="stat-item"><i class="fas fa-list-ol stat-icon"></i><span class="stat-value">${total}</span><span class="stat-label">Total Questions</span></div>
+                <div class="stat-item"><i class="fas fa-pencil-alt stat-icon"></i><span class="stat-value">${answeredCount}</span><span class="stat-label">Attempted</span></div>
+                <div class="stat-item correct"><i class="fas fa-check-circle stat-icon"></i><span class="stat-value">${correct}</span><span class="stat-label">Correct</span></div>
+                <div class="stat-item incorrect"><i class="fas fa-times-circle stat-icon"></i><span class="stat-value">${wrong}</span><span class="stat-label">Incorrect</span></div>
+                <div class="stat-item incorrect" style="grid-column: span 2;"><i class="fas fa-minus-circle stat-icon"></i><span class="stat-value">${marksDeducted.toFixed(2)}</span><span class="stat-label">Negative Marks</span></div>
             </div>
-            <button class="modal-btn review-btn" onclick="reviewTest()">टेस्ट की समीक्षा करें</button>
+            <button class="modal-btn review-btn" onclick="reviewTest()">Review Test</button>
         </div>`;
     } else { // Practice Mode
         const percentage = total > 0 ? ((correct / answeredCount) * 100).toFixed(0) : 0;
         resultsHtml = `
         <div class="result-card">
-            <div class="result-header"><h2>अभ्यास पूरा हुआ!</h2></div>
+            <div class="result-header"><h2>Practice Complete!</h2></div>
             <div class="result-score">
                 <i class="fas fa-award score-icon"></i>
                 <span class="score-percentage">${percentage}%</span>
-                <span class="score-label">आपका स्कोर</span>
+                <span class="score-label">Your Score</span>
             </div>
             <div class="result-stats">
-                <div class="stat-item"><i class="fas fa-list-ol stat-icon"></i><span class="stat-value">${total}</span><span class="stat-label">कुल प्रश्न</span></div>
-                <div class="stat-item"><i class="fas fa-pencil-alt stat-icon"></i><span class="stat-value">${answeredCount}</span><span class="stat-label">हल किए गए</span></div>
-                <div class="stat-item correct"><i class="fas fa-check-circle stat-icon"></i><span class="stat-value">${correct}</span><span class="stat-label">सही उत्तर</span></div>
-                <div class="stat-item incorrect"><i class="fas fa-times-circle stat-icon"></i><span class="stat-value">${wrong}</span><span class="stat-label">गलत उत्तर</span></div>
+                <div class="stat-item"><i class="fas fa-list-ol stat-icon"></i><span class="stat-value">${total}</span><span class="stat-label">Total Questions</span></div>
+                <div class="stat-item"><i class="fas fa-pencil-alt stat-icon"></i><span class="stat-value">${answeredCount}</span><span class="stat-label">Attempted</span></div>
+                <div class="stat-item correct"><i class="fas fa-check-circle stat-icon"></i><span class="stat-value">${correct}</span><span class="stat-label">Correct</span></div>
+                <div class="stat-item incorrect"><i class="fas fa-times-circle stat-icon"></i><span class="stat-value">${wrong}</span><span class="stat-label">Incorrect</span></div>
             </div>
         </div>`;
     }
@@ -562,14 +562,14 @@ function reviewTest() {
 }
 
 function clearSavedData() {
-    if (confirm("क्या आप वाकई इस विषय से संबंधित सभी सहेजे गए डेटा को क्लियर करना चाहते हैं?")) {
+    if (confirm("Are you sure you want to clear all saved data related to this subject?")) {
         Object.keys(localStorage).forEach(key => {
             if (key.startsWith(UNIT_ID)) {
                 localStorage.removeItem(key);
             }
         });
         localStorage.removeItem("theme");
-        alert("डेटा क्लियर कर दिया गया है। होम पेज पर वापस जा रहे हैं।");
+        alert("Data has been cleared. Returning to the home page.");
         window.location.href = 'index.html';
     }
 }
@@ -609,11 +609,11 @@ function showAnswerAndExplanation(qOriginalIndex) {
     const correctAnswerText = q.options[q.answer];
     const selectedAnswerText = answers[qOriginalIndex];
     
-    document.getElementById("correct").innerHTML = `<strong>सही उत्तर:</strong> ${correctAnswerText}`;
+    document.getElementById("correct").innerHTML = `<strong>Correct Answer:</strong> ${correctAnswerText}`;
     document.getElementById("correct").style.display = 'block';
     
     const expDiv = document.getElementById("explanation-text");
-    expDiv.innerHTML = q.explanation ? `<strong>व्याख्या:</strong> ${q.explanation}` : "";
+    expDiv.innerHTML = q.explanation ? `<strong>Explanation:</strong> ${q.explanation}` : "";
     expDiv.style.display = q.explanation ? "block" : "none";
 
     document.querySelectorAll(`input[name='q${qOriginalIndex}']`).forEach(radio => {
@@ -638,9 +638,9 @@ function updateScoreSummaryAndProgress() {
     
     if (quizMode === 'practice' || isTestSubmitted) {
         let { correct, wrong } = calculateScore();
-        document.getElementById("score-summary").innerText = `सही: ${correct} | गलत: ${wrong}`;
+        document.getElementById("score-summary").innerText = `Correct: ${correct} | Incorrect: ${wrong}`;
     } else {
-         document.getElementById("score-summary").innerText = `हल किए गए: ${answeredCount}/${total}`;
+         document.getElementById("score-summary").innerText = `Attempted: ${answeredCount}/${total}`;
     }
 
     const percentage = total > 0 ? (answeredCount / total * 100) : 0;
@@ -727,7 +727,7 @@ function startTimer() {
     stopTimer();
     currentQuestionStartTime = Date.now();
     timerInterval = setInterval(() => {
-        document.getElementById("time-tracking").innerText = `समय: ${Math.floor((Date.now() - currentQuestionStartTime)/1000)} सेकंड`;
+        document.getElementById("time-tracking").innerText = `Time: ${Math.floor((Date.now() - currentQuestionStartTime)/1000)} seconds`;
     }, 1000);
 }
 
@@ -767,9 +767,9 @@ function searchQuestions() {
         questions = searchResults;
         loadQuestion(0);
         buildQuestionGrid();
-        alert(`${searchResults.length} प्रश्न मिले।`);
+        alert(`${searchResults.length} questions found.`);
     } else {
-        alert("कोई प्रश्न नहीं मिला।");
+        alert("No questions found.");
     }
 }
 
@@ -787,7 +787,7 @@ function shuffleQuestions() {
     if ((quizMode === 'simulation') && !isTestSubmitted) return;
     originalQuestions.sort(() => Math.random() - 0.5);
     localStorage.setItem(MODIFIED_QUESTIONS_KEY, JSON.stringify(originalQuestions));
-    alert("प्रश्नों को शफ़ल कर दिया गया है।");
+    alert("Questions have been shuffled.");
     filterAndLoad();
 }
 
@@ -802,7 +802,7 @@ function shuffleOptions() {
         q.answer = q.options.findIndex(opt => opt === correctAnswerText);
     });
     localStorage.setItem(MODIFIED_QUESTIONS_KEY, JSON.stringify(originalQuestions));
-    alert("सभी प्रश्नों के विकल्प शफ़ल कर दिए गए हैं।");
+    alert("Options for all questions have been shuffled.");
     filterAndLoad();
 }
 
@@ -810,7 +810,7 @@ function resetOrder() {
     if ((quizMode === 'simulation') && !isTestSubmitted) return;
     localStorage.removeItem(MODIFIED_QUESTIONS_KEY);
     originalQuestions = JSON.parse(JSON.stringify(pristineOriginalQuestions));
-    alert("प्रश्नों और विकल्पों का क्रम रीसेट कर दिया गया है।");
+    alert("The order of questions and options has been reset.");
     filterAndLoad();
 }
 
@@ -821,40 +821,40 @@ function toggleTheme() {
 
 function showUnansweredQuestions() {
     const unanswered = originalQuestions.filter(q => answers[q.originalIndex] === undefined);
-    if (unanswered.length === 0) { alert("सभी प्रश्नों के उत्तर दे दिए गए हैं!"); return; }
+    if (unanswered.length === 0) { alert("All questions have been answered!"); return; }
     questions = selectedCategory ? unanswered.filter(q => q.category === selectedCategory) : unanswered;
     if (questions.length > 0) {
-        alert(`${questions.length} बिना हल किए प्रश्न दिखाए जा रहे हैं।`);
+        alert(`Showing ${questions.length} unanswered questions.`);
         loadQuestion(0);
         buildQuestionGrid();
     } else {
-        alert("इस श्रेणी में कोई बिना हल किया प्रश्न नहीं है।");
+        alert("There are no unanswered questions in this category.");
     }
 }
 
 function showIncorrectlyAnsweredQuestions() {
     const incorrect = originalQuestions.filter(q => answers[q.originalIndex] !== undefined && answers[q.originalIndex] !== q.options[q.answer]);
-    if (incorrect.length === 0) { alert("कोई भी प्रश्न गलत उत्तर नहीं दिया गया है!"); return; }
+    if (incorrect.length === 0) { alert("No questions have been answered incorrectly!"); return; }
     questions = selectedCategory ? incorrect.filter(q => q.category === selectedCategory) : incorrect;
     if (questions.length > 0) {
-        alert(`${questions.length} गलत उत्तर वाले प्रश्न दिखाए जा रहे हैं।`);
+        alert(`Showing ${questions.length} incorrectly answered questions.`);
         loadQuestion(0);
         buildQuestionGrid();
     } else {
-        alert("इस श्रेणी में कोई गलत उत्तर वाला प्रश्न नहीं है।");
+        alert("There are no incorrectly answered questions in this category.");
     }
 }
 
 function showBookmarkedQuestions() {
-    if (bookmarkedQuestions.length === 0) { alert("कोई प्रश्न बुकमार्क नहीं किया गया है।"); return; }
+    if (bookmarkedQuestions.length === 0) { alert("No questions are bookmarked."); return; }
     const bookmarked = originalQuestions.filter(q => bookmarkedQuestions.includes(q.originalIndex));
     questions = selectedCategory ? bookmarked.filter(q => q.category === selectedCategory) : bookmarked;
     if (questions.length > 0) {
-        alert(`${questions.length} बुकमार्क किए गए प्रश्न दिखाए जा रहे हैं।`);
+        alert(`Showing ${questions.length} bookmarked questions.`);
         loadQuestion(0);
         buildQuestionGrid();
     } else {
-        alert("इस श्रेणी में कोई बुकमार्क किया गया प्रश्न नहीं है।");
+        alert("There are no bookmarked questions in this category.");
     }
 }
 
@@ -872,7 +872,7 @@ function toggleSidebar() {
 function populateCategoryFilter() {
     const categories = [...new Set(pristineOriginalQuestions.map(q => q.category).filter(Boolean))];
     const categorySelect = document.getElementById('categorySelect');
-    categorySelect.innerHTML = '<option value="">सभी टॉपिक</option>';
+    categorySelect.innerHTML = '<option value="">All Topics</option>';
     categories.sort().forEach(category => {
         categorySelect.innerHTML += `<option value="${category}">${category}</option>`;
     });
@@ -892,7 +892,7 @@ function showAllCategories() {
 
 function beforeUnloadHandler(e) {
   e.preventDefault();
-  e.returnValue = 'क्या आप वाकई टेस्ट छोड़ना चाहते हैं? आपकी प्रगति खो जाएगी।';
+  e.returnValue = 'Are you sure you want to leave the test? Your progress will be lost.';
   return e.returnValue;
 }
 
