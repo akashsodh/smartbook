@@ -902,10 +902,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('modal-resume-btn').onclick = togglePause;
 
+    // Keyboard navigation
     document.addEventListener('keydown', (e) => {
       if (e.key === "ArrowRight") nextQuestion();
       else if (e.key === "ArrowLeft") prevQuestion();
     });
+
+    // Swipe functionality for touch devices
+    const quizContainer = document.querySelector('.quiz-container');
+    let touchstartX = 0;
+    let touchendX = 0;
+
+    function handleGesture() {
+        // 50px swipe threshold
+        if (touchendX < touchstartX - 50) nextQuestion(); // Swiped left
+        if (touchendX > touchstartX + 50) prevQuestion(); // Swiped right
+    }
+
+    quizContainer.addEventListener('touchstart', e => {
+        touchstartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    quizContainer.addEventListener('touchend', e => {
+        touchendX = e.changedTouches[0].screenX;
+        handleGesture();
+    }, { passive: true });
 });
 </script>
 </body>
