@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +23,7 @@
         </header>
 
         <main id="dashboard-container" class="dashboard">
-            <!-- कार्ड्स यहाँ जावास्क्रिप्ट से लोड होंगे -->
+            <!-- Cards will be loaded here from JavaScript -->
         </main>
 
         <div id="mode-modal" class="modal-overlay hidden">
@@ -32,14 +32,14 @@
                 <div id="modal-icon-container">
                     <i id="modal-icon" class="fas fa-book"></i>
                 </div>
-                <h3 id="modal-title">मोड चुनें</h3>
+                <h3 id="modal-title">Choose Mode</h3>
                 <p id="modal-description"></p>
                 <div class="modal-buttons">
                     <a id="modal-practice-btn" href="#" class="modal-btn practice">
-                        <i class="fas fa-pencil-alt"></i> प्रैक्टिस मोड
+                        <i class="fas fa-pencil-alt"></i> Practice Mode
                     </a>
                     <a id="modal-simulation-btn" href="#" class="modal-btn simulation">
-                        <i class="fas fa-laptop-code"></i> परीक्षा सिमुलेशन
+                        <i class="fas fa-laptop-code"></i> Exam Simulation
                     </a>
                 </div>
             </div>
@@ -88,13 +88,13 @@
 
             } catch (error) {
                 console.error('Error building dashboard:', error);
-                dashboardContainer.innerHTML = '<p>टेस्ट सीरीज लोड करने में त्रुटि हुई।</p>';
+                dashboardContainer.innerHTML = '<p>Error loading the test series.</p>';
             }
         }
 
         function openModeModal(subject) {
             modalTitle.innerText = subject.title;
-            modalDescription.innerText = `इस विषय के लिए क्विज़ मोड चुनें।`;
+            modalDescription.innerText = `Choose a quiz mode for this subject.`;
             modalIcon.className = `${subject.icon || 'fas fa-book'}`;
             
             const quizUrl = `quiz.html?id=${subject.id}&file=${subject.questionFile}`;
