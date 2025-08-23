@@ -1,0 +1,22 @@
+{
+  "name": "Akash SmartBook",
+  "short_name": "SmartBook",
+  "description": "Start your exam preprations with SmartBook",
+  "start_url": "/smartbook/index.html",
+  "display": "standalone",
+  "background_color": "#f4f7f6",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/smartbook/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/smartbook/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

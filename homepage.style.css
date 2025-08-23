@@ -1,0 +1,452 @@
+/* ============================================================= */
+/* ===                  वेरिएबल्स और बेसिक स्टाइल              === */
+/* ============================================================= */
+:root {
+    --primary-color: #4F46E5; /* Indigo */
+    --secondary-color: #10B981; /* Emerald Green */
+    --background-color: #f9fafb; /* Lighter Gray */
+    --card-background: #ffffff;
+    --text-color: #374151; /* Gray 700 */
+    --heading-color: #111827; /* Gray 900 */
+    --shadow-color: rgba(79, 70, 229, 0.1);
+    --border-color: #e5e7eb; /* Gray 200 */
+    --header-height: 70px;
+}
+
+/* ============================================================= */
+/* ===                  एनिमेशन की-फ्रेम्स                    === */
+/* ============================================================= */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* बैज के लिए पॉप-अप एनिमेशन */
+@keyframes badge-pop {
+    from {
+        transform: scale(0.5) translateY(-10px);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
+}
+
+/* आइकॉन के लिए फ्लोटिंग एनिमेशन */
+@keyframes iconFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+}
+/* ============================================================= */
+/* ===                  बेसिक और लेआउट स्टाइल                 === */
+/* ============================================================= */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background-color); 
+  color: var(--text-color);
+  margin: 0;
+  padding-top: var(--header-height); /* Header के लिए जगह */
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1100px; /* बड़ी स्क्रीन के लिए थोड़ी चौड़ाई बढ़ाई */
+  width: 95%;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+/* ============================================================= */
+/* ===                     हेडर स्टाइल                      === */
+/* ============================================================= */
+.homepage-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-height);
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border-color);
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.5%;
+  box-sizing: border-box;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.homepage-header .header-icon {
+    color: var(--primary-color);
+    font-size: 1.8em;
+}
+
+.homepage-header h1 {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: var(--heading-color);
+    margin: 0;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon { color: #9ca3af; position: absolute; left: 15px; }
+
+.search-bar {
+    width: 250px;
+    padding: 10px 15px 10px 40px;
+    border-radius: 50px;
+    border: 1px solid var(--border-color);
+    background-color: #f3f4f6;
+    transition: all 0.3s ease;
+}
+.search-bar:focus { background-color: white; border-color: var(--primary-color); box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2); outline: none; }
+
+/* ============================================================= */
+/* ===                   सब्जेक्ट कार्ड स्टाइल                   === */
+/* ============================================================= */
+.subject-card {
+  background: var(--card-background);
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+  padding: 20px; /* padding-bottom को सामान्य किया गया */
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: block; /* Flex से block में बदला ताकि कंटेंट फ्लो हो सके */
+  border: 1px solid var(--border-color);
+  opacity: 0;
+  animation: fadeInUp 0.6s ease-out forwards;
+  animation-delay: var(--delay);
+  position: relative;
+  overflow: hidden; /* प्रोग्रेस बार के कोनों को क्लिप करने के लिए */
+}
+
+.subject-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 15px -3px var(--shadow-color), 0 4px 6px -4px var(--shadow-color);
+}
+
+.card-header-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.subject-card .icon-container {
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  color: #fff;
+  flex-shrink: 0;
+  font-size: 1.8em;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  transition: transform 0.3s ease;
+}
+
+/* सब्जेक्ट कार्ड आइकॉन पर एनिमेशन लागू किया गया */
+.animated-icon-subject i {
+  animation: iconFloat 3s ease-in-out infinite;
+}
+
+.subject-card:hover .icon-container {
+  transform: scale(1.1) rotate(-8deg) translateZ(30px); /* 3D में आइकॉन को भी ट्रांसफॉर्म करें */
+}
+
+/* होवर पर अंदर के एलिमेंट्स को भी 3D में ट्रांसफॉर्म करें */
+.subject-card:hover .card-content,
+.subject-card:hover .card-arrow {
+    transform: translateZ(25px); /* एलिमेंट्स को थोड़ा ऊपर उठाएं */
+}
+
+.subject-card .card-content {
+  flex-grow: 1; /* अब .card-header-flex के अंदर है */
+}
+
+.subject-card .card-content h2 {
+  font-size: 1.15em;
+  margin: 0 0 5px 0;
+  color: var(--heading-color);
+  font-weight: 600;
+}
+
+.subject-card .card-content p {
+  font-size: 0.85em;
+  line-height: 1.5;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.card-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.stat-item {
+    font-size: 0.75em;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 600;
+    background-color: #f3f4f6; /* Gray 100 */
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.subject-section {
+  margin-bottom: 40px;
+}
+
+.card-arrow {
+  margin-left: auto; /* एरो को दाईं ओर रखता है */
+  font-size: 1.2em;
+  color: #d1d5db; /* Gray 300 */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.subject-card:hover .card-arrow {
+  transform: translateX(5px);
+  color: var(--primary-color);
+}
+
+/* ============================================================= */
+/* ===              आधुनिक प्रोग्रेस बार स्टाइल                === */
+/* ============================================================= */
+.progress-wrapper {
+    margin-top: 15px;
+}
+
+.progress-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 0.8em;
+}
+
+.progress-label {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.progress-percentage {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.progress-bar-modern {
+    width: 100%;
+    height: 10px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar-modern-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
+    border-radius: 10px;
+    transition: width 0.6s ease-in-out;
+}
+
+/* ============================================================= */
+/* ===                सब्जेक्ट कार्ड बैज स्टाइल                === */
+/* ============================================================= */
+.card-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 0.7em;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  z-index: 2;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transform-origin: top right;
+  animation: badge-pop 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.8s backwards;
+}
+
+.card-badge.new {
+  background: linear-gradient(135deg, #ef4444, #f87171); /* Red-500 to Red-400 */
+}
+
+.card-badge.updated {
+  background: linear-gradient(135deg, #f97316, #fbbf24); /* Orange-500 to Amber-400 */
+}
+
+.card-badge.completed {
+    background: linear-gradient(135deg, #16a34a, #22c55e); /* Green-600 to Green-500 */
+}
+
+/* ============================================================= */
+/* ===                     बैनर स्टाइल                       === */
+/* ============================================================= */
+.header-banner {
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    border-radius: 12px;
+    margin: 20px 0;
+    padding: 15px 20px;
+    box-shadow: var(--shadow-color);
+    animation: fadeInUp 0.5s ease-out;
+}
+
+.banner-content { display: flex; align-items: center; gap: 15px; position: relative; }
+.banner-icon { font-size: 1.8em; color: rgba(0,0,0,0.6); }
+.banner-text p { margin: 0; font-size: 0.95em; color: #333; font-weight: 500; }
+.banner-text p strong { background-color: var(--primary-color); color: white; padding: 2px 6px; border-radius: 5px; margin-right: 5px; }
+.banner-close-btn {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background: rgba(0,0,0,0.1);
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1;
+    transition: all 0.2s ease;
+}
+.banner-close-btn:hover { background: rgba(0,0,0,0.2); transform: rotate(90deg); }
+
+/* ============================================================= */
+/* ===                      पॉप-अप (Modal) स्टाइल              === */
+/* ============================================================= */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+.modal-overlay:not(.hidden) {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  max-width: 420px;
+  width: 90%;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  animation: fadeInUp 0.4s ease-out;
+}
+
+#modal-icon-container {
+  width: 70px;
+  height: 70px;
+  margin: -65px auto 20px auto;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  border: 4px solid #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.modal-content h3 { font-size: 1.6em; margin: 0 0 10px 0; color: #2c3e50; font-weight: 600; }
+.modal-content p { margin: 0 0 30px 0; color: #555; font-size: 1em; }
+.modal-buttons { display: flex; flex-direction: column; gap: 15px; }
+
+.modal-btn {
+  padding: 15px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1em;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+}
+.modal-btn:hover { transform: translateY(-3px) scale(1.02); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
+
+/* ===== मोड बटनों के लिए अलग-अलग रंग ===== */
+.modal-btn.practice { background: linear-gradient(135deg, #56ab2f, #a8e063); }
+.modal-btn.simulation { background: linear-gradient(135deg, #ff416c, #ff4b2b); }
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #f0f0f0;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #aaa;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+.close-button:hover { color: #333; background: #e0e0e0; transform: rotate(90deg); }
+
+/* ============================================================= */
+/* ===         नवीनतम अपडेट्स सेक्शन के लिए स्टाइल            === */
+/* ============================================================= */
+/* This section has been removed as per the request */
+
+@media (max-width: 768px) {
+    .homepage-header { flex-direction: column; height: auto; padding: 10px 2.5%; gap: 10px; }
+    body { padding-top: 110px; }
+    .search-bar { width: 100%; box-sizing: border-box; }
+    .subject-card-grid { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartBook by Akash Choudhary</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icons/icon-192x192.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="homepage.style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="homepage-header">
+            <div class="header-left">
+                 <i class="fas fa-book-reader header-icon"></i>
+                 <h1>SmartBook</h1>
+            </div>
+            <div class="search-container">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" class="search-bar" placeholder="Search Subject..." id="search-input">
+            </div>
+        </header>
+
+        <!--
+        <div class="header-banner" id="header-banner">
+            <div class="banner-content">
+            <div class="banner-icon">
+                <i class="fas fa-bullhorn"></i>
+            </div>
+            <div class="banner-text">
+                <p><strong>नया!</strong> राजस्थान पुलिस और VDO के लिए विशेष टेस्ट सीरीज़ अब उपलब्ध है! आज ही अपनी तैयारी शुरू करें।</p>
+            </div>
+            <button class="banner-close-btn" onclick="document.getElementById('header-banner').style.display='none'">&times;</button>
+            </div>
+        </div>
+        -->
+
+        <main class="main-content">
+            <div id="subject-sections-container">
+                <!-- Subject sections will be dynamically injected here -->
+            </div>
+        </main>
+
+        
+
+        <div id="mode-modal" class="modal-overlay hidden">
+            <div class="modal-content">
+                <button id="modal-close-btn" class="close-button">&times;</button>
+                <div id="modal-icon-container">
+                    <i id="modal-icon" class="fas fa-book"></i>
+                </div>
+                <h3 id="modal-title">मोड चुनें</h3>
+                <p id="modal-description"></p>
+                <div class="modal-buttons">
+                    <a id="modal-practice-btn" href="#" class="modal-btn practice">
+                        <i class="fas fa-pencil-alt"></i> Practice Mode
+                    </a>
+                    <a id="modal-simulation-btn" href="#" class="modal-btn simulation">
+                        <i class="fas fa-laptop-code"></i> Exam Simulation
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const modal = document.getElementById('mode-modal');
+        const modalTitle = document.getElementById('modal-title');
+        const modalDescription = document.getElementById('modal-description');
+        const modalPracticeBtn = document.getElementById('modal-practice-btn');
+        const modalSimulationBtn = document.getElementById('modal-simulation-btn');
+        const searchInput = document.getElementById('search-input');
+        const modalCloseBtn = document.getElementById('modal-close-btn'); 
+        const modalIcon = document.getElementById('modal-icon');
+        let subjects = []; // Global variable to hold subjects
+
+        // Search functionality
+        searchInput.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase().trim();
+            filterContent(searchTerm);
+        });
+
+        function filterContent(searchTerm) {
+            const allSubjectCards = document.querySelectorAll('.subject-card');
+            const subjectSections = document.querySelectorAll('.subject-section');
+
+            // Filter subject cards and hide/show their sections
+            subjectSections.forEach(section => {
+                let sectionHasVisibleCard = false;
+                const cards = section.querySelectorAll('.subject-card');
+                cards.forEach(card => {
+                    const titleElement = card.querySelector('h2');
+                    const descriptionElement = card.querySelector('p');
+                    const title = titleElement ? titleElement.textContent.toLowerCase() : '';
+                    const description = descriptionElement ? descriptionElement.textContent.toLowerCase() : '';
+                    if (title.includes(searchTerm) || description.includes(searchTerm)) {
+                        card.style.display = 'flex';
+                        sectionHasVisibleCard = true;
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+                section.style.display = sectionHasVisibleCard ? 'block' : 'none';
+            });
+        }
+
+
+        async function buildSubjectSections() {
+            try {
+                const response = await fetch('subjects.json');
+                if (!response.ok) throw new Error('subjects.json not found');
+                subjects = await response.json(); // Assign to global variable
+
+                const promises = subjects.map(subject => {
+                    if (subject.questionFile && subject.questionFile !== '#') {
+                        return fetch(subject.questionFile)
+                            .then(res => {
+                                if (!res.ok) return [];
+                                return res.json();
+                            })
+                            .then(questions => {
+                                subject.questionCount = questions.length;
+
+                                const topics = new Set(questions.map(q => q.category));
+                                subject.topicCount = topics.size;
+
+                                // प्रगति की गणना के लिए सही localStorage कुंजी पढ़ें
+                                const practiceAnswers = JSON.parse(localStorage.getItem(`${subject.id}_practice_answers`)) || {};
+                                const attemptedCount = Object.keys(practiceAnswers).length;
+                                subject.progress = subject.questionCount > 0 ? (attemptedCount / subject.questionCount) * 100 : 0;
+                            })
+                            .catch(e => {
+                                console.error(`Could not fetch or parse ${subject.questionFile}`, e);
+                                subject.questionCount = 0;
+                                subject.topicCount = 0;
+                                subject.progress = 0;
+                            });
+                    } else {
+                        subject.questionCount = 0;
+                        subject.topicCount = 0;
+                        subject.progress = 0;
+                        return Promise.resolve();
+                    }
+                });
+
+                await Promise.all(promises);
+
+                const sectionsContainer = document.getElementById('subject-sections-container');
+                sectionsContainer.innerHTML = '';
+
+                const categories = {
+                    current_affairs: { title: 'Current Affairs', icon: 'fas fa-newspaper', subjects: [] },
+                    rajasthan_gk: { title: 'Rajasthan GK', icon: 'fas fa-landmark', subjects: [] },
+                    india_gk: { title: 'India & World GK', icon: 'fas fa-globe-asia', subjects: [] },
+                    other: { title: 'General Subjects', icon: 'fas fa-book-open', subjects: [] }
+                };
+
+                // Group subjects by category
+                subjects.forEach(subject => {
+                    if (categories[subject.category]) {
+                        categories[subject.category].subjects.push(subject);
+                    } else {
+                        categories.other.subjects.push(subject); // Fallback for uncategorized
+                    }
+                });
+
+                // Define the order of sections
+                const categoryOrder = ['rajasthan_gk', 'india_gk', 'other','current_affairs'];
+
+                // Build HTML for each category that has subjects
+                categoryOrder.forEach(key => {
+                    const category = categories[key];
+                    if (category && category.subjects.length > 0) {
+                        const section = document.createElement('div');
+                        section.className = 'subject-section';
+
+                        let cardsHTML = '';
+                        category.subjects.forEach((subject, index) => {
+                            let badgeHTML = '';
+                            if (subject.progress >= 100) {
+                                badgeHTML = `<span class="card-badge completed">Completed</span>`;
+                            } else if (subject.status && (subject.status === 'new' || subject.status === 'updated')) {
+                                badgeHTML = `<span class="card-badge ${subject.status}">${subject.status}</span>`;
+                            }
+
+                            cardsHTML += `
+                                <div class="subject-card" style="--delay: ${index * 100}ms;" data-id="${subject.id}">
+                                    ${badgeHTML}
+                                    <div class="card-header-flex">
+                                        <div class="icon-container">
+                                            <div class="animated-icon-subject"><i class="${subject.icon || 'fas fa-book'}"></i></div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2>${subject.title}</h2>
+                                            <p>${subject.description}</p>
+                                        </div>
+                                        <div class="card-arrow">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-stats">
+                                        ${subject.topicCount > 0 ? `<div class="stat-item"><i class="fas fa-tags"></i><span>${subject.topicCount} ${subject.topicCount === 1 ? 'Topic' : 'Topics'}</span></div>` : ''}
+                                        ${subject.questionCount > 0 ? `<div class="stat-item"><i class="fas fa-list-ol"></i><span>${subject.questionCount} Questions</span></div>` : ''}
+                                    </div>
+                                    <div class="progress-wrapper">
+                                        <div class="progress-info">
+                                            <span class="progress-label">Progress</span>
+                                            <span class="progress-percentage">${Math.round(subject.progress || 0)}%</span>
+                                        </div>
+                                        <div class="progress-bar-modern">
+                                            <div class="progress-bar-modern-fill" style="width: ${subject.progress || 0}%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            `;
+                        });
+
+                        section.innerHTML = `
+                            <div class="section-header">
+                                <h2 class="section-title"><i class="${category.icon}"></i> <span>${category.title}</span></h2>
+                            </div>
+                            <div class="subject-card-grid">${cardsHTML}</div>
+                        `;
+                        sectionsContainer.appendChild(section);
+                    }
+                });
+
+            } catch (error) {
+                console.error('Error building dashboard:', error);
+                // dashboardContainer.innerHTML = '<p>टेस्ट सीरीज लोड करने में त्रुटि हुई।</p>';
+            }
+        }
+        
+        function addCardClickListeners() {
+            document.querySelectorAll('.subject-card').forEach(card => {
+                const subjectId = card.dataset.id;
+                const subject = subjects.find(s => s.id === subjectId);
+                if (subject) {
+                    card.addEventListener('click', () => openModeModal(subject));
+                }
+            });
+        }
+
+        function openModeModal(subject) {
+            modalTitle.innerText = subject.title;
+            modalDescription.innerText = `Choose a mode to start practicing`;
+            modalIcon.className = `${subject.icon || 'fas fa-book'}`;
+            
+            const quizUrl = `quiz.html?id=${subject.id}&file=${subject.questionFile}`;
+            modalPracticeBtn.href = `${quizUrl}&mode=practice`;
+            modalSimulationBtn.href = `${quizUrl}&mode=simulation`;
+
+            modal.classList.remove('hidden');
+        }
+
+        function closeModal() {
+            modal.classList.add('hidden');
+        }
+
+        modalCloseBtn.addEventListener('click', closeModal);
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+
+        // Clear any previous test state when returning to the homepage
+        Object.keys(localStorage).forEach(key => {
+            if (key.includes('_simulation_state')) {
+                localStorage.removeItem(key);
+            }
+        });
+
+        // Initialize both dashboards
+        async function initializePage() {
+            await buildSubjectSections();
+            addCardClickListeners();
+        }
+
+        initializePage();
+
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('sw.js')
+              .then(registration => console.log('ServiceWorker registered.'))
+              .catch(err => console.log('ServiceWorker registration failed: ', err));
+          });
+        }
+    </script>
+</body>
+</html>

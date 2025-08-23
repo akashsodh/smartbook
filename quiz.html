@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartBook Quiz</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="icons/icon-192x192.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div id="sidebar-overlay" class="sidebar-overlay hidden" onclick="toggleSidebar()"></div>
+
+  <!-- ===== New Webpage Header ===== -->
+  <header class="quiz-page-header">
+      <button class="toggle-btn" onclick="toggleSidebar()">
+          <span></span><span></span><span></span>
+      </button>
+      <div class="app-branding">
+          <i class="fas fa-book-reader header-icon"></i>
+          <h1>SmartBook</h1>
+      </div>
+  </header>
+
+  <!-- ===== Clear Data Popup ===== -->
+  <div id="clear-data-modal" class="modal-overlay hidden">
+      <div class="modal-content">
+          <button class="close-button" onclick="closeClearDataModal()">&times;</button>
+          <h3>Clear Saved Data</h3>
+          <p>Select which topics' data you want to clear for the current mode, or clear all data for this subject.</p>
+          <div id="clear-data-topic-list" style="text-align: left; max-height: 200px; overflow-y: auto; margin-bottom: 20px; border: 1px solid #ccc; padding: 10px; border-radius: 8px;">
+              <!-- Topic checkboxes will be injected here -->
+          </div>
+          <div class="modal-buttons-horizontal">
+              <button class="modal-btn danger" onclick="closeClearDataModal()">Cancel</button>
+              <button class="modal-btn success" id="confirm-clear-data-btn">Clear Selected</button>
+          </div>
+      </div>
+  </div>
+
+  <!-- ===== Simulation Configuration Popup ===== -->
+  <div id="simulation-config-modal" class="modal-overlay hidden">
+    <div class="modal-content">
+        <h3>Exam Simulation Settings</h3>
+        <div class="config-form">
+            <div class="form-group">
+                <label for="sim-topic-select"><i class="fas fa-filter"></i> Select Topic</label>
+                <select id="sim-topic-select" class="topic-select-input"></select>
+            </div>
+            <div class="form-group">
+                <label for="sim-time-input"><i class="fas fa-clock"></i> Time (in minutes)</label>
+                <input type="number" id="sim-time-input" class="topic-select-input" value="60" min="1">
+            </div>
+            <div class="form-group">
+                <label for="sim-negative-marking"><i class="fas fa-calculator"></i> Negative Marking</label>
+                <select id="sim-negative-marking" class="topic-select-input">
+                    <option value="0">None</option>
+                    <option value="0.25">1/4 (0.25)</option>
+                    <option value="0.33">1/3 (0.33)</option>
+                    <option value="0.5">1/2 (0.50)</option>
+                </select>
+            </div>
+        </div>
+        <button id="start-simulation-btn" class="modal-btn simulation">
+            <i class="fas fa-play-circle"></i> Start Simulation
+        </button>
+        <div id="previous-attempts-container" style="margin-top: 20px; text-align: left;"></div>
+    </div>
+  </div>
+  
+  <!-- ===== Resume Test Popup ===== -->
+  <div id="resume-test-modal" class="modal-overlay hidden">
+      <div class="modal-content">
+          <h3>Resume Test?</h3>
+          <p>An incomplete test was found. Do you want to continue where you left off?</p>
+          <div class="modal-buttons-horizontal">
+              <button id="start-new-test-btn" class="modal-btn danger">Start New Test</button>
+              <button id="resume-test-btn" class="modal-btn success">Yes, Resume</button>
+          </div>
+      </div>
+  </div>
+
+  <!-- ===== Submit Confirmation Popup ===== -->
+  <div id="submit-confirm-modal" class="modal-overlay hidden">
+      <div class="modal-content">
+          <button class="close-button" onclick="closeSubmitConfirmModal()">&times;</button>
+          <h3>Submit Test?</h3>
+          <p>Are you sure you want to submit the test?</p>
+          <div class="submission-summary">
+              <p>Attempted: <span id="attempted-count">0</span></p>
+              <p>Unattempted: <span id="unattempted-count">0</span></p>
+              <p>Marked for Review: <span id="bookmarked-count">0</span></p>
+          </div>
+          <div class="modal-buttons-horizontal">
+              <button class="modal-btn danger" onclick="closeSubmitConfirmModal()">Cancel</button>
+              <button class="modal-btn success" id="confirm-submit-btn">Yes, Submit</button>
+          </div>
+      </div>
+  </div>
+
+  <!-- ===== Question Grid Popup ===== -->
+  <div id="question-grid-modal" class="modal-overlay hidden" onclick="handleGridOverlayClick(event)">
+      <div class="modal-content grid-modal-content">
+          <div class="grid-modal-header">
+              <h3>Questions Navigation</h3>
+              <button class="close-button" onclick="toggleQuestionGridModal()">&times;</button>
+          </div>
+          <div id="questionGridContainer"></div>
+      </div>
+  </div>
+  
+  <!-- ===== Test Pause Popup ===== -->
+  <div id="pause-modal" class="modal-overlay hidden">
+      <div class="pause-content">
+          <i class="fas fa-pause-circle"></i>
+          <h2>Test Paused</h2>
+          <p>Click the resume button to continue the test.</p>
+          <button id="modal-resume-btn" class="modal-btn success"><i class="fas fa-play"></i> </button>
+      </div>
+  </div>
+
+  <div class="sidebar hidden" id="sidebar">
+    <div class="tools-section">
+      <h2><i class="fas fa-tools"></i> Tools</h2>
+      <div class="font-size-controls">
+        <button onclick="changeFontSize(-2)">A-</button>
+        <button onclick="changeFontSize(0)">A</button>
+        <button onclick="changeFontSize(2)">A+</button>
+      </div>
+      <div class="search-controls">
+        <input type="text" id="questionSearchInput" placeholder="Search questions..." onkeyup="handleSearchInput(event)">
+        <button class="button" onclick="searchQuestions()"><i class="fas fa-search"></i>Search</button>
+        <button class="button clear-search-btn" onclick="clearSearch()"><i class="fas fa-times"></i> Clear</button>
+      </div>
+      <div class="category-filter">
+        <label for="categorySelect"><i class="fas fa-filter"></i> Select Topic:</label>
+        <select id="categorySelect" onchange="filterQuestionsByCategory(this.value)">
+          <option value="">All Topics</option>
+        </select>
+        <button class="button" id="showAllCategoriesBtn" onclick="showAllCategories()">Show All Topics</button>
+      </div>
+       <button class="button" onclick="showUnansweredQuestions()"><i class="fas fa-question-circle"></i>Show Unanswered</button>
+       <button class="button" onclick="showIncorrectlyAnsweredQuestions()"><i class="fas fa-times-circle"></i> Show Incorrect</button>
+       <button class="button" onclick="showBookmarkedQuestions()"><i class="fas fa-bookmark"></i> Show Bookmarked</button>
+       <button class="button" id="shuffleQuestionsBtn" onclick="shuffleQuestions()"><i class="fas fa-random"></i> Shuffle Questions</button>
+       <button class="button" id="shuffleOptionsBtn" onclick="shuffleOptions()"><i class="fas fa-retweet"></i> Shuffle Options</button>
+       <button class="button" id="resetOrderBtn" onclick="resetOrder()"><i class="fas fa-undo"></i> Reset Order</button>
+       <button class="button theme-btn" onclick="toggleTheme()"><i class="fas fa-adjust"></i> Change Theme</button>
+       <button class="button fullscreen-btn" onclick="toggleFullscreen()"><i class="fas fa-expand-arrows-alt"></i> Fullscreen</button>
+       <button class="button clear-data-btn" onclick="openClearDataModal()"><i class="fas fa-trash-alt"></i> Clear Data</button>
+    </div>
+  </div>
+
+  <div class="quiz-container">
+    <div class="quiz-header-controls"> 
+        <!-- Updated HTML for Progress Bar -->
+        <div class="progress-bar-container">
+            <div id="progressBarFill" class="progress-bar-fill"></div>
+            <span class="progress-text" id="progressBarText">0/0</span>
+        </div>
+        <div id="simulation-timer-display" class="simulation-timer" style="display: none;">
+            <i class="fas fa-stopwatch"></i>
+            <span id="countdown-timer">00:00</span>
+            <button id="pauseResumeBtn" class="timer-control-btn"><i class="fas fa-pause"></i></button>
+        </div>
+        <button id="gridBtn" class="header-icon-btn" onclick="toggleQuestionGridModal()" title="Question Grid"><i class="fas fa-list"></i></button>
+        <button id="submitTestBtn" class="header-icon-btn submit-btn" onclick="showSubmitConfirmModal()" title="Submit Test"><i class="fas fa-check-double"></i></button>
+    </div>
+    <div id="quiz-content"></div>
+    <div class="time-tracking" id="time-tracking">Time: 0 seconds</div>
+    <div class="navigation">
+      <button onclick="prevQuestion()"><i class="fas fa-arrow-left"></i><span>Previous</span></button>
+      <button id="bookmarkBtn" onclick="toggleBookmark()"><i class="far fa-bookmark"></i></button>
+      <button id="reAttemptBtn" onclick="reAttemptCurrentQuestion()"><i class="fas fa-redo"></i></button>
+      <button onclick="nextQuestion()"><span>Next</span><i class="fas fa-arrow-right"></i></button>
+    </div>
+    <div id="result" style="display: none;"></div>
+    <div id="score-summary">Correct: 0 | Incorrect: 0</div>
+    <div id="completion-message"></div>
+  </div>
+
+<script>
+// =============================================================
+// ===                 GLOBAL VARIABLES & SETUP              ===
+// =============================================================
+const urlParams = new URLSearchParams(window.location.search);
+const UNIT_ID = urlParams.get('id');
+const quizMode = urlParams.get('mode') || 'practice';
+const questionFile = urlParams.get('file');
+
+let pristineOriginalQuestions = [];
+let originalQuestions = [];
+let questions = [];
+let answers = {};
+let bookmarkedQuestions = [];
+let questionTimes = {};
+let current = 0;
+let currentFontSize = 20;
+let currentQuestionStartTime = null;
+let questionsBeforeSearch = [];
+let timerInterval = null;
+let countdownInterval = null;
+let isTestSubmitted = false;
+let selectedCategory = "";
+let simulationState = {};
+let reviewAttemptData = null;
+let isPaused = false;
+
+// LocalStorage Keys
+const ANSWERS_KEY = `${UNIT_ID}_${quizMode}_answers`;
+const BOOKMARKS_KEY = `${UNIT_ID}_bookmarks`;
+const MODIFIED_QUESTIONS_KEY = `${UNIT_ID}_modifiedQuestions`;
+const TEST_SUBMITTED_KEY = `${UNIT_ID}_${quizMode}_submitted`;
+const SIMULATION_HISTORY_KEY = `${UNIT_ID}_simulation_history`;
+const SIMULATION_STATE_KEY = `${UNIT_ID}_simulation_state`;
+
+// =============================================================
+// ===                 CORE FUNCTIONS                        ===
+// =============================================================
+async function initializeQuiz() {
+    if (!questionFile) {
+        document.getElementById("quiz-content").innerHTML = `<p style="color: red;">Question file name is not provided in the URL.</p>`;
+        return;
+    }
+    try {
+        const response = await fetch(questionFile);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const defaultQuestions = await response.json();
+        
+        pristineOriginalQuestions = defaultQuestions.map((q, index) => ({ ...q, originalIndex: index }));
+
+        const savedQuestions = JSON.parse(localStorage.getItem(MODIFIED_QUESTIONS_KEY));
+        originalQuestions = savedQuestions ? [...savedQuestions] : JSON.parse(JSON.stringify(pristineOriginalQuestions));
+
+        const categories = [...new Set(pristineOriginalQuestions.map(q => q.category).filter(Boolean))];
+        
+        if (quizMode === 'simulation') {
+            const savedState = JSON.parse(localStorage.getItem(SIMULATION_STATE_KEY));
+            if (savedState && !savedState.submitted) {
+                document.getElementById('resume-test-modal').classList.remove('hidden');
+                document.getElementById('resume-test-btn').onclick = () => {
+                    document.getElementById('resume-test-modal').classList.add('hidden');
+                    loadQuiz(savedState);
+                };
+                document.getElementById('start-new-test-btn').onclick = () => {
+                    document.getElementById('resume-test-modal').classList.add('hidden');
+                    localStorage.removeItem(SIMULATION_STATE_KEY);
+                    promptForSimulationConfig(categories);
+                };
+            } else {
+                promptForSimulationConfig(categories);
+            }
+        } else {
+            loadQuiz();
+        }
+    } catch (error) {
+        console.error('Error loading questions:', error);
+        document.getElementById("quiz-content").innerHTML = `<p style="color: red;">Error loading questions.</p>`;
+    }
+}
+
+function promptForSimulationConfig(categories) {
+    const modal = document.getElementById('simulation-config-modal');
+    const topicSelect = document.getElementById('sim-topic-select');
+    const timeInput = document.getElementById('sim-time-input');
+    const negativeSelect = document.getElementById('sim-negative-marking');
+    const startBtn = document.getElementById('start-simulation-btn');
+
+    // New part for showing previous attempts
+    topicSelect.onchange = () => {
+        displayPreviousAttempts(topicSelect.value);
+    };
+    displayPreviousAttempts(topicSelect.value); // Initial call
+
+    document.querySelector('.quiz-container').style.display = 'none';
+    document.querySelector('.sidebar').style.display = 'none';
+
+    topicSelect.innerHTML = '<option value="">All Topics</option>';
+    categories.sort().forEach(category => {
+        topicSelect.innerHTML += `<option value="${category}">${category}</option>`;
+    });
+
+    modal.classList.remove('hidden');
+
+    startBtn.onclick = () => {
+        const settings = {
+            topic: topicSelect.value,
+            time: parseInt(timeInput.value) || 60,
+            negativeMarking: parseFloat(negativeSelect.value) || 0,
+            startTime: Date.now(),
+            submitted: false
+        };
+        simulationState = settings;
+        localStorage.setItem(SIMULATION_STATE_KEY, JSON.stringify(settings));
+
+        // जब कोई नया सिमुलेशन शुरू हो तो पिछले उत्तर साफ़ करें
+        answers = {};
+        localStorage.removeItem(ANSWERS_KEY);
+
+        modal.classList.add('hidden');
+        document.querySelector('.quiz-container').style.display = 'block';
+        document.querySelector('.sidebar').style.display = 'block';
+        loadQuiz();
+    };
+}
+
+function displayPreviousAttempts(topic) {
+    const container = document.getElementById('previous-attempts-container');
+    if (!container) return;
+
+    const history = JSON.parse(localStorage.getItem(SIMULATION_HISTORY_KEY)) || {};
+    const topicKey = topic || 'All Topics';
+    const attempts = history[topicKey] || [];
+
+    if (attempts.length === 0) {
+        container.innerHTML = '';
+        return;
+    }
+
+    // Display only the last attempt
+    const lastAttempt = attempts[attempts.length - 1];
+    const attemptDate = new Date(lastAttempt.timestamp).toLocaleString();
+
+    container.innerHTML = `
+        <h4 style="margin-top: 20px; margin-bottom: 10px; border-bottom: 1px solid #ccc; padding-bottom: 5px;">Last Attempt</h4>
+        <div class="last-attempt-item" style="cursor: pointer; padding: 10px; border-radius: 8px; background: #f1f1f1; transition: background 0.2s ease; border: 1px solid #ddd;">
+            <p style="margin: 0; font-weight: bold;">Date: <span style="float: right;">${attemptDate}</span></p>
+            <p style="margin: 0;">Score: <span style="float: right; color: #4F46E5; font-weight: bold;">${lastAttempt.score.toFixed(2)} / ${lastAttempt.total}</span></p>
+            <p style="margin: 0; font-size: 0.8em; color: #666;">Click to review this test.</p>
+        </div>
+    `;
+
+    const attemptItem = container.querySelector('.last-attempt-item');
+    attemptItem.addEventListener('mouseenter', () => attemptItem.style.background = '#e9ecef');
+    attemptItem.addEventListener('mouseleave', () => attemptItem.style.background = '#f1f1f1');
+    attemptItem.onclick = () => {
+        reviewPastAttempt(lastAttempt);
+    };
+}
+
+function reviewPastAttempt(attemptData) {
+    document.getElementById('simulation-config-modal').classList.add('hidden');
+    document.querySelector('.quiz-container').style.display = 'block';
+    document.querySelector('.sidebar').style.display = 'block';
+
+    // Load the state from the past attempt
+    questions = attemptData.questions;
+    answers = attemptData.answers;
+    isTestSubmitted = true; // Set to true to enable review mode
+    reviewAttemptData = attemptData; // Store attempt data for result display
+
+    // Disable simulation-specific features
+    if (countdownInterval) clearInterval(countdownInterval);
+    window.removeEventListener('beforeunload', beforeUnloadHandler);
+    const timerDisplay = document.getElementById('simulation-timer-display');
+    if (timerDisplay) {
+        timerDisplay.style.display = 'none';
+    }
+
+    // Show results and load first question
+    showFinalResults();
+    loadQuestion(0);
+}
+
+
+function loadQuiz(resumeState = null) {
+    if (quizMode === 'simulation') {
+        simulationState = resumeState || JSON.parse(localStorage.getItem(SIMULATION_STATE_KEY));
+        if (!simulationState) {
+            initializeQuiz(); // Re-prompt if no state
+            return;
+        }
+        isTestSubmitted = simulationState.submitted;
+        selectedCategory = simulationState.topic;
+        if (!isTestSubmitted) {
+            const elapsedSeconds = resumeState ? Math.floor((Date.now() - resumeState.startTime) / 1000) : 0;
+            const remainingSeconds = (simulationState.time * 60) - elapsedSeconds - (resumeState?.pausedTime || 0);
+            startCountdownTimer(remainingSeconds);
+            window.addEventListener('beforeunload', beforeUnloadHandler);
+        }
+    } else {
+        isTestSubmitted = localStorage.getItem(TEST_SUBMITTED_KEY) === 'true';
+        selectedCategory = localStorage.getItem(UNIT_ID + "_selectedCategory") || "";
+    }
+
+    answers = JSON.parse(localStorage.getItem(ANSWERS_KEY)) || {};
+    bookmarkedQuestions = JSON.parse(localStorage.getItem(BOOKMARKS_KEY)) || [];
+    currentFontSize = parseFloat(localStorage.getItem(UNIT_ID + "_quizFontSize")) || 20;
+    
+    populateCategoryFilter();
+    filterAndLoad();
+    
+    if (isTestSubmitted) {
+        showFinalResults();
+    }
+}
+
+function startCountdownTimer(totalSeconds) {
+    const timerDisplay = document.getElementById('countdown-timer');
+    const timerContainer = document.getElementById('simulation-timer-display');
+    const pauseBtn = document.getElementById('pauseResumeBtn');
+    
+    if (!timerContainer || !timerDisplay) return;
+
+    timerContainer.style.display = 'flex';
+    let remainingSeconds = totalSeconds;
+
+    if (countdownInterval) clearInterval(countdownInterval);
+
+    countdownInterval = setInterval(() => {
+        if (isPaused) return;
+
+        if (remainingSeconds <= 0) {
+            clearInterval(countdownInterval);
+            alert("Time is up! Your test is being submitted automatically.");
+            submitTest(true);
+            return;
+        }
+
+        remainingSeconds--;
+        simulationState.remainingSeconds = remainingSeconds;
+        const minutes = Math.floor(remainingSeconds / 60);
+        const seconds = remainingSeconds % 60;
+        timerDisplay.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+    }, 1000);
+
+    pauseBtn.onclick = togglePause;
+}
+
+function togglePause() {
+    isPaused = !isPaused;
+    const pauseBtn = document.getElementById('pauseResumeBtn');
+    const pauseModal = document.getElementById('pause-modal');
+    
+    pauseBtn.innerHTML = isPaused ? '<i class="fas fa-play"></i>' : '<i class="fas fa-pause"></i>';
+    pauseModal.classList.toggle('hidden', !isPaused);
+
+    // Update UI to reflect pause state (e.g., hide/show timer)
+    if (questions.length > 0 && questions[current]) {
+        updateUI(answers[questions[current]?.originalIndex] !== undefined);
+    }
+}
+
+
+function filterAndLoad() {
+    document.getElementById('categorySelect').value = selectedCategory;
+    questions = selectedCategory ? originalQuestions.filter(q => q.category === selectedCategory) : [...originalQuestions];
+    
+    let savedIndex = 0;
+    if (quizMode === 'simulation' && simulationState) {
+        savedIndex = simulationState.currentQuestionIndex || 0;
+    } else {
+        const currentQuestionKey = `${UNIT_ID}_${quizMode}_${selectedCategory}_currentQuestion`;
+        savedIndex = localStorage.getItem(currentQuestionKey);
+    }
+    
+    current = (savedIndex !== null && parseInt(savedIndex) < questions.length) ? parseInt(savedIndex) : 0;
+    loadQuestion(current);
+    buildQuestionGrid();
+}
+
+function loadQuestion(index) {
+    if (index < 0 || index >= questions.length) return;
+    if (quizMode === 'practice') stopTimer();
+    current = index;
+    
+    if (quizMode === 'simulation') {
+        simulationState.currentQuestionIndex = current;
+        localStorage.setItem(SIMULATION_STATE_KEY, JSON.stringify(simulationState));
+    } else {
+        const currentQuestionKey = `${UNIT_ID}_${quizMode}_${selectedCategory}_currentQuestion`;
+        localStorage.setItem(currentQuestionKey, current);
+    }
+    
+    const q = questions[current];
+    const isAnswered = answers[q.originalIndex] !== undefined;
+    const showResults = (quizMode === 'practice' && isAnswered) || isTestSubmitted;
+
+    let html = `<div class='question' id='current-question-text'>Q${current + 1}. ${q.question}</div>`;
+    if (q.source && q.source.trim() !== "") {
+        html += `<div class='question-source'>(${q.source})</div>`;
+    }
+
+    if (isTestSubmitted && !isAnswered) {
+        html += `<div class="not-attempted-message">You have not answered this question</div>`;
+    }
+    
+    q.options.forEach((opt, displayedIdx) => {
+        const isSelected = answers[q.originalIndex] === opt;
+        const isDisabled = (quizMode === 'practice' && isAnswered) || isTestSubmitted;
+        html += `<label id='opt${displayedIdx}'><input type='radio' name='q${q.originalIndex}' value='${displayedIdx}' ${isSelected ? "checked" : ""} ${isDisabled ? "disabled" : ""} onclick='selectAnswer(${q.originalIndex}, "${opt.replace(/'/g, "\\'")}")'> ${opt}</label>`;
+    });
+    
+    html += `<div class='correct-answer' id='correct' style='display: ${showResults ? 'block' : 'none'};'></div>`;
+    html += `<div class='explanation' id='explanation-text' style='display: none;'></div>`;
+    
+    document.getElementById("quiz-content").innerHTML = html;
+    
+    if (showResults) {
+        showAnswerAndExplanation(q.originalIndex);
+    }
+    
+    updateUI(isAnswered);
+    if (quizMode === 'practice' && !isAnswered) startTimer();
+}
+
+function selectAnswer(qOriginalIndex, selectedOptionText) {
+    if (isTestSubmitted) return;
+
+    if ((quizMode === 'test' || quizMode === 'simulation') && answers[qOriginalIndex] === selectedOptionText) {
+        delete answers[qOriginalIndex];
+    } else {
+        answers[qOriginalIndex] = selectedOptionText;
+    }
+    
+    localStorage.setItem(ANSWERS_KEY, JSON.stringify(answers));
+
+    if (quizMode === 'practice') {
+        stopTimer();
+    }
+    loadQuestion(current);
+}
+
+function reAttemptCurrentQuestion() {
+    if (!questions[current]) return;
+    const qOriginalIndex = questions[current].originalIndex;
+    delete answers[qOriginalIndex];
+    localStorage.setItem(ANSWERS_KEY, JSON.stringify(answers));
+    loadQuestion(current);
+}
+
+function showSubmitConfirmModal() {
+    if (isTestSubmitted) return;
+    const modal = document.getElementById('submit-confirm-modal');
+    const attemptedCount = Object.keys(answers).filter(key => questions.some(q => q.originalIndex == key)).length;
+    const bookmarkedInTest = bookmarkedQuestions.filter(bm => questions.some(q => q.originalIndex === bm)).length;
+
+    document.getElementById('attempted-count').textContent = attemptedCount;
+    document.getElementById('unattempted-count').textContent = questions.length - attemptedCount;
+    document.getElementById('bookmarked-count').textContent = bookmarkedInTest;
+    
+    modal.classList.remove('hidden');
+    document.getElementById('confirm-submit-btn').onclick = () => {
+        closeSubmitConfirmModal();
+        submitTest(true); // Force submit
+    };
+}
+
+function closeSubmitConfirmModal() {
+    document.getElementById('submit-confirm-modal').classList.add('hidden');
+}
+
+function submitTest(forceSubmit = false) {
+    if (quizMode !== 'simulation' || isTestSubmitted) return;
+    
+    if (forceSubmit) {
+        if (countdownInterval) clearInterval(countdownInterval);
+        window.removeEventListener('beforeunload', beforeUnloadHandler);
+        
+        isTestSubmitted = true;
+        
+        // Save attempt to history
+        const { correct, wrong, finalScore, marksDeducted } = calculateScore();
+        const historyKey = SIMULATION_HISTORY_KEY;
+        let history = JSON.parse(localStorage.getItem(historyKey)) || {};
+        const topicKey = simulationState.topic || 'All Topics';
+
+        if (!history[topicKey]) {
+            history[topicKey] = [];
+        }
+
+        const answeredCount = Object.keys(answers).filter(key => questions.some(q => q.originalIndex == key)).length;
+
+        const attemptData = {
+            timestamp: new Date().toISOString(),
+            score: finalScore,
+            correct: correct,
+            wrong: wrong,
+            total: questions.length,
+            answered: answeredCount,
+            marksDeducted: marksDeducted,
+            settings: {
+                topic: simulationState.topic,
+                time: simulationState.time,
+                negativeMarking: simulationState.negativeMarking
+            },
+            answers: { ...answers },
+            questions: [...questions]
+        };
+
+        history[topicKey].push(attemptData);
+        localStorage.setItem(historyKey, JSON.stringify(history));
+
+        // Clear the ongoing simulation state
+        localStorage.removeItem(SIMULATION_STATE_KEY);
+        
+        showFinalResults();
+        loadQuestion(current);
+    }
+}
+function calculateScore() {
+    let correct = 0, wrong = 0;
+    const currentQuestionsOriginalIndices = new Set(questions.map(q => q.originalIndex));
+
+    for (const qOriginalIndex in answers) {
+        if (currentQuestionsOriginalIndices.has(parseInt(qOriginalIndex))) {
+            const q = originalQuestions.find(oq => oq.originalIndex == qOriginalIndex);
+            if (q) {
+                if (answers[qOriginalIndex] === q.options[q.answer]) {
+                    correct++;
+                } else {
+                    wrong++;
+                }
+            }
+        }
+    }
+    
+    let finalScore = correct;
+    let marksDeducted = 0;
+
+    if (quizMode === 'simulation' && simulationState.negativeMarking > 0) {
+        marksDeducted = wrong * simulationState.negativeMarking;
+        finalScore = correct - marksDeducted;
+    }
+    
+    return { correct, wrong, finalScore, marksDeducted };
+}
+
+function showFinalResults() {
+    let correct, wrong, finalScore, marksDeducted, total, answeredCount;
+    let resultTitle = "Exam Result";
+
+    if (reviewAttemptData) { // If we are in review mode from a past attempt
+        correct = reviewAttemptData.correct;
+        wrong = reviewAttemptData.wrong;
+        finalScore = reviewAttemptData.score;
+        marksDeducted = reviewAttemptData.marksDeducted;
+        total = reviewAttemptData.total;
+        answeredCount = reviewAttemptData.answered;
+        resultTitle = "Exam Result (Review)";
+    } else { // If submitting a new test
+        ({ correct, wrong, finalScore, marksDeducted } = calculateScore());
+        total = questions.length;
+        answeredCount = Object.keys(answers).filter(key => questions.some(q => q.originalIndex == key)).length;
+    }
+    
+    let resultsHtml = '';
+    if (quizMode === 'simulation') {
+        resultsHtml = `
+        <div class="result-card">
+            <div class="result-header"><h2>${resultTitle}</h2></div>
+            <div class="result-score">
+                <span class="score-percentage">${finalScore.toFixed(2)}</span>
+                <span class="score-label">Final Score</span>
+            </div>
+            <div class="result-stats">
+                <div class="stat-item"><i class="fas fa-list-ol stat-icon"></i><span class="stat-value">${total}</span><span class="stat-label">Total Questions</span></div>
+                <div class="stat-item"><i class="fas fa-pencil-alt stat-icon"></i><span class="stat-value">${answeredCount}</span><span class="stat-label">Attempted</span></div>
+                <div class="stat-item correct"><i class="fas fa-check-circle stat-icon"></i><span class="stat-value">${correct}</span><span class="stat-label">Correct</span></div>
+                <div class="stat-item incorrect"><i class="fas fa-times-circle stat-icon"></i><span class="stat-value">${wrong}</span><span class="stat-label">Incorrect</span></div>
+                <div class="stat-item incorrect" style="grid-column: span 2;"><i class="fas fa-minus-circle stat-icon"></i><span class="stat-value">${marksDeducted.toFixed(2)}</span><span class="stat-label">Negative Marks</span></div>
+            </div>
+            <button class="modal-btn review-btn" onclick="reviewTest()">Review Test</button>
+        </div>`;
+    } else { // Practice Mode
+        const percentage = total > 0 ? ((correct / answeredCount) * 100).toFixed(0) : 0;
+        resultsHtml = `
+        <div class="result-card">
+            <div class="result-header"><h2>Practice Complete!</h2></div>
+            <div class="result-score">
+                <i class="fas fa-award score-icon"></i>
+                <span class="score-percentage">${percentage}%</span>
+                <span class="score-label">Your Score</span>
+            </div>
+            <div class="result-stats">
+                <div class="stat-item"><i class="fas fa-list-ol stat-icon"></i><span class="stat-value">${total}</span><span class="stat-label">Total Questions</span></div>
+                <div class="stat-item"><i class="fas fa-pencil-alt stat-icon"></i><span class="stat-value">${answeredCount}</span><span class="stat-label">Attempted</span></div>
+                <div class="stat-item correct"><i class="fas fa-check-circle stat-icon"></i><span class="stat-value">${correct}</span><span class="stat-label">Correct</span></div>
+                <div class="stat-item incorrect"><i class="fas fa-times-circle stat-icon"></i><span class="stat-value">${wrong}</span><span class="stat-label">Incorrect</span></div>
+            </div>
+        </div>`;
+    }
+
+    document.getElementById('completion-message').innerHTML = resultsHtml;
+    document.getElementById('completion-message').style.display = 'block';
+    document.getElementById('submitTestBtn').style.display = 'none';
+    const timerDisplay = document.getElementById('simulation-timer-display');
+    if(timerDisplay) timerDisplay.style.display = 'none';
+    buildQuestionGrid();
+    reviewAttemptData = null; // Reset review data
+}
+
+function reviewTest() {
+    document.getElementById('completion-message').style.display = 'none';
+    loadQuestion(0);
+}
+
+function openClearDataModal() {
+    const modal = document.getElementById('clear-data-modal');
+    const topicListContainer = document.getElementById('clear-data-topic-list');
+    if (!modal || !topicListContainer) return;
+
+    topicListContainer.innerHTML = ''; // Clear previous list
+
+    const categories = [...new Set(pristineOriginalQuestions.map(q => q.category).filter(Boolean))];
+    
+    if (categories.length === 0) {
+        topicListContainer.innerHTML = '<p>No topics found for this subject.</p>';
+    } else {
+        topicListContainer.innerHTML += `
+            <div>
+                <input type="checkbox" id="clear-topic-all" name="clear-topic-all" onchange="toggleAllTopics(this)">
+                <label for="clear-topic-all" style="display: inline-block; background: none; border: none; padding: 5px;"><strong>All Topics for this Subject (in this mode)</strong></label>
+            </div>
+            <hr>
+        `;
+        categories.sort().forEach(category => {
+            const categoryId = category.replace(/[^a-zA-Z0-9]/g, '-');
+            topicListContainer.innerHTML += `
+                <div>
+                    <input type="checkbox" id="clear-topic-${categoryId}" name="clear-topics" value="${category}">
+                    <label for="clear-topic-${categoryId}" style="display: inline-block; background: none; border: none; padding: 5px;">${category}</label>
+                </div>
+            `;
+        });
+    }
+
+    modal.classList.remove('hidden');
+
+    document.getElementById('confirm-clear-data-btn').onclick = () => {
+        const allTopicsCheckbox = document.getElementById('clear-topic-all');
+        
+        if (allTopicsCheckbox && allTopicsCheckbox.checked) {
+            if (confirm(`This will clear ALL saved data for this subject in ${quizMode} mode. Are you sure?`)) {
+                localStorage.removeItem(ANSWERS_KEY);
+                localStorage.removeItem(TEST_SUBMITTED_KEY);
+                if (quizMode === 'simulation') {
+                    localStorage.removeItem(SIMULATION_STATE_KEY);
+                    localStorage.removeItem(SIMULATION_HISTORY_KEY);
+                }
+                alert("All data for this subject in this mode has been cleared.");
+                location.reload();
+            }
+        } else {
+            const selectedTopics = Array.from(document.querySelectorAll('input[name="clear-topics"]:checked')).map(cb => cb.value);
+            if (selectedTopics.length === 0) {
+                alert("Please select at least one topic to clear, or select 'All Topics'.");
+                return;
+            }
+            if (confirm(`Are you sure you want to clear data for the selected topic(s) in ${quizMode} mode?`)) {
+                let currentAnswers = JSON.parse(localStorage.getItem(ANSWERS_KEY)) || {};
+                const questionIndicesToClear = new Set(pristineOriginalQuestions.filter(q => selectedTopics.includes(q.category)).map(q => q.originalIndex));
+                for (const index of questionIndicesToClear) { delete currentAnswers[index]; }
+                localStorage.setItem(ANSWERS_KEY, JSON.stringify(currentAnswers));
+                if (quizMode === 'simulation') {
+                    let history = JSON.parse(localStorage.getItem(SIMULATION_HISTORY_KEY)) || {};
+                    selectedTopics.forEach(topic => { if (history[topic]) delete history[topic]; });
+                    localStorage.setItem(SIMULATION_HISTORY_KEY, JSON.stringify(history));
+                }
+                alert("Data for selected topics has been cleared.");
+                location.reload();
+            }
+        }
+        closeClearDataModal();
+    };
+}
+
+function closeClearDataModal() {
+    document.getElementById('clear-data-modal').classList.add('hidden');
+}
+
+function toggleAllTopics(checkbox) {
+    const topicCheckboxes = document.querySelectorAll('input[name="clear-topics"]');
+    topicCheckboxes.forEach(cb => {
+        cb.disabled = checkbox.checked;
+        if (checkbox.checked) {
+            cb.checked = false;
+        }
+    });
+}
+
+function updateUI(isAnswered) {
+    applyFontSize();
+    buildQuestionGrid();
+    updateScoreSummaryAndProgress();
+    updateBookmarkButton();
+
+    const reAttemptBtn = document.getElementById('reAttemptBtn');
+    const testIsReviewing = isTestSubmitted || quizMode === 'review';
+
+    // Sidebar elements
+    const searchControls = document.querySelector('.search-controls');
+    const categoryFilter = document.querySelector('.category-filter');
+    const showUnansweredBtn = document.querySelector('.button[onclick="showUnansweredQuestions()"]');
+    const showIncorrectBtn = document.querySelector('.button[onclick="showIncorrectlyAnsweredQuestions()"]');
+    const shuffleQuestionsBtn = document.getElementById('shuffleQuestionsBtn');
+    const shuffleOptionsBtn = document.getElementById('shuffleOptionsBtn');
+    const clearDataBtn = document.querySelector('.button.clear-data-btn');
+    const resetOrderBtn = document.getElementById('resetOrderBtn');
+
+    if (quizMode === 'simulation' || quizMode === 'review') {
+        // --- Main content controls for Simulation/Review ---
+        document.getElementById('submitTestBtn').style.display = testIsReviewing ? 'none' : 'inline-flex';
+        const timerDisplay = document.getElementById('simulation-timer-display');
+        if (timerDisplay) {
+            timerDisplay.style.display = (quizMode === 'simulation' && !testIsReviewing && !isPaused) ? 'flex' : 'none';
+        }
+        reAttemptBtn.style.display = 'none';
+
+        // --- Sidebar controls for Simulation/Review Mode ---
+        searchControls.style.display = 'none';
+        categoryFilter.style.display = 'none';
+        showUnansweredBtn.style.display = 'none';
+        showIncorrectBtn.style.display = (quizMode === 'simulation' && testIsReviewing) ? 'flex' : 'none';
+        shuffleQuestionsBtn.style.display = 'none';
+        shuffleOptionsBtn.style.display = 'none';
+        clearDataBtn.style.display = 'none';
+
+        // Repurpose the 'Reset Order' button
+        resetOrderBtn.innerHTML = '<i class="fas fa-list-alt"></i> Show All Questions';
+        resetOrderBtn.onclick = filterAndLoad;
+        resetOrderBtn.style.display = 'flex';
+        resetOrderBtn.disabled = false;
+
+    } else { // Practice Mode
+        // Main content controls
+        document.getElementById('submitTestBtn').style.display = 'none';
+        reAttemptBtn.style.display = isAnswered ? 'inline-flex' : 'none';
+
+        // Sidebar controls - show all (default state)
+        searchControls.style.display = 'block';
+        categoryFilter.style.display = 'block';
+        showUnansweredBtn.style.display = 'flex';
+        showIncorrectBtn.style.display = 'flex';
+        shuffleQuestionsBtn.style.display = 'flex';
+        shuffleOptionsBtn.style.display = 'flex';
+        clearDataBtn.style.display = 'flex';
+
+        // Restore 'Reset Order' button
+        resetOrderBtn.innerHTML = '<i class="fas fa-undo"></i> Reset Order';
+        resetOrderBtn.onclick = resetOrder;
+        resetOrderBtn.style.display = 'flex';
+        resetOrderBtn.disabled = false;
+    }
+
+    document.getElementById('time-tracking').style.display = (quizMode === 'practice') ? 'block' : 'none';
+    document.getElementById('score-summary').style.display = 'block';
+}
+
+function showAnswerAndExplanation(qOriginalIndex) {
+    const q = originalQuestions.find(q => q.originalIndex === qOriginalIndex);
+    if (!q) return;
+
+    const correctAnswerText = q.options[q.answer];
+    const selectedAnswerText = answers[qOriginalIndex] || null;
+    
+    document.getElementById("correct").innerHTML = `<strong>Correct Answer:</strong> ${correctAnswerText}`;
+    document.getElementById("correct").style.display = 'block';
+    
+    const expDiv = document.getElementById("explanation-text");
+    expDiv.innerHTML = q.explanation ? `<strong>Explanation:</strong> ${q.explanation}` : "";
+    expDiv.style.display = q.explanation ? "block" : "none";
+
+    document.querySelectorAll(`input[name='q${qOriginalIndex}']`).forEach(radio => {
+        const label = radio.parentElement;
+        const optionTextForRadio = q.options[parseInt(radio.value, 10)];
+        
+        if (optionTextForRadio === correctAnswerText) {
+            label.classList.add("correct");
+        } else if (optionTextForRadio === selectedAnswerText) {
+            label.classList.add("incorrect");
+        }
+        radio.disabled = true;
+    });
+}
+
+function nextQuestion() { if (current < questions.length - 1) loadQuestion(current + 1); }
+function prevQuestion() { if (current > 0) loadQuestion(current - 1); }
+
+function updateScoreSummaryAndProgress() {
+    const answeredCount = Object.keys(answers).filter(key => questions.some(q => q.originalIndex == key)).length;
+    const total = questions.length;
+    if (quizMode === 'practice' || isTestSubmitted || quizMode === 'review') {
+        let { correct, wrong } = calculateScore();
+        document.getElementById("score-summary").innerText = `Correct: ${correct} | Incorrect: ${wrong}`;
+    } else {
+         document.getElementById("score-summary").innerText = `Attempted: ${answeredCount}/${total}`;
+    }
+
+    const percentage = total > 0 ? (answeredCount / total * 100) : 0;
+    
+    // Updated JS for Rectangular Progress Bar
+    const progressBarFill = document.getElementById("progressBarFill");
+    if(progressBarFill) {
+        progressBarFill.style.width = `${percentage}%`;
+    }
+    document.getElementById("progressBarText").innerText = `${answeredCount}/${total}`;
+}
+
+function toggleBookmark() {
+    const qOriginalIndex = questions[current].originalIndex;
+    const indexInBookmarks = bookmarkedQuestions.indexOf(qOriginalIndex);
+    if (indexInBookmarks > -1) bookmarkedQuestions.splice(indexInBookmarks, 1);
+    else bookmarkedQuestions.push(qOriginalIndex);
+    localStorage.setItem(BOOKMARKS_KEY, JSON.stringify(bookmarkedQuestions));
+    updateUI(answers[qOriginalIndex] !== undefined);
+}
+
+function updateBookmarkButton() {
+    if (!questions[current]) return;
+    const originalIndex = questions[current].originalIndex;
+    const icon = document.getElementById('bookmarkBtn').querySelector('i');
+    icon.classList.toggle('fas', bookmarkedQuestions.includes(originalIndex));
+    icon.classList.toggle('far', !bookmarkedQuestions.includes(originalIndex));
+}
+
+function buildQuestionGrid() {
+    const gridContainer = document.getElementById("questionGridContainer");
+    if (!gridContainer) return;
+    gridContainer.innerHTML = ""; // Clear previous grid
+    const showResults = quizMode === 'practice' || isTestSubmitted;
+
+    const table = document.createElement("table");
+    for (let i = 0; i < questions.length; i += 7) { // 7 items per row
+        const row = document.createElement("tr");
+        for (let j = i; j < i + 7 && j < questions.length; j++) {
+            const cell = document.createElement("td");
+            const a = document.createElement("a");
+            a.href = "#";
+            a.textContent = `${j + 1}`;
+            a.onclick = ((idx) => () => { 
+                loadQuestion(idx); 
+                toggleQuestionGridModal(); 
+                return false; 
+            })(j);
+
+            const q = questions[j];
+            const qOriginalIndex = q.originalIndex;
+            const isAnswered = answers[qOriginalIndex] !== undefined;
+
+            if (j === current) a.classList.add("active");
+            
+            if (isAnswered) {
+                if (showResults) {
+                     const correctAnswerText = q.options[q.answer];
+                     a.classList.add(answers[qOriginalIndex] === correctAnswerText ? "correct" : "incorrect");
+                } else {
+                     a.classList.add("attempted");
+                }
+            } else {
+                a.classList.add("unanswered");
+            }
+            if (bookmarkedQuestions.includes(qOriginalIndex)) {
+                a.classList.add("bookmarked");
+            }
+            cell.appendChild(a);
+            row.appendChild(cell);
+        }
+        table.appendChild(row);
+    }
+    gridContainer.appendChild(table);
+}
+
+function toggleQuestionGridModal() {
+    document.getElementById('question-grid-modal').classList.toggle('hidden');
+}
+
+function handleGridOverlayClick(event) {
+    if (event.target.id === 'question-grid-modal') {
+        toggleQuestionGridModal();
+    }
+}
+
+// Other utility functions (timers, font size, search, shuffle, theme, fullscreen, sidebar)
+function startTimer() {
+    stopTimer();
+    currentQuestionStartTime = Date.now();
+    timerInterval = setInterval(() => {
+        document.getElementById("time-tracking").innerText = `Time: ${Math.floor((Date.now() - currentQuestionStartTime)/1000)} seconds`;
+    }, 1000);
+}
+
+function stopTimer() {
+    if(!timerInterval) return;
+    clearInterval(timerInterval);
+    const elapsed = Math.floor((Date.now() - currentQuestionStartTime) / 1000);
+    if(questions[current] && questions[current].originalIndex !== -1) {
+        questionTimes[questions[current].originalIndex] = (questionTimes[questions[current].originalIndex] || 0) + elapsed;
+        localStorage.setItem(`${UNIT_ID}_${quizMode}_questionTimes`, JSON.stringify(questionTimes));
+    }
+}
+
+function applyFontSize() { 
+    const qText = document.getElementById("current-question-text");
+    if(qText) qText.style.fontSize = currentFontSize + "px";
+    document.querySelectorAll("#quiz-content label").forEach(label => label.style.fontSize = (currentFontSize * 0.9) + "px");
+}
+
+function changeFontSize(change) {
+    currentFontSize = (change === 0) ? 20 : Math.max(14, Math.min(30, currentFontSize + change));
+    localStorage.setItem(UNIT_ID + "_quizFontSize", currentFontSize);
+    applyFontSize();
+}
+
+function searchQuestions() {
+    const query = document.getElementById('questionSearchInput').value.trim();
+    if (query.length === 0) { clearSearch(); return; }
+    questionsBeforeSearch = [...questions];
+    const lowerCaseQuery = query.toLowerCase();
+    const searchResults = pristineOriginalQuestions.filter(q =>
+        q.question.toLowerCase().includes(lowerCaseQuery) ||
+        q.options.some(opt => opt.toLowerCase().includes(lowerCaseQuery)) ||
+        (q.explanation && q.explanation.toLowerCase().includes(lowerCaseQuery))
+    );
+    if (searchResults.length > 0) {
+        questions = searchResults;
+        loadQuestion(0);
+        buildQuestionGrid();
+        alert(`${searchResults.length} questions found.`);
+    } else {
+        alert("No questions found.");
+    }
+}
+
+function handleSearchInput(event) {
+    if (event.key === 'Enter') searchQuestions();
+    else if (document.getElementById('questionSearchInput').value.trim() === '') clearSearch();
+}
+
+function clearSearch() {
+    document.getElementById('questionSearchInput').value = '';
+    filterAndLoad();
+}
+
+function shuffleQuestions() {
+    if ((quizMode === 'simulation') && !isTestSubmitted) return;
+    originalQuestions.sort(() => Math.random() - 0.5);
+    localStorage.setItem(MODIFIED_QUESTIONS_KEY, JSON.stringify(originalQuestions));
+    alert("Questions have been shuffled.");
+    filterAndLoad();
+}
+
+function shuffleOptions() {
+    if ((quizMode === 'simulation') && !isTestSubmitted) return;
+    originalQuestions.forEach(q => {
+        const correctAnswerText = q.options[q.answer];
+        for (let i = q.options.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [q.options[i], q.options[j]] = [q.options[j], q.options[i]];
+        }
+        q.answer = q.options.findIndex(opt => opt === correctAnswerText);
+    });
+    localStorage.setItem(MODIFIED_QUESTIONS_KEY, JSON.stringify(originalQuestions));
+    alert("Options for all questions have been shuffled.");
+    filterAndLoad();
+}
+
+function resetOrder() {
+    if ((quizMode === 'simulation') && !isTestSubmitted) return;
+    localStorage.removeItem(MODIFIED_QUESTIONS_KEY);
+    originalQuestions = JSON.parse(JSON.stringify(pristineOriginalQuestions));
+    alert("The order of questions and options has been reset.");
+    filterAndLoad();
+}
+
+function toggleTheme() {
+    document.body.classList.toggle("dark");
+    localStorage.setItem("theme", document.body.classList.contains("dark") ? "dark" : "light");
+}
+
+function showUnansweredQuestions() {
+    const unanswered = originalQuestions.filter(q => answers[q.originalIndex] === undefined);
+    if (unanswered.length === 0) { alert("All questions have been answered!"); return; }
+    questions = selectedCategory ? unanswered.filter(q => q.category === selectedCategory) : unanswered;
+    if (questions.length > 0) {
+        alert(`Showing ${questions.length} unanswered questions.`);
+        loadQuestion(0);
+        buildQuestionGrid();
+    } else {
+        alert("There are no unanswered questions in this category.");
+    }
+}
+
+function showIncorrectlyAnsweredQuestions() {
+    const incorrect = originalQuestions.filter(q => answers[q.originalIndex] !== undefined && answers[q.originalIndex] !== q.options[q.answer]);
+    if (incorrect.length === 0) { alert("No questions have been answered incorrectly!"); return; }
+    questions = selectedCategory ? incorrect.filter(q => q.category === selectedCategory) : incorrect;
+    if (questions.length > 0) {
+        alert(`Showing ${questions.length} incorrectly answered questions.`);
+        loadQuestion(0);
+        buildQuestionGrid();
+    } else {
+        alert("There are no incorrectly answered questions in this category.");
+    }
+}
+
+function showBookmarkedQuestions() {
+    if (bookmarkedQuestions.length === 0) { alert("No questions are bookmarked."); return; }
+    const bookmarked = originalQuestions.filter(q => bookmarkedQuestions.includes(q.originalIndex));
+    questions = selectedCategory ? bookmarked.filter(q => q.category === selectedCategory) : bookmarked;
+    if (questions.length > 0) {
+        alert(`Showing ${questions.length} bookmarked questions.`);
+        loadQuestion(0);
+        buildQuestionGrid();
+    } else {
+        alert("There are no bookmarked questions in this category.");
+    }
+}
+
+function toggleFullscreen() {
+    if (!document.fullscreenElement) document.documentElement.requestFullscreen().catch(err => console.error(err));
+    else if (document.exitFullscreen) document.exitFullscreen();
+}
+
+function toggleSidebar() {
+    document.getElementById("sidebar").classList.toggle("hidden");
+    document.getElementById("sidebar-overlay").classList.toggle("hidden");
+    document.body.classList.toggle("sidebar-visible");
+}
+
+function populateCategoryFilter() {
+    const categories = [...new Set(pristineOriginalQuestions.map(q => q.category).filter(Boolean))];
+    const categorySelect = document.getElementById('categorySelect');
+    categorySelect.innerHTML = '<option value="">All Topics</option>';
+    categories.sort().forEach(category => {
+        categorySelect.innerHTML += `<option value="${category}">${category}</option>`;
+    });
+}
+
+function filterQuestionsByCategory(category) {
+    if ((quizMode === 'simulation') && !isTestSubmitted) return;
+    selectedCategory = category;
+    if(quizMode !== 'simulation') localStorage.setItem(UNIT_ID + "_selectedCategory", category);
+    filterAndLoad();
+}
+
+function showAllCategories() { 
+    if ((quizMode === 'simulation') && !isTestSubmitted) return;
+    filterQuestionsByCategory(""); 
+}
+
+function beforeUnloadHandler(e) {
+  e.preventDefault();
+  e.returnValue = 'Are you sure you want to leave the test? Your progress will be lost.';
+  return e.returnValue;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    initializeQuiz();
+    if (localStorage.getItem("theme") === "dark") document.body.classList.add("dark");
+
+    document.getElementById('modal-resume-btn').onclick = togglePause;
+
+    // Keyboard navigation
+    document.addEventListener('keydown', (e) => {
+      if (e.key === "ArrowRight") nextQuestion();
+      else if (e.key === "ArrowLeft") prevQuestion();
+    });
+
+    // Swipe functionality for touch devices
+    const quizContainer = document.querySelector('.quiz-container');
+    let touchstartX = 0;
+    let touchendX = 0;
+
+    function handleGesture() {
+        // 50px swipe threshold
+        if (touchendX < touchstartX - 50) nextQuestion(); // Swiped left
+        if (touchendX > touchstartX + 50) prevQuestion(); // Swiped right
+    }
+
+    quizContainer.addEventListener('touchstart', e => {
+        touchstartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    quizContainer.addEventListener('touchend', e => {
+        touchendX = e.changedTouches[0].screenX;
+        handleGesture();
+    }, { passive: true });
+});
+</script>
+</body>
+</html>

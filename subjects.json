@@ -1,0 +1,99 @@
+[
+  {
+    "id": "unit0001",
+    "title": "RSSB 2025 PYQs",
+    "description": "",
+    "icon": "fas fa-book",
+    "questionFile": "2025.json",
+    "category": "rajasthan_gk",
+    "status": "new"
+  },
+  {
+    "id": "unit0002",
+    "title": "Raj-History-Culture",
+    "description": "",
+    "icon": "fas fa-book",
+    "questionFile": "raj_arts_culture_pyq.json",
+    "category": "rajasthan_gk"
+  },
+  {
+    "id": "unit0003",
+    "title": "Raj. Geography",
+    "description": "",
+    "icon": "fas fa-book",
+    "questionFile": "raj_geography_pyq.json",
+    "category": "rajasthan_gk"
+  },
+  {
+    "id": "unit0004",
+    "title": "Rajasthan-Economy",
+    "description": "",
+    "icon": "fas fa-book",
+    "questionFile": "#",
+    "category": "rajasthan_gk"
+  },
+  {
+    "id": "unit0005",
+    "title": "Rajasthan-Polity",
+    "description": "",
+    "icon": "fas fa-book",
+    "questionFile": "#",
+    "category": "rajasthan_gk"
+  },
+  {
+    "id": "unit0006",
+    "title": "Raj-Current-Affairs",
+    "description": "",
+    "icon": "fas fa-book",
+    "questionFile": "raj_current.json",
+    "category": "current_affairs"
+  },
+  {
+    "id": "unit0007",
+    "title": "Hindi PYQs",
+    "description": "",
+    "icon": "fas fa-book",
+    "questionFile": "disha_hindi.json",
+    "category": "other"
+  },
+  {
+    "id": "unit0008",
+    "title": "Computer MCQs",
+    "description": "",
+    "icon": "fas fa-book",
+    "questionFile": "computer.json",
+    "category": "other"
+  },
+  {
+    "id": "unit0009",
+    "title": "Indian Polity PYQs",
+    "description": "",
+    "icon": "fas fa-book",
+    "questionFile": "disha_india_polity.json",
+    "category": "india_gk"
+  },
+  {
+    "id": "unit0010",
+    "title": "India GK PYQs",
+    "description": "",
+    "icon": "fas fa-book",
+    "questionFile": "disha_india_gk.json",
+    "category": "india_gk"
+  },
+  {
+    "id": "unit0011",
+    "title": "World GK PYQs",
+    "description": "",
+    "icon": "fas fa-book",
+    "questionFile": "disha_world_gk.json",
+    "category": "india_gk"
+  },
+  {
+    "id": "unit0012",
+    "title": " Reet Mains Test",
+    "description": "",
+    "icon": "fas fa-book",
+    "questionFile": "kalam_maths.json",
+    "category": "other"
+  }
+]

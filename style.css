@@ -1,0 +1,696 @@
+/* ============================================================= */
+/* ===                  बेसिक और लेआउट स्टाइल                 === */
+/* ============================================================= */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f7f6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    transition: padding-left 0.3s ease;
+}
+
+.quiz-container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-top: 100px; /* हेडर के लिए जगह */
+}
+
+/* ============================================================= */
+/* ===                  नया क्विज़ पेज हेडर                    === */
+/* ============================================================= */
+.quiz-page-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 2001; /* साइडबार से ऊपर */
+    box-sizing: border-box;
+}
+
+.app-branding {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    transform: translateX(-25px); /* टॉगल बटन के लिए जगह बनाना */
+}
+
+.app-branding .header-icon {
+    font-size: 1.8em;
+    color: #667eea;
+}
+
+.app-branding h1 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+}
+
+/* ============================================================= */
+/* ===                      साइडबार स्टाइल                     === */
+/* ============================================================= */
+.sidebar {
+    position: fixed;
+    top: 30px; /* हेडर के नीचे */
+    left: 0;
+    width: 240px;
+    height: 100%;
+    background: linear-gradient(to bottom, #667eea, #764ba2);
+    padding: 20px 10px;
+    box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+    z-index: 2000; /* सबसे ऊपर */
+}
+.sidebar.hidden { transform: translateX(-260px); }
+
+.toggle-btn {
+    width: 30px;
+    height: 22px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: none;
+    border: none;
+    padding: 0;
+    z-index: 2001; /* साइडबार से भी ऊपर */
+}
+.toggle-btn span { display: block; height: 4px; background: #333; border-radius: 2px; }
+
+.sidebar h2 { color: #fff; text-align: center; font-size: 1.2em; }
+
+/* साइडबार ओवरले */
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1999; /* साइडबार के ठीक नीचे */
+    transition: opacity 0.3s ease;
+}
+.sidebar-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+/* ============================================================= */
+/* ===              साइडबार टूल्स सेक्शन की स्टाइल              === */
+/* ============================================================= */
+.tools-section {
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.tools-section .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 90%;
+    margin: 12px auto;
+    padding: 10px;
+    background: linear-gradient(145deg, #7b5cb3, #684ca0);
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 4px 8px #5f4494, -4px -4px 8px #855ec4;
+    color: #e0e0e0;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9em;
+    text-transform: none;
+    transition: all 0.2s ease;
+}
+.tools-section .button:hover { color: #fff; transform: translateY(-2px); }
+.tools-section .button:active { box-shadow: inset 4px 4px 8px #5f4494, inset -4px -4px 8px #855ec4; transform: translateY(0); }
+.tools-section .button i { font-size: 1.1em; }
+.tools-section .button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+    background: #555;
+    box-shadow: none;
+}
+
+.tools-section .clear-data-btn {
+    background: linear-gradient(145deg, #e53935, #c2302c);
+    box-shadow: 4px 4px 8px #b02a27, -4px -4px 8px #f8423f;
+}
+
+.font-size-controls { margin-bottom: 15px; }
+.font-size-controls button {
+    display: inline-block;
+    width: auto;
+    padding: 6px 12px;
+    margin: 0 5px;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.font-size-controls button:hover { background: rgba(255,255,255,0.2); }
+
+.search-controls {
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+.search-controls input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-controls .button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.category-filter { margin-top: 20px; }
+.category-filter label { background: none; padding: 0; margin-bottom: 8px; cursor: default; text-align: center; font-weight: 600; color: #fff; }
+.category-filter select { width: 90%; margin: 0 auto 10px auto; display: block; padding: 8px; border-radius: 5px; }
+.category-filter button {
+    background: none;
+    box-shadow: none;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    width: auto;
+    padding: 6px 14px;
+    font-size: 0.85em;
+}
+
+/* ============================================================= */
+/* ===                  क्विज़ कंटेंट स्टाइल                  === */
+/* ============================================================= */
+
+.quiz-header-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+}
+
+/* आयताकार प्रोग्रेस बार */
+.progress-bar-container {
+    flex-grow: 1; /* Allows the bar to take available space */
+    height: 40px;
+    background-color: #0C9688;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.2);
+}
+.progress-bar-fill {
+    height: 100%;
+    width: 0%; /* Initial width, will be updated by JS */
+    background: linear-gradient(45deg, #66bb6a, #430C96);
+    border-radius: 5px;
+    transition: width 0.4s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress-text {
+    z-index: 1;
+    font-weight: 600;
+    font-size: 14px;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+.header-icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: #555;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.header-icon-btn:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.1);
+}
+.header-icon-btn.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+.header-icon-btn.submit-btn:hover {
+    background-color: #388E3C;
+}
+
+
+.question { font-size: 20px; font-weight: 600; margin-bottom: 20px; }
+.not-attempted-message {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 12px 18px;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-weight: 600;
+    border: 1px solid #ffeeba;
+    text-align: center;
+}
+
+label { display: block; background: #f1f1f1; padding: 12px 18px; margin: 10px 0; border-radius: 8px; cursor: pointer; transition: all 0.3s ease; border: 2px solid transparent; }
+label:hover { background: #e9ecef; }
+label.correct { background: #d4edda; border-color: #155724; }
+label.incorrect { background: #f8d7da; border-color: #721c24; }
+.correct-answer { margin-top: 15px; font-weight: 600; color: #155724; }
+.explanation { margin-top: 10px; padding: 10px; background-color: #f8f9fa; border-left: 4px solid #764ba2; }
+
+#score-summary {
+    text-align: right;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #555;
+}
+#result, #completion-message { 
+    border-top: 1px solid #eee; 
+    padding-top: 20px; 
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* ============================================================= */
+/* ===                      नेविगेशन स्टाइल                    === */
+/* ============================================================= */
+
+.navigation { display: flex; justify-content: space-between; align-items: center; margin-top: 30px; }
+.navigation button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 20px;
+    border: 1px solid #dee2e6;
+    background-color: #fff;
+    color: #333;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.navigation button:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+.navigation button:last-child { flex-direction: row-reverse; }
+
+#bookmarkBtn, #reAttemptBtn {
+    background: transparent;
+    border: none;
+    flex-grow: 0;
+    padding: 10px;
+}
+#bookmarkBtn:hover, #reAttemptBtn:hover {
+    transform: scale(1.1);
+    box-shadow: none;
+}
+#bookmarkBtn i { font-size: 1.8rem; color: #f59f00; transition: all 0.2s ease; }
+#reAttemptBtn i { font-size: 1.6rem; color: #6c757d; transition: all 0.2s ease; }
+#bookmarkBtn i.fas { color: #e08e00; }
+body.dark #reAttemptBtn i { color: #adb5bd; }
+
+/* ============================================================= */
+/* ===         पॉप-अप और रिजल्ट कार्ड की स्टाइल (अपडेटेड)       === */
+/* ============================================================= */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3000; /* सभी पॉप-अप सबसे ऊपर */
+    transition: opacity 0.3s ease;
+}
+
+.modal-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #aaa;
+    line-height: 1;
+    transition: all 0.2s ease;
+}
+.close-button:hover { color: #333; transform: rotate(90deg); }
+
+.modal-content h3 {
+    font-size: 1.6em;
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.modal-content p {
+    margin: 0 0 25px 0;
+    color: #555;
+}
+
+.modal-buttons-horizontal {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.modal-btn {
+    flex: 1;
+    padding: 12px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1em;
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+.modal-btn.success { background: linear-gradient(135deg, #56ab2f, #a8e063); }
+.modal-btn.danger { background: linear-gradient(135deg, #ff416c, #ff4b2b); }
+.modal-btn:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+
+/* सिमुलेशन कॉन्फ़िगरेशन फॉर्म की स्टाइल */
+.config-form { margin: 25px 0; text-align: left; }
+.form-group { margin-bottom: 20px; }
+.form-group label { display: block; margin-bottom: 8px; font-weight: 600; color: #555; background: none; padding: 0; border: none; font-size: 1em; text-align: left; }
+.form-group label i { margin-right: 8px; color: #667eea; width: 20px; text-align: center; }
+.topic-select-input { width: 100%; padding: 12px 15px; border-radius: 10px; border: 1px solid #ddd; font-size: 1em; background-color: #f8f9fa; box-sizing: border-box; transition: border-color 0.2s ease, box-shadow 0.2s ease; }
+.topic-select-input:focus { outline: none; border-color: #764ba2; box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2); }
+#start-simulation-btn {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* सबमिट कन्फर्मेशन सारांश */
+.submission-summary {
+    text-align: left;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+.submission-summary p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #333;
+}
+.submission-summary p span {
+    font-weight: bold;
+    float: right;
+}
+
+/* रिजल्ट कार्ड की स्टाइल */
+.result-card { background: #ffffff; border-radius: 15px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); padding: 25px 30px; text-align: center; border-top: 5px solid #667eea; }
+.result-header h2 { margin: 0 0 20px 0; font-size: 1.8em; color: #333; font-weight: 700; }
+.result-score { margin-bottom: 25px; }
+.result-score .score-icon { font-size: 3em; color: #ffd700; }
+.result-score .score-percentage { display: block; font-size: 3.5em; font-weight: 700; color: #667eea; margin: 5px 0; }
+.result-score .score-label { font-size: 1.1em; color: #555; font-weight: 600; }
+.result-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; border-top: 1px solid #eee; padding-top: 20px; }
+.stat-item { background-color: #f8f9fa; border-radius: 10px; padding: 15px; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: transform 0.2s ease; }
+.stat-item:hover { transform: translateY(-5px); }
+.stat-item .stat-icon { font-size: 2em; margin-bottom: 10px; color: #7f8c8d; }
+.stat-item .stat-value { font-size: 1.8em; font-weight: 700; color: #2c3e50; }
+.stat-item .stat-label { font-size: 0.9em; color: #555; font-weight: 500; }
+.stat-item.correct .stat-icon, .stat-item.correct .stat-value { color: #28a745; }
+.stat-item.incorrect .stat-icon, .stat-item.incorrect .stat-value { color: #dc3545; }
+.review-btn { margin-top: 20px; background: linear-gradient(135deg, #667eea, #764ba2); }
+
+/* ============================================================= */
+/* ===           सिमुलेशन टाइमर डिस्प्ले की स्टाइल             === */
+/* ============================================================= */
+.simulation-timer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 15px;
+    background-color: #dc3545;
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 25px;
+}
+.simulation-timer .timer-control-btn {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* ============================================================= */
+/* ===                   प्रश्न ग्रिड पॉप-अप (नई डिज़ाइन)       === */
+/* ============================================================= */
+.grid-modal-content { 
+    max-width: 500px;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.grid-modal-header {
+    background-color: #667eea;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grid-modal-header h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+.grid-modal-header .close-button {
+    color: white;
+    position: static;
+    font-size: 1.5em;
+}
+
+#questionGridContainer {
+    padding: 20px;
+    max-height: 50vh; /* ग्रिड की अधिकतम ऊंचाई */
+    overflow-y: auto; /* स्क्रॉलिंग जोड़ें */
+}
+
+#questionGridContainer table { 
+    width: 100%; 
+    border-spacing: 8px; 
+    table-layout: fixed; 
+}
+#questionGridContainer td a { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+    width: 40px;
+    height: 40px;
+    border-radius: 8px; /* गोल चौकोर */
+    margin: auto;
+    font-size: 1em; 
+    transition: all 0.2s ease; 
+    font-weight: bold; 
+    color: #333;
+    border: 1px solid #ddd;
+    position: relative;
+    overflow: hidden;
+}
+#questionGridContainer td a:hover { transform: scale(1.1); box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+
+/* विभिन्न स्थितियों के लिए स्टाइल */
+#questionGridContainer .correct { background: #2ecc71 !important; color: white !important; border-color: #2ecc71; }
+#questionGridContainer .incorrect { background: #e74c3c !important; color: white !important; border-color: #e74c3c; }
+#questionGridContainer .attempted { background: #3498db !important; color: white !important; border-color: #3498db; }
+#questionGridContainer .unanswered { background: #ecf0f1; color: #7f8c8d; border-color: #bdc3c7; }
+#questionGridContainer .active { border-color: #667eea; box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.5); }
+
+/* बुकमार्क के लिए स्टाइलिश टैग */
+#questionGridContainer .bookmarked::after {
+    font-family: "Font Awesome 6 Free"; 
+    font-weight: 900; 
+    content: '☆'; 
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 22px;
+    height: 22px;
+    background: #FF9933;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.grid-legend { display: none; } 
+
+/* ============================================================= */
+/* ===                   पॉज पॉप-अप स्टाइल                    === */
+/* ============================================================= */
+#pause-modal .pause-content {
+    text-align: center;
+    color: white;
+}
+#pause-modal .pause-content i {
+    font-size: 5em;
+    margin-bottom: 20px;
+    display: block;
+}
+#pause-modal .pause-content h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+#modal-resume-btn {
+    display: inline-flex;
+    flex: none;
+    width: auto;
+    padding: 12px 30px;
+}
+
+
+/* ============================================================= */
+/* ===                       डार्क मोड                         === */
+/* ============================================================= */
+body.dark { background: #121212; color: #e0e0e0; }
+body.dark .quiz-page-header { background: #1e1e1e; }
+body.dark .app-branding h1 { color: #e0e0e0; }
+body.dark .toggle-btn span { background: #e0e0e0; }
+body.dark .quiz-container { background: #1e1e1e; }
+body.dark .not-attempted-message {
+    background-color: #4d442a;
+    color: #ffeca9;
+    border-color: #856404;
+}
+body.dark label { background: #333; }
+body.dark label.correct { background: #285b30; }
+body.dark label.incorrect { background: #6c2e33; }
+body.dark .sidebar { background: #2c3e50; }
+body.dark .explanation { background-color: #2a2a2a; border-left-color: #9b70e0; }
+body.dark .progress-circle { background: conic-gradient(#4CAF50 var(--progress-percent, 0%), #444 0); }
+body.dark .progress-circle::before { background: #1e1e1e; }
+body.dark .progress-text { color: #e0e0e0; }
+body.dark .navigation button { background: #333; color: #e0e0e0; border-color: #555; }
+body.dark .search-controls input[type="text"] { background: #333; border-color: #555; color: #e0e0e0; }
+body.dark #bookmarkBtn i { color: #ffd166; }
+body.dark #bookmarkBtn i.fas { color: #f59f00; }
+body.dark .header-icon-btn { background-color: #333; color: #e0e0e0; }
+body.dark .header-icon-btn.submit-btn { background-color: #4caf50; }
+body.dark .result-card { background: #1e1e1e; border-top-color: #9b70e0; }
+body.dark .result-header h2, body.dark .result-score .score-label, body.dark .stat-item .stat-label { color: #e0e0e0; }
+body.dark .result-score .score-percentage { color: #9b70e0; }
+body.dark .stat-item { background-color: #2a2a2a; }
+body.dark .stat-item .stat-value { color: #fff; }
+body.dark .modal-content { background: #2c3e50; color: #e0e0e0; }
+body.dark .modal-content h3, body.dark .modal-content p { color: #e0e0e0; }
+body.dark .topic-select-input { background-color: #333; border-color: #555; color: #e0e0e0; }
+body.dark .simulation-timer { background-color: #dc3545; color: #ffffff; }
+body.dark .simulation-timer .timer-control-btn { color: #ffffff; }
+body.dark .submission-summary { background-color: #3a3a3a; border-color: #555; }
+body.dark .submission-summary p { color: #e0e0e0; }
+body.dark #questionGridContainer .unanswered { background: #3a3a3a; color: #bdc3c7; border-color: #555; }
+body.dark .grid-modal-header { background-color: #3a4a78; }
+body.dark .grid-modal-header .close-button { color: #ccc; }
+
+/* ============================================================= */
+/* ===                     रिस्पॉन्सिव डिज़ाइन                  === */
+/* ============================================================= */
+@media (max-width: 768px) {
+  .quiz-container { margin: 80px 10px 85px 10px; padding: 20px; }
+  
+  .navigation {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.8);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 10px;
+      margin-top: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      z-index: 999;
+  }
+  body.dark .navigation {
+      background-color: rgba(20, 20, 20, 0.8);
+      border-top-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.question-source {
+    font-size: 0.8em;
+    color: #888;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: 600;
+}
+body.dark .question-source { color: #bbb; }
+
+.sidebar .category-filter select:disabled,
+.sidebar .category-filter button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background-color: rgba(0,0,0,0.1);
+    border-color: rgba(255,255,255,0.3);
+    color: #e0e0e0;
+}
+
+.sidebar .category-filter button:disabled:hover {
+    transform: none;
+}
