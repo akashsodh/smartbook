@@ -21,6 +21,7 @@
                 <i class="fas fa-search search-icon"></i>
                 <input type="text" class="search-bar" placeholder="Search Subject..." id="search-input">
             </div>
+            <button class="mobile-search-icon" id="mobile-search-btn"><i class="fas fa-search"></i></button>
         </header>
 
         <!--
@@ -73,6 +74,7 @@
         const modalSimulationBtn = document.getElementById('modal-simulation-btn');
         const searchInput = document.getElementById('search-input');
         const modalCloseBtn = document.getElementById('modal-close-btn'); 
+        const mobileSearchBtn = document.getElementById('mobile-search-btn');
         const modalIcon = document.getElementById('modal-icon');
         let subjects = []; // Global variable to hold subjects
 
@@ -82,6 +84,19 @@
             filterContent(searchTerm);
         });
 
+        // Mobile search toggle
+        mobileSearchBtn.addEventListener('click', () => {
+            const header = document.querySelector('.homepage-header');
+            header.classList.toggle('search-active');
+            if (header.classList.contains('search-active')) {
+                searchInput.focus();
+            }
+        });
+
+        // Close search on blur if empty
+        searchInput.addEventListener('blur', () => {
+            document.querySelector('.homepage-header').classList.remove('search-active');
+        })
         function filterContent(searchTerm) {
             const allSubjectCards = document.querySelectorAll('.subject-card');
             const subjectSections = document.querySelectorAll('.subject-section');

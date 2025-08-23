@@ -64,7 +64,6 @@ body {
   max-width: 1100px; /* बड़ी स्क्रीन के लिए थोड़ी चौड़ाई बढ़ाई */
   width: 95%;
   margin: 0 auto;
-  padding: 25px 0;
 }
 
 /* ============================================================= */
@@ -106,6 +105,15 @@ body {
     margin: 0;
 }
 
+/* मोबाइल के लिए सर्च आइकॉन स्टाइल */
+.mobile-search-icon {
+    display: none; /* डिफ़ॉल्ट रूप से छिपा हुआ */
+    font-size: 1.2em;
+    color: var(--heading-color);
+    cursor: pointer;
+    background: none;
+    border: none;
+}
 .search-container {
     position: relative;
     display: flex;
@@ -227,6 +235,18 @@ body {
   margin-bottom: 40px;
 }
 
+.section-header {
+  text-align: center;
+  padding: 0px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #e9ecef, #f8f9fa);
+  border-radius: 15px;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease-out 0.5s forwards;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
 .card-arrow {
   margin-left: auto; /* एरो को दाईं ओर रखता है */
   font-size: 1.2em;
@@ -284,8 +304,8 @@ body {
 /* ============================================================= */
 .card-badge {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 1px;
+  right: 1px;
   padding: 4px 12px;
   border-radius: 50px;
   font-size: 0.7em;
@@ -445,8 +465,28 @@ body {
 /* This section has been removed as per the request */
 
 @media (max-width: 768px) {
-    .homepage-header { flex-direction: column; height: auto; padding: 10px 2.5%; gap: 10px; }
-    body { padding-top: 110px; }
-    .search-bar { width: 100%; box-sizing: border-box; }
+    .homepage-header {
+        padding: 0 15px;
+        justify-content: space-between;
+    }
+    .search-container {
+        display: none;
+    }
+    .mobile-search-icon {
+        display: block;
+    }
+
+    /* जब सर्च एक्टिव हो */
+    .homepage-header.search-active .search-container {
+        display: flex;
+        width: 100%;
+    }
+    .homepage-header.search-active .search-bar {
+        width: 100%;
+    }
+    .homepage-header.search-active .header-left,
+    .homepage-header.search-active .mobile-search-icon {
+        display: none;
+    }
     .subject-card-grid { grid-template-columns: 1fr; }
 }
