@@ -210,14 +210,14 @@
                                         <div class="card-content">
                                             <h2>${subject.title}</h2>
                                             <p>${subject.description}</p>
+                                            <div class="card-stats">
+                                        ${subject.topicCount > 0 ? `<div class="stat-item"><i class="fas fa-tags"></i><span>${subject.topicCount} ${subject.topicCount === 1 ? 'Topic' : 'Topics'}</span></div>` : ''}
+                                        ${subject.questionCount > 0 ? `<div class="stat-item"><i class="fas fa-list-ol"></i><span>${subject.questionCount} Questions</span></div>` : ''}
+                                    </div>
                                         </div>
                                         <div class="card-arrow">
                                             <i class="fas fa-chevron-right"></i>
                                         </div>
-                                    </div>
-                                    <div class="card-stats">
-                                        ${subject.topicCount > 0 ? `<div class="stat-item"><i class="fas fa-tags"></i><span>${subject.topicCount} ${subject.topicCount === 1 ? 'Topic' : 'Topics'}</span></div>` : ''}
-                                        ${subject.questionCount > 0 ? `<div class="stat-item"><i class="fas fa-list-ol"></i><span>${subject.questionCount} Questions</span></div>` : ''}
                                     </div>
                                     <div class="progress-wrapper">
                                         <div class="progress-info">

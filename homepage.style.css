@@ -216,7 +216,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
-    margin-top: 12px;
 }
 
 .stat-item {
