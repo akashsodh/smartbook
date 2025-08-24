@@ -37,7 +37,7 @@
     "title": "Rajasthan-Polity",
     "description": "",
     "icon": "fas fa-book",
-    "questionFile": "#",
+    "questionFile": "raj_polity_pyq.json",
     "category": "rajasthan_gk"
   },
   {
@@ -97,3 +97,4 @@
     "category": "other"
   }
 ]
+
