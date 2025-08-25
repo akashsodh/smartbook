@@ -2,7 +2,7 @@
 
 // **महत्वपूर्ण:** जब भी आप कोई टेस्ट सीरीज़ या कोई और फाइल अपडेट करें,
 // तो इस संस्करण को बदलें (जैसे, 'smartbook-v9', 'smartbook-v10', आदि)
-const cacheName = 'smartbookai-v10';
+const cacheName = 'smartbookai-v11';
 
 // वे सभी फाइलें जिन्हें आप ऑफलाइन उपलब्ध कराना चाहते हैं
 const assets = [
