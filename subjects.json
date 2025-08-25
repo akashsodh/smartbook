@@ -62,7 +62,8 @@
     "description": "",
     "icon": "fas fa-book",
     "questionFile": "computer.json",
-    "category": "other"
+    "category": "other",
+    "status": "updated"
   },
   {
     "id": "unit0009",
@@ -74,7 +75,7 @@
   },
   {
     "id": "unit0010",
-    "title": "India GK PYQs",
+    "title": "India Geography PYQs",
     "description": "",
     "icon": "fas fa-book",
     "questionFile": "disha_india_gk.json",
@@ -97,5 +98,6 @@
     "category": "other"
   }
 ]
+
 
 
